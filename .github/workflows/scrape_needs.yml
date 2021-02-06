@@ -1,4 +1,4 @@
-name: Scrape latest needs JSON
+name: Scrape latest needs
 
 on:
   push:
@@ -12,9 +12,15 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
-    - name: Fetch latest data
+    - name: Fetch latest JSON data
       run: |-
         curl https://www.givefood.org.uk/api/2/needs/ > needs.json
+    - name: Fetch latest XML data
+      run: |-
+        curl https://www.givefood.org.uk/api/2/needs/?format=xml > needs.xml
+    - name: Fetch latest YAML data
+      run: |-
+        curl https://www.givefood.org.uk/api/2/needs/?format=yaml > needs.yaml
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
