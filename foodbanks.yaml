@@ -2871,7 +2871,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/aylesbury/
     ward: Gatehouse
   postcode: HP19 8DN
-  secondary_phone: ''
+  secondary_phone: null
   slug: aylesbury-vineyard-storehouse
   urls:
     homepage: https://aylesburyvineyard.church/storehouse
@@ -3453,10 +3453,10 @@
   phone: 01212362997
   politics:
     district: Birmingham
-    mp: Shabana Mahmood
-    mp_parl_id: 3914
-    mp_party: Labour
-    parliamentary_constituency: Birmingham Ladywood
+    mp: null
+    mp_parl_id: 0
+    mp_party: null
+    parliamentary_constituency: Birmingham, Ladywood
     urls:
       html: https://www.givefood.org.uk/needs/in/constituency/birmingham-ladywood/
       self: https://www.givefood.org.uk/api/2/constituency/birmingham-ladywood/
@@ -9161,7 +9161,7 @@
   alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-08-29 10:56:27.089808+00:00
@@ -9181,7 +9181,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/bethnal-green-and-bow/
     ward: Weavers
   postcode: E2 6DT
-  secondary_phone: ''
+  secondary_phone: null
   slug: bethnal-green
   urls:
     homepage: http://st-matthews.org.uk/food-bank/
@@ -16373,7 +16373,7 @@
   alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-08-29 09:24:25.244857+00:00
@@ -16393,7 +16393,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/chelsea-and-fulham/
     ward: Fulham Broadway
   postcode: SW6 1UH
-  secondary_phone: ''
+  secondary_phone: null
   slug: ay-group
   urls:
     homepage: https://www.ay-group.org/
@@ -21108,6 +21108,37 @@
     html: https://www.givefood.org.uk/needs/at/okehampton/
     self: https://www.givefood.org.uk/api/2/foodbank/okehampton/
     shopping_list: https://okefoodbank.org/donations/
+- address: "100 Westley Road\r\nAcocks Green\r\nB27 7UL"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=251549&subid=0
+    registration_id: '251549'
+  closed: false
+  country: England
+  created: 2021-02-17 16:56:38.704411+00:00
+  email: foodbank@elim-acocksgreen.org
+  lat_lng: 52.4448853,-1.8278624
+  name: Acocks Green
+  network: Independent
+  phone: 01217072853
+  politics:
+    district: Birmingham
+    mp: null
+    mp_parl_id: 0
+    mp_party: null
+    parliamentary_constituency: Birmingham, Yardley
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/birmingham-yardley/
+      self: https://www.givefood.org.uk/api/2/constituency/birmingham-yardley/
+    ward: Acocks Green
+  postcode: B27 7UL
+  secondary_phone: null
+  slug: acocks-green
+  urls:
+    homepage: https://www.elim-acocksgreen.org/foodbank
+    html: https://www.givefood.org.uk/needs/at/acocks-green/
+    self: https://www.givefood.org.uk/api/2/foodbank/acocks-green/
+    shopping_list: https://www.elim-acocksgreen.org/foodbank
 - address: "St Paul’s Stratford\r\n65 Maryland Rd\r\nLondon\r\nE15 1JL"
   alt_name: null
   charity:
