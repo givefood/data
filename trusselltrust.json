@@ -1364,6 +1364,7 @@
             "geolocation": {
                 "lat": "54.714463948945436", 
                 "lng": "-6.21808516170438", 
+                "zoom": 16, 
                 "address": "Oasis Antrim 10d High Street Antrim BT41 4AN"
             }, 
             "telephone_number": "028 9454 8555", 
@@ -17959,9 +17960,18 @@
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/hammersmithfulham/", 
             "name": "Hammersmith and Fulham Foodbank", 
             "geolocation": {
-                "lat": "51.45757462388565", 
-                "lng": "0.023444362499958515", 
-                "address": "St Matthew's Church, Wandsworth Bridge Road, SW6 2TX"
+                "country_short": "GB", 
+                "street_name_short": "Wandsworth Bridge Rd", 
+                "name": "St Matthew's Church", 
+                "country": "United Kingdom", 
+                "street_name": "Wandsworth Bridge Road", 
+                "place_id": "ChIJeXrdX34PdkgR4G1KLm50hzU", 
+                "zoom": 6, 
+                "state": "England", 
+                "post_code": "SW6 2TX", 
+                "address": "St Matthew's Church, Wandsworth Bridge Road, London SW6 2TX, UK", 
+                "lat": 51.4689184, 
+                "lng": -0.1904887
             }, 
             "telephone_number": "0207 731 3693", 
             "main_location": "Hammersmith \u0026 Fulham foodbank\u003cbr /\u003e\r\nc/o St Matthew's\u003cbr /\u003e\r\nWandsworth Bridge Road\u003cbr /\u003e\r\nLondon\u003cbr /\u003e\r\nSW6 2TX\u003cbr /\u003e\r\n\u003cbr /\u003e\r\n"
@@ -28531,13 +28541,13 @@
                         "opening_time": "11:00", 
                         "foodbank_status": "open", 
                         "day": "tuesday", 
-                        "closing_time": "13:45"
+                        "closing_time": "13:00"
                     }, 
                     {
                         "opening_time": "11:00", 
                         "foodbank_status": "open", 
                         "day": "friday", 
-                        "closing_time": "13:45"
+                        "closing_time": "13:00"
                     }
                 ], 
                 "foodbank_telephone_number": "07748 951274", 
@@ -33569,7 +33579,7 @@
                 }, 
                 "opening_time": [
                     {
-                        "opening_time": "10:00", 
+                        "opening_time": "12:30", 
                         "foodbank_status": "open", 
                         "day": "wednesday", 
                         "closing_time": "14:30"
@@ -35021,34 +35031,6 @@
                 ], 
                 "foodbank_telephone_number": "020 7732 0007", 
                 "foodbank_name": "St George's Camberwell "
-            }, 
-            {
-                "centre_address": "St George's Camberwell,\u003cbr /\u003e\r\nNewent Close", 
-                "post_code": "SE15 6EF", 
-                "centre_geolocation": {
-                    "country_short": "GB", 
-                    "street_name_short": "Newent Cl", 
-                    "name": "St George's Church Camberwell", 
-                    "country": "United Kingdom", 
-                    "street_name": "Newent Close", 
-                    "place_id": "ChIJ5xvlC3sDdkgR5ZlyNJOHhqQ", 
-                    "zoom": 18, 
-                    "state": "England", 
-                    "post_code": "SE15 6EF", 
-                    "address": "St George's Church Camberwell, St George's Church, Newent Close, London, UK", 
-                    "lat": 51.48020770000001, 
-                    "lng": -0.0831614
-                }, 
-                "opening_time": [
-                    {
-                        "opening_time": "11:00", 
-                        "foodbank_status": "closed", 
-                        "day": "tuesday", 
-                        "closing_time": "13:00"
-                    }
-                ], 
-                "foodbank_telephone_number": "020 7732 0007", 
-                "foodbank_name": "St George's Camberwell - Temporarily closed"
             }
         ], 
         "foodbank_information": {
@@ -36876,24 +36858,6 @@
                     "lat": "54.89569179999999", 
                     "lng": "-1.443123499999956", 
                     "address": "Petersfield Road, Sunderland SR4 9BD, UK"
-                }
-            }, 
-            {
-                "opening_time": [
-                    {
-                        "opening_time": "09:30", 
-                        "foodbank_status": "closed", 
-                        "day": "wednesday", 
-                        "closing_time": "12:00"
-                    }
-                ], 
-                "foodbank_name": "Roker", 
-                "centre_address": "New Springs City Church\u003cbr /\u003e\r\n130 Fulwell Road\u003cbr /\u003e\r\nRoker\u003cbr /\u003e\r\nSunderland", 
-                "post_code": "SR6 9QR", 
-                "centre_geolocation": {
-                    "lat": "54.9205457", 
-                    "lng": "-1.3792475000000195", 
-                    "address": "Fulwell Road, Sunderland SR6 9QR, UK"
                 }
             }, 
             {
@@ -39847,6 +39811,7 @@
             "geolocation": {
                 "lat": "51.460694026980214", 
                 "lng": "-0.17015427937622007", 
+                "zoom": 13, 
                 "address": "17 Boutflower Rd, London SW11 1RE, UK"
             }, 
             "telephone_number": "020 7326 9428", 
