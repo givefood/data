@@ -27313,7 +27313,7 @@
         }
     }, 
     {
-        "foodbank_centre": [], 
+        "foodbank_centre": false, 
         "foodbank_information": {
             "website": "http://www.norwichfoodbank.co.uk/", 
             "distance": "", 
@@ -37167,32 +37167,6 @@
     {
         "foodbank_centre": [
             {
-                "centre_address": "Hattersley Baptist Church\u003cbr /\u003e\r\nMelandra Crescent\u003cbr /\u003e\r\nHattersley", 
-                "post_code": "SK14 3RB", 
-                "centre_geolocation": {
-                    "lat": "53.450067177817786", 
-                    "lng": "-2.0251351650817924", 
-                    "address": "42 Melandra Cres, Hyde SK14 3RB, UK"
-                }, 
-                "opening_time": [
-                    {
-                        "opening_time": "12:00", 
-                        "foodbank_status": "closed", 
-                        "day": "tuesday", 
-                        "closing_time": "13:00"
-                    }, 
-                    {
-                        "opening_time": "14:00", 
-                        "foodbank_status": "open", 
-                        "day": "friday", 
-                        "closing_time": "15:00"
-                    }
-                ], 
-                "foodbank_telephone_number": "07901 786905", 
-                "foodbank_name": "Hattersley Baptist Church", 
-                "local_transport_links": "\u003cp\u003e\u003cstrong\u003eNOTE: HATTERSLEY DISTRIBUTION CENTRE WILL NO LONGER BE OPENING ON A TUESDAY. THE LAST SESSION WILL BE TUESDAY 2ND JUNE.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eNote:\u003c/strong\u003e Hattersely Baptist Church is a simple single storey building at the end of Melandra Crescent. The foodbank is not at St Barnabas on the corner of Underwood Rd and Hattersley Rd East\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eBuses:\u00a0\u003c/strong\u003e201, 341 and 387 stop on Underwood Rd just by the junction with Melandra Crescent\u003c/p\u003e\n"
-            }, 
-            {
                 "centre_address": "Crook St\u003cbr /\u003e\r\nHyde\u003cbr /\u003e\r\nSK14 1NQ", 
                 "post_code": "SK14 1NQ", 
                 "centre_geolocation": {
@@ -37219,6 +37193,38 @@
                 "foodbank_telephone_number": "07901 786905", 
                 "foodbank_name": "Hyde Central Methodist Church", 
                 "local_transport_links": "\u003cp\u003e10 minutes walk from Hyde Bus Station.\u003c/p\u003e\n\u003cp\u003eThere no parking at the church. Do not park on the street outside \u0026#8211;\u00a0 double yellow lines.\u003c/p\u003e\n"
+            }, 
+            {
+                "centre_address": "Hattersley Rd East\u003cbr /\u003e\r\nHattersley\u003cbr /\u003e\r\nSK14 3EQ", 
+                "post_code": "SK14 3EQ", 
+                "centre_geolocation": {
+                    "country_short": "GB", 
+                    "post_code": "SK14 3EH", 
+                    "country": "United Kingdom", 
+                    "place_id": "ChIJ41-AahjKe0gRo6YEyGaR9j0", 
+                    "zoom": 16, 
+                    "state": "England", 
+                    "address": "St Barnabas, Hyde SK14 3EH, UK", 
+                    "lat": 53.45055275955284, 
+                    "lng": -2.0276886280639617
+                }, 
+                "opening_time": [
+                    {
+                        "opening_time": "12:00", 
+                        "foodbank_status": "closed", 
+                        "day": "tuesday", 
+                        "closing_time": "13:00"
+                    }, 
+                    {
+                        "opening_time": "13:00", 
+                        "foodbank_status": "open", 
+                        "day": "friday", 
+                        "closing_time": "15:00"
+                    }
+                ], 
+                "foodbank_telephone_number": "07901 786905", 
+                "foodbank_name": "St Barnabas Church", 
+                "local_transport_links": "\u003cp\u003e\u003cstrong\u003eNOTE: HATTERSLEY DISTRIBUTION CENTRE WILL NO LONGER BE OPENING ON A TUESDAY. THE LAST SESSION WILL BE TUESDAY 2ND JUNE.\u003c/strong\u003e\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eNote:\u003c/strong\u003e Hattersely Baptist Church is a simple single storey building at the end of Melandra Crescent. The foodbank is not at St Barnabas on the corner of Underwood Rd and Hattersley Rd East\u003c/p\u003e\n\u003cp\u003e\u003cstrong\u003eBuses:\u00a0\u003c/strong\u003e201, 341 and 387 stop on Underwood Rd just by the junction with Melandra Crescent\u003c/p\u003e\n"
             }, 
             {
                 "centre_address": "Market St\u003cbr /\u003e\r\nHollingworth", 
@@ -37249,10 +37255,11 @@
             "geolocation": {
                 "lat": "53.450086559046824", 
                 "lng": "-2.025016692065492", 
+                "zoom": 15, 
                 "address": "42 Melandra Cres, Hyde SK14 3RB, UK"
             }, 
             "telephone_number": "07901 786905", 
-            "main_location": "Hattersley Baptist Church \u003cbr /\u003e\r\nMelandra Crescent \u003cbr /\u003e\r\nHattersley \u003cbr /\u003e\r\nSK14 3RB"
+            "main_location": "Foodbank Warehouse\u003cbr /\u003e\r\nHattersley Baptist Church \u003cbr /\u003e\r\nMelandra Crescent \u003cbr /\u003e\r\nHattersley \u003cbr /\u003e\r\nSK14 3RB"
         }
     }, 
     {
