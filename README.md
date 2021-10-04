@@ -2,6 +2,8 @@
 
 Latest data on UK food banks from [Give Food](https://www.givefood.org.uk) scraped and republished in various formats.
 
+There is more information about our data, a few rules about how to use it, and some contact information at https://www.givefood.org.uk/api/
+
 ## Data formats
 ### Give Food
 * foodbanks.csv https://www.givefood.org.uk/api/1/
