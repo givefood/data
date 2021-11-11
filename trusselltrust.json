@@ -7882,12 +7882,22 @@
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/carmarthen/", 
             "name": "Carmarthen Foodbank", 
             "geolocation": {
-                "lat": "51.84813147279108", 
-                "lng": "-4.322228773680081", 
-                "address": "Unnamed Road, Johnstown, Carmarthen SA31 3BP, UK"
+                "country_short": "GB", 
+                "city": "Johnstown", 
+                "street_name_short": "Llansteffan Rd", 
+                "name": "Carmarthen Foodbank", 
+                "country": "United Kingdom", 
+                "street_name": "Llansteffan Road", 
+                "place_id": "ChIJs-n8vi_nbkgRU_iC4M-xY5w", 
+                "zoom": 18, 
+                "state": "Wales", 
+                "post_code": "SA31 3BP", 
+                "address": "Carmarthen Foodbank, Llansteffan Road, Johnstown, Carmarthen, UK", 
+                "lat": 51.8481013, 
+                "lng": -4.3224658
             }, 
             "telephone_number": "01267 225996", 
-            "main_location": "Carmarthen Foodbank, \u003cbr /\u003e\r\nXcel Project (behind Xcel Bowl)\u003cbr /\u003e\r\nLlansteffan Road\u003cbr /\u003e\r\nJohnstown \u003cbr /\u003e\r\nCarmarthen \u003cbr /\u003e\r\nSA31 3BP"
+            "main_location": "Carmarthen Foodbank, \u003cbr /\u003e\r\nXcel Project\u003cbr /\u003e\r\nLlansteffan Road\u003cbr /\u003e\r\nJohnstown \u003cbr /\u003e\r\nCarmarthen \u003cbr /\u003e\r\nSA31 3BP"
         }
     }, 
     {
@@ -11671,6 +11681,33 @@
                 ], 
                 "foodbank_telephone_number": "07568 247 288 ", 
                 "foodbank_name": "St James Church Doncaster"
+            }, 
+            {
+                "centre_address": "St Paul's Church\u003cbr /\u003e\r\nDurham Road, \u003cbr /\u003e\r\nWheatley Park, \u003cbr /\u003e\r\nDoncaster \u003cbr /\u003e\r\nDN4 2HN", 
+                "post_code": "DN4 2HN", 
+                "centre_geolocation": {
+                    "country_short": "GB", 
+                    "street_name_short": "Durham Rd", 
+                    "name": "Durham Road", 
+                    "country": "United Kingdom", 
+                    "street_name": "Durham Road", 
+                    "place_id": "EhxEdXJoYW0gUmQsIERvbmNhc3RlciBETjIsIFVLIi4qLAoUChIJV2pTEQ0OeUgRGjvENN6WuioSFAoSCfnKf469D3lIEbQCBx9WXJmd", 
+                    "zoom": 6, 
+                    "state": "England", 
+                    "address": "Durham Road, Doncaster, UK", 
+                    "lat": 53.5382502, 
+                    "lng": -1.1115577
+                }, 
+                "opening_time": [
+                    {
+                        "opening_time": "10:00", 
+                        "foodbank_status": "open", 
+                        "day": "tuesday", 
+                        "closing_time": "12:00"
+                    }
+                ], 
+                "foodbank_telephone_number": "07568 247 288 ", 
+                "foodbank_name": "St Paul's Church"
             }
         ], 
         "foodbank_information": {
@@ -12895,13 +12932,13 @@
                 "opening_time": [
                     {
                         "opening_time": "12:00", 
-                        "foodbank_status": "open", 
+                        "foodbank_status": "closed", 
                         "day": "monday", 
                         "closing_time": "14:00"
                     }, 
                     {
                         "opening_time": "10:00", 
-                        "foodbank_status": "open", 
+                        "foodbank_status": "closed", 
                         "day": "thursday", 
                         "closing_time": "14:00"
                     }
@@ -13521,6 +13558,12 @@
                         "opening_time": "10:00", 
                         "foodbank_status": "open", 
                         "day": "wednesday", 
+                        "closing_time": "12:00"
+                    }, 
+                    {
+                        "opening_time": "10:00", 
+                        "foodbank_status": "open", 
+                        "day": "friday", 
                         "closing_time": "12:00"
                     }
                 ], 
@@ -30331,7 +30374,7 @@
                         "opening_time": "11:00", 
                         "foodbank_status": "open", 
                         "day": "wednesday", 
-                        "closing_time": "12:30"
+                        "closing_time": "13:00"
                     }
                 ], 
                 "foodbank_telephone_number": "01642 484842", 
@@ -44118,7 +44161,7 @@
                 "opening_time": [
                     {
                         "opening_time": "10:30", 
-                        "foodbank_status": "open", 
+                        "foodbank_status": "closed", 
                         "day": "monday", 
                         "closing_time": "13:00"
                     }, 
