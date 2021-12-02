@@ -18,7 +18,7 @@ There is more information about our data, a few rules about how to use it, and s
 * trusselltrust.json JSON file of Trussell Trust location proxied and cleaned from their [site](https://www.trusselltrust.org/get-help/find-a-foodbank/foodbank-search/?foodbank_s=all&callback=?)
 
 ### MP photos
-PNG photos of Westminster MPs. Full size & cropped threefour. Filename is the member ID from [UK Parliament members api](https://members-api.parliament.uk)
+PNG photos of Westminster MPs. Full size & cropped threefour. Filename is the member ID from [UK Parliament members API](https://members-api.parliament.uk)
 
 ## You may also enjoy
 * flatgithub view https://flatgithub.com/givefood/data?filename=foodbanks.csv
