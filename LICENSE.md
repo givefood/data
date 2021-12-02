@@ -1,8 +1,8 @@
 License excludes...
 
-[mp_photos](https://github.com/givefood/data/tree/main/mp_photos)
-[ifan.xml](https://github.com/givefood/data/blob/main/ifan.xml)
-[trusselltrust.json](https://github.com/givefood/data/blob/main/trusselltrust.json)
+* [mp_photos](https://github.com/givefood/data/tree/main/mp_photos)
+* [ifan.xml](https://github.com/givefood/data/blob/main/ifan.xml)
+* [trusselltrust.json](https://github.com/givefood/data/blob/main/trusselltrust.json)
 
 This is free and unencumbered software released into the public domain.
 
