@@ -1,4 +1,36 @@
 - foodbank:
+    name: Chorlton & Didsbury
+    slug: chorlton-didsbury
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chorlton-didsbury/
+      self: https://www.givefood.org.uk/api/2/foodbank/chorlton-didsbury/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECAsKBQFr7w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8de91cdb
+  needs: "Tinned Fruit\r\nRice Pudding/custard\r\nTinned Tomatoes\r\nLong Life Milk\r\
+    \nLong Life Fruit Juice\r\nTinned Meat\r\nChocolate\r\nAll Toiletries"
+  self: https://www.givefood.org.uk/api/2/needs/8de91cdb/
+- foodbank:
+    name: Fylde
+    slug: fylde
+    urls:
+      html: https://www.givefood.org.uk/needs/at/fylde/
+      self: https://www.givefood.org.uk/api/2/foodbank/fylde/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECAcpOgf5Mg==
+  - *id001
+  id: 70a6e038
+  needs: "Full-fat Long-life Milk\r\nSemi-skimmed Long Life Milk\r\nTinned Fish -\
+    \ Tuna\r\nTinned Fruit\r\nTinned Vegetables\r\nShopping Bags"
+  self: https://www.givefood.org.uk/api/2/needs/70a6e038/
+- foodbank:
     name: Wimborne
     slug: wimborne
     urls:
@@ -7,13 +39,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECAY5Cgc3kg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c5c65932
-  needs: Facebook
+  needs: "Tinned Custard\r\nWashing Up Liquid\r\nLong Life Fruit Juice\r\nWashing\
+    \ Pods\r\nPacks Of Sugar\r\nAdult Toothbrushes\r\nBreadsticks\r\nEaster Eggs /\
+    \ Treats\r\nCrisps / Popcorn\r\nShower Gel"
   self: https://www.givefood.org.uk/api/2/needs/c5c65932/
 - foodbank:
     name: Fylde
@@ -27,7 +57,7 @@
   - *id001
   id: f5870f67
   needs: "Full-fat Long-life Milk\r\nSemi-skimmed Long Life Milk\r\nTinned Fish -\
-    \ Tuna\r\nTinned Fruit\r\nTinned Vegetables\r\nThank You!"
+    \ Tuna\r\nTinned Fruit\r\nTinned Vegetables"
   self: https://www.givefood.org.uk/api/2/needs/f5870f67/
 - foodbank:
     name: North Plymouth
@@ -1527,31 +1557,3 @@
     \nSquash\r\nLonglife Fruit Juice\r\nDeodorant\r\nShower Gel\r\nNappies Size 7\r\
     \nToilet Rolls\r\nLaundry Detergent\r\nJ Cloths Or Similar\r\nWashing Up Liquid"
   self: https://www.givefood.org.uk/api/2/needs/0ba52cc6/
-- foodbank:
-    name: Bassetlaw
-    slug: bassetlaw
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bassetlaw/
-      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YDHwsdMQ7fJw==
-  - *id001
-  id: 4f547a7e
-  needs: "Rice\r\nSalt & Pepper\r\nJam\r\nCoffee\r\nMilk Alternatives\r\nSpray Cleaner\r\
-    \nNappies (Size 6)\r\nShampoo & Conditioner"
-  self: https://www.givefood.org.uk/api/2/needs/4f547a7e/
-- foodbank:
-    name: Hackney
-    slug: hackney
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hackney/
-      self: https://www.givefood.org.uk/api/2/foodbank/hackney/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YDHwsCCQolHg==
-  - *id001
-  id: 5fce6a05
-  needs: "Long Life UHT Milk\r\nTinned Corned Beef\r\nLong Life Juice\r\nTinned Fruit\r\
-    \nBiscuits\r\nCereal\r\nToilet Roll\r\nShampoo\r\nDeodorant\r\nToothpaste & Toothbrushes"
-  self: https://www.givefood.org.uk/api/2/needs/5fce6a05/
