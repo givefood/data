@@ -1,4 +1,26 @@
 - foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECBUMHwY8EQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: b564ca18
+  needs: "Instant Mash\r\nLong-life Fruit Juice\r\nTinned Tomatoes (Not Extra-large\
+    \ Tins)\r\nAdult Toothpaste\r\nTinned Fish Other Than Tuna And Mackerel, Such\
+    \ As Salmon\r\nTinned Spaghetti\r\nSweets And Chocolates\r\nSquash\r\nUHT Milk\r\
+    \nTeabags\r\nJam, Marmalade Etc.\r\nCereal\r\nJelly\r\nSponge Puddings\r\n2-helping\
+    \ Dried Pasta In Sauce\r\nSingle Adult Toothbrushes\r\nHair Conditioner\r\nWashing\
+    \ Detergent\r\nChildren's Shampoo, Shower Gel, Bubble Bath"
+  self: https://www.givefood.org.uk/api/2/needs/b564ca18/
+- foodbank:
     name: North Enfield
     slug: north-enfield
     urls:
@@ -7,11 +29,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECBIOMAyiBg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 553954ad
   needs: "Carrier Bags\r\nLong Life Milk\r\nTinned Chicken / Beef\r\nTinned Tomatoes\r\
     \nTinned Fish\r\nNoodles\r\nSmall Coffee Jars\r\nHot Chocolate\r\nJam\r\nRice\
@@ -1552,17 +1570,3 @@
     \ Potato\r\nTinned And Packet Soup.\r\nSmall Bottles Of Squash\r\nPuddings / Jellies\
     \ / Angel Delight\r\nTinned Rice Pudding\r\nUnisex Shampoo\r\nWashing Powder Tablets"
   self: https://www.givefood.org.uk/api/2/needs/88c11aba/
-- foodbank:
-    name: Wadebridge
-    slug: wadebridge
-    urls:
-      html: https://www.givefood.org.uk/needs/at/wadebridge/
-      self: https://www.givefood.org.uk/api/2/foodbank/wadebridge/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEAQwPHwxWNQ==
-  - *id001
-  id: 9b128579
-  needs: "Long-life Milk\r\nSize 5 & 6 Nappies\r\nHousehold Cleaner (No Bleach Please)\r\
-    \nShampoo\r\nCustard\r\nSponge Pudding\r\nJam\r\nRice Pudding"
-  self: https://www.givefood.org.uk/api/2/needs/9b128579/
