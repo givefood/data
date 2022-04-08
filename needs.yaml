@@ -1,4 +1,22 @@
 - foodbank:
+    name: Abergavenny
+    slug: abergavenny
+    urls:
+      html: https://www.givefood.org.uk/needs/at/abergavenny/
+      self: https://www.givefood.org.uk/api/2/foodbank/abergavenny/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECAskLQYA5A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: a44225fc
+  needs: "Tinned Custard\r\nTea\r\nTinned Fruit\r\nSmall Jars Of Coffee\r\nTinned\
+    \ Chicken In White Sauce Or Minced Beef\r\nShampoo\r\nToothpaste\r\nSquash"
+  self: https://www.givefood.org.uk/api/2/needs/a44225fc/
+- foodbank:
     name: Chorlton & Didsbury
     slug: chorlton-didsbury
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECAsKBQFr7w==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8de91cdb
   needs: "Tinned Fruit\r\nRice Pudding/custard\r\nTinned Tomatoes\r\nLong Life Milk\r\
     \nLong Life Fruit Juice\r\nTinned Meat\r\nChocolate\r\nAll Toiletries"
@@ -1541,19 +1555,3 @@
     \nTinned Tomatoes\r\n1ltr UHT Milk\r\nTinned Meat\r\nCustard\r\nTinned Fruit\r\
     \nTooth Brushes\r\nToothpaste\r\nShampoo"
   self: https://www.givefood.org.uk/api/2/needs/1cf0d8a1/
-- foodbank:
-    name: Malvern Hills
-    slug: malvern-hills
-    urls:
-      html: https://www.givefood.org.uk/needs/at/malvern-hills/
-      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YDHwsuDgj5RA==
-  - *id001
-  id: 0ba52cc6
-  needs: "Tinned Soup\r\nTinned Potatoes\r\nTinned Carrots\r\nTinned Fruit In Natural\
-    \ Juice\r\nTinned Fish\r\nTinned Meat\r\nJars Of Curry Sauce\r\nTomato Ketchup\r\
-    \nSquash\r\nLonglife Fruit Juice\r\nDeodorant\r\nShower Gel\r\nNappies Size 7\r\
-    \nToilet Rolls\r\nLaundry Detergent\r\nJ Cloths Or Similar\r\nWashing Up Liquid"
-  self: https://www.givefood.org.uk/api/2/needs/0ba52cc6/
