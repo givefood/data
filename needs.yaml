@@ -1,4 +1,39 @@
 - foodbank:
+    name: Oldham
+    slug: oldham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/oldham/
+      self: https://www.givefood.org.uk/api/2/foodbank/oldham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECAwsNg3H2g==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2e1d0e44
+  needs: "Tinned Meat\r\nTinned Potatoes\r\nSugar\r\nBiscuits\r\nJam/ Marmalade"
+  self: https://www.givefood.org.uk/api/2/needs/2e1d0e44/
+- foodbank:
+    name: Guernsey
+    slug: guernsey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/guernsey/
+      self: https://www.givefood.org.uk/api/2/foodbank/guernsey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECAwcMwJ2eg==
+  - *id001
+  id: fa979a58
+  needs: "Corned Beef\r\nPasta Sauce\r\nCustard And Rice Pudding\r\nRice Pudding\r\
+    \nPasta Sauce\r\nSugar\r\nTomato Sauce\r\nTinned Meat (Corned Beef, Hot Dogs Etc)\r\
+    \nCoffee\r\nCrisps\r\nCustard\r\nTinned Vegetables (Peas, Carrots, Sweetcorn,\
+    \ Potatoes)\r\nTinned Fruit\r\nTinned Spaghetti\r\nTuna\r\nRice\r\nMayonnaise\r\
+    \nBiscuits\r\nStrawberry Jam\r\nCereals\r\nOrange Or Blackcurrant Squash\r\nFray\
+    \ Bentos Pies"
+  self: https://www.givefood.org.uk/api/2/needs/fa979a58/
+- foodbank:
     name: Abergavenny
     slug: abergavenny
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECAskLQYA5A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a44225fc
   needs: "Tinned Custard\r\nTea\r\nTinned Fruit\r\nSmall Jars Of Coffee\r\nTinned\
     \ Chicken In White Sauce Or Minced Beef\r\nShampoo\r\nToothpaste\r\nSquash"
@@ -1523,35 +1554,3 @@
     \nTinned Fruit\r\nUHT Milk (Long-life)\r\nTinned Soup\r\nTinned Tomatoes\r\nWashing\
     \ Up Liquid\r\nOil\r\nGram Flour"
   self: https://www.givefood.org.uk/api/2/needs/b30b6ca4/
-- foodbank:
-    name: Black Country
-    slug: black-country
-    urls:
-      html: https://www.givefood.org.uk/needs/at/black-country/
-      self: https://www.givefood.org.uk/api/2/foodbank/black-country/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YDHwwkEwkrNQ==
-  - *id001
-  id: 7f639b2c
-  needs: "Milk (Long Life) 1l Cartons\r\nFruit Juice (Long Life) 1l Cartons\r\nCoffee\
-    \ (Small Jars)\r\nBreakfast Cereals (Small Boxes)\r\nVegetarian Ready Meals (Chilli/curry/pies)\r\
-    \nTinned Meat (Corned Beef/ham)\r\nPotatoes (Tinned Or Packet Mash)\r\nCarrier\
-    \ Bags (Strong Ones If Possible Please As Our Foodbanks Are In Short Supply)\r\
-    \nShampoo\r\nDeodorant (Roll On)\r\nToilet Rolls\r\nWashing Up Liquid"
-  self: https://www.givefood.org.uk/api/2/needs/7f639b2c/
-- foodbank:
-    name: Leicester South
-    slug: leicester-south
-    urls:
-      html: https://www.givefood.org.uk/needs/at/leicester-south/
-      self: https://www.givefood.org.uk/api/2/foodbank/leicester-south/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YDHwwbBQsLHQ==
-  - *id001
-  id: 1cf0d8a1
-  needs: "Cereal (No Bigger Than 790g)\r\nTinned Sweetcorn\r\n1 Ltr UHT Fruit Juice\r\
-    \nTinned Tomatoes\r\n1ltr UHT Milk\r\nTinned Meat\r\nCustard\r\nTinned Fruit\r\
-    \nTooth Brushes\r\nToothpaste\r\nShampoo"
-  self: https://www.givefood.org.uk/api/2/needs/1cf0d8a1/
