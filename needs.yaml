@@ -1,4 +1,39 @@
 - foodbank:
+    name: Coventry
+    slug: coventry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/coventry/
+      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECA4dLA3/mQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2dbe605a
+  needs: "Tinned Vegetables\r\nTinned Fruit\r\nTinned Potatoes\r\nInstant Mash\r\n\
+    Quick Cook Noodles\r\nEaster Eggs"
+  self: https://www.givefood.org.uk/api/2/needs/2dbe605a/
+- foodbank:
+    name: Braintree Area
+    slug: braintree-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/braintree-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/braintree-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECA4GDQRs+w==
+  - *id001
+  id: 48c2ba39
+  needs: "Shampoo\r\nLong Life Juice (1 Litre Maximum)\r\nInstant Mashed Potato\r\n\
+    Packet Soup\r\nTinned Spaghetti\r\nTea Bags (80 Maximum)\r\nStrong Carrier Bags,\
+    \ Please.\r\nTinned Tomatoes\r\nTinned Veg\r\nSponge Pudding (Twin Pack)\r\nSugar\
+    \ (Small Bag, Please)\r\nTinned Cold Meat\r\nLaundry Detergent (Liquid Or Tabs,\
+    \ Please)\r\nJam\r\nLonglife Milk (1 Litre, Please)\r\nCoffee"
+  self: https://www.givefood.org.uk/api/2/needs/48c2ba39/
+- foodbank:
     name: Market Drayton
     slug: market-drayton
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECA0tAA2g0Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 36d4ed6a
   needs: "Toilet Rolls - No Stock\r\nPackets Of Instant Mash - No Stock\r\nBiscuits\
     \ - No Stock\r\nSoup - Low Stock\r\nEggs\r\nSponge Puddings/slab Cake\r\nUHT Milk\r\
@@ -1522,37 +1553,3 @@
   needs: "Long Grain Rice\r\n1l UHT Juice\r\nSponge Puddings\r\nJam\r\nUHT Milk\r\n\
     Tinned Vegetables\r\nBiscuits/treats\r\nCleaning Products"
   self: https://www.givefood.org.uk/api/2/needs/b06f897d/
-- foodbank:
-    name: Alton
-    slug: alton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/alton/
-      self: https://www.givefood.org.uk/api/2/foodbank/alton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YDHxUAOgFWYw==
-  - *id001
-  id: 9b6e7899
-  needs: "Pasta Sauce\r\nTinned Meat (Pies, Stewing Steak, Hot Dogs)\r\nSponge Puddings\
-    \ (Long Life)\r\nTinned Spaghetti\r\nTinned Tomatoes\r\nTinned Fruit\r\nMultipack\
-    \ Crisps\r\nChocolate Spread\r\nWashing Up Liquid\r\nLaundry Conditioner\r\nCleaner\
-    \ Spray\r\nKitchen Towel"
-  self: https://www.givefood.org.uk/api/2/needs/9b6e7899/
-- foodbank:
-    name: Milton Keynes
-    slug: milton-keynes
-    urls:
-      html: https://www.givefood.org.uk/needs/at/milton-keynes/
-      self: https://www.givefood.org.uk/api/2/foodbank/milton-keynes/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YDHxQwFgHHZA==
-  - *id001
-  id: 045e3357
-  needs: "Long Life Fruit Juice\r\nLong Life Milk\r\nTea\r\nSugar\r\nTinned Fruit\r\
-    \nDried Rice – 500g Or 1kg Packets Only Please\r\nNoodles & Pot Noodles (Kettle\
-    \ Pack)\r\nCup A Soup (Kettle Pack\r\nCous Cous (Kettle Pack)\r\nSnack Bars/fruit\
-    \ (Kettle Pack)\r\nRice Pudding/custard\r\nBiscuits\r\nTinned Meat\r\nTinned Fish\r\
-    \nSpreads – Jams, Peanut Butter Or Chocolate Spread\r\nCurrent Overstocked Items:\r\
-    \nDried Pasta\r\nTinned Soups\r\nBaked Beans\r\nTinned Pasta"
-  self: https://www.givefood.org.uk/api/2/needs/045e3357/
