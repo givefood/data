@@ -1,4 +1,23 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECwkCDALMRw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: ea0bf888
+  needs: "Squash\r\nMeat/fish Paste For Sandwiches\r\nTinned Fruit\r\nTinned Tomatoes\r\
+    \nRazors And; Shaving Foam/gel\r\nSponge Puddings\r\nMulti-purpose Cleaner\r\n\
+    Tinned Vegetables\r\nPlastic Carrier Bags - Bags For Life Preferably."
+  self: https://www.givefood.org.uk/api/2/needs/ea0bf888/
+- foodbank:
     name: Hound Basics
     slug: hound-basics
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECRAdIAkFEw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: aac8104f
   needs: "Angel Delight\r\nAntibacterial Wipes\r\nCarrier Bags\r\nCereal\r\nCereal\
     \ Bars\r\nChildren’s Shampoo\r\nChocolate Snack Bars\r\nClean Empty Jam Jars\r\
@@ -1572,17 +1587,3 @@
     \nSoup\r\nInstant Noodles\r\nSize 4 Nappies\r\nConditioner\r\nChocolates And Treats\r\
     \nSauces - Ketchup, BBQ, Mayonnaise"
   self: https://www.givefood.org.uk/api/2/needs/a1983852/
-- foodbank:
-    name: Chiltern
-    slug: chiltern
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chiltern/
-      self: https://www.givefood.org.uk/api/2/foodbank/chiltern/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEAQ4HIwfV2Q==
-  - *id001
-  id: 8b2cc137
-  needs: "Tinned Fruit\r\nTinned Meat\r\nTinned Vegetables\r\nTinned Custard\r\nRice\
-    \ 500g\r\nTinned Spaghetti Bolognese"
-  self: https://www.givefood.org.uk/api/2/needs/8b2cc137/
