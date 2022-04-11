@@ -1,4 +1,23 @@
 - foodbank:
+    name: Southend
+    slug: southend
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southend/
+      self: https://www.givefood.org.uk/api/2/foodbank/southend/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECwsXOgSRDQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 71e93daa
+  needs: "Meat Meals – Tinned Curry, Chili Con Carne, Chicken In Sauce, Tinned Pie\r\
+    \nTinned Vegetables\r\nJam\r\nUHT Milk - Full Fat Or Semi Skimmed\r\nLong Life\
+    \ Fruit Juice Or Squash\r\nStrong Carrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/71e93daa/
+- foodbank:
     name: Stoke-on-Trent
     slug: stoke-on-trent
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECwoSFgx9Dg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8f6a2164
   needs: "Jam\r\nTea Bags Size 40's\r\nFruit Juice\r\nCarrier Bags\r\nCereal\r\nTinned\
     \ Soup\r\nTinned Tomato\r\nJar Pasta Sauce\r\nTinned Vegetables\r\nTinned Meat\r\
@@ -1570,23 +1585,3 @@
     Crisps\r\nDog Food\r\nToilet Rolls\r\nShampoo\r\nWashing-up Liquid\r\nWashing\
     \ Powder\r\nNappies Size 5+6\r\nShaving Foam/gel"
   self: https://www.givefood.org.uk/api/2/needs/93d054b4/
-- foodbank:
-    name: Brecon
-    slug: brecon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/brecon/
-      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEARE1Ew43pA==
-  - *id001
-  id: 9937d01a
-  needs: "Tinned Tomatoes (Not Extra-large Tins)\r\nInstant Mash\r\nTinned Fish Other\
-    \ Than Tuna And Mackerel, Such As Salmon\r\nTinned Spaghetti\r\nTinned Pulses\
-    \ (Red Kidney Beans, Chick Peas, Lentils Etc.)\r\nEaster Eggs\r\nSweets And Chocolates\r\
-    \nLong-life Fruit Juice\r\nSquash\r\nUHT Milk\r\nTeabags\r\nJam, Marmalade Etc.\r\
-    \nCereal\r\nCup-a-soups\r\nJelly\r\nSponge Puddings\r\n2-helping Dried Pasta In\
-    \ Sauce\r\nSingle Adult Toothbrushes\r\nAdult Toothpaste\r\nHair Conditioner\r\
-    \nWashing-up Liquid\r\nWashing Detergent\r\nChildren's Shampoo, Shower Gel, Bubble\
-    \ Bath\r\nTinned & Dried Cat Food\r\nTinned & Dried Dog Food"
-  self: https://www.givefood.org.uk/api/2/needs/9937d01a/
