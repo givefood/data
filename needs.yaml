@@ -1,4 +1,21 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECwsrEwgpfQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 31b3e5fd
+  needs: "Single Toothbrushes\r\nWashing Powder\r\nTinned Meat\r\nLong Grain Rice"
+  self: https://www.givefood.org.uk/api/2/needs/31b3e5fd/
+- foodbank:
     name: Southend
     slug: southend
     urls:
@@ -7,11 +24,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECwsXOgSRDQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 71e93daa
   needs: "Meat Meals – Tinned Curry, Chili Con Carne, Chicken In Sauce, Tinned Pie\r\
     \nTinned Vegetables\r\nJam\r\nUHT Milk - Full Fat Or Semi Skimmed\r\nLong Life\
@@ -1568,20 +1581,3 @@
   needs: "Long Life Fruit Juice\r\nTinned Meat\r\nTinned Fruit\r\nShower Gel\r\nShampoo\
     \ & Conditioner\r\nToothpaste & Brushes"
   self: https://www.givefood.org.uk/api/2/needs/17d5f9e8/
-- foodbank:
-    name: Nuneaton
-    slug: nuneaton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/nuneaton/
-      self: https://www.givefood.org.uk/api/2/foodbank/nuneaton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEARIxHApxGA==
-  - *id001
-  id: 93d054b4
-  needs: "Pasta Sauce\r\nTinned Spaghetti /Loops\r\nCustard - Tins Or Cartons\r\n\
-    Rice Pudding\r\nTinned Fruit\r\nCoffee\r\nTinned Potatoes\r\nPuddings\r\nCereals\r\
-    \nSquash\r\nFruit Juice\r\nTinned Fish\r\nTinned Tomatoes\r\nTinned Carrots\r\n\
-    Crisps\r\nDog Food\r\nToilet Rolls\r\nShampoo\r\nWashing-up Liquid\r\nWashing\
-    \ Powder\r\nNappies Size 5+6\r\nShaving Foam/gel"
-  self: https://www.givefood.org.uk/api/2/needs/93d054b4/
