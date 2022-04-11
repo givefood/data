@@ -1,4 +1,38 @@
 - foodbank:
+    name: Yeovil
+    slug: yeovil
+    urls:
+      html: https://www.givefood.org.uk/needs/at/yeovil/
+      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECw8IKwCDxQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5d09f531
+  needs: "Tinned Tomatoes\r\nTins Of Hot Dogs\r\nTins Of Macaroni Cheese\r\nTinned\
+    \ Chilli\r\nTinned Curry\r\nJars Of Pasta Sauce\r\nPackets Of Savory Rice\r\n\
+    Carrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/5d09f531/
+- foodbank:
+    name: Lisburn
+    slug: lisburn
+    urls:
+      html: https://www.givefood.org.uk/needs/at/lisburn/
+      self: https://www.givefood.org.uk/api/2/foodbank/lisburn/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECwwQGQJFdA==
+  - *id001
+  id: 2f4fccdc
+  needs: "Custard\r\nPure Apple & Orange Juice\r\nDiluting Juice\r\nHerbs, Spices\
+    \ & Stock Cubes\r\nTinned Ravioli\r\nStir-in Pasta & Curry Sauces\r\nWashing Powder\
+    \ (Small Boxes)"
+  self: https://www.givefood.org.uk/api/2/needs/2f4fccdc/
+- foodbank:
     name: Skipton
     slug: skipton
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECwsrEwgpfQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 31b3e5fd
   needs: "Single Toothbrushes\r\nWashing Powder\r\nTinned Meat\r\nLong Grain Rice"
   self: https://www.givefood.org.uk/api/2/needs/31b3e5fd/
@@ -1550,34 +1580,3 @@
     \ Meals Suitable For Vegetarians And Vegans\r\nTinned Vegetables\r\nLaundry Powder/liquid\r\
     \nTinned Potatoes\r\nTinned Spaghetti"
   self: https://www.givefood.org.uk/api/2/needs/9b1898f7/
-- foodbank:
-    name: Ealing
-    slug: ealing
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ealing/
-      self: https://www.givefood.org.uk/api/2/foodbank/ealing/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEARYYHAUALg==
-  - *id001
-  id: 424ee77a
-  needs: "Breakfast Cereal (No Porridge Please)\r\nTinned Fish\r\nUHT Milk (Whole\
-    \ Or Semi-skimmed)\r\nInstant Coffee & Drinking Chocolate\r\nTomatoes / Cook In\
-    \ Sauce\r\nTinned Fruit / Vegetables\r\nJam & Peanut Butter\r\nCooking Oil\r\n\
-    Laundry Products - Smaller Packs\r\nSavoury Biscuits / Crackers\r\nNappies (Sizes\
-    \ 5 And 6)"
-  self: https://www.givefood.org.uk/api/2/needs/424ee77a/
-- foodbank:
-    name: Sutton
-    slug: sutton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/sutton/
-      self: https://www.givefood.org.uk/api/2/foodbank/sutton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEARI1LgUwzw==
-  - *id001
-  id: 17d5f9e8
-  needs: "Long Life Fruit Juice\r\nTinned Meat\r\nTinned Fruit\r\nShower Gel\r\nShampoo\
-    \ & Conditioner\r\nToothpaste & Brushes"
-  self: https://www.givefood.org.uk/api/2/needs/17d5f9e8/
