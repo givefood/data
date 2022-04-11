@@ -1,4 +1,40 @@
 - foodbank:
+    name: Stoke-on-Trent
+    slug: stoke-on-trent
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stoke-on-trent/
+      self: https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECwoSFgx9Dg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8f6a2164
+  needs: "Jam\r\nTea Bags Size 40's\r\nFruit Juice\r\nCarrier Bags\r\nCereal\r\nTinned\
+    \ Soup\r\nTinned Tomato\r\nJar Pasta Sauce\r\nTinned Vegetables\r\nTinned Meat\r\
+    \nTinned Fish\r\nRice Pudding\r\nTinned Fruit\r\nTinned Sponge Pudding\r\nBiscuits\r\
+    \nTea Bags\r\nUHT Fruit Juice\r\nUHT Milk\r\nSavoury Treats\r\nSweet Treats /\
+    \ Chocolate Etc\r\nCoffee"
+  self: https://www.givefood.org.uk/api/2/needs/8f6a2164/
+- foodbank:
+    name: South Liverpool
+    slug: south-liverpool
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-liverpool/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-liverpool/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECwkKGwTYHQ==
+  - *id001
+  id: 6e186fa0
+  needs: "Long-life Milk\r\nTinned Fruit\r\nLong-life Juice Or Squash\r\nTinned Fish\r\
+    \nTinned Tomatoes\r\nCoffee - Small Jars\r\nTinned Potatoes Or Instant Mash\r\n\
+    Deodorant (For Men And Women)\r\nToothpaste\r\nSponge Puddings"
+  self: https://www.givefood.org.uk/api/2/needs/6e186fa0/
+- foodbank:
     name: Chichester District
     slug: chichester-district
     urls:
@@ -7,11 +43,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECwkCDALMRw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ea0bf888
   needs: "Squash\r\nMeat/fish Paste For Sandwiches\r\nTinned Fruit\r\nTinned Tomatoes\r\
     \nRazors And; Shaving Foam/gel\r\nSponge Puddings\r\nMulti-purpose Cleaner\r\n\
@@ -1558,32 +1590,3 @@
     \nWashing-up Liquid\r\nWashing Detergent\r\nChildren's Shampoo, Shower Gel, Bubble\
     \ Bath\r\nTinned & Dried Cat Food\r\nTinned & Dried Dog Food"
   self: https://www.givefood.org.uk/api/2/needs/9937d01a/
-- foodbank:
-    name: Isle of Wight
-    slug: isle-of-wight
-    urls:
-      html: https://www.givefood.org.uk/needs/at/isle-of-wight/
-      self: https://www.givefood.org.uk/api/2/foodbank/isle-of-wight/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEAQ8gOAQUfg==
-  - *id001
-  id: 534152c5
-  needs: "Long Life Milk\r\nTinned Spaghetti\r\nTinned Soup\r\nTinned Fruit\r\nRice\
-    \ Pudding"
-  self: https://www.givefood.org.uk/api/2/needs/534152c5/
-- foodbank:
-    name: King's Lynn
-    slug: kings-lynn
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kings-lynn/
-      self: https://www.givefood.org.uk/api/2/foodbank/kings-lynn/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEAQ4RBAHR4Q==
-  - *id001
-  id: a1983852
-  needs: "Small Boxes Of Washing Powder\r\nTinned Rice Pudding Or Custard\r\nDeodorant\r\
-    \nSoup\r\nInstant Noodles\r\nSize 4 Nappies\r\nConditioner\r\nChocolates And Treats\r\
-    \nSauces - Ketchup, BBQ, Mayonnaise"
-  self: https://www.givefood.org.uk/api/2/needs/a1983852/
