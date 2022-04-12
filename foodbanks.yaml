@@ -2504,11 +2504,11 @@
     self: https://www.givefood.org.uk/api/2/foodbank/swansea/
     shopping_list: https://swansea.foodbank.org.uk/give-help/donate-food/
 - address: "Cornerways House\r\nSchool Lane\r\nRingwood\r\nHampshire\r\nBH24 1LG"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1141270&subid=0
     registration_id: '1141270'
-  closed: false
+  closed: true
   country: England
   created: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
@@ -2530,7 +2530,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/new-forest-west/
     ward: Ringwood South
   postcode: BH24 1LG
-  secondary_phone: ''
+  secondary_phone: null
   slug: poitiers-care
   urls:
     homepage: https://www.southampton-city-catholics.org.uk/More/Outreach/Poitiers-Care/Poitiers-Care.php
