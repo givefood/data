@@ -1,4 +1,24 @@
 - foodbank:
+    name: Tottenham
+    slug: tottenham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/tottenham/
+      self: https://www.givefood.org.uk/api/2/foodbank/tottenham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDBImGAmSTw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 32c760d8
+  needs: "Long Life Juice - 1 Litre Only\r\nLong Life Milk - 1 Litre Only\r\nSnacks\
+    \ - Crisps, Nuts, Dried Fruit Etc.\r\nMeat Soup\r\nTinned Rice Pudding/ Tinned\
+    \ Custard\r\nTinned Fruit\r\nChocolate And Sweets\r\nToothbrushes And Toothpaste\r\
+    \nShower Gel\r\nShampoo\r\nShaving Foam\r\nToilet Roll\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/32c760d8/
+- foodbank:
     name: Market Drayton
     slug: market-drayton
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDBIfJw2C2w==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: fdc325b6
   needs: "UHT Milk - No Stock\r\nLong Life Cartons Of Fruit Juice - No Stock\r\nToilet\
     \ Rolls - No Stock\r\nPackets Of Instant Mash - No Stock\r\nBiscuits - No Stock\r\
@@ -1560,20 +1576,3 @@
   needs: "Sugar\r\nJam\r\nSponge Pudding\r\nFruit Juice / Squash\r\nJelly Pots\r\n\
     Cereal Bars\r\nDeodorant\r\nShampoo & Conditioner\r\nShower Gel\r\nSize 6 Nappies"
   self: https://www.givefood.org.uk/api/2/needs/3acd7c60/
-- foodbank:
-    name: Harrow
-    slug: harrow
-    urls:
-      html: https://www.givefood.org.uk/needs/at/harrow/
-      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBQ07Jw7Q5g==
-  - *id001
-  id: 6957cf49
-  needs: "Tinned Fruit\r\nSponge Puddings\r\nFull Fat Long-life Milk\r\nMen’s Body\
-    \ Wash\r\n500g Rice\r\nNoodles\r\n500g Sugar\r\nPackets Mashed Potato\r\nSmall\
-    \ Jars Coffee\r\n20p Carrier Bags\r\nTinned Carrots\r\nTinned Peas\r\nTinned Potatoes\r\
-    \nCooking Oil 1 Litre\r\nMarmalade\r\nLong-life Juice\r\nPasta Sauce\r\nDry Spaghetti\r\
-    \nMayonnaise\r\nWomen's Deodorant\r\nAdult And Children Toothpaste\r\nToilet Roll"
-  self: https://www.givefood.org.uk/api/2/needs/6957cf49/
