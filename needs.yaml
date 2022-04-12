@@ -1,4 +1,61 @@
 - foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDAwEGgKNhw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 321499f3
+  needs: "UHT Long Life Milk\r\nBaked Beans/tinned Spaghetti\r\nTinned Meat/meat Meals\r\
+    \nTinned Soup\r\nPasta Sauce\r\nSponge Puddings - Not Chilled\r\nCooking Oil\r\
+    \nTinned Custard\r\nTinned Vegetables\r\nStock Cubes Meat Or Veg\r\nTinned Tomatoes\r\
+    \nLong Life Juice\r\nTinned Fruit\r\nRice (500g/1kg)\r\nShower Gel\r\nCooking\
+    \ Oil\r\nTinned Fish\r\nSugar (500g)\r\nBaby Food\r\nInstant Mash"
+  self: https://www.givefood.org.uk/api/2/needs/321499f3/
+- foodbank:
+    name: Southwark
+    slug: southwark
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southwark/
+      self: https://www.givefood.org.uk/api/2/foodbank/southwark/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDAsbDgjUJg==
+  - *id001
+  id: 76a420d5
+  needs: "Baked Beans\r\nTinned Fruit\r\nJam\r\nTinned Pulses - Kidney Beans Chickpeas\r\
+    \nTinned Vegetarian Options\r\nRice Pudding\r\nRice 1kg Bags\r\nCartons Of Juice\
+    \ (1 Litre)\r\nBaby Wipes"
+  self: https://www.givefood.org.uk/api/2/needs/76a420d5/
+- foodbank:
+    name: Southampton Basics Bank
+    slug: southampton-basics-bank
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
+      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDAsUHw6j7g==
+  - *id001
+  id: fdca1618
+  needs: "Carrier Bags\r\nCoffee (Small Jars)\r\nCook-in Sauces (Jars & Packets)\r\
+    \nCustard\r\nHot Chocolate\r\nJams & Spreads\r\nNappies Size 4 – 6\r\nNoodles (Packets)\r\
+    \nSquash & Drinks\r\nSugar (Small Bags)\r\nTinned Carrots\r\nTinned Cold Meat (Ham,\
+    \ Spam, Etc.)\r\nTinned Hot Meat (Curry, Pies, Stew, Etc.)\r\nTinned Kidney Beans\
+    \ & Pulses\r\nTinned Mixed Veg\r\nTinned Rice Pudding\r\nTinned Spaghetti (In\
+    \ Tomato Sauce)\r\nTinned Sweetcorn\r\nToiletries (Shampoo)\r\nToiletries (Toilet\
+    \ Rolls)\r\nUHT Milk\r\nBaby Food\r\nHousehold Larder\r\nRice\r\nTinned Fruit\r\
+    \nToiletries (Male & Female Deodorant)\r\nToiletries (Soap & Shower Gel)\r\nPet\
+    \ Food (Dogs)"
+  self: https://www.givefood.org.uk/api/2/needs/fdca1618/
+- foodbank:
     name: Romsey
     slug: romsey
     urls:
@@ -7,11 +64,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDAgzJAg/Vw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 95a6c7d3
   needs: "Long Life Fruit Juice\r\nBottles Of Squash\r\nInstant Coffee\r\nInstant\
     \ Mash Potato\r\nDesserts/sponge Puddings\r\nPeanut Butter\r\nMarmite\r\nPot Noodles\
@@ -1525,56 +1578,3 @@
     \ Meat Balls\r\nMicrowave Rice Meals\r\nMicrowave Pasta Meals\r\nNoodles\r\nTinned\
     \ Tomatoes"
   self: https://www.givefood.org.uk/api/2/needs/c060380b/
-- foodbank:
-    name: Southampton Basics Bank
-    slug: southampton-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBA07Ggebew==
-  - *id001
-  id: 5779573a
-  needs: "Carrier Bags\r\nCoffee (Small Jars)\r\nCook-in Sauces (Jars & Packets)\r\
-    \nCustard\r\nHot Chocolate\r\nJams & Spreads\r\nNappies Size 4 – 6\r\nNoodles (Packets)\r\
-    \nSquash & Drinks\r\nSugar (Small Bags)\r\nTinned Carrots\r\nTinned Cold Meat (Ham,\
-    \ Spam, Etc.)\r\nTinned Hot Meat (Curry, Pies, Stew, Etc.)\r\nTinned Mixed Veg\r\
-    \nTinned Rice Pudding\r\nTinned Spaghetti (In Tomato Sauce)\r\nTinned Sweetcorn\r\
-    \nToiletries (Shampoo)\r\nToiletries (Toilet Rolls)\r\nUHT Milk\r\nBaby Food\r\
-    \nHousehold Larder\r\nRice\r\nTinned Fruit\r\nTinned Kidney Beans & Pulses\r\n\
-    Treats (Chocolate, Crisps, Etc.)\r\nToiletries (Male & Female Deodorant)\r\nToiletries\
-    \ (Soap & Shower Gel)\r\nPet Food (Dogs)"
-  self: https://www.givefood.org.uk/api/2/needs/5779573a/
-- foodbank:
-    name: Stoke-on-Trent
-    slug: stoke-on-trent
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stoke-on-trent/
-      self: https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBA0pMA5bbA==
-  - *id001
-  id: 05ea7099
-  needs: "Mash\r\nJam\r\nFruit Juice\r\nCarrier Bags\r\nCereal\r\nTinned Soup\r\n\
-    Tinned Tomato\r\nJar Pasta Sauce\r\nTinned Vegetables\r\nTinned Meat\r\nTinned\
-    \ Fish\r\nRice Pudding\r\nTinned Fruit\r\nTinned Sponge Pudding\r\nBiscuits\r\n\
-    Tea Bags\r\nUHT Fruit Juice\r\nUHT Milk\r\nSavoury Treats\r\nSweet Treats / Chocolate\
-    \ Etc\r\nCoffee"
-  self: https://www.givefood.org.uk/api/2/needs/05ea7099/
-- foodbank:
-    name: Chichester District
-    slug: chichester-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chichester-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBAwaBwnoYw==
-  - *id001
-  id: 3cde25e9
-  needs: "Meat/fish Paste For Sandwiches\r\nTinned Fruit\r\nTinned Tomatoes\r\nRazors\
-    \ And; Shaving Foam/gel\r\nSponge Puddings\r\nLong Life Milk\r\nMulti-purpose\
-    \ Cleaner\r\nTinned Vegetables\r\nPlastic Carrier Bags - Bags For Life Preferably."
-  self: https://www.givefood.org.uk/api/2/needs/3cde25e9/
