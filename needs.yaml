@@ -1,4 +1,56 @@
 - foodbank:
+    name: Romsey
+    slug: romsey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/romsey/
+      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDAgzJAg/Vw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 95a6c7d3
+  needs: "Long Life Fruit Juice\r\nBottles Of Squash\r\nInstant Coffee\r\nInstant\
+    \ Mash Potato\r\nDesserts/sponge Puddings\r\nPeanut Butter\r\nMarmite\r\nPot Noodles\
+    \ / Mug Shots ( Pasta Needing Only Boiling Water Adding To It)\r\nTinned Peas\r\
+    \nTinned Sweetcorn\r\nCustard\r\nMulti-pack Chocolate Bars"
+  self: https://www.givefood.org.uk/api/2/needs/95a6c7d3/
+- foodbank:
+    name: Harrow
+    slug: harrow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/harrow/
+      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDAcODAoBdQ==
+  - *id001
+  id: d7b10a0e
+  needs: "20p Carrier Bags Urgently Needed\r\nSponge Puddings\r\nFull-fat Long Life\
+    \ Milk\r\n500g Rice\r\nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\
+    \nTinned Carrots\r\nTinned Potatoes\r\nCooking Oil\r\nLong-life Fruit Juice\r\n\
+    Pasta Sauce\r\nWomen’s Deodorant\r\nAdult And Children Toothpaste\r\nMen’s Body\
+    \ Wash"
+  self: https://www.givefood.org.uk/api/2/needs/d7b10a0e/
+- foodbank:
+    name: The Whitehawk
+    slug: the-whitehawk
+    urls:
+      html: https://www.givefood.org.uk/needs/at/the-whitehawk/
+      self: https://www.givefood.org.uk/api/2/foodbank/the-whitehawk/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECxYuKQL6IA==
+  - *id001
+  id: 87106fef
+  needs: "Tinned Curry (Meat / Vegan / Vegetarian)\r\nTinned Tuna\r\nTinned Vegetables\r\
+    \nMayonnaise\r\nTinned Fruit\r\nTinned Hot Dog Sausages\r\nTinned Meatballs\r\n\
+    UHT Milk\r\nToilet Rolls\r\nDeodorant"
+  self: https://www.givefood.org.uk/api/2/needs/87106fef/
+- foodbank:
     name: Vauxhall
     slug: vauxhall
     urls:
@@ -7,11 +59,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YECxMhKQuFdg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1a0dec65
   needs: "Toiletries\r\nTinned Tomatoes\r\nWashing Up Liquid Laundry Pods\r\nTinned\
     \ Soup\r\nBaked Beans\r\nDried Pulse\r\nRice 500g/1kg\r\nSingle Sachet Porridge\r\
@@ -329,6 +377,20 @@
     \ & Granola)\r\nLong-life Milk\r\nLong-life Fruit Juice\r\nPasta Sauce\r\nLaundry\
     \ Liquid/powder\r\nDeodorant\r\nShampoo"
   self: https://www.givefood.org.uk/api/2/needs/c148124c/
+- foodbank:
+    name: Jubilee Storehouse
+    slug: jubilee-storehouse
+    urls:
+      html: https://www.givefood.org.uk/needs/at/jubilee-storehouse/
+      self: https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YECBYTOQA7NQ==
+  - *id001
+  id: bee5b271
+  needs: "Tinned Stew\r\nTinned Curry\r\nSpaghetti Hoops\r\nTwix, Mars Or Snickers\
+    \ Chocolate Bars\r\nShampoo/conditioner\r\nToothbrushes\r\nToothpaste"
+  self: https://www.givefood.org.uk/api/2/needs/bee5b271/
 - foodbank:
     name: Brecon
     slug: brecon
@@ -1516,62 +1578,3 @@
     \ And; Shaving Foam/gel\r\nSponge Puddings\r\nLong Life Milk\r\nMulti-purpose\
     \ Cleaner\r\nTinned Vegetables\r\nPlastic Carrier Bags - Bags For Life Preferably."
   self: https://www.givefood.org.uk/api/2/needs/3cde25e9/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBAstCgusBQ==
-  - *id001
-  id: ba0e803a
-  needs: "Cleaning Products\r\nWashing Powder\r\nShower Gel\r\nShampoo\r\nTinned Spaghetti\r\
-    \nRice Pudding\r\nTinned Dog Food"
-  self: https://www.givefood.org.uk/api/2/needs/ba0e803a/
-- foodbank:
-    name: Ashby
-    slug: ashby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ashby/
-      self: https://www.givefood.org.uk/api/2/foodbank/ashby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBAokCQe7kg==
-  - *id001
-  id: fd4740d5
-  needs: "Tinned Carrots, Sweetcorn Or Peas\r\nInstant Mash\r\nSquash\r\nLonglife\
-    \ Fruit Juice\r\nRice\r\nTinned Pulses\r\nInstant Coffee\r\nTinned Fruit\r\nShower\
-    \ Gel\r\nToothpaste"
-  self: https://www.givefood.org.uk/api/2/needs/fd4740d5/
-- foodbank:
-    name: Sevenoaks
-    slug: sevenoaks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/sevenoaks/
-      self: https://www.givefood.org.uk/api/2/foodbank/sevenoaks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBAkpAQk1aw==
-  - *id001
-  id: 9e6ec4b6
-  needs: "Rice\r\nBaked Beans\r\nChicken In White Sauce\r\nBeef Chilli Con Carne\r\
-    \nTinned Rice Pudding\r\nTinned Custard\r\nBreakfast Cereals (But Not Rice Crispies)\r\
-    \nSquash"
-  self: https://www.givefood.org.uk/api/2/needs/9e6ec4b6/
-- foodbank:
-    name: Ely
-    slug: ely
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ely/
-      self: https://www.givefood.org.uk/api/2/foodbank/ely/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBAcgAQpa0A==
-  - *id001
-  id: e1c8d543
-  needs: "Rice\r\nLong Life Milk\r\nTinned Fruit\r\nTinned Meat\r\nRice Pudding\r\n\
-    Custard\r\nToilet Rolls Pk Of 4s Preferable\r\nLaundry Products\r\nCleaning Products\r\
-    \nMen's Deodorant And Shower Gel"
-  self: https://www.givefood.org.uk/api/2/needs/e1c8d543/
