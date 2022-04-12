@@ -1,4 +1,25 @@
 - foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDBMkBAIxpA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: b93c80fa
+  needs: "Instant Mash\r\nLong-life Fruit Juice\r\nTinned Fish Other Than Tuna And\
+    \ Mackerel, Such As Salmon\r\nTinned Spaghetti\r\nSquash\r\nUHT Milk\r\nTeabags\r\
+    \nJam, Marmalade Etc.\r\nCereal\r\nJelly\r\nSponge Puddings\r\n2-helping Dried\
+    \ Pasta In Sauce\r\nSingle Adult Toothbrushes\r\nHair Conditioner\r\nWashing Detergent\r\
+    \nChildren's Shampoo, Shower Gel, Bubble Bath"
+  self: https://www.givefood.org.uk/api/2/needs/b93c80fa/
+- foodbank:
     name: Tottenham
     slug: tottenham
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDBImGAmSTw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 32c760d8
   needs: "Long Life Juice - 1 Litre Only\r\nLong Life Milk - 1 Litre Only\r\nSnacks\
     \ - Crisps, Nuts, Dried Fruit Etc.\r\nMeat Soup\r\nTinned Rice Pudding/ Tinned\
@@ -1562,17 +1579,3 @@
     Long-life Dairy Milk (We Have Plenty Of Soya And Oat Milk)\r\nWashing Up Tablets\
     \ Or Liquid Capsules For Clothing (Please No Large Boxes)"
   self: https://www.givefood.org.uk/api/2/needs/c7b07458/
-- foodbank:
-    name: Launceston
-    slug: launceston
-    urls:
-      html: https://www.givefood.org.uk/needs/at/launceston/
-      self: https://www.givefood.org.uk/api/2/foodbank/launceston/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBQ4kEgp+jQ==
-  - *id001
-  id: 3acd7c60
-  needs: "Sugar\r\nJam\r\nSponge Pudding\r\nFruit Juice / Squash\r\nJelly Pots\r\n\
-    Cereal Bars\r\nDeodorant\r\nShampoo & Conditioner\r\nShower Gel\r\nSize 6 Nappies"
-  self: https://www.givefood.org.uk/api/2/needs/3acd7c60/
