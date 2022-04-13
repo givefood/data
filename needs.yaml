@@ -1,4 +1,41 @@
 - foodbank:
+    name: Stretford
+    slug: stretford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stretford/
+      self: https://www.givefood.org.uk/api/2/foodbank/stretford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDRIgKgg26g==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 7e4a549d
+  needs: "Tinned Salmon\r\nTinned Ham\r\nJam\r\nTinned Fruit\r\nGravy Mix\r\nTinned\
+    \ Custard\r\nStuffing\r\nTinned Evaporated Milk\r\nTrifle Mix\r\nJelly\r\nPickles\
+    \ / Cranberry Etc\r\nCrisps /Savoury Biscuits /Crackers\r\nBox Of Biscuits / Tin\
+    \ Of Biscuits\r\nBox Of Chocolates / Mint Chocolates\r\nSelection Boxes\r\nMince\
+    \ Pies\r\nChocolate Biscuits\r\nNibbles/nuts\r\nShortbread\r\nSmall Treats And\
+    \ Snacks For Kids\r\nDog & Cat Pet Food"
+  self: https://www.givefood.org.uk/api/2/needs/7e4a549d/
+- foodbank:
+    name: Mid Cheshire
+    slug: mid-cheshire
+    urls:
+      html: https://www.givefood.org.uk/needs/at/mid-cheshire/
+      self: https://www.givefood.org.uk/api/2/foodbank/mid-cheshire/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDRIdDw47Hw==
+  - *id001
+  id: e225843b
+  needs: "Jam\r\nLong Life Fruit Juice\r\nTinned Fruit\r\nDesserts - Jelly, Rice Pudding\r\
+    \nTea Bags (Especially 80's)\r\nCustard\r\nTinned/mashed Potatoes\r\nSavoury Sandwich\
+    \ Spreads"
+  self: https://www.givefood.org.uk/api/2/needs/e225843b/
+- foodbank:
     name: Whitchurch
     slug: whitchurch
     urls:
@@ -7,11 +44,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDRAwJQ0obw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: dbae359c
   needs: "Jars Of Coffee (Large And Small)\r\nTins Of Custard\r\nPot Noodles\r\nPackets\
     \ Of Mashed Potato\r\nTins Of Fruit\r\nJars Of Jam\r\nSponge Puddings\r\nLong-life\
@@ -1563,36 +1596,3 @@
     \nLunchbox Items (Chocolate)\r\nPacket Dried Mashed Potato\r\nTinned Veg (Sweetcorn,\
     \ Carrots, Peas)\r\nKitchen Roll\r\nCup-a-soups\r\nShampoo & Conditioner"
   self: https://www.givefood.org.uk/api/2/needs/f1cd073b/
-- foodbank:
-    name: West Cheshire
-    slug: west-cheshire
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-cheshire/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-cheshire/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBg8LOAEvPA==
-  - *id001
-  id: 8946b6a9
-  needs: "Tinned Meats\r\nTinned Tomatoes\r\nUHT Milk\r\nUHT Juice\r\nTinned Desserts\r\
-    \nCustard\r\nInstant Coffee Small Jars\r\nJams And Spreads\r\nInstant Mash / Tinned\
-    \ Potatoes\r\nCereal Bars\r\nSweet Treats\r\nInstant Pasta / Instant Noodles\r\
-    \nTinned Meat / Fish\r\nTinned Vegetables\r\nTinned Potatoes\r\nTinned Tomatoes\r\
-    \nCuppa Soups\r\nPot Noodles/super Noodles\r\nInstant Pasta (Pasta And Sauce)\r\
-    \nPasta Sauce\r\nInstant Mashed Potato\r\nTinned / Instant Custard\r\nTinned Fruit\r\
-    \nBiscuits\r\nUHT Milk\r\nUHT Fruit Juice\r\nInstant Coffee"
-  self: https://www.givefood.org.uk/api/2/needs/8946b6a9/
-- foodbank:
-    name: Hertford & District
-    slug: hertford-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hertford-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/hertford-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBg0wNQgmWA==
-  - *id001
-  id: 612ea73b
-  needs: "Bolognese Sauce\r\nCooking Sauces (Curry, Sweet N' Sour, Chilli)\r\nTinned\
-    \ Spaghetti\r\nToothpaste\r\nSquash\r\nTinned Meat\r\nSize 6 Nappies"
-  self: https://www.givefood.org.uk/api/2/needs/612ea73b/
