@@ -1,4 +1,22 @@
 - foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDRMEDQYG0A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 99f18d5b
+  needs: "Coffee\r\nTinned Potatoes\r\nInstant Mashed Potatoes\r\nTinned Fruit\r\n\
+    Tinned Custard\r\nUHT (Long Life) Milk\r\nAntiperspirant Deodorant"
+  self: https://www.givefood.org.uk/api/2/needs/99f18d5b/
+- foodbank:
     name: Stretford
     slug: stretford
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDRIgKgg26g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 7e4a549d
   needs: "Tinned Salmon\r\nTinned Ham\r\nJam\r\nTinned Fruit\r\nGravy Mix\r\nTinned\
     \ Custard\r\nStuffing\r\nTinned Evaporated Milk\r\nTrifle Mix\r\nJelly\r\nPickles\
@@ -1579,20 +1593,3 @@
     \ Razors\r\nMilk\r\nWashing Up Liquid\r\nShaving Foam\r\nDeodorant (Men And Women)\r\
     \nShower Gel\r\nCrisps\r\nCooking Oil"
   self: https://www.givefood.org.uk/api/2/needs/f71e22b5/
-- foodbank:
-    name: Callington
-    slug: callington
-    urls:
-      html: https://www.givefood.org.uk/needs/at/callington/
-      self: https://www.givefood.org.uk/api/2/foodbank/callington/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBg8MOQfGIA==
-  - *id001
-  id: f1cd073b
-  needs: "Washing Powder/tabs/liquid For Clothes\r\nTinned Cooked Meat (Ie Chilli\
-    \ Con Carne/curries/meatballs)\r\nSponge Puddings\r\nMens Razors\r\nLadies Razors\r\
-    \nMens Spray Deodorant\r\nLadies Spray Deodorant\r\nDog Food (Mixer & Dry Complete)\r\
-    \nLunchbox Items (Chocolate)\r\nPacket Dried Mashed Potato\r\nTinned Veg (Sweetcorn,\
-    \ Carrots, Peas)\r\nKitchen Roll\r\nCup-a-soups\r\nShampoo & Conditioner"
-  self: https://www.givefood.org.uk/api/2/needs/f1cd073b/
