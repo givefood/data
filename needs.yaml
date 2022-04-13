@@ -1,4 +1,28 @@
 - foodbank:
+    name: West Cheshire
+    slug: west-cheshire
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-cheshire/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-cheshire/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDQswAgKYRQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 3b304f6b
+  needs: "Tinned Vegetables\r\nTinned Tomatoes\r\nUHT Milk\r\nUHT Juice\r\nCereal\
+    \ Bars\r\nTinned Fruit /. Puddings\r\nInstant Coffee Small Jars\r\nJams And Spreads\r\
+    \nInstant Mash / Tinned Potatoes\r\nSweet Treats / Crisps\r\nInstant Pasta / Instant\
+    \ Noodles\r\nCustard\r\nTinned Meat / Fish\r\nTinned Vegetables\r\nTinned Potatoes\r\
+    \nTinned Tomatoes\r\nCuppa Soups\r\nPot Noodles/super Noodles\r\nInstant Pasta\
+    \ (Pasta And Sauce)\r\nPasta Sauce\r\nInstant Mashed Potato\r\nTinned / Instant\
+    \ Custard\r\nTinned Fruit\r\nBiscuits\r\nUHT Milk\r\nUHT Fruit Juice\r\nInstant\
+    \ Coffee"
+  self: https://www.givefood.org.uk/api/2/needs/3b304f6b/
+- foodbank:
     name: Bath
     slug: bath
     urls:
@@ -7,11 +31,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDQoKJgZ8TQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0c49ac2f
   needs: "Coffee (Instant)\r\nLong Life Juice\r\nMilk (UHT)\r\nPet Food\r\nSponge\
     \ Pudding\r\nVegetarian Tinned Meals"
@@ -1573,17 +1593,3 @@
     \ Adult Toothbrushes\r\nAdult Toothpaste\r\nHair Conditioner\r\nWashing Detergent\r\
     \nChildren's Shampoo\r\nShower Gel\r\nBubble Bath"
   self: https://www.givefood.org.uk/api/2/needs/da1c36cc/
-- foodbank:
-    name: Dundee & Angus
-    slug: dundee-angus
-    urls:
-      html: https://www.givefood.org.uk/needs/at/dundee-angus/
-      self: https://www.givefood.org.uk/api/2/foodbank/dundee-angus/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBRUaNACWhQ==
-  - *id001
-  id: 8ddb768e
-  needs: "Tinned Meat\r\nCoffee, Instant\r\nNappies, Size 6 & 7\r\nDiluting Juice\r\
-    \nToiletries\r\nLong-life Milk"
-  self: https://www.givefood.org.uk/api/2/needs/8ddb768e/
