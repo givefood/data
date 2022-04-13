@@ -1,4 +1,86 @@
 - foodbank:
+    name: Callington
+    slug: callington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/callington/
+      self: https://www.givefood.org.uk/api/2/foodbank/callington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDQ8LFQR3pg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: abf10428
+  needs: "Washing Powder/tabs/liquid For Clothes\r\nTinned Cooked Meat (Ie Chilli\
+    \ Con Carne/curries/meatballs)\r\nSponge Puddings\r\nMens Razors\r\nLadies Razors\r\
+    \nMens Spray Deodorant\r\nDog Food (Mixer & Dry Complete)\r\nLunchbox Items (Chocolate)\r\
+    \nPacket Dried Mashed Potato\r\nKitchen Roll\r\nToilet Roll\r\nCup-a-soups\r\n\
+    Shampoo & Conditioner\r\nGluten Free Items\r\nVegetarian Items"
+  self: https://www.givefood.org.uk/api/2/needs/abf10428/
+- foodbank:
+    name: Devizes & District
+    slug: devizes-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/devizes-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/devizes-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDQ41FQ63/Q==
+  - *id001
+  id: 4cd60ae0
+  needs: "Long Life Milk\r\nJam\r\nTinned Rice Pudding\r\nLong Life Fruit Juice\r\n\
+    Long Life Sponge Puddings\r\nInstant Mash Potato\r\nPasta Sauce\r\nShower Gel\r\
+    \nTinned Custard\r\nInstant Coffee\r\nSnacks - E.g. Instant Noodles, Instant Pasta\r\
+    \nShampoo\r\nDeodorant (Men's And Ladies')"
+  self: https://www.givefood.org.uk/api/2/needs/4cd60ae0/
+- foodbank:
+    name: Kinson & West Howe
+    slug: kinson-west-howe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/kinson-west-howe/
+      self: https://www.givefood.org.uk/api/2/foodbank/kinson-west-howe/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDQ0wMgdKzQ==
+  - *id001
+  id: b205a0d9
+  needs: "UHT Milk\r\nJam\r\nSugar (Small Packets)\r\nNoodles\r\nPuddings\r\nCrisps\r\
+    \nMale & Female Deodorant\r\nToilet Rolls\r\nAdult Toothbrushes"
+  self: https://www.givefood.org.uk/api/2/needs/b205a0d9/
+- foodbank:
+    name: Harrow
+    slug: harrow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/harrow/
+      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDQ0cDAndCA==
+  - *id001
+  id: 7d6283a0
+  needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
+    \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
+    \nTinned Potatoes\r\nCooking Oil\r\nLong-life Fruit Juice\r\nPasta Sauce\r\nWomen’s\
+    \ Deodorant\r\nAdult And Children Toothpaste\r\nMen’s Body Wash\r\nJam\r\nTinned\
+    \ Meatballs\r\nTinned Macaroni Cheese\r\nToilet Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/7d6283a0/
+- foodbank:
+    name: Glenrothes
+    slug: glenrothes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/glenrothes/
+      self: https://www.givefood.org.uk/api/2/foodbank/glenrothes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDQ0CIgcksg==
+  - *id001
+  id: 7ddc615e
+  needs: "Rice\r\nTinned Potatoes/instant Mash\r\nMeat Paste\r\nUHT Milk\r\nCereal\r\
+    \nPorridge\r\nTinned Fruit\r\nFray Bentos Pies\r\nLaundry Tablets\r\nTinned Spaghetti"
+  self: https://www.givefood.org.uk/api/2/needs/7ddc615e/
+- foodbank:
     name: Batley
     slug: batley
     urls:
@@ -7,11 +89,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDQwxJQfnvQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c06f6f93
   needs: "Tinned Meat, Fish, Halal And Meat-free Alternatives\r\nTinned Potatoes And\
     \ Other Vegetables, Fruit, Rice Pudding, Custard\r\nBreakfast Cereals, UHT Milk,\
@@ -1517,78 +1595,3 @@
     Tinned Meat\r\nAll Toiletries, Men's And Women's\r\nCoffee - Preferably Small\
     \ Jars\r\nRice\r\nCereal"
   self: https://www.givefood.org.uk/api/2/needs/c2ec2b83/
-- foodbank:
-    name: Harrow
-    slug: harrow
-    urls:
-      html: https://www.givefood.org.uk/needs/at/harrow/
-      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBg0eHQnv1g==
-  - *id001
-  id: a2a930dd
-  needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
-    \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
-    \nTinned Peas\r\nTinned Potatoes\r\nCooking Oil\r\nLong-life Fruit Juice\r\nPasta\
-    \ Sauce\r\nWomen’s Deodorant\r\nAdult And Children Toothpaste\r\nMen’s Body Wash"
-  self: https://www.givefood.org.uk/api/2/needs/a2a930dd/
-- foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBgw6LgtXmA==
-  - *id001
-  id: ca8ee3b2
-  needs: "Shampoo\r\nToilet Rolls\r\nQuality Carrier Bags (Bags For Life)\r\nTinned\
-    \ Meat\r\nSavoury Crackers\r\nSponge Puddings\r\nRice (500g)\r\nTinned Sweetcorn\r\
-    \nTinned Carrots\r\nCuppa -Soups\r\nDeodorant\r\nWashing Powder/tablets"
-  self: https://www.givefood.org.uk/api/2/needs/ca8ee3b2/
-- foodbank:
-    name: Loughborough Area
-    slug: loughborough-area
-    urls:
-      html: https://www.givefood.org.uk/needs/at/loughborough-area/
-      self: https://www.givefood.org.uk/api/2/foodbank/loughborough-area/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBgsiJwLbrQ==
-  - *id001
-  id: 865ab31d
-  needs: "UHT Milk\r\nSoup\r\nCooking Sauces\r\nBaked Beans\r\nPot Noodles\r\nShower\
-    \ Gel"
-  self: https://www.givefood.org.uk/api/2/needs/865ab31d/
-- foodbank:
-    name: Arden
-    slug: arden
-    urls:
-      html: https://www.givefood.org.uk/needs/at/arden/
-      self: https://www.givefood.org.uk/api/2/foodbank/arden/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBgsVHgEfUw==
-  - *id001
-  id: 3004a3e8
-  needs: "Tinned Potatoes\r\nTinned Fruit\r\nJam\r\nCoffee\r\nPot Noodles\r\nChocolates/sweets"
-  self: https://www.givefood.org.uk/api/2/needs/3004a3e8/
-- foodbank:
-    name: Gravesham
-    slug: gravesham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/gravesham/
-      self: https://www.givefood.org.uk/api/2/foodbank/gravesham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBgg1HQm7bA==
-  - *id001
-  id: be5fb56e
-  needs: "Tins Of Fruit\r\nTins Of Custard\r\nCooking Oil (Regular Size)\r\nCartons\
-    \ Of Long Life Milk - Green And Blue\r\nInstant Packets Of Noodles Eg, Super Noodles\r\
-    \nBiscuits\r\nReady Made Jellies\r\nGravy Granules\r\nTins Of Macaroni Cheese\r\
-    \nSmall Bottles Of Squash/cordial\r\nInstant Packets Of Cous Cous\r\nCrackers\r\
-    \nCereal Bars\r\nConfectionery\r\nMayonnaise\r\nTomato Sauce\r\nGravy Granules"
-  self: https://www.givefood.org.uk/api/2/needs/be5fb56e/
