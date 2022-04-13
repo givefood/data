@@ -1,4 +1,24 @@
 - foodbank:
+    name: Whitchurch
+    slug: whitchurch
+    urls:
+      html: https://www.givefood.org.uk/needs/at/whitchurch/
+      self: https://www.givefood.org.uk/api/2/foodbank/whitchurch/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDRAwJQ0obw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: dbae359c
+  needs: "Jars Of Coffee (Large And Small)\r\nTins Of Custard\r\nPot Noodles\r\nPackets\
+    \ Of Mashed Potato\r\nTins Of Fruit\r\nJars Of Jam\r\nSponge Puddings\r\nLong-life\
+    \ Orange Juice\r\nLong-life Milk\r\nPorridge\r\nTins Of Rice Pudding\r\nJars Of\
+    \ Fish/meat Paste\r\nCream Crackers\r\nWashing-up Liquid\r\nWashing Powder/liquid"
+  self: https://www.givefood.org.uk/api/2/needs/dbae359c/
+- foodbank:
     name: Callington
     slug: callington
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDQ8LFQR3pg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: abf10428
   needs: "Washing Powder/tabs/liquid For Clothes\r\nTinned Cooked Meat (Ie Chilli\
     \ Con Carne/curries/meatballs)\r\nSponge Puddings\r\nMens Razors\r\nLadies Razors\r\
@@ -1580,18 +1596,3 @@
   needs: "Bolognese Sauce\r\nCooking Sauces (Curry, Sweet N' Sour, Chilli)\r\nTinned\
     \ Spaghetti\r\nToothpaste\r\nSquash\r\nTinned Meat\r\nSize 6 Nappies"
   self: https://www.givefood.org.uk/api/2/needs/612ea73b/
-- foodbank:
-    name: Fallowfield & Withington
-    slug: fallowfield-withington
-    urls:
-      html: https://www.givefood.org.uk/needs/at/fallowfield-withington/
-      self: https://www.givefood.org.uk/api/2/foodbank/fallowfield-withington/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBg0oKgKjDQ==
-  - *id001
-  id: c2ec2b83
-  needs: "UHT Milk\r\nFruit Juice And Squash\r\nTinned Fish\r\nTinned Tomatoes\r\n\
-    Tinned Meat\r\nAll Toiletries, Men's And Women's\r\nCoffee - Preferably Small\
-    \ Jars\r\nRice\r\nCereal"
-  self: https://www.givefood.org.uk/api/2/needs/c2ec2b83/
