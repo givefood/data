@@ -1,4 +1,29 @@
 - foodbank:
+    name: Selkirk
+    slug: selkirk
+    urls:
+      html: https://www.givefood.org.uk/needs/at/selkirk/
+      self: https://www.givefood.org.uk/api/2/foodbank/selkirk/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDhEaGgQ0WQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 481cf63b
+  needs: "Tinned Meat:  Spam, Ham, Corned Beef\r\nReady Meals:  Stew, Meatballs, Curries\r\
+    \nMinced Beef, Fray Bentos Pies\r\nBaked Beans:  Medium & Small Tins\r\nTinned\
+    \ Veg:  Peas, Carrots, Sweetcorn\r\nTinned Fish:  Tuna, Salmon, Sardines\r\nSoups: \
+    \ Medium & Small Tins\r\nPackets Of Cup-a-soup\r\nPasta Sauce:  All Flavours,\
+    \ Medium Jars\r\nPasta/spaghetti:  500g Packets\r\nRice:  500g Packets\r\nPotatoes: \
+    \ Medium & Small Tins\r\nPackets Of Powder\r\nRice Pudding:  Medium Size Tins\r\
+    \nCustard:  Medium Size Tins\r\nTea Bags:  40s\r\nInstant Coffee:  100g Jars\r\
+    \nJam/marmalade:  Medium Jars\r\nBiscuits:  Sweet & Savoury\r\nCereals:  Standard\
+    \ Boxes\r\nWhite Sugar:  500g Packets"
+  self: https://www.givefood.org.uk/api/2/needs/481cf63b/
+- foodbank:
     name: Burngreave
     slug: burngreave
     urls:
@@ -7,11 +32,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDhECAQk5wQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1f2a92a8
   needs: "Tinned Fish\r\nTinned Soup\r\nUHT Milk (1 Litre)\r\nDried Milk Powder\r\n\
     Long-life Fruit Juice\r\nBiscuits\r\nToilet Paper\r\nCooking Oil\r\nTinned Fruit\r\
@@ -1582,28 +1603,3 @@
     \nLong-life Rice Pudding\r\nShampoo\r\nDeodorant\r\nWashing Up Liquid\r\nRazors\r\
     \nToothpaste\r\nShaving Foam/gel\r\nStrong Carrier Bags"
   self: https://www.givefood.org.uk/api/2/needs/39adcc33/
-- foodbank:
-    name: Loaves & Fishes
-    slug: loaves-fishes
-    urls:
-      html: https://www.givefood.org.uk/needs/at/loaves-fishes/
-      self: https://www.givefood.org.uk/api/2/foodbank/loaves-fishes/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBwsmBQ5K4w==
-  - *id001
-  id: 49fbe66f
-  needs: "Packet – Pasta & Sauce\r\nPacket – Savoury Rice\r\nSuper Noodles -Instant\
-    \ Noodles\r\nInstant Mashed Potatoes\r\nPot Noodle\r\nUHT Milk\r\nCoffee\r\nUHT\
-    \ Juice\r\nDiluting Juice\r\nJam\r\nCat Food – Dry And Wet\r\nDog Food – Dry And\
-    \ Wet\r\nBiscuits – All\r\nStock Cubes – All Flavours\r\nGravy Granules\r\nSugar\r\
-    \nPasta Sauce\r\nTinned Meat – Hotdogs, Meatballs, Tuna Fish\r\nTinned Vegetables\
-    \ – Peas, Carrots, Potatoes, Sweet Corn, Green Beans\r\nDried Pulses- Red Lentils,\
-    \ Scotch Broth Mix\r\nSoup\r\nSpaghetti Hoops\r\nBaked Beans\r\nCup Of Soup\r\n\
-    Tinned Meals – Beans & Sausage, Chili Con Carne, Tinned Curry Meal, Macaroni And\
-    \ Cheese, Ravioli\r\nHartley’s Jelly Tablets\r\nCereal – All Including Porridge\r\
-    \nDeodorant – All Kinds\r\nChildren Shampoo\r\nChildren Bath Soap\r\nBaby Bath/shampoo\r\
-    \nRazors – 4pk\r\nShampoo – Mens And Womens\r\nShower Gel\r\nLiquid Soap\r\nBar\
-    \ Soap\r\nBaby Wipes\r\nToilet Roll\r\nKitchen Roll\r\nLaundry Tablets\r\nWashing\
-    \ Up Liquid\r\nCleaning Sprays (Not Bleach)"
-  self: https://www.givefood.org.uk/api/2/needs/49fbe66f/
