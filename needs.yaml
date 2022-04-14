@@ -1,4 +1,43 @@
 - foodbank:
+    name: Caterham
+    slug: caterham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/caterham/
+      self: https://www.givefood.org.uk/api/2/foodbank/caterham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDgsuEgZKyQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5ce9085b
+  needs: "Tinned Meat\r\nCoffee\r\nFruit Juice\r\nSponge Puddings\r\nPowdered Milk\r\
+    \nToiletries Including Feminine Hygiene Products , Deodorant\r\nShaving Products"
+  self: https://www.givefood.org.uk/api/2/needs/5ce9085b/
+- foodbank:
+    name: Southampton Basics Bank
+    slug: southampton-basics-bank
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
+      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDgsiIgIgPg==
+  - *id001
+  id: 622025f7
+  needs: "Carrier Bags\r\nCoffee (Small Jars)\r\nCook-in Sauces (Jars & Packets)\r\
+    \nCustard\r\nHot Chocolate\r\nJams & Spreads\r\nNappies Size 4 – 6\r\nNoodles (Packets)\r\
+    \nSquash & Drinks\r\nSugar (Small Bags)\r\nTinned Carrots\r\nTinned Cold Meat (Ham,\
+    \ Spam, Etc.)\r\nTinned Hot Meat (Curry, Pies, Stew, Etc.)\r\nTinned Kidney Beans\
+    \ & Pulses\r\nTinned Mixed Veg\r\nTinned Rice Pudding\r\nTinned Spaghetti (In\
+    \ Tomato Sauce)\r\nTinned Sweetcorn\r\nToiletries (Shampoo)\r\nToiletries (Toilet\
+    \ Rolls)\r\nBaby Food\r\nHousehold Larder\r\nRice\r\nTinned Fruit\r\nToiletries\
+    \ (Male & Female Deodorant)\r\nToiletries (Soap & Shower Gel)\r\nPet Food (Dogs)\r\
+    \nUHT Milk"
+  self: https://www.givefood.org.uk/api/2/needs/622025f7/
+- foodbank:
     name: Redbridge
     slug: redbridge
     urls:
@@ -7,11 +46,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDgk6EARHdA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8c1fa47a
   needs: "Teabags\r\nTinned Fish\r\nTinned Fruit\r\nRice\r\nPacket Noodles\r\nVegetarian\
     \ Food Items (Tins / Packets)\r\nCooking Oil\r\nPasta Sauce\r\nLong Life Milk\r\
@@ -1573,31 +1608,3 @@
     \ Stock\r\nEggs\r\nSponge Puddings/slab Cake\r\nUHT Milk\r\nLong Life Cartons\
     \ Of Fruit Juice\r\nCustard\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/9c2ff962/
-- foodbank:
-    name: Bassetlaw
-    slug: bassetlaw
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bassetlaw/
-      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBwodIwvTAQ==
-  - *id001
-  id: 55518ef0
-  needs: "Wet Dog Food\r\nTinned Peas\r\nInstant Mash\r\nToilet Roll\r\nTinned Fruit\r\
-    \nTuna\r\nOther Tinned Fish\r\nCustard\r\nRice Pudding\r\nTinned Pasta With Meat\r\
-    \nLong-life Milk"
-  self: https://www.givefood.org.uk/api/2/needs/55518ef0/
-- foodbank:
-    name: Glasgow SE
-    slug: glasgow-se
-    urls:
-      html: https://www.givefood.org.uk/needs/at/glasgow-se/
-      self: https://www.givefood.org.uk/api/2/foodbank/glasgow-se/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBwk1NglF7g==
-  - *id001
-  id: 10b721f2
-  needs: "Cereal\r\nPasta Sauce\r\nCustard\r\nSoap\r\nToothpaste\r\nUHT Milk"
-  self: https://www.givefood.org.uk/api/2/needs/10b721f2/
