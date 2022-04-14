@@ -38,6 +38,21 @@
     \nUHT Milk"
   self: https://www.givefood.org.uk/api/2/needs/622025f7/
 - foodbank:
+    name: Warwick District
+    slug: warwick-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/warwick-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/warwick-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDgshGwNiOQ==
+  - *id001
+  id: beca855c
+  needs: "Long Life Fruit Juice\r\nLong Life Milk\r\nInstant Mash\r\nInstant Noodles\r\
+    \nJam\r\nTinned Meat Meals\r\nPasta Sauce\r\nDeodorants\r\nShampoo\r\nShaving\
+    \ Foam/gel\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/beca855c/
+- foodbank:
     name: Redbridge
     slug: redbridge
     urls:
@@ -1593,18 +1608,3 @@
     \ And Sauce)\r\nPasta Sauce\r\nInstant Mashed Potato\r\nTinned / Instant Custard\r\
     \nTinned Fruit\r\nBiscuits\r\nUHT Milk\r\nUHT Fruit Juice\r\nInstant Coffee"
   self: https://www.givefood.org.uk/api/2/needs/62e95e6c/
-- foodbank:
-    name: Market Drayton
-    slug: market-drayton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/market-drayton/
-      self: https://www.givefood.org.uk/api/2/foodbank/market-drayton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBwo0Iw0iJA==
-  - *id001
-  id: 9c2ff962
-  needs: "Packets Of Instant Mash - No Stock\r\nBiscuits - No Stock\r\nSoup - Low\
-    \ Stock\r\nEggs\r\nSponge Puddings/slab Cake\r\nUHT Milk\r\nLong Life Cartons\
-    \ Of Fruit Juice\r\nCustard\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/9c2ff962/
