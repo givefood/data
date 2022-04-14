@@ -1,4 +1,59 @@
 - foodbank:
+    name: Redbridge
+    slug: redbridge
+    urls:
+      html: https://www.givefood.org.uk/needs/at/redbridge/
+      self: https://www.givefood.org.uk/api/2/foodbank/redbridge/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDgk6EARHdA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8c1fa47a
+  needs: "Teabags\r\nTinned Fish\r\nTinned Fruit\r\nRice\r\nPacket Noodles\r\nVegetarian\
+    \ Food Items (Tins / Packets)\r\nCooking Oil\r\nPasta Sauce\r\nLong Life Milk\r\
+    \nLong Fruit Juice\r\nJam / Spreads\r\nCustard / Rice Pudding\r\nShampoo\r\nShower\
+    \ Gel\r\nToothpaste\r\nToilet Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/8c1fa47a/
+- foodbank:
+    name: Stratford Upon Avon
+    slug: stratford-upon-avon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stratford-upon-avon/
+      self: https://www.givefood.org.uk/api/2/foodbank/stratford-upon-avon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDgYeFgmPGA==
+  - *id001
+  id: '64392167'
+  needs: "Toilet Roll\r\nFruit Juice\r\nUHT Milk (Whole & Semi Skimmed)\r\nRice Puding\r\
+    \nInstant Coffee\r\nInstant Mash\r\nTinned Potatoes\r\nTinned Vegetables\r\nBeef\
+    \ & Chicken Tinned Curry\r\nVegetarian Tinned Meals; Ravioli, Mac Cheese, Veg\
+    \ Cury\r\nToothbrushes\r\nShampoo & Conditioner\r\nShower Gel\r\nDeodrant\r\n\
+    Washing Detergent [Small Sizes]\r\nWashing Up Liquid\r\nCleaning Products"
+  self: https://www.givefood.org.uk/api/2/needs/64392167/
+- foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDRYcFw0ONw==
+  - *id001
+  id: 996f4ce3
+  needs: "Instant Mash\r\nLong-life Fruit Juice\r\nTinned Fish Other Than Tuna And\
+    \ Mackerel, Such As Salmon\r\nTinned Spaghetti\r\nTinned Vegetables\r\nTomato\
+    \ Ketchup\r\nSquash\r\nUHT Milk\r\nTeabags\r\nJam, Marmalade Etc.\r\nCereal\r\n\
+    Jelly\r\nSponge Puddings\r\n2-helping Dried Pasta In Sauce\r\nSingle Adult Toothbrushes\r\
+    \nHair Conditioner\r\nWashing Detergent\r\nChildren's Shampoo, Shower Gel, Bubble\
+    \ Bath\r\nDried Cat Food"
+  self: https://www.givefood.org.uk/api/2/needs/996f4ce3/
+- foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
     urls:
@@ -7,11 +62,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDRMEDQYG0A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 99f18d5b
   needs: "Coffee\r\nTinned Potatoes\r\nInstant Mashed Potatoes\r\nTinned Fruit\r\n\
     Tinned Custard\r\nUHT (Long Life) Milk\r\nAntiperspirant Deodorant"
@@ -1550,46 +1601,3 @@
   id: 10b721f2
   needs: "Cereal\r\nPasta Sauce\r\nCustard\r\nSoap\r\nToothpaste\r\nUHT Milk"
   self: https://www.givefood.org.uk/api/2/needs/10b721f2/
-- foodbank:
-    name: Caithness
-    slug: caithness
-    urls:
-      html: https://www.givefood.org.uk/needs/at/caithness/
-      self: https://www.givefood.org.uk/api/2/foodbank/caithness/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBhAnHAPU9w==
-  - *id001
-  id: a1f82b7c
-  needs: "Tinned Fruit (400gms)\r\nJam/marmalade\r\nCrackers\r\nSize 4,5 And 6 Nappies\r\
-    \nSugar\r\nTinned Cold Meat"
-  self: https://www.givefood.org.uk/api/2/needs/a1f82b7c/
-- foodbank:
-    name: Hart
-    slug: hart
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hart/
-      self: https://www.givefood.org.uk/api/2/foodbank/hart/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBhAbJAcR9Q==
-  - *id001
-  id: 7e1634ec
-  needs: "Tins: Meat, Vegetables, Soup, Custard, Rice Pudding, Fruit\r\nSmall Packs:\
-    \ Washing Detergent, Cleaning Products"
-  self: https://www.givefood.org.uk/api/2/needs/7e1634ec/
-- foodbank:
-    name: Richmond
-    slug: richmond
-    urls:
-      html: https://www.givefood.org.uk/needs/at/richmond/
-      self: https://www.givefood.org.uk/api/2/foodbank/richmond/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBg8TCwEywg==
-  - *id001
-  id: f71e22b5
-  needs: "Long-life Juice\r\nTinned Fish And Tinned Meat\r\nPasta Sauces\r\nDisposable\
-    \ Razors\r\nMilk\r\nWashing Up Liquid\r\nShaving Foam\r\nDeodorant (Men And Women)\r\
-    \nShower Gel\r\nCrisps\r\nCooking Oil"
-  self: https://www.givefood.org.uk/api/2/needs/f71e22b5/
