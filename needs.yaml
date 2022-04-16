@@ -1,4 +1,22 @@
 - foodbank:
+    name: St. Mary's Haughton Green
+    slug: st-marys-haughton-green
+    urls:
+      html: https://www.givefood.org.uk/needs/at/st-marys-haughton-green/
+      self: https://www.givefood.org.uk/api/2/foodbank/st-marys-haughton-green/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEAEdNgydrw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6867dd87
+  needs: "Long Life Milk\r\nTinned Fish\r\nCordial\r\nJam\r\nSavoury Rice\r\nInstant\
+    \ Noodles\r\nRice Pudding\r\nTinned Tomatoes"
+  self: https://www.givefood.org.uk/api/2/needs/6867dd87/
+- foodbank:
     name: Haywards Heath
     slug: haywards-heath
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEDw0YDQCqcA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ad36cc7e
   needs: "Washing Powder/liquid\r\nLong Life Fruit Juice\r\nWashing Up Liquid\r\n\
     Shower Gel (For Male & Female)\r\nShampoo/conditioner (For Male & Female)\r\n\
@@ -1590,18 +1604,3 @@
     \ Tinned Dog Food\r\nVegetable Pies And Meals Suitable For Vegetarians And Vegans\r\
     \nTinned Vegetables\r\nLaundry Powder/liquid\r\nTinned Potatoes\r\nTinned Spaghetti"
   self: https://www.givefood.org.uk/api/2/needs/d8b6bcd1/
-- foodbank:
-    name: Cheltenham
-    slug: cheltenham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cheltenham/
-      self: https://www.givefood.org.uk/api/2/foodbank/cheltenham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBxAMGg1yCA==
-  - *id001
-  id: 1d8d23ac
-  needs: "Mens Deodrant\r\nToothbrushes\r\nTinned Tomatoes\r\nInstant Noodles And\
-    \ Instant Rice\r\nLong Life Milk\r\nWashing Up Liquid\r\nSponge Puddings/ Packet\
-    \ Desserts\r\nLong Life Fruit Juice"
-  self: https://www.givefood.org.uk/api/2/needs/1d8d23ac/
