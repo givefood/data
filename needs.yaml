@@ -1,4 +1,38 @@
 - foodbank:
+    name: North Cotswold
+    slug: north-cotswold
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-cotswold/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-cotswold/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEERQxNgULLg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 25fb16d2
+  needs: "Sponge Puddings\r\nCrumble Mix\r\nToilet Rolls\r\nFabric Conditioner\r\n\
+    Nappies Sizes 4,6 & 7\r\nAngel Delight\r\nJellies\r\nTrifle Mix\r\nGravy Mix\r\
+    \nDog Food\r\nLong Life Fruit Juice\r\nLonglife Milk\r\nJams\r\nCooking Oil"
+  self: https://www.givefood.org.uk/api/2/needs/25fb16d2/
+- foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEERQeHAQgTg==
+  - *id001
+  id: b0019e4f
+  needs: "Coffee\r\nLong Life Fruit Juice (Urgent)\r\nDried Instant Mashed Potatoes\r\
+    \nPasta\r\nBottles Of Squash\r\nUHT (Long Life) Milk\r\nLadies Antiperspirant\
+    \ Deodorant\r\nLadies Shampoo\r\nMens Antiperspirant Deodorant"
+  self: https://www.givefood.org.uk/api/2/needs/b0019e4f/
+- foodbank:
     name: Sid Valley
     slug: sid-valley
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEEBQoNgIhKQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: abc324bc
   needs: "Tins Soup\r\nTins Tomatoes\r\nFamily Size Cartons Of Fruit Juice\r\nSavoury\
     \ Crackers\r\nTinned Meat\r\nTinned Vegetables\r\nTinned Fruit\r\nTinned Tomatoes\r\
@@ -1576,35 +1606,3 @@
     \nTinned Spaghetti\r\nCleaning Products\r\nKitchen Rolls And Toilet Rolls\r\n\
     Washing Powder\r\nCarrier Bags"
   self: https://www.givefood.org.uk/api/2/needs/c28185f4/
-- foodbank:
-    name: Shepway
-    slug: shepway
-    urls:
-      html: https://www.givefood.org.uk/needs/at/shepway/
-      self: https://www.givefood.org.uk/api/2/foodbank/shepway/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBxEwDwIu8g==
-  - *id001
-  id: 5adafcdd
-  needs: "Spreads\r\nChildren's Toothbrushes\r\nCoffee\r\nHousehold Cleaner (No Bleach)"
-  self: https://www.givefood.org.uk/api/2/needs/5adafcdd/
-- foodbank:
-    name: Dunstable
-    slug: dunstable
-    urls:
-      html: https://www.givefood.org.uk/needs/at/dunstable/
-      self: https://www.givefood.org.uk/api/2/foodbank/dunstable/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBxA0BwTSzw==
-  - *id001
-  id: be8520d7
-  needs: "Tinned Fish, E.g. Tuna, Mackerel, Pilchards, Salmon\r\nTinned Tomatoes\r\
-    \nTinned Meat (E.g. Ham, Spam, Pork)\r\nTinned Rice Pudding\r\nSponge Puddings\r\
-    \nMilk (UHT/long-life)\r\nFruit Juice (UHT Carton)\r\nSoup\r\nPasta Sauces (Jar)\r\
-    \nTinned Tomatoes\r\nTinned Meat Meals\r\nTinned Fish (Tuna, Salmon, Mackerel\
-    \ Etc.)\r\nTinned Vegetables\r\nTinned Potatoes & Instant Mash Potato\r\nRice\
-    \ & Pasta\r\nTinned Fruit\r\nCereal\r\nRice Pudding (Tinned)\r\nTea Bags & Instant\
-    \ Coffee\r\nJam\r\nSnack Noodles (Pots/packets)\r\nBiscuits & Snack Bars"
-  self: https://www.givefood.org.uk/api/2/needs/be8520d7/
