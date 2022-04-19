@@ -1,4 +1,22 @@
 - foodbank:
+    name: Saltash
+    slug: saltash
+    urls:
+      html: https://www.givefood.org.uk/needs/at/saltash/
+      self: https://www.givefood.org.uk/api/2/foodbank/saltash/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEw0ULQHxAA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6a2dccbf
+  needs: "UHT Fruit Juice\r\nSugar\r\nMilk Powder\r\nPuddings (Angel Delight, Jelly\
+    \ Cubes, Trifle Mix, Sponge Puddings)\r\nJam\r\nNoodles"
+  self: https://www.givefood.org.uk/api/2/needs/6a2dccbf/
+- foodbank:
     name: Brent
     slug: brent
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEEwwoBAYpSw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 587eebc8
   needs: "Tinned Meat\r\nTinned Fish\r\nLong Life Milk (Skimmed & Whole)\r\nTinned\
     \ Veg\r\nTinned Fruit\r\nPasta Sauce\r\nTea & Coffee (Small Sizes)\r\nJams & Spreads\r\
@@ -1592,18 +1606,3 @@
     \ (Small Bag, Please)\r\nTinned Cold Meat\r\nLaundry Detergent (Liquid Or Tabs,\
     \ Please)\r\nJam\r\nLonglife Milk (1 Litre, Please)\r\nCoffee"
   self: https://www.givefood.org.uk/api/2/needs/48c2ba39/
-- foodbank:
-    name: Market Drayton
-    slug: market-drayton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/market-drayton/
-      self: https://www.givefood.org.uk/api/2/foodbank/market-drayton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECA0tAA2g0Q==
-  - *id001
-  id: 36d4ed6a
-  needs: "Toilet Rolls - No Stock\r\nPackets Of Instant Mash - No Stock\r\nBiscuits\
-    \ - No Stock\r\nSoup - Low Stock\r\nEggs\r\nSponge Puddings/slab Cake\r\nUHT Milk\r\
-    \nLong Life Cartons Of Fruit Juice\r\nCustard\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/36d4ed6a/
