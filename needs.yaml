@@ -1,4 +1,52 @@
 - foodbank:
+    name: Brent
+    slug: brent
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brent/
+      self: https://www.givefood.org.uk/api/2/foodbank/brent/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEwwoBAYpSw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 587eebc8
+  needs: "Tinned Meat\r\nTinned Fish\r\nLong Life Milk (Skimmed & Whole)\r\nTinned\
+    \ Veg\r\nTinned Fruit\r\nPasta Sauce\r\nTea & Coffee (Small Sizes)\r\nJams & Spreads\r\
+    \nRice Pudding/custard\r\nAll Toiletries"
+  self: https://www.givefood.org.uk/api/2/needs/587eebc8/
+- foodbank:
+    name: Newcastle West End
+    slug: newcastle-west-end
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newcastle-west-end/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-west-end/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEwwdOgshAA==
+  - *id001
+  id: 0633b185
+  needs: "Cereal\r\nBiscuits\r\nCustard\r\nRice Pudding\r\nTea\r\nCoffee\r\nCurry\
+    \ Sauce"
+  self: https://www.givefood.org.uk/api/2/needs/0633b185/
+- foodbank:
+    name: Long Eaton & Sawley
+    slug: long-eaton-sawley
+    urls:
+      html: https://www.givefood.org.uk/needs/at/long-eaton-sawley/
+      self: https://www.givefood.org.uk/api/2/foodbank/long-eaton-sawley/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEwwWOwYWSw==
+  - *id001
+  id: d07e390a
+  needs: "Tinned Vegetables\r\nTinned Potatoes\r\nTinned Fruit\r\nSoup\r\nCustard\r\
+    \nTea\r\nRice Pudding\r\nSavoury Snacks\r\nMilk Powder\r\nLong Life Sponge Puddings\r\
+    \nFruit Juice\r\nToothpaste"
+  self: https://www.givefood.org.uk/api/2/needs/d07e390a/
+- foodbank:
     name: Skipton
     slug: skipton
     urls:
@@ -7,11 +55,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEEwsNKwxUmg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 4e2f40da
   needs: "Chickpeas/pulses\r\nWashing Powder\r\nTinned Meat\r\nLong Grain Rice\r\n\
     Custard\r\nBars Of Soap"
@@ -1563,49 +1607,3 @@
     \ - No Stock\r\nSoup - Low Stock\r\nEggs\r\nSponge Puddings/slab Cake\r\nUHT Milk\r\
     \nLong Life Cartons Of Fruit Juice\r\nCustard\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/36d4ed6a/
-- foodbank:
-    name: Grace
-    slug: grace
-    urls:
-      html: https://www.givefood.org.uk/needs/at/grace/
-      self: https://www.givefood.org.uk/api/2/foodbank/grace/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECAwzFAHDXA==
-  - *id001
-  id: 99f406b5
-  needs: "Plain White Rice/microwave Rice\r\nJars Of Pasta Sauce\r\nTinned Tomatoes\r\
-    \nBiscuits\r\nChocolate/sweet Treats\r\nShower Gel\r\nShampoo\r\nWashing Up Liquid\r\
-    \nEaster Eggs"
-  self: https://www.givefood.org.uk/api/2/needs/99f406b5/
-- foodbank:
-    name: Oldham
-    slug: oldham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/oldham/
-      self: https://www.givefood.org.uk/api/2/foodbank/oldham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECAwsNg3H2g==
-  - *id001
-  id: 2e1d0e44
-  needs: "Tinned Meat\r\nTinned Potatoes\r\nSugar\r\nBiscuits\r\nJam/ Marmalade"
-  self: https://www.givefood.org.uk/api/2/needs/2e1d0e44/
-- foodbank:
-    name: Guernsey
-    slug: guernsey
-    urls:
-      html: https://www.givefood.org.uk/needs/at/guernsey/
-      self: https://www.givefood.org.uk/api/2/foodbank/guernsey/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECAwcMwJ2eg==
-  - *id001
-  id: fa979a58
-  needs: "Corned Beef\r\nPasta Sauce\r\nCustard And Rice Pudding\r\nRice Pudding\r\
-    \nPasta Sauce\r\nSugar\r\nTomato Sauce\r\nTinned Meat (Corned Beef, Hot Dogs Etc)\r\
-    \nCoffee\r\nCrisps\r\nCustard\r\nTinned Vegetables (Peas, Carrots, Sweetcorn,\
-    \ Potatoes)\r\nTinned Fruit\r\nTinned Spaghetti\r\nTuna\r\nRice\r\nMayonnaise\r\
-    \nBiscuits\r\nStrawberry Jam\r\nCereals\r\nOrange Or Blackcurrant Squash\r\nFray\
-    \ Bentos Pies"
-  self: https://www.givefood.org.uk/api/2/needs/fa979a58/
