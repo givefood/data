@@ -1,4 +1,24 @@
 - foodbank:
+    name: Exmouth
+    slug: exmouth
+    urls:
+      html: https://www.givefood.org.uk/needs/at/exmouth/
+      self: https://www.givefood.org.uk/api/2/foodbank/exmouth/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEhU6OgjO0Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: aef16243
+  needs: "Baked Beans/spaghetti\r\nBreakfast Cereals/ Oats\r\nTinned Fruits\r\nFruit\
+    \ Squash/juice\r\nPackets Of Instant Potatoes\r\nCartons Of Longlife Milk\r\n\
+    Tinned Tomatoes\r\nTinned Vegetables ( Peas, Sweetcorn, Beans, Mixed)\r\nPasta\
+    \ Sauce\r\nRice Pudding/custard\r\nBags For Life"
+  self: https://www.givefood.org.uk/api/2/needs/aef16243/
+- foodbank:
     name: Antrim
     slug: antrim
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEEg42CQf4ww==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f7d4025a
   needs: "UHT Milk (2 Litres)\r\nFruit Juice (1 Litre)\r\nTinned Fruit And Tinned\
     \ Fish\r\nTea And Coffee\r\nBiscuits / Snack Bars\r\nRice Pudding / Custard"
@@ -1587,18 +1603,3 @@
     UHT Milk\r\nShaving Foam\r\nMens Razors\r\nToilet Paper\r\nSmall Jars Of Coffee\r\
     \nTinned Rice Pudding\r\nLadies Deodrant\r\nShampoo\r\nCartons Of Fruit Juice"
   self: https://www.givefood.org.uk/api/2/needs/99e9cd90/
-- foodbank:
-    name: Runnymede
-    slug: runnymede
-    urls:
-      html: https://www.givefood.org.uk/needs/at/runnymede/
-      self: https://www.givefood.org.uk/api/2/foodbank/runnymede/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEBxMzOgNwXw==
-  - *id001
-  id: '54078825'
-  needs: "Long Life Juice\r\nCoffee\r\nBottle Of Squash\r\nShaving Foam\r\nSponge\
-    \ Pudding\r\nTinned Custard\r\nJar Of Pasta Sauce\r\nPack Of Instant Noodles\r\
-    \nAnti Bacterial Spray\r\nJam"
-  self: https://www.givefood.org.uk/api/2/needs/54078825/
