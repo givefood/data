@@ -1,4 +1,22 @@
 - foodbank:
+    name: Barnsley
+    slug: barnsley
+    urls:
+      html: https://www.givefood.org.uk/needs/at/barnsley/
+      self: https://www.givefood.org.uk/api/2/foodbank/barnsley/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEw4HLAfxiA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: f1e0ccb9
+  needs: "Dilute/juice\r\nPacket And Tinned Potatoes\r\nRice Pudding\r\nRice\r\nBiscuits\r\
+    \nLong Life Milk\r\nShower Gel\r\nDeodorant"
+  self: https://www.givefood.org.uk/api/2/needs/f1e0ccb9/
+- foodbank:
     name: Saltash
     slug: saltash
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEEw0ULQHxAA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6a2dccbf
   needs: "UHT Fruit Juice\r\nSugar\r\nMilk Powder\r\nPuddings (Angel Delight, Jelly\
     \ Cubes, Trifle Mix, Sponge Puddings)\r\nJam\r\nNoodles"
@@ -1589,20 +1603,3 @@
   needs: "Tinned Vegetables\r\nTinned Fruit\r\nTinned Potatoes\r\nInstant Mash\r\n\
     Quick Cook Noodles\r\nEaster Eggs"
   self: https://www.givefood.org.uk/api/2/needs/2dbe605a/
-- foodbank:
-    name: Braintree Area
-    slug: braintree-area
-    urls:
-      html: https://www.givefood.org.uk/needs/at/braintree-area/
-      self: https://www.givefood.org.uk/api/2/foodbank/braintree-area/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECA4GDQRs+w==
-  - *id001
-  id: 48c2ba39
-  needs: "Shampoo\r\nLong Life Juice (1 Litre Maximum)\r\nInstant Mashed Potato\r\n\
-    Packet Soup\r\nTinned Spaghetti\r\nTea Bags (80 Maximum)\r\nStrong Carrier Bags,\
-    \ Please.\r\nTinned Tomatoes\r\nTinned Veg\r\nSponge Pudding (Twin Pack)\r\nSugar\
-    \ (Small Bag, Please)\r\nTinned Cold Meat\r\nLaundry Detergent (Liquid Or Tabs,\
-    \ Please)\r\nJam\r\nLonglife Milk (1 Litre, Please)\r\nCoffee"
-  self: https://www.givefood.org.uk/api/2/needs/48c2ba39/
