@@ -1,4 +1,22 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEEwsNKwxUmg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4e2f40da
+  needs: "Chickpeas/pulses\r\nWashing Powder\r\nTinned Meat\r\nLong Grain Rice\r\n\
+    Custard\r\nBars Of Soap"
+  self: https://www.givefood.org.uk/api/2/needs/4e2f40da/
+- foodbank:
     name: Southend
     slug: southend
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEEwo2DwSeLQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 10e47146
   needs: "Meat Meals – Tinned Curry, Chili Con Carne, Chicken In Sauce, Tinned Pie\r\
     \nJam\r\nTinned Vegetables - Carrots, Sweetcorn, Peas\r\nRice Pudding\r\nVegetable\
@@ -1595,17 +1609,3 @@
     \nBiscuits\r\nStrawberry Jam\r\nCereals\r\nOrange Or Blackcurrant Squash\r\nFray\
     \ Bentos Pies"
   self: https://www.givefood.org.uk/api/2/needs/fa979a58/
-- foodbank:
-    name: Abergavenny
-    slug: abergavenny
-    urls:
-      html: https://www.givefood.org.uk/needs/at/abergavenny/
-      self: https://www.givefood.org.uk/api/2/foodbank/abergavenny/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECAskLQYA5A==
-  - *id001
-  id: a44225fc
-  needs: "Tinned Custard\r\nTea\r\nTinned Fruit\r\nSmall Jars Of Coffee\r\nTinned\
-    \ Chicken In White Sauce Or Minced Beef\r\nShampoo\r\nToothpaste\r\nSquash"
-  self: https://www.givefood.org.uk/api/2/needs/a44225fc/
