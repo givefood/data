@@ -1,4 +1,22 @@
 - foodbank:
+    name: Yeovil
+    slug: yeovil
+    urls:
+      html: https://www.givefood.org.uk/needs/at/yeovil/
+      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFBEgIQEeXg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5c1c7384
+  needs: "Cuppa Soup\r\nTins Of Beans And Sausage\r\nTins Of Fruit\r\nTins Of Rice\
+    \ Pudding\r\nPackets Of Crisps\r\nBars Of Soap\r\nShampoo\r\nCarrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/5c1c7384/
+- foodbank:
     name: Southport
     slug: southport
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFA4nAQesSw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0890e061
   needs: "Pasta Sauce\r\nTinned Meat\r\nTinned Fruit\r\nRice Pudding\r\nTinned Custard\r\
     \nRice\r\nInstant Coffee\r\nBiscuits And Crackers\r\nLonglife Fruit Juice"
@@ -1570,18 +1584,3 @@
     \nTinned Tomatoes\r\nCoffee - Small Jars\r\nTinned Potatoes Or Instant Mash\r\n\
     Deodorant (For Men And Women)\r\nToothpaste\r\nSponge Puddings"
   self: https://www.givefood.org.uk/api/2/needs/6e186fa0/
-- foodbank:
-    name: Chichester District
-    slug: chichester-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chichester-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECwkCDALMRw==
-  - *id001
-  id: ea0bf888
-  needs: "Squash\r\nMeat/fish Paste For Sandwiches\r\nTinned Fruit\r\nTinned Tomatoes\r\
-    \nRazors And; Shaving Foam/gel\r\nSponge Puddings\r\nMulti-purpose Cleaner\r\n\
-    Tinned Vegetables\r\nPlastic Carrier Bags - Bags For Life Preferably."
-  self: https://www.givefood.org.uk/api/2/needs/ea0bf888/
