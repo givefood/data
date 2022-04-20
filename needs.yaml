@@ -1,4 +1,37 @@
 - foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFAwUKgZ0vg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c65ff14a
+  needs: "Tinned Fish\r\nLong Life Fruit Juice (Urgent)\r\nTinned Soup\r\nPasta\r\n\
+    Shower Gel\r\nShampoo\r\nLadies Antiperspirant Deodorant\r\nMens Antiperspirant\
+    \ Deodorant"
+  self: https://www.givefood.org.uk/api/2/needs/c65ff14a/
+- foodbank:
+    name: Tameside East
+    slug: tameside-east
+    urls:
+      html: https://www.givefood.org.uk/needs/at/tameside-east/
+      self: https://www.givefood.org.uk/api/2/foodbank/tameside-east/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFAwRIAcrPg==
+  - *id001
+  id: 089e0a3c
+  needs: "Long Life Fruit Juice/ Squash\r\nCoffee\r\nTinned Custard And Creamed Rice\r\
+    \nTinned Potatoes Or Instant Mash\r\nBiscuits"
+  self: https://www.givefood.org.uk/api/2/needs/089e0a3c/
+- foodbank:
     name: Doncaster
     slug: doncaster
     urls:
@@ -7,11 +40,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFAsxOQ2uQQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: efac0846
   needs: "Rice Pudding\r\nTinned Fruit\r\nLong Life Juice\r\nDrinking Chocolate\r\n\
     Snacks\r\nMen's Deodorant\r\nWomen's Deodorant\r\nSponge Pudding\r\nCustard\r\n\
@@ -1573,37 +1602,3 @@
   needs: "Tinned Stew\r\nTinned Curry\r\nSpaghetti Hoops\r\nTwix, Mars Or Snickers\
     \ Chocolate Bars\r\nShampoo/conditioner\r\nToothbrushes\r\nToothpaste"
   self: https://www.givefood.org.uk/api/2/needs/bee5b271/
-- foodbank:
-    name: Brecon
-    slug: brecon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/brecon/
-      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECBUMHwY8EQ==
-  - *id001
-  id: b564ca18
-  needs: "Instant Mash\r\nLong-life Fruit Juice\r\nTinned Tomatoes (Not Extra-large\
-    \ Tins)\r\nAdult Toothpaste\r\nTinned Fish Other Than Tuna And Mackerel, Such\
-    \ As Salmon\r\nTinned Spaghetti\r\nSweets And Chocolates\r\nSquash\r\nUHT Milk\r\
-    \nTeabags\r\nJam, Marmalade Etc.\r\nCereal\r\nJelly\r\nSponge Puddings\r\n2-helping\
-    \ Dried Pasta In Sauce\r\nSingle Adult Toothbrushes\r\nHair Conditioner\r\nWashing\
-    \ Detergent\r\nChildren's Shampoo, Shower Gel, Bubble Bath"
-  self: https://www.givefood.org.uk/api/2/needs/b564ca18/
-- foodbank:
-    name: North Enfield
-    slug: north-enfield
-    urls:
-      html: https://www.givefood.org.uk/needs/at/north-enfield/
-      self: https://www.givefood.org.uk/api/2/foodbank/north-enfield/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECBIOMAyiBg==
-  - *id001
-  id: 553954ad
-  needs: "Carrier Bags\r\nLong Life Milk\r\nTinned Chicken / Beef\r\nTinned Tomatoes\r\
-    \nTinned Fish\r\nNoodles\r\nSmall Coffee Jars\r\nHot Chocolate\r\nJam\r\nRice\
-    \ Pudding / Custard\r\nSavoury Snacks\r\nBiscuits\r\nSweet Snacks\r\nSugar\r\n\
-    Toiletries"
-  self: https://www.givefood.org.uk/api/2/needs/553954ad/
