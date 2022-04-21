@@ -1,4 +1,68 @@
 - foodbank:
+    name: Godmanchester
+    slug: godmanchester
+    urls:
+      html: https://www.givefood.org.uk/needs/at/godmanchester/
+      self: https://www.givefood.org.uk/api/2/foodbank/godmanchester/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFQguMA7moQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 96189e9b
+  needs: "Jam\r\nBiscuits\r\nUHT Semi Skimmed Milk\r\nTinned Veg - Peas, Carrots,\
+    \ Sweetcorn, Potatoes\r\nTinned Meat - Ham, Corned Beef, Chilli, Chicken In Sauce\r\
+    \nTea (80's) And Coffee - Medium Size Jars\r\nRice In 500gm Or 1 Kg Bags\r\nTinned\
+    \ Fruit\r\nTinned Pasta Such As Hoops, Ravioli\r\nSquash - Orange And Blackcurrant"
+  self: https://www.givefood.org.uk/api/2/needs/96189e9b/
+- foodbank:
+    name: Stroud District
+    slug: stroud-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stroud-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/stroud-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFBYbCQvk2Q==
+  - *id001
+  id: aa11238e
+  needs: "Fruit Juice\r\nTinned Vegetables\r\nTinned Tomatoes\r\nPasta Sauce\r\nRice\
+    \ Pudding\r\nTinned Custard\r\nTinned Potatoes\r\nUHT Milk\r\nDeodorants\r\nNappies\
+    \ Sizes 5/6"
+  self: https://www.givefood.org.uk/api/2/needs/aa11238e/
+- foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFBUcIw59jw==
+  - *id001
+  id: cfb96c1f
+  needs: "Squash\r\nLong Life Milk\r\nMeat/fish Paste For Sandwiches\r\nTinned Fruit\r\
+    \nTinned Vegetables\r\nTinned Meat\r\nLaundry Powder/liquid\r\nSponge Puddings\r\
+    \nPlastic Bags (Bags For Life)"
+  self: https://www.givefood.org.uk/api/2/needs/cfb96c1f/
+- foodbank:
+    name: Hart
+    slug: hart
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hart/
+      self: https://www.givefood.org.uk/api/2/foodbank/hart/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFBMtAwv5eg==
+  - *id001
+  id: 3c2505f5
+  needs: "Tea\r\nCoffee\r\nTinned Vegetables\r\nTinned Fruit\r\nSoup\r\nTinned Spaghetti\r\
+    \nUHT Milk\r\nSponge Puddings\r\n1 Ltr Juice\r\nShower Gel"
+  self: https://www.givefood.org.uk/api/2/needs/3c2505f5/
+- foodbank:
     name: Yeovil
     slug: yeovil
     urls:
@@ -7,11 +71,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFBEgIQEeXg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5c1c7384
   needs: "Cuppa Soup\r\nTins Of Beans And Sausage\r\nTins Of Fruit\r\nTins Of Rice\
     \ Pudding\r\nPackets Of Crisps\r\nBars Of Soap\r\nShampoo\r\nCarrier Bags"
@@ -1524,63 +1584,3 @@
     \ & Stock Cubes\r\nTinned Ravioli\r\nStir-in Pasta & Curry Sauces\r\nWashing Powder\
     \ (Small Boxes)"
   self: https://www.givefood.org.uk/api/2/needs/2f4fccdc/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECwsrEwgpfQ==
-  - *id001
-  id: 31b3e5fd
-  needs: "Single Toothbrushes\r\nWashing Powder\r\nTinned Meat\r\nLong Grain Rice"
-  self: https://www.givefood.org.uk/api/2/needs/31b3e5fd/
-- foodbank:
-    name: Southend
-    slug: southend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southend/
-      self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECwsXOgSRDQ==
-  - *id001
-  id: 71e93daa
-  needs: "Meat Meals – Tinned Curry, Chili Con Carne, Chicken In Sauce, Tinned Pie\r\
-    \nTinned Vegetables\r\nJam\r\nUHT Milk - Full Fat Or Semi Skimmed\r\nLong Life\
-    \ Fruit Juice Or Squash\r\nStrong Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/71e93daa/
-- foodbank:
-    name: Stoke-on-Trent
-    slug: stoke-on-trent
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stoke-on-trent/
-      self: https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECwoSFgx9Dg==
-  - *id001
-  id: 8f6a2164
-  needs: "Jam\r\nTea Bags Size 40's\r\nFruit Juice\r\nCarrier Bags\r\nCereal\r\nTinned\
-    \ Soup\r\nTinned Tomato\r\nJar Pasta Sauce\r\nTinned Vegetables\r\nTinned Meat\r\
-    \nTinned Fish\r\nRice Pudding\r\nTinned Fruit\r\nTinned Sponge Pudding\r\nBiscuits\r\
-    \nTea Bags\r\nUHT Fruit Juice\r\nUHT Milk\r\nSavoury Treats\r\nSweet Treats /\
-    \ Chocolate Etc\r\nCoffee"
-  self: https://www.givefood.org.uk/api/2/needs/8f6a2164/
-- foodbank:
-    name: South Liverpool
-    slug: south-liverpool
-    urls:
-      html: https://www.givefood.org.uk/needs/at/south-liverpool/
-      self: https://www.givefood.org.uk/api/2/foodbank/south-liverpool/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECwkKGwTYHQ==
-  - *id001
-  id: 6e186fa0
-  needs: "Long-life Milk\r\nTinned Fruit\r\nLong-life Juice Or Squash\r\nTinned Fish\r\
-    \nTinned Tomatoes\r\nCoffee - Small Jars\r\nTinned Potatoes Or Instant Mash\r\n\
-    Deodorant (For Men And Women)\r\nToothpaste\r\nSponge Puddings"
-  self: https://www.givefood.org.uk/api/2/needs/6e186fa0/
