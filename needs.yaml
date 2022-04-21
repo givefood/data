@@ -1,4 +1,24 @@
 - foodbank:
+    name: Newham District
+    slug: newham-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newham-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/newham-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFQ0iLwlN7A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: e07349b6
+  needs: "Tea Bags (40s/80s)\r\nCoffee (100g) Jars\r\nTinned Fruit All Varieties\r\
+    \nRice Pudding/custard\r\nMilk (Green & Blue) 2 Pints\r\nFruit Juice/squash\r\n\
+    Biscuits\r\nTinned Chopped Tomatoes\r\nVegetarian Soups (Not Meat Varieties)\r\
+    \nSoup"
+  self: https://www.givefood.org.uk/api/2/needs/e07349b6/
+- foodbank:
     name: St Albans and District
     slug: st-albans-and-district
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFQs0IgtoHA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6d9eea43
   needs: "Baked Beans\r\nTinned Rice Pudding\r\nTinned Meats\r\nTinned Fish\r\nTinned\
     \ Tomatoes\r\nQuick Cook/noodles\r\nTinned Fruit\r\nJam & Spreads\r\nDesserts\
@@ -1573,17 +1589,3 @@
     \nAntibacterial Spray\r\nWashing Tablets\r\nHand Wash\r\nHair Conditioner\r\n\
     Adult Toothbrushes\r\nLadies Deodrant\r\nMen's Deodorant\r\nMen's Shower Gel"
   self: https://www.givefood.org.uk/api/2/needs/d8ec1ee6/
-- foodbank:
-    name: Ammanford
-    slug: ammanford
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ammanford/
-      self: https://www.givefood.org.uk/api/2/foodbank/ammanford/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECw4kIwVEAA==
-  - *id001
-  id: 726705ec
-  needs: "Tinned Tomatoes\r\nTinned Carrots\r\nTinned Fruit\r\nTinned Potatoes\r\n\
-    Instant Coffee\r\nTinned Fish\r\nBiscuits\r\nToiletries"
-  self: https://www.givefood.org.uk/api/2/needs/726705ec/
