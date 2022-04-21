@@ -34,6 +34,25 @@
     \nJars Of Peanut Butter & Chocolate Spread\r\nSmall Bottles Of Squash/cordial"
   self: https://www.givefood.org.uk/api/2/needs/3cccff55/
 - foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFQsEJQv+yg==
+  - *id001
+  id: ff61cae3
+  needs: "Pasta Sauce\r\nTinned Meat/meat Meals\r\nBaked Beans/tinned Spaghetti\r\n\
+    Tinned Soup\r\nTomato Ketchup\r\nRazors (Men)\r\nShaving Gel/foam (Women)\r\n\
+    Tinned Custard\r\nSponge Puddings (Not Chilled)\r\nTinned Vegetables\r\nUHT Long\
+    \ Life Milk\r\nTinned Tomatoes\r\nDried Milk\r\nTinned Rice Pudding\r\nBaby Food\r\
+    \nLong Life Juice\r\nInstant Noodles\r\nTinned Fruit\r\nRice (500g/1kg)\r\nShower\
+    \ Gel\r\nStock Cubes Meat Or Veg\r\nTinned Fish\r\nSugar (500g/1kg)\r\nInstant\
+    \ Mash\r\nCooking Oil"
+  self: https://www.givefood.org.uk/api/2/needs/ff61cae3/
+- foodbank:
     name: Woking
     slug: woking
     urls:
@@ -1568,19 +1587,3 @@
   needs: "Tinned Tomatoes\r\nTinned Carrots\r\nTinned Fruit\r\nTinned Potatoes\r\n\
     Instant Coffee\r\nTinned Fish\r\nBiscuits\r\nToiletries"
   self: https://www.givefood.org.uk/api/2/needs/726705ec/
-- foodbank:
-    name: Penryn & Falmouth
-    slug: penryn-falmouth
-    urls:
-      html: https://www.givefood.org.uk/needs/at/penryn-falmouth/
-      self: https://www.givefood.org.uk/api/2/foodbank/penryn-falmouth/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECw05BwZP9g==
-  - *id001
-  id: 116a7604
-  needs: "Tinned Carrots\r\nTinned Potatoes\r\nNoodles\r\nSmall Tins Of Meat\r\nSmall\
-    \ Tins Of Corned Beef\r\nLong Life Milk\r\nSmall Jars Of Coffee\r\nTinned Tomatoes\r\
-    \nToilet Rolls\r\nWashing Up Liquid\r\nWet Cat Food\r\nFruit Squash\r\nPorridge\r\
-    \nLong Grain Rice\r\nStrong Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/116a7604/
