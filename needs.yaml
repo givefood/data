@@ -1,4 +1,22 @@
 - foodbank:
+    name: Keynsham
+    slug: keynsham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/keynsham/
+      self: https://www.givefood.org.uk/api/2/foodbank/keynsham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFg0zGwWDRw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: dd3a468a
+  needs: "Granulated Sugar (Small Packets)\r\nCooking Oil (1 Litre Or Less, Ie Small\
+    \ Bottles)\r\nSmall Tins Of Any Veg\r\nUHT Fruit Juice\r\nSavoury Biscuits"
+  self: https://www.givefood.org.uk/api/2/needs/dd3a468a/
+- foodbank:
     name: Harrow
     slug: harrow
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFgwcNwfi1w==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 3cedab8c
   needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
     \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
@@ -1558,20 +1572,3 @@
     \ Water Adding To It)\r\nTinned Peas\r\nTinned Sweetcorn\r\nCustard\r\nMulti-pack\
     \ Chocolate Bars\r\nShower Gel"
   self: https://www.givefood.org.uk/api/2/needs/e87a133a/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDAwEGgKNhw==
-  - *id001
-  id: 321499f3
-  needs: "UHT Long Life Milk\r\nBaked Beans/tinned Spaghetti\r\nTinned Meat/meat Meals\r\
-    \nTinned Soup\r\nPasta Sauce\r\nSponge Puddings - Not Chilled\r\nCooking Oil\r\
-    \nTinned Custard\r\nTinned Vegetables\r\nStock Cubes Meat Or Veg\r\nTinned Tomatoes\r\
-    \nLong Life Juice\r\nTinned Fruit\r\nRice (500g/1kg)\r\nShower Gel\r\nCooking\
-    \ Oil\r\nTinned Fish\r\nSugar (500g)\r\nBaby Food\r\nInstant Mash"
-  self: https://www.givefood.org.uk/api/2/needs/321499f3/
