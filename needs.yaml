@@ -1,4 +1,40 @@
 - foodbank:
+    name: Milton Keynes
+    slug: milton-keynes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/milton-keynes/
+      self: https://www.givefood.org.uk/api/2/foodbank/milton-keynes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFgQGDgQYnA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: afd47564
+  needs: "Long Life Milk\r\nSpreads – Jams, Peanut Butter Or Chocolate Spread\r\n\
+    Tea\r\nSugar\r\nTinned Fruit\r\nDried Rice – 500g Or 1kg Packets Please\r\nCous\
+    \ Cous (Kettle Pack)\r\nRice Pudding/custard\r\nTinned Meat\r\nTinned Fish"
+  self: https://www.givefood.org.uk/api/2/needs/afd47564/
+- foodbank:
+    name: Rochdale
+    slug: rochdale
+    urls:
+      html: https://www.givefood.org.uk/needs/at/rochdale/
+      self: https://www.givefood.org.uk/api/2/foodbank/rochdale/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFRQ7Awdr6Q==
+  - *id001
+  id: 8a6c3f39
+  needs: "Tinned Soups\r\nTinned Meat\r\nTinned Tomatoes\r\nCuppa Soup\r\nNoodles/instant\
+    \ Meals\r\nTinned Fish\r\nJam\r\nMilk\r\nPasta/cooking Sauces\r\nSugar\r\nTea/coffee/hot\
+    \ Chocolate\r\nTinned Veg\r\nTinned Fruit\r\nTinned Potatoes\r\nBiscuits\r\nCrisps\
+    \ & Snacks\r\nCleaning Products\r\nToiletries\r\nTinned Rice\r\nTinned Custard\r\
+    \nTinned Potatoes/instant Mash"
+  self: https://www.givefood.org.uk/api/2/needs/8a6c3f39/
+- foodbank:
     name: Caterham
     slug: caterham
     urls:
@@ -7,11 +43,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFRIdBg3R3A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 7ef365bb
   needs: "Tinned Tomatoes\r\nPasta Sauce\r\nInstant Mash / Tinned Potatoes\r\nTinned\
     \ Meat\r\nFruit Juice\r\nSponge Puddings\r\nPowdered Milk"
@@ -1551,35 +1583,3 @@
     \nMayonnaise\r\nTinned Fruit\r\nTinned Hot Dog Sausages\r\nTinned Meatballs\r\n\
     UHT Milk\r\nToilet Rolls\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/87106fef/
-- foodbank:
-    name: Vauxhall
-    slug: vauxhall
-    urls:
-      html: https://www.givefood.org.uk/needs/at/vauxhall/
-      self: https://www.givefood.org.uk/api/2/foodbank/vauxhall/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECxMhKQuFdg==
-  - *id001
-  id: 1a0dec65
-  needs: "Toiletries\r\nTinned Tomatoes\r\nWashing Up Liquid Laundry Pods\r\nTinned\
-    \ Soup\r\nBaked Beans\r\nDried Pulse\r\nRice 500g/1kg\r\nSingle Sachet Porridge\r\
-    \nSanitary Pads\r\nUHT Sponge Puddings\r\nTinned Meat (Pork Free)\r\nFlour 500g/1kg\r\
-    \nUHT Milk\r\nToilet Rolls\r\nHot Chocolate"
-  self: https://www.givefood.org.uk/api/2/needs/1a0dec65/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECxMQKAU69Q==
-  - *id001
-  id: 50e7426f
-  needs: "Baked Beans/tinned Spaghetti\r\nCooking Oil\r\nPasta Sauce\r\nSponge Puddings\
-    \ - Not Chilled\r\nTinned Soup\r\nTinned Custard\r\nTinned Fish\r\nTinned Meat/meat\
-    \ Meals\r\nStock Cubes Meat Or Veg\r\nTinned Tomatoes\r\nLong Life Juice\r\nTinned\
-    \ Fruit\r\nTinned Vegetables\r\nShower Gel\r\nUHT Long Life Milk"
-  self: https://www.givefood.org.uk/api/2/needs/50e7426f/
