@@ -1,4 +1,22 @@
 - foodbank:
+    name: Kinson & West Howe
+    slug: kinson-west-howe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/kinson-west-howe/
+      self: https://www.givefood.org.uk/api/2/foodbank/kinson-west-howe/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFgkbIgL02w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5295ee00
+  needs: "UHT Milk\r\nJam\r\nPot Noodles\r\nNoodles\r\nPuddings\r\nSavoury Rice\r\n\
+    Cuppa-a-soup\r\nCheese Biscuits"
+  self: https://www.givefood.org.uk/api/2/needs/5295ee00/
+- foodbank:
     name: Milton Keynes
     slug: milton-keynes
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFgQGDgQYnA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: afd47564
   needs: "Long Life Milk\r\nSpreads – Jams, Peanut Butter Or Chocolate Spread\r\n\
     Tea\r\nSugar\r\nTinned Fruit\r\nDried Rice – 500g Or 1kg Packets Please\r\nCous\
@@ -1568,18 +1582,3 @@
     Pasta Sauce\r\nWomen’s Deodorant\r\nAdult And Children Toothpaste\r\nMen’s Body\
     \ Wash"
   self: https://www.givefood.org.uk/api/2/needs/d7b10a0e/
-- foodbank:
-    name: The Whitehawk
-    slug: the-whitehawk
-    urls:
-      html: https://www.givefood.org.uk/needs/at/the-whitehawk/
-      self: https://www.givefood.org.uk/api/2/foodbank/the-whitehawk/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YECxYuKQL6IA==
-  - *id001
-  id: 87106fef
-  needs: "Tinned Curry (Meat / Vegan / Vegetarian)\r\nTinned Tuna\r\nTinned Vegetables\r\
-    \nMayonnaise\r\nTinned Fruit\r\nTinned Hot Dog Sausages\r\nTinned Meatballs\r\n\
-    UHT Milk\r\nToilet Rolls\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/87106fef/
