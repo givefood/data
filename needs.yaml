@@ -1,54 +1,4 @@
 - foodbank:
-    name: North Cotswold
-    slug: north-cotswold
-    urls:
-      html: https://www.givefood.org.uk/needs/at/north-cotswold/
-      self: https://www.givefood.org.uk/api/2/foodbank/north-cotswold/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFxE4KwOGMw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 61ad548a
-  needs: "Sponge Puddings\r\nPacket Sauce Mixes\r\nTinned Potatoes\r\nTinned Pasta\r\
-    \nTinned Vegetables\r\nTinned Meat\r\nCrumble Mix\r\nToilet Rolls\r\nLaundry Liquid\
-    \ & Powder\r\nFabric Conditioner\r\nNappies Sizes 4,6 & 7\r\nAngel Delight\r\n\
-    Jellies\r\nTrifle Mix\r\nGravy Mix\r\nDog Food\r\nLong Life Fruit Juice\r\nLonglife\
-    \ Milk\r\nJams\r\nCooking Oil"
-  self: https://www.givefood.org.uk/api/2/needs/61ad548a/
-- foodbank:
-    name: Thetford
-    slug: thetford
-    urls:
-      html: https://www.givefood.org.uk/needs/at/thetford/
-      self: https://www.givefood.org.uk/api/2/foodbank/thetford/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFxAtLgbT/w==
-  - *id001
-  id: 28ecf6a1
-  needs: "Longlife Juice/squash\r\nTinned Vegetables\r\nTinned Tomatoes\r\nTinned\
-    \ Fruit\r\nInstant Coffee\r\nSavoury Snacks"
-  self: https://www.givefood.org.uk/api/2/needs/28ecf6a1/
-- foodbank:
-    name: Rickmansworth
-    slug: rickmansworth
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rickmansworth/
-      self: https://www.givefood.org.uk/api/2/foodbank/rickmansworth/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFw8LOwpb6Q==
-  - *id001
-  id: e2a8ffee
-  needs: "Tinned Custard/rice Pudding\r\nHand Wash/soap Bars\r\nDog Food\r\nTinned\
-    \ Tomatoes\r\nLong Life Milk\r\nJam\r\nWashing Up Liquid\r\nWashing Powder\r\n\
-    Shower Gel\r\nLong Life Juice/squash\r\nTinned Vegetables\r\nShampoo\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/e2a8ffee/
-- foodbank:
     name: Harrow
     slug: harrow
     urls:
@@ -57,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFws7Mwymkw==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 7b93d431
   needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
     \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
@@ -1568,3 +1522,50 @@
     \ Rice Pudding\r\nFeminine Hygiene\r\nMen's Razors\r\nShaving Foam / Gel\r\nToilet\
     \ Rolls\r\nWashing Powder/gel/capsules"
   self: https://www.givefood.org.uk/api/2/needs/f85427e3/
+- foodbank:
+    name: Malvern Hills
+    slug: malvern-hills
+    urls:
+      html: https://www.givefood.org.uk/needs/at/malvern-hills/
+      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDBABGQYlBA==
+  - *id001
+  id: a9fb8a4e
+  needs: "Tinned Potatoes\r\nTinned Meat\r\nTomato Ketchup\r\nTeabags In 40s And 80s\r\
+    \nMale And Female Deodorant\r\nMale And Female Shampoo\r\nWashing Up Liquid\r\n\
+    Nappies Size 5 And 6"
+  self: https://www.givefood.org.uk/api/2/needs/a9fb8a4e/
+- foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDA8ZOwqAzQ==
+  - *id001
+  id: de2569f2
+  needs: "Pasta Sauce\r\nUHT Long Life Milk\r\nTinned Meat/meat Meals\r\nBaked Beans/tinned\
+    \ Spaghetti\r\nTinned Soup\r\nSponge Puddings (Not Chilled)\r\nCooking Oil\r\n\
+    Tinned Custard\r\nTinned Vegetables\r\nStock Cubes Meat Or Veg\r\nTinned Tomatoes\r\
+    \nLong Life Juice\r\nTinned Fruit\r\nRice (500g/1kg)\r\nShower Gel\r\nCooking\
+    \ Oil\r\nTinned Fish\r\nSugar (500g/1kg)\r\nBaby Food\r\nInstant Mash\r\nDried\
+    \ Milk\r\nTinned Rice Pudding"
+  self: https://www.givefood.org.uk/api/2/needs/de2569f2/
+- foodbank:
+    name: Horsham District
+    slug: horsham-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/horsham-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/horsham-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDA8WGQLElA==
+  - *id001
+  id: 7ba83191
+  needs: "Marmite, Honey, Chocolate Spread\r\nSponge Puddings\r\nSquash\r\nCrisps\
+    \ And Savoury Snacks"
+  self: https://www.givefood.org.uk/api/2/needs/7ba83191/
