@@ -1,4 +1,25 @@
 - foodbank:
+    name: Harrow
+    slug: harrow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/harrow/
+      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFws7Mwymkw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 7b93d431
+  needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
+    \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
+    \nTinned Potatoes\r\nLong-life Fruit Juice\r\nWomen’s Deodorant\r\nAdult And Children\
+    \ Toothpaste\r\nJam\r\nTinned Meatballs\r\nTinned Macaroni Cheese\r\nToilet Rolls\r\
+    \nWashing-up Liquid\r\nMen’s Body Wash\r\nTinned Custard"
+  self: https://www.givefood.org.uk/api/2/needs/7b93d431/
+- foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFwo2AQJLnw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a55b3102
   needs: "Mens Antiperspirant Deodorant\r\nToilet Rolls"
   self: https://www.givefood.org.uk/api/2/needs/a55b3102/
@@ -1552,17 +1569,3 @@
   needs: "Marmite, Honey, Chocolate Spread\r\nSponge Puddings\r\nSquash\r\nCrisps\
     \ And Savoury Snacks"
   self: https://www.givefood.org.uk/api/2/needs/7ba83191/
-- foodbank:
-    name: Glasgow SE
-    slug: glasgow-se
-    urls:
-      html: https://www.givefood.org.uk/needs/at/glasgow-se/
-      self: https://www.givefood.org.uk/api/2/foodbank/glasgow-se/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDA4LFA5vOQ==
-  - *id001
-  id: f788ae91
-  needs: "Cereal\r\nPasta Sauce\r\nCustard\r\nSoap\r\nToothpaste\r\nUHT Milk\r\nTinned\
-    \ Meat"
-  self: https://www.givefood.org.uk/api/2/needs/f788ae91/
