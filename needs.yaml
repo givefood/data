@@ -1,4 +1,34 @@
 - foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFwo2AQJLnw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: a55b3102
+  needs: "Mens Antiperspirant Deodorant\r\nToilet Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/a55b3102/
+- foodbank:
+    name: Waveney
+    slug: waveney
+    urls:
+      html: https://www.givefood.org.uk/needs/at/waveney/
+      self: https://www.givefood.org.uk/api/2/foodbank/waveney/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFhU2CwhMJQ==
+  - *id001
+  id: 60fc6a35
+  needs: "Rice Pudding\r\nTinned Fruit\r\nUHT Milk\r\nSugar\r\nCustard\r\nBiscuits"
+  self: https://www.givefood.org.uk/api/2/needs/60fc6a35/
+- foodbank:
     name: Cobham Area
     slug: cobham-area
     urls:
@@ -7,11 +37,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFhMPHAj0aw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 316b8f2d
   needs: "Tinned Meat\r\nUHT Fruit Juice 1l (Preferably Apple Or Orange Juice)\r\n\
     Fruit Squash\r\nSponge Puddings\r\nTinned Vegetables & Potatoes\r\nSnacks (Savoury\
@@ -1540,36 +1566,3 @@
   needs: "Cereal\r\nPasta Sauce\r\nCustard\r\nSoap\r\nToothpaste\r\nUHT Milk\r\nTinned\
     \ Meat"
   self: https://www.givefood.org.uk/api/2/needs/f788ae91/
-- foodbank:
-    name: Barnsley
-    slug: barnsley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/barnsley/
-      self: https://www.givefood.org.uk/api/2/foodbank/barnsley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDA4IJAWTog==
-  - *id001
-  id: abccaf0d
-  needs: "Long Life Milk\r\nDilute/juice\r\nPasta Sauce\r\nPacket/instant Potato\r\
-    \nTinned Potatoes\r\nRice Pudding\r\nBiscuits\r\nToothpaste\r\nToothbrushes\r\n\
-    Shower Gel\r\nShampoo"
-  self: https://www.givefood.org.uk/api/2/needs/abccaf0d/
-- foodbank:
-    name: Riverside Vineyard Storehouse
-    slug: riverside-vineyard-storehouse
-    urls:
-      html: https://www.givefood.org.uk/needs/at/riverside-vineyard-storehouse/
-      self: https://www.givefood.org.uk/api/2/foodbank/riverside-vineyard-storehouse/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDA0YJQdfbg==
-  - *id001
-  id: ccb593e7
-  needs: "Cereal (For Children)\r\nRice\r\nOil\r\nSugar\r\nMilk\r\nNoodles (Pot Noodles)\r\
-    \nPulses\r\nTinned Meat\r\nCoffee\r\nJam\r\nMeatballs\r\nHotdogs\r\nCup A Soup\r\
-    \nMeat Soups\r\nCooking Sauces (Pasta Or Curry)\r\nTinned Veg, Tomatoes, Soup,\
-    \ Fruit\r\nUHT Milk\r\nLaundry Detergent\r\nHousehold Cleaning Products (Anti-bac\
-    \ Spray, Washing Up Liquid, Bleach, Disinfectant Sprays Etc.)\r\nToiletries\r\n\
-    Shampoo\r\nNappies Size 4,5,6 & Baby Wipes\r\nToothpaste & Brushes"
-  self: https://www.givefood.org.uk/api/2/needs/ccb593e7/
