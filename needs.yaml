@@ -1,4 +1,52 @@
 - foodbank:
+    name: Malvern Hills
+    slug: malvern-hills
+    urls:
+      html: https://www.givefood.org.uk/needs/at/malvern-hills/
+      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGBA4EggGAA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4efb6609
+  needs: "Tinned Potatoes\r\nTinned Rice Pudding\r\nTinned Fruit\r\nJam\r\nTomato\
+    \ Ketchup\r\nUHT Milk\r\nWashing Up Liquid\r\nLaundry Detergent\r\nShampoo\r\n\
+    Toothpaste\r\nChildren's Toothbrushes\r\nAdult Toothbrushes\r\nNappies Size 5\
+    \ And Size 6"
+  self: https://www.givefood.org.uk/api/2/needs/4efb6609/
+- foodbank:
+    name: Hound Basics
+    slug: hound-basics
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hound-basics/
+      self: https://www.givefood.org.uk/api/2/foodbank/hound-basics/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGA87DA2UoQ==
+  - *id001
+  id: ca995e7c
+  needs: "Carrier Bags\r\nClean Empty Jam Jars (Not Ones That Have Contained Anything\
+    \ Spicy Please)\r\nDry Spaghetti\r\nHot Dogs\r\nKids' Healthy Snacks, E.g., Raisins\r\
+    \nLasagne Sheets\r\nOlive Oil (Small)\r\nPacket Sauces\r\nQuick Noodles\r\nShampoo\
+    \ (Unisex)\r\nSwiss Roll (Molly's)\r\nTinned Cold Meat\r\nTinned Custard\r\nTinned\
+    \ Spaghetti\r\nTinned Sweetcorn\r\nUHT Milk\r\nVegetarian Fray Bentos Pies\r\n\
+    Women's Deodorant/toiletries\r\nAntibacterial Wipes\r\nBaby Food (7+ Months)\r\
+    \nBaby Wash\r\nChildren’s Shampoo\r\nChildren’s Toothpaste/toothbrushes\r\nChocolate\
+    \ Bars / Sweets\r\nCook-in Sauces (Tomato)\r\nCrisps\r\nEvaporated Milk\r\nFabric\
+    \ Conditioner\r\nGluten Free Items\r\nHair Conditioner\r\nHot Chocolate / Horlicks\r\
+    \nHousehold Cleaning Items\r\nJam / Marmalade\r\nJelly Powder Packets\r\nKitchen\
+    \ Rolls\r\nMarmite\r\nMash Potato Packets\r\nMayonnaise\r\nMen's Antiperspirant\
+    \ / Deodorant\r\nPeanut Butter\r\nPot Noodles\r\nShower Gel / Shampoo (Unisex)\r\
+    \nSmall Jelly / Fruit Pots\r\nSmall Size Porridge (500g) Or Porridge Pots\r\n\
+    Steamed Puddings\r\nSugar / Sweeteners\r\nTampax\r\nTissues\r\nToilet Rolls\r\n\
+    Tomato Sauce / Brown Sauce\r\nToothpaste\r\nTuna Pasta Bake Packet Sauce\r\nWashing\
+    \ Up Liquid\r\nWhite Lasagne Sauce"
+  self: https://www.givefood.org.uk/api/2/needs/ca995e7c/
+- foodbank:
     name: B30
     slug: b30
     urls:
@@ -7,11 +55,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGAoXHwRdDA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: bfa1b6bf
   needs: "Tinned Rice Pudding\r\nTinned Potatoes\r\nTinned Fruit In Juice(not Prunes\
     \ Or Grapefruit)\r\nRice\r\nInstant Coffee (Not Decaf)\r\nSugar (500g Bags Not\
@@ -1541,34 +1585,3 @@
     \ Custard\r\nTinned Fruit\r\nChocolate And Sweets\r\nToothbrushes And Toothpaste\r\
     \nShower Gel\r\nShampoo\r\nShaving Foam\r\nToilet Roll\r\nWashing Up Liquid"
   self: https://www.givefood.org.uk/api/2/needs/32c760d8/
-- foodbank:
-    name: Market Drayton
-    slug: market-drayton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/market-drayton/
-      self: https://www.givefood.org.uk/api/2/foodbank/market-drayton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDBIfJw2C2w==
-  - *id001
-  id: fdc325b6
-  needs: "UHT Milk - No Stock\r\nLong Life Cartons Of Fruit Juice - No Stock\r\nToilet\
-    \ Rolls - No Stock\r\nPackets Of Instant Mash - No Stock\r\nBiscuits - No Stock\r\
-    \nWashing Powder/tabs\r\nWashing Up Liquid\r\nMale/female Deodorant\r\nShampoo\r\
-    \nSponge Puddings/slab Cake\r\nWashing Tabs/ Powder"
-  self: https://www.givefood.org.uk/api/2/needs/fdc325b6/
-- foodbank:
-    name: Peterborough
-    slug: peterborough
-    urls:
-      html: https://www.givefood.org.uk/needs/at/peterborough/
-      self: https://www.givefood.org.uk/api/2/foodbank/peterborough/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDBEeOgVpfA==
-  - *id001
-  id: 51494da4
-  needs: "Tinned Meat\r\nPasta Sauce Ie Pasta Bake And Bolognese Sauces\r\nUHT Milk\r\
-    \nLong Life Fruit Juice\r\nToilet Rolls\r\nTinned Fruit\r\nRice Pudding\r\nToiletries\
-    \ , Deodorant And Shower Gel"
-  self: https://www.givefood.org.uk/api/2/needs/51494da4/
