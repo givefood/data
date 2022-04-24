@@ -1,4 +1,29 @@
 - foodbank:
+    name: B30
+    slug: b30
+    urls:
+      html: https://www.givefood.org.uk/needs/at/b30/
+      self: https://www.givefood.org.uk/api/2/foodbank/b30/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGAoXHwRdDA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: bfa1b6bf
+  needs: "Tinned Rice Pudding\r\nTinned Potatoes\r\nTinned Fruit In Juice(not Prunes\
+    \ Or Grapefruit)\r\nRice\r\nInstant Coffee (Not Decaf)\r\nSugar (500g Bags Not\
+    \ Larger)\r\nTinned Spaghetti\r\nCereal(not Greater Than 500gm)\r\nPorridge\r\n\
+    Gender Neutral Shampoo\r\nToothpaste\r\nToilet Rolls\r\nStrong Carrier Bags\r\n\
+    Squash\r\nLong Life Fruit Juice\r\nUHT Semi Skimmed Milk\r\nDog/cat Food\r\nInstant\
+    \ Hot Chocolate (Made Up With Water Not Milk)\r\nUHT Whole Milk\r\nCrisps\r\n\
+    Small Packets Of Tea Bags (40’s And 80’s)\r\nJam, Honey\r\nReady Made Custard\
+    \ Tins Or Cartons Not Powder\r\nChocolate And Snack Bars\r\nLiquid Or Bar Soap\r\
+    \nLaundry Liquid Or Powder (Not Family Sized)"
+  self: https://www.givefood.org.uk/api/2/needs/bfa1b6bf/
+- foodbank:
     name: Chepstow
     slug: chepstow
     urls:
@@ -7,11 +32,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGAc0LQzV7A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: b9ff1652
   needs: "Jam\r\nWashing Up Liquid\r\nSmall Instant Coffee\r\nTea\r\nUHT Milk\r\n\
     Toothpaste\r\nMens Deodorant"
@@ -1551,17 +1572,3 @@
     \nLong Life Fruit Juice\r\nToilet Rolls\r\nTinned Fruit\r\nRice Pudding\r\nToiletries\
     \ , Deodorant And Shower Gel"
   self: https://www.givefood.org.uk/api/2/needs/51494da4/
-- foodbank:
-    name: Rutherglen & Cambuslang
-    slug: rutherglen-cambuslang
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rutherglen-cambuslang/
-      self: https://www.givefood.org.uk/api/2/foodbank/rutherglen-cambuslang/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDBEOFAfQ4w==
-  - *id001
-  id: 571407ac
-  needs: "UHT Milk (Full Fat Or Semi Skimmed)\r\nJam\r\nCereals\r\nPasta Sauce\r\n\
-    Soup\r\nSugar"
-  self: https://www.givefood.org.uk/api/2/needs/571407ac/
