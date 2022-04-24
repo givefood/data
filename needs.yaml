@@ -1,4 +1,22 @@
 - foodbank:
+    name: Chepstow
+    slug: chepstow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chepstow/
+      self: https://www.givefood.org.uk/api/2/foodbank/chepstow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGAc0LQzV7A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: b9ff1652
+  needs: "Jam\r\nWashing Up Liquid\r\nSmall Instant Coffee\r\nTea\r\nUHT Milk\r\n\
+    Toothpaste\r\nMens Deodorant"
+  self: https://www.givefood.org.uk/api/2/needs/b9ff1652/
+- foodbank:
     name: North Cotswold
     slug: north-cotswold
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEFxE4KwOGMw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 61ad548a
   needs: "Sponge Puddings\r\nPacket Sauce Mixes\r\nTinned Potatoes\r\nTinned Pasta\r\
     \nTinned Vegetables\r\nTinned Meat\r\nCrumble Mix\r\nToilet Rolls\r\nLaundry Liquid\
@@ -1551,20 +1565,3 @@
   needs: "UHT Milk (Full Fat Or Semi Skimmed)\r\nJam\r\nCereals\r\nPasta Sauce\r\n\
     Soup\r\nSugar"
   self: https://www.givefood.org.uk/api/2/needs/571407ac/
-- foodbank:
-    name: Swanley and District
-    slug: swanley-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/swanley-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/swanley-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDBAOMQ7/sw==
-  - *id001
-  id: f85427e3
-  needs: "UHT Milk\r\nLong Life Juice\r\nFajita Meal Packs\r\nInstant Gravy Granules\r\
-    \nJars Of Cooking Sauces E.g. Sweet & Sour, Sausage Casserole (Not Pasta Sauce\
-    \ Please)\r\nPeanut Butter\r\nTinned/packet Custard\r\nTinned Potatoes\r\nTinned\
-    \ Rice Pudding\r\nFeminine Hygiene\r\nMen's Razors\r\nShaving Foam / Gel\r\nToilet\
-    \ Rolls\r\nWashing Powder/gel/capsules"
-  self: https://www.givefood.org.uk/api/2/needs/f85427e3/
