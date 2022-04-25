@@ -1,23 +1,4 @@
 - foodbank:
-    name: Purley
-    slug: purley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/purley/
-      self: https://www.givefood.org.uk/api/2/foodbank/purley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGBUsNAHGbg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: ba94aea0
-  needs: "Small Jars Of Jam And Honey\r\nTinned Tomatoes\r\nSmall Packets Of Dried\
-    \ Potato\r\nTinned And Packet Soup\r\nSmall Bottles Of Squash\r\nPuddings / Jellies\
-    \ / Angel Delight\r\nTinned Rice Pudding\r\nUnisex Shampoo\r\nWashing Powder Tablets"
-  self: https://www.givefood.org.uk/api/2/needs/ba94aea0/
-- foodbank:
     name: Peterborough
     slug: peterborough
     urls:
@@ -26,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGBItKAa1rw==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 3115dba9
   needs: "Tinned Meat\r\nPasta Sauce Ie Pasta Bake And Bolognese Sauces\r\nUHT Milk\r\
     \nLong Life Fruit Juice\r\nToilet Rolls\r\nTinned Fruit\r\nRice Pudding\r\nToiletries,\
@@ -1583,3 +1568,17 @@
     \ Custard\r\nTinned Fruit\r\nBiscuits\r\nUHT Milk\r\nUHT Fruit Juice\r\nInstant\
     \ Coffee"
   self: https://www.givefood.org.uk/api/2/needs/99e70b68/
+- foodbank:
+    name: Widnes
+    slug: widnes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/widnes/
+      self: https://www.givefood.org.uk/api/2/foodbank/widnes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEDBYzLQBq7A==
+  - *id001
+  id: 45cd0eb0
+  needs: "500g Coffee\r\nUHT Milk\r\nTinned Carrots\r\nBiscuits\r\nJam\r\nTinned Spaghetti\r\
+    \nCereal\r\nUHT Juice"
+  self: https://www.givefood.org.uk/api/2/needs/45cd0eb0/
