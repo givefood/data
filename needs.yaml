@@ -1,4 +1,23 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGQg6Mgl7fw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 35f419c0
+  needs: "Squash\r\nLong Life Milk\r\nMeat/fish Paste For Sandwiches\r\nTinned Fruit\r\
+    \nTinned Vegetables\r\nTinned Meat\r\nLaundry Powder/liquid\r\nSponge Puddings\r\
+    \nToothbrushes\r\nPlastic Bags (Bags For Life)"
+  self: https://www.givefood.org.uk/api/2/needs/35f419c0/
+- foodbank:
     name: Redcar
     slug: redcar
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGQgbMAcLmw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0079407f
   needs: "Long Life Milk (Very Low)\r\nSweets Of Any Kind (Very Low)\r\nTinned Rice\
     \ Pudding (Very Low)\r\nTinned Custard (Very Low)\r\nLong Life Fruit Juice (None)\r\
@@ -1566,18 +1581,3 @@
   needs: "Coffee (Instant)\r\nLong Life Juice\r\nMilk (UHT)\r\nPet Food\r\nSponge\
     \ Pudding\r\nVegetarian Tinned Meals"
   self: https://www.givefood.org.uk/api/2/needs/0c49ac2f/
-- foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDQkjCA2foA==
-  - *id001
-  id: 082e3be9
-  needs: "Rice (500g)\r\nCarrots (Tinned)\r\nQuality Carrier Bags (Bags For Life)\r\
-    \nTinned Meat\r\nSavoury Crackers\r\nPotatoes (Tinned)\r\nSweetcorn (Tinned)\r\
-    \nCustard (Tinned)\r\nHot Chocolate"
-  self: https://www.givefood.org.uk/api/2/needs/082e3be9/
