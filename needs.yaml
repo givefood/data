@@ -1,4 +1,27 @@
 - foodbank:
+    name: Redcar
+    slug: redcar
+    urls:
+      html: https://www.givefood.org.uk/needs/at/redcar/
+      self: https://www.givefood.org.uk/api/2/foodbank/redcar/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGQgbMAcLmw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0079407f
+  needs: "Long Life Milk (Very Low)\r\nSweets Of Any Kind (Very Low)\r\nTinned Rice\
+    \ Pudding (Very Low)\r\nTinned Custard (Very Low)\r\nLong Life Fruit Juice (None)\r\
+    \nBottles Of Squash (None)\r\nInstant Mash (Very Low)\r\nTinned Potatoes (Very\
+    \ Low)\r\nJam, Cuppa Soup, Crisps, Hot Chocolate (None)\r\nSponge Puddings (We\
+    \ Have None At All)\r\nToilet Rolls (Very Low)\r\nShampoo (None)\r\nRazors/shaving\
+    \ Foam (None)\r\nToothpaste (Low)\r\nShower Gel\r\nDeodorant For Men And Women\
+    \ (None)\r\nWashing Up Liquid (Lnone)\r\nMulti-purpose Cleaner (Low)"
+  self: https://www.givefood.org.uk/api/2/needs/0079407f/
+- foodbank:
     name: Droitwich Spa
     slug: droitwich-spa
     urls:
@@ -7,11 +30,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGQgOBgYMig==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: cc928474
   needs: "Long Life Fruit Juice And Milk\r\nTinned Potatoes / Packet Mash\r\nCoffee\r\
     \nCustard\r\nMeat To Heat\r\nJam\r\nPuddings\r\nTinned Fish\r\nSavoury Treats\r\
@@ -1562,20 +1581,3 @@
     \nTinned Meat\r\nSavoury Crackers\r\nPotatoes (Tinned)\r\nSweetcorn (Tinned)\r\
     \nCustard (Tinned)\r\nHot Chocolate"
   self: https://www.givefood.org.uk/api/2/needs/082e3be9/
-- foodbank:
-    name: Stoke-on-Trent
-    slug: stoke-on-trent
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stoke-on-trent/
-      self: https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDQkUEQRRSg==
-  - *id001
-  id: c113f148
-  needs: "Tinned Desserts\r\nUHT Milk\r\nJam\r\nTinned Fish\r\nTea Bags Size 40s\r\
-    \nFruit Juice\r\nCarrier Bags\r\nCereal\r\nTinned Soup\r\nTinned Tomato\r\nJar\
-    \ Pasta Sauce\r\nTinned Vegetables\r\nTinned Meat\r\nTinned Fish\r\nRice Pudding\r\
-    \nTinned Fruit\r\nTinned Sponge Pudding\r\nBiscuits\r\nTea Bags\r\nUHT Fruit Juice\r\
-    \nUHT Milk\r\nSavoury Treats\r\nSweet Treats / Chocolate Etc\r\nCoffee"
-  self: https://www.givefood.org.uk/api/2/needs/c113f148/
