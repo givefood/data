@@ -1,4 +1,22 @@
 - foodbank:
+    name: Coventry
+    slug: coventry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/coventry/
+      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGgkJHwBgvQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 40628bee
+  needs: "Tinned Vegetables\r\nTinned Fruit\r\nTinned Potatoes\r\nInstant Mash\r\n\
+    Quick Cook Noodles"
+  self: https://www.givefood.org.uk/api/2/needs/40628bee/
+- foodbank:
     name: Hackney
     slug: hackney
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGRYeAADafg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 9e112ed7
   needs: "Long Life UHT Milk\r\nTinned Corned Beef\r\nLong Life Juice\r\nTinned Fruit\r\
     \nBiscuits\r\nCereal\r\nToilet Roll\r\nShampoo\r\nDeodorant\r\nToothpaste & Toothbrushes"
@@ -1571,17 +1585,3 @@
     \ Fish (Currently Not Tuna)\r\nTinned Meat Meals\r\nTinned Potatoes\r\nPuddings\
     \ (Individual)"
   self: https://www.givefood.org.uk/api/2/needs/96bef95a/
-- foodbank:
-    name: Caterham
-    slug: caterham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/caterham/
-      self: https://www.givefood.org.uk/api/2/foodbank/caterham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDgsuEgZKyQ==
-  - *id001
-  id: 5ce9085b
-  needs: "Tinned Meat\r\nCoffee\r\nFruit Juice\r\nSponge Puddings\r\nPowdered Milk\r\
-    \nToiletries Including Feminine Hygiene Products , Deodorant\r\nShaving Products"
-  self: https://www.givefood.org.uk/api/2/needs/5ce9085b/
