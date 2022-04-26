@@ -1,4 +1,23 @@
 - foodbank:
+    name: Ammanford
+    slug: ammanford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/ammanford/
+      self: https://www.givefood.org.uk/api/2/foodbank/ammanford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGhEtLwPmkQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0008222c
+  needs: "Tinned Carrots - Totally Out\r\nUHT Milk - Barely 2 Weeks Worth Left!\r\n\
+    Tinned Fish - Barely 2 Weeks Worth Left!\r\nTinned Tomatoes\r\nInstant Mashed\
+    \ Potatoes\r\nPasta Sauces\r\nPorridge\r\nCustard\r\nRice Pudding\r\nTinned Fruit"
+  self: https://www.givefood.org.uk/api/2/needs/0008222c/
+- foodbank:
     name: Aberdeen North
     slug: aberdeen-north
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGhACNw8ceA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5ba9eef8
   needs: "UHT Milk\r\nTinned Meat\r\nTinned Fish\r\nRice Pudding\r\nCustard\r\nTinned\
     \ Fruit\r\nChocolate\r\nCoffee"
@@ -1560,17 +1575,3 @@
     \nWashing Up Liquid\r\nHousehold Cleaning Spray/cream\r\nToothpaste\r\nShampoo\r\
     \nShower Gel\r\nPet Food (Cat/dog)"
   self: https://www.givefood.org.uk/api/2/needs/abc324bc/
-- foodbank:
-    name: St. Mary's Haughton Green
-    slug: st-marys-haughton-green
-    urls:
-      html: https://www.givefood.org.uk/needs/at/st-marys-haughton-green/
-      self: https://www.givefood.org.uk/api/2/foodbank/st-marys-haughton-green/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEAEdNgydrw==
-  - *id001
-  id: 6867dd87
-  needs: "Long Life Milk\r\nTinned Fish\r\nCordial\r\nJam\r\nSavoury Rice\r\nInstant\
-    \ Noodles\r\nRice Pudding\r\nTinned Tomatoes"
-  self: https://www.givefood.org.uk/api/2/needs/6867dd87/
