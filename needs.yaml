@@ -1,4 +1,69 @@
 - foodbank:
+    name: Hackney
+    slug: hackney
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hackney/
+      self: https://www.givefood.org.uk/api/2/foodbank/hackney/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGRYeAADafg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9e112ed7
+  needs: "Long Life UHT Milk\r\nTinned Corned Beef\r\nLong Life Juice\r\nTinned Fruit\r\
+    \nBiscuits\r\nCereal\r\nToilet Roll\r\nShampoo\r\nDeodorant\r\nToothpaste & Toothbrushes"
+  self: https://www.givefood.org.uk/api/2/needs/9e112ed7/
+- foodbank:
+    name: Southend
+    slug: southend
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southend/
+      self: https://www.givefood.org.uk/api/2/foodbank/southend/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGRUcAgRqXQ==
+  - *id001
+  id: 344bb01b
+  needs: "Meat Meals – Tinned Curry, Chilli, Chicken In Sauce\r\nTinned Vegetables\
+    \ - Carrots, Sweetcorn, Peas\r\nRice Pudding\r\nCustard\r\nUHT Milk\r\nStrong\
+    \ Carrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/344bb01b/
+- foodbank:
+    name: Hammersmith & Fulham
+    slug: hammersmith-fulham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hammersmith-fulham/
+      self: https://www.givefood.org.uk/api/2/foodbank/hammersmith-fulham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGRQJLAzOqg==
+  - *id001
+  id: 2da0d68a
+  needs: "Long Life/UHT Milk And Juice Including Kids Juice Cartons\r\nTinned Vegetarian\
+    \ Options - Macaroni Cheese, Veggie Chilli / Curry, Etc\r\nTinned Fish\r\nNappies\
+    \ Sizes 3, 4, 5 And 6, Baby Wipes And Baby Food\r\nCoffee - Small Jars\r\nShampoo,\
+    \ Shower Gel, Deodorant, Toothbrushes, Toothpaste\r\nTinned Vegetables (Sweetcorn,\
+    \ Carrots, Peas Etc)\r\nTinned Fruit\r\nJams And Spreads"
+  self: https://www.givefood.org.uk/api/2/needs/2da0d68a/
+- foodbank:
+    name: Milton Keynes
+    slug: milton-keynes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/milton-keynes/
+      self: https://www.givefood.org.uk/api/2/foodbank/milton-keynes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGRMvGQGXVA==
+  - *id001
+  id: eb808607
+  needs: "Tinned Meat\r\nTinned Fish\r\nLong Life Milk\r\nJuice Or Squash\r\nSpreads\
+    \ – Jams, Peanut Butter Or Chocolate Spread\r\nTinned Pasta\r\nTea\r\nSugar\r\n\
+    Tinned Fruit\r\nDried Rice – 500g Or 1kg Packets Please\r\nRice Pudding/custard"
+  self: https://www.givefood.org.uk/api/2/needs/eb808607/
+- foodbank:
     name: Callington
     slug: callington
     urls:
@@ -7,11 +72,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGRATBQGW0A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: dcef42e1
   needs: "Washing Powder/tabs/liquid For Clothes\r\nTinned Cooked Meat (Ie Chilli\
     \ Con Carne/curries/meatballs)\r\nSponge Puddings\r\nMens Razors\r\nLadies Razors\r\
@@ -1524,72 +1585,3 @@
   needs: "Tinned Meat\r\nCoffee\r\nFruit Juice\r\nSponge Puddings\r\nPowdered Milk\r\
     \nToiletries Including Feminine Hygiene Products , Deodorant\r\nShaving Products"
   self: https://www.givefood.org.uk/api/2/needs/5ce9085b/
-- foodbank:
-    name: Southampton Basics Bank
-    slug: southampton-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDgsiIgIgPg==
-  - *id001
-  id: 622025f7
-  needs: "Carrier Bags\r\nCoffee (Small Jars)\r\nCook-in Sauces (Jars & Packets)\r\
-    \nCustard\r\nHot Chocolate\r\nJams & Spreads\r\nNappies Size 4 – 6\r\nNoodles (Packets)\r\
-    \nSquash & Drinks\r\nSugar (Small Bags)\r\nTinned Carrots\r\nTinned Cold Meat (Ham,\
-    \ Spam, Etc.)\r\nTinned Hot Meat (Curry, Pies, Stew, Etc.)\r\nTinned Kidney Beans\
-    \ & Pulses\r\nTinned Mixed Veg\r\nTinned Rice Pudding\r\nTinned Spaghetti (In\
-    \ Tomato Sauce)\r\nTinned Sweetcorn\r\nToiletries (Shampoo)\r\nToiletries (Toilet\
-    \ Rolls)\r\nBaby Food\r\nHousehold Larder\r\nRice\r\nTinned Fruit\r\nToiletries\
-    \ (Male & Female Deodorant)\r\nToiletries (Soap & Shower Gel)\r\nPet Food (Dogs)\r\
-    \nUHT Milk"
-  self: https://www.givefood.org.uk/api/2/needs/622025f7/
-- foodbank:
-    name: Warwick District
-    slug: warwick-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/warwick-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/warwick-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDgshGwNiOQ==
-  - *id001
-  id: beca855c
-  needs: "Long Life Fruit Juice\r\nLong Life Milk\r\nInstant Mash\r\nInstant Noodles\r\
-    \nJam\r\nTinned Meat Meals\r\nPasta Sauce\r\nDeodorants\r\nShampoo\r\nShaving\
-    \ Foam/gel\r\nWashing Up Liquid"
-  self: https://www.givefood.org.uk/api/2/needs/beca855c/
-- foodbank:
-    name: Redbridge
-    slug: redbridge
-    urls:
-      html: https://www.givefood.org.uk/needs/at/redbridge/
-      self: https://www.givefood.org.uk/api/2/foodbank/redbridge/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDgk6EARHdA==
-  - *id001
-  id: 8c1fa47a
-  needs: "Teabags\r\nTinned Fish\r\nTinned Fruit\r\nRice\r\nPacket Noodles\r\nVegetarian\
-    \ Food Items (Tins / Packets)\r\nCooking Oil\r\nPasta Sauce\r\nLong Life Milk\r\
-    \nLong Fruit Juice\r\nJam / Spreads\r\nCustard / Rice Pudding\r\nShampoo\r\nShower\
-    \ Gel\r\nToothpaste\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/8c1fa47a/
-- foodbank:
-    name: Stratford Upon Avon
-    slug: stratford-upon-avon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stratford-upon-avon/
-      self: https://www.givefood.org.uk/api/2/foodbank/stratford-upon-avon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEDgYeFgmPGA==
-  - *id001
-  id: '64392167'
-  needs: "Toilet Roll\r\nFruit Juice\r\nUHT Milk (Whole & Semi Skimmed)\r\nRice Puding\r\
-    \nInstant Coffee\r\nInstant Mash\r\nTinned Potatoes\r\nTinned Vegetables\r\nBeef\
-    \ & Chicken Tinned Curry\r\nVegetarian Tinned Meals; Ravioli, Mac Cheese, Veg\
-    \ Cury\r\nToothbrushes\r\nShampoo & Conditioner\r\nShower Gel\r\nDeodrant\r\n\
-    Washing Detergent [Small Sizes]\r\nWashing Up Liquid\r\nCleaning Products"
-  self: https://www.givefood.org.uk/api/2/needs/64392167/
