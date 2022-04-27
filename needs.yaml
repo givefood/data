@@ -1,4 +1,23 @@
 - foodbank:
+    name: Shrewsbury
+    slug: shrewsbury
+    urls:
+      html: https://www.givefood.org.uk/needs/at/shrewsbury/
+      self: https://www.givefood.org.uk/api/2/foodbank/shrewsbury/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGxAbOgwtVQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 49b8f0db
+  needs: "Tinned Main Meals\r\nPasta Sauce\r\nRice\r\nTinned Light Meals\r\nMeatballs\r\
+    \nHot Dogs\r\nSpreads\r\nRice Pudding / Custard\r\nUHT Milk\r\nSoap\r\nToothpaste\r\
+    \nShower Gel\r\nToilet Rolls\r\nShampoo"
+  self: https://www.givefood.org.uk/api/2/needs/49b8f0db/
+- foodbank:
     name: Sid Valley
     slug: sid-valley
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGw8ZFQXJRw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6b68985a
   needs: "Sweet Biscuits\r\nTinned Tomatoes\r\nFamily Size Cartons Of Fruit Juice\r\
     \nSavoury Crackers\r\nTinned Meat\r\nTinned Vegetables\r\nTinned Fruit\r\nTinned\
@@ -1569,17 +1584,3 @@
     \nTea\r\nRice Pudding\r\nSavoury Snacks\r\nMilk Powder\r\nLong Life Sponge Puddings\r\
     \nFruit Juice\r\nToothpaste"
   self: https://www.givefood.org.uk/api/2/needs/d07e390a/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEwsNKwxUmg==
-  - *id001
-  id: 4e2f40da
-  needs: "Chickpeas/pulses\r\nWashing Powder\r\nTinned Meat\r\nLong Grain Rice\r\n\
-    Custard\r\nBars Of Soap"
-  self: https://www.givefood.org.uk/api/2/needs/4e2f40da/
