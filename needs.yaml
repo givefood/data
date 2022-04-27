@@ -1,4 +1,42 @@
 - foodbank:
+    name: Romsey
+    slug: romsey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/romsey/
+      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGwsrLQ0Now==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 28bb2fcf
+  needs: "Multi-pack Crisps\r\nDesserts/sponge Puddings\r\nJam\r\nMarmite\r\nPot Noodles\
+    \ / Mug Shots ( Pasta Needing Only Boiling Water Adding To It)\r\nCup-a-soup\r\
+    \nTinned Peas And Sweetcorn\r\nCustard\r\nMulti-pack Chocolate Bars\r\nShower\
+    \ Gel\r\nInstant Mash Potato\r\nPasta Sauce\r\nSavoury Snacks - Crackers/rice\
+    \ Cakes"
+  self: https://www.givefood.org.uk/api/2/needs/28bb2fcf/
+- foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGwsgCwxgDw==
+  - *id001
+  id: 7aed6c11
+  needs: "Baked Beans/tinned Spaghetti\r\nPasta Sauce\r\nSponge Puddings (Not Chilled)\r\
+    \nTinned Soup\r\nTinned Custard Or Rice Pudding\r\nTinned Fish\r\nTinned Meat/meat\
+    \ Meals\r\nInstant Mah\r\nDisposable Razors Mens\r\nTinned Tomatoes\r\nLong Life\
+    \ Juice\r\nDried Milk\r\nBaby Food Jars\r\nRice (500g/1kg)\r\nInstant Noodles\r\
+    \nTinned Fruit\r\nShower Gel\r\nUHT Long Life Milk"
+  self: https://www.givefood.org.uk/api/2/needs/7aed6c11/
+- foodbank:
     name: Rugby
     slug: rugby
     urls:
@@ -7,11 +45,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGwkiFAdFxQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 3721dfc6
   needs: "Fruit Juice (Long Life)\r\nQuality Carrier Bags (Bags For Life)\r\nMilk\
     \ (UHT)\r\nSponge Puddings\r\nSugar\r\nSquash Drinks\r\nCuppa-soups"
@@ -1542,32 +1576,3 @@
     Tinned Tomatoes\r\nTinned Vegetables ( Peas, Sweetcorn, Beans, Mixed)\r\nPasta\
     \ Sauce\r\nRice Pudding/custard\r\nBags For Life"
   self: https://www.givefood.org.uk/api/2/needs/aef16243/
-- foodbank:
-    name: Antrim
-    slug: antrim
-    urls:
-      html: https://www.givefood.org.uk/needs/at/antrim/
-      self: https://www.givefood.org.uk/api/2/foodbank/antrim/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEg42CQf4ww==
-  - *id001
-  id: f7d4025a
-  needs: "UHT Milk (2 Litres)\r\nFruit Juice (1 Litre)\r\nTinned Fruit And Tinned\
-    \ Fish\r\nTea And Coffee\r\nBiscuits / Snack Bars\r\nRice Pudding / Custard"
-  self: https://www.givefood.org.uk/api/2/needs/f7d4025a/
-- foodbank:
-    name: Salisbury
-    slug: salisbury
-    urls:
-      html: https://www.givefood.org.uk/needs/at/salisbury/
-      self: https://www.givefood.org.uk/api/2/foodbank/salisbury/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEgwPCQjavg==
-  - *id001
-  id: 038c6e75
-  needs: "Juice (Long Life)\r\nSponge Pudding\r\nTea Bags (Small Boxes Of 80-100)\r\
-    \nRice Pudding\r\nCustard\r\nTinned Tomatoes\r\nSmall Jars Of Coffee\r\nPacket\
-    \ Puddings\r\nTinned Fish\r\nInstant Mash Potato\r\nChocolate\r\nToothbrushes"
-  self: https://www.givefood.org.uk/api/2/needs/038c6e75/
