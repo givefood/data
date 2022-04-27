@@ -1,4 +1,23 @@
 - foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGxYZJwjbjQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 66f323ea
+  needs: "Long Life Fruit Juice (Urgently Required)\r\nToilet Rolls\r\nTinned Soup\r\
+    \nBottles Of Squash\r\nLadies & Gents Shampoo\r\nLadies & Gents Deodorant\r\n\
+    Toothpaste\r\nCarrier Bags (The Strong 'Bag For Life' Sort)"
+  self: https://www.givefood.org.uk/api/2/needs/66f323ea/
+- foodbank:
     name: Shrewsbury
     slug: shrewsbury
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGxAbOgwtVQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 49b8f0db
   needs: "Tinned Main Meals\r\nPasta Sauce\r\nRice\r\nTinned Light Meals\r\nMeatballs\r\
     \nHot Dogs\r\nSpreads\r\nRice Pudding / Custard\r\nUHT Milk\r\nSoap\r\nToothpaste\r\
@@ -1569,18 +1584,3 @@
   needs: "Cereal\r\nBiscuits\r\nCustard\r\nRice Pudding\r\nTea\r\nCoffee\r\nCurry\
     \ Sauce"
   self: https://www.givefood.org.uk/api/2/needs/0633b185/
-- foodbank:
-    name: Long Eaton & Sawley
-    slug: long-eaton-sawley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/long-eaton-sawley/
-      self: https://www.givefood.org.uk/api/2/foodbank/long-eaton-sawley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEwwWOwYWSw==
-  - *id001
-  id: d07e390a
-  needs: "Tinned Vegetables\r\nTinned Potatoes\r\nTinned Fruit\r\nSoup\r\nCustard\r\
-    \nTea\r\nRice Pudding\r\nSavoury Snacks\r\nMilk Powder\r\nLong Life Sponge Puddings\r\
-    \nFruit Juice\r\nToothpaste"
-  self: https://www.givefood.org.uk/api/2/needs/d07e390a/
