@@ -1,4 +1,22 @@
 - foodbank:
+    name: Kinson & West Howe
+    slug: kinson-west-howe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/kinson-west-howe/
+      self: https://www.givefood.org.uk/api/2/foodbank/kinson-west-howe/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGw0tKQzj1Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5f304ce1
+  needs: "Sugar\r\nJam\r\nBreakfast Cereal\r\nNoodles\r\nTooth Brushes\r\nFeminine\
+    \ Hygiene\r\nToilet Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/5f304ce1/
+- foodbank:
     name: Atherton & Leigh
     slug: atherton-leigh
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGwwbGgYqPw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8fcdb938
   needs: "Size 5 And Size 6 Nappies\r\nLaundry Detergent - Washing Powder/liquid/pods\
     \ - All Pack Sizes\r\nWashing Up Liquid\r\nPacket/instant Mashed Potato\r\nReady\
@@ -1565,18 +1579,3 @@
     Tinned Custard\r\nCooking Oil (Small Bottles Please)\r\nPasta Sauce\r\nLaundry\
     \ Tablets"
   self: https://www.givefood.org.uk/api/2/needs/7e3448c9/
-- foodbank:
-    name: Leicester South
-    slug: leicester-south
-    urls:
-      html: https://www.givefood.org.uk/needs/at/leicester-south/
-      self: https://www.givefood.org.uk/api/2/foodbank/leicester-south/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEwk7AwJwMg==
-  - *id001
-  id: 3db9d70a
-  needs: "Soup\r\nCereal (No Bigger Than 790g)\r\nTinned Sweetcorn\r\n1 Ltr UHT Fruit\
-    \ Juice\r\nTinned Tomatoes\r\n1ltr UHT Milk\r\nTinned Meat\r\nCustard\r\nTinned\
-    \ Fruit\r\nTooth Brushes\r\nToothpaste\r\nShampoo"
-  self: https://www.givefood.org.uk/api/2/needs/3db9d70a/
