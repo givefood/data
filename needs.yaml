@@ -1,4 +1,44 @@
 - foodbank:
+    name: Sid Valley
+    slug: sid-valley
+    urls:
+      html: https://www.givefood.org.uk/needs/at/sid-valley/
+      self: https://www.givefood.org.uk/api/2/foodbank/sid-valley/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGw8ZFQXJRw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6b68985a
+  needs: "Sweet Biscuits\r\nTinned Tomatoes\r\nFamily Size Cartons Of Fruit Juice\r\
+    \nSavoury Crackers\r\nTinned Meat\r\nTinned Vegetables\r\nTinned Fruit\r\nTinned\
+    \ Tomatoes\r\nSoup\r\nLonglife Milk\r\nFruit Juice (Not The Kind That Needs Refrigerating)\r\
+    \nJam/peanut Butter\r\nPlain Rice\r\nSavoury Rice\r\nSavoury Noodles\r\nTea Bags\r\
+    \nInstant Coffee\r\nTinned Tuna\r\nCereal Boxes\r\nCustard (Tinned Or Cartons)\r\
+    \nTinned Rice Pudding\r\nBiscuits/cake/puddings\r\nLaundry Powder Etc\r\nNappies\r\
+    \nWashing Up Liquid\r\nHousehold Cleaning Spray/cream\r\nToothpaste\r\nShampoo\r\
+    \nShower Gel\r\nPet Food (Cat/dog)"
+  self: https://www.givefood.org.uk/api/2/needs/6b68985a/
+- foodbank:
+    name: Epsom and Ewell
+    slug: epsom-and-ewell
+    urls:
+      html: https://www.givefood.org.uk/needs/at/epsom-and-ewell/
+      self: https://www.givefood.org.uk/api/2/foodbank/epsom-and-ewell/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGw8FCAZaFA==
+  - *id001
+  id: c3f09446
+  needs: "Washing Up Liquid\r\nShaving Foam\r\nInstant Mash\r\nKetchup\r\nPowdered\
+    \ Milk\r\nCustard\r\nTinned Fruit\r\nLonglife Sponge Puddings\r\nCoffee\r\nLonglife\
+    \ UHT Milk (Semi Skimmed And Full Fat Only Please)\r\nShampoo / Conditioner\r\n\
+    Deodorant"
+  self: https://www.givefood.org.uk/api/2/needs/c3f09446/
+- foodbank:
     name: Chichester District
     slug: chichester-district
     urls:
@@ -7,11 +47,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEGw4rNQuFqg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d897c898
   needs: "Tinned Vegetables\r\nLong Life Milk\r\nTinned Fruit\r\nSquash\r\nMeat/fish\
     \ Paste For Sandwiches\r\nTinned Meat\r\nLaundry Powder/liquid\r\nLong Life Juice\r\
@@ -1547,33 +1583,3 @@
   needs: "Chickpeas/pulses\r\nWashing Powder\r\nTinned Meat\r\nLong Grain Rice\r\n\
     Custard\r\nBars Of Soap"
   self: https://www.givefood.org.uk/api/2/needs/4e2f40da/
-- foodbank:
-    name: Southend
-    slug: southend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southend/
-      self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEwo2DwSeLQ==
-  - *id001
-  id: 10e47146
-  needs: "Meat Meals – Tinned Curry, Chili Con Carne, Chicken In Sauce, Tinned Pie\r\
-    \nJam\r\nTinned Vegetables - Carrots, Sweetcorn, Peas\r\nRice Pudding\r\nVegetable\
-    \ Soup\r\nStrong Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/10e47146/
-- foodbank:
-    name: Barnsley
-    slug: barnsley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/barnsley/
-      self: https://www.givefood.org.uk/api/2/foodbank/barnsley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEEwouCwSrqA==
-  - *id001
-  id: c4f778af
-  needs: "Long Life Milk\r\nDilute/juice\r\nPasta Sauce\r\nPacket And Tinned Potatoes\r\
-    \nTinned Potatoes\r\nRice Pudding\r\nBiscuits\r\nToothpaste\r\nToothbrushes\r\n\
-    Shower Gel\r\nShampoo"
-  self: https://www.givefood.org.uk/api/2/needs/c4f778af/
