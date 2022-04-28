@@ -1,4 +1,24 @@
 - foodbank:
+    name: Vauxhall
+    slug: vauxhall
+    urls:
+      html: https://www.givefood.org.uk/needs/at/vauxhall/
+      self: https://www.givefood.org.uk/api/2/foodbank/vauxhall/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEHBIFIwbn8Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c154bb5d
+  needs: "Toiletries\r\nTinned Tomatoes\r\nWashing Up Liquid Laundry Pods\r\nTinned\
+    \ Soup\r\nBaked Beans\r\nDried Pulse\r\nRice 500g/1kg\r\nSingle Sachet Porridge\r\
+    \nSanitary Pads\r\nUHT Sponge Puddings\r\nTinned Meat (Pork Free)\r\nFlour 500g/1kg\r\
+    \nUHT Milk\r\n Toilet Rolls\r\nHot Chocolate"
+  self: https://www.givefood.org.uk/api/2/needs/c154bb5d/
+- foodbank:
     name: Cheltenham
     slug: cheltenham
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEHBAJOwIQRg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: '13694492'
   needs: "Tinned Fruit\r\nInstant Rise Sachets\r\nRice Pudding & Custard\r\nJars Of\
     \ Coffee\r\nLong Life Fruit Juice\r\nNoodles\r\nMayonnaise"
@@ -1566,18 +1582,3 @@
     \ And Oat Milk)\r\nWashing Up Tablets Or Liquid Capsules For Clothing (Please\
     \ No Large Boxes)"
   self: https://www.givefood.org.uk/api/2/needs/e5667e92/
-- foodbank:
-    name: Cheadle and District
-    slug: cheadle-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFAwUKgZ0vg==
-  - *id001
-  id: c65ff14a
-  needs: "Tinned Fish\r\nLong Life Fruit Juice (Urgent)\r\nTinned Soup\r\nPasta\r\n\
-    Shower Gel\r\nShampoo\r\nLadies Antiperspirant Deodorant\r\nMens Antiperspirant\
-    \ Deodorant"
-  self: https://www.givefood.org.uk/api/2/needs/c65ff14a/
