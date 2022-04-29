@@ -1,4 +1,41 @@
 - foodbank:
+    name: Newark
+    slug: newark
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newark/
+      self: https://www.givefood.org.uk/api/2/foodbank/newark/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEHQAPFgBhcw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5b9146b4
+  needs: "Long Life Fruit Juice\r\nTinned Potatoes\r\nTinned Cold Meat\r\nPasta Sauce\r\
+    \n500g Sugar\r\nHand Wash\r\nTinned Fish\r\nTinned Meat - Serve Hot (Eg: Stew)\r\
+    \nInstant Mashed Potato\r\nTinned Spaghetti\r\nTinned Carrots\r\nTinned Peas\r\
+    \nTinned Fruit\r\nBiscuits\r\nLong Life Milk\r\nMarmalade\r\nChocolate Biscuits\
+    \ Eg: Kitkat\r\nToilet Roll\r\nToiletries\r\nToothpaste\r\nWashing Tablets\r\n\
+    Washing-up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/5b9146b4/
+- foodbank:
+    name: Clay Cross
+    slug: clay-cross
+    urls:
+      html: https://www.givefood.org.uk/needs/at/clay-cross/
+      self: https://www.givefood.org.uk/api/2/foodbank/clay-cross/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEHQAGJAyf4w==
+  - *id001
+  id: f3e2bcce
+  needs: "Carrier Bags\r\nUHT Milk\r\nInstant Mash\r\nSponge Puddings\r\nPowdered\
+    \ Milk\r\nLong Life Juice\r\nPasta Sauce\r\nTinned Rice Pudding\r\nTinned Tomatoes\r\
+    \nSponge Puddings\r\nPowdered Milk\r\nInstant Mash\r\nUHT Milk"
+  self: https://www.givefood.org.uk/api/2/needs/f3e2bcce/
+- foodbank:
     name: Vauxhall
     slug: vauxhall
     urls:
@@ -7,11 +44,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEHBIFIwbn8Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c154bb5d
   needs: "Toiletries\r\nTinned Tomatoes\r\nWashing Up Liquid Laundry Pods\r\nTinned\
     \ Soup\r\nBaked Beans\r\nDried Pulse\r\nRice 500g/1kg\r\nSingle Sachet Porridge\r\
@@ -1552,33 +1585,3 @@
   needs: "Cereals\r\nLong Life Juice\r\nBiscuits\r\nPulses\r\nTinned Tomatoes\r\n\
     Lentils\r\nUHT Milk\r\nJam\r\nToilet Rolls\r\nBeans\r\nSoup"
   self: https://www.givefood.org.uk/api/2/needs/94c4b021/
-- foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFAw4EQVEWw==
-  - *id001
-  id: 62b503ca
-  needs: "Coffee\r\nFruit Juice (Long Life)\r\nQuality Carrier Bags (Bags For Life)\r\
-    \nTinned Meat\r\nWashing Up Liquid\r\nSugar\r\nShampoo\r\nToothpaste\r\nJam /\
-    \ Marmalade\r\nSoap\r\nShower Gel"
-  self: https://www.givefood.org.uk/api/2/needs/62b503ca/
-- foodbank:
-    name: Chipping Barnet
-    slug: chipping-barnet
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chipping-barnet/
-      self: https://www.givefood.org.uk/api/2/foodbank/chipping-barnet/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFAwpNA6PVg==
-  - *id001
-  id: e5667e92
-  needs: "Sugar (500g Or 1kg Bags)\r\nLong-life Dairy Milk (We Have Plenty Of Soya\
-    \ And Oat Milk)\r\nWashing Up Tablets Or Liquid Capsules For Clothing (Please\
-    \ No Large Boxes)"
-  self: https://www.givefood.org.uk/api/2/needs/e5667e92/
