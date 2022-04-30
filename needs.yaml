@@ -1,4 +1,21 @@
 - foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEHhQ7EwJStA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 406f1bc7
+  needs: "Toilet Rolls\r\nCarrier Bags (The 'Bag For Life' Sort)"
+  self: https://www.givefood.org.uk/api/2/needs/406f1bc7/
+- foodbank:
     name: Selkirk
     slug: selkirk
     urls:
@@ -7,11 +24,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEHg0FIwoBgw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 04859924
   needs: "500g Long Grain Rice\r\nTinned Ready Meals\r\nTinned Potatoes\r\n100g Jars\
     \ Of Coffee\r\nJams And Marmalades\r\nTinned Rice Puddings\r\nTinned Custard\r\
@@ -1597,18 +1610,3 @@
   needs: "Oil\r\nFlour\r\nSponge Puddings\r\nInstant Mash\r\nInstant / Packet Rice\r\
     \nTinned Fish\r\nTinned Vegetables\r\nShower Gel"
   self: https://www.givefood.org.uk/api/2/needs/982d200d/
-- foodbank:
-    name: Sevenoaks
-    slug: sevenoaks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/sevenoaks/
-      self: https://www.givefood.org.uk/api/2/foodbank/sevenoaks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFg4jNgdzrg==
-  - *id001
-  id: c516ddf7
-  needs: "Rice\r\nBaked Beans\r\nChicken In White Sauce\r\nBeef Chilli Con Carne\r\
-    \nTinned Rice Pudding\r\nTinned Custard\r\nBreakfast Cereals (But Not Cornflakes)\r\
-    \nSquash"
-  self: https://www.givefood.org.uk/api/2/needs/c516ddf7/
