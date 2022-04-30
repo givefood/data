@@ -1,4 +1,46 @@
 - foodbank:
+    name: Selkirk
+    slug: selkirk
+    urls:
+      html: https://www.givefood.org.uk/needs/at/selkirk/
+      self: https://www.givefood.org.uk/api/2/foodbank/selkirk/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEHg0FIwoBgw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 04859924
+  needs: "500g Long Grain Rice\r\nTinned Ready Meals\r\nTinned Potatoes\r\n100g Jars\
+    \ Of Coffee\r\nJams And Marmalades\r\nTinned Rice Puddings\r\nTinned Custard\r\
+    \nTinned Meat:  Spam, Ham, Corned Beef\r\nReady Meals:  Stew, Meatballs, Curries\r\
+    \nMinced Beef, Fray Bentos Pies\r\nBaked Beans:  Medium & Small Tins\r\nTinned\
+    \ Veg:  Peas, Carrots, Sweetcorn\r\nTinned Fish:  Tuna, Salmon, Sardines\r\nSoups: \
+    \ Medium & Small Tins\r\nPackets Of Cup-a-soup\r\nPasta Sauce:  All Flavours,\
+    \ Medium Jars\r\nPasta/spaghetti:  500g Packets\r\nRice:  500g Packets\r\nPotatoes: \
+    \ Medium & Small Tins\r\nPackets Of Powder\r\nRice Pudding:  Medium Size Tins\r\
+    \nCustard:  Medium Size Tins\r\nTea Bags:  40s\r\nInstant Coffee:  100g Jars\r\
+    \nJam/marmalade:  Medium Jars\r\nBiscuits:  Sweet & Savoury\r\nCereals:  Standard\
+    \ Boxes\r\nWhite Sugar:  500g Packets"
+  self: https://www.givefood.org.uk/api/2/needs/04859924/
+- foodbank:
+    name: Highland
+    slug: highland
+    urls:
+      html: https://www.givefood.org.uk/needs/at/highland/
+      self: https://www.givefood.org.uk/api/2/foodbank/highland/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEHgw2BA0htA==
+  - *id001
+  id: 6e7b46f8
+  needs: "Tins Of Corned Beef\r\nTins Of Potatoes / Smash\r\nTins Of Custard / Rice\r\
+    \nUHT Milk\r\nCartons Of Long Life Juice\r\nToilet Rolls\r\nBags For Life – New\
+    \ Or Used"
+  self: https://www.givefood.org.uk/api/2/needs/6e7b46f8/
+- foodbank:
     name: Ashby
     slug: ashby
     urls:
@@ -7,11 +49,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEHgsaKAWpng==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ce324d41
   needs: "Tinned Carrots, Sweetcorn Or Peas\r\nInstant Mash\r\nLonglife Fruit Juice\r\
     \nTinned Spaghetti\r\nTinned Fish\r\nPacket Or Tinned Custard\r\nInstant Coffee\r\
@@ -1574,34 +1612,3 @@
     \nTinned Rice Pudding\r\nTinned Custard\r\nBreakfast Cereals (But Not Cornflakes)\r\
     \nSquash"
   self: https://www.givefood.org.uk/api/2/needs/c516ddf7/
-- foodbank:
-    name: Keynsham
-    slug: keynsham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/keynsham/
-      self: https://www.givefood.org.uk/api/2/foodbank/keynsham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFg0zGwWDRw==
-  - *id001
-  id: dd3a468a
-  needs: "Granulated Sugar (Small Packets)\r\nCooking Oil (1 Litre Or Less, Ie Small\
-    \ Bottles)\r\nSmall Tins Of Any Veg\r\nUHT Fruit Juice\r\nSavoury Biscuits"
-  self: https://www.givefood.org.uk/api/2/needs/dd3a468a/
-- foodbank:
-    name: Harrow
-    slug: harrow
-    urls:
-      html: https://www.givefood.org.uk/needs/at/harrow/
-      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFgwcNwfi1w==
-  - *id001
-  id: 3cedab8c
-  needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
-    \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
-    \nTinned Potatoes\r\nCooking Oil\r\nLong-life Fruit Juice\r\nWomen’s Deodorant\r\
-    \nAdult And Children Toothpaste\r\nJam\r\nTinned Meatballs\r\nTinned Macaroni\
-    \ Cheese\r\nToilet Rolls\r\nWashing-up Liquid\r\nMen’s Body Wash\r\nTinned Custard"
-  self: https://www.givefood.org.uk/api/2/needs/3cedab8c/
