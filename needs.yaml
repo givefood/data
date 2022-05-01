@@ -1,23 +1,4 @@
 - foodbank:
-    name: Exmouth
-    slug: exmouth
-    urls:
-      html: https://www.givefood.org.uk/needs/at/exmouth/
-      self: https://www.givefood.org.uk/api/2/foodbank/exmouth/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAQw2Dgbvdw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 9341713a
-  needs: "Tinned Tomatoes\r\nTinned Fruits\r\nPackets Of Tea Bags\r\nBaked Beans\r\
-    \nBreakfast Cereals\r\nTinned Soups\r\nDried Instant Potato\r\nPasta Sauce\r\n\
-    Rice Pudding Or Custard\r\nTinned Vegetables ( E.g. Peas, Sweetcorn, Beans, Mixed)"
-  self: https://www.givefood.org.uk/api/2/needs/9341713a/
-- foodbank:
     name: Selkirk
     slug: selkirk
     urls:
@@ -26,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAQkPCAM8lg==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: '30256773'
   needs: "500g Long Grain Rice Packets\r\nTinned Meat\r\nTinned Potatoes\r\n100g Jars\
     \ Of Coffee\r\nJars Of Jam And Marmalade\r\nTinned Rice Puddings\r\nTinned Custard\r\
@@ -1616,3 +1601,17 @@
     \ Size 8\r\n We've Got Plenty Of\r\nBaked Beans\r\nPorridge\r\nPulses\r\nCat And\
     \ Dog Food\r\nTea And Coffee\r\nCereals\r\nPasta\r\nBaby Food"
   self: https://www.givefood.org.uk/api/2/needs/316b8f2d/
+- foodbank:
+    name: Jubilee Storehouse
+    slug: jubilee-storehouse
+    urls:
+      html: https://www.givefood.org.uk/needs/at/jubilee-storehouse/
+      self: https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEFhIdIwyW+Q==
+  - *id001
+  id: e060fb93
+  needs: "Weetabix\r\nPorridge Sachets\r\nPacket Soups\r\nSweets And Chocolate Bars\r\
+    \nCat Food\r\nShampoo/conditioner"
+  self: https://www.givefood.org.uk/api/2/needs/e060fb93/
