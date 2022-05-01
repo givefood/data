@@ -1,4 +1,22 @@
 - foodbank:
+    name: Widnes
+    slug: widnes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/widnes/
+      self: https://www.givefood.org.uk/api/2/foodbank/widnes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAQEqNgYEKA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 55f5bfdc
+  needs: "500g Coffee\r\nUHT Milk\r\nTinned Carrots\r\nBiscuits\r\nJam\r\nTinned Spaghetti\r\
+    \nCereal\r\nUHT Juice"
+  self: https://www.givefood.org.uk/api/2/needs/55f5bfdc/
+- foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YEHhQ7EwJStA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 406f1bc7
   needs: "Toilet Rolls\r\nCarrier Bags (The 'Bag For Life' Sort)"
   self: https://www.givefood.org.uk/api/2/needs/406f1bc7/
@@ -1596,17 +1610,3 @@
     \nWashing Detergent\r\nChildren's Shampoo, Shower Gel, Bubble Bath\r\nDried Cat\
     \ Food"
   self: https://www.givefood.org.uk/api/2/needs/e9e59654/
-- foodbank:
-    name: Bristol North
-    slug: bristol-north
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bristol-north/
-      self: https://www.givefood.org.uk/api/2/foodbank/bristol-north/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFg8FLgknhg==
-  - *id001
-  id: 982d200d
-  needs: "Oil\r\nFlour\r\nSponge Puddings\r\nInstant Mash\r\nInstant / Packet Rice\r\
-    \nTinned Fish\r\nTinned Vegetables\r\nShower Gel"
-  self: https://www.givefood.org.uk/api/2/needs/982d200d/
