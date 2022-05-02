@@ -1,4 +1,25 @@
 - foodbank:
+    name: Luton
+    slug: luton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/luton/
+      self: https://www.givefood.org.uk/api/2/foodbank/luton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAgEBLQBcnQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: ef148a17
+  needs: "Rice Pudding (Tinned)\r\nInstant Noodles Meat (Tinned)\r\nCustard (Tinned)\r\
+    \nVegetables (Tinned)\r\nFruit (Tinned)\r\nFruit Juice (Carton)\r\nDried Rice\
+    \ (500g)\r\nSoup\r\nMilk (UHT)\r\nBaked Beans (Tinned)\r\nTomatoes (Tinned)\r\n\
+    Fish (Tinned)\r\nTinned Pasta In Sauce\r\nSauce For Pasta\r\nBreakfast Cereal\r\
+    \nTea Bags\r\nBiscuits (Single Packs)\r\nSugar (500g)"
+  self: https://www.givefood.org.uk/api/2/needs/ef148a17/
+- foodbank:
     name: B30
     slug: b30
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAQ0sGwYJtQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d6da6944
   needs: "Tinned Potatoes\r\nSugar (500g Bags Not Larger)\r\nTinned Fruit In Juice(not\
     \ Prunes Or Grapefruit)\r\nTinned Spaghetti\r\nRice\r\nReady Made Custard Tins\
@@ -1606,16 +1623,3 @@
   id: a55b3102
   needs: "Mens Antiperspirant Deodorant\r\nToilet Rolls"
   self: https://www.givefood.org.uk/api/2/needs/a55b3102/
-- foodbank:
-    name: Waveney
-    slug: waveney
-    urls:
-      html: https://www.givefood.org.uk/needs/at/waveney/
-      self: https://www.givefood.org.uk/api/2/foodbank/waveney/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFhU2CwhMJQ==
-  - *id001
-  id: 60fc6a35
-  needs: "Rice Pudding\r\nTinned Fruit\r\nUHT Milk\r\nSugar\r\nCustard\r\nBiscuits"
-  self: https://www.givefood.org.uk/api/2/needs/60fc6a35/
