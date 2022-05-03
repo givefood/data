@@ -1,4 +1,38 @@
 - foodbank:
+    name: Andover
+    slug: andover
+    urls:
+      html: https://www.givefood.org.uk/needs/at/andover/
+      self: https://www.givefood.org.uk/api/2/foodbank/andover/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAxEjBwOODA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 685cb670
+  needs: "Tinned Fish\r\nTinned Fruit\r\nTinned Rice Pudding\r\nBiscuits\r\nLong Life\
+    \ Fruit Juice\r\nToothpaste\r\nShower Gel\r\nShampoo\r\nDeoderant"
+  self: https://www.givefood.org.uk/api/2/needs/685cb670/
+- foodbank:
+    name: Malmesbury & District
+    slug: malmesbury-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/malmesbury-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/malmesbury-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAxETIwSwbQ==
+  - *id001
+  id: c2c9ffd9
+  needs: "Soup\r\nPasta Sauce\r\nTinned Vegetables\r\nTinned Fish\r\nTinned Meat\r\
+    \nMeat Pies\r\nTinned Fruit\r\nSponge Puddings\r\nTinned Potatoes\r\nLong Life\
+    \ Fruit Juice\r\nSnacks\r\nJam\r\nVegetable Pies And Meals Suitable For Vegetarians\
+    \ And Vegans\r\nTinned Spaghetti"
+  self: https://www.givefood.org.uk/api/2/needs/c2c9ffd9/
+- foodbank:
     name: North Enfield
     slug: north-enfield
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAxANHgpGFg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 13dab3db
   needs: "Carrier Bags\r\nTinned Vegetable Soup\r\nTinned Fruit\r\nTinned Tomatoes\r\
     \nTinned Spaghetti\r\nTinned Mixed Beans\r\nNoodles\r\nRice Pudding\r\nCustard\r\
@@ -1591,35 +1621,3 @@
   needs: "Dilute/juice\r\nRice Pudding\r\nRice\r\nBiscuits\r\nLong Life Milk\r\nShower\
     \ Gel\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/c04acb21/
-- foodbank:
-    name: Oswestry and Borders
-    slug: oswestry-and-borders
-    urls:
-      html: https://www.givefood.org.uk/needs/at/oswestry-and-borders/
-      self: https://www.givefood.org.uk/api/2/foodbank/oswestry-and-borders/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQsQIA7fkg==
-  - *id001
-  id: bb550382
-  needs: "Milk\r\nRice Pudding, Custard\r\nSquash, Fruit Juice\r\nTinned Fruit\r\n\
-    Tinned Vegetables: Peas And Carrots, Potatoes, Instant Mash\r\nTinned Meat - Hot\
-    \ And Cold\r\nHot Chocolate\r\nPorridge And Cereals\r\nToiletries - Deodorant,\
-    \ Shampoo, Shower Gel, Toothpaste\r\nTinned Pasta / Spaghetti / Macaroni Cheese\r\
-    \nCoffee, Small Jars\r\nJams And Honey"
-  self: https://www.givefood.org.uk/api/2/needs/bb550382/
-- foodbank:
-    name: Living Well Bromley
-    slug: living-well-bromley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/living-well-bromley/
-      self: https://www.givefood.org.uk/api/2/foodbank/living-well-bromley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQoiNgLHmQ==
-  - *id001
-  id: e9e4bd3d
-  needs: "UHT Milk\r\nTinned Pulses\r\nTinned Vegetables\r\nTinned Meat\r\nTinned\
-    \ Fruit\r\nRice\r\nPasta\r\nTinned Rice Pudding And Custard\r\nTinned Tomatoes\r\
-    \nBiscuits\r\nCereal\r\nToilet Roll\r\nShower Gel And Shampoo"
-  self: https://www.givefood.org.uk/api/2/needs/e9e4bd3d/
