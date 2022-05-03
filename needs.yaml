@@ -1,4 +1,50 @@
 - foodbank:
+    name: Cardigan
+    slug: cardigan
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cardigan/
+      self: https://www.givefood.org.uk/api/2/foodbank/cardigan/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAwwkFQobiA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0315fdb8
+  needs: "Tomatoes, Tinned\r\nSoup, Tinned/packet\r\nJams And Spreads\r\nCereal Bars\r\
+    \nFruit, Tinned\r\nFruit Juice (Long Life)\r\nUHT Milk\r\nSquash\r\nMeats, Tinned\r\
+    \nJelly/instant Whips\r\nTea / Coffee\r\nSponge Puddings\r\nSugar\r\nToilet Rolls\r\
+    \nDeodorants\r\nShampoo And/or Conditioner"
+  self: https://www.givefood.org.uk/api/2/needs/0315fdb8/
+- foodbank:
+    name: Maidenhead
+    slug: maidenhead
+    urls:
+      html: https://www.givefood.org.uk/needs/at/maidenhead/
+      self: https://www.givefood.org.uk/api/2/foodbank/maidenhead/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAwwDFQtFoA==
+  - *id001
+  id: c17f9dc6
+  needs: "Cupa Soup\r\nSmall Coffee Jars\r\nIndividual Rice Pouches\r\nIndividual\
+    \ Pasta Sachets\r\nBaked Beans\r\nTinned Soup\r\nTinned Ravioli\r\nTinned Macaroni\r\
+    \nTinned Meat\r\nChildren's Cereal\r\nMulti-pack Snack Biscuits\r\nTinned Tuna\
+    \ (Ring Pull)\r\nTinned Spaghetti\r\nTinned Tomatoes\r\nBiscuits\r\nUHT Milk\r\
+    \nCrisps\r\nTinned Vegetables\r\nTinned Fruit\r\nTinned Rice Pudding\r\nTinned\
+    \ Custard\r\nChildren's Cereal\r\nMultipack Cereal\r\nSpreads For Bread/toast\r\
+    \nBiscuits\r\nUHT Milk\r\nCrisps\r\nMulti-pack Snack Biscuits\r\nDried Fruit Or\
+    \ Raisins\r\nPeanuts\r\nTinned Hot Dogs\r\nTinned Ravioli\r\nCrisps\r\nSweets\r\
+    \nChocolate\r\nCakes\r\nSugar-free Jelly\r\nSmall Cheeses\r\nTinned Rice Pudding\r\
+    \nTinned Custard\r\nPot Noodles\r\nMultipack Cereal\r\nCans Of Soft Drink\r\n\
+    Bottle Of Still Water\r\nFull Fat Or Semi-skimmed UHT  Milk\r\nBiscuits\r\nUHT\
+    \ Milk\r\nCrisps\r\nChocolate\r\nBoiled Sweets\r\nMulti-pack Snack Biscuits\r\n\
+    Peanut Butter (Plastic Tub)\r\nPeanuts/nuts\r\nTinned Spaghetti With  Sausages\r\
+    \nRing Pull  - Tinned Rice Pudding\r\nTinned Mackerel"
+  self: https://www.givefood.org.uk/api/2/needs/c17f9dc6/
+- foodbank:
     name: Southampton Basics Bank
     slug: southampton-basics-bank
     urls:
@@ -7,11 +53,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAwwALgDUdQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: cf30d125
   needs: "Tinned Hot Meat (Curry, Pies, Stew, Etc.)\r\nTinned Cold Meat (Ham, Spam,\
     \ Etc.)\r\nCoffee (Small Jars)\r\nCook-in Sauces (Jars & Packets)\r\nTinned Fruit\r\
@@ -1583,47 +1625,3 @@
     \nTinned Fruit/custard\r\nTinned Fish\r\nToiletries: Toothpaste, Toothbrushes,\
     \ Shower Gel, Deodorant\r\nJam"
   self: https://www.givefood.org.uk/api/2/needs/c119271f/
-- foodbank:
-    name: Malvern Hills
-    slug: malvern-hills
-    urls:
-      html: https://www.givefood.org.uk/needs/at/malvern-hills/
-      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGBA4EggGAA==
-  - *id001
-  id: 4efb6609
-  needs: "Tinned Potatoes\r\nTinned Rice Pudding\r\nTinned Fruit\r\nJam\r\nTomato\
-    \ Ketchup\r\nUHT Milk\r\nWashing Up Liquid\r\nLaundry Detergent\r\nShampoo\r\n\
-    Toothpaste\r\nChildren's Toothbrushes\r\nAdult Toothbrushes\r\nNappies Size 5\
-    \ And Size 6"
-  self: https://www.givefood.org.uk/api/2/needs/4efb6609/
-- foodbank:
-    name: Hound Basics
-    slug: hound-basics
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hound-basics/
-      self: https://www.givefood.org.uk/api/2/foodbank/hound-basics/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGA87DA2UoQ==
-  - *id001
-  id: ca995e7c
-  needs: "Carrier Bags\r\nClean Empty Jam Jars (Not Ones That Have Contained Anything\
-    \ Spicy Please)\r\nDry Spaghetti\r\nHot Dogs\r\nKids' Healthy Snacks, E.g., Raisins\r\
-    \nLasagne Sheets\r\nOlive Oil (Small)\r\nPacket Sauces\r\nQuick Noodles\r\nShampoo\
-    \ (Unisex)\r\nSwiss Roll (Molly's)\r\nTinned Cold Meat\r\nTinned Custard\r\nTinned\
-    \ Spaghetti\r\nTinned Sweetcorn\r\nUHT Milk\r\nVegetarian Fray Bentos Pies\r\n\
-    Women's Deodorant/toiletries\r\nAntibacterial Wipes\r\nBaby Food (7+ Months)\r\
-    \nBaby Wash\r\nChildren’s Shampoo\r\nChildren’s Toothpaste/toothbrushes\r\nChocolate\
-    \ Bars / Sweets\r\nCook-in Sauces (Tomato)\r\nCrisps\r\nEvaporated Milk\r\nFabric\
-    \ Conditioner\r\nGluten Free Items\r\nHair Conditioner\r\nHot Chocolate / Horlicks\r\
-    \nHousehold Cleaning Items\r\nJam / Marmalade\r\nJelly Powder Packets\r\nKitchen\
-    \ Rolls\r\nMarmite\r\nMash Potato Packets\r\nMayonnaise\r\nMen's Antiperspirant\
-    \ / Deodorant\r\nPeanut Butter\r\nPot Noodles\r\nShower Gel / Shampoo (Unisex)\r\
-    \nSmall Jelly / Fruit Pots\r\nSmall Size Porridge (500g) Or Porridge Pots\r\n\
-    Steamed Puddings\r\nSugar / Sweeteners\r\nTampax\r\nTissues\r\nToilet Rolls\r\n\
-    Tomato Sauce / Brown Sauce\r\nToothpaste\r\nTuna Pasta Bake Packet Sauce\r\nWashing\
-    \ Up Liquid\r\nWhite Lasagne Sauce"
-  self: https://www.givefood.org.uk/api/2/needs/ca995e7c/
