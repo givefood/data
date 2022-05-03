@@ -1,4 +1,22 @@
 - foodbank:
+    name: Yeovil
+    slug: yeovil
+    urls:
+      html: https://www.givefood.org.uk/needs/at/yeovil/
+      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAxIBHwsBYg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: cca3abad
+  needs: "Tins Of Hot Dogs\r\nPackets Of Savoury Rice\r\nTins Of Peas\r\nBaked Beans\r\
+    \nBags Of Sugar\r\nUHT Milk\r\nShampoo"
+  self: https://www.givefood.org.uk/api/2/needs/cca3abad/
+- foodbank:
     name: Andover
     slug: andover
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAxEjBwOODA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 685cb670
   needs: "Tinned Fish\r\nTinned Fruit\r\nTinned Rice Pudding\r\nBiscuits\r\nLong Life\
     \ Fruit Juice\r\nToothpaste\r\nShower Gel\r\nShampoo\r\nDeoderant"
@@ -1607,17 +1621,3 @@
   needs: "Strong, Clean Shopping Bags\r\nTinned Soup\r\nTinned Fruit\r\nInstant Coffee\r\
     \nPorridge\r\nTinned Spaghetti\r\nJam/honey/peanut Butter, Etc"
   self: https://www.givefood.org.uk/api/2/needs/ba1bab87/
-- foodbank:
-    name: Barnsley
-    slug: barnsley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/barnsley/
-      self: https://www.givefood.org.uk/api/2/foodbank/barnsley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQshMQ6pdQ==
-  - *id001
-  id: c04acb21
-  needs: "Dilute/juice\r\nRice Pudding\r\nRice\r\nBiscuits\r\nLong Life Milk\r\nShower\
-    \ Gel\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/c04acb21/
