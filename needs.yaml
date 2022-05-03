@@ -1,4 +1,26 @@
 - foodbank:
+    name: Anglesey
+    slug: anglesey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/anglesey/
+      self: https://www.givefood.org.uk/api/2/foodbank/anglesey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAwkhNQTtYA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 1b4e1d92
+  needs: "Milk (UHT / Long-life)\r\nBread\r\nMeat (Tinned)\r\nPotatoes (Tinned & Instant\
+    \ Mash)\r\nTinned Tomatoes\r\nTinned Sweetcorn\r\nTinned Peas\r\nTinned Carrots\r\
+    \nTuna (Tinned)\r\nFruit Juice (UHT / Long-life)\r\nRice Pudding (Tinned)\r\n\
+    Spaghetti (Tinned)\r\nCustard (Tinned)\r\nTinned Fruit\r\nCream Crakers & Crisps\r\
+    \nCoffee (100g)\r\nJam & Marmalade\r\nSingle And Family Puddings\r\nToiletries\
+    \ Excluding Sanitary Pads"
+  self: https://www.givefood.org.uk/api/2/needs/1b4e1d92/
+- foodbank:
     name: Luton
     slug: luton
     urls:
@@ -7,11 +29,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAgEBLQBcnQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ef148a17
   needs: "Rice Pudding (Tinned)\r\nInstant Noodles Meat (Tinned)\r\nCustard (Tinned)\r\
     \nVegetables (Tinned)\r\nFruit (Tinned)\r\nFruit Juice (Carton)\r\nDried Rice\
@@ -1610,16 +1628,3 @@
     \ Toothpaste\r\nJam\r\nTinned Meatballs\r\nTinned Macaroni Cheese\r\nToilet Rolls\r\
     \nWashing-up Liquid\r\nMen’s Body Wash\r\nTinned Custard"
   self: https://www.givefood.org.uk/api/2/needs/7b93d431/
-- foodbank:
-    name: Cheadle and District
-    slug: cheadle-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFwo2AQJLnw==
-  - *id001
-  id: a55b3102
-  needs: "Mens Antiperspirant Deodorant\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/a55b3102/
