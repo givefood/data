@@ -1,4 +1,21 @@
 - foodbank:
+    name: Chipping Barnet
+    slug: chipping-barnet
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chipping-barnet/
+      self: https://www.givefood.org.uk/api/2/foodbank/chipping-barnet/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAwkuDgva6A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c3bd0fe9
+  needs: "Small Jars Of Coffee\r\nTinned Fruit\r\nTinned Meat\r\nTinned Potatoes"
+  self: https://www.givefood.org.uk/api/2/needs/c3bd0fe9/
+- foodbank:
     name: Anglesey
     slug: anglesey
     urls:
@@ -7,11 +24,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAwkhNQTtYA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1b4e1d92
   needs: "Milk (UHT / Long-life)\r\nBread\r\nMeat (Tinned)\r\nPotatoes (Tinned & Instant\
     \ Mash)\r\nTinned Tomatoes\r\nTinned Sweetcorn\r\nTinned Peas\r\nTinned Carrots\r\
@@ -1611,20 +1624,3 @@
     \ Tomatoes\r\nLong Life Milk\r\nJam\r\nWashing Up Liquid\r\nWashing Powder\r\n\
     Shower Gel\r\nLong Life Juice/squash\r\nTinned Vegetables\r\nShampoo\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/e2a8ffee/
-- foodbank:
-    name: Harrow
-    slug: harrow
-    urls:
-      html: https://www.givefood.org.uk/needs/at/harrow/
-      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEFws7Mwymkw==
-  - *id001
-  id: 7b93d431
-  needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
-    \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
-    \nTinned Potatoes\r\nLong-life Fruit Juice\r\nWomen’s Deodorant\r\nAdult And Children\
-    \ Toothpaste\r\nJam\r\nTinned Meatballs\r\nTinned Macaroni Cheese\r\nToilet Rolls\r\
-    \nWashing-up Liquid\r\nMen’s Body Wash\r\nTinned Custard"
-  self: https://www.givefood.org.uk/api/2/needs/7b93d431/
