@@ -1,4 +1,178 @@
 - foodbank:
+    name: North Norfolk
+    slug: north-norfolk
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-norfolk/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-norfolk/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA8PBApLlg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 81cb067b
+  needs: "Cereal\r\nLong Life Milk - Full Fat Or Semi Skimmed\r\nTinned Tomatoes\r\
+    \nTinned Fruit\r\nTinned Vegetables\r\nPasta Sauce\r\nTinned Rice Pudding\r\n\
+    Custard\r\nTea\r\nSquash/fruit Juice\r\nLaundry Liquid/powder"
+  self: https://www.givefood.org.uk/api/2/needs/81cb067b/
+- foodbank:
+    name: Shrewsbury
+    slug: shrewsbury
+    urls:
+      html: https://www.givefood.org.uk/needs/at/shrewsbury/
+      self: https://www.givefood.org.uk/api/2/foodbank/shrewsbury/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA8ICAP1Ig==
+  - *id001
+  id: 925080bf
+  needs: "Pasta Sauce\r\nTinned Vegetables\r\nTinned Fruit\r\nUHT Milk\r\nToilet Paper"
+  self: https://www.givefood.org.uk/api/2/needs/925080bf/
+- foodbank:
+    name: The Whitehawk
+    slug: the-whitehawk
+    urls:
+      html: https://www.givefood.org.uk/needs/at/the-whitehawk/
+      self: https://www.givefood.org.uk/api/2/foodbank/the-whitehawk/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA8BIg3EUw==
+  - *id001
+  id: b3f32307
+  needs: "Tinned Curry (Chicken / Vegan / Vegetarian)\r\nUHT Milk & Plant Based Milk\r\
+    \nTinned Vegetables\r\nMayonnaise\r\nTinned Fruit\r\nTinned Hot Dog Sausages\r\
+    \nTinned Meatballs\r\nTinned Tune\r\nToilet Rolls\r\nDeodorant\r\nCoffee\r\nBiscuits"
+  self: https://www.givefood.org.uk/api/2/needs/b3f32307/
+- foodbank:
+    name: Keynsham
+    slug: keynsham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/keynsham/
+      self: https://www.givefood.org.uk/api/2/foodbank/keynsham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA4uGgkc2w==
+  - *id001
+  id: 6f21ab85
+  needs: Nothing
+  self: https://www.givefood.org.uk/api/2/needs/6f21ab85/
+- foodbank:
+    name: Salisbury
+    slug: salisbury
+    urls:
+      html: https://www.givefood.org.uk/needs/at/salisbury/
+      self: https://www.givefood.org.uk/api/2/foodbank/salisbury/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA4mHg7OOw==
+  - *id001
+  id: c1a02a45
+  needs: "Juice (Long Life)\r\nSponge Pudding\r\nTea Bags ( Small Boxes Of 80-100)\r\
+    \nRice Pudding\r\nCustard\r\nSmall Jars Of Coffee\r\nTinned Tomatoes\r\nMilk\r\
+    \nPacket Puddings\r\nTinned Fish\r\nInstant Mash Potato\r\nChocolate\r\nToothbrushes"
+  self: https://www.givefood.org.uk/api/2/needs/c1a02a45/
+- foodbank:
+    name: Harrow
+    slug: harrow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/harrow/
+      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA0YCw88JA==
+  - *id001
+  id: 57f9c278
+  needs: "20p Carrier Bags\r\nSponge Puddings\r\n500g Rice\r\nSmall Jars Coffee\r\n\
+    Tinned Fruit\r\nWomen’s Deodorant\r\nAdult And Children Toothpaste\r\nTinned Meatballs\r\
+    \nTinned Macaroni Cheese\r\nToilet Rolls\r\nWashing-up Liquid\r\nMen’s Body Wash\r\
+    \nTinned Custard"
+  self: https://www.givefood.org.uk/api/2/needs/57f9c278/
+- foodbank:
+    name: Walton & Hersham
+    slug: walton-hersham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/walton-hersham/
+      self: https://www.givefood.org.uk/api/2/foodbank/walton-hersham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA0NBQVAqQ==
+  - *id001
+  id: d86f6c13
+  needs: "Long Life Carrier Bags In Good Condition (To Pack Parcels In)\r\nLong Life\
+    \ Milk\r\nTin Tomatoes\r\nSweetcorn\r\nInstant Mash Potatoes\r\nPasta Sauce\r\n\
+    Rice Pudding\r\nCustard\r\nFruit Juice\r\nLong Life Sponge Puddings\r\nJam\r\n\
+    Chocolate Bars / Sweets\r\nCrisps And Savoury Snacks\r\nToilet Roll\r\nShampoo\r\
+    \nShaving Razors & Male Toiletries\r\nDeodorant"
+  self: https://www.givefood.org.uk/api/2/needs/d86f6c13/
+- foodbank:
+    name: Ealing
+    slug: ealing
+    urls:
+      html: https://www.givefood.org.uk/needs/at/ealing/
+      self: https://www.givefood.org.uk/api/2/foodbank/ealing/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBA0MLQ2XAg==
+  - *id001
+  id: 1727ee7c
+  needs: "Tinned Fish\r\nUHT Milk (Whole Or Semi-skimmed)\r\nLong Life Fruit Juice\
+    \ & Squash\r\nInstant Coffee & Drinking Chocolate\r\nLong Grain Rice\r\nTomatoes\
+    \ / Cook In Sauce\r\nTinned Fruit / Vegetables\r\nVegetarian Meals\r\nJam & Peanut\
+    \ Butter\r\nLaundry Products - Smaller Packs\r\nNappies (Sizes 5 And 6)"
+  self: https://www.givefood.org.uk/api/2/needs/1727ee7c/
+- foodbank:
+    name: Gravesham
+    slug: gravesham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/gravesham/
+      self: https://www.givefood.org.uk/api/2/foodbank/gravesham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBAwIAQhoqw==
+  - *id001
+  id: b57e8054
+  needs: "Packets Of Dried Pasta - Spaghetti, Penne Etc.\r\nTins Of Rice Pudding\r\
+    \nTin Tomatoes\r\nTin Meat To Be Served Hot\r\nTin Meat Pies\r\nTins Baked Beans\
+    \ And Sausages\r\nTin Potatoes\r\nTins Of Macaroni Cheese\r\nTin Fruit\r\nJars\
+    \ Of Pasta Sauce\r\nSmall Packets Of Instant Potato - Smash\r\nBiscuits\r\nCooking\
+    \ Oil\r\nJars Of Peanut Butter, Jam And Chocolate Spread\r\nSmall Bottles Of Squash/cordial"
+  self: https://www.givefood.org.uk/api/2/needs/b57e8054/
+- foodbank:
+    name: West Cheshire
+    slug: west-cheshire
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-cheshire/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-cheshire/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBAstGQVa+A==
+  - *id001
+  id: f2a760bb
+  needs: "UHT Milk\r\nUHT Juice\r\nInstant Coffee Small Jars\r\nInstant Mash / Tinned\
+    \ Potatoes\r\nInstant Pasta / Instant Noodles\r\nTinned Meats\r\nTinned Tomatoes\r\
+    \nTinned Meat / Fish\r\nTinned Vegetables\r\nTinned Potatoes\r\nTinned Tomatoes\r\
+    \nCuppa Soups\r\nPot Noodles/super Noodles\r\nInstant Pasta (Pasta And Sauce)\r\
+    \nPasta Sauce\r\nInstant Mashed Potato\r\nTinned / Instant Custard\r\nTinned Fruit\r\
+    \nBiscuits\r\nUHT Milk\r\nUHT Fruit Juice\r\nInstant Coffee"
+  self: https://www.givefood.org.uk/api/2/needs/f2a760bb/
+- foodbank:
+    name: Stretford
+    slug: stretford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stretford/
+      self: https://www.givefood.org.uk/api/2/foodbank/stretford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBAstAwX/WQ==
+  - *id001
+  id: ede79166
+  needs: "Long Life Orange Juice\r\nTinned Potatoes/vegetables\r\nTea & Coffee\r\n\
+    Tinned Pies\r\nTinned Custard\r\nTinned Meat\r\nLong Life Milk\r\nJelly\r\nPickles\
+    \ And Preserves\r\nCrisps, Biscuits & Chocolate\r\nDog & Cat Food"
+  self: https://www.givefood.org.uk/api/2/needs/ede79166/
+- foodbank:
     name: Rugby
     slug: rugby
     urls:
@@ -7,11 +181,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBAkiBQ3wwg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 9b699fd1
   needs: "Toothpaste\r\nQuality Carrier Bags (Bags For Life)\r\nCoffee\r\nTinned Potatoes\r\
     \nCream Crackers\r\nShampoo\r\nSoap\r\nHot Chocolate\r\nShower Gel\r\nTinned Sweetcorn"
@@ -1431,186 +1601,3 @@
     \ Crackers Etc)\r\nRice Pudding\r\nChocolate Bars\r\nAntibacterial Spray/bleach\r\
     \nShampoo/conditioner\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/e448e436/
-- foodbank:
-    name: Saltash
-    slug: saltash
-    urls:
-      html: https://www.givefood.org.uk/needs/at/saltash/
-      self: https://www.givefood.org.uk/api/2/foodbank/saltash/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGgk5JweIzw==
-  - *id001
-  id: 20bd988a
-  needs: "UHT Fruit Juice\r\nSugar\r\nMilk Powder\r\nPuddings (Angel Delight, Jelly\
-    \ Cubes, Trifle Mix, Sponge Puddings)\r\nJam\r\nNoodles\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/20bd988a/
-- foodbank:
-    name: Coventry
-    slug: coventry
-    urls:
-      html: https://www.givefood.org.uk/needs/at/coventry/
-      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGgkJHwBgvQ==
-  - *id001
-  id: 40628bee
-  needs: "Tinned Vegetables\r\nTinned Fruit\r\nTinned Potatoes\r\nInstant Mash\r\n\
-    Quick Cook Noodles"
-  self: https://www.givefood.org.uk/api/2/needs/40628bee/
-- foodbank:
-    name: Hackney
-    slug: hackney
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hackney/
-      self: https://www.givefood.org.uk/api/2/foodbank/hackney/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGRYeAADafg==
-  - *id001
-  id: 9e112ed7
-  needs: "Long Life UHT Milk\r\nTinned Corned Beef\r\nLong Life Juice\r\nTinned Fruit\r\
-    \nBiscuits\r\nCereal\r\nToilet Roll\r\nShampoo\r\nDeodorant\r\nToothpaste & Toothbrushes"
-  self: https://www.givefood.org.uk/api/2/needs/9e112ed7/
-- foodbank:
-    name: Southend
-    slug: southend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southend/
-      self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGRUcAgRqXQ==
-  - *id001
-  id: 344bb01b
-  needs: "Meat Meals – Tinned Curry, Chilli, Chicken In Sauce\r\nTinned Vegetables\
-    \ - Carrots, Sweetcorn, Peas\r\nRice Pudding\r\nCustard\r\nUHT Milk\r\nStrong\
-    \ Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/344bb01b/
-- foodbank:
-    name: Hammersmith & Fulham
-    slug: hammersmith-fulham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hammersmith-fulham/
-      self: https://www.givefood.org.uk/api/2/foodbank/hammersmith-fulham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGRQJLAzOqg==
-  - *id001
-  id: 2da0d68a
-  needs: "Long Life/UHT Milk And Juice Including Kids Juice Cartons\r\nTinned Vegetarian\
-    \ Options - Macaroni Cheese, Veggie Chilli / Curry, Etc\r\nTinned Fish\r\nNappies\
-    \ Sizes 3, 4, 5 And 6, Baby Wipes And Baby Food\r\nCoffee - Small Jars\r\nShampoo,\
-    \ Shower Gel, Deodorant, Toothbrushes, Toothpaste\r\nTinned Vegetables (Sweetcorn,\
-    \ Carrots, Peas Etc)\r\nTinned Fruit\r\nJams And Spreads"
-  self: https://www.givefood.org.uk/api/2/needs/2da0d68a/
-- foodbank:
-    name: Milton Keynes
-    slug: milton-keynes
-    urls:
-      html: https://www.givefood.org.uk/needs/at/milton-keynes/
-      self: https://www.givefood.org.uk/api/2/foodbank/milton-keynes/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGRMvGQGXVA==
-  - *id001
-  id: eb808607
-  needs: "Tinned Meat\r\nTinned Fish\r\nLong Life Milk\r\nJuice Or Squash\r\nSpreads\
-    \ – Jams, Peanut Butter Or Chocolate Spread\r\nTinned Pasta\r\nTea\r\nSugar\r\n\
-    Tinned Fruit\r\nDried Rice – 500g Or 1kg Packets Please\r\nRice Pudding/custard"
-  self: https://www.givefood.org.uk/api/2/needs/eb808607/
-- foodbank:
-    name: Callington
-    slug: callington
-    urls:
-      html: https://www.givefood.org.uk/needs/at/callington/
-      self: https://www.givefood.org.uk/api/2/foodbank/callington/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGRATBQGW0A==
-  - *id001
-  id: dcef42e1
-  needs: "Washing Powder/tabs/liquid For Clothes\r\nTinned Cooked Meat (Ie Chilli\
-    \ Con Carne/curries/meatballs)\r\nSponge Puddings\r\nMens Razors\r\nLadies Razors\r\
-    \nMens Spray Deodorant\r\nDog Food (Tinned, Mixer & Dry Complete)\r\nLunchbox\
-    \ Items (Chocolate, Crisps)\r\nKitchen Roll\r\nToilet Roll\r\nShampoo & Conditioner\r\
-    \nGluten Free Items\r\nJam (Not Marmalade)\r\nCold Meats (Corned Beef, Tinned\
-    \ Ham, Luncheon Meat)\r\nVegetarian Items"
-  self: https://www.givefood.org.uk/api/2/needs/dcef42e1/
-- foodbank:
-    name: Norwich
-    slug: norwich
-    urls:
-      html: https://www.givefood.org.uk/needs/at/norwich/
-      self: https://www.givefood.org.uk/api/2/foodbank/norwich/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQ8jIQjksw==
-  - *id001
-  id: 27d48af1
-  needs: "Instant Mash\r\nLong Life Milk\r\nLong Life Fruit Juice\r\nLong Life Sponge\
-    \ Puddings\r\nPasta Sauces - Especially Tomato-based (I.e. Not Curry Sauces)\r\
-    \nTinned Custard\r\nTomatoes (Tinned)\r\nTinned Veg - Especially Carrots, Sweetcorn\
-    \ And Green Beans Including Ring Pull Please\r\nTinned Potatoes\r\nTeabags (40s\
-    \ And 80s)\r\nInstant Mash Potato\r\nTinned Meat E.g. Ham, Chicken In Sauce, Corned\
-    \ Beef\r\nTinned Fish\r\nBiscuits\r\nSponge Pudding (Tinned / Long Life)\r\nSnack\
-    \ Bars (E.g. Breakfast Biscuits)\r\nTinned Fruit\r\nBiscuits - Wrapped Such As\
-    \ A Penguins / Club Etc, That We Can Split\r\nNappies - Size 6 And 7 Only Please\r\
-    \nSweets / Bars Of Chocolate\r\nPet Food (Dog And Cat)\r\nWashing Up Liquid And\
-    \ Sponges\r\nSanitary Towels / Tampons\r\nToiletries Including Deodorants, Shower\
-    \ Gel, Shampoo, Toilet Rolls, Shaving Gel / Foam And Razors Etc."
-  self: https://www.givefood.org.uk/api/2/needs/27d48af1/
-- foodbank:
-    name: Market Drayton
-    slug: market-drayton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/market-drayton/
-      self: https://www.givefood.org.uk/api/2/foodbank/market-drayton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQ8jHgJ3Ww==
-  - *id001
-  id: 6b2bf786
-  needs: "UHT Milk - No Stock\r\nLong Life Cartons Of Fruit Juice - No Stock\r\nPackets\
-    \ Of Flavoured Rice/pasta/noodles - No Stock\r\nPackets Of Instant Mash - No Stock\r\
-    \nDry Cat Food - No Stock\r\nBiscuits - No Stock\r\nWashing Powder/tabs\r\nWashing\
-    \ Up Liquid\r\nMale/female Deodorant\r\nShampoo\r\nSponge Puddings/slab Cake"
-  self: https://www.givefood.org.uk/api/2/needs/6b2bf786/
-- foodbank:
-    name: Storehouse North Down
-    slug: storehouse-north-down
-    urls:
-      html: https://www.givefood.org.uk/needs/at/storehouse-north-down/
-      self: https://www.givefood.org.uk/api/2/foodbank/storehouse-north-down/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQ46KQjzaw==
-  - *id001
-  id: e0469a0e
-  needs: "Tinned Snacks – Ravioli, Meatballs. Sausage &Beans Etc.\r\nTinned Meals\
-    \ To Serve With Potatoes – Chunky Chicken, Mince & Onion, Stewed Steak Etc.\r\n\
-    Toilet Rolls\r\nCustard\r\nLong Life Milk\r\nMeals Eg Curry & Chilli,\r\nDeodorants\
-    \ Male & Female.\r\nShampoo\r\nTinned Fruit\r\nDiluted Juice\r\nBreakfast Juice\r\
-    \nJam\r\nJars: Baby Food, Jam, Bolognese Sauce, Pasta Sauces\r\nTins: Tomatoes,\
-    \ Tuna, Tinned Meals, Custard, Rice, Ham, Fruit, Baked Beans, Vegetables, Sweet\
-    \ Corn, Spaghetti, Soup\r\nDrinks: Diluted Juice, Breakfast Juice, Long Life Milk\r\
-    \nOther: Pasta Large/small, Dried Rice, Cereal – Small Variety Or Large Box, Biscuits,\
-    \ Salt Pepper, Cooking Oil, Cuppa Soup, Tea, Coffee, Jelly, Washing Up Liquid,\
-    \ Cleaning Products."
-  self: https://www.givefood.org.uk/api/2/needs/e0469a0e/
-- foodbank:
-    name: Gateshead
-    slug: gateshead
-    urls:
-      html: https://www.givefood.org.uk/needs/at/gateshead/
-      self: https://www.givefood.org.uk/api/2/foodbank/gateshead/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQ4cCQgwdw==
-  - *id001
-  id: 85f739cb
-  needs: "Tinned Potatoes\r\nMilk - Long Life\r\nTinned Fruit\r\nFruit Juice - Long\
-    \ Life\r\nCoffee\r\nCustard\r\nTinned Tomatoes\r\nTinned Veg\r\nSponge Puddings\r\
-    \nBeans\r\nSoup"
-  self: https://www.givefood.org.uk/api/2/needs/85f739cb/
