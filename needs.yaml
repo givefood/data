@@ -1,4 +1,55 @@
 - foodbank:
+    name: Stroud District
+    slug: stroud-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stroud-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/stroud-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAxMfHw4i6Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: ed90dd35
+  needs: "Fruit Juice\r\nTinned Vegetables\r\nTinned Tomatoes\r\nCoffee\r\nRice Pudding\r\
+    \nTinned Custard\r\nTinned Potatoes\r\nUHT Milk\r\nDeodorants\r\nNappies Sizes\
+    \ 5/6"
+  self: https://www.givefood.org.uk/api/2/needs/ed90dd35/
+- foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAxMfHwxyXQ==
+  - *id001
+  id: 15574bef
+  needs: "Tinned Fruit\r\nLong-life Fruit Juice\r\nTinned Fish Other Than Tuna And\
+    \ Mackerel, Such As Salmon\r\nTinned Spaghetti\r\nTinned Vegetables Other Than\
+    \ Peas\r\nTinned Rice Pudding\r\nTeabags\r\nCrisps\r\nJam, Marmalade Etc.\r\n\
+    Cereal\r\nSponge Puddings\r\nHair Conditioner\r\nBubble Bath, Bath Soak Etc.\r\
+    \nDried Cat Food, Dried Dog Food"
+  self: https://www.givefood.org.uk/api/2/needs/15574bef/
+- foodbank:
+    name: Brent
+    slug: brent
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brent/
+      self: https://www.givefood.org.uk/api/2/foodbank/brent/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAxMWFgbFww==
+  - *id001
+  id: 6f56f96f
+  needs: "Tinned Meat\r\nCereal\r\nTinned Veg\r\nTinned Fruit\r\nPasta Sauce\r\nTea\
+    \ & Coffee (Small Sizes)\r\nJams & Spreads\r\nRice Pudding/custard\r\nBar Soap/shower\
+    \ Gel\r\nShampoo\r\nShaving Foam & Razors"
+  self: https://www.givefood.org.uk/api/2/needs/6f56f96f/
+- foodbank:
     name: Yeovil
     slug: yeovil
     urls:
@@ -7,11 +58,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAxIBHwsBYg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: cca3abad
   needs: "Tins Of Hot Dogs\r\nPackets Of Savoury Rice\r\nTins Of Peas\r\nBaked Beans\r\
     \nBags Of Sugar\r\nUHT Milk\r\nShampoo"
@@ -1571,53 +1618,3 @@
     Tinned Soup (Meat And Veggie)\r\nTinned Tomatoes\r\nTinned Vegetables - Peas,\
     \ Carrots, Sweetcorn\r\nRice"
   self: https://www.givefood.org.uk/api/2/needs/aaf51de4/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQweFw4BjQ==
-  - *id001
-  id: 18f70117
-  needs: "Pasta Sauce\r\nTinned Fish\r\nSponge Puddings (Not Chilled)\r\nTinned Meat/meat\
-    \ Meals\r\nTomato Ketchup\r\nRazors (Men)\r\nShaving Gel/foam (Women)\r\nTinned\
-    \ Custard\r\nBaby Food\r\nDried Milk\r\nStock Cubes Meat Or Veg\r\nUHT Long Life\
-    \ Milk\r\nTinned Rice Pudding\r\nLong Life Juice\r\nTinned Tomatoes\r\nInstant\
-    \ Noodles\r\nTinned Fruit\r\nRice (500g/1kg)\r\nShower Gel\r\nInstant Mash\r\n\
-    Cooking Oil\r\nBaked Beans/tinned Spaghetti\r\nTinned Soup"
-  self: https://www.givefood.org.uk/api/2/needs/18f70117/
-- foodbank:
-    name: Arnold
-    slug: arnold
-    urls:
-      html: https://www.givefood.org.uk/needs/at/arnold/
-      self: https://www.givefood.org.uk/api/2/foodbank/arnold/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQs7AACIzw==
-  - *id001
-  id: 558f4b3d
-  needs: "Tinned Meat/meals Eg Corned Beef, Ham, Hotdogs, Meatballs, Minced Beef,\
-    \ Chicken In White Sauce\r\nUHT Juice (1litre Cartons) And Squash\r\nCarrier Bags\r\
-    \nUHT Milk\r\nJam\r\nTinned Fruit\r\nCoffee - Small 100g Jars\r\nSugar\r\nShampoo.\
-    \ Razors, Deodorant\r\nChocolate Treats And Snacks\r\nTinned Potatoes/ Mash\r\n\
-    Cooking Oil\r\nRice Pudding And Custard\r\nTeabags\r\nTinned Veg - Especially\
-    \ Peas And Carrots\r\nJuice And Squash"
-  self: https://www.givefood.org.uk/api/2/needs/558f4b3d/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQsqEAbqcw==
-  - *id001
-  id: ba1bab87
-  needs: "Strong, Clean Shopping Bags\r\nTinned Soup\r\nTinned Fruit\r\nInstant Coffee\r\
-    \nPorridge\r\nTinned Spaghetti\r\nJam/honey/peanut Butter, Etc"
-  self: https://www.givefood.org.uk/api/2/needs/ba1bab87/
