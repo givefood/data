@@ -50,6 +50,21 @@
     \ Gel\r\nShampoo\r\nShaving Foam & Razors"
   self: https://www.givefood.org.uk/api/2/needs/6f56f96f/
 - foodbank:
+    name: Coventry
+    slug: coventry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/coventry/
+      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAxMNMghiqQ==
+  - *id001
+  id: 0e932613
+  needs: "UHT Longlife Milk\r\nRice\r\nCooking Sauces\r\nFruit Juice/ Squash - No\
+    \ Water/fruitshoot Style Or Fizzy Pop.\r\nTinned Vegetables\r\nTinned Fruit\r\n\
+    Instant Mash"
+  self: https://www.givefood.org.uk/api/2/needs/0e932613/
+- foodbank:
     name: Yeovil
     slug: yeovil
     urls:
@@ -1602,19 +1617,3 @@
     \nMashed Potato Sachets\r\nWashing Powder\r\nTins Of Spaghetti Hoops\r\nMens &\
     \ Ladies Deodorant\r\nWashing Up Liquid"
   self: https://www.givefood.org.uk/api/2/needs/6f359eee/
-- foodbank:
-    name: South & East Bristol
-    slug: south-east-bristol
-    urls:
-      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
-      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGQ00OwYtvQ==
-  - *id001
-  id: aaf51de4
-  needs: "Tinned Fish\r\nTinned Potatoes\r\nTinned Meat Meals (No Pork Please)\r\n\
-    Tinned Vegetarian Meals\r\nFruit Juice (Long Life)\r\nUHT Milk (Long-life)\r\n\
-    Tinned Soup (Meat And Veggie)\r\nTinned Tomatoes\r\nTinned Vegetables - Peas,\
-    \ Carrots, Sweetcorn\r\nRice"
-  self: https://www.givefood.org.uk/api/2/needs/aaf51de4/
