@@ -1,37 +1,4 @@
 - foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBAkiBQ3wwg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 9b699fd1
-  needs: "Toothpaste\r\nQuality Carrier Bags (Bags For Life)\r\nCoffee\r\nTinned Potatoes\r\
-    \nCream Crackers\r\nShampoo\r\nSoap\r\nHot Chocolate\r\nShower Gel\r\nTinned Sweetcorn"
-  self: https://www.givefood.org.uk/api/2/needs/9b699fd1/
-- foodbank:
-    name: Aberdeenshire North
-    slug: aberdeenshire-north
-    urls:
-      html: https://www.givefood.org.uk/needs/at/aberdeenshire-north/
-      self: https://www.givefood.org.uk/api/2/foodbank/aberdeenshire-north/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBAgdMQBqfg==
-  - *id001
-  id: 860142f7
-  needs: "UHT Milk (Full/semi Skimmed)\r\n1ltr Fruit Juice\r\nTinned Tomatoes\r\n\
-    Tinned Vegetable's\r\nIndividual Jelly/fruit Pots\r\nShampoo\r\nDeodorant\r\n\
-    Toothpaste\r\nShaving Gel & Razors\r\nDog Food"
-  self: https://www.givefood.org.uk/api/2/needs/860142f7/
-- foodbank:
     name: Stroud District
     slug: stroud-district
     urls:
@@ -40,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFAxMfHw4i6Q==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: ed90dd35
   needs: "Fruit Juice\r\nTinned Vegetables\r\nTinned Tomatoes\r\nCoffee\r\nRice Pudding\r\
     \nTinned Custard\r\nTinned Potatoes\r\nUHT Milk\r\nDeodorants\r\nNappies Sizes\
@@ -1614,3 +1585,35 @@
     \ Life\r\nCoffee\r\nCustard\r\nTinned Tomatoes\r\nTinned Veg\r\nSponge Puddings\r\
     \nBeans\r\nSoup"
   self: https://www.givefood.org.uk/api/2/needs/85f739cb/
+- foodbank:
+    name: Harrow
+    slug: harrow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/harrow/
+      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGQ4XHAKVBQ==
+  - *id001
+  id: f3afd728
+  needs: "20p Carrier Bags\r\nSponge Puddings\r\nFull-fat Long Life Milk\r\n500g Rice\r\
+    \nPackets Mashed Potato\r\nSmall Jars Coffee\r\nTinned Fruit\r\nTinned Carrots\r\
+    \nLong-life Fruit Juice\r\nWomen’s Deodorant\r\nAdult And Children Toothpaste\r\
+    \nJam\r\nTinned Meatballs\r\nTinned Macaroni Cheese\r\nToilet Rolls\r\nWashing-up\
+    \ Liquid\r\nMen’s Body Wash\r\nTinned Custard\r\nSavoury Biscuits/crackers"
+  self: https://www.givefood.org.uk/api/2/needs/f3afd728/
+- foodbank:
+    name: Liskeard & Looe
+    slug: liskeard-looe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/liskeard-looe/
+      self: https://www.givefood.org.uk/api/2/foodbank/liskeard-looe/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGQ4DCQqr+A==
+  - *id001
+  id: 6f359eee
+  needs: "Tinned Carrots\r\nSugar\r\nWashing Powder\r\nMicrowaveable Pouches Of Rice\r\
+    \nMashed Potato Sachets\r\nWashing Powder\r\nTins Of Spaghetti Hoops\r\nMens &\
+    \ Ladies Deodorant\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/6f359eee/
