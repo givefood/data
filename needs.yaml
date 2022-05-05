@@ -1,22 +1,4 @@
 - foodbank:
-    name: Southend
-    slug: southend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southend/
-      self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBQYiJgUxyg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: bda3fbf8
-  needs: "Meat Meals – Tinned Curry, Chilli, Chicken In Sauce\r\nTinned Vegetables\r\
-    \nUHT Milk\r\nCustard, Rice Pudding\r\nInstant Mash\r\nStrong Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/bda3fbf8/
-- foodbank:
     name: Milton Keynes
     slug: milton-keynes
     urls:
@@ -25,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBQEeLQbywQ==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 5b7e17b7
   needs: "Tinned Meat\r\nTinned Fish\r\nLong Life Milk\r\nJuice Or Squash\r\nSpreads\
     \ – Jams, Peanut Butter Or Chocolate Spread\r\nTinned Pasta\r\nPasta Sauce\r\n\
@@ -1600,3 +1586,17 @@
     Tinned Fish - Barely 2 Weeks Worth Left!\r\nTinned Tomatoes\r\nInstant Mashed\
     \ Potatoes\r\nPasta Sauces\r\nPorridge\r\nCustard\r\nRice Pudding\r\nTinned Fruit"
   self: https://www.givefood.org.uk/api/2/needs/0008222c/
+- foodbank:
+    name: Aberdeen North
+    slug: aberdeen-north
+    urls:
+      html: https://www.givefood.org.uk/needs/at/aberdeen-north/
+      self: https://www.givefood.org.uk/api/2/foodbank/aberdeen-north/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YEGhACNw8ceA==
+  - *id001
+  id: 5ba9eef8
+  needs: "UHT Milk\r\nTinned Meat\r\nTinned Fish\r\nRice Pudding\r\nCustard\r\nTinned\
+    \ Fruit\r\nChocolate\r\nCoffee"
+  self: https://www.givefood.org.uk/api/2/needs/5ba9eef8/
