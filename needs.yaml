@@ -1,4 +1,22 @@
 - foodbank:
+    name: Wirral
+    slug: wirral
+    urls:
+      html: https://www.givefood.org.uk/needs/at/wirral/
+      self: https://www.givefood.org.uk/api/2/foodbank/wirral/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBQ81CQCqjw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: a3e3f98e
+  needs: "Squash\r\nTinned Meat\r\nInstant Mash\r\nPasta Sauce\r\nTinned Fruit\r\n\
+    Jam\r\nPacket Soup\r\nBiscuits\r\nWashing-up Liquid\r\nDeodorant"
+  self: https://www.givefood.org.uk/api/2/needs/a3e3f98e/
+- foodbank:
     name: Tottenham
     slug: tottenham
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBQo5AgFtZw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ef5f3481
   needs: "Long Life Juice - 1 Litre Only\r\nLong Life Milk - 1 Litre Only\r\nChopped\
     \ Tomatoes\r\nMeat Soup\r\nTinned Rice Pudding/ Tinned Custard\r\nTinned Fruit\r\
@@ -1585,17 +1599,3 @@
     \ Juice\r\nDried Milk\r\nBaby Food Jars\r\nRice (500g/1kg)\r\nInstant Noodles\r\
     \nTinned Fruit\r\nShower Gel\r\nUHT Long Life Milk"
   self: https://www.givefood.org.uk/api/2/needs/7aed6c11/
-- foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGwkiFAdFxQ==
-  - *id001
-  id: 3721dfc6
-  needs: "Fruit Juice (Long Life)\r\nQuality Carrier Bags (Bags For Life)\r\nMilk\
-    \ (UHT)\r\nSponge Puddings\r\nSugar\r\nSquash Drinks\r\nCuppa-soups"
-  self: https://www.givefood.org.uk/api/2/needs/3721dfc6/
