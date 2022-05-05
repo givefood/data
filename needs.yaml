@@ -1,4 +1,25 @@
 - foodbank:
+    name: Black Country
+    slug: black-country
+    urls:
+      html: https://www.givefood.org.uk/needs/at/black-country/
+      self: https://www.givefood.org.uk/api/2/foodbank/black-country/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBQkLGQBJww==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 7e77a3b9
+  needs: "Milk (Long Life) 1l Cartons\r\nFruit Juice (Long Life) 1l Cartons\r\nInstant\
+    \ Noodles\r\nTinned/packet Custard\r\nTinned Fruit\r\nCoffee\r\nBreakfast Cereals\
+    \ (Small Boxes)\r\nTinned Meat (Ham/spam/hotdogs)\r\nPotatoes (Tinned Or Packet\
+    \ Mash)\r\nCarrier Bags\r\nShampoo\r\nDeodorant (Roll On)\r\nToilet Rolls \r\n\
+    Washing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/7e77a3b9/
+- foodbank:
     name: Southend
     slug: southend
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBQYiJgUxyg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: bda3fbf8
   needs: "Meat Meals – Tinned Curry, Chilli, Chicken In Sauce\r\nTinned Vegetables\r\
     \nUHT Milk\r\nCustard, Rice Pudding\r\nInstant Mash\r\nStrong Carrier Bags"
@@ -1585,18 +1602,3 @@
     \nJelly\r\nSponge Puddings\r\nSingle Adult Toothbrushes\r\nWashing Detergent\r\
     \nChildren's Shampoo, Shower Gel, Bubble Bath\r\nDried Cat Food, Dried Dog Food"
   self: https://www.givefood.org.uk/api/2/needs/ee9b14e3/
-- foodbank:
-    name: Ammanford
-    slug: ammanford
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ammanford/
-      self: https://www.givefood.org.uk/api/2/foodbank/ammanford/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGhEtLwPmkQ==
-  - *id001
-  id: 0008222c
-  needs: "Tinned Carrots - Totally Out\r\nUHT Milk - Barely 2 Weeks Worth Left!\r\n\
-    Tinned Fish - Barely 2 Weeks Worth Left!\r\nTinned Tomatoes\r\nInstant Mashed\
-    \ Potatoes\r\nPasta Sauces\r\nPorridge\r\nCustard\r\nRice Pudding\r\nTinned Fruit"
-  self: https://www.givefood.org.uk/api/2/needs/0008222c/
