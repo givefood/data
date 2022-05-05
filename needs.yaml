@@ -1,4 +1,24 @@
 - foodbank:
+    name: Tottenham
+    slug: tottenham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/tottenham/
+      self: https://www.givefood.org.uk/api/2/foodbank/tottenham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBQo5AgFtZw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: ef5f3481
+  needs: "Long Life Juice - 1 Litre Only\r\nLong Life Milk - 1 Litre Only\r\nChopped\
+    \ Tomatoes\r\nMeat Soup\r\nTinned Rice Pudding/ Tinned Custard\r\nTinned Fruit\r\
+    \nToiletries (Toothbrush, Toothpaste, Shower Gel, Shampoo, Toilet Roll, Shaving\
+    \ Foam Etc.)\r\nSnacks (Sweet, Chocolate Etc.)"
+  self: https://www.givefood.org.uk/api/2/needs/ef5f3481/
+- foodbank:
     name: Wimbledon
     slug: wimbledon
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBQoBBwVAEA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ece3e2d4
   needs: "Tinned Tomatoes\r\nMilk (Long Life UHT)\r\nJuice/ Squash\r\nToothpaste"
   self: https://www.givefood.org.uk/api/2/needs/ece3e2d4/
@@ -1583,18 +1599,3 @@
   needs: "Fruit Juice (Long Life)\r\nQuality Carrier Bags (Bags For Life)\r\nMilk\
     \ (UHT)\r\nSponge Puddings\r\nSugar\r\nSquash Drinks\r\nCuppa-soups"
   self: https://www.givefood.org.uk/api/2/needs/3721dfc6/
-- foodbank:
-    name: Kirkcaldy
-    slug: kirkcaldy
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kirkcaldy/
-      self: https://www.givefood.org.uk/api/2/foodbank/kirkcaldy/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGwkAHgRmaA==
-  - *id001
-  id: 4e5af732
-  needs: "Canned Fish\r\nCanned Meat\r\nCanned Or Dried Fruit\r\nCanned Vegetables\r\
-    \nCanned Soup\r\nCanned Beans Or Spaghetti\r\nLong Life Milk (UHT)\r\nLong Life\
-    \ Fruit Juice(uht)\r\nRice\r\nPasta\r\nPasta Sauce\r\nCereal\r\nTea And Coffee"
-  self: https://www.givefood.org.uk/api/2/needs/4e5af732/
