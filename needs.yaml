@@ -1,4 +1,22 @@
 - foodbank:
+    name: Isle of Wight
+    slug: isle-of-wight
+    urls:
+      html: https://www.givefood.org.uk/needs/at/isle-of-wight/
+      self: https://www.givefood.org.uk/api/2/foodbank/isle-of-wight/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBg8uMQzvHA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 13dddbe8
+  needs: "Long Grain Packet Rice 1kg\r\nFruit Juice, Long Life\r\nJam\r\nTinned Fruit\r\
+    \nSponge Pudding"
+  self: https://www.givefood.org.uk/api/2/needs/13dddbe8/
+- foodbank:
     name: West Berks
     slug: west-berks
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBg03CQVtEw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: '45190765'
   needs: "Spray Cleaner/cleaning Products\r\nBaked Beans/tinned Spaghetti\r\nPasta\
     \ Sauce\r\nSponge Puddings (Not Chilled)\r\nTinned Soup\r\nPull-ups - Size 5 &\
@@ -1578,18 +1592,3 @@
     \ UHT Milk (Semi Skimmed And Full Fat Only Please)\r\nShampoo / Conditioner\r\n\
     Deodorant"
   self: https://www.givefood.org.uk/api/2/needs/c3f09446/
-- foodbank:
-    name: Chichester District
-    slug: chichester-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chichester-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGw4rNQuFqg==
-  - *id001
-  id: d897c898
-  needs: "Tinned Vegetables\r\nLong Life Milk\r\nTinned Fruit\r\nSquash\r\nMeat/fish\
-    \ Paste For Sandwiches\r\nTinned Meat\r\nLaundry Powder/liquid\r\nLong Life Juice\r\
-    \nTinned Tomatoes\r\nPlastic Bags (Bags For Life)"
-  self: https://www.givefood.org.uk/api/2/needs/d897c898/
