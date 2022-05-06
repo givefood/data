@@ -1,4 +1,25 @@
 - foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBg03CQVtEw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: '45190765'
+  needs: "Spray Cleaner/cleaning Products\r\nBaked Beans/tinned Spaghetti\r\nPasta\
+    \ Sauce\r\nSponge Puddings (Not Chilled)\r\nTinned Soup\r\nPull-ups - Size 5 &\
+    \ 6\r\nTinned Custard Or Rice Pudding\r\nTinned Meat Meals\r\nTinned Meat\r\n\
+    Instant Mash\r\nTinned Tomatoes\r\nLong Life Juice\r\nBaby Food Jars/formula\r\
+    \nTinned Fruit\r\nShower Gel\r\nTinned Fish\r\nDog Food\r\nUHT Long Life Milk"
+  self: https://www.givefood.org.uk/api/2/needs/45190765/
+- foodbank:
     name: Kirkcaldy
     slug: kirkcaldy
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBgsYDARjeg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a08e5d27
   needs: "Canned Fish\r\nCanned Meat\r\nCanned Or Dried Fruit\r\nCanned Vegetables\r\
     \nCanned Soup\r\nCanned Beans Or Spaghetti\r\nLong Life Milk (UHT)\r\nLong Life\
@@ -1576,17 +1593,3 @@
     \ Paste For Sandwiches\r\nTinned Meat\r\nLaundry Powder/liquid\r\nLong Life Juice\r\
     \nTinned Tomatoes\r\nPlastic Bags (Bags For Life)"
   self: https://www.givefood.org.uk/api/2/needs/d897c898/
-- foodbank:
-    name: Kinson & West Howe
-    slug: kinson-west-howe
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kinson-west-howe/
-      self: https://www.givefood.org.uk/api/2/foodbank/kinson-west-howe/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGw0tKQzj1Q==
-  - *id001
-  id: 5f304ce1
-  needs: "Sugar\r\nJam\r\nBreakfast Cereal\r\nNoodles\r\nTooth Brushes\r\nFeminine\
-    \ Hygiene\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/5f304ce1/
