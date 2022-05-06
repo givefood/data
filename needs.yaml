@@ -1,4 +1,38 @@
 - foodbank:
+    name: Lutterworth and Villages
+    slug: lutterworth-and-villages
+    urls:
+      html: https://www.givefood.org.uk/needs/at/lutterworth-and-villages/
+      self: https://www.givefood.org.uk/api/2/foodbank/lutterworth-and-villages/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBhQ0EQqPgg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9ad0da82
+  needs: "Instant Mashed Potato\r\nPasta And Rice Snacks\r\nTinned Spaghetti\r\nBiscuits\r\
+    \nTinned Potatoes\r\nTinned Fruit\r\nCoffee\r\nTinned Steak And Chicken ( Not\
+    \ Corned Beef Please)\r\nHot Chocolate\r\nUHT Milk ( Whole Or Semi)\r\nSponge\
+    \ Puddings\r\nLaundry Items\r\nTinned Custard\r\nCleaning Items"
+  self: https://www.givefood.org.uk/api/2/needs/9ad0da82/
+- foodbank:
+    name: Berwick
+    slug: berwick
+    urls:
+      html: https://www.givefood.org.uk/needs/at/berwick/
+      self: https://www.givefood.org.uk/api/2/foodbank/berwick/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBhIPEAacLQ==
+  - *id001
+  id: 34e338ba
+  needs: "Toilet Rolls\r\nToothbrushes\r\nToothpaste\r\n2 In 1 Shampoo And Conditioner\r\
+    \nLong Life Milk"
+  self: https://www.givefood.org.uk/api/2/needs/34e338ba/
+- foodbank:
     name: Brecon
     slug: brecon
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBhIEGg5ZgQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d0b40522
   needs: "Tinned Fruit\r\nLong-life Fruit Juice\r\nTinned Fish Other Than Tuna And\
     \ Mackerel, Such As Salmon\r\nTinned Spaghetti\r\nTinned Vegetables Other Than\
@@ -1562,33 +1592,3 @@
     \ Paste For Sandwiches\r\nTinned Meat\r\nTinned Tomatoes\r\nLaundry Powder/liquid\
     \ - Run Out\r\nLong Life Juice\r\nPlastic Bags (Bags For Life)"
   self: https://www.givefood.org.uk/api/2/needs/793f296e/
-- foodbank:
-    name: Bassetlaw
-    slug: bassetlaw
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bassetlaw/
-      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHAkXMwBj+g==
-  - *id001
-  id: 388d4b1a
-  needs: "Cereal\r\nRavioli In Tins\r\nCurry Sauce\r\nToilet Roll\r\nPot Noodle/instant\
-    \ Noodles\r\nRice Pudding\r\nCustard\r\nPorridge\r\nCoffee\r\nTinned Dog Food\r\
-    \nBleach\r\nCup-a-soup"
-  self: https://www.givefood.org.uk/api/2/needs/388d4b1a/
-- foodbank:
-    name: Cheadle and District
-    slug: cheadle-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEGxYZJwjbjQ==
-  - *id001
-  id: 66f323ea
-  needs: "Long Life Fruit Juice (Urgently Required)\r\nToilet Rolls\r\nTinned Soup\r\
-    \nBottles Of Squash\r\nLadies & Gents Shampoo\r\nLadies & Gents Deodorant\r\n\
-    Toothpaste\r\nCarrier Bags (The Strong 'Bag For Life' Sort)"
-  self: https://www.givefood.org.uk/api/2/needs/66f323ea/
