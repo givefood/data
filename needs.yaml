@@ -1,4 +1,38 @@
 - foodbank:
+    name: Arden
+    slug: arden
+    urls:
+      html: https://www.givefood.org.uk/needs/at/arden/
+      self: https://www.givefood.org.uk/api/2/foodbank/arden/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCAoKNQlKTg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: b642de89
+  needs: "UHT Milk\r\nChocolates/sweets\r\nPasta Sauces\r\nCoffee"
+  self: https://www.givefood.org.uk/api/2/needs/b642de89/
+- foodbank:
+    name: Towcester
+    slug: towcester
+    urls:
+      html: https://www.givefood.org.uk/needs/at/towcester/
+      self: https://www.givefood.org.uk/api/2/foodbank/towcester/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFBxUmJgil7w==
+  - *id001
+  id: 06fd36c2
+  needs: "Tins Of Meat (Stews, Mince Beef, Etc.)\r\nTins Of Fish - All Types\r\nBaked\
+    \ Beans\r\nTins Of Tomatoes\r\nLong Life Fruit Juice In Litre Cartons\r\nRice\
+    \ (Max 1kg)\r\nSavory Crackers (E.g. Tuc Or Cream Crackers)\r\nBars Of Chocolate\r\
+    \nSponge Puddings\r\nTeas Bags: Esp. Packs Of 40\r\nJars Of Pasta Sauce (All Types\
+    \ And Sizes)\r\nShampoo\r\nToilet Rolls\r\nLaundry Products"
+  self: https://www.givefood.org.uk/api/2/needs/06fd36c2/
+- foodbank:
     name: Wimborne
     slug: wimborne
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFBw0xNwKqxA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: b749b0f6
   needs: "Tinned Tomatoes\r\nMeat Meals / Curry\r\nTinned Spam\r\nTinned Custard\r\
     \nTinned Rice Pudding\r\nJam\r\nLong Life Fruit Juice\r\nUHT Milk\r\nSquash\r\n\
@@ -1561,33 +1591,3 @@
     \ And Fruit Juice\r\nCooking Sauces\r\nInstant Mash Potato\r\nGluten Free Options\
     \ (Not Pasta)\r\nShampoo\r\nSoap Powder/liquid\r\nCrisps And Savoury Snacks"
   self: https://www.givefood.org.uk/api/2/needs/a79cbba3/
-- foodbank:
-    name: Cambridge City
-    slug: cambridge-city
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cambridge-city/
-      self: https://www.givefood.org.uk/api/2/foodbank/cambridge-city/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHA4SHQl3ZA==
-  - *id001
-  id: 80d8b61e
-  needs: "Bags For Life\r\nLong-life Milk\r\nLong-life Fruit Juice\r\nNoodles\r\n\
-    Instant Custard\r\nInstant Coffee\r\nBreakfast Tea Bags\r\nJams & Spreads\r\n\
-    Cooking Oil - 500 Ml Preferred (1litre Max)\r\nTinned Rice Pudding\r\nTinned Vegetables"
-  self: https://www.givefood.org.uk/api/2/needs/80d8b61e/
-- foodbank:
-    name: Basingstoke
-    slug: basingstoke
-    urls:
-      html: https://www.givefood.org.uk/needs/at/basingstoke/
-      self: https://www.givefood.org.uk/api/2/foodbank/basingstoke/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHA4INQNVaA==
-  - *id001
-  id: e95126e0
-  needs: "UHT Long Life Milk\r\nLong Life Fruit Juice\r\nSavoury (Marmite Type) Peanut\
-    \ Butter\r\nMeat Substitute.\r\nDesserts / Puddings (Microwave)\r\nEvaporated\
-    \ Milk\r\nWashing Up Liquid\r\nClothes Washing Tablets\r\nSmall Bottles Of Water"
-  self: https://www.givefood.org.uk/api/2/needs/e95126e0/
