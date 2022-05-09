@@ -1,4 +1,27 @@
 - foodbank:
+    name: Deal Area
+    slug: deal-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/deal-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/deal-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCQ4hOg238w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 1836bf41
+  needs: "Tinned Meat \r\nTinned Fish\r\nTinned Fruit\r\nTinned Vegetables\r\nTinned/packet\
+    \ Soup\r\nTinned Custard\r\nTinned Rice Pudding\r\nPuddings\r\nLong Life Fruit\
+    \ Juice\r\nShampoo\r\nSoap\r\nDeodorant  \r\nShaving Stuff\r\nToothbrushes/toothpaste\r\
+    \nBaked Beans/spaghetti Hoops\r\nPot Noodles\r\nPasta Sauce\r\nTea Or Coffee\r\
+    \nBiscuits/sweets\r\nCereal\r\nSanitary Products\r\nNappies\r\nToilet Rolls\r\n\
+    Cat/dog Food\r\nLong Life Milk\r\nSquash\r\nJams Or Spreads\r\nCleaning Cloths\
+    \ And Cleaning Products\r\nRice And Pasta"
+  self: https://www.givefood.org.uk/api/2/needs/1836bf41/
+- foodbank:
     name: Penryn & Falmouth
     slug: penryn-falmouth
     urls:
@@ -7,11 +30,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCQ4NMwj1Kg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: dd8d617a
   needs: "Size 6 Nappies\r\nSize 5 Nappies\r\nWashing Up Liquid\r\nToothpaste\r\n\
     Male/female Deodorant\r\nBaby Wipes\r\nPowdered Milk\r\nToilet Rolls"
@@ -1579,21 +1598,3 @@
     \nSauces - Ketchup, BBQ, Mayonnaise\r\nStrong Carrier Bags (So We People Can Take\
     \ The Food Home!)"
   self: https://www.givefood.org.uk/api/2/needs/803a28b7/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHQ03LwQSMw==
-  - *id001
-  id: 56fc4190
-  needs: "Baked Beans/tinned Spaghetti\r\nTinned Soup\r\nPasta Sauce\r\nTinned Meat/meat\
-    \ Meals\r\nSponge Puddings (Not Chilled)\r\nTinned Custard Or Rice Pudding\r\n\
-    Tinned Fish\r\nInstant Mash\r\nDisposable Razors - Mens\r\nTinned Tomatoes\r\n\
-    Long Life Juice\r\nDried Milk\r\nBaby Food Jars/formula\r\nRice (500g/1kg)\r\n\
-    Instant Noodles\r\nTinned Fruit\r\nShower Gel\r\nUHT Long Life Milk\r\nDeodorant\
-    \ - Womens"
-  self: https://www.givefood.org.uk/api/2/needs/56fc4190/
