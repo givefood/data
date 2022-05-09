@@ -1,4 +1,24 @@
 - foodbank:
+    name: Peterborough
+    slug: peterborough
+    urls:
+      html: https://www.givefood.org.uk/needs/at/peterborough/
+      self: https://www.givefood.org.uk/api/2/foodbank/peterborough/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCQggBgc09w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 13aeea17
+  needs: "Rice Pudding\r\nPasta Sauce Ie Pasta Bake And Bolognese Sauces\r\nUHT Milk\r\
+    \nLong Life Fruit Juice\r\nToilet Rolls\r\nTinned Fruit\r\nTinned Meat (Meatballs\
+    \ ,Sausages In Beans , Chilli Con Carne )\r\nToiletries, Deodorant And Shower\
+    \ Gel"
+  self: https://www.givefood.org.uk/api/2/needs/13aeea17/
+- foodbank:
     name: Leeds South & East
     slug: leeds-south-east
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCQcxGQcQ4g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6ea307d3
   needs: "Dilute/long Life Juice\r\nTinned Custard\r\nTinned Rice Pudding\r\nTinned\
     \ Potatoes\r\nTinned Vegetables\r\nUHT Milk\r\nCoffee\r\nShower Gel\r\nDeodorant\r\
@@ -1575,17 +1591,3 @@
     \nSanitary Pads\r\nUHT Sponge Puddings\r\nTinned Meat (Pork Free)\r\nFlour 500g/1kg\r\
     \nUHT Milk\r\n Toilet Rolls\r\nHot Chocolate"
   self: https://www.givefood.org.uk/api/2/needs/c154bb5d/
-- foodbank:
-    name: Cheltenham
-    slug: cheltenham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cheltenham/
-      self: https://www.givefood.org.uk/api/2/foodbank/cheltenham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHBAJOwIQRg==
-  - *id001
-  id: '13694492'
-  needs: "Tinned Fruit\r\nInstant Rise Sachets\r\nRice Pudding & Custard\r\nJars Of\
-    \ Coffee\r\nLong Life Fruit Juice\r\nNoodles\r\nMayonnaise"
-  self: https://www.givefood.org.uk/api/2/needs/13694492/
