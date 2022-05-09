@@ -1,4 +1,23 @@
 - foodbank:
+    name: Leeds South & East
+    slug: leeds-south-east
+    urls:
+      html: https://www.givefood.org.uk/needs/at/leeds-south-east/
+      self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCQcxGQcQ4g==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6ea307d3
+  needs: "Dilute/long Life Juice\r\nTinned Custard\r\nTinned Rice Pudding\r\nTinned\
+    \ Potatoes\r\nTinned Vegetables\r\nUHT Milk\r\nCoffee\r\nShower Gel\r\nDeodorant\r\
+    \nShampoo\r\nConditioner"
+  self: https://www.givefood.org.uk/api/2/needs/6ea307d3/
+- foodbank:
     name: Widnes
     slug: widnes
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCA0gJAW3cg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1497034d
   needs: "Biscuits\r\nTea or Coffee\r\nSponge Puddings\r\nCereal\r\nUHT Milk\r\nTinned\
     \ Spaghetti\r\nMicrowave Rice\r\nShampoo"
@@ -1574,19 +1589,3 @@
   needs: "Tinned Fruit\r\nInstant Rise Sachets\r\nRice Pudding & Custard\r\nJars Of\
     \ Coffee\r\nLong Life Fruit Juice\r\nNoodles\r\nMayonnaise"
   self: https://www.givefood.org.uk/api/2/needs/13694492/
-- foodbank:
-    name: Woking
-    slug: woking
-    urls:
-      html: https://www.givefood.org.uk/needs/at/woking/
-      self: https://www.givefood.org.uk/api/2/foodbank/woking/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHA4zJQNXbw==
-  - *id001
-  id: b5c830e2
-  needs: "Long Life Whole Milk\r\nTinned Salmon\r\nTinned Custard\r\nCrisps\r\nLong\
-    \ Life Sponge Puddings\r\nWashing Detergent (Small)\r\nMayonnaise\r\nDried Noodles\r\
-    \nTinned Fruit\r\nToilet Paper\r\nJam\r\nHair Conditioner\r\nSmall Jars Of Coffee\r\
-    \nHot Chocolate\r\nTins Of Mixed Veg\r\nBleach\r\nSweets"
-  self: https://www.givefood.org.uk/api/2/needs/b5c830e2/
