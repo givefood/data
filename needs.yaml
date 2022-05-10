@@ -1,4 +1,28 @@
 - foodbank:
+    name: Eastleigh Basics Bank
+    slug: eastleigh-basics-bank
+    urls:
+      html: https://www.givefood.org.uk/needs/at/eastleigh-basics-bank/
+      self: https://www.givefood.org.uk/api/2/foodbank/eastleigh-basics-bank/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCgsXGgtk6Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 99e3d32f
+  needs: "Corned Beef\r\nTinned Ham\r\nSpam\r\nInstant Meals (Pot Noodles, Pasta Sauces\
+    \ Etc)\r\nCook In Sauce Jars\r\nTinned Fish (Tuna, Sardines, Mackerel)\r\nTinned\
+    \ Fruit (Peaches, Fruit Salad, Grapefruit Etc)\r\nDesserts (Rice Pudding, Custard,\
+    \ Angel Delight, Sponge Puddings, Jelly Etc)\r\nSugar\r\nLong Grain Rice (Traditional\
+    \ And Microwave)\r\nDried Spaghetti\r\nCoffee\r\nSquash\r\nLoo Rolls\r\nShampoo\r\
+    \nDeodorant\r\nToothpaste\r\nToothbrushes\r\nBaby Wipes\r\nBiscuits\r\nPorridge\r\
+    \nDrinking Chocolate\r\nFeminine Hygiene Products (Sanitary Towels And Tampons)\r\
+    \nNappies (Sizes 4+, 5+ And 6+)\r\nWashing Up Liquid\r\nDog Food"
+  self: https://www.givefood.org.uk/api/2/needs/99e3d32f/
+- foodbank:
     name: Southend
     slug: southend
     urls:
@@ -7,11 +31,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCgo2KQYdDw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 92c03e0c
   needs: "Tinned Carrots\r\nTinned Sweetcorn\r\nTinned Fruit\r\nTea Bags\r\nMicrowave\
     \ Rice\r\nStrong Carrier Bags"
@@ -1561,17 +1581,3 @@
     \nTinned Spaghetti\r\nTinned Fish\r\nPacket Or Tinned Custard\r\nInstant Coffee\r\
     \nTinned Fruit\r\nShower Gel\r\nToothpaste\r\nShampoo"
   self: https://www.givefood.org.uk/api/2/needs/ce324d41/
-- foodbank:
-    name: Godalming & Villages Community Store
-    slug: godalming-villages-community-store
-    urls:
-      html: https://www.givefood.org.uk/needs/at/godalming-villages-community-store/
-      self: https://www.givefood.org.uk/api/2/foodbank/godalming-villages-community-store/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHgkhKgYeWw==
-  - *id001
-  id: 60e299ec
-  needs: "Anti-bacterial Spray\r\nKitchen Roll\r\nToilet Rolls\r\nWashing Detergent\r\
-    \nWashing Up Liquid\r\nTinned Meat Meals\r\nUHT Semi Skimmed Milk"
-  self: https://www.givefood.org.uk/api/2/needs/60e299ec/
