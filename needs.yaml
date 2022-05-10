@@ -1,4 +1,23 @@
 - foodbank:
+    name: Godalming & Villages Community Store
+    slug: godalming-villages-community-store
+    urls:
+      html: https://www.givefood.org.uk/needs/at/godalming-villages-community-store/
+      self: https://www.givefood.org.uk/api/2/foodbank/godalming-villages-community-store/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCgcVGA10UQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9eee7aae
+  needs: "Ready Rice; Plain And Flavoured\r\nBleach\r\nBaby Food\r\nBin Bags\r\nMayonnaise\r\
+    \nInstant Noodles\r\nTomato Ketchup\r\nDecaf Tea\r\nDecaf Coffee\r\nCooking Oil\r\
+    \nBiscuits"
+  self: https://www.givefood.org.uk/api/2/needs/9eee7aae/
+- foodbank:
     name: Norwood & Brixton
     slug: norwood-brixton
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCRQXBg1TWQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 9573612b
   needs: "Tinned Soup\r\nTinned Tomatoes\r\nLong Life Sponge Puddings, Jellies, Instant\
     \ Whips\r\nUHT Milk: Whole And Semi-skimmed\r\nToilet Rolls"
@@ -1565,21 +1580,3 @@
     \nLong Life Juice\r\nTinned Spaghetti\r\nSponge Puddings\r\nRice Pudding\r\nCustard\
     \ (Tins/packets)\r\nChocolate & Crisps"
   self: https://www.givefood.org.uk/api/2/needs/435d54b5/
-- foodbank:
-    name: Callington
-    slug: callington
-    urls:
-      html: https://www.givefood.org.uk/needs/at/callington/
-      self: https://www.givefood.org.uk/api/2/foodbank/callington/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHREtEA0OzQ==
-  - *id001
-  id: be262b21
-  needs: "Washing Powder/tabs/liquid For Clothes\r\nSponge Puddings\r\nMens Razors\r\
-    \nLadies Razors\r\nMens Deodorant (Not Body Spray)\r\nDog Food (Tinned, Mixer\
-    \ & Dry Complete)\r\nLunchbox Items (Chocolate, Crisps)\r\nKitchen Roll\r\nToilet\
-    \ Roll\r\nShampoo & Conditioner\r\nGluten Free Items (Not Pasta)\r\nJam (Not Marmalade)\r\
-    \nCold Meats (Corned Beef, Tinned Ham, Luncheon Meat)\r\nToothpaste\r\nShower\
-    \ Gel\r\nTinned Carrots\r\nUHT Milk (Not Skimmed)"
-  self: https://www.givefood.org.uk/api/2/needs/be262b21/
