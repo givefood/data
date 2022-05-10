@@ -1,4 +1,22 @@
 - foodbank:
+    name: Hillingdon
+    slug: hillingdon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hillingdon/
+      self: https://www.givefood.org.uk/api/2/foodbank/hillingdon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCggkBgb2xQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 09e7135d
+  needs: "Toilet Roll Paper\r\nTinned Fruit\r\nTinned Vegetables\r\nJam\r\nToiletries\r\
+    \nSugar\r\nLong Life Milk\r\nSauces\r\nTinned Meat And Fish\r\nRice Pudding/ Custard"
+  self: https://www.givefood.org.uk/api/2/needs/09e7135d/
+- foodbank:
     name: Godalming & Villages Community Store
     slug: godalming-villages-community-store
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCgcVGA10UQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 9eee7aae
   needs: "Ready Rice; Plain And Flavoured\r\nBleach\r\nBaby Food\r\nBin Bags\r\nMayonnaise\r\
     \nInstant Noodles\r\nTomato Ketchup\r\nDecaf Tea\r\nDecaf Coffee\r\nCooking Oil\r\
@@ -1565,18 +1579,3 @@
     Cleaning Products\r\nSponge Puddings/slab Cake\r\nPackets Of Instant Mash\r\n\
     Biscuits\r\nWashing Powder/tabs\r\nWashing Up Liquid"
   self: https://www.givefood.org.uk/api/2/needs/40e21af0/
-- foodbank:
-    name: Newcastle (Staffs)
-    slug: newcastle-staffs
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newcastle-staffs/
-      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-staffs/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHRILMAiJsg==
-  - *id001
-  id: 435d54b5
-  needs: "Small Jars Of Coffee\r\nTinned Fruit\r\nTinned Cold Meat (Ham/corned Beef)\r\
-    \nLong Life Juice\r\nTinned Spaghetti\r\nSponge Puddings\r\nRice Pudding\r\nCustard\
-    \ (Tins/packets)\r\nChocolate & Crisps"
-  self: https://www.givefood.org.uk/api/2/needs/435d54b5/
