@@ -1,4 +1,23 @@
 - foodbank:
+    name: Liskeard & Looe
+    slug: liskeard-looe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/liskeard-looe/
+      self: https://www.givefood.org.uk/api/2/foodbank/liskeard-looe/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCgoNEAQJ4A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c58ef8e6
+  needs: "Tinned Carrots\r\nTinned Fruit.....urgent Need\r\nWashing Powder, Small\
+    \ Packets\r\nMicrowaveable Pouches Of Rice\r\nBiscuits\r\nJars Of Pasta Sauce\r\
+    \nTins Of Spaghetti Hoops\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/c58ef8e6/
+- foodbank:
     name: Mid Norfolk
     slug: mid-norfolk
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCgk1CAjVjg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: cf32e081
   needs: "Instant Mash/tinned Potatoes\r\nTinned Rice Pudding\r\nTinned Meat\r\nTinned\
     \ Vegetables\r\nSmall Jars Of Coffee\r\nTeabags (40s & 80s)"
@@ -1559,19 +1574,3 @@
     \ Potato (Smash)\r\nWashing Powder\r\nCustard/desserts\r\nCoffee\r\nPet Food\r\
     \nLadies Deodorant\r\nToiletries (Shampoo/conditioner/shower Gel/mouthwash)"
   self: https://www.givefood.org.uk/api/2/needs/928c7024/
-- foodbank:
-    name: Purley
-    slug: purley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/purley/
-      self: https://www.givefood.org.uk/api/2/foodbank/purley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YEHRYqEAfjZQ==
-  - *id001
-  id: e28a6eb9
-  needs: "500g Packets Of Breakfast Cereals\r\n500g Bags Of Sugar\r\nCartons Of Long\
-    \ Life Whole Milk (For Clients’ Children)\r\nSmall Jars Of Honey\r\nSmall Tins\
-    \ Of Meat - Ham, Chicken\r\nTins Of Peas & Carrots\r\nTinned Dessert Rice Pudding\r\
-    \nUnisex Deodorant\r\nAdults’ & Children’s Toothpaste\r\nWashing Powder Tablets"
-  self: https://www.givefood.org.uk/api/2/needs/e28a6eb9/
