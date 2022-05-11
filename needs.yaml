@@ -1,4 +1,23 @@
 - foodbank:
+    name: Woking
+    slug: woking
+    urls:
+      html: https://www.givefood.org.uk/needs/at/woking/
+      self: https://www.givefood.org.uk/api/2/foodbank/woking/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCw8rMw0d0Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: d9c5fb0a
+  needs: "Shampoo\r\nTinned Salmon\r\nTinned Custard\r\nCrisps\r\nLong Life Sponge\
+    \ Puddings\r\nNappies Size 3\r\nTinned Ham\r\nHair Conditioner\r\nSmall Jars Of\
+    \ Coffee\r\nHot Chocolate\r\nBleach"
+  self: https://www.givefood.org.uk/api/2/needs/d9c5fb0a/
+- foodbank:
     name: Callington
     slug: callington
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCw8WDA6Xow==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8896847f
   needs: "Washing Powder/tabs/liquid For Clothes\r\nSponge Puddings\r\nMens Razors\r\
     \nLadies Razors\r\nMens Deodorant (Not Body Spray)\r\nDog Food (Tinned, Mixer\
@@ -1547,17 +1562,3 @@
     \nCoffee\r\nUHT Milk\r\nFruit Juice (Long Life)\r\nHot Chocolate\r\nWashing Up\
     \ Liquid\r\nLaundry Conditioner\r\nCleaner Spray\r\nDeodorant\r\nBaby Wipes"
   self: https://www.givefood.org.uk/api/2/needs/717b5e63/
-- foodbank:
-    name: Southwark
-    slug: southwark
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southwark/
-      self: https://www.givefood.org.uk/api/2/foodbank/southwark/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAw4rNwdJaA==
-  - *id001
-  id: 641c3276
-  needs: "Cereal\r\nBaked Beans\r\nTinned Fruit\r\nJam\r\nTinned Pulses - Kidney Beans/chickpeas\r\
-    \nTinned Vegetarian Options\r\nRice 1kg Bags\r\nBiscuits\r\nBaby Wipes"
-  self: https://www.givefood.org.uk/api/2/needs/641c3276/
