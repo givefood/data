@@ -1,22 +1,4 @@
 - foodbank:
-    name: Salisbury
-    slug: salisbury
-    urls:
-      html: https://www.givefood.org.uk/needs/at/salisbury/
-      self: https://www.givefood.org.uk/api/2/foodbank/salisbury/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCwsQKgsUwg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: df4018f6
-  needs: "Juice ( Ong Life)\r\nSponge Pudding\r\nTea Bags (Small Boxes Of 80-100)\r\
-    \nRice Pudding\r\nCustard\r\nTinned Fruit\r\nMilk (Long Life)"
-  self: https://www.givefood.org.uk/api/2/needs/df4018f6/
-- foodbank:
     name: Richmond
     slug: richmond
     urls:
@@ -25,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCwgwMgisuA==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 66f6f1d1
   needs: "Female Deodorant\r\nRazors\r\nWashing Powder / Tablets\r\nNappies (Size\
     \ 5, 6 And 7)"
@@ -1565,3 +1551,16 @@
     \ (Packet Noodles Etc)\r\nTinned Spaghetti\r\nTinned Potatoes/packet Mash\r\n\
     Tinned Vegetables"
   self: https://www.givefood.org.uk/api/2/needs/1350a06b/
+- foodbank:
+    name: Chipping Barnet
+    slug: chipping-barnet
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chipping-barnet/
+      self: https://www.givefood.org.uk/api/2/foodbank/chipping-barnet/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFAwkuDgva6A==
+  - *id001
+  id: c3bd0fe9
+  needs: "Small Jars Of Coffee\r\nTinned Fruit\r\nTinned Meat\r\nTinned Potatoes"
+  self: https://www.givefood.org.uk/api/2/needs/c3bd0fe9/
