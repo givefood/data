@@ -1,4 +1,24 @@
 - foodbank:
+    name: York
+    slug: york
+    urls:
+      html: https://www.givefood.org.uk/needs/at/york/
+      self: https://www.givefood.org.uk/api/2/foodbank/york/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCw02KgIJog==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 79bd622c
+  needs: "Tinned Fruit\r\nPowdered Milk (Very Short Of)\r\nTinned Pulses\r\nTinned\
+    \ Rice Pudding And Custard\r\nBags For Life\r\nLaundry Detergent\r\nSponge Puddings\
+    \ (Cupboard/tinned)\r\nLong Life Fruit Juice And Squash\r\nTinned Fish\r\nSize\
+    \ 6 Nappies"
+  self: https://www.givefood.org.uk/api/2/needs/79bd622c/
+- foodbank:
     name: Rugby
     slug: rugby
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCw0QBAcGXA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 7f7b8158
   needs: "Rice (500g)\r\nQuality Carrier Bags (Bags For Life)\r\nRice (1kg)\r\nTinned\
     \ / Packet Custard\r\nToilet Rolls\r\nWashing Tablets / Powder\r\nCoffee (Jars)\r\
@@ -1547,24 +1563,3 @@
     Peanut Butter (Plastic Tub)\r\nPeanuts/nuts\r\nTinned Spaghetti With  Sausages\r\
     \nRing Pull  - Tinned Rice Pudding\r\nTinned Mackerel"
   self: https://www.givefood.org.uk/api/2/needs/c17f9dc6/
-- foodbank:
-    name: Southampton Basics Bank
-    slug: southampton-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAwwALgDUdQ==
-  - *id001
-  id: cf30d125
-  needs: "Tinned Hot Meat (Curry, Pies, Stew, Etc.)\r\nTinned Cold Meat (Ham, Spam,\
-    \ Etc.)\r\nCoffee (Small Jars)\r\nCook-in Sauces (Jars & Packets)\r\nTinned Fruit\r\
-    \nCustard\r\nHot Chocolate\r\nJams & Spreads\r\nPet Food (Dogs)\r\nTinned Carrots\r\
-    \nTinned Mixed Veg\r\nTinned Rice Pudding\r\nNoodles (Packets)\r\nSquash & Drinks\r\
-    \nTinned Spaghetti (In Tomato Sauce)\r\nTinned Sweetcorn\r\nToiletries (Shampoo)\r\
-    \nToiletries (Toilet Rolls)\r\nBaby Food\r\nCarrier Bags\r\nHousehold Larder\r\
-    \nNappies Size 4 – 6\r\nRice\r\nSugar (Small Bags)\r\nTinned Kidney Beans & Pulses\r\
-    \nTinned Peas\r\nTinned Potatoes\r\nTinned Tomatoes\r\nToiletries (Male & Female\
-    \ Deodorant)\r\nToiletries (Soap & Shower Gel)\r\nUHT Milk"
-  self: https://www.givefood.org.uk/api/2/needs/cf30d125/
