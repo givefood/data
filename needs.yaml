@@ -1,4 +1,38 @@
 - foodbank:
+    name: Richmond
+    slug: richmond
+    urls:
+      html: https://www.givefood.org.uk/needs/at/richmond/
+      self: https://www.givefood.org.uk/api/2/foodbank/richmond/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCwgwMgisuA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 66f6f1d1
+  needs: "Female Deodorant\r\nRazors\r\nWashing Powder / Tablets\r\nNappies (Size\
+    \ 5, 6 And 7)"
+  self: https://www.givefood.org.uk/api/2/needs/66f6f1d1/
+- foodbank:
+    name: Brent
+    slug: brent
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brent/
+      self: https://www.givefood.org.uk/api/2/foodbank/brent/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCwgwIwD7Rw==
+  - *id001
+  id: 89d877c5
+  needs: "Tinned Meat\r\nCereal\r\nTinned Veg\r\nTinned Fruit\r\nLong Life Juice &\
+    \ Squash\r\nPasta Sauce\r\nTea & Coffee (Small Sizes)\r\nJams & Spreads\r\nRice\
+    \ Pudding/custard\r\nBar Soap/shower Gel\r\nWashing Up Liquid & Laundry Detergent\r\
+    \nShaving Foam & Razors"
+  self: https://www.givefood.org.uk/api/2/needs/89d877c5/
+- foodbank:
     name: East Elmbridge
     slug: east-elmbridge
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFChA5LQUWkA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 4cc9a79a
   needs: "Long Life Fruit Juice - Urgent Need\r\nWashing Up Liquid\r\nShampoo And\
     \ Conditioner Or 2in1!\r\nChildren's Toothpaste\r\nRazors And Shaving Foam\r\n\
@@ -1534,38 +1564,3 @@
   id: c3bd0fe9
   needs: "Small Jars Of Coffee\r\nTinned Fruit\r\nTinned Meat\r\nTinned Potatoes"
   self: https://www.givefood.org.uk/api/2/needs/c3bd0fe9/
-- foodbank:
-    name: Anglesey
-    slug: anglesey
-    urls:
-      html: https://www.givefood.org.uk/needs/at/anglesey/
-      self: https://www.givefood.org.uk/api/2/foodbank/anglesey/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAwkhNQTtYA==
-  - *id001
-  id: 1b4e1d92
-  needs: "Milk (UHT / Long-life)\r\nBread\r\nMeat (Tinned)\r\nPotatoes (Tinned & Instant\
-    \ Mash)\r\nTinned Tomatoes\r\nTinned Sweetcorn\r\nTinned Peas\r\nTinned Carrots\r\
-    \nTuna (Tinned)\r\nFruit Juice (UHT / Long-life)\r\nRice Pudding (Tinned)\r\n\
-    Spaghetti (Tinned)\r\nCustard (Tinned)\r\nTinned Fruit\r\nCream Crakers & Crisps\r\
-    \nCoffee (100g)\r\nJam & Marmalade\r\nSingle And Family Puddings\r\nToiletries\
-    \ Excluding Sanitary Pads"
-  self: https://www.givefood.org.uk/api/2/needs/1b4e1d92/
-- foodbank:
-    name: Luton
-    slug: luton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/luton/
-      self: https://www.givefood.org.uk/api/2/foodbank/luton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAgEBLQBcnQ==
-  - *id001
-  id: ef148a17
-  needs: "Rice Pudding (Tinned)\r\nInstant Noodles Meat (Tinned)\r\nCustard (Tinned)\r\
-    \nVegetables (Tinned)\r\nFruit (Tinned)\r\nFruit Juice (Carton)\r\nDried Rice\
-    \ (500g)\r\nSoup\r\nMilk (UHT)\r\nBaked Beans (Tinned)\r\nTomatoes (Tinned)\r\n\
-    Fish (Tinned)\r\nTinned Pasta In Sauce\r\nSauce For Pasta\r\nBreakfast Cereal\r\
-    \nTea Bags\r\nBiscuits (Single Packs)\r\nSugar (500g)"
-  self: https://www.givefood.org.uk/api/2/needs/ef148a17/
