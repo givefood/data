@@ -1,4 +1,40 @@
 - foodbank:
+    name: Edinburgh SE
+    slug: edinburgh-se
+    urls:
+      html: https://www.givefood.org.uk/needs/at/edinburgh-se/
+      self: https://www.givefood.org.uk/api/2/foodbank/edinburgh-se/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCwwJCQf9NQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c5676421
+  needs: "Diluting Juice\r\nSavoury Biscuits\r\nLong Life Sponge Puddings\r\nLong\
+    \ Life Fruit Juice\r\nTinned Fruit\r\nTinned Vegetables\r\nTinned Mince/chicken\r\
+    \nToothpaste"
+  self: https://www.givefood.org.uk/api/2/needs/c5676421/
+- foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCwseBwXfog==
+  - *id001
+  id: 235d6a29
+  needs: "Spray Cleaner/cleaning Products\r\nSponge Puddings (Not Chilled)\r\nBaked\
+    \ Beans/tinned Spaghetti\r\nPasta Sauce\r\nTinned Soup\r\nPull-ups - Size 5, 6,\
+    \ 7.\r\nTinned Custard Or Rice Pudding\r\nTinned Meat Meals\r\nTinned Meat\r\n\
+    Tinned Tomatoes\r\nInstant Mash\r\nLong Life Juice\r\nBaby Food - Jars/formula\r\
+    \nTinned Fruit\r\nTinned Fish\r\nUHT Long Life Milk\r\nTinned Vegetables"
+  self: https://www.givefood.org.uk/api/2/needs/235d6a29/
+- foodbank:
     name: Salisbury
     slug: salisbury
     urls:
@@ -7,11 +43,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCwsQKgsUwg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: df4018f6
   needs: "Juice ( Ong Life)\r\nSponge Pudding\r\nTea Bags (Small Boxes Of 80-100)\r\
     \nRice Pudding\r\nCustard\r\nTinned Fruit\r\nMilk (Long Life)"
@@ -121,7 +153,9 @@
     \nTins Baked Beans And Sausages\r\nTin Potatoes\r\nTins Of Macaroni Cheese\r\n\
     Jars Of Pasta Sauce\r\nSmall Packets Of Instant Potato - Smash\r\nBiscuits And\
     \ Crackers\r\nTin Fruit\r\nNoodles - Instant And Family Packs\r\nCooking Oil\r\
-    \nJars Of Peanut Butter, Jam And Chocolate Spread\r\nSmall Bottles Of Squash/cordial"
+    \nJars Of Peanut Butter, Jam And Chocolate Spread\r\nSmall Bottles Of Squash/cordial\r\
+    \nNon Bio And Bio Laundry Tablets Shampoo And Conditioner\r\nWashing Up Liquid\r\
+    \nAntibacterial Sprays Or Wipes\r\nLadies Sanitary Items"
   self: https://www.givefood.org.uk/api/2/needs/e181aa2a/
 - foodbank:
     name: Malvern Hills
@@ -1536,32 +1570,3 @@
     \ Bars\r\nToilet Rolls/shower Gel/deodorant/liquid Soap\r\nSize 3, 4 And 5 Nappies\
     \ And Size 5 And 6 Pull Ups"
   self: https://www.givefood.org.uk/api/2/needs/663405b9/
-- foodbank:
-    name: St Neots
-    slug: st-neots
-    urls:
-      html: https://www.givefood.org.uk/needs/at/st-neots/
-      self: https://www.givefood.org.uk/api/2/foodbank/st-neots/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAwsIGg35dw==
-  - *id001
-  id: cd416354
-  needs: "Porridge Oats\r\nNoodles\r\nSavoury Snacks Eg Cheese Biscuits\r\nJam\r\n\
-    Long Life Fruit Juice\r\nRice Pudding\r\nCustard\r\nShower Gel"
-  self: https://www.givefood.org.uk/api/2/needs/cd416354/
-- foodbank:
-    name: Rotherham
-    slug: rotherham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rotherham/
-      self: https://www.givefood.org.uk/api/2/foodbank/rotherham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAwovKwV1xg==
-  - *id001
-  id: 1350a06b
-  needs: "Long Life Milk\r\nRice Pudding\r\nTinned Fruit\r\nCrisps\r\nSnack Foods\
-    \ (Packet Noodles Etc)\r\nTinned Spaghetti\r\nTinned Potatoes/packet Mash\r\n\
-    Tinned Vegetables"
-  self: https://www.givefood.org.uk/api/2/needs/1350a06b/
