@@ -1,4 +1,40 @@
 - foodbank:
+    name: Rugby
+    slug: rugby
+    urls:
+      html: https://www.givefood.org.uk/needs/at/rugby/
+      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCw0QBAcGXA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 7f7b8158
+  needs: "Rice (500g)\r\nQuality Carrier Bags (Bags For Life)\r\nRice (1kg)\r\nTinned\
+    \ / Packet Custard\r\nToilet Rolls\r\nWashing Tablets / Powder\r\nCoffee (Jars)\r\
+    \nPot / Packet Noodles\r\nTinned Potatoes"
+  self: https://www.givefood.org.uk/api/2/needs/7f7b8158/
+- foodbank:
+    name: Stoke-on-Trent
+    slug: stoke-on-trent
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stoke-on-trent/
+      self: https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCwwnIgdA9w==
+  - *id001
+  id: 1c262681
+  needs: "Tinned Desserts\r\nUHT Milk\r\nTinned Soup\r\nTinned Fish\r\nTea Bags\r\n\
+    Biscuits\r\nPasta Sauces\r\nCarrier Bags\r\nCereal\r\nTinned Soup\r\nTinned Tomato\r\
+    \nJar Pasta Sauce\r\nTinned Vegetables\r\nTinned Meat\r\nTinned Fish\r\nRice Pudding\r\
+    \nTinned Fruit\r\nTinned Sponge Pudding\r\nBiscuits\r\nTea Bags\r\nUHT Fruit Juice\r\
+    \nUHT Milk\r\nSavoury Treats\r\nSweet Treats / Chocolate Etc\r\nCoffee"
+  self: https://www.givefood.org.uk/api/2/needs/1c262681/
+- foodbank:
     name: Edinburgh SE
     slug: edinburgh-se
     urls:
@@ -7,11 +43,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCwwJCQf9NQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c5676421
   needs: "Diluting Juice\r\nSavoury Biscuits\r\nLong Life Sponge Puddings\r\nLong\
     \ Life Fruit Juice\r\nTinned Fruit\r\nTinned Vegetables\r\nTinned Mince/chicken\r\
@@ -1536,37 +1568,3 @@
     \nTinned Peas\r\nTinned Potatoes\r\nTinned Tomatoes\r\nToiletries (Male & Female\
     \ Deodorant)\r\nToiletries (Soap & Shower Gel)\r\nUHT Milk"
   self: https://www.givefood.org.uk/api/2/needs/cf30d125/
-- foodbank:
-    name: Causeway
-    slug: causeway
-    urls:
-      html: https://www.givefood.org.uk/needs/at/causeway/
-      self: https://www.givefood.org.uk/api/2/foodbank/causeway/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAwssFw1nPw==
-  - *id001
-  id: 755a3118
-  needs: "UHT Milk (Urgent!)\r\nJam\r\nTinned Carrots And Sweetcorn (No Peas!)\r\n\
-    Rice Pudding\r\nLong Life Fruit Juice\r\nBiscuits/ Treats\r\nInstant/ \"'Super\"\
-    \ Noodles\r\nMen's Toiletries"
-  self: https://www.givefood.org.uk/api/2/needs/755a3118/
-- foodbank:
-    name: Hailsham
-    slug: hailsham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hailsham/
-      self: https://www.givefood.org.uk/api/2/foodbank/hailsham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAwslHQR9gw==
-  - *id001
-  id: 663405b9
-  needs: "Longlife Apple Or Orange Juice\r\nLonglife Dairy Milk\r\nTinned Fruit\r\n\
-    Tinned Meat - Hotdogs, Chicken, Mince, Steak Etc.\r\nTinned Carrots/sweetcorn/peas\r\
-    \nTinned Tomatoes/tomato Based Pasta Sauce\r\nTinned Tuna\r\nDesserts - Jelly,\
-    \ Instant Whip, Longlife Cakes. Mini Chocolate Rolls Etc.\r\nTinned Rice Pudding/custard\r\
-    \nInstant Mash\r\nTomato Ketchup/brown Sauce\r\nCrisps\r\nSweet Treats - Chocolate/cereal\
-    \ Bars\r\nToilet Rolls/shower Gel/deodorant/liquid Soap\r\nSize 3, 4 And 5 Nappies\
-    \ And Size 5 And 6 Pull Ups"
-  self: https://www.givefood.org.uk/api/2/needs/663405b9/
