@@ -1,4 +1,38 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCxIDKA2XVg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: eada782f
+  needs: "Tinned Vegetables\r\nLong Life Milk\r\nTinned Fruit\r\nNappies Size 6 &\
+    \ 7\r\nMeat/fish Paste For Sandwiches\r\nTinned Meat\r\nTinned Tomatoes\r\nLaundry\
+    \ Powder/liquid\r\nLong Life Juice\r\nJam/spread"
+  self: https://www.givefood.org.uk/api/2/needs/eada782f/
+- foodbank:
+    name: Runnymede
+    slug: runnymede
+    urls:
+      html: https://www.givefood.org.uk/needs/at/runnymede/
+      self: https://www.givefood.org.uk/api/2/foodbank/runnymede/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCxEiGQyMhQ==
+  - *id001
+  id: 9413fec3
+  needs: "Bottle Of Squash\r\nLong Life Juice\r\nTinned Custard\r\nCoffee\r\nJar Of\
+    \ Pasta Sauce\r\nJam\r\nSponge Pudding\r\nPack Of Biscuits\r\nCarton Of Long Life\
+    \ Milk\r\nTin Of Fruit\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/9413fec3/
+- foodbank:
     name: Andover
     slug: andover
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFCxEKEglX9Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: e6962b7f
   needs: "Tinned Fish\r\nLong Life Milk\r\nSmall Tins Ham Or Chicken\r\nCereal Bars\r\
     \nMug Shots/pot Noodles\r\nCheese Biscuits E.g. Ritz And Cheddars\r\nCup A Soup\r\
@@ -1527,36 +1557,3 @@
     \ Fruit Juice\r\nSnacks\r\nJam\r\nVegetable Pies And Meals Suitable For Vegetarians\
     \ And Vegans\r\nTinned Spaghetti"
   self: https://www.givefood.org.uk/api/2/needs/c2c9ffd9/
-- foodbank:
-    name: North Enfield
-    slug: north-enfield
-    urls:
-      html: https://www.givefood.org.uk/needs/at/north-enfield/
-      self: https://www.givefood.org.uk/api/2/foodbank/north-enfield/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAxANHgpGFg==
-  - *id001
-  id: 13dab3db
-  needs: "Carrier Bags\r\nTinned Vegetable Soup\r\nTinned Fruit\r\nTinned Tomatoes\r\
-    \nTinned Spaghetti\r\nTinned Mixed Beans\r\nNoodles\r\nRice Pudding\r\nCustard\r\
-    \nJam\r\nBody Wash / Shampoo\r\nNappies Size 5 And 6\r\nToilet Paper\r\nDeodorant\r\
-    \nSoap\r\nHousehold Cleaning Products\r\nDog Food"
-  self: https://www.givefood.org.uk/api/2/needs/13dab3db/
-- foodbank:
-    name: Romsey
-    slug: romsey
-    urls:
-      html: https://www.givefood.org.uk/needs/at/romsey/
-      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFAw8hLgCdGg==
-  - *id001
-  id: fe71bd47
-  needs: "Multi-pack Crisps\r\nDesserts/sponge Puddings\r\nJam\r\nMarmite\r\nCup-a-soup\r\
-    \nTinned Peas/sweetcorn/carrots\r\nCustard\r\nMulti-pack Chocolate Bars\r\nShower\
-    \ Gel\r\nInstant Mash Potato\r\nPasta Sauce\r\nSavoury Snacks - Crackers/rice\
-    \ Cakes\r\nSweets\r\nCoffee\r\nLong Life Fruit Juice\r\nMicrowave Rice\r\nTinned\
-    \ Spaghetti"
-  self: https://www.givefood.org.uk/api/2/needs/fe71bd47/
