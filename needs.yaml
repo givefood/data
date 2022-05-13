@@ -1,4 +1,26 @@
 - foodbank:
+    name: Callington
+    slug: callington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/callington/
+      self: https://www.givefood.org.uk/api/2/foodbank/callington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFDQ4ZHAb92Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c5564262
+  needs: "Washing Powder/tabs/liquid For Clothes\r\nSponge Puddings\r\nMens Razors\r\
+    \nLadies Razors\r\nMens Deodorant (Not Body Spray)\r\nDog Food (Tinned, Mixer\
+    \ & Dry Complete)\r\nLunchbox Items (Chocolate, Crisps)\r\nKitchen Roll\r\nToilet\
+    \ Roll\r\nShampoo\r\nJam (Not Marmalade)\r\nToothpaste\r\nShower Gel\r\nTinned\
+    \ Sweetcorn\r\nTinned Fruit\r\nTinned Carrots\r\nCartons Of Fruit Juice\r\nTea\
+    \ & Coffee\r\nSquash\r\nUHT Milk (Not Skimmed)"
+  self: https://www.givefood.org.uk/api/2/needs/c5564262/
+- foodbank:
     name: Witney & West Oxfordshire
     slug: witney-west-oxfordshire
     urls:
@@ -7,11 +29,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFDQ0bBggFcw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 3d7786db
   needs: "Tinned Vegetables\r\nTinned Fruit\r\nInstant Coffee\r\nInstant Noodles\r\
     \nPulses\r\nToiletries"
@@ -1544,16 +1562,3 @@
     \nTinned Fruit\r\nTinned Vegetables\r\nPasta Sauce\r\nTinned Rice Pudding\r\n\
     Custard\r\nTea\r\nSquash/fruit Juice\r\nLaundry Liquid/powder"
   self: https://www.givefood.org.uk/api/2/needs/81cb067b/
-- foodbank:
-    name: Shrewsbury
-    slug: shrewsbury
-    urls:
-      html: https://www.givefood.org.uk/needs/at/shrewsbury/
-      self: https://www.givefood.org.uk/api/2/foodbank/shrewsbury/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBA8ICAP1Ig==
-  - *id001
-  id: 925080bf
-  needs: "Pasta Sauce\r\nTinned Vegetables\r\nTinned Fruit\r\nUHT Milk\r\nToilet Paper"
-  self: https://www.givefood.org.uk/api/2/needs/925080bf/
