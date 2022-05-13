@@ -1,4 +1,22 @@
 - foodbank:
+    name: North Bristol & South Gloucestershire
+    slug: north-bristol-south-gloucestershire
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-bristol-south-gloucestershire/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-bristol-south-gloucestershire/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFDQ8aAwUQYg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 1255d850
+  needs: "Flour\r\nSponge Puddings\r\nInstant/pot Noodles\r\nInstant / Packet Rice\r\
+    \nJam/spreads\r\nTinned Vegetables\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/1255d850/
+- foodbank:
     name: Callington
     slug: callington
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFDQ4ZHAb92Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c5564262
   needs: "Washing Powder/tabs/liquid For Clothes\r\nSponge Puddings\r\nMens Razors\r\
     \nLadies Razors\r\nMens Deodorant (Not Body Spray)\r\nDog Food (Tinned, Mixer\
@@ -1547,18 +1561,3 @@
     \ Up Liquid\r\nTwin-packed Sponge Puddings\r\nSnack Bars\r\nUHT Milk (Full-fat)\r\
     \nTinned Meat And Tinned Meat Meals"
   self: https://www.givefood.org.uk/api/2/needs/aef9f931/
-- foodbank:
-    name: North Norfolk
-    slug: north-norfolk
-    urls:
-      html: https://www.givefood.org.uk/needs/at/north-norfolk/
-      self: https://www.givefood.org.uk/api/2/foodbank/north-norfolk/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBA8PBApLlg==
-  - *id001
-  id: 81cb067b
-  needs: "Cereal\r\nLong Life Milk - Full Fat Or Semi Skimmed\r\nTinned Tomatoes\r\
-    \nTinned Fruit\r\nTinned Vegetables\r\nPasta Sauce\r\nTinned Rice Pudding\r\n\
-    Custard\r\nTea\r\nSquash/fruit Juice\r\nLaundry Liquid/powder"
-  self: https://www.givefood.org.uk/api/2/needs/81cb067b/
