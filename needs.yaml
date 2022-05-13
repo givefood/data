@@ -1,4 +1,22 @@
 - foodbank:
+    name: Quinton & Oldbury
+    slug: quinton-oldbury
+    urls:
+      html: https://www.givefood.org.uk/needs/at/quinton-oldbury/
+      self: https://www.givefood.org.uk/api/2/foodbank/quinton-oldbury/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFDBAZCAFqeg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2a63fe7d
+  needs: "Tinned Fruit (400gms)\r\nTinned Tomatoes\r\nTinned Vegetables\r\nTinned\
+    \ Meat\r\nInstant Mash"
+  self: https://www.givefood.org.uk/api/2/needs/2a63fe7d/
+- foodbank:
     name: Bassetlaw
     slug: bassetlaw
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFDAwlHAl1Vw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d39d212a
   needs: "Ravioli In Tins⁠\r\nPot Noodles/instant Noodles⁠\r\nRice Pudding⁠\r\nCustard⁠\r\
     \nPorridge⁠\r\nCoffee⁠\r\nTinned Dog Food⁠\r\nBleach⁠\r\nCup-a-soup⁠\r\nTinned\
@@ -1543,18 +1557,3 @@
     \nPasta Sauce\r\nInstant Mashed Potato\r\nTinned / Instant Custard\r\nTinned Fruit\r\
     \nBiscuits\r\nUHT Milk\r\nUHT Fruit Juice\r\nInstant Coffee"
   self: https://www.givefood.org.uk/api/2/needs/f2a760bb/
-- foodbank:
-    name: Stretford
-    slug: stretford
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stretford/
-      self: https://www.givefood.org.uk/api/2/foodbank/stretford/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBAstAwX/WQ==
-  - *id001
-  id: ede79166
-  needs: "Long Life Orange Juice\r\nTinned Potatoes/vegetables\r\nTea & Coffee\r\n\
-    Tinned Pies\r\nTinned Custard\r\nTinned Meat\r\nLong Life Milk\r\nJelly\r\nPickles\
-    \ And Preserves\r\nCrisps, Biscuits & Chocolate\r\nDog & Cat Food"
-  self: https://www.givefood.org.uk/api/2/needs/ede79166/
