@@ -1,4 +1,23 @@
 - foodbank:
+    name: Hereford
+    slug: hereford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hereford/
+      self: https://www.givefood.org.uk/api/2/foodbank/hereford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEAApMApIzg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8f3519d6
+  needs: "Tinned Meat\r\nTinned Fish\r\nRice (Tinned And Dry)\r\nTinned Vegetables\r\
+    \nUHT Milk\r\nBaby Food\r\nFood For Vegetarians\r\nWashing Powder\r\nCleaning\
+    \ Products\r\nLong-life-carriers"
+  self: https://www.givefood.org.uk/api/2/needs/8f3519d6/
+- foodbank:
     name: B30
     slug: b30
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFDwoWHQIzAA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: e41ba28f
   needs: "Pasta Sauce\r\nTinned Meat (Ham, Corned Beef, Chopped Pork, Meat Chunks\
     \ In Sauce)\r\nTinned Potatoes\r\nSugar (500g Bags Not Larger)\r\nTinned Fruit\
@@ -1554,21 +1569,3 @@
     \nCoffee\r\nBiscuits\r\nChocolate/sweet Treats\r\nShower Gel\r\nShampoo\r\nWashing\
     \ Up Liquid"
   self: https://www.givefood.org.uk/api/2/needs/b9926a6d/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBgohIwSvow==
-  - *id001
-  id: 6afab3a5
-  needs: "Tinned Meat/meat Meals\r\nSponge Puddings (Not Chilled)\r\nTinned Soup\r\
-    \nPasta Sauce\r\nTinned Custard Or Rice Pudding\r\nTinned Fish\r\nNappies - Size\
-    \ 5\r\nTinned Tomatoes\r\nUHT Long Life Milk\r\nInstant Mash\r\nDisposable Razors\
-    \ - Mens\r\nLong Life Juice\r\nBaby Food Jars/formula\r\nDried Milk\r\nRice (500g/1kg)\r\
-    \nInstant Noodles\r\nBaked Beans/tinned Spaghetti\r\nTinned Fruit\r\nShower Gel\r\
-    \nDeodorant - Womens"
-  self: https://www.givefood.org.uk/api/2/needs/6afab3a5/
