@@ -1,4 +1,38 @@
 - foodbank:
+    name: Yeovil
+    slug: yeovil
+    urls:
+      html: https://www.givefood.org.uk/needs/at/yeovil/
+      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEA8JFwkkRQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 04922ba8
+  needs: "Tinned Curry\r\nTins Of Potatoes\r\nTins Of Macaroni Cheese\r\nTins Of Sweetcorn\r\
+    \nJars Of Cooking Sauce\r\nBaked Beans\r\nTins Of Tomatoes\r\nUHT Milk\r\nShower\
+    \ Gel\r\nShampoo"
+  self: https://www.givefood.org.uk/api/2/needs/04922ba8/
+- foodbank:
+    name: Godalming & Villages Community Store
+    slug: godalming-villages-community-store
+    urls:
+      html: https://www.givefood.org.uk/needs/at/godalming-villages-community-store/
+      self: https://www.givefood.org.uk/api/2/foodbank/godalming-villages-community-store/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEA4gNwPaHg==
+  - *id001
+  id: '48773048'
+  needs: "Decaf Tea\r\nDecaf Coffee\r\nGravy Granules\r\nMayonnaise\r\nCereal Bars\r\
+    \nReady Rice (Plain & Flavoured)\r\nPesto Pasta Bake Cooking Sauce\r\nBin Liners\r\
+    \nCrackers"
+  self: https://www.givefood.org.uk/api/2/needs/48773048/
+- foodbank:
     name: Penryn & Falmouth
     slug: penryn-falmouth
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEA4MGgmYhA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f7319b1c
   needs: "Brown Rice\r\nBrown Pasta\r\nSweets\r\nWet Cat Food\r\nToilet Rolls\r\n\
     Baby Bubble Bath\r\nTinned Fruit\r\nMeat Balls\r\nTinned Custard\r\nSugar\r\n\
@@ -1538,35 +1568,3 @@
     \nSponge Puddings\r\nTeas Bags: Esp. Packs Of 40\r\nJars Of Pasta Sauce (All Types\
     \ And Sizes)\r\nShampoo\r\nToilet Rolls\r\nLaundry Products"
   self: https://www.givefood.org.uk/api/2/needs/06fd36c2/
-- foodbank:
-    name: Wimborne
-    slug: wimborne
-    urls:
-      html: https://www.givefood.org.uk/needs/at/wimborne/
-      self: https://www.givefood.org.uk/api/2/foodbank/wimborne/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBw0xNwKqxA==
-  - *id001
-  id: b749b0f6
-  needs: "Tinned Tomatoes\r\nMeat Meals / Curry\r\nTinned Spam\r\nTinned Custard\r\
-    \nTinned Rice Pudding\r\nJam\r\nLong Life Fruit Juice\r\nUHT Milk\r\nSquash\r\n\
-    Washing Pods\r\nShampoo\r\nShower Gel"
-  self: https://www.givefood.org.uk/api/2/needs/b749b0f6/
-- foodbank:
-    name: Welshpool and District
-    slug: welshpool-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/welshpool-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/welshpool-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBw0qOgaaaw==
-  - *id001
-  id: 00be83f5
-  needs: "Fruit Juice\r\nTinned Meat - Meals\r\nMicrowave Rice\r\nSkimmed Milk Powder\
-    \ & Long Life Milk\r\nPeanut Butter\r\nTinned Potatoes, Carrots, Garden Peas\r\
-    \nWash Powder\r\nToiletries + Toilet Paper\r\nTinned Custard / Rice Pudding\r\n\
-    Cereals\r\nChocolate\r\nJam\r\nCleaning (Disinfectant, Washing Up Liquid, Dishcloths\
-    \ Etc)\r\nNappies Size 5,6,7, & Baby Wipes\r\nDog & Cat Food"
-  self: https://www.givefood.org.uk/api/2/needs/00be83f5/
