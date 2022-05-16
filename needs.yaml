@@ -1,4 +1,23 @@
 - foodbank:
+    name: Droitwich Spa
+    slug: droitwich-spa
+    urls:
+      html: https://www.givefood.org.uk/needs/at/droitwich-spa/
+      self: https://www.givefood.org.uk/api/2/foodbank/droitwich-spa/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEBIUDg5d+w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 74c84fcd
+  needs: "Long Life Fruit Juice And Milk\r\nMeat To Heat\r\nTinned Fish\r\nCustard\
+    \ / Puddings\r\nCarrots / Peas\r\nCoffee / Snacks\r\nJams And Spreads\r\nMen's\
+    \ And Women's Deodorant\r\nShaving Foam"
+  self: https://www.givefood.org.uk/api/2/needs/74c84fcd/
+- foodbank:
     name: Devizes & District
     slug: devizes-district
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEA8xOweerQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8ae5622b
   needs: "Long Life Milk\r\nTinned Rice Pudding\r\nLong Life Fruit Juice\r\nLong Life\
     \ Sponge Puddings\r\nInstant Mash Potato\r\nShower Gel\r\nTinned Custard\r\nShampoo\r\
@@ -1553,17 +1568,3 @@
     \ Potatoes\r\nTinned Vegetables\r\nUHT Milk\r\nCoffee\r\nShower Gel\r\nDeodorant\r\
     \nShampoo\r\nConditioner"
   self: https://www.givefood.org.uk/api/2/needs/6ea307d3/
-- foodbank:
-    name: Widnes
-    slug: widnes
-    urls:
-      html: https://www.givefood.org.uk/needs/at/widnes/
-      self: https://www.givefood.org.uk/api/2/foodbank/widnes/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCA0gJAW3cg==
-  - *id001
-  id: 1497034d
-  needs: "Biscuits\r\nTea or Coffee\r\nSponge Puddings\r\nCereal\r\nUHT Milk\r\nTinned\
-    \ Spaghetti\r\nMicrowave Rice\r\nShampoo"
-  self: https://www.givefood.org.uk/api/2/needs/1497034d/
