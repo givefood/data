@@ -1,4 +1,38 @@
 - foodbank:
+    name: South & East Bristol
+    slug: south-east-bristol
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEAodAg6ojw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 3fd7ff2f
+  needs: "Toilet Roll\r\nJam\r\nCereal\r\nTinned Fruit\r\nTinned Potatoes\r\nSavoury\
+    \ Snacks (Crisps, Pot Noodles Etc.)\r\nShampoo/conditioner\r\nRice Pudding\r\n\
+    Tinned Fish\r\nInstant Coffee (Small Jars)"
+  self: https://www.givefood.org.uk/api/2/needs/3fd7ff2f/
+- foodbank:
+    name: Saltash
+    slug: saltash
+    urls:
+      html: https://www.givefood.org.uk/needs/at/saltash/
+      self: https://www.givefood.org.uk/api/2/foodbank/saltash/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEAoVNQJ6/A==
+  - *id001
+  id: '92446811'
+  needs: "UHT Fruit Juice\r\nSugar\r\nMilk Powder\r\nPuddings (Angel Delight, Jelly\
+    \ Cubes, Trifle Mix, Sponge Puddings)\r\nNoodles\r\nToilet Rolls\r\nNappies (Size\
+    \ 4, 5 & 6 Only)"
+  self: https://www.givefood.org.uk/api/2/needs/92446811/
+- foodbank:
     name: Wrexham
     slug: wrexham
     urls:
@@ -7,11 +41,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEAkzNA0zRA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 14f8f1ac
   needs: "Cartons Of Juice 200ml / 1 Litre\r\nTinned Fish: Salmon / Tuna / Sardines\r\
     \nSoup Sachets / Packets ( Not Tinned)\r\nShampoo\r\nDeodorants"
@@ -1536,35 +1566,3 @@
   needs: "Long Grain Packet Rice 1kg\r\nFruit Juice, Long Life\r\nJam\r\nTinned Fruit\r\
     \nSponge Pudding"
   self: https://www.givefood.org.uk/api/2/needs/13dddbe8/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBg03CQVtEw==
-  - *id001
-  id: '45190765'
-  needs: "Spray Cleaner/cleaning Products\r\nBaked Beans/tinned Spaghetti\r\nPasta\
-    \ Sauce\r\nSponge Puddings (Not Chilled)\r\nTinned Soup\r\nPull-ups - Size 5 &\
-    \ 6\r\nTinned Custard Or Rice Pudding\r\nTinned Meat Meals\r\nTinned Meat\r\n\
-    Instant Mash\r\nTinned Tomatoes\r\nLong Life Juice\r\nBaby Food Jars/formula\r\
-    \nTinned Fruit\r\nShower Gel\r\nTinned Fish\r\nDog Food\r\nUHT Long Life Milk"
-  self: https://www.givefood.org.uk/api/2/needs/45190765/
-- foodbank:
-    name: Kirkcaldy
-    slug: kirkcaldy
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kirkcaldy/
-      self: https://www.givefood.org.uk/api/2/foodbank/kirkcaldy/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBgsYDARjeg==
-  - *id001
-  id: a08e5d27
-  needs: "Canned Fish\r\nCanned Meat\r\nCanned Or Dried Fruit\r\nCanned Vegetables\r\
-    \nCanned Soup\r\nCanned Beans Or Spaghetti\r\nLong Life Milk (UHT)\r\nLong Life\
-    \ Fruit Juice (UHT)\r\nRice\r\nPasta\r\nPasta Sauce\r\nCereal\r\nTea And Coffee"
-  self: https://www.givefood.org.uk/api/2/needs/a08e5d27/
