@@ -1,4 +1,23 @@
 - foodbank:
+    name: Devizes & District
+    slug: devizes-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/devizes-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/devizes-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEA8xOweerQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8ae5622b
+  needs: "Long Life Milk\r\nTinned Rice Pudding\r\nLong Life Fruit Juice\r\nLong Life\
+    \ Sponge Puddings\r\nInstant Mash Potato\r\nShower Gel\r\nTinned Custard\r\nShampoo\r\
+    \nDeodorant (Men's And Ladies')"
+  self: https://www.givefood.org.uk/api/2/needs/8ae5622b/
+- foodbank:
     name: Yeovil
     slug: yeovil
     urls:
@@ -7,16 +26,26 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEA8JFwkkRQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 04922ba8
   needs: "Tinned Curry\r\nTins Of Potatoes\r\nTins Of Macaroni Cheese\r\nTins Of Sweetcorn\r\
     \nJars Of Cooking Sauce\r\nBaked Beans\r\nTins Of Tomatoes\r\nUHT Milk\r\nShower\
     \ Gel\r\nShampoo"
   self: https://www.givefood.org.uk/api/2/needs/04922ba8/
+- foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEA8CEQxArA==
+  - *id001
+  id: c333446e
+  needs: "Strong, Clean Shopping Bags\r\nEmpty Egg Boxes\r\nInstant Coffee\r\nShampoo/shower\
+    \ Gel\r\nUHT Milk\r\nTooth Paste\r\nCat Food"
+  self: https://www.givefood.org.uk/api/2/needs/c333446e/
 - foodbank:
     name: Godalming & Villages Community Store
     slug: godalming-villages-community-store
@@ -1538,33 +1567,3 @@
   needs: "Biscuits\r\nTea or Coffee\r\nSponge Puddings\r\nCereal\r\nUHT Milk\r\nTinned\
     \ Spaghetti\r\nMicrowave Rice\r\nShampoo"
   self: https://www.givefood.org.uk/api/2/needs/1497034d/
-- foodbank:
-    name: Arden
-    slug: arden
-    urls:
-      html: https://www.givefood.org.uk/needs/at/arden/
-      self: https://www.givefood.org.uk/api/2/foodbank/arden/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCAoKNQlKTg==
-  - *id001
-  id: b642de89
-  needs: "UHT Milk\r\nChocolates/sweets\r\nPasta Sauces\r\nCoffee"
-  self: https://www.givefood.org.uk/api/2/needs/b642de89/
-- foodbank:
-    name: Towcester
-    slug: towcester
-    urls:
-      html: https://www.givefood.org.uk/needs/at/towcester/
-      self: https://www.givefood.org.uk/api/2/foodbank/towcester/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFBxUmJgil7w==
-  - *id001
-  id: 06fd36c2
-  needs: "Tins Of Meat (Stews, Mince Beef, Etc.)\r\nTins Of Fish - All Types\r\nBaked\
-    \ Beans\r\nTins Of Tomatoes\r\nLong Life Fruit Juice In Litre Cartons\r\nRice\
-    \ (Max 1kg)\r\nSavory Crackers (E.g. Tuc Or Cream Crackers)\r\nBars Of Chocolate\r\
-    \nSponge Puddings\r\nTeas Bags: Esp. Packs Of 40\r\nJars Of Pasta Sauce (All Types\
-    \ And Sizes)\r\nShampoo\r\nToilet Rolls\r\nLaundry Products"
-  self: https://www.givefood.org.uk/api/2/needs/06fd36c2/
