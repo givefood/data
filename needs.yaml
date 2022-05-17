@@ -1,4 +1,23 @@
 - foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQkxAgh/Nw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 403f9712
+  needs: "Tins Of Soup\r\nInstant Coffee\r\nRice\r\nLong Life Fruit Juice\r\nShower\
+    \ Gel\r\nShampoo\r\nDeodorant\r\nShaving Foam/gel\r\nBars Of Soap\r\nToothpaste\r\
+    \nCarrier Bags (The 'Bag For Life' Sort)"
+  self: https://www.givefood.org.uk/api/2/needs/403f9712/
+- foodbank:
     name: Glasgow NE
     slug: glasgow-ne
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEBUjHwy4Tw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: adf61bb4
   needs: "UHT Milk\r\nDiluting Juice\r\nTinned Tomatoes\r\nWomen's Deodorant\r\nShampoo\r\
     \nTinned Fruit\r\nToothpaste\r\nTinned Ham\r\nCustard/rice Pudding"
@@ -1541,21 +1556,3 @@
     \ And Fruit Juice\r\nCooking Sauces\r\nCustard\r\nGluten Free Options (Not Pasta)\r\
     \nMilk\r\nSoap Powder/liquid\r\nToilet Roll"
   self: https://www.givefood.org.uk/api/2/needs/b7b061a9/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCQwcCwz9pw==
-  - *id001
-  id: 766ec056
-  needs: "Spray Cleaner/cleaning Products\r\nBaked Beans/tinned Spaghetti\r\nPasta\
-    \ Sauce\r\nSponge Puddings (Not Chilled)\r\nTinned Soup\r\nPull-ups - Size 5 &\
-    \ 6\r\nTinned Custard Or Rice Pudding\r\nTinned Meat Meals\r\nTinned Meat\r\n\
-    Instant Mash\r\nTinned Tomatoes\r\nLong Life Juice\r\nBaby Food Jars/formula\r\
-    \nTinned Fruit\r\nShower Gel\r\nTinned Fish\r\nDog Food - Wet And Dry\r\nUHT Long\
-    \ Life Milk"
-  self: https://www.givefood.org.uk/api/2/needs/766ec056/
