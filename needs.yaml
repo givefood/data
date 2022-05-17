@@ -1,4 +1,22 @@
 - foodbank:
+    name: Southend
+    slug: southend
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southend/
+      self: https://www.givefood.org.uk/api/2/foodbank/southend/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQo3HgHUWQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2945cb6d
+  needs: "Tinned Tuna\r\nTinned Sweetcorn\r\nTinned Fruit\r\nTea Bags\r\nPot Noodle\
+    \ (Just Add Hot Water)\r\nStrong Carrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/2945cb6d/
+- foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEQkxAgh/Nw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 403f9712
   needs: "Tins Of Soup\r\nInstant Coffee\r\nRice\r\nLong Life Fruit Juice\r\nShower\
     \ Gel\r\nShampoo\r\nDeodorant\r\nShaving Foam/gel\r\nBars Of Soap\r\nToothpaste\r\
@@ -1541,18 +1555,3 @@
     \nWashing Up Liquid\r\nCrisps\r\nCooking Oil\r\nCat Food\r\nToilet Roll\r\nUnwanted\
     \ Plastic Bags"
   self: https://www.givefood.org.uk/api/2/needs/a0f293e7/
-- foodbank:
-    name: Horsham District
-    slug: horsham-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/horsham-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/horsham-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCQwrHABfhA==
-  - *id001
-  id: b7b061a9
-  needs: "Spreads- Marmite/chocolate/peanut Butter/honey\r\nSponge Puddings\r\nSquash\
-    \ And Fruit Juice\r\nCooking Sauces\r\nCustard\r\nGluten Free Options (Not Pasta)\r\
-    \nMilk\r\nSoap Powder/liquid\r\nToilet Roll"
-  self: https://www.givefood.org.uk/api/2/needs/b7b061a9/
