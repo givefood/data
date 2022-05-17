@@ -1,4 +1,55 @@
 - foodbank:
+    name: Durham
+    slug: durham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/durham/
+      self: https://www.givefood.org.uk/api/2/foodbank/durham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQweBgvluA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6eeaa55b
+  needs: "Tinned Fruit\r\nTinned Spaghetti\r\nRice Pudding & Custard\r\nLong Life\
+    \ Fruit Juice\r\nUHT Milk\r\nJam"
+  self: https://www.givefood.org.uk/api/2/needs/6eeaa55b/
+- foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQwULQohlg==
+  - *id001
+  id: a691ab91
+  needs: "Tinned Meat Meals\r\nTinned Meat\r\nPull-ups - Size 5, 6, 7.\r\nSponge Puddings\
+    \ (Not Chilled)\r\nBaked Beans/tinned Spaghetti\r\nPasta Sauce\r\nSpray Cleaner/cleaning\
+    \ Products\r\nTinned Custard Or Rice Pudding\r\nInstant Mash\r\nLong Life Juice\r\
+    \nBaby Food - Jars/formula\r\nTinned Tomatoes\r\nTinned Fruit\r\nTinned Fish\r\
+    \nUHT Long Life Milk\r\nTinned Vegetables\r\nTinned Soup"
+  self: https://www.givefood.org.uk/api/2/needs/a691ab91/
+- foodbank:
+    name: Romsey
+    slug: romsey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/romsey/
+      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQwMKwoFzg==
+  - *id001
+  id: 1a462969
+  needs: "Sponge Puddings\r\nSweets And Chocolate\r\nMicrowave Rice\r\nCustard\r\n\
+    Tinned Spaghetti\r\nTinned Carrots/peas/sweetcorn\r\nSavoury Snacks - Crackers/rice\
+    \ Cakes\r\nMulti-pack Crisps\r\nCup-a-soup\r\nInstant Mash Potato\r\nPasta Sauce\r\
+    \nCoffee\r\nChocolate Biscuit Bars"
+  self: https://www.givefood.org.uk/api/2/needs/1a462969/
+- foodbank:
     name: Southend
     slug: southend
     urls:
@@ -7,11 +58,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEQo3HgHUWQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2945cb6d
   needs: "Tinned Tuna\r\nTinned Sweetcorn\r\nTinned Fruit\r\nTea Bags\r\nPot Noodle\
     \ (Just Add Hot Water)\r\nStrong Carrier Bags"
@@ -1511,47 +1558,3 @@
     Cat/dog Food\r\nLong Life Milk\r\nSquash\r\nJams Or Spreads\r\nCleaning Cloths\
     \ And Cleaning Products\r\nRice And Pasta"
   self: https://www.givefood.org.uk/api/2/needs/1836bf41/
-- foodbank:
-    name: Penryn & Falmouth
-    slug: penryn-falmouth
-    urls:
-      html: https://www.givefood.org.uk/needs/at/penryn-falmouth/
-      self: https://www.givefood.org.uk/api/2/foodbank/penryn-falmouth/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCQ4NMwj1Kg==
-  - *id001
-  id: dd8d617a
-  needs: "Size 6 Nappies\r\nSize 5 Nappies\r\nWashing Up Liquid\r\nToothpaste\r\n\
-    Male/female Deodorant\r\nBaby Wipes\r\nPowdered Milk\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/dd8d617a/
-- foodbank:
-    name: South & East Bristol
-    slug: south-east-bristol
-    urls:
-      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
-      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCQ0yAQELfg==
-  - *id001
-  id: 2f283601
-  needs: "Toilet Roll\r\nTinned Fish\r\nRice\r\nTinned Soup (Meat And Veggie)\r\n\
-    Tinned Potatoes\r\nJam\r\nSavoury Snacks (Crisps, Pot Noodles Etc.)\r\nShampoo\r\
-    \nConditioner\r\nToothpaste/toothbrushes"
-  self: https://www.givefood.org.uk/api/2/needs/2f283601/
-- foodbank:
-    name: Richmond
-    slug: richmond
-    urls:
-      html: https://www.givefood.org.uk/needs/at/richmond/
-      self: https://www.givefood.org.uk/api/2/foodbank/richmond/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCQ0IHQTnzw==
-  - *id001
-  id: a0f293e7
-  needs: "Long-life Juice\r\nTinned Fish And Tinned Meat\r\nPasta Sauces\r\nMilk\r\
-    \nWashing Up Liquid\r\nCrisps\r\nCooking Oil\r\nCat Food\r\nToilet Roll\r\nUnwanted\
-    \ Plastic Bags"
-  self: https://www.givefood.org.uk/api/2/needs/a0f293e7/
