@@ -1,22 +1,4 @@
 - foodbank:
-    name: Newport
-    slug: newport
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newport/
-      self: https://www.givefood.org.uk/api/2/foodbank/newport/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEREPDA0QSA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: c05927b4
-  needs: "Pasta Sauce\r\nTinned Tomatoes\r\nHot Snacks - Like Packet Noodles\r\nTinned\
-    \ And Packet Soup\r\nLong-life Juice Or Squash"
-  self: https://www.givefood.org.uk/api/2/needs/c05927b4/
-- foodbank:
     name: Loughborough Area
     slug: loughborough-area
     urls:
@@ -25,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEQ8YOQ19jA==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: d281bb99
   needs: "Tinned Meat\r\nSoup\r\nRice (Microwave)\r\nPasta\r\nSquash\r\nLong Life\
     \ Fruit Juice\r\nUHT Milk"
@@ -1555,3 +1541,21 @@
     \ Paste For Sandwiches\r\nTinned Meat\r\nTinned Tomatoes\r\nLaundry Powder/liquid\r\
     \nLong Life Juice\r\nJam/spread"
   self: https://www.givefood.org.uk/api/2/needs/64794de8/
+- foodbank:
+    name: Slough
+    slug: slough
+    urls:
+      html: https://www.givefood.org.uk/needs/at/slough/
+      self: https://www.givefood.org.uk/api/2/foodbank/slough/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCREMFQv+Ag==
+  - *id001
+  id: 3494534b
+  needs: "Jam\r\nTinned Spaghetti\r\nTinned Fruit\r\nLong-life Fruit Juice\r\nTinned\
+    \ Vegetarian Meals\r\nTinned Meat (Stewed Steak, Mince, Chicken In Sauce)\r\n\
+    Tinned Vegetables\r\nLong-life Fruit Juice (Cartons)\r\nLong-life Rice Pudding/custard\r\
+    \nTea Bags/instant Coffee\r\nLong-life Milk\r\nInstant Mash Potato\r\nShampoo\r\
+    \nShower Gel/soap\r\nWashing Up Liquid\r\nDeodorant\r\nRazors\r\nToothpaste\r\n\
+    Shaving Foam/gel\r\nStrong Carrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/3494534b/
