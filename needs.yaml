@@ -1,4 +1,51 @@
 - foodbank:
+    name: Loughborough Area
+    slug: loughborough-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/loughborough-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/loughborough-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQ8YOQ19jA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: d281bb99
+  needs: "Tinned Meat\r\nSoup\r\nRice (Microwave)\r\nPasta\r\nSquash\r\nLong Life\
+    \ Fruit Juice\r\nUHT Milk"
+  self: https://www.givefood.org.uk/api/2/needs/d281bb99/
+- foodbank:
+    name: South Normanton Area
+    slug: south-normanton-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-normanton-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-normanton-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQ4wCQ3ZTQ==
+  - *id001
+  id: e1d1f404
+  needs: "Milk Long Life Cartons 1 Litre\r\nTinned Fruit\r\nLong Life Fruit Juice\
+    \ (1 Litre) Or No Added Sugar Squash\r\nTinned Tomatoes"
+  self: https://www.givefood.org.uk/api/2/needs/e1d1f404/
+- foodbank:
+    name: Andover
+    slug: andover
+    urls:
+      html: https://www.givefood.org.uk/needs/at/andover/
+      self: https://www.givefood.org.uk/api/2/foodbank/andover/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEQ4oFAyqGg==
+  - *id001
+  id: 6acc7e46
+  needs: "Tinned Fish\r\nTinned Fruit\r\nLong Life Fruit Juice\r\nBiscuits\r\nTinned\
+    \ Custard Or Packets Of Custard\r\nTooth Paste\r\nShower Gel\r\nShampoo\r\nDeoderant\r\
+    \nLaundry Detergent\r\nGeneral Cleaning Spray"
+  self: https://www.givefood.org.uk/api/2/needs/6acc7e46/
+- foodbank:
     name: Hart
     slug: hart
     urls:
@@ -7,11 +54,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEQ4PBAYW2w==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d4c41bdc
   needs: "Tins: Meat, Pulses, Vegetables, Potatoes, Custard, Rice Pudding, Fruit\r\
     \nPacks: UHT Milk, Long Life Juice, Rice, Cereal, Sponge Pudding\r\nJars: Coffee,\
@@ -1516,47 +1559,3 @@
     \nShower Gel/soap\r\nWashing Up Liquid\r\nDeodorant\r\nRazors\r\nToothpaste\r\n\
     Shaving Foam/gel\r\nStrong Carrier Bags"
   self: https://www.givefood.org.uk/api/2/needs/3494534b/
-- foodbank:
-    name: Aston & Nechells
-    slug: aston-nechells
-    urls:
-      html: https://www.givefood.org.uk/needs/at/aston-nechells/
-      self: https://www.givefood.org.uk/api/2/foodbank/aston-nechells/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCRAYLAGGTA==
-  - *id001
-  id: 6b153bab
-  needs: "Long Life Fruit Juice Or Squash\r\nTinned Fruit\r\nTinned Fish\r\nUHT Milk\r\
-    \nToiletry Items"
-  self: https://www.givefood.org.uk/api/2/needs/6b153bab/
-- foodbank:
-    name: Romsey
-    slug: romsey
-    urls:
-      html: https://www.givefood.org.uk/needs/at/romsey/
-      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCRADEQjrRg==
-  - *id001
-  id: edc16b89
-  needs: "Sponge Puddings\r\nSweets And Chocolate\r\nMicrowave Rice\r\nCustard\r\n\
-    Tinned Carrots/peas/sweetcorn\r\nSavoury Snacks - Crackers/rice Cakes\r\nJam\r\
-    \nMulti-pack Crisps\r\nMarmite\r\nCup-a-soup\r\nShower Gel\r\nInstant Mash Potato\r\
-    \nPasta Sauce\r\nCoffee"
-  self: https://www.givefood.org.uk/api/2/needs/edc16b89/
-- foodbank:
-    name: Manchester Central
-    slug: manchester-central
-    urls:
-      html: https://www.givefood.org.uk/needs/at/manchester-central/
-      self: https://www.givefood.org.uk/api/2/foodbank/manchester-central/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCRABHQXp8Q==
-  - *id001
-  id: 47b6e12e
-  needs: "Tinned Fish\r\nTinned Soup\r\nTinned Meat\r\nLong Life Milk\r\nTea And Coffee\r\
-    \nSpaghetti Hoops\r\nBeans\r\nSavoury Snacks"
-  self: https://www.givefood.org.uk/api/2/needs/47b6e12e/
