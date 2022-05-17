@@ -1,25 +1,4 @@
 - foodbank:
-    name: Loveworks
-    slug: loveworks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/loveworks/
-      self: https://www.givefood.org.uk/api/2/foodbank/loveworks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEREWCQTFog==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 8bea6c59
-  needs: "Tinned Fruit\r\nBiscuits\r\nTinned Potatoes\r\nBreakfast Cereal\r\nTins\
-    \ Of Meat Casserole\r\nTinned Corn Beef\r\nHam Etc\r\nUHT Semi Skimmed Milk\r\n\
-    Soup\r\nRice Pudding\r\nCustard\r\nLong Life Fruit Juice\r\nPorridge Oats\r\n\
-    Tuna\r\nPasta Sauce\r\nRice\r\nTinned Vegetables\r\nTinned Tomatoes\r\nToilet\
-    \ Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/8bea6c59/
-- foodbank:
     name: Newport
     slug: newport
     urls:
@@ -28,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEREPDA0QSA==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: c05927b4
   needs: "Pasta Sauce\r\nTinned Tomatoes\r\nHot Snacks - Like Packet Noodles\r\nTinned\
     \ And Packet Soup\r\nLong-life Juice Or Squash"
@@ -1557,3 +1540,18 @@
   needs: "Tinned Soup\r\nTinned Tomatoes\r\nLong Life Sponge Puddings, Jellies, Instant\
     \ Whips\r\nUHT Milk: Whole And Semi-skimmed\r\nToilet Rolls"
   self: https://www.givefood.org.uk/api/2/needs/9573612b/
+- foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCRMBLAYZrg==
+  - *id001
+  id: 64794de8
+  needs: "Tinned Vegetables\r\nLong Life Milk\r\nTinned Fruit\r\nSquash\r\nMeat/fish\
+    \ Paste For Sandwiches\r\nTinned Meat\r\nTinned Tomatoes\r\nLaundry Powder/liquid\r\
+    \nLong Life Juice\r\nJam/spread"
+  self: https://www.givefood.org.uk/api/2/needs/64794de8/
