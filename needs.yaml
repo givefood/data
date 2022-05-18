@@ -1,4 +1,23 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEgwFNAkAhA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0a95dc61
+  needs: "Toilet Rolls\r\nJam/spread\r\nLong Life Milk\r\nTinned Vegetables\r\nTinned\
+    \ Fruit\r\nRice Pudding And Custard\r\nTinned Tomatoes\r\nTinned Meat\r\nLong\
+    \ Life Juice"
+  self: https://www.givefood.org.uk/api/2/needs/0a95dc61/
+- foodbank:
     name: Chelmsford
     slug: chelmsford
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEgoqOg6Ddw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 4c2a1a94
   needs: "Tinned Fish\r\nTinned Custard\r\nTinned Potatoes\r\nTinned Tomatoes\r\n\
     Tinned Spaghetti\r\nTinned Rice Pudding\r\nTinned Meat And Meat Pies (Excluding\
@@ -1549,17 +1564,3 @@
   needs: "Instant Mash/tinned Potatoes\r\nTinned Rice Pudding\r\nTinned Meat\r\nTinned\
     \ Vegetables\r\nSmall Jars Of Coffee\r\nTeabags (40s & 80s)"
   self: https://www.givefood.org.uk/api/2/needs/cf32e081/
-- foodbank:
-    name: Sheffield S6
-    slug: sheffield-s6
-    urls:
-      html: https://www.givefood.org.uk/needs/at/sheffield-s6/
-      self: https://www.givefood.org.uk/api/2/foodbank/sheffield-s6/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgkeLQsVCA==
-  - *id001
-  id: 766c6d0d
-  needs: "Tinned Fruit\r\nUHT Milk\r\nToiletries (Shower Gel, Deoderant Etc)\r\nTinned\
-    \ Vegetables\r\nRice"
-  self: https://www.givefood.org.uk/api/2/needs/766c6d0d/
