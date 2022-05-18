@@ -1,4 +1,54 @@
 - foodbank:
+    name: Abergavenny
+    slug: abergavenny
+    urls:
+      html: https://www.givefood.org.uk/needs/at/abergavenny/
+      self: https://www.givefood.org.uk/api/2/foodbank/abergavenny/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEgw1EQlarw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c35c3b67
+  needs: "Tinned Custard\r\nChocolate Biscuits/small Bars\r\nTinned Rice Pudding\r\
+    \nTinned Fruit\r\nLong Life, Semi-skimmed Milk\r\nPeanut Butter\r\nJam\r\nToilet\
+    \ Roll"
+  self: https://www.givefood.org.uk/api/2/needs/c35c3b67/
+- foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEgwMFQSTcg==
+  - *id001
+  id: d055a2b4
+  needs: "Tinned Meat / Meat Meals\r\nBaked Beans/tinned Spaghetti\r\nTinned Custard\
+    \ Or Rice Pudding\r\nPull-ups - Size 5, 6, 7.\r\nSponge Puddings (Not Chilled)\r\
+    \nPasta Sauce\r\nSpray Cleaner/cleaning Products\r\nInstant Mash\r\nLong Life\
+    \ Juice\r\nBaby Food - Jars/formula\r\nTinned Tomatoes\r\nTinned Fruit\r\nTinned\
+    \ Fish\r\nUHT Long Life Milk\r\nTinned Vegetables\r\nTinned Soup"
+  self: https://www.givefood.org.uk/api/2/needs/d055a2b4/
+- foodbank:
+    name: Richmond
+    slug: richmond
+    urls:
+      html: https://www.givefood.org.uk/needs/at/richmond/
+      self: https://www.givefood.org.uk/api/2/foodbank/richmond/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEgwJAwxP5w==
+  - *id001
+  id: 6a53952a
+  needs: "Female Deodorant\r\nRazors\r\nWashing Powder / Tablets\r\nNappies (Size\
+    \ 5, 6 And 7)\r\nUnwanted Carrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/6a53952a/
+- foodbank:
     name: Chichester District
     slug: chichester-district
     urls:
@@ -7,11 +57,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEgwFNAkAhA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0a95dc61
   needs: "Toilet Rolls\r\nJam/spread\r\nLong Life Milk\r\nTinned Vegetables\r\nTinned\
     \ Fruit\r\nRice Pudding And Custard\r\nTinned Tomatoes\r\nTinned Meat\r\nLong\
@@ -1518,49 +1564,3 @@
   needs: "Tinned Carrots\r\nTinned Sweetcorn\r\nTinned Fruit\r\nTea Bags\r\nMicrowave\
     \ Rice\r\nStrong Carrier Bags"
   self: https://www.givefood.org.uk/api/2/needs/92c03e0c/
-- foodbank:
-    name: Cardiff
-    slug: cardiff
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cardiff/
-      self: https://www.givefood.org.uk/api/2/foodbank/cardiff/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgobOgXDDA==
-  - *id001
-  id: dd057697
-  needs: "Good Quality Carrier Bags\r\nSponge Puddings\r\nTinned Fruit\r\nInstant\
-    \ Coffee (Small Jars)\r\nInstant Noodles\r\nFruit Juice (Long Life) 1 Litre\r\n\
-    Squash (1 Litre Bottles)\r\nMicrowaveable Pasta\r\nCustard\r\nMilk (UHT Long Life\
-    \ 1 Litre)\r\nSavoury Snacks (Crisps, Crackers Etc)\r\nRice Pudding\r\nChocolate\
-    \ Bars\r\nAntibacterial Spray/bleach\r\nShampoo/conditioner\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/dd057697/
-- foodbank:
-    name: Liskeard & Looe
-    slug: liskeard-looe
-    urls:
-      html: https://www.givefood.org.uk/needs/at/liskeard-looe/
-      self: https://www.givefood.org.uk/api/2/foodbank/liskeard-looe/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgoNEAQJ4A==
-  - *id001
-  id: c58ef8e6
-  needs: "Tinned Carrots\r\nTinned Fruit.....urgent Need\r\nWashing Powder, Small\
-    \ Packets\r\nMicrowaveable Pouches Of Rice\r\nBiscuits\r\nJars Of Pasta Sauce\r\
-    \nTins Of Spaghetti Hoops\r\nWashing Up Liquid"
-  self: https://www.givefood.org.uk/api/2/needs/c58ef8e6/
-- foodbank:
-    name: Mid Norfolk
-    slug: mid-norfolk
-    urls:
-      html: https://www.givefood.org.uk/needs/at/mid-norfolk/
-      self: https://www.givefood.org.uk/api/2/foodbank/mid-norfolk/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgk1CAjVjg==
-  - *id001
-  id: cf32e081
-  needs: "Instant Mash/tinned Potatoes\r\nTinned Rice Pudding\r\nTinned Meat\r\nTinned\
-    \ Vegetables\r\nSmall Jars Of Coffee\r\nTeabags (40s & 80s)"
-  self: https://www.givefood.org.uk/api/2/needs/cf32e081/
