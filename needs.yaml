@@ -1,4 +1,92 @@
 - foodbank:
+    name: North Lakes
+    slug: north-lakes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-lakes/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-lakes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEhASMgT7xw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8faa8406
+  needs: "Custard\r\nTinned Chicken In White Sauce\r\nSmall Jars Of Coffee\r\nMash\r\
+    \nRice\r\nNappies Sizes 3,4 & 5"
+  self: https://www.givefood.org.uk/api/2/needs/8faa8406/
+- foodbank:
+    name: Stoke-on-Trent
+    slug: stoke-on-trent
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stoke-on-trent/
+      self: https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEhABCAmgtg==
+  - *id001
+  id: b8af3de3
+  needs: "Tinned Desserts\r\nUHT Milk\r\nTinned Soup\r\nTinned Fish\r\nTea Bags\r\n\
+    Biscuits\r\nPasta Sauces\r\nSweet Extra Ie Chocolates\r\nCarrier Bags\r\nCereal\r\
+    \nTinned Soup\r\nTinned Tomato\r\nJar Pasta Sauce\r\nTinned Vegetables\r\nTinned\
+    \ Meat\r\nTinned Fish\r\nRice Pudding\r\nTinned Fruit\r\nTinned Sponge Pudding\r\
+    \nBiscuits\r\nTea Bags\r\nUHT Fruit Juice\r\nUHT Milk\r\nSavoury Treats\r\nSweet\
+    \ Treats / Chocolate Etc\r\nCoffee"
+  self: https://www.givefood.org.uk/api/2/needs/b8af3de3/
+- foodbank:
+    name: Malvern Hills
+    slug: malvern-hills
+    urls:
+      html: https://www.givefood.org.uk/needs/at/malvern-hills/
+      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEg8YLwiS/Q==
+  - *id001
+  id: 2d6d7744
+  needs: "Tinned Meat, Tinned Fruit, Tinned Soup, Tinned Rice Pudding\r\nSquash, Biscuits,\
+    \ Tomato Ketchup, Jam, Tea\r\nCurry Sauce In Jars\r\nNappies All Sizes (2, 3,\
+    \ 4, 5, 6 And 7)\r\nWashing Up Liquid, Laundry Detergent, Surface Cleaner, J Cloths\
+    \ Or Similar\r\nBars Of Soap, Male And Female Shower Gel, Male And Female Deodorant\r\
+    \nAdults And Children's Toothpaste, Packets Of Razors, Baby Wipes, Toilet Rolls\r\
+    \nCat Food, Dog Food"
+  self: https://www.givefood.org.uk/api/2/needs/2d6d7744/
+- foodbank:
+    name: The Whitehawk
+    slug: the-whitehawk
+    urls:
+      html: https://www.givefood.org.uk/needs/at/the-whitehawk/
+      self: https://www.givefood.org.uk/api/2/foodbank/the-whitehawk/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEg8XDwyL6g==
+  - *id001
+  id: e4a17a49
+  needs: "Tinned Tuna\r\nTinned Ham\r\nUHT Milk And Plant Based Milk\r\nCoffee (Ordinary\
+    \ And Decaf)\r\nBiscuits\r\nTinned Fruit\r\nShower Gel\r\nLadies Deodorant\r\n\
+    Toilet Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/e4a17a49/
+- foodbank:
+    name: Callington
+    slug: callington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/callington/
+      self: https://www.givefood.org.uk/api/2/foodbank/callington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEg8WIgKamA==
+  - *id001
+  id: 63d1dafd
+  needs: "Tinned Soup\r\nTinned Fruit\r\nTinned Carrots\r\nTinned Sweetcorn\r\nDried\
+    \ Mash Potatoes\r\nUHT Milk (Not Skimmed)\r\nJam (Not Marmalade)\r\nSponge Puddings\r\
+    \nCartons Of Fruit Juice\r\nSquash\r\nTea & Coffee\r\nLunchbox Items (Chocolate,\
+    \ Crisps)\r\nWashing Powder/tabs/liquid For Clothes\r\nMens Razors\r\nLadies Razors\r\
+    \nShaving Foam/gel\r\nLadies Deodorant\r\nMens Deodorant (Not Body Spray)\r\n\
+    Kitchen Roll\r\nToilet Roll\r\nToothpaste\r\nToothbrushes\r\nShampoo\r\nShower\
+    \ Gel\r\nDog Food (Tinned, Mixer & Dry Complete)"
+  self: https://www.givefood.org.uk/api/2/needs/63d1dafd/
+- foodbank:
     name: Abergavenny
     slug: abergavenny
     urls:
@@ -7,11 +95,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEgw1EQlarw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c35c3b67
   needs: "Tinned Custard\r\nChocolate Biscuits/small Bars\r\nTinned Rice Pudding\r\
     \nTinned Fruit\r\nLong Life, Semi-skimmed Milk\r\nPeanut Butter\r\nJam\r\nToilet\
@@ -1480,87 +1564,3 @@
     \nNon Bio And Bio Laundry Tablets Shampoo And Conditioner\r\nWashing Up Liquid\r\
     \nAntibacterial Sprays Or Wipes\r\nLadies Sanitary Items"
   self: https://www.givefood.org.uk/api/2/needs/e181aa2a/
-- foodbank:
-    name: Malvern Hills
-    slug: malvern-hills
-    urls:
-      html: https://www.givefood.org.uk/needs/at/malvern-hills/
-      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgwhOQKEgg==
-  - *id001
-  id: 971f833c
-  needs: "Tinned Carrots, Tinned Fruit In Natural Juice\r\nLong Life Fruit Juice\r\
-    \nJars Of Curry Sauce\r\nBiscuits\r\nWashing Up Liquid, Surface Cleaner, Laundry\
-    \ Detergent\r\nChildren's Toothpaste And Toothbrushes, Baby Wipes, Nappies Sizes\
-    \ 2, 3 And 4\r\nShower Gel, Shampoo"
-  self: https://www.givefood.org.uk/api/2/needs/971f833c/
-- foodbank:
-    name: Braintree Area
-    slug: braintree-area
-    urls:
-      html: https://www.givefood.org.uk/needs/at/braintree-area/
-      self: https://www.givefood.org.uk/api/2/foodbank/braintree-area/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgweEAv9hA==
-  - *id001
-  id: 83a8567f
-  needs: "Long Life Juice (1 Litre Maximum)\r\nInstant Mashed Potato\r\nPacket Soup\r\
-    \nTinned Spaghetti\r\nTea Bags (80 Maximum)\r\nJam\r\nTinned Cold Meat\r\nSponge\
-    \ Pudding\r\nStrong Carrier Bags, Please.\r\nTinned Tomatoes\r\nTinned Vegetables\r\
-    \nLonglife Milk (1 Litre, Please)\r\nRice Pudding\r\nTinned Fruit"
-  self: https://www.givefood.org.uk/api/2/needs/83a8567f/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgs7Cwz0Cw==
-  - *id001
-  id: 338bd5bf
-  needs: "Spray Cleaner/cleaning Products\r\nBaked Beans/tinned Spaghetti\r\nPasta\
-    \ Sauce\r\nSponge Puddings (Not Chilled)\r\nTinned Soup\r\nPull-ups - Size 5 &\
-    \ 6\r\nTinned Custard Or Rice Pudding\r\nTinned Meat Meals\r\nTinned Meat\r\n\
-    Instant Mash\r\nTinned Tomatoes\r\nLong Life Juice\r\nBaby Food Jars/formula\r\
-    \nTinned Fruit\r\nShower Gel\r\nTinned Fish\r\nDog Food - Wet And Dry\r\nUHT Long\
-    \ Life Milk\r\nTinned Vegetables"
-  self: https://www.givefood.org.uk/api/2/needs/338bd5bf/
-- foodbank:
-    name: Eastleigh Basics Bank
-    slug: eastleigh-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/eastleigh-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/eastleigh-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgsXGgtk6Q==
-  - *id001
-  id: 99e3d32f
-  needs: "Corned Beef\r\nTinned Ham\r\nSpam\r\nInstant Meals (Pot Noodles, Pasta Sauces\
-    \ Etc)\r\nCook In Sauce Jars\r\nTinned Fish (Tuna, Sardines, Mackerel)\r\nTinned\
-    \ Fruit (Peaches, Fruit Salad, Grapefruit Etc)\r\nDesserts (Rice Pudding, Custard,\
-    \ Angel Delight, Sponge Puddings, Jelly Etc)\r\nSugar\r\nLong Grain Rice (Traditional\
-    \ And Microwave)\r\nDried Spaghetti\r\nCoffee\r\nSquash\r\nLoo Rolls\r\nShampoo\r\
-    \nDeodorant\r\nToothpaste\r\nToothbrushes\r\nBaby Wipes\r\nBiscuits\r\nPorridge\r\
-    \nDrinking Chocolate\r\nFeminine Hygiene Products (Sanitary Towels And Tampons)\r\
-    \nNappies (Sizes 4+, 5+ And 6+)\r\nWashing Up Liquid\r\nDog Food"
-  self: https://www.givefood.org.uk/api/2/needs/99e3d32f/
-- foodbank:
-    name: Southend
-    slug: southend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southend/
-      self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgo2KQYdDw==
-  - *id001
-  id: 92c03e0c
-  needs: "Tinned Carrots\r\nTinned Sweetcorn\r\nTinned Fruit\r\nTea Bags\r\nMicrowave\
-    \ Rice\r\nStrong Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/92c03e0c/
