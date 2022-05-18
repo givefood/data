@@ -1,23 +1,4 @@
 - foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEgk1OQHUAw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: a45b7b0b
-  needs: "Instant Mash Potato (Packets)\r\nQuality Carrier Bags (Bags For Life)\r\n\
-    Tinned Custard\r\nWashing Tablets / Powder\r\nTinned Carrots\r\nTinned Peas\r\n\
-    Tinned Potatoes"
-  self: https://www.givefood.org.uk/api/2/needs/a45b7b0b/
-- foodbank:
     name: Kingston
     slug: kingston
     urls:
@@ -26,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEREvMQNImA==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 6e33a367
   needs: "Instant Mash\r\nUHT Long Life Milk\r\nTinned Potatoes\r\nOils And Sauces\r\
     \nMale And Female Deodorant, Body Cream.\r\nCordial Juice\r\nPot Noodles\r\nShampoo\
@@ -1559,3 +1544,18 @@
   needs: "Toilet Roll Paper\r\nTinned Fruit\r\nTinned Vegetables\r\nJam\r\nToiletries\r\
     \nSugar\r\nLong Life Milk\r\nSauces\r\nTinned Meat And Fish\r\nRice Pudding/ Custard"
   self: https://www.givefood.org.uk/api/2/needs/09e7135d/
+- foodbank:
+    name: Godalming & Villages Community Store
+    slug: godalming-villages-community-store
+    urls:
+      html: https://www.givefood.org.uk/needs/at/godalming-villages-community-store/
+      self: https://www.givefood.org.uk/api/2/foodbank/godalming-villages-community-store/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFCgcVGA10UQ==
+  - *id001
+  id: 9eee7aae
+  needs: "Ready Rice; Plain And Flavoured\r\nBleach\r\nBaby Food\r\nBin Bags\r\nMayonnaise\r\
+    \nInstant Noodles\r\nTomato Ketchup\r\nDecaf Tea\r\nDecaf Coffee\r\nCooking Oil\r\
+    \nBiscuits"
+  self: https://www.givefood.org.uk/api/2/needs/9eee7aae/
