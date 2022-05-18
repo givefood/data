@@ -1,4 +1,41 @@
 - foodbank:
+    name: Chelmsford
+    slug: chelmsford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chelmsford/
+      self: https://www.givefood.org.uk/api/2/foodbank/chelmsford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEgoqOg6Ddw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4c2a1a94
+  needs: "Tinned Fish\r\nTinned Custard\r\nTinned Potatoes\r\nTinned Tomatoes\r\n\
+    Tinned Spaghetti\r\nTinned Rice Pudding\r\nTinned Meat And Meat Pies (Excluding\
+    \ Corned Beef And Luncheon Meat)\r\nPasta Sauce\r\nSponge Puddings\r\nJam/spreads\r\
+    \nCoffee - Small/medium Jars\r\nInstant Custard Powder Sachets\r\nWashing Capsules"
+  self: https://www.givefood.org.uk/api/2/needs/4c2a1a94/
+- foodbank:
+    name: Stratford Upon Avon
+    slug: stratford-upon-avon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stratford-upon-avon/
+      self: https://www.givefood.org.uk/api/2/foodbank/stratford-upon-avon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEgokMwLfQg==
+  - *id001
+  id: 1c9d010c
+  needs: "Fruit Juice - Longlife UHT\r\nMilk - Powdered & Longlife UHT\r\nCordial/squash\r\
+    \nInstant Coffee - Small Jar\r\nTinned Meals: Chilli, Curry, Bolognaise, Casserole\r\
+    \nTinned Vegetarian Meals; Ravioli, Mac Cheese, Veg Cury\r\nPasta Sauce Jars\r\
+    \nTinned Ham\r\nTinned Carrots\r\nTinned Tomatoes\r\nTinned Fruit\r\nRice Pudding,\
+    \ Angel Delight & Custard\r\nJam, Honey & Peanut Butter"
+  self: https://www.givefood.org.uk/api/2/needs/1c9d010c/
+- foodbank:
     name: Rugby
     slug: rugby
     urls:
@@ -7,11 +44,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEgk1OQHUAw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a45b7b0b
   needs: "Instant Mash Potato (Packets)\r\nQuality Carrier Bags (Bags For Life)\r\n\
     Tinned Custard\r\nWashing Tablets / Powder\r\nTinned Carrots\r\nTinned Peas\r\n\
@@ -1530,32 +1563,3 @@
   needs: "Tinned Fruit\r\nUHT Milk\r\nToiletries (Shower Gel, Deoderant Etc)\r\nTinned\
     \ Vegetables\r\nRice"
   self: https://www.givefood.org.uk/api/2/needs/766c6d0d/
-- foodbank:
-    name: Richmond
-    slug: richmond
-    urls:
-      html: https://www.givefood.org.uk/needs/at/richmond/
-      self: https://www.givefood.org.uk/api/2/foodbank/richmond/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCgkRMg1HJw==
-  - *id001
-  id: ed6fbcec
-  needs: "Long-life Juice\r\nTinned Fish And Tinned Meat\r\nTinned Fruit And Vegetables\r\
-    \nTinned Dairy\r\nPasta Sauces\r\nMilk\r\nWashing Up Liquid\r\nCrisps\r\nCooking\
-    \ Oil\r\nCat Food And Dog Food\r\nToilet Roll\r\nUnwanted Plastic Bags"
-  self: https://www.givefood.org.uk/api/2/needs/ed6fbcec/
-- foodbank:
-    name: Hillingdon
-    slug: hillingdon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/hillingdon/
-      self: https://www.givefood.org.uk/api/2/foodbank/hillingdon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCggkBgb2xQ==
-  - *id001
-  id: 09e7135d
-  needs: "Toilet Roll Paper\r\nTinned Fruit\r\nTinned Vegetables\r\nJam\r\nToiletries\r\
-    \nSugar\r\nLong Life Milk\r\nSauces\r\nTinned Meat And Fish\r\nRice Pudding/ Custard"
-  self: https://www.givefood.org.uk/api/2/needs/09e7135d/
