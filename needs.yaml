@@ -1,4 +1,24 @@
 - foodbank:
+    name: Kingston
+    slug: kingston
+    urls:
+      html: https://www.givefood.org.uk/needs/at/kingston/
+      self: https://www.givefood.org.uk/api/2/foodbank/kingston/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEREvMQNImA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6e33a367
+  needs: "Instant Mash\r\nUHT Long Life Milk\r\nTinned Potatoes\r\nOils And Sauces\r\
+    \nMale And Female Deodorant, Body Cream.\r\nCordial Juice\r\nPot Noodles\r\nShampoo\
+    \ And Conditioner\r\nBiscuits\r\nCrisps And Treats\r\nTinned Tomatoes\r\nToilet\
+    \ Paper\r\nRice"
+  self: https://www.givefood.org.uk/api/2/needs/6e33a367/
+- foodbank:
     name: Loveworks
     slug: loveworks
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEREWCQTFog==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8bea6c59
   needs: "Tinned Fruit\r\nBiscuits\r\nTinned Potatoes\r\nBreakfast Cereal\r\nTins\
     \ Of Meat Casserole\r\nTinned Corn Beef\r\nHam Etc\r\nUHT Semi Skimmed Milk\r\n\
@@ -1543,17 +1559,3 @@
     \nInstant Noodles\r\nTomato Ketchup\r\nDecaf Tea\r\nDecaf Coffee\r\nCooking Oil\r\
     \nBiscuits"
   self: https://www.givefood.org.uk/api/2/needs/9eee7aae/
-- foodbank:
-    name: Norwood & Brixton
-    slug: norwood-brixton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/norwood-brixton/
-      self: https://www.givefood.org.uk/api/2/foodbank/norwood-brixton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCRQXBg1TWQ==
-  - *id001
-  id: 9573612b
-  needs: "Tinned Soup\r\nTinned Tomatoes\r\nLong Life Sponge Puddings, Jellies, Instant\
-    \ Whips\r\nUHT Milk: Whole And Semi-skimmed\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/9573612b/
