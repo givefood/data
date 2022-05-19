@@ -1,4 +1,41 @@
 - foodbank:
+    name: Erdington
+    slug: erdington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/erdington/
+      self: https://www.givefood.org.uk/api/2/foodbank/erdington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEw0hLg0abQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: e7a223d3
+  needs: "500g Bags Of Pasta\r\nPackets Of Biscuits\r\nTinned Fruit\r\nJars Of Pasta\
+    \ Sauce\r\nBottles Of Cooking Oil\r\nTinned Rice Pudding"
+  self: https://www.givefood.org.uk/api/2/needs/e7a223d3/
+- foodbank:
+    name: ReadiFood
+    slug: readifood
+    urls:
+      html: https://www.givefood.org.uk/needs/at/readifood/
+      self: https://www.givefood.org.uk/api/2/foodbank/readifood/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEw0XDQaERA==
+  - *id001
+  id: 15ebec86
+  needs: "Tinned Ready Meals (Hot Dogs, Curry, Mince Meat & Onions, Chicken In White\
+    \ Sauce)\r\nTinned Vegetables\r\nTinned Fruit\r\nTinned & Instant Potatoes\r\n\
+    Tinned Deserts (Rice Pudding) And Porridge Sachets.\r\nTinned Ready Meals\r\n\
+    Tinned Fish\r\nBaked Beans\r\nCereal Bars\r\nPot Noodles (Or Equivalent)\r\nTinned\
+    \ Meat\r\nTinned Vegetables\r\nTinned/instant Potatoes\r\nTinned Fruit\r\nBaby\
+    \ Toiletries (Not Wipes)\r\nDried Pulses\r\nDried Lentils\r\nLong Life Milk\r\n\
+    Squash\r\nHoney\r\nToiletries"
+  self: https://www.givefood.org.uk/api/2/needs/15ebec86/
+- foodbank:
     name: Bradford North
     slug: bradford-north
     urls:
@@ -7,11 +44,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEwwqGAjj8g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 834e6de1
   needs: "Juice, Long Life\r\nMilk UHT (Whole Or Semi-skimmed)\r\nVegetarian Meals\
     \ (Tinned)\r\nMashed Potato (Instant)\r\nSugar\r\nTomatoes (Tinned)\r\nFruit (Tinned)\r\
@@ -1527,35 +1560,3 @@
     \ / Packet Custard\r\nToilet Rolls\r\nWashing Tablets / Powder\r\nCoffee (Jars)\r\
     \nPot / Packet Noodles\r\nTinned Potatoes"
   self: https://www.givefood.org.uk/api/2/needs/7f7b8158/
-- foodbank:
-    name: Stoke-on-Trent
-    slug: stoke-on-trent
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stoke-on-trent/
-      self: https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCwwnIgdA9w==
-  - *id001
-  id: 1c262681
-  needs: "Tinned Desserts\r\nUHT Milk\r\nTinned Soup\r\nTinned Fish\r\nTea Bags\r\n\
-    Biscuits\r\nPasta Sauces\r\nCarrier Bags\r\nCereal\r\nTinned Soup\r\nTinned Tomato\r\
-    \nJar Pasta Sauce\r\nTinned Vegetables\r\nTinned Meat\r\nTinned Fish\r\nRice Pudding\r\
-    \nTinned Fruit\r\nTinned Sponge Pudding\r\nBiscuits\r\nTea Bags\r\nUHT Fruit Juice\r\
-    \nUHT Milk\r\nSavoury Treats\r\nSweet Treats / Chocolate Etc\r\nCoffee"
-  self: https://www.givefood.org.uk/api/2/needs/1c262681/
-- foodbank:
-    name: Edinburgh SE
-    slug: edinburgh-se
-    urls:
-      html: https://www.givefood.org.uk/needs/at/edinburgh-se/
-      self: https://www.givefood.org.uk/api/2/foodbank/edinburgh-se/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCwwJCQf9NQ==
-  - *id001
-  id: c5676421
-  needs: "Diluting Juice\r\nSavoury Biscuits\r\nLong Life Sponge Puddings\r\nLong\
-    \ Life Fruit Juice\r\nTinned Fruit\r\nTinned Vegetables\r\nTinned Mince/chicken\r\
-    \nToothpaste"
-  self: https://www.givefood.org.uk/api/2/needs/c5676421/
