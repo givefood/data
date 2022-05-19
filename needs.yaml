@@ -1,4 +1,24 @@
 - foodbank:
+    name: Romsey
+    slug: romsey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/romsey/
+      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEwsOOQndTw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5589165a
+  needs: "Rice\r\nTinned Carrots/peas/sweetcorn\r\nPasta Sauce\r\nSponge Puddings\r\
+    \nCustard\r\nInstant Mash Potato\r\nChocolate Biscuit Bars\r\nTinned Spaghetti\r\
+    \nSavoury Snacks - Crackers/rice Cakes\r\nCoffee\r\nMulti-pack Crisps\r\nCup-a-soup\r\
+    \nSweets And Chocolate"
+  self: https://www.givefood.org.uk/api/2/needs/5589165a/
+- foodbank:
     name: Wadebridge
     slug: wadebridge
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFEwk4FwcOuA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 745995a1
   needs: "Washing Powder / Pods\r\nToilet Rolls\r\nShampoo\r\nConditioner\r\nFemale\
     \ Deodorant\r\nJam"
@@ -1545,17 +1561,3 @@
     Size 6 Pull Up Nappies (Not Other Sizes Please!)\r\nCleaning Sprays\r\nLaundry\
     \ Tablets/capsules (Not Liquid Or Powder Please)\r\nDeodorant\r\nToilet Roll"
   self: https://www.givefood.org.uk/api/2/needs/4cc9a79a/
-- foodbank:
-    name: Eastbourne
-    slug: eastbourne
-    urls:
-      html: https://www.givefood.org.uk/needs/at/eastbourne/
-      self: https://www.givefood.org.uk/api/2/foodbank/eastbourne/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFCg4nGwV2jg==
-  - *id001
-  id: 2dad4696
-  needs: "Tinned Vegetables - Peas / Carrots / Sweetcorn\r\nTinned Fruit\r\nPot Noodles\r\
-    \nTinned Tomatoes\r\nTinned Rice Pudding\r\nTinned Meat Pies / Meatballs / Hotdogs"
-  self: https://www.givefood.org.uk/api/2/needs/2dad4696/
