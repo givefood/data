@@ -228,20 +228,6 @@
     \nBreakfast Cereal\r\nWashing Up Liquid\r\nLaundry Powder/liquid"
   self: https://www.givefood.org.uk/api/2/needs/3b87a27f/
 - foodbank:
-    name: Haverhill
-    slug: haverhill
-    urls:
-      html: https://www.givefood.org.uk/needs/at/haverhill/
-      self: https://www.givefood.org.uk/api/2/foodbank/haverhill/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFExEnJggwyw==
-  - *id001
-  id: 0c2bf179
-  needs: "Noodles\r\nSquash\r\nSupermarket Carrier Bags\r\nSmall Jars Of Coffee\r\n\
-    Jam\r\nPotatoes (Tinned Or Mash)\r\nPudding (Rice Or Sponge)\t\r\nTinned Fruit"
-  self: https://www.givefood.org.uk/api/2/needs/0c2bf179/
-- foodbank:
     name: Caterham
     slug: caterham
     urls:
@@ -1549,3 +1535,18 @@
   needs: "Tinned Fruit (400gms)\r\nTinned Tomatoes\r\nTinned Vegetables\r\nTinned\
     \ Meat\r\nInstant Mash"
   self: https://www.givefood.org.uk/api/2/needs/2a63fe7d/
+- foodbank:
+    name: Bassetlaw
+    slug: bassetlaw
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bassetlaw/
+      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFDAwlHAl1Vw==
+  - *id001
+  id: d39d212a
+  needs: "Ravioli In Tins⁠\r\nPot Noodles/instant Noodles⁠\r\nRice Pudding⁠\r\nCustard⁠\r\
+    \nPorridge⁠\r\nCoffee⁠\r\nTinned Dog Food⁠\r\nBleach⁠\r\nCup-a-soup⁠\r\nTinned\
+    \ Fruit⁠"
+  self: https://www.givefood.org.uk/api/2/needs/d39d212a/
