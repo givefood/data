@@ -1,4 +1,22 @@
 - foodbank:
+    name: Coventry
+    slug: coventry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/coventry/
+      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFBIbLAgHfA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: a259d177
+  needs: "UHT Long Life Milk\r\nRice\r\nCooking Sauce\r\nSquash\r\nFruit Juice\r\n\
+    Tinned Vegetables\r\nTinned Fruit\r\nInstant Mash Potato"
+  self: https://www.givefood.org.uk/api/2/needs/a259d177/
+- foodbank:
     name: Walton & Hersham
     slug: walton-hersham
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFA8nNQm+Pg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5c218abb
   needs: "Long Life Carrier Bags In Good Condition (To Pack Parcels In)\r\nTin Meat\
     \ (Not Corned Beef)\r\nLong Life Milk\r\nSweetcorn\r\nInstant Mash Potatoes\r\n\
@@ -1536,21 +1550,3 @@
     \nPorridge⁠\r\nCoffee⁠\r\nTinned Dog Food⁠\r\nBleach⁠\r\nCup-a-soup⁠\r\nTinned\
     \ Fruit⁠"
   self: https://www.givefood.org.uk/api/2/needs/d39d212a/
-- foodbank:
-    name: Slough
-    slug: slough
-    urls:
-      html: https://www.givefood.org.uk/needs/at/slough/
-      self: https://www.givefood.org.uk/api/2/foodbank/slough/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDAwZBQl3Cw==
-  - *id001
-  id: 248d4bf5
-  needs: "Jam\r\nTinned Spaghetti\r\nTinned Fruit\r\nLong-life Fruit Juice\r\nTinned\
-    \ Vegetarian Meals\r\nTinned Meat (Stewed Steak, Mince, Chicken In Sauce)\r\n\
-    Tinned Vegetables\r\nLong-life Rice Pudding/custard\r\nTea Bags/instant Coffee\r\
-    \nLong-life Milk\r\nInstant Mash Potato\r\nShampoo\r\nShower Gel/soap\r\nWashing\
-    \ Up Liquid\r\nDeodorant\r\nRazors\r\nToothpaste\r\nShaving Foam/gel\r\nStrong\
-    \ Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/248d4bf5/
