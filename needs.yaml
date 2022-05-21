@@ -1,4 +1,26 @@
 - foodbank:
+    name: Welshpool and District
+    slug: welshpool-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/welshpool-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/welshpool-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFQAQAgeQXw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 31ecbb35
+  needs: "Fruit Juice\r\nTinned Meat - Meals\r\nMicrowave Rice\r\nSkimmed Milk Powder\
+    \ & Long Life Milk\r\nPeanut Butter\r\nTinned Potatoes, Carrots, Garden Peas\r\
+    \nWash Powder\r\nToiletries + Toilet Paper\r\nTinned Fruit / Tinned Custard /\
+    \ Rice Pudding\r\nCereals\r\nSugar\r\nBiscuits & Chocolate\r\nJam\r\nCleaning\
+    \ (Disinfectant, Washing Up Liquid, Dishcloths Etc)\r\nNappies Size 5,6,7, & Baby\
+    \ Wipes\r\nDog & Cat Food"
+  self: https://www.givefood.org.uk/api/2/needs/31ecbb35/
+- foodbank:
     name: Coventry
     slug: coventry
     urls:
@@ -7,11 +29,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFBIbLAgHfA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a259d177
   needs: "UHT Long Life Milk\r\nRice\r\nCooking Sauce\r\nSquash\r\nFruit Juice\r\n\
     Tinned Vegetables\r\nTinned Fruit\r\nInstant Mash Potato"
@@ -1535,17 +1553,3 @@
     \nToiletries\r\nSanitary Products\r\nWash Up Liquid\r\nJay Cloths\r\nToilet Cleaner\r\
     \nMulti Purpose Spray"
   self: https://www.givefood.org.uk/api/2/needs/5cfd8490/
-- foodbank:
-    name: Quinton & Oldbury
-    slug: quinton-oldbury
-    urls:
-      html: https://www.givefood.org.uk/needs/at/quinton-oldbury/
-      self: https://www.givefood.org.uk/api/2/foodbank/quinton-oldbury/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDBAZCAFqeg==
-  - *id001
-  id: 2a63fe7d
-  needs: "Tinned Fruit (400gms)\r\nTinned Tomatoes\r\nTinned Vegetables\r\nTinned\
-    \ Meat\r\nInstant Mash"
-  self: https://www.givefood.org.uk/api/2/needs/2a63fe7d/
