@@ -1,29 +1,4 @@
 - foodbank:
-    name: Selkirk
-    slug: selkirk
-    urls:
-      html: https://www.givefood.org.uk/needs/at/selkirk/
-      self: https://www.givefood.org.uk/api/2/foodbank/selkirk/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFQ0ZDQt2hA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 44c92f34
-  needs: "Tinned Meat:  Spam, Ham, Corned Beef\r\nReady Meals:  Stew, Meatballs, Curries\r\
-    \nMinced Beef, Fray Bentos Pies\r\nBaked Beans:  Medium & Small Tins\r\nTinned\
-    \ Veg:  Peas, Carrots, Sweetcorn\r\nTinned Fish:  Tuna, Salmon, Sardines\r\nSoups: \
-    \ Medium & Small Tins\r\nPackets Of Cup-a-soup\r\nPasta Sauce:  All Flavours,\
-    \ Medium Jars\r\nPasta/spaghetti:  500g Packets\r\nRice:  500g Packets\r\nPotatoes: \
-    \ Medium & Small Tins\r\nPackets Of Powder\r\nRice Pudding:  Medium Size Tins\r\
-    \nCustard:  Medium Size Tins\r\nTea Bags:  40s\r\nInstant Coffee:  100g Jars\r\
-    \nJam/marmalade:  Medium Jars\r\nBiscuits:  Sweet & Savoury\r\nCereals:  Standard\
-    \ Boxes\r\nWhite Sugar:  500g Packets"
-  self: https://www.givefood.org.uk/api/2/needs/44c92f34/
-- foodbank:
     name: Welshpool and District
     slug: welshpool-and-district
     urls:
@@ -32,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFQAQAgeQXw==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 31ecbb35
   needs: "Fruit Juice\r\nTinned Meat - Meals\r\nMicrowave Rice\r\nSkimmed Milk Powder\
     \ & Long Life Milk\r\nPeanut Butter\r\nTinned Potatoes, Carrots, Garden Peas\r\
@@ -1556,3 +1535,21 @@
     \ Cake\r\nPackets Of Flavoured Rice/pasta/noodles\r\nLaundry Powder/tabs & Washing-up\
     \ Liquid"
   self: https://www.givefood.org.uk/api/2/needs/c1ec916d/
+- foodbank:
+    name: Taff Bargoed
+    slug: taff-bargoed
+    urls:
+      html: https://www.givefood.org.uk/needs/at/taff-bargoed/
+      self: https://www.givefood.org.uk/api/2/foodbank/taff-bargoed/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFDBA4OgylFA==
+  - *id001
+  id: 5cfd8490
+  needs: "Cooking Pasta Sauces\r\nTinned Curry\r\nMeatballs\r\nHot Dog's\r\nJam\r\n\
+    Peanut Butter\r\nChoc Spread\r\nChocolate Snack Bars\r\nSweets\r\nTinned Fruit\r\
+    \nCustard\r\nRice Pudding\r\nSquash\r\nJuice\r\nUHT Milk\r\nTinned Veg\r\nPotatoes\r\
+    \nMicrowave Rice\r\nPot Noodles\r\nTea\r\nCoffee\r\nSugar\r\nSoap\r\nToilet Roll\r\
+    \nToiletries\r\nSanitary Products\r\nWash Up Liquid\r\nJay Cloths\r\nToilet Cleaner\r\
+    \nMulti Purpose Spray"
+  self: https://www.givefood.org.uk/api/2/needs/5cfd8490/
