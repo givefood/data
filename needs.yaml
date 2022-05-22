@@ -1,4 +1,30 @@
 - foodbank:
+    name: B30
+    slug: b30
+    urls:
+      html: https://www.givefood.org.uk/needs/at/b30/
+      self: https://www.givefood.org.uk/api/2/foodbank/b30/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFgoWAgnq3w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 985d46dc
+  needs: "Pasta Sauce\r\nTinned Potatoes\r\nSugar (500g Bags Not Larger)\r\nTinned\
+    \ Fruit In Juice(not Prunes Or Grapefruit)\r\nTinned Spaghetti\r\nRice\r\nReady\
+    \ Made Custard Tins Or Cartons Not Powder\r\nCereal(not Greater Than 500gm)\r\n\
+    Porridge\r\nGender Neutral Shampoo\r\nToothpaste\r\nToilet Rolls\r\nStrong Carrier\
+    \ Bags\r\nSquash\r\nLong Life Fruit Juice\r\nUHT Semi Skimmed Milk\r\nDog/cat\
+    \ Food\r\nInstant Hot Chocolate (Made Up With Water Not Milk)\r\nInstant Coffee\
+    \ (Not Decaf)\r\nUHT Whole Milk\r\nCrisps\r\nTinned Rice Pudding\r\nSmall Packets\
+    \ Of Tea Bags (40’s And 80’s)\r\nJam, Honey\r\nChocolate And Snack Bars\r\nLiquid\
+    \ Or Bar Soap\r\nLaundry Liquid Or Powder (Not Family Sized)\r\nGender Neutral\
+    \ Shower-gel"
+  self: https://www.givefood.org.uk/api/2/needs/985d46dc/
+- foodbank:
     name: Eastbourne
     slug: eastbourne
     urls:
@@ -7,11 +33,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFgUdHgkl5Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2a83e1c6
   needs: "Tinned Vegetables - Peas / Carrots / Sweetcorn\r\nTinned Fruit\r\nBiscuits\r\
     \nTinned Tomatoes\r\nTinned Rice Pudding\r\nTinned Meat Pies / Meatballs / Hotdogs"
@@ -1537,18 +1559,3 @@
     \ Snacks\r\nHousehold Bleach\r\nHousehold Cleaning Sprays\r\nToilet Roll\r\nShampoo\r\
     \nShaving Razors & Male Toiletries\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/48c751a8/
-- foodbank:
-    name: Bridgend
-    slug: bridgend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bridgend/
-      self: https://www.givefood.org.uk/api/2/foodbank/bridgend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDQonHgAZhg==
-  - *id001
-  id: fbd26d58
-  needs: "Toilet Rolls\r\nJam\r\nPot Noodles\r\nPacket Soup\r\nPeanut Butter\r\nTomato\
-    \ Ketchup\r\nHot Chocolate\r\nInstant Mash\r\nTinned Custard\r\nCorned Beef\r\n\
-    Tea\r\nHam\r\nHot Dog Sausages\r\nBreakfast Bars\r\nSquash\r\nTinned Fruit"
-  self: https://www.givefood.org.uk/api/2/needs/fbd26d58/
