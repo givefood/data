@@ -1,4 +1,22 @@
 - foodbank:
+    name: Eastbourne
+    slug: eastbourne
+    urls:
+      html: https://www.givefood.org.uk/needs/at/eastbourne/
+      self: https://www.givefood.org.uk/api/2/foodbank/eastbourne/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFgUdHgkl5Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2a83e1c6
+  needs: "Tinned Vegetables - Peas / Carrots / Sweetcorn\r\nTinned Fruit\r\nBiscuits\r\
+    \nTinned Tomatoes\r\nTinned Rice Pudding\r\nTinned Meat Pies / Meatballs / Hotdogs"
+  self: https://www.givefood.org.uk/api/2/needs/2a83e1c6/
+- foodbank:
     name: East Dunbartonshire
     slug: east-dunbartonshire
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFRYCKAZS9g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f6e8b957
   needs: "Fruit Juice 1 Litre Cartons Long Life\r\nUHT Milk\r\nTinned Carrots\r\n\
     Chocolate\r\nHealthy Snacks (E.g Dried Fruit)"
@@ -1538,17 +1552,3 @@
     \ Ketchup\r\nHot Chocolate\r\nInstant Mash\r\nTinned Custard\r\nCorned Beef\r\n\
     Tea\r\nHam\r\nHot Dog Sausages\r\nBreakfast Bars\r\nSquash\r\nTinned Fruit"
   self: https://www.givefood.org.uk/api/2/needs/fbd26d58/
-- foodbank:
-    name: Flintshire
-    slug: flintshire
-    urls:
-      html: https://www.givefood.org.uk/needs/at/flintshire/
-      self: https://www.givefood.org.uk/api/2/foodbank/flintshire/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDQohLA5StQ==
-  - *id001
-  id: 20ecfb9b
-  needs: "UHT Semi-skimmed Milk\r\nTinned/packet Custard\r\nShampoo\r\nInstant Pasta\r\
-    \nTinned Rice Pudding\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/20ecfb9b/
