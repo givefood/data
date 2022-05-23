@@ -1,4 +1,22 @@
 - foodbank:
+    name: Shrewsbury
+    slug: shrewsbury
+    urls:
+      html: https://www.givefood.org.uk/needs/at/shrewsbury/
+      self: https://www.givefood.org.uk/api/2/foodbank/shrewsbury/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFwYtBAKozg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0010c0e6
+  needs: "Tinned Main Meals\r\nTinned Vegetables\r\nTinned Tomatoes\r\nTinned Fruit\r\
+    \nRice Pudding\r\nJam\r\nMilk\r\nCoffee\r\nSugar"
+  self: https://www.givefood.org.uk/api/2/needs/0010c0e6/
+- foodbank:
     name: Cardiff
     slug: cardiff
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFhIcOAwEbQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c8fe11d4
   needs: "Tinned Tomatoes\r\nSponge Puddings\r\nGood Quality Carrier Bags\r\nTinned\
     \ Fruit\r\nInstant Coffee (Small Jars)\r\nInstant Noodles\r\nFruit Juice (Long\
@@ -1544,17 +1558,3 @@
     \ Sweetcorn\r\nTinned Fruit\r\nTinned Carrots\r\nCartons Of Fruit Juice\r\nTea\
     \ & Coffee\r\nSquash\r\nUHT Milk (Not Skimmed)"
   self: https://www.givefood.org.uk/api/2/needs/c5564262/
-- foodbank:
-    name: Witney & West Oxfordshire
-    slug: witney-west-oxfordshire
-    urls:
-      html: https://www.givefood.org.uk/needs/at/witney-west-oxfordshire/
-      self: https://www.givefood.org.uk/api/2/foodbank/witney-west-oxfordshire/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDQ0bBggFcw==
-  - *id001
-  id: 3d7786db
-  needs: "Tinned Vegetables\r\nTinned Fruit\r\nInstant Coffee\r\nInstant Noodles\r\
-    \nPulses\r\nToiletries"
-  self: https://www.givefood.org.uk/api/2/needs/3d7786db/
