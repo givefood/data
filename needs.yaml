@@ -1,4 +1,68 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFw0CEwJFkg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 45ac89e1
+  needs: "Jam/spread\r\nTinned Fruit\r\nTinned Vegetables\r\nRice Pudding And Custard\r\
+    \nTinned Tomatoes\r\nTinned Meat\r\nSponge Puddings\r\nLong Life Juice\r\nToilet\
+    \ Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/45ac89e1/
+- foodbank:
+    name: Dorking Area
+    slug: dorking-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/dorking-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/dorking-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFwwyCAOrQQ==
+  - *id001
+  id: 82f0ffc9
+  needs: "1 Litre Cartons Of UHT Long-life Milk\r\nTinned Pulses (Kidney Beans/chick\
+    \ Peas/lentils Etc)\r\nJars Of Pasta Sauce\r\nTinned Meat\r\n1 Litre Cartons Of\
+    \ Long-life Fruit Juice\r\nSponge Pudding Twin Packs\r\nTwin-packed Sponge Puddings\r\
+    \nSnack Bars\r\nUHT Milk (Full-fat)\r\nTinned Meat And Tinned Meat Meals"
+  self: https://www.givefood.org.uk/api/2/needs/82f0ffc9/
+- foodbank:
+    name: Fallowfield & Withington
+    slug: fallowfield-withington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/fallowfield-withington/
+      self: https://www.givefood.org.uk/api/2/foodbank/fallowfield-withington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFwwjFgjMAg==
+  - *id001
+  id: 764228ea
+  needs: "Juice & Tinned Fruit\r\nCereal\r\nTinned Meals & Meat\r\nTinned Fish\r\n\
+    Rice\r\nUHT Milk\r\nCoffee - Preferably Small Jars\r\nNappies Sizes 4-6"
+  self: https://www.givefood.org.uk/api/2/needs/764228ea/
+- foodbank:
+    name: Vale
+    slug: vale
+    urls:
+      html: https://www.givefood.org.uk/needs/at/vale/
+      self: https://www.givefood.org.uk/api/2/foodbank/vale/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFwwgNgXdMA==
+  - *id001
+  id: 16e0a6ee
+  needs: "Tinned Corned Beef\r\nSugar\r\nTinned Meat (E.g. Minced Beef, Stew)\r\n\
+    Tinned Cold Meat (E.g Ham)\r\nRice Pudding\r\nTinned Carrots\r\nDried Pasta Packets\
+    \ (E.g Mug Shots Etc)\r\nDried Noodles (E.g. Super Noodles)\r\nCrisps\r\nShampoo"
+  self: https://www.givefood.org.uk/api/2/needs/16e0a6ee/
+- foodbank:
     name: Woking
     slug: woking
     urls:
@@ -7,11 +71,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFwwCJQ80Cw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1eaf77ef
   needs: "Shampoo\r\nTinned Salmon\r\nTinned Custard\r\nCrisps\r\nLong Life Sponge\
     \ Puddings\r\nNappies Size 3\r\nTinned Ham\r\nHair Conditioner\r\nSmall Jars Of\
@@ -1513,64 +1573,3 @@
     \ Growing Children\r\nTreats For Children\r\nTinned Soup\r\nSponge Puddings\r\n\
     Tea & Coffee\r\nToiletries"
   self: https://www.givefood.org.uk/api/2/needs/6887bb0f/
-- foodbank:
-    name: Living Well Bromley
-    slug: living-well-bromley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/living-well-bromley/
-      self: https://www.givefood.org.uk/api/2/foodbank/living-well-bromley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDRYJHAIGYA==
-  - *id001
-  id: 5e60c571
-  needs: "UHT Milk\r\nTinned Pulses\r\nTinned Vegetables\r\nTinned Meat\r\nTinned\
-    \ Fruit\r\nTinned Soup\r\nRice\r\nPasta\r\nTinned Rice Pudding And Custard\r\n\
-    Tinned Tomatoes\r\nBiscuits\r\nCereal\r\nToilet Roll\r\nShower Gel And Shampoo"
-  self: https://www.givefood.org.uk/api/2/needs/5e60c571/
-- foodbank:
-    name: Brecon
-    slug: brecon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/brecon/
-      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDRUuHAJpRw==
-  - *id001
-  id: f0c532fd
-  needs: "Tinned Fruit\r\nUHT Milk\r\nTinned Fish Other Than Tuna And Mackerel, Such\
-    \ As Salmon\r\nTinned Spaghetti\r\nSmall Tins Of Tomatoes\r\nTinned Rice Pudding\r\
-    \nTeabags\r\nJam, Marmalade Etc.\r\nSponge Puddings\r\nGluten-free Items Other\
-    \ Than Pasta\r\nShaving Foam/gel\r\nHair Conditioner\r\nBubble Bath, Bath Soak\
-    \ Etc.\r\nWashing Detergent\r\nChildren's (Not Baby) Shampoo\r\nBaby Oil\r\nBaby\
-    \ Lotion\r\nBaby Soap\r\nDried Dog Food"
-  self: https://www.givefood.org.uk/api/2/needs/f0c532fd/
-- foodbank:
-    name: Grantham
-    slug: grantham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/grantham/
-      self: https://www.givefood.org.uk/api/2/foodbank/grantham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDRQZDQQucQ==
-  - *id001
-  id: 9976ff48
-  needs: "Tinned Potatoes\r\nJars Casserole Sauces\r\nLong Life Milk - Full Fat For\
-    \ Growing Children\r\nTreats For Children\r\nTinned Soup\r\nSponge Puddings\r\n\
-    Tea & Coffee"
-  self: https://www.givefood.org.uk/api/2/needs/9976ff48/
-- foodbank:
-    name: Jubilee Storehouse
-    slug: jubilee-storehouse
-    urls:
-      html: https://www.givefood.org.uk/needs/at/jubilee-storehouse/
-      self: https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDRMyMQsGew==
-  - *id001
-  id: 7901e0c8
-  needs: "Weetabix\r\nTinned Curry\r\nStewed Beef\r\nTinned Fruit\r\nShampoo/conditioner"
-  self: https://www.givefood.org.uk/api/2/needs/7901e0c8/
