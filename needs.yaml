@@ -1,4 +1,23 @@
 - foodbank:
+    name: Woking
+    slug: woking
+    urls:
+      html: https://www.givefood.org.uk/needs/at/woking/
+      self: https://www.givefood.org.uk/api/2/foodbank/woking/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFwobEAJkMQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 7b3c0e62
+  needs: "Shampoo\r\nTinned Salmon\r\nTinned Custard\r\nCrisps\r\nLong Life Sponge\
+    \ Puddings\r\nNappies Size 3\r\nTinned Ham\r\nHair Conditioner\r\nSmall Jars Of\
+    \ Coffee\r\nHot Chocolate\r\nBleach\r\nFull Milk (Long Life)"
+  self: https://www.givefood.org.uk/api/2/needs/7b3c0e62/
+- foodbank:
     name: Shrewsbury
     slug: shrewsbury
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFwYtBAKozg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0010c0e6
   needs: "Tinned Main Meals\r\nTinned Vegetables\r\nTinned Tomatoes\r\nTinned Fruit\r\
     \nRice Pudding\r\nJam\r\nMilk\r\nCoffee\r\nSugar"
@@ -1555,17 +1570,3 @@
     \ Vegetarian Meals; Ravioli, Mac Cheese, Veg Cury\r\nTinned Fruit\r\nRice Pudding\
     \ & Custard\r\nJam, Honey & Peanut Butter"
   self: https://www.givefood.org.uk/api/2/needs/d4f16ac6/
-- foodbank:
-    name: North Bristol & South Gloucestershire
-    slug: north-bristol-south-gloucestershire
-    urls:
-      html: https://www.givefood.org.uk/needs/at/north-bristol-south-gloucestershire/
-      self: https://www.givefood.org.uk/api/2/foodbank/north-bristol-south-gloucestershire/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDQ8aAwUQYg==
-  - *id001
-  id: 1255d850
-  needs: "Flour\r\nSponge Puddings\r\nInstant/pot Noodles\r\nInstant / Packet Rice\r\
-    \nJam/spreads\r\nTinned Vegetables\r\nWashing Up Liquid"
-  self: https://www.givefood.org.uk/api/2/needs/1255d850/
