@@ -34,6 +34,35 @@
     \ Pudding\r\nAntibacterial Spray/bleach\r\nShampoo/conditioner\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/c8fe11d4/
 - foodbank:
+    name: Hound Basics
+    slug: hound-basics
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hound-basics/
+      self: https://www.givefood.org.uk/api/2/foodbank/hound-basics/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFFg87GAKwbw==
+  - *id001
+  id: 54fbcc6b
+  needs: "Angel Delight\r\nBaked Beans\r\nChildren’s Shampoo\r\nCrisps\r\nFabric Conditioner\r\
+    \nMarmite\r\nOlive Oil (Small)\r\nQuick Noodles\r\nShampoo (Unisex)\r\nSteamed\
+    \ Puddings\r\nSwiss Roll (Molly's)\r\nTinned Fruit\r\nWashing Up Liquid\r\nBaby\
+    \ Wash\r\nCarrier Bags\r\nChildren’s Toothpaste/toothbrushes\r\nCuppa Soup\r\n\
+    Household Cleaning Items\r\nMayonnaise\r\nPot Noodles\r\nSalt & Pepper - Small\r\
+    \nSmall Size Porridge (500g) Or Porridge Pots\r\nSugar / Sweeteners\r\nTinned\
+    \ Dog Food\r\nTuna Pasta Bake Packet Sauce\r\nAntibacterial Wipes\r\nBiscuits\r\
+    \nCereal Bars\r\nChocolate Snack Bars\r\nDry Rice\r\nFray Bentos Pies\r\nHair\
+    \ Conditioner\r\nJam / Marmalade\r\nKids' Healthy Snacks, E.g., Raisins\r\nLasagne\
+    \ Sheets\r\nMash Potato Packets\r\nPacket Sauces\r\nSavoury Crackers\r\nSmall\
+    \ Jelly / Fruit Pots\r\nTinned Cold Meat\r\nToilet Rolls\r\nToothbrushes\r\nVegetarian\
+    \ Fray Bentos Pies\r\nWhite Lasagne Sauce\r\nBaby Food (7+ Months)\r\nCereal\r\
+    \nChocolate Bars / Sweets\r\nChocolate Spread\r\nEvaporated Milk\r\nGluten Free\
+    \ Items\r\nHot Chocolate / Horlicks\r\nJelly Powder Packets\r\nKitchen Rolls\r\
+    \nLaundry Powder\r\nMen's Antiperspirant / Deodorant\r\nPeanut Butter\r\nShower\
+    \ Gel / Shampoo (Unisex)\r\nTampax\r\nTissues\r\nTomato Sauce / Brown Sauce\r\n\
+    Toothpaste\r\nVegetarian Fray Bentos Pies\r\nWomen's Deodorant/toiletries"
+  self: https://www.givefood.org.uk/api/2/needs/54fbcc6b/
+- foodbank:
     name: B30
     slug: b30
     urls:
@@ -1540,21 +1569,3 @@
   needs: "Flour\r\nSponge Puddings\r\nInstant/pot Noodles\r\nInstant / Packet Rice\r\
     \nJam/spreads\r\nTinned Vegetables\r\nWashing Up Liquid"
   self: https://www.givefood.org.uk/api/2/needs/1255d850/
-- foodbank:
-    name: Callington
-    slug: callington
-    urls:
-      html: https://www.givefood.org.uk/needs/at/callington/
-      self: https://www.givefood.org.uk/api/2/foodbank/callington/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFDQ4ZHAb92Q==
-  - *id001
-  id: c5564262
-  needs: "Washing Powder/tabs/liquid For Clothes\r\nSponge Puddings\r\nMens Razors\r\
-    \nLadies Razors\r\nMens Deodorant (Not Body Spray)\r\nDog Food (Tinned, Mixer\
-    \ & Dry Complete)\r\nLunchbox Items (Chocolate, Crisps)\r\nKitchen Roll\r\nToilet\
-    \ Roll\r\nShampoo\r\nJam (Not Marmalade)\r\nToothpaste\r\nShower Gel\r\nTinned\
-    \ Sweetcorn\r\nTinned Fruit\r\nTinned Carrots\r\nCartons Of Fruit Juice\r\nTea\
-    \ & Coffee\r\nSquash\r\nUHT Milk (Not Skimmed)"
-  self: https://www.givefood.org.uk/api/2/needs/c5564262/
