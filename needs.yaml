@@ -1,4 +1,25 @@
 - foodbank:
+    name: Romsey
+    slug: romsey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/romsey/
+      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGAgzAgxKCQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 519de184
+  needs: "Rice\r\nTinned Carrots/peas/sweetcorn\r\nPasta Sauce\r\nSponge Puddings\
+    \ And Desserts\r\nCustard\r\nInstant Mash Potato\r\nChocolate Biscuit Bars\r\n\
+    Tinned Meat\r\nSquash\r\nMicrowave Rice\r\nTinned Spaghetti\r\nSavoury Snacks\
+    \ - Crackers/rice Cakes\r\nCoffee\r\nMulti-pack Crisps\r\nCup-a-soup\r\nSweets\
+    \ And Chocolate\r\nHot Chocolate\r\nLong Life Fruit Juice\r\nToothpaste"
+  self: https://www.givefood.org.uk/api/2/needs/519de184/
+- foodbank:
     name: Lichfield
     slug: lichfield
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFFxQ0EQNAdA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: cf184780
   needs: All Essentials
   self: https://www.givefood.org.uk/api/2/needs/cf184780/
@@ -1566,18 +1583,3 @@
   needs: "Noodles\r\nTinned Tomatoes\r\nMilk (Long Life UHT)\r\nToothpaste\r\nPlastic\
     \ Carrier Bags"
   self: https://www.givefood.org.uk/api/2/needs/c2497129/
-- foodbank:
-    name: South & East Bristol
-    slug: south-east-bristol
-    urls:
-      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
-      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEAodAg6ojw==
-  - *id001
-  id: 3fd7ff2f
-  needs: "Toilet Roll\r\nJam\r\nCereal\r\nTinned Fruit\r\nTinned Potatoes\r\nSavoury\
-    \ Snacks (Crisps, Pot Noodles Etc.)\r\nShampoo/conditioner\r\nRice Pudding\r\n\
-    Tinned Fish\r\nInstant Coffee (Small Jars)"
-  self: https://www.givefood.org.uk/api/2/needs/3fd7ff2f/
