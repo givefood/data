@@ -1,4 +1,36 @@
 - foodbank:
+    name: Leicester South
+    slug: leicester-south
+    urls:
+      html: https://www.givefood.org.uk/needs/at/leicester-south/
+      self: https://www.givefood.org.uk/api/2/foodbank/leicester-south/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGBEAIQKdiA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 25b61cf7
+  needs: "Pasta Sauce\r\nCurry Sauce\r\nSoup\r\nCereal (No Bigger Than 790g)\r\nTinned\
+    \ Sweetcorn\r\nTinned Tomatoes\r\nTinned Meat\r\nCustard"
+  self: https://www.givefood.org.uk/api/2/needs/25b61cf7/
+- foodbank:
+    name: North Belfast
+    slug: north-belfast
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-belfast/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-belfast/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGBAgFAG3rg==
+  - *id001
+  id: c9392922
+  needs: "Long Life Breakfast Orange Juice\r\nUHT Milk (1 Litre)\r\nRice Pudding &\
+    \ Custard\r\nTinned Fish\r\nDried 'Smash' Potatoes"
+  self: https://www.givefood.org.uk/api/2/needs/c9392922/
+- foodbank:
     name: Farnworth & Kearsley
     slug: farnworth-kearsley
     urls:
@@ -7,11 +39,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGA8LEwMaBg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: bbd9e5da
   needs: "Long-life Fruit Juice (1lt Cartons)\r\nInstant Mash\r\nTinned Fruit\r\n\
     Tinned Tomatoes\r\nTinned Sweetcorn\r\nCoffee\r\nTinned Rice Pudding\r\nToothbrushes/\
@@ -1545,32 +1573,3 @@
     \ Sponge Puddings\r\nInstant Mash Potato\r\nShower Gel\r\nTinned Custard\r\nShampoo\r\
     \nDeodorant (Men's And Ladies')"
   self: https://www.givefood.org.uk/api/2/needs/8ae5622b/
-- foodbank:
-    name: Yeovil
-    slug: yeovil
-    urls:
-      html: https://www.givefood.org.uk/needs/at/yeovil/
-      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEA8JFwkkRQ==
-  - *id001
-  id: 04922ba8
-  needs: "Tinned Curry\r\nTins Of Potatoes\r\nTins Of Macaroni Cheese\r\nTins Of Sweetcorn\r\
-    \nJars Of Cooking Sauce\r\nBaked Beans\r\nTins Of Tomatoes\r\nUHT Milk\r\nShower\
-    \ Gel\r\nShampoo"
-  self: https://www.givefood.org.uk/api/2/needs/04922ba8/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEA8CEQxArA==
-  - *id001
-  id: c333446e
-  needs: "Strong, Clean Shopping Bags\r\nEmpty Egg Boxes\r\nInstant Coffee\r\nShampoo/shower\
-    \ Gel\r\nUHT Milk\r\nTooth Paste\r\nCat Food"
-  self: https://www.givefood.org.uk/api/2/needs/c333446e/
