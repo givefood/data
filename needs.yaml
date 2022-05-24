@@ -1,4 +1,23 @@
 - foodbank:
+    name: Collier Row & Romford
+    slug: collier-row-romford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/collier-row-romford/
+      self: https://www.givefood.org.uk/api/2/foodbank/collier-row-romford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGBQuNArlVQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2d0cb0e9
+  needs: "Long Life Milk\r\nTinned Potatoes/instant Mash\r\nLong Life Fruit Juice\r\
+    \nTinned Fruit/custard\r\nTinned Fish\r\nToiletries: Toothpaste, Toothbrushes,\
+    \ Shower Gel, Deodorant\r\nJam\r\nDried Rice"
+  self: https://www.givefood.org.uk/api/2/needs/2d0cb0e9/
+- foodbank:
     name: Leicester South
     slug: leicester-south
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGBEAIQKdiA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 25b61cf7
   needs: "Pasta Sauce\r\nCurry Sauce\r\nSoup\r\nCereal (No Bigger Than 790g)\r\nTinned\
     \ Sweetcorn\r\nTinned Tomatoes\r\nTinned Meat\r\nCustard"
@@ -1558,18 +1573,3 @@
     \ / Puddings\r\nCarrots / Peas\r\nCoffee / Snacks\r\nJams And Spreads\r\nMen's\
     \ And Women's Deodorant\r\nShaving Foam"
   self: https://www.givefood.org.uk/api/2/needs/74c84fcd/
-- foodbank:
-    name: Devizes & District
-    slug: devizes-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/devizes-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/devizes-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEA8xOweerQ==
-  - *id001
-  id: 8ae5622b
-  needs: "Long Life Milk\r\nTinned Rice Pudding\r\nLong Life Fruit Juice\r\nLong Life\
-    \ Sponge Puddings\r\nInstant Mash Potato\r\nShower Gel\r\nTinned Custard\r\nShampoo\r\
-    \nDeodorant (Men's And Ladies')"
-  self: https://www.givefood.org.uk/api/2/needs/8ae5622b/
