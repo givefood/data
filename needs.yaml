@@ -1,4 +1,40 @@
 - foodbank:
+    name: Farnworth & Kearsley
+    slug: farnworth-kearsley
+    urls:
+      html: https://www.givefood.org.uk/needs/at/farnworth-kearsley/
+      self: https://www.givefood.org.uk/api/2/foodbank/farnworth-kearsley/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGA8LEwMaBg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: bbd9e5da
+  needs: "Long-life Fruit Juice (1lt Cartons)\r\nInstant Mash\r\nTinned Fruit\r\n\
+    Tinned Tomatoes\r\nTinned Sweetcorn\r\nCoffee\r\nTinned Rice Pudding\r\nToothbrushes/\
+    \ Toothpaste\r\nShower Gel\r\nDeodorant"
+  self: https://www.givefood.org.uk/api/2/needs/bbd9e5da/
+- foodbank:
+    name: Salisbury
+    slug: salisbury
+    urls:
+      html: https://www.givefood.org.uk/needs/at/salisbury/
+      self: https://www.givefood.org.uk/api/2/foodbank/salisbury/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGA8IAwF+Sw==
+  - *id001
+  id: 13bcda4f
+  needs: "Juice ( Long Life)\r\nMilk\r\nTea Bags (Small Boxes Of 40)\r\nRice Pudding/custard\r\
+    \nTinned Fish\r\nTinned Fruit\r\nTinned Tomatoes\r\nTinned Potatoes\r\nBaked Beans\r\
+    \nSoup\r\nTinned Vegetables\r\nPulses\r\nTinned Meat\r\nPasta Sauce\r\nBiscuits\r\
+    \nRice 500g\r\nInstant Mash\r\nDried Milk\r\nChocolate\r\nPacket Puddings\r\n\
+    Shampoo\r\nDeodorant\r\nShower Gel"
+  self: https://www.givefood.org.uk/api/2/needs/13bcda4f/
+- foodbank:
     name: Hart
     slug: hart
     urls:
@@ -7,11 +43,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGA4OGA10Tg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 99fc245d
   needs: "Tins: Rice Pudding, Custard, Fruit, Pulses\r\nPacks: Cereal, Juice, UHT\
     \ Milk, Rice, Sponge Puddings, Coffee\r\nToiletries: Soap, Deodorants, Shower\
@@ -1542,33 +1574,3 @@
   needs: "Strong, Clean Shopping Bags\r\nEmpty Egg Boxes\r\nInstant Coffee\r\nShampoo/shower\
     \ Gel\r\nUHT Milk\r\nTooth Paste\r\nCat Food"
   self: https://www.givefood.org.uk/api/2/needs/c333446e/
-- foodbank:
-    name: Godalming & Villages Community Store
-    slug: godalming-villages-community-store
-    urls:
-      html: https://www.givefood.org.uk/needs/at/godalming-villages-community-store/
-      self: https://www.givefood.org.uk/api/2/foodbank/godalming-villages-community-store/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEA4gNwPaHg==
-  - *id001
-  id: '48773048'
-  needs: "Decaf Tea\r\nDecaf Coffee\r\nGravy Granules\r\nMayonnaise\r\nCereal Bars\r\
-    \nReady Rice (Plain & Flavoured)\r\nPesto Pasta Bake Cooking Sauce\r\nBin Liners\r\
-    \nCrackers"
-  self: https://www.givefood.org.uk/api/2/needs/48773048/
-- foodbank:
-    name: Penryn & Falmouth
-    slug: penryn-falmouth
-    urls:
-      html: https://www.givefood.org.uk/needs/at/penryn-falmouth/
-      self: https://www.givefood.org.uk/api/2/foodbank/penryn-falmouth/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEA4MGgmYhA==
-  - *id001
-  id: f7319b1c
-  needs: "Brown Rice\r\nBrown Pasta\r\nSweets\r\nWet Cat Food\r\nToilet Rolls\r\n\
-    Baby Bubble Bath\r\nTinned Fruit\r\nMeat Balls\r\nTinned Custard\r\nSugar\r\n\
-    Fruit Squash\r\nTinned Carrots\r\nTinned Potatoes\r\nDry Pasta Meals\r\nPot Noodles"
-  self: https://www.givefood.org.uk/api/2/needs/f7319b1c/
