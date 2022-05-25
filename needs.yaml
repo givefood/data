@@ -1,4 +1,23 @@
 - foodbank:
+    name: Brent
+    slug: brent
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brent/
+      self: https://www.givefood.org.uk/api/2/foodbank/brent/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGQgxDQbIgw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2d008870
+  needs: "Tinned Soup (Vegetarian)\r\nTinned Meat\r\nCereal\r\nTinned Veg\r\nTinned\
+    \ Fruit\r\nTinned Fish\r\nLong Life Juice & Squash\r\nTea & Coffee (Small Sizes)\r\
+    \nJams & Spreads\r\nRice Pudding/custard\r\nWashing Up Liquid & Laundry Detergent"
+  self: https://www.givefood.org.uk/api/2/needs/2d008870/
+- foodbank:
     name: Kingfisher
     slug: kingfisher
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGBcRJQEE5w==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 9d947840
   needs: "Milk Long Life\r\nTea/coffee/hot Chocolate\r\nJuice/squash\r\nFruit Tinned\r\
     \nCustard/rice Pudding\r\nSavory Snacks Crisps Etc\r\nTinned Meat & Fish\r\nCurry/pasta\
@@ -1556,21 +1571,3 @@
   needs: "Sugar (Small Bags)\r\nUHT Fruit Juice\r\nPot Noodles\r\nMacaroni Cheese\r\
     \nToiletries"
   self: https://www.givefood.org.uk/api/2/needs/7f0417af/
-- foodbank:
-    name: Ribble Valley
-    slug: ribble-valley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ribble-valley/
-      self: https://www.givefood.org.uk/api/2/foodbank/ribble-valley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEBMJIg3SHA==
-  - *id001
-  id: e40baf17
-  needs: "Sponge Puddings\r\nTinned Rice Pudding\r\nSnacks\r\nNappies - Size 6 Only\r\
-    \nMashed Potato\r\nLong Life Fruit Juice\r\nLonglife Milk\r\nSugar\r\nFruit Juice\
-    \ (Carton)\r\nSoup\r\nPasta Sauces\r\nTinned Tomatoes\r\nCereals\r\nRice Pudding\
-    \ (Tinned)\r\nTea Bags / Instant Coffee\r\nInstant Mashed Potato\r\nRice\r\nPasta\r\
-    \nTinned Meat\r\nTinned Fish\r\nTinned Fruit\r\nJam\r\nBiscuits Or Snack Bar\r\
-    \nNappies\r\nShower Gel\r\nShampoo\r\nDeodorant\r\nWashing Up Liquid"
-  self: https://www.givefood.org.uk/api/2/needs/e40baf17/
