@@ -1,4 +1,23 @@
 - foodbank:
+    name: Wythenshawe
+    slug: wythenshawe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/wythenshawe/
+      self: https://www.givefood.org.uk/api/2/foodbank/wythenshawe/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGREJFgA12g==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 09c49858
+  needs: "Tinned Fruit\r\nJuice/cordial\r\nInstant Mash Potato (Smash)\r\nLong Life\
+    \ Milk\r\nSugar\r\nCustard/desserts\r\nLadies Deodorant\r\nTooth Paste\r\nPet\
+    \ Food"
+  self: https://www.givefood.org.uk/api/2/needs/09c49858/
+- foodbank:
     name: Walton & Hersham
     slug: walton-hersham
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGRAkOANe3w==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 7a7d2ea3
   needs: "Long Life Carrier Bags In Good Condition (To Pack Parcels In)\r\nTin Meat\
     \ (Not Corned Beef)\r\nLong Life Milk\r\nLong Life Tortilla Wraps\r\nInstant Mash\
@@ -1574,17 +1589,3 @@
     Tuna\r\nPasta Sauce\r\nRice\r\nTinned Vegetables\r\nTinned Tomatoes\r\nToilet\
     \ Rolls"
   self: https://www.givefood.org.uk/api/2/needs/8bea6c59/
-- foodbank:
-    name: Newport
-    slug: newport
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newport/
-      self: https://www.givefood.org.uk/api/2/foodbank/newport/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEREPDA0QSA==
-  - *id001
-  id: c05927b4
-  needs: "Pasta Sauce\r\nTinned Tomatoes\r\nHot Snacks - Like Packet Noodles\r\nTinned\
-    \ And Packet Soup\r\nLong-life Juice Or Squash"
-  self: https://www.givefood.org.uk/api/2/needs/c05927b4/
