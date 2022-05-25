@@ -1,4 +1,24 @@
 - foodbank:
+    name: Kingfisher
+    slug: kingfisher
+    urls:
+      html: https://www.givefood.org.uk/needs/at/kingfisher/
+      self: https://www.givefood.org.uk/api/2/foodbank/kingfisher/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGBcRJQEE5w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9d947840
+  needs: "Milk Long Life\r\nTea/coffee/hot Chocolate\r\nJuice/squash\r\nFruit Tinned\r\
+    \nCustard/rice Pudding\r\nSavory Snacks Crisps Etc\r\nTinned Meat & Fish\r\nCurry/pasta\
+    \ Sauce\r\nToilet Paper\r\nToiletries - Shampoo, Shower Gel, Toothpaste, Deodorant\
+    \ And Hand Soap\r\nCarrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/9d947840/
+- foodbank:
     name: Collier Row & Romford
     slug: collier-row-romford
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGBQuNArlVQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2d0cb0e9
   needs: "Long Life Milk\r\nTinned Potatoes/instant Mash\r\nLong Life Fruit Juice\r\
     \nTinned Fruit/custard\r\nTinned Fish\r\nToiletries: Toothpaste, Toothbrushes,\
@@ -1558,18 +1574,3 @@
     \nTinned Meat\r\nTinned Fish\r\nTinned Fruit\r\nJam\r\nBiscuits Or Snack Bar\r\
     \nNappies\r\nShower Gel\r\nShampoo\r\nDeodorant\r\nWashing Up Liquid"
   self: https://www.givefood.org.uk/api/2/needs/e40baf17/
-- foodbank:
-    name: Droitwich Spa
-    slug: droitwich-spa
-    urls:
-      html: https://www.givefood.org.uk/needs/at/droitwich-spa/
-      self: https://www.givefood.org.uk/api/2/foodbank/droitwich-spa/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEBIUDg5d+w==
-  - *id001
-  id: 74c84fcd
-  needs: "Long Life Fruit Juice And Milk\r\nMeat To Heat\r\nTinned Fish\r\nCustard\
-    \ / Puddings\r\nCarrots / Peas\r\nCoffee / Snacks\r\nJams And Spreads\r\nMen's\
-    \ And Women's Deodorant\r\nShaving Foam"
-  self: https://www.givefood.org.uk/api/2/needs/74c84fcd/
