@@ -1,4 +1,22 @@
 - foodbank:
+    name: Caterham
+    slug: caterham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/caterham/
+      self: https://www.givefood.org.uk/api/2/foodbank/caterham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGQwRLgGQEQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9ca9d8a4
+  needs: "Long Life Milk\r\nFruit Juice\r\nTinned Tomatoes\r\nTinned Soup\r\nSmall\
+    \ Jars Of Coffee"
+  self: https://www.givefood.org.uk/api/2/needs/9ca9d8a4/
+- foodbank:
     name: Skipton
     slug: skipton
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGQoqMgwhRA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 177c59b8
   needs: "Tinned Potatoes\r\nTinned Fruit\r\nInstant Coffee\r\nBiscuits\r\nCleaning\
     \ Products/washing Up Liquid\r\nTooth Paste"
@@ -1564,20 +1578,3 @@
   needs: "Tinned Fruit\r\nTinned Spaghetti\r\nRice Pudding & Custard\r\nLong Life\
     \ Fruit Juice\r\nUHT Milk\r\nJam"
   self: https://www.givefood.org.uk/api/2/needs/6eeaa55b/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEQwULQohlg==
-  - *id001
-  id: a691ab91
-  needs: "Tinned Meat Meals\r\nTinned Meat\r\nPull-ups - Size 5, 6, 7.\r\nSponge Puddings\
-    \ (Not Chilled)\r\nBaked Beans/tinned Spaghetti\r\nPasta Sauce\r\nSpray Cleaner/cleaning\
-    \ Products\r\nTinned Custard Or Rice Pudding\r\nInstant Mash\r\nLong Life Juice\r\
-    \nBaby Food - Jars/formula\r\nTinned Tomatoes\r\nTinned Fruit\r\nTinned Fish\r\
-    \nUHT Long Life Milk\r\nTinned Vegetables\r\nTinned Soup"
-  self: https://www.givefood.org.uk/api/2/needs/a691ab91/
