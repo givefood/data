@@ -1,4 +1,40 @@
 - foodbank:
+    name: Liskeard & Looe
+    slug: liskeard-looe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/liskeard-looe/
+      self: https://www.givefood.org.uk/api/2/foodbank/liskeard-looe/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGhApMQi0AA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: afcd839a
+  needs: "Long Life Fruit Juice\r\nUHT Milk\r\nTinned Carrots\r\nTinned Fruit\r\n\
+    Washing Powder, Small Packets\r\nMicrowaveable Pouches Of Rice\r\nJars Of Pasta\
+    \ Sauce\r\nTins Of Spaghetti Hoops"
+  self: https://www.givefood.org.uk/api/2/needs/afcd839a/
+- foodbank:
+    name: Rutherglen & Cambuslang
+    slug: rutherglen-cambuslang
+    urls:
+      html: https://www.givefood.org.uk/needs/at/rutherglen-cambuslang/
+      self: https://www.givefood.org.uk/api/2/foodbank/rutherglen-cambuslang/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGhAoDAqyzw==
+  - *id001
+  id: 3078cf9c
+  needs: "UHT Milk (Full Fat Or Semi Skimmed)\r\nJam\r\nTinned Fruit\r\nRice Pudding\r\
+    \nCustard\r\nTinned Spaghetti/macaroni Cheese/ravioli Etc\r\nBeans & Sausage\r\
+    \nTinned Meat\r\nTinned Tomatoes\r\nCoffee\r\nBaked Beans\r\nTinned Soup\r\nPasta\
+    \ Sauce\r\nTinned Vegetables\r\nTinned Fish\r\nRice\r\nCereals\r\nSugar\r\nDiluting\
+    \ Juice"
+  self: https://www.givefood.org.uk/api/2/needs/3078cf9c/
+- foodbank:
     name: South & East Bristol
     slug: south-east-bristol
     urls:
@@ -7,11 +43,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGgwVNwUjKw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5271e20e
   needs: "Cereal\r\nToilet Roll\r\nJam\r\nTinned Fruit\r\nRice Pudding\r\nInstant\
     \ Coffee (Small Jars)\r\nFruit Juice\r\nShampoo/conditioner\r\nCustard\r\nTinned\
@@ -1558,32 +1590,3 @@
     \ Juice\r\nBaby Food - Jars/formula\r\nTinned Tomatoes\r\nTinned Fruit\r\nTinned\
     \ Fish\r\nUHT Long Life Milk\r\nTinned Vegetables\r\nTinned Soup"
   self: https://www.givefood.org.uk/api/2/needs/d055a2b4/
-- foodbank:
-    name: Richmond
-    slug: richmond
-    urls:
-      html: https://www.givefood.org.uk/needs/at/richmond/
-      self: https://www.givefood.org.uk/api/2/foodbank/richmond/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEgwJAwxP5w==
-  - *id001
-  id: 6a53952a
-  needs: "Female Deodorant\r\nRazors\r\nWashing Powder / Tablets\r\nNappies (Size\
-    \ 5, 6 And 7)\r\nUnwanted Carrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/6a53952a/
-- foodbank:
-    name: Chichester District
-    slug: chichester-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chichester-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEgwFNAkAhA==
-  - *id001
-  id: 0a95dc61
-  needs: "Toilet Rolls\r\nJam/spread\r\nLong Life Milk\r\nTinned Vegetables\r\nTinned\
-    \ Fruit\r\nRice Pudding And Custard\r\nTinned Tomatoes\r\nTinned Meat\r\nLong\
-    \ Life Juice"
-  self: https://www.givefood.org.uk/api/2/needs/0a95dc61/
