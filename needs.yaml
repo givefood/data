@@ -1,4 +1,23 @@
 - foodbank:
+    name: South & East Bristol
+    slug: south-east-bristol
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGgwVNwUjKw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5271e20e
+  needs: "Cereal\r\nToilet Roll\r\nJam\r\nTinned Fruit\r\nRice Pudding\r\nInstant\
+    \ Coffee (Small Jars)\r\nFruit Juice\r\nShampoo/conditioner\r\nCustard\r\nTinned\
+    \ Fish"
+  self: https://www.givefood.org.uk/api/2/needs/5271e20e/
+- foodbank:
     name: Uttlesford
     slug: uttlesford
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGgwBIwlQMw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 353bfcea
   needs: "Baked Beans\r\nUHT Milk\r\nTinned Fruit/tinned Veg\r\nNon-pasta Cooking\
     \ Sauces\r\nPuddings/custard\r\nNoodles/rice\r\nFruit Juice\r\nTinned Fish\r\n\
@@ -1572,19 +1587,3 @@
     \ Fruit\r\nRice Pudding And Custard\r\nTinned Tomatoes\r\nTinned Meat\r\nLong\
     \ Life Juice"
   self: https://www.givefood.org.uk/api/2/needs/0a95dc61/
-- foodbank:
-    name: Chelmsford
-    slug: chelmsford
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chelmsford/
-      self: https://www.givefood.org.uk/api/2/foodbank/chelmsford/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEgoqOg6Ddw==
-  - *id001
-  id: 4c2a1a94
-  needs: "Tinned Fish\r\nTinned Custard\r\nTinned Potatoes\r\nTinned Tomatoes\r\n\
-    Tinned Spaghetti\r\nTinned Rice Pudding\r\nTinned Meat And Meat Pies (Excluding\
-    \ Corned Beef And Luncheon Meat)\r\nPasta Sauce\r\nSponge Puddings\r\nJam/spreads\r\
-    \nCoffee - Small/medium Jars\r\nInstant Custard Powder Sachets\r\nWashing Capsules"
-  self: https://www.givefood.org.uk/api/2/needs/4c2a1a94/
