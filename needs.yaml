@@ -1,4 +1,23 @@
 - foodbank:
+    name: Pershore
+    slug: pershore
+    urls:
+      html: https://www.givefood.org.uk/needs/at/pershore/
+      self: https://www.givefood.org.uk/api/2/foodbank/pershore/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGgsYJAoWdw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: d5ad1a99
+  needs: "Tinned Carrots\r\nTinned Vegetables\r\nTinned Fruit\r\nFruit Juice\r\nUHT\
+    \ Milk\r\nMeat Soup\r\nSpaghetti In Sauce\r\nCustard\r\nWashing Powder + Washing\
+    \ Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/d5ad1a99/
+- foodbank:
     name: Market Drayton
     slug: market-drayton
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFGgoNLAPqbw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: b809e830
   needs: "Toilet Rolls - No Stock\r\nSoup - No Stock\r\nUHT Milk (Semi And Full) -\
     \ Very Low Stock\r\nLong Life Cartons Of Fruit Juice - Very Low Stock\r\nRice\
@@ -1575,18 +1590,3 @@
     \nTinned Ham\r\nTinned Carrots\r\nTinned Tomatoes\r\nTinned Fruit\r\nRice Pudding,\
     \ Angel Delight & Custard\r\nJam, Honey & Peanut Butter"
   self: https://www.givefood.org.uk/api/2/needs/1c9d010c/
-- foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFEgk1OQHUAw==
-  - *id001
-  id: a45b7b0b
-  needs: "Instant Mash Potato (Packets)\r\nQuality Carrier Bags (Bags For Life)\r\n\
-    Tinned Custard\r\nWashing Tablets / Powder\r\nTinned Carrots\r\nTinned Peas\r\n\
-    Tinned Potatoes"
-  self: https://www.givefood.org.uk/api/2/needs/a45b7b0b/
