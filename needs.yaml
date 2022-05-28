@@ -204,39 +204,6 @@
     \ (But Not Cornflakes)\r\nSquash"
   self: https://www.givefood.org.uk/api/2/needs/be2fe169/
 - foodbank:
-    name: Dunfermline
-    slug: dunfermline
-    urls:
-      html: https://www.givefood.org.uk/needs/at/dunfermline/
-      self: https://www.givefood.org.uk/api/2/foodbank/dunfermline/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGwsREgjHMg==
-  - *id001
-  id: 8e7d5d82
-  needs: "Sponge Pudding\r\nInstant Mash\r\nPowdered Milk\r\nNoodles\r\nMale Deodorant\r\
-    \nShaving Foam\r\nShower Gel\r\nSugar\r\nUHT Milk\r\nSavoury Rice (Microwavable)\r\
-    \nDiluting Juice\r\nTinned Custard\r\nWashing Up Liquid\r\nTinned Fruit\r\nFruit\
-    \ Juice\r\nPasta N Sauce\r\nTomato Ketchup\r\nBrown Sauce\r\nTinned Potatoes\r\
-    \nJam/marmalade\r\nShampoo\r\nCheesy Pasta\r\nMug Shots\r\nTinned Rice Pudding\r\
-    \nCoffee\r\nCurry Sauce (Jar)\r\nNoodles\r\nCuppa Soup\r\nToilet Roll\r\nFemale\
-    \ Deodorant"
-  self: https://www.givefood.org.uk/api/2/needs/8e7d5d82/
-- foodbank:
-    name: Tameside East
-    slug: tameside-east
-    urls:
-      html: https://www.givefood.org.uk/needs/at/tameside-east/
-      self: https://www.givefood.org.uk/api/2/foodbank/tameside-east/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGwsOGQOfJQ==
-  - *id001
-  id: 6e416037
-  needs: "Long Life Fruit Juice/ Squash\r\nCoffee\r\nTinned Custard And Creamed Rice\r\
-    \nTinned Potatoes Or Instant Mash\r\nBiscuits"
-  self: https://www.givefood.org.uk/api/2/needs/6e416037/
-- foodbank:
     name: Liskeard & Looe
     slug: liskeard-looe
     urls:
@@ -1601,3 +1568,34 @@
   id: 2c5af824
   needs: "Tinned Fruit\r\nTinned Tomatoes\r\nRice\r\nRice Pudding\r\nBiscuits"
   self: https://www.givefood.org.uk/api/2/needs/2c5af824/
+- foodbank:
+    name: Sevenoaks
+    slug: sevenoaks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/sevenoaks/
+      self: https://www.givefood.org.uk/api/2/foodbank/sevenoaks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEws7FAsj0Q==
+  - *id001
+  id: 7adba767
+  needs: "Rice\r\nBaked Beans\r\nChicken In White Sauce\r\nBeef Chilli Con Carne\r\
+    \nTinned Rice Pudding\r\nTinned Custard\r\nBreakfast Cereals (But Not Cornflakes)\r\
+    \nSquash"
+  self: https://www.givefood.org.uk/api/2/needs/7adba767/
+- foodbank:
+    name: Bedford
+    slug: bedford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bedford/
+      self: https://www.givefood.org.uk/api/2/foodbank/bedford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFEwszBg49uQ==
+  - *id001
+  id: 1aadd731
+  needs: "Fruit Juice (Longlife)\r\nUHT Milk\r\nBreakfast Cereal (Not Porridge)\r\n\
+    Tinned Vegetables\r\nCup-a-soup\r\nTinned Spaghetti\r\nCoffee (100g)\r\nTeabags\
+    \ (40/80)\r\nTinned Meat In Sauce (E.g. Curry, Chilli)\r\nJars Of Curry Sauce\r\
+    \nTinned Fruit\r\nTinned Tomatoes\r\nWashing Up Liquid\r\nAnti-bac Spray"
+  self: https://www.givefood.org.uk/api/2/needs/1aadd731/
