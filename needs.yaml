@@ -1,4 +1,36 @@
 - foodbank:
+    name: Ammanford
+    slug: ammanford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/ammanford/
+      self: https://www.givefood.org.uk/api/2/foodbank/ammanford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHgoMEA35og==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: ef3540a6
+  needs: "UHT Milk\r\nFruit Juice\r\nTinned Carrots\r\nTinned Fish\r\nTinned Tomatoes\r\
+    \nPasta Sauces\r\nPorridge\r\nCustard\r\nRice Pudding\r\nInstant Mashed Potatoes"
+  self: https://www.givefood.org.uk/api/2/needs/ef3540a6/
+- foodbank:
+    name: Bromley Borough
+    slug: bromley-borough
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bromley-borough/
+      self: https://www.givefood.org.uk/api/2/foodbank/bromley-borough/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHgkmHwuYDg==
+  - *id001
+  id: 8ce186e2
+  needs: "Tinned Potatoes\r\nChopped Tomatoes\r\nTinned Cold Meat\r\nWashing Up Liquid\r\
+    \nTinned Veg, Carrots, Sweetcorn Etc"
+  self: https://www.givefood.org.uk/api/2/needs/8ce186e2/
+- foodbank:
     name: Towcester
     slug: towcester
     urls:
@@ -7,11 +39,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFHREtLQJBVg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: abe561e9
   needs: "Tins Of Tomatoes (Chopped Or Whole)\r\nTins Of Meat (Stews, Mince Beef,\
     \ Etc.)\r\nTins Of Fish - All Types\r\nTins Of Fruit\r\nTins Of Carrots\r\nRice\
@@ -1579,31 +1607,3 @@
   needs: "Tinned Fruit\r\nInstant Meals\r\nTinned Spaghetti\r\nCoffee\r\nRice Pudding\
     \ & Custard\r\nLong Life Fruit Juice\r\nUHT Milk\r\nJam"
   self: https://www.givefood.org.uk/api/2/needs/bccdf28c/
-- foodbank:
-    name: Truro
-    slug: truro
-    urls:
-      html: https://www.givefood.org.uk/needs/at/truro/
-      self: https://www.givefood.org.uk/api/2/foodbank/truro/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFExMtNQdMOA==
-  - *id001
-  id: 3b87a27f
-  needs: "Tinned Fruit\r\nTinned Soup\r\nTinned Meat\r\nTinned Tomatoes\r\nBaked Beans\r\
-    \nBreakfast Cereal\r\nWashing Up Liquid\r\nLaundry Powder/liquid"
-  self: https://www.givefood.org.uk/api/2/needs/3b87a27f/
-- foodbank:
-    name: Haverhill
-    slug: haverhill
-    urls:
-      html: https://www.givefood.org.uk/needs/at/haverhill/
-      self: https://www.givefood.org.uk/api/2/foodbank/haverhill/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFExEnJggwyw==
-  - *id001
-  id: 0c2bf179
-  needs: "Noodles\r\nSquash\r\nSupermarket Carrier Bags\r\nSmall Jars Of Coffee\r\n\
-    Jam\r\nPotatoes (Tinned Or Mash)\r\nPudding (Rice Or Sponge)\t\r\nTinned Fruit"
-  self: https://www.givefood.org.uk/api/2/needs/0c2bf179/
