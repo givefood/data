@@ -1,4 +1,25 @@
 - foodbank:
+    name: Towcester
+    slug: towcester
+    urls:
+      html: https://www.givefood.org.uk/needs/at/towcester/
+      self: https://www.givefood.org.uk/api/2/foodbank/towcester/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHgohIg85/A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: aa4861b6
+  needs: "Tins Of Tomatoes (Chopped Or Whole)\r\nTins Of Meat (Stews, Mince Beef,\
+    \ Etc.)\r\nTins Of Fish\r\nTins Of Fruit\r\nTins Of Carrots\r\nTins Of Rice Pudding\
+    \ And Custard\r\nPasta Sauces\r\nJam\r\nSponge Puddings\r\nInstant Coffee\r\n\
+    Packets Of Soup (4 Sachets)\r\nBiscuits And Crackers (E.g. Tuc Or Cream Crackers)\r\
+    \nShampoo\r\nShower Gel\r\nRazors\r\nWashing Up Liquid\r\nLaundry Powder/gel"
+  self: https://www.givefood.org.uk/api/2/needs/aa4861b6/
+- foodbank:
     name: Ammanford
     slug: ammanford
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFHgoMEA35og==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ef3540a6
   needs: "UHT Milk\r\nFruit Juice\r\nTinned Carrots\r\nTinned Fish\r\nTinned Tomatoes\r\
     \nPasta Sauces\r\nPorridge\r\nCustard\r\nRice Pudding\r\nInstant Mashed Potatoes"
@@ -30,23 +47,6 @@
   needs: "Tinned Potatoes\r\nChopped Tomatoes\r\nTinned Cold Meat\r\nWashing Up Liquid\r\
     \nTinned Veg, Carrots, Sweetcorn Etc"
   self: https://www.givefood.org.uk/api/2/needs/8ce186e2/
-- foodbank:
-    name: Towcester
-    slug: towcester
-    urls:
-      html: https://www.givefood.org.uk/needs/at/towcester/
-      self: https://www.givefood.org.uk/api/2/foodbank/towcester/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHREtLQJBVg==
-  - *id001
-  id: abe561e9
-  needs: "Tins Of Tomatoes (Chopped Or Whole)\r\nTins Of Meat (Stews, Mince Beef,\
-    \ Etc.)\r\nTins Of Fish - All Types\r\nTins Of Fruit\r\nTins Of Carrots\r\nRice\
-    \ Puddings And Custard\r\nPasta Sauces\r\nJam\r\nSponge Puddings\r\nInstant Coffee\r\
-    \nPackets Of Soup (4 Sachets)\r\nBiscuits And Crackers (E.g. Tuc Or Cream Crackers)\r\
-    \nShampoo\r\nShower Gel\r\nRazors\r\nWashing Up Liquid\r\nLaundry Products"
-  self: https://www.givefood.org.uk/api/2/needs/abe561e9/
 - foodbank:
     name: B30
     slug: b30
