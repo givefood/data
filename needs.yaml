@@ -1,4 +1,23 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHhUKHgkTLQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 169ed973
+  needs: "Tinned Fruit\r\nTinned Vegetables\r\nJam/spread\r\nRice Pudding And Custard\r\
+    \nTinned Tomatoes\r\nTinned Meat\r\nSponge Puddings\r\nLong Life Milk\r\nShower\
+    \ Gel"
+  self: https://www.givefood.org.uk/api/2/needs/169ed973/
+- foodbank:
     name: Ribble Valley
     slug: ribble-valley
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFHhMINwlqcg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 3102afea
   needs: "Ketchup Of Mayo\r\nMashed Potato\r\nTinned Rice Pudding\r\nLong Life Fruit\
     \ Juice\r\nSugar\r\nLong Life Milk\r\nSnacks\r\nSponge Puddings\r\nCustard\r\n\
@@ -1605,21 +1620,3 @@
   needs: "UHT Long Life Milk\r\nRice\r\nCooking Sauce\r\nSquash\r\nFruit Juice\r\n\
     Tinned Vegetables\r\nTinned Fruit\r\nInstant Mash Potato"
   self: https://www.givefood.org.uk/api/2/needs/a259d177/
-- foodbank:
-    name: Walton & Hersham
-    slug: walton-hersham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/walton-hersham/
-      self: https://www.givefood.org.uk/api/2/foodbank/walton-hersham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFA8nNQm+Pg==
-  - *id001
-  id: 5c218abb
-  needs: "Long Life Carrier Bags In Good Condition (To Pack Parcels In)\r\nTin Meat\
-    \ (Not Corned Beef)\r\nLong Life Milk\r\nSweetcorn\r\nInstant Mash Potatoes\r\n\
-    Pasta Sauce\r\nRice Pudding\r\nCustard\r\nFruit Juice\r\nLong Life Sponge Puddings\r\
-    \nJam\r\nChocolate Bars / Sweets\r\nHousehold Bleach & Cleaning Sprays\r\nWashing\
-    \ Tablets / Pods\r\nToilet Roll\r\nShampoo\r\nShower Gel\r\nShaving Razors & Male\
-    \ Toiletries\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/5c218abb/
