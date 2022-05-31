@@ -1,4 +1,70 @@
 - foodbank:
+    name: Community Essentials
+    slug: community-essentials
+    urls:
+      html: https://www.givefood.org.uk/needs/at/community-essentials/
+      self: https://www.givefood.org.uk/api/2/foodbank/community-essentials/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHwgABQp9SQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: f3808efb
+  needs: "Baked Beans\r\nTinned Vegetables\r\nUHT Milk\r\nCereal\r\nPasta\r\nPasta\
+    \ Sauce\r\nTinned Meat"
+  self: https://www.givefood.org.uk/api/2/needs/f3808efb/
+- foodbank:
+    name: Yeovil
+    slug: yeovil
+    urls:
+      html: https://www.givefood.org.uk/needs/at/yeovil/
+      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHwc5JAoEig==
+  - *id001
+  id: 93ee4659
+  needs: "Tins Of Ravioli\r\nTins Of Mince And Onion\r\nTins Of Curry\r\nTins Of Beans\
+    \ And Sausage\r\nCuppa Soup\r\nJars Of Pasta Sauce\r\nTins Of Baked Beans\r\n\
+    Toothpaste\r\nDisposable Razors\r\nShaving Foam\r\nCarrier Bags"
+  self: https://www.givefood.org.uk/api/2/needs/93ee4659/
+- foodbank:
+    name: Brentwood
+    slug: brentwood
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brentwood/
+      self: https://www.givefood.org.uk/api/2/foodbank/brentwood/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHwcyIAkInQ==
+  - *id001
+  id: 9f86a397
+  needs: "Tinned Meat Pies\r\nTinned Salmon\r\nTinned All Day Breakfast\r\nTinned\
+    \ Ham\r\nTinned Chicken Stew Or Beef Stew\r\nTinned Meatballs\r\nTinned Spaghetti\r\
+    \nTinned Custard\r\nTinned Rice Pudding\r\nTinned Potatoes\r\nInstant Mash\r\n\
+    Jams / Spreads\r\nJars Of Pasta Sauce\r\nNappies - Size 5 & 6\r\nRazors\r\nShaving\
+    \ Gel / Foam\r\nWashing Powder/liquid\r\nWashing Up Liquid\r\nAll Cleaning Materials\r\
+    \nToilet Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/9f86a397/
+- foodbank:
+    name: PANTRY
+    slug: pantry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/pantry/
+      self: https://www.givefood.org.uk/api/2/foodbank/pantry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHwcwJwlSdg==
+  - *id001
+  id: 29b8e8de
+  needs: "Toilet Rolls\r\nVegetarian Food Stuffs\r\nPorridge\r\nSmall Instant Coffee\r\
+    \nTinned Veg/potatoes\r\nNoodles\r\nTinned Corned Beef\r\nGluten Free Foodstuffs\r\
+    \nHoney/marmalade\r\nCurry Sauce"
+  self: https://www.givefood.org.uk/api/2/needs/29b8e8de/
+- foodbank:
     name: Foyle
     slug: foyle
     urls:
@@ -7,11 +73,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFHhcxLAludA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d94f1ea1
   needs: "Coffee\r\nToiletries\r\nTinned Custard/rice\r\nNappies Size 5 +\r\nBreakfast\
     \ Cereals"
@@ -1552,68 +1614,3 @@
   needs: "Tinned Vegetables - Peas / Carrots / Sweetcorn\r\nTinned Fruit\r\nBiscuits\r\
     \nTinned Tomatoes\r\nTinned Rice Pudding\r\nTinned Meat Pies / Meatballs / Hotdogs"
   self: https://www.givefood.org.uk/api/2/needs/2a83e1c6/
-- foodbank:
-    name: East Dunbartonshire
-    slug: east-dunbartonshire
-    urls:
-      html: https://www.givefood.org.uk/needs/at/east-dunbartonshire/
-      self: https://www.givefood.org.uk/api/2/foodbank/east-dunbartonshire/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFRYCKAZS9g==
-  - *id001
-  id: f6e8b957
-  needs: "Fruit Juice 1 Litre Cartons Long Life\r\nUHT Milk\r\nTinned Carrots\r\n\
-    Chocolate\r\nHealthy Snacks (E.g Dried Fruit)"
-  self: https://www.givefood.org.uk/api/2/needs/f6e8b957/
-- foodbank:
-    name: Jubilee Storehouse
-    slug: jubilee-storehouse
-    urls:
-      html: https://www.givefood.org.uk/needs/at/jubilee-storehouse/
-      self: https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFRA7HwPE7g==
-  - *id001
-  id: 73dc66e1
-  needs: "Weetabix\r\nPorridge Sachets\r\nTins And Sachets Of Soup\r\nTinned Sandwich\
-    \ Meat\r\nToothbrushes\r\nToothpaste"
-  self: https://www.givefood.org.uk/api/2/needs/73dc66e1/
-- foodbank:
-    name: Peterborough
-    slug: peterborough
-    urls:
-      html: https://www.givefood.org.uk/needs/at/peterborough/
-      self: https://www.givefood.org.uk/api/2/foodbank/peterborough/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFRAkBQFHZA==
-  - *id001
-  id: b357827c
-  needs: "Rice Pudding\r\nPasta Sauce Ie Pasta Bake And Bolognese Sauces\r\nUHT Milk\r\
-    \nLong Life Fruit Juice\r\nToilet Rolls\r\nTinned Fruit\r\nTinned Meat (Meatballs\
-    \ ,Sausages In Beans , Chilli Con Carne )\r\nTinned Fish\r\nToiletries, Deodorant\
-    \ And Shower Gel\r\nPuddings -Desserts\r\nInstant Mash"
-  self: https://www.givefood.org.uk/api/2/needs/b357827c/
-- foodbank:
-    name: Selkirk
-    slug: selkirk
-    urls:
-      html: https://www.givefood.org.uk/needs/at/selkirk/
-      self: https://www.givefood.org.uk/api/2/foodbank/selkirk/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFQ0ZDQt2hA==
-  - *id001
-  id: 44c92f34
-  needs: "Tinned Meat:  Spam, Ham, Corned Beef\r\nReady Meals:  Stew, Meatballs, Curries\r\
-    \nMinced Beef, Fray Bentos Pies\r\nBaked Beans:  Medium & Small Tins\r\nTinned\
-    \ Veg:  Peas, Carrots, Sweetcorn\r\nTinned Fish:  Tuna, Salmon, Sardines\r\nSoups: \
-    \ Medium & Small Tins\r\nPackets Of Cup-a-soup\r\nPasta Sauce:  All Flavours,\
-    \ Medium Jars\r\nPasta/spaghetti:  500g Packets\r\nRice:  500g Packets\r\nPotatoes: \
-    \ Medium & Small Tins\r\nPackets Of Powder\r\nRice Pudding:  Medium Size Tins\r\
-    \nCustard:  Medium Size Tins\r\nTea Bags:  40s\r\nInstant Coffee:  100g Jars\r\
-    \nJam/marmalade:  Medium Jars\r\nBiscuits:  Sweet & Savoury\r\nCereals:  Standard\
-    \ Boxes\r\nWhite Sugar:  500g Packets"
-  self: https://www.givefood.org.uk/api/2/needs/44c92f34/
