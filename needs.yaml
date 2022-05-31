@@ -1,4 +1,56 @@
 - foodbank:
+    name: West Cheshire
+    slug: west-cheshire
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-cheshire/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-cheshire/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHw83FAjLtg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9fa6e4b5
+  needs: "Treats\r\nUHT Milk\r\nUHT Juice\r\nInstant Coffee Small Jars\r\nInstant\
+    \ Mash / Tinned Potatoes\r\nInstant Pasta / Instant Noodles\r\nTinned Meats\r\n\
+    Tinned Tomatoes\r\nTinned Spaghetti\r\nCustard\r\nCooking Oil\r\nTinned Meat /\
+    \ Fish\r\nTinned Vegetables\r\nTinned Potatoes\r\nTinned Tomatoes\r\nCuppa Soups\r\
+    \nPot Noodles/super Noodles\r\nInstant Pasta (Pasta And Sauce)\r\nPasta Sauce\r\
+    \nInstant Mashed Potato\r\nTinned / Instant Custard\r\nTinned Fruit\r\nBiscuits\r\
+    \nUHT Milk\r\nUHT Fruit Juice\r\nInstant Coffee"
+  self: https://www.givefood.org.uk/api/2/needs/9fa6e4b5/
+- foodbank:
+    name: Barnsley
+    slug: barnsley
+    urls:
+      html: https://www.givefood.org.uk/needs/at/barnsley/
+      self: https://www.givefood.org.uk/api/2/foodbank/barnsley/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHw8aCAnUmQ==
+  - *id001
+  id: 2ea825b0
+  needs: "Tinned/packet Potatoes\r\nRice Pudding\r\nTea/coffee\r\nRice\r\nPasta Sauce\r\
+    \nTinned Meat\r\nTinned Spaghetti/hoops\r\nDilute/juice\r\nShower Gel\r\nDeodorant"
+  self: https://www.givefood.org.uk/api/2/needs/2ea825b0/
+- foodbank:
+    name: Bath
+    slug: bath
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bath/
+      self: https://www.givefood.org.uk/api/2/foodbank/bath/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHw8SKgigcQ==
+  - *id001
+  id: dfda98fb
+  needs: "Milk (UHT)\r\nLong Life Juice\r\nChocolate\r\nCoffee (Instant)\r\nSponge\
+    \ Pudding\r\nVegetarian Tinned Meals\r\nMash (Instant)\r\nPet Food\r\nToiletries\
+    \ - Deodorant And Shaving Foam"
+  self: https://www.givefood.org.uk/api/2/needs/dfda98fb/
+- foodbank:
     name: East Elmbridge
     slug: east-elmbridge
     urls:
@@ -7,11 +59,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFHw0kBwcpFg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: fba0729d
   needs: "Long Life Fruit Juice \r\nTinned Fruit \r\nTinned Potatoes \r\nCustard \r\
     \nRice Pudding \r\nJam And Other Spreads \r\nSoup \r\nUHT Semi-skimmed Milk\r\n\
@@ -1549,47 +1597,3 @@
     \ Long-life Fruit Juice\r\nSponge Pudding Twin Packs\r\nTwin-packed Sponge Puddings\r\
     \nSnack Bars\r\nUHT Milk (Full-fat)\r\nTinned Meat And Tinned Meat Meals"
   self: https://www.givefood.org.uk/api/2/needs/82f0ffc9/
-- foodbank:
-    name: Fallowfield & Withington
-    slug: fallowfield-withington
-    urls:
-      html: https://www.givefood.org.uk/needs/at/fallowfield-withington/
-      self: https://www.givefood.org.uk/api/2/foodbank/fallowfield-withington/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFwwjFgjMAg==
-  - *id001
-  id: 764228ea
-  needs: "Juice & Tinned Fruit\r\nCereal\r\nTinned Meals & Meat\r\nTinned Fish\r\n\
-    Rice\r\nUHT Milk\r\nCoffee - Preferably Small Jars\r\nNappies Sizes 4-6"
-  self: https://www.givefood.org.uk/api/2/needs/764228ea/
-- foodbank:
-    name: Vale
-    slug: vale
-    urls:
-      html: https://www.givefood.org.uk/needs/at/vale/
-      self: https://www.givefood.org.uk/api/2/foodbank/vale/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFwwgNgXdMA==
-  - *id001
-  id: 16e0a6ee
-  needs: "Tinned Corned Beef\r\nSugar\r\nTinned Meat (E.g. Minced Beef, Stew)\r\n\
-    Tinned Cold Meat (E.g Ham)\r\nRice Pudding\r\nTinned Carrots\r\nDried Pasta Packets\
-    \ (E.g Mug Shots Etc)\r\nDried Noodles (E.g. Super Noodles)\r\nCrisps\r\nShampoo"
-  self: https://www.givefood.org.uk/api/2/needs/16e0a6ee/
-- foodbank:
-    name: Woking
-    slug: woking
-    urls:
-      html: https://www.givefood.org.uk/needs/at/woking/
-      self: https://www.givefood.org.uk/api/2/foodbank/woking/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFwwCJQ80Cw==
-  - *id001
-  id: 1eaf77ef
-  needs: "Shampoo\r\nTinned Salmon\r\nTinned Custard\r\nCrisps\r\nLong Life Sponge\
-    \ Puddings\r\nNappies Size 3\r\nTinned Ham\r\nHair Conditioner\r\nSmall Jars Of\
-    \ Coffee\r\nHot Chocolate\r\nBleach\r\nFull Milk (Long Life)\r\nTinned Ham"
-  self: https://www.givefood.org.uk/api/2/needs/1eaf77ef/
