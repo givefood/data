@@ -1,4 +1,37 @@
 - foodbank:
+    name: Foyle
+    slug: foyle
+    urls:
+      html: https://www.givefood.org.uk/needs/at/foyle/
+      self: https://www.givefood.org.uk/api/2/foodbank/foyle/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHhcxLAludA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: d94f1ea1
+  needs: "Coffee\r\nToiletries\r\nTinned Custard/rice\r\nNappies Size 5 +\r\nBreakfast\
+    \ Cereals"
+  self: https://www.givefood.org.uk/api/2/needs/d94f1ea1/
+- foodbank:
+    name: Droitwich Spa
+    slug: droitwich-spa
+    urls:
+      html: https://www.givefood.org.uk/needs/at/droitwich-spa/
+      self: https://www.givefood.org.uk/api/2/foodbank/droitwich-spa/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHhUpEQtYpQ==
+  - *id001
+  id: 0982aef0
+  needs: "Tinned Potatoes\r\nSmash\r\nLong Life Milk And Fruit Juice\r\nCoffee\r\n\
+    Meat To Heat\r\nFish\r\nTinned Carrots\r\nRice Pudding\r\nCustard\r\nCuppa Soup\r\
+    \nSnacks\r\nDeodorant\r\nShaving Foam\r\nSanitary Towels"
+  self: https://www.givefood.org.uk/api/2/needs/0982aef0/
+- foodbank:
     name: Chichester District
     slug: chichester-district
     urls:
@@ -7,11 +40,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFHhUKHgkTLQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 169ed973
   needs: "Tinned Fruit\r\nTinned Vegetables\r\nJam/spread\r\nRice Pudding And Custard\r\
     \nTinned Tomatoes\r\nTinned Meat\r\nSponge Puddings\r\nLong Life Milk\r\nShower\
@@ -1588,35 +1617,3 @@
     \nJam/marmalade:  Medium Jars\r\nBiscuits:  Sweet & Savoury\r\nCereals:  Standard\
     \ Boxes\r\nWhite Sugar:  500g Packets"
   self: https://www.givefood.org.uk/api/2/needs/44c92f34/
-- foodbank:
-    name: Welshpool and District
-    slug: welshpool-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/welshpool-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/welshpool-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFQAQAgeQXw==
-  - *id001
-  id: 31ecbb35
-  needs: "Fruit Juice\r\nTinned Meat - Meals\r\nMicrowave Rice\r\nSkimmed Milk Powder\
-    \ & Long Life Milk\r\nPeanut Butter\r\nTinned Potatoes, Carrots, Garden Peas\r\
-    \nWash Powder\r\nToiletries + Toilet Paper\r\nTinned Fruit / Tinned Custard /\
-    \ Rice Pudding\r\nCereals\r\nSugar\r\nBiscuits & Chocolate\r\nJam\r\nCleaning\
-    \ (Disinfectant, Washing Up Liquid, Dishcloths Etc)\r\nNappies Size 5,6,7, & Baby\
-    \ Wipes\r\nDog & Cat Food"
-  self: https://www.givefood.org.uk/api/2/needs/31ecbb35/
-- foodbank:
-    name: Coventry
-    slug: coventry
-    urls:
-      html: https://www.givefood.org.uk/needs/at/coventry/
-      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFBIbLAgHfA==
-  - *id001
-  id: a259d177
-  needs: "UHT Long Life Milk\r\nRice\r\nCooking Sauce\r\nSquash\r\nFruit Juice\r\n\
-    Tinned Vegetables\r\nTinned Fruit\r\nInstant Mash Potato"
-  self: https://www.givefood.org.uk/api/2/needs/a259d177/
