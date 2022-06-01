@@ -1,4 +1,22 @@
 - foodbank:
+    name: Widnes
+    slug: widnes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/widnes/
+      self: https://www.givefood.org.uk/api/2/foodbank/widnes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAQAsKgQ/4w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 95e0300e
+  needs: "Biscuits\r\nTea Or Coffee\r\nSponge Puddings\r\nCereal\r\nUHT Milk\r\nTinned\
+    \ Spaghetti\r\nMicrowave Rice\r\nShampoo"
+  self: https://www.givefood.org.uk/api/2/needs/95e0300e/
+- foodbank:
     name: Brecon
     slug: brecon
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YFHxQHDQCJLg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2f6a2513
   needs: "Tinned Fruit\r\nCup-a-soups\r\nUHT Milk Especially Whole Milk\r\nLong-life\
     \ (Not Chilled!) Fruit Juice\r\nSquash\r\nInstant Coffee\r\nTinned Carrots\r\n\
@@ -1585,18 +1599,3 @@
   needs: "Tinned Potatoes\r\nTinned Fruit\r\nInstant Coffee\r\nBiscuits\r\nCleaning\
     \ Products\r\nToothpaste"
   self: https://www.givefood.org.uk/api/2/needs/fd008bef/
-- foodbank:
-    name: Godalming & Villages Community Store
-    slug: godalming-villages-community-store
-    urls:
-      html: https://www.givefood.org.uk/needs/at/godalming-villages-community-store/
-      self: https://www.givefood.org.uk/api/2/foodbank/godalming-villages-community-store/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFFw4gHgUM1g==
-  - *id001
-  id: e3208acc
-  needs: "Instant Desserts\r\nJam\r\nInstant Noodles\r\nMayonnaise\r\nKetchup\r\n\
-    Peanut Butter\r\nCereal Bars\r\nCurry Sauce\r\nShower Gel\r\nShampoo\r\nConditioner\r\
-    \nFray Bentos Meat Pies: Not Steak & Kidney"
-  self: https://www.givefood.org.uk/api/2/needs/e3208acc/
