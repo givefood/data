@@ -1,4 +1,27 @@
 - foodbank:
+    name: Newark
+    slug: newark
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newark/
+      self: https://www.givefood.org.uk/api/2/foodbank/newark/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGARMuGwkaeg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 81685fb6
+  needs: "Long Life Fruit Juice\r\nTinned Spaghetti\r\nInstant Mashed Potato\r\nTinned\
+    \ Cold Meat\r\n500g Sugar\r\nTinned Rice Pudding\r\nSponge Puddings - Tinned Or\
+    \ Microwaveable\r\nWashing-up Liquid\r\nShampoo\r\nHand Wash\r\nWomen's Deodorant\r\
+    \nTinned Fish\r\nTinned Meat - Serve Hot (Eg: Stew)\r\nPasta Sauce\r\nTinned Potatoes\r\
+    \nTinned Carrots\r\nTinned Peas\r\nTinned Fruit\r\nBiscuits\r\nLong Life Milk\r\
+    \nMarmalade\r\nChocolate Biscuits Eg: Kitkat\r\nToilet Roll\r\nToiletries\r\n\
+    Toothpaste\r\nWashing Tablets"
+  self: https://www.givefood.org.uk/api/2/needs/81685fb6/
+- foodbank:
     name: Epping Forest
     slug: epping-forest
     urls:
@@ -7,11 +30,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGARMKNQLe5g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ac7249c4
   needs: "Tinned Tomatoes\r\nPasta Sauce\r\nTinned Spaghetti\r\nSponge Puddings\r\n\
     Instant Mash\r\nRice Pudding\r\nCustard\r\nJam\r\nSm/med Jar Of Coffee\r\nTinned\
@@ -1586,19 +1605,3 @@
     \ Fruit\r\nTinned Fish\r\nLong Life Juice & Squash\r\nTea & Coffee (Small Sizes)\r\
     \nJams & Spreads\r\nRice Pudding/custard\r\nWashing Up Liquid & Laundry Detergent"
   self: https://www.givefood.org.uk/api/2/needs/2d008870/
-- foodbank:
-    name: Kingfisher
-    slug: kingfisher
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kingfisher/
-      self: https://www.givefood.org.uk/api/2/foodbank/kingfisher/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGBcRJQEE5w==
-  - *id001
-  id: 9d947840
-  needs: "Milk Long Life\r\nTea/coffee/hot Chocolate\r\nJuice/squash\r\nFruit Tinned\r\
-    \nCustard/rice Pudding\r\nSavory Snacks Crisps Etc\r\nTinned Meat & Fish\r\nCurry/pasta\
-    \ Sauce\r\nToilet Paper\r\nToiletries - Shampoo, Shower Gel, Toothpaste, Deodorant\
-    \ And Hand Soap\r\nCarrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/9d947840/
