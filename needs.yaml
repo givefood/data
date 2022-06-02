@@ -1,4 +1,22 @@
 - foodbank:
+    name: Fylde
+    slug: fylde
+    urls:
+      html: https://www.givefood.org.uk/needs/at/fylde/
+      self: https://www.givefood.org.uk/api/2/foodbank/fylde/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAgwyFAxoKQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: ffad8683
+  needs: "Biscuits\r\nLong-life Fruit Juice\r\nFull-fat Long-life Milk\r\nTinned Fruit\r\
+    \nTinned Tomatoes\r\nTinned Vegetables"
+  self: https://www.givefood.org.uk/api/2/needs/ffad8683/
+- foodbank:
     name: Lutterworth and Villages
     slug: lutterworth-and-villages
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGAgsSBQQAWw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f61edd39
   needs: "UHT Milk ( Whole Or Semi Only Please)\r\nTinned Meals, Spaghetti Bolognaise,\
     \ Curry Etc\r\nTinned Spaghetti\r\nRice\r\nTinned Potatoes\r\nTinned Fruit\r\n\
@@ -1589,21 +1603,3 @@
   needs: "Tinned Carrots\r\nQuality Carrier Bags (Bags For Life)\r\nTinned / Packet\
     \ Custard\r\nTinned Meats\r\nDried Milk\r\nSavoury Crackers\r\nSquash Bottled"
   self: https://www.givefood.org.uk/api/2/needs/d8c209e2/
-- foodbank:
-    name: Brecon
-    slug: brecon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/brecon/
-      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGQkOOgwhlQ==
-  - *id001
-  id: f86c3a6f
-  needs: "Tinned Fruit\r\nUHT Milk\r\nLong-life (Not Chilled!) Fruit Juice\r\nTinned\
-    \ Fish Other Than Tuna And Mackerel, Such As Salmon\r\nTinned Spaghetti\r\nSmall\
-    \ Tins Of Tomatoes\r\nTinned Rice Pudding\r\nTeabags\r\nJam, Marmalade Etc.\r\n\
-    Sponge Puddings\r\nGluten-free Items Other Than Pasta\r\nShaving Foam/gel\r\n\
-    Bubble Bath, Bath Soak Etc.\r\nWashing Up Liquid\r\nWashing Detergent\r\nChildren's\
-    \ (Not Baby) Shampoo\r\nBaby Oil\r\nBaby Lotion\r\nBaby Soap\r\nDried Dog Food"
-  self: https://www.givefood.org.uk/api/2/needs/f86c3a6f/
