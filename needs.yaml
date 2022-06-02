@@ -1,4 +1,23 @@
 - foodbank:
+    name: Runnymede
+    slug: runnymede
+    urls:
+      html: https://www.givefood.org.uk/needs/at/runnymede/
+      self: https://www.givefood.org.uk/api/2/foodbank/runnymede/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAg8eBgwpbw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: e0164213
+  needs: "Bottle Of Squash\r\nLong Life Juice\r\nTinned Custard\r\nCoffee\r\nJar Of\
+    \ Pasta Sauce\r\nJam\r\nSponge Pudding\r\nPack Of Biscuits\r\nCarton Of Long Life\
+    \ Milk\r\nTin Of Fruit\r\nWashing Up Liquid\r\nInstant Noodles"
+  self: https://www.givefood.org.uk/api/2/needs/e0164213/
+- foodbank:
     name: Farnborough
     slug: farnborough
     urls:
@@ -7,11 +26,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGAg8RNQajPA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6681f623
   needs: "Longlife Cartons Of Milk\r\nTinned Ham - 200gm Only\r\nTinned Corned Beef\r\
     \nTinned Meatballs\r\nTinned Luncheon Meat\r\nMicrowave Rice 250gm\r\nSavoury\
@@ -1590,18 +1605,3 @@
     \nWashing Up Liquid\r\nAntibacterial Sprays Or Wipes\r\nDeodorant - Men And Ladies\r\
     \nShampoo And Conditioner\r\nLadies Sanitary Items"
   self: https://www.givefood.org.uk/api/2/needs/7ac300b1/
-- foodbank:
-    name: Bridgend
-    slug: bridgend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bridgend/
-      self: https://www.givefood.org.uk/api/2/foodbank/bridgend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGQoAGQY/dg==
-  - *id001
-  id: e3d9f5d7
-  needs: "Tinned Meat\r\nTinned Fish\r\nTinned Vegetables\r\nInstant Mash Or Tinned\
-    \ Potatoes\r\nTinned Soup Or Packet Soup\r\nTinned Fruit\r\nTinned Custard\r\n\
-    Tinned Rice Pudding"
-  self: https://www.givefood.org.uk/api/2/needs/e3d9f5d7/
