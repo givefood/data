@@ -1,4 +1,25 @@
 - foodbank:
+    name: Lutterworth and Villages
+    slug: lutterworth-and-villages
+    urls:
+      html: https://www.givefood.org.uk/needs/at/lutterworth-and-villages/
+      self: https://www.givefood.org.uk/api/2/foodbank/lutterworth-and-villages/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAgsSBQQAWw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: f61edd39
+  needs: "UHT Milk ( Whole Or Semi Only Please)\r\nTinned Meals, Spaghetti Bolognaise,\
+    \ Curry Etc\r\nTinned Spaghetti\r\nRice\r\nTinned Potatoes\r\nTinned Fruit\r\n\
+    Sponge Puddings/angel Delight/jelly\r\nTinned Steak And Chicken ( Not Corned Beef\
+    \ Please)\r\nHot Chocolate\r\nCleaning Items\r\nMeat Pastes\r\nLaundry Items\r\
+    \nTinned Custard\r\nToothbrushes/toothpaste/deodorant\r\nDog Food"
+  self: https://www.givefood.org.uk/api/2/needs/f61edd39/
+- foodbank:
     name: Newark
     slug: newark
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGARMuGwkaeg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 81685fb6
   needs: "Long Life Fruit Juice\r\nTinned Spaghetti\r\nInstant Mashed Potato\r\nTinned\
     \ Cold Meat\r\n500g Sugar\r\nTinned Rice Pudding\r\nSponge Puddings - Tinned Or\
@@ -1590,18 +1607,3 @@
     Bubble Bath, Bath Soak Etc.\r\nWashing Up Liquid\r\nWashing Detergent\r\nChildren's\
     \ (Not Baby) Shampoo\r\nBaby Oil\r\nBaby Lotion\r\nBaby Soap\r\nDried Dog Food"
   self: https://www.givefood.org.uk/api/2/needs/f86c3a6f/
-- foodbank:
-    name: Brent
-    slug: brent
-    urls:
-      html: https://www.givefood.org.uk/needs/at/brent/
-      self: https://www.givefood.org.uk/api/2/foodbank/brent/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGQgxDQbIgw==
-  - *id001
-  id: 2d008870
-  needs: "Tinned Soup (Vegetarian)\r\nTinned Meat\r\nCereal\r\nTinned Veg\r\nTinned\
-    \ Fruit\r\nTinned Fish\r\nLong Life Juice & Squash\r\nTea & Coffee (Small Sizes)\r\
-    \nJams & Spreads\r\nRice Pudding/custard\r\nWashing Up Liquid & Laundry Detergent"
-  self: https://www.givefood.org.uk/api/2/needs/2d008870/
