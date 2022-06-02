@@ -3607,7 +3607,7 @@
   alt_name: null
   charity:
     register_url: null
-    registration_id: null
+    registration_id: ''
   closed: false
   country: Wales
   created: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
@@ -3615,7 +3615,7 @@
     B+QBDw4PFwzqIw==
   - *id001
   email: info@valeofneath.foodbank.org.uk
-  lat_lng: 51.7468088,-3.6240035
+  lat_lng: 51.74708,-3.622033
   name: Vale of Neath
   network: Trussell Trust
   phone: 07561234289
@@ -5957,7 +5957,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/runnymede-and-weybridge/
     ward: Chertsey St Ann's
   postcode: KT16 9AS
-  secondary_phone: null
+  secondary_phone: ''
   slug: runnymede
   urls:
     homepage: https://runnymede.foodbank.org.uk
@@ -13067,7 +13067,7 @@
     B+MMHAQdDgJ/vA==
   - *id001
   email: info@claycross.foodbank.org.uk
-  lat_lng: 53.16349839999999,-1.4134196
+  lat_lng: 53.163506,-1.413403
   name: Clay Cross
   network: Trussell Trust
   phone: 07899878398
@@ -13082,7 +13082,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/north-east-derbyshire/
     ward: Clay Cross South
   postcode: S45 9JS
-  secondary_phone: null
+  secondary_phone: ''
   slug: clay-cross
   urls:
     homepage: https://claycross.foodbank.org.uk
