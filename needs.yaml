@@ -1,4 +1,24 @@
 - foodbank:
+    name: Farnborough
+    slug: farnborough
+    urls:
+      html: https://www.givefood.org.uk/needs/at/farnborough/
+      self: https://www.givefood.org.uk/api/2/foodbank/farnborough/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAg8RNQajPA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6681f623
+  needs: "Longlife Cartons Of Milk\r\nTinned Ham - 200gm Only\r\nTinned Corned Beef\r\
+    \nTinned Meatballs\r\nTinned Luncheon Meat\r\nMicrowave Rice 250gm\r\nSavoury\
+    \ Noodles\r\nMugshots\r\nCoffee, Small Jars\r\nSugar, Small Bags\r\nRice Pudding\r\
+    \nSponge Pudding\r\nShampoo\r\nToilet Rolls"
+  self: https://www.givefood.org.uk/api/2/needs/6681f623/
+- foodbank:
     name: Fylde
     slug: fylde
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGAgwyFAxoKQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: ffad8683
   needs: "Biscuits\r\nLong-life Fruit Juice\r\nFull-fat Long-life Milk\r\nTinned Fruit\r\
     \nTinned Tomatoes\r\nTinned Vegetables"
@@ -1589,17 +1605,3 @@
     \ Potatoes\r\nTinned Soup Or Packet Soup\r\nTinned Fruit\r\nTinned Custard\r\n\
     Tinned Rice Pudding"
   self: https://www.givefood.org.uk/api/2/needs/e3d9f5d7/
-- foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGQk1EgYBxw==
-  - *id001
-  id: d8c209e2
-  needs: "Tinned Carrots\r\nQuality Carrier Bags (Bags For Life)\r\nTinned / Packet\
-    \ Custard\r\nTinned Meats\r\nDried Milk\r\nSavoury Crackers\r\nSquash Bottled"
-  self: https://www.givefood.org.uk/api/2/needs/d8c209e2/
