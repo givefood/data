@@ -1,4 +1,25 @@
 - foodbank:
+    name: North Cotswold
+    slug: north-cotswold
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-cotswold/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-cotswold/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAxIZHwzeCw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 164018a1
+  needs: "Carrier Bags\r\nSponge Puddings\r\nPacket Sauce Mixes\r\nTinned Potatoes\r\
+    \nTinned Vegetables\r\nTinned Meat\r\nCrumble Mix\r\nToilet Rolls\r\nLaundry Liquid\
+    \ & Powder\r\nFabric Conditioner\r\nAngel Delight\r\nJellies\r\nTrifle Mix\r\n\
+    Gravy Mix\r\nLong Life Fruit Juice\r\nLonglife Milk\r\nJams\r\nCooking Oil\r\n\
+    Shampoo\r\nDeodorant\r\nHousehold Cleaning Sprays\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/164018a1/
+- foodbank:
     name: Waterside
     slug: waterside
     urls:
@@ -7,11 +28,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGAw8WJAPjvQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 81d638ee
   needs: "Food Shortages\r\n400g Potatoes (Tinned)\r\n400g Rice Pudding\r\n100g Coffee\r\
     \n40's Tea Bags\r\n300g Carrots (Tinned)\r\nGinger Cake\r\nSponge Puddings\r\n\
@@ -1585,19 +1602,3 @@
     \nTinned Hot Dogs\r\nSavoury Biscuits\r\nTinned Meatballs\r\nTinned Assorted Vegetables\r\
     \nTinned Rice Pudding"
   self: https://www.givefood.org.uk/api/2/needs/467ac063/
-- foodbank:
-    name: Cambridge City
-    slug: cambridge-city
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cambridge-city/
-      self: https://www.givefood.org.uk/api/2/foodbank/cambridge-city/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGQ0pBAEQcA==
-  - *id001
-  id: c8e0cf8d
-  needs: "Bags For Life\r\nLong-life Milk\r\nLong-life Fruit Juice\r\nNoodles\r\n\
-    Instant Custard\r\nInstant Coffee\r\nBreakfast Tea Bags\r\nJams And Spreads\r\n\
-    Cooking Oil - 500 Ml Preferred (1litre Max)\r\nTinned Rice Pudding\r\nTinned Vegetables\r\
-    \nTinned Meat/fish\r\nSnacks, Sweets And Biscuits"
-  self: https://www.givefood.org.uk/api/2/needs/c8e0cf8d/
