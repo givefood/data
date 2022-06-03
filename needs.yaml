@@ -1,4 +1,24 @@
 - foodbank:
+    name: Waterside
+    slug: waterside
+    urls:
+      html: https://www.givefood.org.uk/needs/at/waterside/
+      self: https://www.givefood.org.uk/api/2/foodbank/waterside/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAw8WJAPjvQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 81d638ee
+  needs: "Food Shortages\r\n400g Potatoes (Tinned)\r\n400g Rice Pudding\r\n100g Coffee\r\
+    \n40's Tea Bags\r\n300g Carrots (Tinned)\r\nGinger Cake\r\nSponge Puddings\r\n\
+    Fruit (Tinned)\r\nUHT Milk (1 Litre And 500ml Packs)\r\nToiletries (Shampoo, Toothpaste,\
+    \ Toothbrush Etc)"
+  self: https://www.givefood.org.uk/api/2/needs/81d638ee/
+- foodbank:
     name: Sevenoaks
     slug: sevenoaks
     urls:
@@ -7,11 +27,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGAwslGQYZrA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: b11ef3b5
   needs: "Baked Beans\r\nChicken In White Sauce\r\nBeef Chilli Con Carne\r\nMinced\
     \ Beef With Onions\r\nStewed Steak\r\nBeef/lamb Casserole\r\nHam/spam\r\nCorned\
@@ -1585,17 +1601,3 @@
     Cooking Oil - 500 Ml Preferred (1litre Max)\r\nTinned Rice Pudding\r\nTinned Vegetables\r\
     \nTinned Meat/fish\r\nSnacks, Sweets And Biscuits"
   self: https://www.givefood.org.uk/api/2/needs/c8e0cf8d/
-- foodbank:
-    name: Caterham
-    slug: caterham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/caterham/
-      self: https://www.givefood.org.uk/api/2/foodbank/caterham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGQwRLgGQEQ==
-  - *id001
-  id: 9ca9d8a4
-  needs: "Long Life Milk\r\nFruit Juice\r\nTinned Tomatoes\r\nTinned Soup\r\nSmall\
-    \ Jars Of Coffee"
-  self: https://www.givefood.org.uk/api/2/needs/9ca9d8a4/
