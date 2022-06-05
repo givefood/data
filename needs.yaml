@@ -1,69 +1,4 @@
 - foodbank:
-    name: Malvern Hills
-    slug: malvern-hills
-    urls:
-      html: https://www.givefood.org.uk/needs/at/malvern-hills/
-      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBQowLgIRBw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: f9e81106
-  needs: "Tinned Soup\r\nTinned Potatoes\r\nTinned Fruit In Natural Juice\r\nTinned\
-    \ Fish\r\nTinned Meat\r\nTomato Ketchup\r\nJam\r\nBiscuits\r\nRice\r\nCurry Sauce\r\
-    \nInstant Coffee\r\nUHT Milk\r\nSquash\r\nWashing Up Liquid\r\nLaundry Detergent\r\
-    \nSurface Cleaner\r\nJ Cloths Or Similar\r\nToilet Rolls\r\nMen's Deodorant\r\n\
-    Bars Of Soap\r\nShampoo\r\nToothpaste (Adult & Children's)\r\nToothbrushes (Adult\
-    \ & Children's)"
-  self: https://www.givefood.org.uk/api/2/needs/f9e81106/
-- foodbank:
-    name: B30
-    slug: b30
-    urls:
-      html: https://www.givefood.org.uk/needs/at/b30/
-      self: https://www.givefood.org.uk/api/2/foodbank/b30/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBQoVDQYS1A==
-  - *id001
-  id: 0f8e3e07
-  needs: "Tinned Tomatoes\r\nPasta Sauce\r\nCereal(not Greater Than 500gm)\r\nTinned\
-    \ Fish\r\nTinned Fruit In Juice(not Prunes Or Grapefruit)\r\nCrisps\r\nRice\r\n\
-    Toilet Rolls\r\nStrong Carrier Bags\r\nTinned Potatoes\r\nTinned Spaghetti\r\n\
-    Squash\r\nLong Life Fruit Juice\r\nUHT Semi Skimmed Milk\r\nDog/cat Food\r\nInstant\
-    \ Hot Chocolate (Made Up With Water Not Milk)\r\nInstant Coffee (Not Decaf)\r\n\
-    Porridge\r\nReady Made Custard Tins Or Cartons Not Powder\r\nUHT Whole Milk\r\n\
-    Tinned Rice Pudding\r\nTinned Meat (Ham, Corned Beef, Chopped Pork, Meat Chunks\
-    \ In Sauce)\r\nSmall Packets Of Tea Bags (40’s And 80’s)\r\nJam, Honey\r\nBiscuits\r\
-    \nChocolate And Snack Bars\r\nLiquid Or Bar Soap\r\nLaundry Liquid Or Powder (Not\
-    \ Family Sized)\r\nGender Neutral Shower-gel\r\nGender Neutral Shampoo\r\nSugar\
-    \ (500g Bags Not Larger)\r\nToothpaste\r\nSingle Or Duo Wrapped Toothbrushes"
-  self: https://www.givefood.org.uk/api/2/needs/0f8e3e07/
-- foodbank:
-    name: New Forest Basics Bank
-    slug: new-forest-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/new-forest-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/new-forest-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBA8vIQxyHw==
-  - *id001
-  id: 7a50cce4
-  needs: "Tinned Hot Meat (Stew, Chilli, Meatballs, Chicken In White Sauce Etc)\r\n\
-    Tinned Cold Meat (Ham, Chicken, Corned Beef Etc)\r\nTinned Pasta (Macaroni Cheese,\
-    \ Spaghetti Hoops Etc)\r\nTinned Tuna\r\nSweetcorn\r\nBaked Beans\r\nCereal (Ideally\
-    \ Not Porridge Oats)\r\nRice Pudding\r\nCustard\r\nJam, Honey Or Peanut Butter\r\
-    \nFruit Juice\r\nCoffee (100g Jar)\r\nCooking Oil\r\nRice\r\nAll-purpose Cloths\r\
-    \nWashing-up Liquid\r\nClothes Washing Detergent\r\nAnti-bacterial Spray\r\nSoap\r\
-    \nShower Gel\r\nShampoo\r\nToothpaste\r\nToothbrushes\r\nSanitary Products\r\n\
-    Nappies, Particularly Sizes 4, 5 And 6\r\nBaby Wipes"
-  self: https://www.givefood.org.uk/api/2/needs/7a50cce4/
-- foodbank:
     name: North Cotswold
     slug: north-cotswold
     urls:
@@ -72,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGAxIZHwzeCw==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 164018a1
   needs: "Carrier Bags\r\nSponge Puddings\r\nPacket Sauce Mixes\r\nTinned Potatoes\r\
     \nTinned Vegetables\r\nTinned Meat\r\nCrumble Mix\r\nToilet Rolls\r\nLaundry Liquid\
@@ -1609,3 +1548,57 @@
     \ Chocolate\r\nSnacks\r\nMen's Deodorant\r\nWomen's Deodorant\r\nSponge Pudding\r\
     \nCustard\r\nSugar\r\nInstant Mash\r\nJam\r\nTea Bags\r\nRice"
   self: https://www.givefood.org.uk/api/2/needs/cea3a2eb/
+- foodbank:
+    name: North Cotswold
+    slug: north-cotswold
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-cotswold/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-cotswold/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGRABIATPlA==
+  - *id001
+  id: 9ff5ea4a
+  needs: "Sponge Puddings\r\nPacket Sauce Mixes\r\nTinned Potatoes\r\nTinned Vegetables\r\
+    \nTinned Meat\r\nCrumble Mix\r\nToilet Rolls\r\nLaundry Liquid & Powder\r\nFabric\
+    \ Conditioner\r\nAngel Delight\r\nJellies\r\nTrifle Mix\r\nGravy Mix\r\nLong Life\
+    \ Fruit Juice\r\nLonglife Milk\r\nJams\r\nCooking Oil\r\nShampoo\r\nDeodorant\r\
+    \nHousehold Cleaning Sprays\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/9ff5ea4a/
+- foodbank:
+    name: Callington
+    slug: callington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/callington/
+      self: https://www.givefood.org.uk/api/2/foodbank/callington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGQ8WMQELKw==
+  - *id001
+  id: b8ad6265
+  needs: "Tinned Soup\r\nTinned Fruit\r\nTinned Peas\r\nTinned Sweetcorn\r\nDried\
+    \ Mash Potatoes\r\nRice\r\nUHT Milk (Not Skimmed)\r\nJam\r\nSponge Puddings\r\n\
+    Cartons Of Fruit Juice\r\nSquash\r\nCoffee\r\nLunchbox Items (Chocolate, Crisps)\r\
+    \nWashing Powder/tabs/liquid For Clothes\r\nMens Razors\r\nLadies Razors\r\nShaving\
+    \ Foam/gel\r\nLadies Deodorant\r\nMens Deodorant (Not Body Spray)\r\nKitchen Roll\r\
+    \nToilet Roll\r\nToothpaste\r\nToothbrushes\r\nShampoo\r\nShower Gel\r\nDog Food\
+    \ (Tinned, Mixer & Dry Complete)"
+  self: https://www.givefood.org.uk/api/2/needs/b8ad6265/
+- foodbank:
+    name: Harrow
+    slug: harrow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/harrow/
+      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFGQ4uNQEXTA==
+  - *id001
+  id: 467ac063
+  needs: "20p Carrier Bags\r\nSponge Puddings\r\nLong-life Fruit Juice\r\nSmall Jars\
+    \ Coffee\r\nWomen’s + Men’s Deodorant\r\nTinned Baked Beans With Sausages\r\n\
+    Men’s Body Wash\r\nTinned Vegetarian Meals\r\nHoney\r\nTinned Fish (Not Tuna)\r\
+    \nShampoo\r\nRazors\r\nShaving Foam\r\nShower Gel\r\nChildren’s Toothbrushes\r\
+    \nTinned Hot Dogs\r\nSavoury Biscuits\r\nTinned Meatballs\r\nTinned Assorted Vegetables\r\
+    \nTinned Rice Pudding"
+  self: https://www.givefood.org.uk/api/2/needs/467ac063/
