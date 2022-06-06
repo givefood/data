@@ -1,4 +1,39 @@
 - foodbank:
+    name: Clevedon District
+    slug: clevedon-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/clevedon-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/clevedon-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBhAUJQhWQA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8549e7a4
+  needs: "Cereal\r\nFruit Juice\r\nTinned Pasta\r\nTinned  Vegetables\r\nCustard\r\
+    \nRice Pudding\r\nTinned Tuna\r\nRice\r\nPasta Sauce\r\nCooking Sauce\r\nBiscuits\r\
+    \nTinned Meat\r\nSoap\r\nShower Gel\r\nWashing Up Liquid"
+  self: https://www.givefood.org.uk/api/2/needs/8549e7a4/
+- foodbank:
+    name: Romsey
+    slug: romsey
+    urls:
+      html: https://www.givefood.org.uk/needs/at/romsey/
+      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBhACJAHXbw==
+  - *id001
+  id: 51f67637
+  needs: "Tinned Carrots/peas\r\nSweets And Chocolate\r\nPasta Sauce\r\nSpreads -\
+    \ Marmite/nutella\r\nSponge Puddings And Desserts\r\nCustard\r\nInstant Mash Potato\r\
+    \nChocolate Biscuit Bars\r\nLong Life Fruit Juice\r\nSquash\r\nDried And Microwave\
+    \ Rice"
+  self: https://www.givefood.org.uk/api/2/needs/51f67637/
+- foodbank:
     name: Lowestoft
     slug: lowestoft
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGBg8hNQC/HQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2bd56992
   needs: "Tinned Fish\r\nTinned Tomatoes\r\nUHT Milk\r\nRice Pudding\r\nTinned Fruit\r\
     \nPasta\r\nBaked Beans\r\nTinned Meat\r\nTinned Veg\r\nBiscuits"
@@ -1562,36 +1593,3 @@
     \ & Washing-up Liquid\r\nDry Cat & Dog Food\r\nCleaning Products\r\nSponge Puddings/slab\
     \ Cake\r\nCereal\r\nCarrier Bags"
   self: https://www.givefood.org.uk/api/2/needs/5caf9106/
-- foodbank:
-    name: Walton & Hersham
-    slug: walton-hersham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/walton-hersham/
-      self: https://www.givefood.org.uk/api/2/foodbank/walton-hersham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGw8nCwoJIQ==
-  - *id001
-  id: 8098468b
-  needs: "Long Life Carrier Bags In Good Condition (To Pack Parcels In)\r\nTin Meat\
-    \ (Not Corned Beef)\r\nLong Life Milk\r\nLong Life Tortilla Wraps\r\nInstant Mash\
-    \ Potatoes\r\nPasta Sauce\r\nRice Pudding\r\nCustard\r\nFruit Juice\r\nLong Life\
-    \ Sponge Puddings\r\nJam\r\nChocolate Bars / Sweets\r\nToothpaste\r\nToothbrushes\r\
-    \nHousehold Bleach & Cleaning Sprays\r\nWashing Powder And Tablets\r\nToilet Roll\r\
-    \nShampoo\r\nShower Gel\r\nShaving Razors & Male Grooming Products\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/8098468b/
-- foodbank:
-    name: Horsham District
-    slug: horsham-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/horsham-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/horsham-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGw8MBQxMyQ==
-  - *id001
-  id: '91777781'
-  needs: "Hot Chocolate\r\nCoffee\r\nPowdered Milk\r\nInstant Custard\r\nGluten Free\
-    \ Options (Not Pasta)\r\nInstant Mashed Potato\r\nSoap Powder/liquid\r\nShampoo\r\
-    \nUnisex Deodrants"
-  self: https://www.givefood.org.uk/api/2/needs/91777781/
