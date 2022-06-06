@@ -1,4 +1,35 @@
 - foodbank:
+    name: Lowestoft
+    slug: lowestoft
+    urls:
+      html: https://www.givefood.org.uk/needs/at/lowestoft/
+      self: https://www.givefood.org.uk/api/2/foodbank/lowestoft/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBg8hNQC/HQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2bd56992
+  needs: "Tinned Fish\r\nTinned Tomatoes\r\nUHT Milk\r\nRice Pudding\r\nTinned Fruit\r\
+    \nPasta\r\nBaked Beans\r\nTinned Meat\r\nTinned Veg\r\nBiscuits"
+  self: https://www.givefood.org.uk/api/2/needs/2bd56992/
+- foodbank:
+    name: Launceston
+    slug: launceston
+    urls:
+      html: https://www.givefood.org.uk/needs/at/launceston/
+      self: https://www.givefood.org.uk/api/2/foodbank/launceston/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBg8DBAllsQ==
+  - *id001
+  id: 50cbd556
+  needs: "Pasta Sauce\r\nSugar\r\nSoup\r\nTinned Fruit\r\nTinned Spaghetti\r\nDeodorant"
+  self: https://www.givefood.org.uk/api/2/needs/50cbd556/
+- foodbank:
     name: Skipton
     slug: skipton
     urls:
@@ -7,11 +38,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGBg8CBwEjhA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6df3c125
   needs: "Tinned Fish\r\nSingle Toothbrushes\r\nCustard\r\nToilet Paper"
   self: https://www.givefood.org.uk/api/2/needs/6df3c125/
@@ -1568,34 +1595,3 @@
     \ Options (Not Pasta)\r\nInstant Mashed Potato\r\nSoap Powder/liquid\r\nShampoo\r\
     \nUnisex Deodrants"
   self: https://www.givefood.org.uk/api/2/needs/91777781/
-- foodbank:
-    name: Harrow
-    slug: harrow
-    urls:
-      html: https://www.givefood.org.uk/needs/at/harrow/
-      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGw0wMQoH9w==
-  - *id001
-  id: dc985095
-  needs: "20p Carrier Bags\r\nSponge Puddings\r\nLong-life Fruit Juice\r\nSmall Jars\
-    \ Coffee\r\nWomen’s + Men’s Deodorant\r\nTinned Baked Beans With Sausages\r\n\
-    Men’s Body Wash\r\nTinned Vegetarian Meals\r\nHoney\r\nShampoo\r\nRazors\r\nShaving\
-    \ Foam\r\nShower Gel\r\nChildren’s Toothbrushes\r\nTinned Hot Dogs\r\nSavoury\
-    \ Biscuits\r\nTinned Meatballs\r\nTinned Assorted Vegetables\r\nTinned Rice Pudding"
-  self: https://www.givefood.org.uk/api/2/needs/dc985095/
-- foodbank:
-    name: Berwick
-    slug: berwick
-    urls:
-      html: https://www.givefood.org.uk/needs/at/berwick/
-      self: https://www.givefood.org.uk/api/2/foodbank/berwick/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGwwLIAq+cw==
-  - *id001
-  id: 171d9027
-  needs: "Toilet Rolls\r\nToothbrushes\r\nDeodorants\r\n2 In 1 Shampoo And Conditioner\r\
-    \nLong Life Milk"
-  self: https://www.givefood.org.uk/api/2/needs/171d9027/
