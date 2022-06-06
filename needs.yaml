@@ -1,4 +1,21 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBg8CBwEjhA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6df3c125
+  needs: "Tinned Fish\r\nSingle Toothbrushes\r\nCustard\r\nToilet Paper"
+  self: https://www.givefood.org.uk/api/2/needs/6df3c125/
+- foodbank:
     name: Lisburn
     slug: lisburn
     urls:
@@ -7,11 +24,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGBg4qEgtjlg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c1a6585a
   needs: "UHT Milk\r\nTinned Sweetcorn\r\nCoffee\r\nHerbs, Spices & Stock Cubes\r\n\
     Stir-in Jars Of Pasta Sauce\r\nStir-in Jars Of Curry Sauce\r\nDiluting Juice"
@@ -1586,18 +1599,3 @@
   needs: "Toilet Rolls\r\nToothbrushes\r\nDeodorants\r\n2 In 1 Shampoo And Conditioner\r\
     \nLong Life Milk"
   self: https://www.givefood.org.uk/api/2/needs/171d9027/
-- foodbank:
-    name: Abergavenny
-    slug: abergavenny
-    urls:
-      html: https://www.givefood.org.uk/needs/at/abergavenny/
-      self: https://www.givefood.org.uk/api/2/foodbank/abergavenny/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGws3Dw6IiQ==
-  - *id001
-  id: e1bb9806
-  needs: "Toothpaste\r\nDeodorant - Men And Women's\r\nTinned Rice Pudding\r\nTinned\
-    \ Fruit\r\nLong Life, Semi-skimmed Milk\r\nLaundry Washing Machine Pods\r\nShampoo\r\
-    \nToilet Roll"
-  self: https://www.givefood.org.uk/api/2/needs/e1bb9806/
