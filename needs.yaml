@@ -97,6 +97,21 @@
     Nappies, Particularly Sizes 4, 5 And 6\r\nBaby Wipes"
   self: https://www.givefood.org.uk/api/2/needs/7a50cce4/
 - foodbank:
+    name: Daventry
+    slug: daventry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/daventry/
+      self: https://www.givefood.org.uk/api/2/foodbank/daventry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGAxYVCQheCw==
+  - *id001
+  id: 847eed58
+  needs: "Pure Orange Juice\r\nTinned Curry (Various)\r\nDeodorant (Male & Female)\r\
+    \nWashing Liquid\r\nConditioner\r\nShampoo\r\n2 In 1 Shampoo & Conditioner\r\n\
+    Toothpaste"
+  self: https://www.givefood.org.uk/api/2/needs/847eed58/
+- foodbank:
     name: North Cotswold
     slug: north-cotswold
     urls:
@@ -1595,21 +1610,3 @@
     \ Milk\r\nSugar\r\nCustard/desserts\r\nLadies Deodorant\r\nTooth Paste\r\nPet\
     \ Food"
   self: https://www.givefood.org.uk/api/2/needs/09c49858/
-- foodbank:
-    name: Walton & Hersham
-    slug: walton-hersham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/walton-hersham/
-      self: https://www.givefood.org.uk/api/2/foodbank/walton-hersham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGRAkOANe3w==
-  - *id001
-  id: 7a7d2ea3
-  needs: "Long Life Carrier Bags In Good Condition (To Pack Parcels In)\r\nTin Meat\
-    \ (Not Corned Beef)\r\nLong Life Milk\r\nLong Life Tortilla Wraps\r\nInstant Mash\
-    \ Potatoes\r\nPasta Sauce\r\nRice Pudding\r\nCustard\r\nFruit Juice\r\nLong Life\
-    \ Sponge Puddings\r\nJam\r\nChocolate Bars / Sweets\r\nHousehold Bleach & Cleaning\
-    \ Sprays\r\nWashing Tablets / Pods\r\nToilet Roll\r\nShampoo\r\nShower Gel\r\n\
-    Shaving Razors & Male Toiletries\r\nDeodorant"
-  self: https://www.givefood.org.uk/api/2/needs/7a7d2ea3/
