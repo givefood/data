@@ -1,4 +1,22 @@
 - foodbank:
+    name: Coventry
+    slug: coventry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/coventry/
+      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBhA7MwXoSg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 45afe6c7
+  needs: "UHT Long Life Milk\r\nInstant Mash Potato\r\nTinned Vegetables\r\nTinned\
+    \ Fruit\r\nRice\r\nCooking Sauce\r\nBiscuits\r\nFruit Juice\r\nSquash"
+  self: https://www.givefood.org.uk/api/2/needs/45afe6c7/
+- foodbank:
     name: Clevedon District
     slug: clevedon-district
     urls:
@@ -7,11 +25,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGBhAUJQhWQA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 8549e7a4
   needs: "Cereal\r\nFruit Juice\r\nTinned Pasta\r\nTinned  Vegetables\r\nCustard\r\
     \nRice Pudding\r\nTinned Tuna\r\nRice\r\nPasta Sauce\r\nCooking Sauce\r\nBiscuits\r\
@@ -1576,20 +1590,3 @@
     \nHousehold Cleaning Products\r\nBaked Beans\r\nPasta Sauce\r\nSugar\r\nShaving\
     \ Foam\r\nRazors\r\nShampoo\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/cfc69134/
-- foodbank:
-    name: Market Drayton
-    slug: market-drayton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/market-drayton/
-      self: https://www.givefood.org.uk/api/2/foodbank/market-drayton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGxAbOw6Fgg==
-  - *id001
-  id: 5caf9106
-  needs: "Toilet Rolls - No Stock\r\nSoup - No Stock\r\nUHT Milk (Semi And Full) -\
-    \ No Stock\r\nLong Life Cartons Of Fruit Juice - No Stock\r\nRice Pudding And\
-    \ Custard\r\nTinned Spaghetti\r\nCooking And Pasta Sauces\r\nLaundry Powder/tabs\
-    \ & Washing-up Liquid\r\nDry Cat & Dog Food\r\nCleaning Products\r\nSponge Puddings/slab\
-    \ Cake\r\nCereal\r\nCarrier Bags"
-  self: https://www.givefood.org.uk/api/2/needs/5caf9106/
