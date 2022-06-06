@@ -1,4 +1,41 @@
 - foodbank:
+    name: Cardigan
+    slug: cardigan
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cardigan/
+      self: https://www.givefood.org.uk/api/2/foodbank/cardigan/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBRQ2EAdchg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: e7da3ad0
+  needs: "Tomatoes, Tinned\r\nCarrots, Potatoes, Sweetcorn, Tinned\r\nSoup, Tinned/packet\r\
+    \nUHT Milk\r\nJams And Spreads\r\nFruit, Tinned\r\nCereal Bars\r\nPasta Sauces\r\
+    \nFruit Juice (Long Life)\r\nSquash\r\nMeats And Tuna, Tinned\r\nJelly/instant\
+    \ Whips\r\nTea / Coffee\r\nSponge Puddings\r\nSugar\r\nToilet Rolls\r\nWashing\
+    \ Up Liquid\r\nDeodorants\r\nShampoo And/or Conditioner"
+  self: https://www.givefood.org.uk/api/2/needs/e7da3ad0/
+- foodbank:
+    name: Exmouth
+    slug: exmouth
+    urls:
+      html: https://www.givefood.org.uk/needs/at/exmouth/
+      self: https://www.givefood.org.uk/api/2/foodbank/exmouth/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBRQzBQXK7w==
+  - *id001
+  id: 22dc75a8
+  needs: "Tins Of Baked Beans/spaghetti\r\nBreakfast Cereals/porridge Oats\r\nTins\
+    \ Or Packets Of Soups\r\nDried Instant Potato\r\nPasta Sauce\r\nRice Pudding Or\
+    \ Custard\r\nTins Of Fruit\r\nTomatoes (Tins/cartons/tubs)\r\nTinned Vegetables\
+    \ ( E.g. Peas, Sweetcorn, Beans, Mixed)\r\nTea Bags"
+  self: https://www.givefood.org.uk/api/2/needs/22dc75a8/
+- foodbank:
     name: Malvern Hills
     slug: malvern-hills
     urls:
@@ -7,11 +44,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGBQowLgIRBw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f9e81106
   needs: "Tinned Soup\r\nTinned Potatoes\r\nTinned Fruit In Natural Juice\r\nTinned\
     \ Fish\r\nTinned Meat\r\nTomato Ketchup\r\nJam\r\nBiscuits\r\nRice\r\nCurry Sauce\r\
@@ -1580,32 +1613,3 @@
     \ Sprays\r\nWashing Tablets / Pods\r\nToilet Roll\r\nShampoo\r\nShower Gel\r\n\
     Shaving Razors & Male Toiletries\r\nDeodorant"
   self: https://www.givefood.org.uk/api/2/needs/7a7d2ea3/
-- foodbank:
-    name: Saltash
-    slug: saltash
-    urls:
-      html: https://www.givefood.org.uk/needs/at/saltash/
-      self: https://www.givefood.org.uk/api/2/foodbank/saltash/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGRAcJw1ufQ==
-  - *id001
-  id: 3a64e62a
-  needs: "UHT Fruit Juice\r\nSugar\r\nMilk Powder\r\nPuddings (Angel Delight, Jelly\
-    \ Cubes, Trifle Mix, Sponge Puddings)\r\nNoodles\r\nToilet Rolls"
-  self: https://www.givefood.org.uk/api/2/needs/3a64e62a/
-- foodbank:
-    name: Doncaster
-    slug: doncaster
-    urls:
-      html: https://www.givefood.org.uk/needs/at/doncaster/
-      self: https://www.givefood.org.uk/api/2/foodbank/doncaster/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFGRAILAn2Lw==
-  - *id001
-  id: cea3a2eb
-  needs: "Rice Pudding\r\nTinned Fruit\r\nLong Life Juice\r\nLong Life Milk\r\nDrinking\
-    \ Chocolate\r\nSnacks\r\nMen's Deodorant\r\nWomen's Deodorant\r\nSponge Pudding\r\
-    \nCustard\r\nSugar\r\nInstant Mash\r\nJam\r\nTea Bags\r\nRice"
-  self: https://www.givefood.org.uk/api/2/needs/cea3a2eb/
