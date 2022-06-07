@@ -1,24 +1,4 @@
 - foodbank:
-    name: Bradford North
-    slug: bradford-north
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bradford-north/
-      self: https://www.givefood.org.uk/api/2/foodbank/bradford-north/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBwoROAISzw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 61ea0160
-  needs: "Juice, Long Life - Urgently Needed!\r\nMilk UHT (Whole Or Semi-skimmed)\r\
-    \nShampooo\r\nDeodorant\r\nSteamed Puddings\r\nMashed Potato (Instant)\r\nFruit\
-    \ (Tinned)\r\nVegetables (Tinned)\r\nWashing Up Liquid\r\nPreserves - Jams, Honey,\
-    \ Peanut Butter, Etc"
-  self: https://www.givefood.org.uk/api/2/needs/61ea0160/
-- foodbank:
     name: Bognor Regis
     slug: bognor-regis
     urls:
@@ -27,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGBwkoFgT9bw==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 3e76d084
   needs: "Tinned Soup\r\nTinned Fruit\r\nTinned Meat/fish\r\nJams & Spreads\r\nToilet\
     \ Roll\r\nLong Life Fruit Juice & Milk Cartons (1ltr)\r\nPasta Sauces\r\nInstant\
@@ -1571,3 +1555,25 @@
   needs: "Tinned Potatoes\r\nChopped Tomatoes\r\nTinned Cold Meat\r\nWashing Up Liquid\r\
     \nTinned Veg, Carrots, Sweetcorn Etc"
   self: https://www.givefood.org.uk/api/2/needs/8ce186e2/
+- foodbank:
+    name: B30
+    slug: b30
+    urls:
+      html: https://www.givefood.org.uk/needs/at/b30/
+      self: https://www.givefood.org.uk/api/2/foodbank/b30/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YFHQoVFgp6ug==
+  - *id001
+  id: 5dc450e5
+  needs: "Tinned Fish\r\nPasta Sauce\r\nTinned Potatoes\r\nSugar (500g Bags Not Larger)\r\
+    \nTinned Spaghetti\r\nRice\r\nReady Made Custard Tins Or Cartons Not Powder\r\n\
+    Cereal (Not Greater Than 500gm)\r\nPorridge\r\nGender Neutral Shampoo\r\nToothpaste\r\
+    \nToilet Rolls\r\nStrong Carrier Bags\r\nTinned Fruit In Juice (Not Prunes Or\
+    \ Grapefruit)\r\nSquash\r\nLong Life Fruit Juice\r\nUHT Semi Skimmed Milk\r\n\
+    Dog/cat Food\r\nInstant Hot Chocolate (Made Up With Water Not Milk)\r\nInstant\
+    \ Coffee (Not Decaf)\r\nUHT Whole Milk\r\nCrisps\r\nTinned Rice Pudding\r\nSmall\
+    \ Packets Of Tea Bags (40’s And 80’s)\r\nJam, Honey\r\nChocolate And Snack Bars\r\
+    \nLiquid Or Bar Soap\r\nLaundry Liquid Or Powder (Not Family Sized)\r\nGender\
+    \ Neutral Shower-gel"
+  self: https://www.givefood.org.uk/api/2/needs/5dc450e5/
