@@ -1,4 +1,44 @@
 - foodbank:
+    name: Bognor Regis
+    slug: bognor-regis
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bognor-regis/
+      self: https://www.givefood.org.uk/api/2/foodbank/bognor-regis/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBwkoFgT9bw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 3e76d084
+  needs: "Tinned Soup\r\nTinned Fruit\r\nTinned Meat/fish\r\nJams & Spreads\r\nToilet\
+    \ Roll\r\nLong Life Fruit Juice & Milk Cartons (1ltr)\r\nPasta Sauces\r\nInstant\
+    \ Mashed Potato\r\nTinned Veg (Carrots & Peas)\r\nKitchen Roll"
+  self: https://www.givefood.org.uk/api/2/needs/3e76d084/
+- foodbank:
+    name: Southampton Basics Bank
+    slug: southampton-basics-bank
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
+      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGBwkWOQJuCQ==
+  - *id001
+  id: fbf7a0d2
+  needs: "Tinned Hot Meat (Curry, Pies, Stew, Etc.)\r\nTinned Cold Meat (Ham, Spam,\
+    \ Etc.)\r\nCook-in Sauces (Jars & Packets)\r\nTinned Fruit\r\nCustard\r\nHot Chocolate\r\
+    \nNoodles (Packets)\r\nTinned Mixed Veg\r\nTinned Rice Pudding\r\nTinned Sweetcorn\r\
+    \nSugar (Small Bags)\r\nCoffee (Small Jars)\r\nToiletries (Toilet Rolls)\r\nJams\
+    \ & Spreads\r\nPet Food (Dogs)\r\nTinned Carrots\r\nToiletries (Sanitary Products)\r\
+    \nUHT Milk\r\nGluten Free\r\nRice\r\nBaby Food\r\nCarrier Bags\r\nHousehold Larder\r\
+    \nNappies Size 4 – 6\r\nSquash & Drinks\r\nTinned Fish\r\nTinned Kidney Beans\
+    \ & Pulses\r\nTinned Macaroni Cheese\r\nTinned Peas\r\nTinned Potatoes\r\nTinned\
+    \ Spaghetti (In Tomato Sauce)\r\nTinned Tomatoes\r\nToiletries (Shampoo)"
+  self: https://www.givefood.org.uk/api/2/needs/fbf7a0d2/
+- foodbank:
     name: St John's Community
     slug: st-johns-community
     urls:
@@ -7,11 +47,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGBwgPFgAZEg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1d0d90be
   needs: Unknown
   self: https://www.givefood.org.uk/api/2/needs/1d0d90be/
@@ -1541,33 +1577,3 @@
     \nLiquid Or Bar Soap\r\nLaundry Liquid Or Powder (Not Family Sized)\r\nGender\
     \ Neutral Shower-gel"
   self: https://www.givefood.org.uk/api/2/needs/5dc450e5/
-- foodbank:
-    name: Cheadle and District
-    slug: cheadle-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHBUTJA4D0g==
-  - *id001
-  id: decbda80
-  needs: "Tins Of Soup (Urgent)\r\nTins Of Tomatoes\r\nInstant Mashed Potato\r\nLong\
-    \ Life Fruit Juice\r\nJars Of Instant Coffee\r\nCarrier Bags (The 'Bag For Life'\
-    \ Sort)"
-  self: https://www.givefood.org.uk/api/2/needs/decbda80/
-- foodbank:
-    name: Highland
-    slug: highland
-    urls:
-      html: https://www.givefood.org.uk/needs/at/highland/
-      self: https://www.givefood.org.uk/api/2/foodbank/highland/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHBMsFg2Kqg==
-  - *id001
-  id: fc7fe278
-  needs: "Tins Of Corned Beef\r\nTins Of Potatoes / Smash\r\nTins Of Custard\r\nWeetabix\
-    \ / Cornflakes\r\nUHT Milk\r\nCartons Of Long Life Juice\r\nToilet Rolls\r\nBags\
-    \ For Life – New Or Used"
-  self: https://www.givefood.org.uk/api/2/needs/fc7fe278/
