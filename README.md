@@ -23,6 +23,8 @@ There is more information about our data, a few rules about how to use it, and s
 * Dashboards https://www.givefood.org.uk/dashboard/
 
 ## About Us
-We maintain the largest publicly available database of food banks in the UK and currently cover over 2500 locations. Our data is used by governments, councils, universities, supermarkets, hundreds of national & local news websites, apps & the Trussell Trust.
+We maintain the largest publicly available database of food banks in the UK and currently cover over 2500 locations.
+
+Our data is used by governments, councils, universities, supermarkets, political parties, hundreds of national & local news websites, apps & the Trussell Trust.
 
 Give Food is a registered charity in England & Wales [1188192](https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1188192&subid=0)
