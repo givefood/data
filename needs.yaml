@@ -1,4 +1,88 @@
 - foodbank:
+    name: Ammanford
+    slug: ammanford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/ammanford/
+      self: https://www.givefood.org.uk/api/2/foodbank/ammanford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQwcGgmKfg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: f415d129
+  needs: 'Fruit Juice
+
+    Tinned Tomatoes
+
+    Custard
+
+    Pasta Sauces
+
+    Porridge
+
+    Rice Pudding
+
+    Instant Mashed Potatoes'
+  self: https://www.givefood.org.uk/api/2/needs/f415d129/
+- foodbank:
+    name: Crowthorne
+    slug: crowthorne
+    urls:
+      html: https://www.givefood.org.uk/needs/at/crowthorne/
+      self: https://www.givefood.org.uk/api/2/foodbank/crowthorne/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQwbLwi7qg==
+  - *id001
+  id: ab82dd26
+  needs: 'Baked Beans
+
+    Tinned Tomatoes
+
+    Long Life Milk
+
+    Carton Juice
+
+    Cup A Soup
+
+    Jam
+
+    Porridge
+
+    Bin Bags
+
+    Bleach
+
+    Anti Bacterial Spray
+
+    Washing Tablets
+
+    Soap Bars
+
+    Washing Up Liquid
+
+    J Clothes
+
+    Personal Care
+
+    Hair Conditioner
+
+    Adult Toothbrushes
+
+    Ladies Deodrant
+
+    Men''s Deodorant
+
+    Mens Shower Gel
+
+    Adult Toothpaste
+
+    Children Toothpaste'
+  self: https://www.givefood.org.uk/api/2/needs/ab82dd26/
+- foodbank:
     name: Loughborough Area
     slug: loughborough-area
     urls:
@@ -7,11 +91,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCQsbAQtlqw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6d3ee99c
   needs: 'Rice (Microwave)
 
@@ -3620,71 +3700,3 @@
 
     Toiletries - Deodorant And Shaving Foam'
   self: https://www.givefood.org.uk/api/2/needs/dfda98fb/
-- foodbank:
-    name: East Elmbridge
-    slug: east-elmbridge
-    urls:
-      html: https://www.givefood.org.uk/needs/at/east-elmbridge/
-      self: https://www.givefood.org.uk/api/2/foodbank/east-elmbridge/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHw0kBwcpFg==
-  - *id001
-  id: fba0729d
-  needs: 'Long Life Fruit Juice
-
-    Tinned Fruit
-
-    Tinned Potatoes
-
-    Custard
-
-    Rice Pudding
-
-    Jam And Other Spreads
-
-    Soup
-
-    UHT Semi-skimmed Milk
-
-    Washing Up Liquid
-
-    Shampoo And Conditioner Or 2in1!
-
-    Children''s Toothpaste
-
-    Razors And Shaving Foam
-
-    Size 6 Pull Up Nappies (Not Other Sizes Please!)
-
-    Cleaning Sprays
-
-    Laundry Tablets/capsules (Not Liquid Or Powder Please)
-
-    Deodorant
-
-    Toilet Roll'
-  self: https://www.givefood.org.uk/api/2/needs/fba0729d/
-- foodbank:
-    name: Mid Norfolk
-    slug: mid-norfolk
-    urls:
-      html: https://www.givefood.org.uk/needs/at/mid-norfolk/
-      self: https://www.givefood.org.uk/api/2/foodbank/mid-norfolk/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHw0NAwJZ5Q==
-  - *id001
-  id: 00ffc318
-  needs: 'Tinned Vegetables
-
-    Long Life Sponge Puddings
-
-    Tinned Meat
-
-    Small Jars Of Coffee
-
-    Tinned Rice Pudding
-
-    Instant Mash/tinned Potatoes'
-  self: https://www.givefood.org.uk/api/2/needs/00ffc318/
