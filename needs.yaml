@@ -1,4 +1,112 @@
 - foodbank:
+    name: Loughborough Area
+    slug: loughborough-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/loughborough-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/loughborough-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQsbAQtlqw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 6d3ee99c
+  needs: 'Rice (Microwave)
+
+    Tinned Meat
+
+    Tinned Fish
+
+    Pot Noodles
+
+    Biscuits
+
+    UHT Milk
+
+    Tinned Fruit
+
+    Chopped Tomatoes'
+  self: https://www.givefood.org.uk/api/2/needs/6d3ee99c/
+- foodbank:
+    name: Southampton Basics Bank
+    slug: southampton-basics-bank
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
+      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQsIBgUQcA==
+  - *id001
+  id: 6f0570cb
+  needs: 'Cook-in Sauces (Jars & Packets)
+
+    Custard
+
+    Hot Chocolate
+
+    Nappies Size 4 – 6
+
+    Noodles (Packets)
+
+    Tinned Cold Meat (Ham, Spam, Etc.)
+
+    Tinned Fruit
+
+    Tinned Hot Meat (Curry, Pies, Stew, Etc.)
+
+    Tinned Mixed Veg
+
+    Tinned Rice Pudding
+
+    Tinned Sweetcorn
+
+    Toiletries (Sanitary Products)
+
+    Sugar (Small Bags)
+
+    Coffee (Small Jars)
+
+    Gluten Free
+
+    Jams & Spreads
+
+    Tinned Carrots
+
+    Toiletries (Toilet Rolls)
+
+    UHT Milk
+
+    Baby Food
+
+    Carrier Bags
+
+    Household Larder
+
+    Nappies Size 0 – 3
+
+    Rice
+
+    Squash & Drinks
+
+    Tinned Fish
+
+    Tinned Kidney Beans & Pulses
+
+    Tinned Macaroni Cheese
+
+    Tinned Peas
+
+    Tinned Potatoes
+
+    Tinned Spaghetti (In Tomato Sauce)
+
+    Tinned Tomatoes
+
+    Toiletries (Shampoo)'
+  self: https://www.givefood.org.uk/api/2/needs/6f0570cb/
+- foodbank:
     name: Dorking Area
     slug: dorking-area
     urls:
@@ -7,11 +115,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCQgDHwfhjQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0dd8f040
   needs: 'Tinned Meat
 
@@ -3584,65 +3688,3 @@
 
     Instant Mash/tinned Potatoes'
   self: https://www.givefood.org.uk/api/2/needs/00ffc318/
-- foodbank:
-    name: Fallowfield & Withington
-    slug: fallowfield-withington
-    urls:
-      html: https://www.givefood.org.uk/needs/at/fallowfield-withington/
-      self: https://www.givefood.org.uk/api/2/foodbank/fallowfield-withington/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHwwvAAda2A==
-  - *id001
-  id: 1633c86b
-  needs: 'Tinned Meat
-
-    Cereal
-
-    Tinned Fish
-
-    UHT Juice
-
-    Pasta Sauce
-
-    UHT Milk
-
-    Coffee - Preferably Small Jars
-
-    Nappies Sizes 4-6'
-  self: https://www.givefood.org.uk/api/2/needs/1633c86b/
-- foodbank:
-    name: St Ives (Cambridgeshire)
-    slug: st-ives-cambridgeshire
-    urls:
-      html: https://www.givefood.org.uk/needs/at/st-ives-cambridgeshire/
-      self: https://www.givefood.org.uk/api/2/foodbank/st-ives-cambridgeshire/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHwwlGA22fg==
-  - *id001
-  id: 2ea2f604
-  needs: 'Sugar
-
-    Fruit Squash
-
-    Long Life Apple Or Orange Fruit Juice
-
-    Tinned Rice Pudding
-
-    Tinned Potatoes
-
-    Tinned Custard
-
-    Cream Crackers
-
-    Baby Food
-
-    Shower Gel
-
-    Nappies (Size 5 And Upwards Only Please)
-
-    Dog Food
-
-    Bags For Life'
-  self: https://www.givefood.org.uk/api/2/needs/2ea2f604/
