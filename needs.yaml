@@ -1,4 +1,39 @@
 - foodbank:
+    name: Newcastle (Staffs)
+    slug: newcastle-staffs
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newcastle-staffs/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-staffs/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQ4GNQJTFA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 36a5fe84
+  needs: 'Tinned Vegetables
+
+    Small Jars Of Coffee
+
+    Tinned Fruit
+
+    Tinned Cold Meat (Ham/corned Beef)
+
+    Long Life Juice
+
+    Tinned Spaghetti
+
+    Sponge Puddings
+
+    Rice Pudding
+
+    Custard (Tins/packets)
+
+    Chocolate & Crisps'
+  self: https://www.givefood.org.uk/api/2/needs/36a5fe84/
+- foodbank:
     name: York
     slug: york
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCQ0TJQl6iQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f1cf7617
   needs: 'Sponge Puddings (Cupboard/tinned)
 
@@ -3639,66 +3670,3 @@
 
     Shampoo'
   self: https://www.givefood.org.uk/api/2/needs/6dc408d1/
-- foodbank:
-    name: West Cheshire
-    slug: west-cheshire
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-cheshire/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-cheshire/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHw83FAjLtg==
-  - *id001
-  id: 9fa6e4b5
-  needs: 'Treats
-
-    UHT Milk
-
-    UHT Juice
-
-    Instant Coffee Small Jars
-
-    Instant Mash / Tinned Potatoes
-
-    Instant Pasta / Instant Noodles
-
-    Tinned Meats
-
-    Tinned Tomatoes
-
-    Tinned Spaghetti
-
-    Custard
-
-    Cooking Oil
-
-    Tinned Meat / Fish
-
-    Tinned Vegetables
-
-    Tinned Potatoes
-
-    Tinned Tomatoes
-
-    Cuppa Soups
-
-    Pot Noodles/super Noodles
-
-    Instant Pasta (Pasta And Sauce)
-
-    Pasta Sauce
-
-    Instant Mashed Potato
-
-    Tinned / Instant Custard
-
-    Tinned Fruit
-
-    Biscuits
-
-    UHT Milk
-
-    UHT Fruit Juice
-
-    Instant Coffee'
-  self: https://www.givefood.org.uk/api/2/needs/9fa6e4b5/
