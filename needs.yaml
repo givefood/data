@@ -1,4 +1,70 @@
 - foodbank:
+    name: York
+    slug: york
+    urls:
+      html: https://www.givefood.org.uk/needs/at/york/
+      self: https://www.givefood.org.uk/api/2/foodbank/york/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQ0TJQl6iQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: f1cf7617
+  needs: 'Sponge Puddings (Cupboard/tinned)
+
+    Long Life Fruit Juice And Squash
+
+    Tinned Fruit
+
+    Tinned Veg/pulses
+
+    Jam
+
+    Tinned Rice Pudding And Custard
+
+    Bags For Life
+
+    Laundry Detergent
+
+    Shampoo
+
+    Powdered Milk
+
+    Size 6/6+ Nappies'
+  self: https://www.givefood.org.uk/api/2/needs/f1cf7617/
+- foodbank:
+    name: Horsham District
+    slug: horsham-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/horsham-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/horsham-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQ0COQ5NMg==
+  - *id001
+  id: 1bb182ab
+  needs: 'Instant Hot Chocolate
+
+    Rice Pudding
+
+    Powdered Milk
+
+    Custard
+
+    Instant Mashed Potato
+
+    Soap Powder/liquid
+
+    Washing Up Liquid
+
+    Shampoo
+
+    Unisex Deodrants'
+  self: https://www.givefood.org.uk/api/2/needs/1bb182ab/
+- foodbank:
     name: Ammanford
     slug: ammanford
     urls:
@@ -7,11 +73,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCQwcGgmKfg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f415d129
   needs: 'Fruit Juice
 
@@ -3640,63 +3702,3 @@
 
     Instant Coffee'
   self: https://www.givefood.org.uk/api/2/needs/9fa6e4b5/
-- foodbank:
-    name: Barnsley
-    slug: barnsley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/barnsley/
-      self: https://www.givefood.org.uk/api/2/foodbank/barnsley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHw8aCAnUmQ==
-  - *id001
-  id: 2ea825b0
-  needs: 'Tinned/packet Potatoes
-
-    Rice Pudding
-
-    Tea/coffee
-
-    Rice
-
-    Pasta Sauce
-
-    Tinned Meat
-
-    Tinned Spaghetti/hoops
-
-    Dilute/juice
-
-    Shower Gel
-
-    Deodorant'
-  self: https://www.givefood.org.uk/api/2/needs/2ea825b0/
-- foodbank:
-    name: Bath
-    slug: bath
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bath/
-      self: https://www.givefood.org.uk/api/2/foodbank/bath/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHw8SKgigcQ==
-  - *id001
-  id: dfda98fb
-  needs: 'Milk (UHT)
-
-    Long Life Juice
-
-    Chocolate
-
-    Coffee (Instant)
-
-    Sponge Pudding
-
-    Vegetarian Tinned Meals
-
-    Mash (Instant)
-
-    Pet Food
-
-    Toiletries - Deodorant And Shaving Foam'
-  self: https://www.givefood.org.uk/api/2/needs/dfda98fb/
