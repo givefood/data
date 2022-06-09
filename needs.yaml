@@ -1,4 +1,39 @@
 - foodbank:
+    name: Dorking Area
+    slug: dorking-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/dorking-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/dorking-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCQgDHwfhjQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0dd8f040
+  needs: 'Tinned Meat
+
+    Tinned Rice Pudding
+
+    Tinned Vegetarian Meals
+
+    100g Jars Of Instant Coffee
+
+    Shampoo
+
+    Cat Food
+
+    Twin-packed Sponge Puddings
+
+    Snack Bars
+
+    UHT Milk (Full-fat)
+
+    Tinned Meat And Tinned Meat Meals'
+  self: https://www.givefood.org.uk/api/2/needs/0dd8f040/
+- foodbank:
     name: Southwark
     slug: southwark
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCQYuOwh3kw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 14a692e5
   needs: 'Cereal
 
@@ -3615,54 +3646,3 @@
 
     Bags For Life'
   self: https://www.givefood.org.uk/api/2/needs/2ea2f604/
-- foodbank:
-    name: Salisbury
-    slug: salisbury
-    urls:
-      html: https://www.givefood.org.uk/needs/at/salisbury/
-      self: https://www.givefood.org.uk/api/2/foodbank/salisbury/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YFHwsuJQ0EHQ==
-  - *id001
-  id: f74b95e7
-  needs: 'Juice ( Long Life)
-
-    Milk
-
-    Rice Pudding/custard
-
-    Tinned Fish
-
-    Tinned Fruit
-
-    Tinned Tomatoes
-
-    Tinned Potatoes
-
-    Baked Beans
-
-    Soup
-
-    Tinned Vegetables
-
-    Tea Bags, Small Boxes
-
-    Tinned Meat
-
-    Rice 500g
-
-    Instant Mash
-
-    Dried Milk
-
-    Chocolate
-
-    Packet Puddings
-
-    Shampoo
-
-    Deodorant
-
-    Shower Gel'
-  self: https://www.givefood.org.uk/api/2/needs/f74b95e7/
