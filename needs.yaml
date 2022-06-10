@@ -1,4 +1,39 @@
 - foodbank:
+    name: Morecambe Bay
+    slug: morecambe-bay
+    urls:
+      html: https://www.givefood.org.uk/needs/at/morecambe-bay/
+      self: https://www.givefood.org.uk/api/2/foodbank/morecambe-bay/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCg0PNgnyMw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: a16bd0fa
+  needs: 'Fruit Juice
+
+    Long Life Milk
+
+    Sponge Puddings
+
+    Jam, Peanut Butter And Honey
+
+    Tinned Fish
+
+    Tinned Meat
+
+    Instant Mash Potato
+
+    Wrapped Biscuits
+
+    Coffee
+
+    Pasta Sauce'
+  self: https://www.givefood.org.uk/api/2/needs/a16bd0fa/
+- foodbank:
     name: South & East Bristol
     slug: south-east-bristol
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCgwmJgCroQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 3276a1ba
   needs: 'Tinned Fruit
 
@@ -3631,38 +3662,3 @@
 
     Shower Gel'
   self: https://www.givefood.org.uk/api/2/needs/ca89d249/
-- foodbank:
-    name: Alton
-    slug: alton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/alton/
-      self: https://www.givefood.org.uk/api/2/foodbank/alton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGAQ0XAAEAKQ==
-  - *id001
-  id: 9e7dadcd
-  needs: 'Soup
-
-    Tinned Rice Pudding
-
-    Tinned Custard
-
-    Tinned Meat (Pies, Stewing Steak, Hot Dogs)
-
-    Tuna
-
-    Sponge Puddings (Long Life)
-
-    Pasta Sauce
-
-    UHT Milk
-
-    Fruit Juice (Long Life)
-
-    Cereal
-
-    Laundry Conditioner
-
-    Sanitary Towels / Pads'
-  self: https://www.givefood.org.uk/api/2/needs/9e7dadcd/
