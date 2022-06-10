@@ -1,4 +1,39 @@
 - foodbank:
+    name: Bognor Regis
+    slug: bognor-regis
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bognor-regis/
+      self: https://www.givefood.org.uk/api/2/foodbank/bognor-regis/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCg45FwGVxg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 09f60a1e
+  needs: 'Tinned Fruit
+
+    Pasta Sauces
+
+    Tinned Meat
+
+    1 Ltr UHT Fruit Juice
+
+    Tinned Veg (Carrots & Peas)
+
+    Tinned Soup
+
+    Jam/spreads
+
+    Toilet Roll
+
+    1 Ltr UHT Milk
+
+    Biscuits'
+  self: https://www.givefood.org.uk/api/2/needs/09f60a1e/
+- foodbank:
     name: Morecambe Bay
     slug: morecambe-bay
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCg0PNgnyMw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a16bd0fa
   needs: 'Fruit Juice
 
@@ -3631,34 +3662,3 @@
 
     Washing Detergent'
   self: https://www.givefood.org.uk/api/2/needs/d96103cb/
-- foodbank:
-    name: Chichester District
-    slug: chichester-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chichester-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGAQ0dGwNDXw==
-  - *id001
-  id: ca89d249
-  needs: 'Pasta/cooking Sauces
-
-    Tinned Fruit
-
-    Tinned Vegetables
-
-    Jam/spread
-
-    Rice Pudding And Custard
-
-    Tinned Tomatoes
-
-    Tinned Soup
-
-    Tinned Meat
-
-    Long Life Milk
-
-    Shower Gel'
-  self: https://www.givefood.org.uk/api/2/needs/ca89d249/
