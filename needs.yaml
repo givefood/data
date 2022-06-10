@@ -1,4 +1,39 @@
 - foodbank:
+    name: South & East Bristol
+    slug: south-east-bristol
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCgwmJgCroQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 3276a1ba
+  needs: 'Tinned Fruit
+
+    Jam
+
+    Washing Powder/tabs
+
+    Fruit Juice (Long Life)
+
+    Milk (Long Life )
+
+    Instant Mash
+
+    Tinned Veggie Meals
+
+    Tinned Vegetables
+
+    Shampoo
+
+    Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/3276a1ba/
+- foodbank:
     name: Stow Park Community Centre
     slug: stow-park-community-centre
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCRIwGAoPHA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1053e0a3
   needs: 'Tinned Vegetables
 
@@ -3635,46 +3666,3 @@
 
     Sanitary Towels / Pads'
   self: https://www.givefood.org.uk/api/2/needs/9e7dadcd/
-- foodbank:
-    name: Braintree Area
-    slug: braintree-area
-    urls:
-      html: https://www.givefood.org.uk/needs/at/braintree-area/
-      self: https://www.givefood.org.uk/api/2/foodbank/braintree-area/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGAQwCBQihrA==
-  - *id001
-  id: 832e131b
-  needs: 'Urgent Food Items
-
-    Tinned Tomatoes
-
-    Instant Mashed Potato
-
-    Tinned Vegetables
-
-    Tinned Fruit
-
-    Pasta Sauce (Jar)
-
-    Jam
-
-    Tinned Cold Meat
-
-    Sponge Pudding (Twin Pack)
-
-    Strong Carrier Bags
-
-    Tea (80 Max Please)
-
-    Tinned Spaghetti
-
-    Rice Pudding
-
-    Chocolate
-
-    Long Life Milk (1 Litre)
-
-    Juice (1 Litre Max Please)'
-  self: https://www.givefood.org.uk/api/2/needs/832e131b/
