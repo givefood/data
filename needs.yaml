@@ -1,4 +1,77 @@
 - foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGChMcHAvhBQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: e23df121
+  needs: 'Tinned Fruit
+
+    Cup-a-soups
+
+    Tomato Ketchup And Brown Sauce
+
+    UHT Milk Especially Whole Milk
+
+    Long-life (Not Chilled!) Fruit Juice
+
+    Squash
+
+    Instant Coffee
+
+    Tinned Carrots
+
+    Tinned Potatoes
+
+    Instant Mash
+
+    Sponge Puddings
+
+    Jellies/jelly Blocks
+
+    Tinned Custard
+
+    Crisps
+
+    Gluten-free Items Other Than Pasta
+
+    Shaving Foam/gel
+
+    Shampoo & Conditioner - Adult And Child
+
+    Bubble Bath, Bath Soak Etc. - Adult And Child
+
+    Washing Up Liquid
+
+    Bottles Of Washing Detergent
+
+    Children''s (Not Baby) Shampoo
+
+    Baby Oil
+
+    Baby Lotion
+
+    Baby Soap
+
+    Baby Wash
+
+    Adult Shampoo & Conditioner
+
+    Liquid Hand Soap
+
+    Small Packs Of Toilet Rolls - 2s, 4s, 6s.
+
+    Dried Dog Food'
+  self: https://www.givefood.org.uk/api/2/needs/e23df121/
+- foodbank:
     name: Callington
     slug: callington
     urls:
@@ -7,11 +80,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGChEwJAcb0g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 663ec6e1
   needs: 'Dried Mash Potatoes
 
@@ -3619,24 +3688,3 @@
 
     Rice Pudding'
   self: https://www.givefood.org.uk/api/2/needs/85a8f5da/
-- foodbank:
-    name: Banbury
-    slug: banbury
-    urls:
-      html: https://www.givefood.org.uk/needs/at/banbury/
-      self: https://www.givefood.org.uk/api/2/foodbank/banbury/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGAQ0zHAofag==
-  - *id001
-  id: 64fa2385
-  needs: 'Tinned Fruit
-
-    Long Life Juice
-
-    Long Life Milk
-
-    Tinned Vegetables
-
-    Rice Pudding'
-  self: https://www.givefood.org.uk/api/2/needs/64fa2385/
