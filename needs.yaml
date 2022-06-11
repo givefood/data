@@ -1,4 +1,29 @@
 - foodbank:
+    name: Jubilee Storehouse
+    slug: jubilee-storehouse
+    urls:
+      html: https://www.givefood.org.uk/needs/at/jubilee-storehouse/
+      self: https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGCwsOLQCBdA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: ce2c5cca
+  needs: 'Weetabix
+
+    Porridge Sachets
+
+    Tinned Soup
+
+    Tinned Ravioli Or Spaghetti Bolognese
+
+    Deodorant And Shower Gel For Men And Women'
+  self: https://www.givefood.org.uk/api/2/needs/ce2c5cca/
+- foodbank:
     name: Ivybridge
     slug: ivybridge
     urls:
@@ -7,11 +32,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCwo3IQdrSA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2c8d9fb2
   needs: 'Hair Shampoo
 
@@ -3579,66 +3600,3 @@
 
     Laundry Tablets⁠'
   self: https://www.givefood.org.uk/api/2/needs/f5710d44/
-- foodbank:
-    name: Somer Valley
-    slug: somer-valley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/somer-valley/
-      self: https://www.givefood.org.uk/api/2/foodbank/somer-valley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGARACHwThPg==
-  - *id001
-  id: 44731e3d
-  needs: 'Long Life Fruit Juice
-
-    Coffee
-
-    Sponge Puddings / Jellies
-
-    Tinned Custard
-
-    Biscuits
-
-    Meat Soup
-
-    Tomato Ketch-up And Brown Sauce
-
-    Sweet And Savoury Snacks
-
-    Pasta Sauce
-
-    Rice Pudding (Tinned)
-
-    Powdered Milk
-
-    Macaroni Cheese
-
-    Corned Beef
-
-    Jam
-
-    Fruit (Tinned)
-
-    Fish (Tinned)
-
-    Toothbrushes / Toothpaste (Adult And Children)
-
-    Toilet Cleaner
-
-    Cleaning Products
-
-    Washing Up Liquid
-
-    Shower Gel
-
-    Kitchen Rolls And Toilet Rolls
-
-    Shampoo And Conditioner
-
-    Deodorants
-
-    Washing Powder
-
-    Carrier Bags'
-  self: https://www.givefood.org.uk/api/2/needs/44731e3d/
