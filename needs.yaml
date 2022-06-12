@@ -1,4 +1,35 @@
 - foodbank:
+    name: Widnes
+    slug: widnes
+    urls:
+      html: https://www.givefood.org.uk/needs/at/widnes/
+      self: https://www.givefood.org.uk/api/2/foodbank/widnes/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDBIuKQ6KWQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4dbe6098
+  needs: 'Tinned Vegetables
+
+    Rice
+
+    Sponge Puddings
+
+    Coffee And Tea
+
+    UHT Milk And Juice
+
+    Jam
+
+    Crisps
+
+    Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/4dbe6098/
+- foodbank:
     name: Sid Valley
     slug: sid-valley
     urls:
@@ -7,11 +38,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDAoQLAbMLw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1f757c26
   needs: 'Tinned Tomatoes
 
@@ -3631,24 +3658,3 @@
 
     Laundry Powder/gel'
   self: https://www.givefood.org.uk/api/2/needs/d8c5ed7e/
-- foodbank:
-    name: Southport
-    slug: southport
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southport/
-      self: https://www.givefood.org.uk/api/2/foodbank/southport/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGARAlNgJGFg==
-  - *id001
-  id: d13049cd
-  needs: 'Tinned Meat E.g. Ham, Corned Beef
-
-    Tinned Fruit
-
-    Rice Pudding
-
-    Tinned Custard
-
-    Rice'
-  self: https://www.givefood.org.uk/api/2/needs/d13049cd/
