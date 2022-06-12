@@ -1,87 +1,4 @@
 - foodbank:
-    name: Sid Valley
-    slug: sid-valley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/sid-valley/
-      self: https://www.givefood.org.uk/api/2/foodbank/sid-valley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDAoQLAbMLw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 1f757c26
-  needs: 'Tinned Tomatoes
-
-    Fruit Juice
-
-    Plain Rice
-
-    Puddings, Cakes, Desserts (Non-chilled)
-
-    Savoury Rice/noodles
-
-    Tinned Custard
-
-    Rice Cakes
-
-    Strong Bags
-
-    Tinned Meat
-
-    Tinned Vegetables
-
-    Tinned Fruit
-
-    Tinned Tomatoes
-
-    Soup
-
-    Longlife Milk
-
-    Fruit Juice (Not The Kind That Needs Refrigerating)
-
-    Jam/peanut Butter
-
-    Plain Rice
-
-    Savoury Rice
-
-    Savoury Noodles
-
-    Tea Bags
-
-    Instant Coffee
-
-    Tinned Tuna
-
-    Cereal Boxes
-
-    Custard (Tinned Or Cartons)
-
-    Tinned Rice Pudding
-
-    Biscuits/cake/puddings
-
-    Laundry Powder Etc
-
-    Nappies
-
-    Washing Up Liquid
-
-    Household Cleaning Spray/cream
-
-    Toothpaste
-
-    Shampoo
-
-    Shower Gel
-
-    Pet Food (Cat/dog)'
-  self: https://www.givefood.org.uk/api/2/needs/1f757c26/
-- foodbank:
     name: Jubilee Storehouse
     slug: jubilee-storehouse
     urls:
@@ -90,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGCwsOLQCBdA==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: ce2c5cca
   needs: 'Weetabix
 
@@ -3652,3 +3573,30 @@
 
     Rice'
   self: https://www.givefood.org.uk/api/2/needs/d13049cd/
+- foodbank:
+    name: Bassetlaw
+    slug: bassetlaw
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bassetlaw/
+      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGARAFGgiofA==
+  - *id001
+  id: f5710d44
+  needs: 'Tinned Carrots⁠
+
+    Coffee⁠
+
+    Jam⁠
+
+    Rice Pudding⁠
+
+    Tinned Spaghetti⁠
+
+    Long Life Milk⁠
+
+    Children’s Toothpaste⁠
+
+    Laundry Tablets⁠'
+  self: https://www.givefood.org.uk/api/2/needs/f5710d44/
