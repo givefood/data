@@ -1,4 +1,39 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDRIKLw8JTg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 1328fb3e
+  needs: 'Pasta/cooking Sauces
+
+    Tinned Fruit
+
+    Tinned Vegetables
+
+    Jam/spread
+
+    Rice Pudding And Custard
+
+    Toilet Roll
+
+    Tinned Tomatoes
+
+    Tinned Soup
+
+    Tinned Meat
+
+    Long Life Milk'
+  self: https://www.givefood.org.uk/api/2/needs/1328fb3e/
+- foodbank:
     name: Cambridge City
     slug: cambridge-city
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDRAxJgNRqw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5e5b2017
   needs: 'Tinned Fish
 
@@ -3387,80 +3418,3 @@
 
     Toothbrushes (Adult & Children''s)'
   self: https://www.givefood.org.uk/api/2/needs/f9e81106/
-- foodbank:
-    name: B30
-    slug: b30
-    urls:
-      html: https://www.givefood.org.uk/needs/at/b30/
-      self: https://www.givefood.org.uk/api/2/foodbank/b30/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBQoVDQYS1A==
-  - *id001
-  id: 0f8e3e07
-  needs: 'Tinned Tomatoes
-
-    Pasta Sauce
-
-    Cereal(not Greater Than 500gm)
-
-    Tinned Fish
-
-    Tinned Fruit In Juice(not Prunes Or Grapefruit)
-
-    Crisps
-
-    Rice
-
-    Toilet Rolls
-
-    Strong Carrier Bags
-
-    Tinned Potatoes
-
-    Tinned Spaghetti
-
-    Squash
-
-    Long Life Fruit Juice
-
-    UHT Semi Skimmed Milk
-
-    Dog/cat Food
-
-    Instant Hot Chocolate (Made Up With Water Not Milk)
-
-    Instant Coffee (Not Decaf)
-
-    Porridge
-
-    Ready Made Custard Tins Or Cartons Not Powder
-
-    UHT Whole Milk
-
-    Tinned Rice Pudding
-
-    Tinned Meat (Ham, Corned Beef, Chopped Pork, Meat Chunks In Sauce)
-
-    Small Packets Of Tea Bags (40’s And 80’s)
-
-    Jam, Honey
-
-    Biscuits
-
-    Chocolate And Snack Bars
-
-    Liquid Or Bar Soap
-
-    Laundry Liquid Or Powder (Not Family Sized)
-
-    Gender Neutral Shower-gel
-
-    Gender Neutral Shampoo
-
-    Sugar (500g Bags Not Larger)
-
-    Toothpaste
-
-    Single Or Duo Wrapped Toothbrushes'
-  self: https://www.givefood.org.uk/api/2/needs/0f8e3e07/
