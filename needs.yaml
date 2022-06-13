@@ -1,4 +1,39 @@
 - foodbank:
+    name: Littlehampton & District
+    slug: littlehampton-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/littlehampton-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/littlehampton-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDRMeIAKFog==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 1cb62d60
+  needs: 'Tinned Vegetables
+
+    UHT Milk
+
+    Squash & UHT Fruit Juice
+
+    Hot Chocolate
+
+    Tinned Meals
+
+    Rice
+
+    Sugar
+
+    Shower Gel & Shampoo
+
+    Tin Openers
+
+    Strong Carrier Bags'
+  self: https://www.givefood.org.uk/api/2/needs/1cb62d60/
+- foodbank:
     name: Grantham
     slug: grantham
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDRMFLwb0TA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d3267e81
   needs: 'Sponge Puddings
 
@@ -3357,34 +3388,3 @@
 
     Shampoo And/or Conditioner'
   self: https://www.givefood.org.uk/api/2/needs/e7da3ad0/
-- foodbank:
-    name: Exmouth
-    slug: exmouth
-    urls:
-      html: https://www.givefood.org.uk/needs/at/exmouth/
-      self: https://www.givefood.org.uk/api/2/foodbank/exmouth/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBRQzBQXK7w==
-  - *id001
-  id: 22dc75a8
-  needs: 'Tins Of Baked Beans/spaghetti
-
-    Breakfast Cereals/porridge Oats
-
-    Tins Or Packets Of Soups
-
-    Dried Instant Potato
-
-    Pasta Sauce
-
-    Rice Pudding Or Custard
-
-    Tins Of Fruit
-
-    Tomatoes (Tins/cartons/tubs)
-
-    Tinned Vegetables ( E.g. Peas, Sweetcorn, Beans, Mixed)
-
-    Tea Bags'
-  self: https://www.givefood.org.uk/api/2/needs/22dc75a8/
