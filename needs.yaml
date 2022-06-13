@@ -1,4 +1,37 @@
 - foodbank:
+    name: Llanelli
+    slug: llanelli
+    urls:
+      html: https://www.givefood.org.uk/needs/at/llanelli/
+      self: https://www.givefood.org.uk/api/2/foodbank/llanelli/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDQkyKwPD6A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4763deef
+  needs: 'Tinned Sweetcorn
+
+    Tinned Potatoes
+
+    Small Bottles Of Squash
+
+    Jar Sauces
+
+    UHT Milk
+
+    Chocolate/sweets
+
+    Small Coffee Jars
+
+    40 Pack Of Tea Bags
+
+    Tinned Fish'
+  self: https://www.givefood.org.uk/api/2/needs/4763deef/
+- foodbank:
     name: Devizes & District
     slug: devizes-district
     urls:
@@ -7,11 +40,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDQkJIwLZ1A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 9bf9c7b9
   needs: 'Long Life Milk
 
@@ -3585,56 +3614,3 @@
 
     Washing Tablets'
   self: https://www.givefood.org.uk/api/2/needs/81685fb6/
-- foodbank:
-    name: Epping Forest
-    slug: epping-forest
-    urls:
-      html: https://www.givefood.org.uk/needs/at/epping-forest/
-      self: https://www.givefood.org.uk/api/2/foodbank/epping-forest/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGARMKNQLe5g==
-  - *id001
-  id: ac7249c4
-  needs: 'Tinned Tomatoes
-
-    Pasta Sauce
-
-    Tinned Spaghetti
-
-    Sponge Puddings
-
-    Instant Mash
-
-    Rice Pudding
-
-    Custard
-
-    Jam
-
-    Sm/med Jar Of Coffee
-
-    Tinned Fruit
-
-    Packet Noodles
-
-    Snack Bars/ Breakfast Bars
-
-    Chocolate Spread
-
-    Chocolate Bars
-
-    Tomato Sauce
-
-    Brown Sauce
-
-    Shower Gel
-
-    Washing Up Liquid
-
-    Toilet Paper
-
-    Shampoo And Conditioner
-
-    Deodorant'
-  self: https://www.givefood.org.uk/api/2/needs/ac7249c4/
