@@ -1,4 +1,37 @@
 - foodbank:
+    name: Devizes & District
+    slug: devizes-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/devizes-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/devizes-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDQkJIwLZ1A==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9bf9c7b9
+  needs: 'Long Life Milk
+
+    Tinned Rice Pudding
+
+    Long Life Fruit Juice
+
+    Long Life Sponge Puddings
+
+    Instant Mash Potato
+
+    Shower Gel
+
+    Tinned Custard
+
+    Shampoo
+
+    Deodorant (Men''s And Ladies'')'
+  self: https://www.givefood.org.uk/api/2/needs/9bf9c7b9/
+- foodbank:
     name: Widnes
     slug: widnes
     urls:
@@ -7,11 +40,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDBIuKQ6KWQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 4dbe6098
   needs: 'Tinned Vegetables
 
@@ -3609,52 +3638,3 @@
 
     Deodorant'
   self: https://www.givefood.org.uk/api/2/needs/ac7249c4/
-- foodbank:
-    name: Towcester
-    slug: towcester
-    urls:
-      html: https://www.givefood.org.uk/needs/at/towcester/
-      self: https://www.givefood.org.uk/api/2/foodbank/towcester/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGARAmIQlDmw==
-  - *id001
-  id: d8c5ed7e
-  needs: 'Tins Of Tomatoes (Chopped Or Whole)
-
-    Tins Of Meat (Stews, Mince Beef, Etc.)
-
-    Tins Of Fish
-
-    Tins Of Fruit
-
-    Tins Of Carrots
-
-    Rice
-
-    Pasta
-
-    Pasta Sauces
-
-    Instant Coffee
-
-    Jam
-
-    Packets Of Soup (4 Sachets)
-
-    Tins Of Rice Pudding And Custard
-
-    Sponge Puddings
-
-    Biscuits And Crackers (E.g. Tuc Or Cream Crackers)
-
-    Shampoo
-
-    Shower Gel
-
-    Razors
-
-    Washing Up Liquid
-
-    Laundry Powder/gel'
-  self: https://www.givefood.org.uk/api/2/needs/d8c5ed7e/
