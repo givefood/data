@@ -1,4 +1,46 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDQspJQjmKg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 528b3481
+  needs: 'Pot Noodles
+
+    Jams/preserves/spreads
+
+    Strong Shopping Bags'
+  self: https://www.givefood.org.uk/api/2/needs/528b3481/
+- foodbank:
+    name: Southend
+    slug: southend
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southend/
+      self: https://www.givefood.org.uk/api/2/foodbank/southend/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDQsZDAOlXQ==
+  - *id001
+  id: b5ea3e68
+  needs: 'Tinned Fruit
+
+    UHT Milk
+
+    Meat Meals - Tinned Chilli, Curry, Chicken In Sauce Etc.
+
+    Jam
+
+    Vegetable Soup'
+  self: https://www.givefood.org.uk/api/2/needs/b5ea3e68/
+- foodbank:
     name: Llanelli
     slug: llanelli
     urls:
@@ -7,11 +49,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDQkyKwPD6A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 4763deef
   needs: 'Tinned Sweetcorn
 
@@ -3510,107 +3548,3 @@
 
     Tinned Vegetables'
   self: https://www.givefood.org.uk/api/2/needs/ffad8683/
-- foodbank:
-    name: Lutterworth and Villages
-    slug: lutterworth-and-villages
-    urls:
-      html: https://www.givefood.org.uk/needs/at/lutterworth-and-villages/
-      self: https://www.givefood.org.uk/api/2/foodbank/lutterworth-and-villages/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGAgsSBQQAWw==
-  - *id001
-  id: f61edd39
-  needs: 'UHT Milk ( Whole Or Semi Only Please)
-
-    Tinned Meals, Spaghetti Bolognaise, Curry Etc
-
-    Tinned Spaghetti
-
-    Rice
-
-    Tinned Potatoes
-
-    Tinned Fruit
-
-    Sponge Puddings/angel Delight/jelly
-
-    Tinned Steak And Chicken ( Not Corned Beef Please)
-
-    Hot Chocolate
-
-    Cleaning Items
-
-    Meat Pastes
-
-    Laundry Items
-
-    Tinned Custard
-
-    Toothbrushes/toothpaste/deodorant
-
-    Dog Food'
-  self: https://www.givefood.org.uk/api/2/needs/f61edd39/
-- foodbank:
-    name: Newark
-    slug: newark
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newark/
-      self: https://www.givefood.org.uk/api/2/foodbank/newark/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGARMuGwkaeg==
-  - *id001
-  id: 81685fb6
-  needs: 'Long Life Fruit Juice
-
-    Tinned Spaghetti
-
-    Instant Mashed Potato
-
-    Tinned Cold Meat
-
-    500g Sugar
-
-    Tinned Rice Pudding
-
-    Sponge Puddings - Tinned Or Microwaveable
-
-    Washing-up Liquid
-
-    Shampoo
-
-    Hand Wash
-
-    Women''s Deodorant
-
-    Tinned Fish
-
-    Tinned Meat - Serve Hot (Eg: Stew)
-
-    Pasta Sauce
-
-    Tinned Potatoes
-
-    Tinned Carrots
-
-    Tinned Peas
-
-    Tinned Fruit
-
-    Biscuits
-
-    Long Life Milk
-
-    Marmalade
-
-    Chocolate Biscuits Eg: Kitkat
-
-    Toilet Roll
-
-    Toiletries
-
-    Toothpaste
-
-    Washing Tablets'
-  self: https://www.givefood.org.uk/api/2/needs/81685fb6/
