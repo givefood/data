@@ -1,4 +1,39 @@
 - foodbank:
+    name: Clifton NG11
+    slug: clifton-ng11
+    urls:
+      html: https://www.givefood.org.uk/needs/at/clifton-ng11/
+      self: https://www.givefood.org.uk/api/2/foodbank/clifton-ng11/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDg8lEAi0tw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5f8a99fd
+  needs: 'Soup
+
+    Jam
+
+    Custard
+
+    Tinned Meat
+
+    Juice / Squash
+
+    Coffee
+
+    UHT Milk
+
+    Instant Mashed Potato
+
+    Tinned Tomatoes
+
+    Tinned Sweetcorn'
+  self: https://www.givefood.org.uk/api/2/needs/5f8a99fd/
+- foodbank:
     name: Basingstoke
     slug: basingstoke
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDg4gIwHXcA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1708e804
   needs: 'Long Life UHT Milk
 
@@ -3413,36 +3444,3 @@
 
     Carrier Bags'
   self: https://www.givefood.org.uk/api/2/needs/3ac59850/
-- foodbank:
-    name: Glasgow NE
-    slug: glasgow-ne
-    urls:
-      html: https://www.givefood.org.uk/needs/at/glasgow-ne/
-      self: https://www.givefood.org.uk/api/2/foodbank/glasgow-ne/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBgwKNAoqIw==
-  - *id001
-  id: 6bd8569b
-  needs: 'Biscuits
-
-    UHT Milk
-
-    Tinned Fruit
-
-    Tinned Tomatoes
-
-    Women''s Deoderant
-
-    Shampoo
-
-    Tinned Fruit
-
-    Toothpaste
-
-    Custard/rice Pudding
-
-    Diluting Juice
-
-    Heavy Duty Carriers Bags'
-  self: https://www.givefood.org.uk/api/2/needs/6bd8569b/
