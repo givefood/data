@@ -1,4 +1,78 @@
 - foodbank:
+    name: Basingstoke
+    slug: basingstoke
+    urls:
+      html: https://www.givefood.org.uk/needs/at/basingstoke/
+      self: https://www.givefood.org.uk/api/2/foodbank/basingstoke/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDg4gIwHXcA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 1708e804
+  needs: 'Long Life UHT Milk
+
+    Long Life Fruit Juice
+
+    Tinned Fruit
+
+    Tinned Custard
+
+    Squash
+
+    Desserts / Puddings
+
+    Female Deodorant
+
+    Men''s Shaving Gel
+
+    Razors (Men''s And Ladies)'
+  self: https://www.givefood.org.uk/api/2/needs/1708e804/
+- foodbank:
+    name: East Elmbridge
+    slug: east-elmbridge
+    urls:
+      html: https://www.givefood.org.uk/needs/at/east-elmbridge/
+      self: https://www.givefood.org.uk/api/2/foodbank/east-elmbridge/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDg06EwcmRQ==
+  - *id001
+  id: 0d5c03fb
+  needs: 'Long Life Fruit Juice
+
+    Tinned Fruit
+
+    Tinned Potatoes
+
+    Custard
+
+    Rice Pudding
+
+    Jam And Other Spreads
+
+    Soup
+
+    UHT Semi-skimmed Milk
+
+    Washing Up Liquid
+
+    Shampoo And Conditioner Or 2in1!
+
+    Children''s Toothpaste
+
+    Razors And Shaving Foam
+
+    Laundry Tablets/capsules (Not Liquid Or Powder Please)
+
+    Deodorant
+
+    Toilet Roll'
+  self: https://www.givefood.org.uk/api/2/needs/0d5c03fb/
+- foodbank:
     name: Southampton Basics Bank
     slug: southampton-basics-bank
     urls:
@@ -7,11 +81,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDg0wKwGgiQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5ae8b45c
   needs: 'Cook-in Sauces (Jars & Packets)
 
@@ -3376,69 +3446,3 @@
 
     Heavy Duty Carriers Bags'
   self: https://www.givefood.org.uk/api/2/needs/6bd8569b/
-- foodbank:
-    name: Stratford Upon Avon
-    slug: stratford-upon-avon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stratford-upon-avon/
-      self: https://www.givefood.org.uk/api/2/foodbank/stratford-upon-avon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBgs0LwB7Lg==
-  - *id001
-  id: fcf0e437
-  needs: 'Fruit Juice - Longlife UHT
-
-    Tinned Ham
-
-    Pasta Sauce Jars
-
-    Noodles
-
-    Tinned Meatballs
-
-    Jellies
-
-    Instant Coffee - Small Jars
-
-    Biscuits
-
-    Chocolate/sweets
-
-    Savoury Snacks'
-  self: https://www.givefood.org.uk/api/2/needs/fcf0e437/
-- foodbank:
-    name: Penryn & Falmouth
-    slug: penryn-falmouth
-    urls:
-      html: https://www.givefood.org.uk/needs/at/penryn-falmouth/
-      self: https://www.givefood.org.uk/api/2/foodbank/penryn-falmouth/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBgsgOQ6hgw==
-  - *id001
-  id: 99a635c1
-  needs: 'Sweets/chocolate
-
-    Savoury Biscuits
-
-    Tinned Potatoes
-
-    Tinned Ham
-
-    Peanut Butter
-
-    Mustard
-
-    Honey
-
-    Soft Noodles
-
-    Oat Milk
-
-    Vegetarian/vegan Products
-
-    Dry Cat Food
-
-    Small Tins Of Meat - Ham/corned Beef'
-  self: https://www.givefood.org.uk/api/2/needs/99a635c1/
