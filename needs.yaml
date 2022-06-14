@@ -1,4 +1,89 @@
 - foodbank:
+    name: Southampton Basics Bank
+    slug: southampton-basics-bank
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
+      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDg0wKwGgiQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5ae8b45c
+  needs: 'Cook-in Sauces (Jars & Packets)
+
+    Custard
+
+    Hot Chocolate
+
+    Nappies Size 5+
+
+    Noodles (Packets)
+
+    Tinned Cold Meat (Ham, Spam, Etc.)
+
+    Tinned Fruit
+
+    Tinned Hot Meat (Curry, Pies, Stew, Etc.)
+
+    Tinned Mixed Veg
+
+    Tinned Rice Pudding
+
+    Tinned Sweetcorn
+
+    Toiletries (Toothpaste)
+
+    Sugar (Small Bags)
+
+    Coffee (Small Jars)
+
+    Gluten Free
+
+    Jams & Spreads
+
+    Nappies Size 3-4
+
+    Tinned Carrots
+
+    Tinned Kidney Beans & Pulses
+
+    Toiletries (Sanitary Products)
+
+    Toiletries (Toilet Rolls)
+
+    UHT Milk
+
+    Baby Food
+
+    Carrier Bags
+
+    Household Larder
+
+    Nappies Size 0 – 2
+
+    Rice
+
+    Squash & Drinks
+
+    Tinned Fish
+
+    Tinned Macaroni Cheese
+
+    Tinned Peas
+
+    Tinned Potatoes
+
+    Tinned Spaghetti (In Tomato Sauce)
+
+    Tinned Tomatoes
+
+    Toiletries (Shampoo)'
+  self: https://www.givefood.org.uk/api/2/needs/5ae8b45c/
+- foodbank:
     name: Gravesham
     slug: gravesham
     urls:
@@ -7,11 +92,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDg0KJwXD8w==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a7432a2c
   needs: 'Tin Sweetcorn
 
@@ -3361,26 +3442,3 @@
 
     Small Tins Of Meat - Ham/corned Beef'
   self: https://www.givefood.org.uk/api/2/needs/99a635c1/
-- foodbank:
-    name: Perth and Kinross
-    slug: perth-and-kinross
-    urls:
-      html: https://www.givefood.org.uk/needs/at/perth-and-kinross/
-      self: https://www.givefood.org.uk/api/2/foodbank/perth-and-kinross/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBgsXGgo1HQ==
-  - *id001
-  id: '46524219'
-  needs: 'Tinned Soup
-
-    Baked Beans
-
-    Small Tea And Coffee
-
-    Longlife Milk/juice
-
-    Tinned Puddings
-
-    Tinned Vegetables'
-  self: https://www.givefood.org.uk/api/2/needs/46524219/
