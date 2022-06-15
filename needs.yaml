@@ -1,4 +1,80 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDw4FFgK8Tw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 55ecb03d
+  needs: 'Pot Noodles
+
+    Microwavable Rice Pouches
+
+    Strong Shopping Bags
+
+    Baby Wipes
+
+    Tampax'
+  self: https://www.givefood.org.uk/api/2/needs/55ecb03d/
+- foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDw0NEwp0bg==
+  - *id001
+  id: b9c49498
+  needs: 'Tinned Meat / Meat Meals
+
+    Long Life Fruit Juice
+
+    Instant Mash
+
+    Shower Gel
+
+    Tinned Fruit
+
+    Snacks - Cereal Bars / Nuts / Dried Fruit Etc.
+
+    Coffee
+
+    UHT Long Life Milk
+
+    Tinned Vegetables
+
+    Ketchup
+
+    Mayo
+
+    Tinned Tomatoes
+
+    Tinned Fish
+
+    Pasta Sauce
+
+    Instant Mash
+
+    Sponge Puddings (Not Chilled)
+
+    Pot Noodle
+
+    Mug Shots
+
+    Squash
+
+    Tinned Custard Or Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/b9c49498/
+- foodbank:
     name: St Neots
     slug: st-neots
     urls:
@@ -7,11 +83,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDwweBgw29g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d548674b
   needs: 'Long Life Fruit Juice
 
@@ -3482,53 +3554,3 @@
 
     Savoury Snacks'
   self: https://www.givefood.org.uk/api/2/needs/28fae867/
-- foodbank:
-    name: Yeovil
-    slug: yeovil
-    urls:
-      html: https://www.givefood.org.uk/needs/at/yeovil/
-      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBhIgGQg9Tw==
-  - *id001
-  id: 38ce980c
-  needs: 'Tins Of Soup
-
-    Tins Of Spaghetti
-
-    Tins Of Carrots
-
-    Tins Of Peas
-
-    Tins Of Fruit
-
-    Tins Of Rice Pudding
-
-    Shower Gel
-
-    Bars Of Soap
-
-    Carrier Bags'
-  self: https://www.givefood.org.uk/api/2/needs/38ce980c/
-- foodbank:
-    name: Richmond
-    slug: richmond
-    urls:
-      html: https://www.givefood.org.uk/needs/at/richmond/
-      self: https://www.givefood.org.uk/api/2/foodbank/richmond/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBhEeGggVQw==
-  - *id001
-  id: 84875beb
-  needs: 'Female Deodorant
-
-    Razors
-
-    Washing Powder / Tablets
-
-    Nappies (Size 7)
-
-    Unwanted Carrier Bags'
-  self: https://www.givefood.org.uk/api/2/needs/84875beb/
