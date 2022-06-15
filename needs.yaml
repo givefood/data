@@ -1,4 +1,33 @@
 - foodbank:
+    name: Community Essentials
+    slug: community-essentials
+    urls:
+      html: https://www.givefood.org.uk/needs/at/community-essentials/
+      self: https://www.givefood.org.uk/api/2/foodbank/community-essentials/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDwQNCwkoyA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 923ad55e
+  needs: 'UHT Milk
+
+    Tea
+
+    Coffee
+
+    Cereal
+
+    Rice
+
+    Tinned Meat
+
+    Washing Powder/detergent'
+  self: https://www.givefood.org.uk/api/2/needs/923ad55e/
+- foodbank:
     name: Andover
     slug: andover
     urls:
@@ -7,11 +36,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDhIoDwpEpw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: bee43c92
   needs: 'Tinned Potatoes
 
@@ -3455,26 +3480,3 @@
 
     Laundry Powder/liquid'
   self: https://www.givefood.org.uk/api/2/needs/908e4441/
-- foodbank:
-    name: Chipping Barnet
-    slug: chipping-barnet
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chipping-barnet/
-      self: https://www.givefood.org.uk/api/2/foodbank/chipping-barnet/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBg0fFgaIbQ==
-  - *id001
-  id: 588b2ad7
-  needs: 'Juice
-
-    Rice Pudding / Custard
-
-    Cereal
-
-    Biscuits
-
-    Female Hygiene Products
-
-    Cooking Oil'
-  self: https://www.givefood.org.uk/api/2/needs/588b2ad7/
