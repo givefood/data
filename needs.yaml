@@ -1,4 +1,115 @@
 - foodbank:
+    name: Abergavenny
+    slug: abergavenny
+    urls:
+      html: https://www.givefood.org.uk/needs/at/abergavenny/
+      self: https://www.givefood.org.uk/api/2/foodbank/abergavenny/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDxAPGwmlbw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: da7f6bb3
+  needs: 'Toothpaste
+
+    Deodorant - Men And Women''s
+
+    Small Coffee
+
+    Fruit Juice
+
+    Long Life, Semi-skimmed Milk
+
+    Laundry Washing Machine Pods
+
+    Tinned Vegetables
+
+    Tinned Soup'
+  self: https://www.givefood.org.uk/api/2/needs/da7f6bb3/
+- foodbank:
+    name: Basingstoke
+    slug: basingstoke
+    urls:
+      html: https://www.givefood.org.uk/needs/at/basingstoke/
+      self: https://www.givefood.org.uk/api/2/foodbank/basingstoke/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDw8iAgo7aw==
+  - *id001
+  id: 28e56368
+  needs: 'Long Life UHT Milk
+
+    Powdered/dried Milk
+
+    Long Life Fruit Juice
+
+    Squash
+
+    Desserts / Puddings
+
+    Cooking Sauces
+
+    Washing Up Liquid
+
+    Ladies Shampoo'
+  self: https://www.givefood.org.uk/api/2/needs/28e56368/
+- foodbank:
+    name: Callington
+    slug: callington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/callington/
+      self: https://www.givefood.org.uk/api/2/foodbank/callington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDw8YKALIXA==
+  - *id001
+  id: 17a1a341
+  needs: 'Dried Mash Potatoes
+
+    Tinned Fruit
+
+    Tinned Peas
+
+    Tinned Sweetcorn
+
+    UHT Milk (Not Skimmed)
+
+    Jam
+
+    Sponge Puddings
+
+    Litre Cartons Of Fruit Juice
+
+    Small Jars Of Coffee
+
+    Lunchbox Items (Chocolate, Crisps)
+
+    Dishwashing Liquid
+
+    Washing Powder/tabs/liquid For Clothes
+
+    Mens Razors
+
+    Ladies Razors
+
+    Shaving Foam/gel
+
+    Kitchen Roll
+
+    Toilet Roll
+
+    Toothpaste
+
+    Toothbrushes
+
+    Shampoo
+
+    Shower Gel'
+  self: https://www.givefood.org.uk/api/2/needs/17a1a341/
+- foodbank:
     name: Skipton
     slug: skipton
     urls:
@@ -7,11 +118,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDw4FFgK8Tw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 55ecb03d
   needs: 'Pot Noodles
 
@@ -3489,68 +3596,3 @@
 
     Toiletries (Shampoo)'
   self: https://www.givefood.org.uk/api/2/needs/fbf7a0d2/
-- foodbank:
-    name: St John's Community
-    slug: st-johns-community
-    urls:
-      html: https://www.givefood.org.uk/needs/at/st-johns-community/
-      self: https://www.givefood.org.uk/api/2/foodbank/st-johns-community/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBwgPFgAZEg==
-  - *id001
-  id: 1d0d90be
-  needs: Unknown
-  self: https://www.givefood.org.uk/api/2/needs/1d0d90be/
-- foodbank:
-    name: Southend
-    slug: southend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southend/
-      self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBwciEQ6vCg==
-  - *id001
-  id: c97c203b
-  needs: 'Tinned Fruit
-
-    Meat Meals - Tinned Chilli, Curry, Meat Pie Etc.
-
-    Jam
-
-    Long Life Fruit Juice (Not Chilled)
-
-    Tinned Vegetables'
-  self: https://www.givefood.org.uk/api/2/needs/c97c203b/
-- foodbank:
-    name: Stratford Upon Avon
-    slug: stratford-upon-avon
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stratford-upon-avon/
-      self: https://www.givefood.org.uk/api/2/foodbank/stratford-upon-avon/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBhIjOAYfnA==
-  - *id001
-  id: 28fae867
-  needs: 'Tinned Fruit
-
-    Tinned Ham
-
-    Pasta Sauce Jars
-
-    Noodles
-
-    Tinned Meatballs
-
-    Jellies
-
-    Instant Coffee - Small Jars
-
-    Biscuits
-
-    Chocolate/sweets
-
-    Savoury Snacks'
-  self: https://www.givefood.org.uk/api/2/needs/28fae867/
