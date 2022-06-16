@@ -1,4 +1,71 @@
 - foodbank:
+    name: West Cheshire
+    slug: west-cheshire
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-cheshire/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-cheshire/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEAwXEwyX2Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: aac8d774
+  needs: 'UHT Milk
+
+    UHT Juice
+
+    Instant Coffee Small Jars
+
+    Instant Mash / Tinned Potatoes
+
+    Instant Pasta / Instant Noodles
+
+    Tinned Meats
+
+    Tinned Tomatoes
+
+    Tinned Spaghetti
+
+    Custard
+
+    Cooking Oil
+
+    Carrier Bags
+
+    Tinned Meat / Fish
+
+    Tinned Vegetables
+
+    Tinned Potatoes
+
+    Tinned Tomatoes
+
+    Cuppa Soups
+
+    Pot Noodles/super Noodles
+
+    Instant Pasta (Pasta And Sauce)
+
+    Pasta Sauce
+
+    Instant Mashed Potato
+
+    Tinned / Instant Custard
+
+    Tinned Fruit
+
+    Biscuits
+
+    UHT Milk
+
+    UHT Fruit Juice
+
+    Instant Coffee'
+  self: https://www.givefood.org.uk/api/2/needs/aac8d774/
+- foodbank:
     name: Basingstoke
     slug: basingstoke
     urls:
@@ -7,11 +74,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEAsyDQ1fMg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 352d8a21
   needs: 'Long Life UHT Milk
 
@@ -3513,34 +3576,3 @@
 
     Shampoo'
   self: https://www.givefood.org.uk/api/2/needs/24bdaa91/
-- foodbank:
-    name: Bradford North
-    slug: bradford-north
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bradford-north/
-      self: https://www.givefood.org.uk/api/2/foodbank/bradford-north/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBwo2OwfGkg==
-  - *id001
-  id: e4b9d46e
-  needs: 'Juice, Long Life - Urgently Needed!
-
-    Milk UHT (Whole Or Semi-skimmed)
-
-    Shampoo
-
-    Deodorant
-
-    Steamed Puddings
-
-    Mashed Potato (Instant)
-
-    Fruit (Tinned)
-
-    Vegetables (Tinned)
-
-    Washing Up Liquid
-
-    Preserves - Jams, Honey, Peanut Butter, Etc'
-  self: https://www.givefood.org.uk/api/2/needs/e4b9d46e/
