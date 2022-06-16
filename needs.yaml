@@ -1,4 +1,67 @@
 - foodbank:
+    name: Crowthorne
+    slug: crowthorne
+    urls:
+      html: https://www.givefood.org.uk/needs/at/crowthorne/
+      self: https://www.givefood.org.uk/api/2/foodbank/crowthorne/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEBAMHgoXNA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5ca96063
+  needs: 'Baked Beans
+
+    Tinned Tomatoes
+
+    Long Life Milk
+
+    Long Life Milk
+
+    Carton Juice
+
+    Cup A Soup
+
+    Jam
+
+    Porridge
+
+    Cleaning Products
+
+    Washing Tablets
+
+    Bin Bags
+
+    Bleach
+
+    Anti Bacterial Spray
+
+    Soap Bars
+
+    Washing Up Liquid
+
+    J Clothes
+
+    Sanitary Products
+
+    Hair Conditioner
+
+    Adult Toothbrushes
+
+    Ladies Deodrant
+
+    Men''s Deodorant
+
+    Mens Shower Gel
+
+    Adult Toothpaste
+
+    Children Toothpaste'
+  self: https://www.givefood.org.uk/api/2/needs/5ca96063/
+- foodbank:
     name: Romsey
     slug: romsey
     urls:
@@ -7,11 +70,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEA45HwP4iQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 462041f3
   needs: 'Long Life Milk
 
@@ -3556,42 +3615,3 @@
 
     Deodorant'
   self: https://www.givefood.org.uk/api/2/needs/3db9dd6d/
-- foodbank:
-    name: Kinson & West Howe
-    slug: kinson-west-howe
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kinson-west-howe/
-      self: https://www.givefood.org.uk/api/2/foodbank/kinson-west-howe/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCA4aFgWgZw==
-  - *id001
-  id: c23947e7
-  needs: 'Tinned Carrots
-
-    Jam
-
-    Tinned Peas
-
-    Tinned Sweetcorn
-
-    Tinned Mixed Beans
-
-    Lentils
-
-    Tinned Meat
-
-    Pasta Sauce
-
-    Puddings
-
-    Crisps
-
-    Sweets
-
-    Shower Gel
-
-    Deodorant - Male & Female
-
-    Shampoo'
-  self: https://www.givefood.org.uk/api/2/needs/c23947e7/
