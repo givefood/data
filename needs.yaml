@@ -1,4 +1,52 @@
 - foodbank:
+    name: Farnworth & Kearsley
+    slug: farnworth-kearsley
+    urls:
+      html: https://www.givefood.org.uk/needs/at/farnworth-kearsley/
+      self: https://www.givefood.org.uk/api/2/foodbank/farnworth-kearsley/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEBAqFAFDAA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: f0a11951
+  needs: 'Tinned Fruit
+
+    Tinned Rice Pudding
+
+    Tinned Tomatoes
+
+    Tinned Carrots
+
+    Tinned Sweetcorn
+
+    Tinned Meat
+
+    Tinned Fish
+
+    Coffee'
+  self: https://www.givefood.org.uk/api/2/needs/f0a11951/
+- foodbank:
+    name: Berwick
+    slug: berwick
+    urls:
+      html: https://www.givefood.org.uk/needs/at/berwick/
+      self: https://www.givefood.org.uk/api/2/foodbank/berwick/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEBAfIAPKyA==
+  - *id001
+  id: 1859e280
+  needs: 'Toothbrushes
+
+    2 In 1 Shampoo And Conditioner
+
+    Long Life Milk'
+  self: https://www.givefood.org.uk/api/2/needs/1859e280/
+- foodbank:
     name: Crowthorne
     slug: crowthorne
     urls:
@@ -7,11 +55,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEBAMHgoXNA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5ca96063
   needs: 'Baked Beans
 
@@ -3555,63 +3599,3 @@
 
     Squash'
   self: https://www.givefood.org.uk/api/2/needs/f71e0000/
-- foodbank:
-    name: Eastbourne
-    slug: eastbourne
-    urls:
-      html: https://www.givefood.org.uk/needs/at/eastbourne/
-      self: https://www.givefood.org.uk/api/2/foodbank/eastbourne/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCA82DgMUEg==
-  - *id001
-  id: 63129d8f
-  needs: 'Pasta Sauce ( Bolognaise Sauce Or Ragu Sauce)
-
-    Custard
-
-    Shampoo
-
-    Jam Or Other Spreads
-
-    Tinned Fish (Not Tuna)
-
-    Small Bags Of Sugar'
-  self: https://www.givefood.org.uk/api/2/needs/63129d8f/
-- foodbank:
-    name: Barnsley
-    slug: barnsley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/barnsley/
-      self: https://www.givefood.org.uk/api/2/foodbank/barnsley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCA8lOgPpgg==
-  - *id001
-  id: 3db9dd6d
-  needs: 'Tinned/packet Potatoes
-
-    Rice Pudding
-
-    Tea/coffee
-
-    Rice
-
-    Pasta Sauce
-
-    Biscuits
-
-    Tinned Meat
-
-    Tinned Spaghetti/hoops
-
-    Shower Gel
-
-    Toothbrushes
-
-    Toothpaste
-
-    Toilet Rolls
-
-    Deodorant'
-  self: https://www.givefood.org.uk/api/2/needs/3db9dd6d/
