@@ -1,4 +1,64 @@
 - foodbank:
+    name: Basingstoke
+    slug: basingstoke
+    urls:
+      html: https://www.givefood.org.uk/needs/at/basingstoke/
+      self: https://www.givefood.org.uk/api/2/foodbank/basingstoke/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEAsyDQ1fMg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 352d8a21
+  needs: 'Long Life UHT Milk
+
+    Powdered/dried Milk
+
+    Long Life Fruit Juice
+
+    Tinned Cold Meat (Ham, Corned Beef Etc)
+
+    Squash
+
+    Desserts / Puddings
+
+    Cooking Sauces
+
+    Washing Up Liquid
+
+    Ladies Shampoo'
+  self: https://www.givefood.org.uk/api/2/needs/352d8a21/
+- foodbank:
+    name: Newcastle West End
+    slug: newcastle-west-end
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newcastle-west-end/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-west-end/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEAoXHQWmcA==
+  - *id001
+  id: 8e9b8c8d
+  needs: 'Tinned Fruit
+
+    Long-life (UHT) Milk
+
+    Instant Mash
+
+    Tinned Tomatoes
+
+    Tea
+
+    Coffee
+
+    Soup
+
+    Rice'
+  self: https://www.givefood.org.uk/api/2/needs/8e9b8c8d/
+- foodbank:
     name: Abergavenny
     slug: abergavenny
     urls:
@@ -7,11 +67,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGDxAPGwmlbw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: da7f6bb3
   needs: 'Toothpaste
 
@@ -3488,111 +3544,3 @@
 
     Preserves - Jams, Honey, Peanut Butter, Etc'
   self: https://www.givefood.org.uk/api/2/needs/e4b9d46e/
-- foodbank:
-    name: Bognor Regis
-    slug: bognor-regis
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bognor-regis/
-      self: https://www.givefood.org.uk/api/2/foodbank/bognor-regis/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBwkoFgT9bw==
-  - *id001
-  id: 3e76d084
-  needs: 'Tinned Soup
-
-    Tinned Fruit
-
-    Tinned Meat/fish
-
-    Jams & Spreads
-
-    Toilet Roll
-
-    Long Life Fruit Juice & Milk Cartons (1ltr)
-
-    Pasta Sauces
-
-    Instant Mashed Potato
-
-    Tinned Veg (Carrots & Peas)
-
-    Kitchen Roll'
-  self: https://www.givefood.org.uk/api/2/needs/3e76d084/
-- foodbank:
-    name: Southampton Basics Bank
-    slug: southampton-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBwkWOQJuCQ==
-  - *id001
-  id: fbf7a0d2
-  needs: 'Tinned Hot Meat (Curry, Pies, Stew, Etc.)
-
-    Tinned Cold Meat (Ham, Spam, Etc.)
-
-    Cook-in Sauces (Jars & Packets)
-
-    Tinned Fruit
-
-    Custard
-
-    Hot Chocolate
-
-    Noodles (Packets)
-
-    Tinned Mixed Veg
-
-    Tinned Rice Pudding
-
-    Tinned Sweetcorn
-
-    Sugar (Small Bags)
-
-    Coffee (Small Jars)
-
-    Toiletries (Toilet Rolls)
-
-    Jams & Spreads
-
-    Pet Food (Dogs)
-
-    Tinned Carrots
-
-    Toiletries (Sanitary Products)
-
-    UHT Milk
-
-    Gluten Free
-
-    Rice
-
-    Baby Food
-
-    Carrier Bags
-
-    Household Larder
-
-    Nappies Size 4 – 6
-
-    Squash & Drinks
-
-    Tinned Fish
-
-    Tinned Kidney Beans & Pulses
-
-    Tinned Macaroni Cheese
-
-    Tinned Peas
-
-    Tinned Potatoes
-
-    Tinned Spaghetti (In Tomato Sauce)
-
-    Tinned Tomatoes
-
-    Toiletries (Shampoo)'
-  self: https://www.givefood.org.uk/api/2/needs/fbf7a0d2/
