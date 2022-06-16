@@ -1,4 +1,39 @@
 - foodbank:
+    name: South & East Bristol
+    slug: south-east-bristol
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEA0cFANVbw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 3051c6de
+  needs: 'Custard
+
+    Shampoo
+
+    Conditioner
+
+    Instant Mash
+
+    Jam
+
+    Milk (Long Life )
+
+    Fruit Juice (Long Life)
+
+    Savoury Snacks I.e. Crisps/noodles
+
+    Tinned Veggie Meals
+
+    Cereal'
+  self: https://www.givefood.org.uk/api/2/needs/3051c6de/
+- foodbank:
     name: West Cheshire
     slug: west-cheshire
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEAwXEwyX2Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: aac8d774
   needs: 'UHT Milk
 
@@ -3541,38 +3572,3 @@
 
     Long-life Milk'
   self: https://www.givefood.org.uk/api/2/needs/9313eed5/
-- foodbank:
-    name: Ashby
-    slug: ashby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ashby/
-      self: https://www.givefood.org.uk/api/2/foodbank/ashby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGBwsnGQjbIg==
-  - *id001
-  id: 24bdaa91
-  needs: 'Tinned Carrots, Sweetcorn Or Peas
-
-    Instant Mash/tinned Potatoes
-
-    Longlife Fruit Juice
-
-    Tinned Spaghetti
-
-    Tinned Tomatoes
-
-    Packet Or Tinned Custard
-
-    Instant Coffee
-
-    Tea
-
-    Tinned Fruit
-
-    Washing Tablets
-
-    Washing Up Liquid
-
-    Shampoo'
-  self: https://www.givefood.org.uk/api/2/needs/24bdaa91/
