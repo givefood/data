@@ -1,4 +1,62 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEQ0HIg6vIw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 496f2686
+  needs: 'Pot Noodles
+
+    Microwavable Rice Pouches
+
+    Strong Shopping Bags
+
+    Baby Wipes
+
+    Tampax
+
+    Jars Of Pasta Sauce'
+  self: https://www.givefood.org.uk/api/2/needs/496f2686/
+- foodbank:
+    name: Cheltenham
+    slug: cheltenham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheltenham/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheltenham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEQ0BNA4NNA==
+  - *id001
+  id: 422e8369
+  needs: 'Fruit Juice
+
+    Sweets
+
+    Chocolate
+
+    Jars Of Coffee
+
+    Deodorant
+
+    Shampoo
+
+    Shower Gel
+
+    Cold Tinned Meat
+
+    Noodles
+
+    Packet Desserts'
+  self: https://www.givefood.org.uk/api/2/needs/422e8369/
+- foodbank:
     name: King's Lynn
     slug: kings-lynn
     urls:
@@ -7,11 +65,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEQo1GQNN0Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c38182e6
   needs: 'Soup
 
@@ -3447,81 +3501,3 @@
 
     Children''s Toothpaste And Toothbrushes'
   self: https://www.givefood.org.uk/api/2/needs/8bdd6319/
-- foodbank:
-    name: Welshpool and District
-    slug: welshpool-and-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/welshpool-and-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/welshpool-and-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQYLJALJQQ==
-  - *id001
-  id: 4a62ae91
-  needs: 'Fruit Juice
-
-    Tinned Meat - Meals
-
-    Microwave Rice
-
-    Skimmed Milk Powder & Long Life Milk
-
-    Peanut Butter
-
-    Tinned Potatoes, Carrots, Garden Peas
-
-    Wash Powder
-
-    Toiletries + Toilet Paper
-
-    Tinned Fruit / Tinned Custard / Rice Pudding
-
-    Cereals
-
-    Sugar
-
-    Biscuits & Chocolate
-
-    Jam
-
-    Cleaning (Disinfectant, Washing Up Liquid, Dishcloths Etc)
-
-    Nappies Size 5,6,7, & Baby Wipes
-
-    Dog & Cat Food'
-  self: https://www.givefood.org.uk/api/2/needs/4a62ae91/
-- foodbank:
-    name: Daventry
-    slug: daventry
-    urls:
-      html: https://www.givefood.org.uk/needs/at/daventry/
-      self: https://www.givefood.org.uk/api/2/foodbank/daventry/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCBM5Ngks3g==
-  - *id001
-  id: b7ef84ff
-  needs: 'Jar Pasta Sauce
-
-    Tinned Curry (Various)
-
-    Meatballs
-
-    Tinned Stewed Steak
-
-    Tinned Carrots
-
-    Tinned Potatoes
-
-    Deodorant (Male & Female)
-
-    Washing Liquid
-
-    Conditioner
-
-    Shampoo
-
-    2 In 1 Shampoo & Conditioner
-
-    Toothpaste'
-  self: https://www.givefood.org.uk/api/2/needs/b7ef84ff/
