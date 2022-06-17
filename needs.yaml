@@ -1,4 +1,39 @@
 - foodbank:
+    name: Bassetlaw
+    slug: bassetlaw
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bassetlaw/
+      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEQoFAwmuDg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c16bfeb8
+  needs: 'Long Life Milk
+
+    Sugar
+
+    Jam
+
+    Tinned Chicken In White Sauce
+
+    Tinned Stewing Steak
+
+    Tinned Tuna
+
+    Tinned Ham
+
+    Tinned Corned Beef
+
+    Instant Mashed Potato
+
+    Shampoo'
+  self: https://www.givefood.org.uk/api/2/needs/c16bfeb8/
+- foodbank:
     name: Stornoway High Church
     slug: stornoway-high-church
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEQgbFQ30eA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2dccf234
   needs: Unknown
   self: https://www.givefood.org.uk/api/2/needs/2dccf234/
@@ -28,37 +59,6 @@
   id: 84d254b9
   needs: Unknown
   self: https://www.givefood.org.uk/api/2/needs/84d254b9/
-- foodbank:
-    name: Bassetlaw
-    slug: bassetlaw
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bassetlaw/
-      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQgQHw5aBA==
-  - *id001
-  id: fc081e8c
-  needs: 'Long Life Milk
-
-    Sugar
-
-    Jam
-
-    Tinned Chicken In White Sauce
-
-    Tinned Stewing Steak
-
-    Tinned Tuna
-
-    Tinned Ham
-
-    Tinned Corn Beef
-
-    Instant Mashed Potato
-
-    Shampoo'
-  self: https://www.givefood.org.uk/api/2/needs/fc081e8c/
 - foodbank:
     name: Runcorn District
     slug: runcorn-district
