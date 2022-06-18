@@ -1,4 +1,79 @@
 - foodbank:
+    name: Ribble Valley
+    slug: ribble-valley
+    urls:
+      html: https://www.givefood.org.uk/needs/at/ribble-valley/
+      self: https://www.givefood.org.uk/api/2/foodbank/ribble-valley/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEg0YFgDgqQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4c4e9c3b
+  needs: 'Long Life Fruit Juice
+
+    Sponge Puddings
+
+    Mashed Potato
+
+    Long Life Milk
+
+    Tinned Rice Pudding
+
+    Women''s Deodorant
+
+    Shampoo
+
+    Cordial
+
+    Coffee
+
+    Sugar
+
+    Fruit Juice (Carton)
+
+    Soup
+
+    Pasta Sauces
+
+    Tinned Tomatoes
+
+    Cereals
+
+    Rice Pudding (Tinned)
+
+    Tea Bags / Instant Coffee
+
+    Instant Mashed Potato
+
+    Rice
+
+    Pasta
+
+    Tinned Meat
+
+    Tinned Fish
+
+    Tinned Fruit
+
+    Jam
+
+    Biscuits Or Snack Bar
+
+    Nappies
+
+    Shower Gel
+
+    Shampoo
+
+    Deodorant
+
+    Washing Up Liquid'
+  self: https://www.givefood.org.uk/api/2/needs/4c4e9c3b/
+- foodbank:
     name: Wrexham
     slug: wrexham
     urls:
@@ -7,11 +82,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEgwVKA8yMQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 398bb7ee
   needs: 'Cartons Of Juice 1 Litre
 
@@ -3433,30 +3504,3 @@
 
     Tinned Meat And Tinned Meat Meals'
   self: https://www.givefood.org.uk/api/2/needs/0dd8f040/
-- foodbank:
-    name: Southwark
-    slug: southwark
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southwark/
-      self: https://www.givefood.org.uk/api/2/foodbank/southwark/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQYuOwh3kw==
-  - *id001
-  id: 14a692e5
-  needs: 'Cereal
-
-    Tinned Pork
-
-    Tinned Fruit
-
-    Jam
-
-    Tinned Fish
-
-    Tinned Vegetarian Options
-
-    Rice 1kg Bags
-
-    Biscuits'
-  self: https://www.givefood.org.uk/api/2/needs/14a692e5/
