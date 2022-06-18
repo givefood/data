@@ -1,4 +1,29 @@
 - foodbank:
+    name: Wrexham
+    slug: wrexham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/wrexham/
+      self: https://www.givefood.org.uk/api/2/foodbank/wrexham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGEgwVKA8yMQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 398bb7ee
+  needs: 'Cartons Of Juice 1 Litre
+
+    UHT Milk 1litre
+
+    Tinned Tuna
+
+    Tinned Rice Pudding
+
+    Pasta Sauce (Tomato)'
+  self: https://www.givefood.org.uk/api/2/needs/398bb7ee/
+- foodbank:
     name: Grace
     slug: grace
     urls:
@@ -7,11 +32,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGERUcEQoT4A==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 6c4eeb39
   needs: 'Plain White Rice/microwave Rice
 
@@ -3439,44 +3460,3 @@
 
     Biscuits'
   self: https://www.givefood.org.uk/api/2/needs/14a692e5/
-- foodbank:
-    name: Black Country
-    slug: black-country
-    urls:
-      html: https://www.givefood.org.uk/needs/at/black-country/
-      self: https://www.givefood.org.uk/api/2/foodbank/black-country/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQYoNQcYVA==
-  - *id001
-  id: b0a4e869
-  needs: 'Milk (Long Life) 1l Cartons
-
-    Fruit Juice (Long Life) 1l Cartons
-
-    Tinned Tomatoes
-
-    Tinned/packet Custard
-
-    Tinned Fruit
-
-    Pasta N Sauce
-
-    Microwavable Flavoured Rice Packets
-
-    Breakfast Cereals (Small Boxes)
-
-    Tinned Meat (Corned Beef/ham/spam
-
-    Potatoes (Tinned Or Packet Mash)
-
-    Carrier Bags
-
-    Shampoo
-
-    Deodorant (Roll On)
-
-    Toilet Rolls
-
-    Washing Up Liquid'
-  self: https://www.givefood.org.uk/api/2/needs/b0a4e869/
