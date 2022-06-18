@@ -95,6 +95,41 @@
     Pasta Sauce (Tomato)'
   self: https://www.givefood.org.uk/api/2/needs/398bb7ee/
 - foodbank:
+    name: Wimborne
+    slug: wimborne
+    urls:
+      html: https://www.givefood.org.uk/needs/at/wimborne/
+      self: https://www.givefood.org.uk/api/2/foodbank/wimborne/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGERUxMQS1jA==
+  - *id001
+  id: 7a0e4d11
+  needs: 'Meat Meals / Curry
+
+    Jam
+
+    Tinned Ham / Corned Beef
+
+    4 Pack Toilet Rolls
+
+    Tinned Potatoes
+
+    Toothbrushes
+
+    Tinned Custard
+
+    Washing Up Liquid
+
+    Dry Spaghetti
+
+    Washing Pods
+
+    Small Packs Of Porridge
+
+    Packs Of Sugar'
+  self: https://www.givefood.org.uk/api/2/needs/7a0e4d11/
+- foodbank:
     name: Grace
     slug: grace
     urls:
@@ -3473,34 +3508,3 @@
 
     Toiletries (Shampoo)'
   self: https://www.givefood.org.uk/api/2/needs/6f0570cb/
-- foodbank:
-    name: Dorking Area
-    slug: dorking-area
-    urls:
-      html: https://www.givefood.org.uk/needs/at/dorking-area/
-      self: https://www.givefood.org.uk/api/2/foodbank/dorking-area/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQgDHwfhjQ==
-  - *id001
-  id: 0dd8f040
-  needs: 'Tinned Meat
-
-    Tinned Rice Pudding
-
-    Tinned Vegetarian Meals
-
-    100g Jars Of Instant Coffee
-
-    Shampoo
-
-    Cat Food
-
-    Twin-packed Sponge Puddings
-
-    Snack Bars
-
-    UHT Milk (Full-fat)
-
-    Tinned Meat And Tinned Meat Meals'
-  self: https://www.givefood.org.uk/api/2/needs/0dd8f040/
