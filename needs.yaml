@@ -1,4 +1,73 @@
 - foodbank:
+    name: North Cotswold
+    slug: north-cotswold
+    urls:
+      html: https://www.givefood.org.uk/needs/at/north-cotswold/
+      self: https://www.givefood.org.uk/api/2/foodbank/north-cotswold/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGExQwNwzVaw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 10d65b0e
+  needs: 'Carrier Bags
+
+    Sponge Puddings
+
+    Packet Sauce Mixes
+
+    Tinned Potatoes
+
+    Tinned Vegetables
+
+    Tinned Meat
+
+    Tinned Fruit
+
+    Rice Pudding
+
+    Custard
+
+    Coffee
+
+    Biscuits
+
+    Packets Mash Potato
+
+    Crumble Mix
+
+    Laundry Liquid & Powder
+
+    Fabric Conditioner
+
+    Angel Delight
+
+    Jellies
+
+    Trifle Mix
+
+    Gravy Mix
+
+    Long Life Fruit Juice
+
+    Longlife Milk
+
+    Jams
+
+    Cooking Oil
+
+    Shampoo
+
+    Deodorant
+
+    Household Cleaning Sprays
+
+    Washing Up Liquid'
+  self: https://www.givefood.org.uk/api/2/needs/10d65b0e/
+- foodbank:
     name: Hound Basics
     slug: hound-basics
     urls:
@@ -7,11 +76,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGEwwmDgTqtw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0ddcedff
   needs: 'Carrier Bags
 
@@ -3609,28 +3674,3 @@
 
     Unisex Deodrants'
   self: https://www.givefood.org.uk/api/2/needs/1bb182ab/
-- foodbank:
-    name: Ammanford
-    slug: ammanford
-    urls:
-      html: https://www.givefood.org.uk/needs/at/ammanford/
-      self: https://www.givefood.org.uk/api/2/foodbank/ammanford/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQwcGgmKfg==
-  - *id001
-  id: f415d129
-  needs: 'Fruit Juice
-
-    Tinned Tomatoes
-
-    Custard
-
-    Pasta Sauces
-
-    Porridge
-
-    Rice Pudding
-
-    Instant Mashed Potatoes'
-  self: https://www.givefood.org.uk/api/2/needs/f415d129/
