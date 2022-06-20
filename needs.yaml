@@ -1,4 +1,123 @@
 - foodbank:
+    name: West Berks
+    slug: west-berks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-berks/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFAoxFgrYOw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0f50fdaa
+  needs: 'Tinned Meat / Meat Meals
+
+    Long Life Fruit Juice
+
+    Instant Mash
+
+    Shower Gel
+
+    Tinned Fruit
+
+    Snacks - Cereal Bars / Nuts / Dried Fruit Etc.
+
+    Coffee
+
+    UHT Long Life Milk
+
+    Ketchup
+
+    Tinned Tomatoes
+
+    Tinned Soup
+
+    Tinned Fish
+
+    Tinned Vegetables - E.g. Kidney Beans, Sweet Corn, Carrots Etc.
+
+    Instant Mash
+
+    Tinned Custard Or Rice Pudding
+
+    Sponge Puddings (Not Chilled)
+
+    Pot Noodle
+
+    Pasta Sauce
+
+    Mug Shots
+
+    Squash'
+  self: https://www.givefood.org.uk/api/2/needs/0f50fdaa/
+- foodbank:
+    name: Dorking Area
+    slug: dorking-area
+    urls:
+      html: https://www.givefood.org.uk/needs/at/dorking-area/
+      self: https://www.givefood.org.uk/api/2/foodbank/dorking-area/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFAkiFgnLYw==
+  - *id001
+  id: 9e1f1c87
+  needs: 'Deodorant
+
+    Shampoo
+
+    Shower Gel
+
+    Tinned Potatoes
+
+    Tinned Rice Pudding
+
+    Muesli Bar Multipacks
+
+    Twin-packed Sponge Puddings
+
+    Snack Bars
+
+    UHT Milk (Full-fat)
+
+    Tinned Meat And Tinned Meat Meals'
+  self: https://www.givefood.org.uk/api/2/needs/9e1f1c87/
+- foodbank:
+    name: Haverhill
+    slug: haverhill
+    urls:
+      html: https://www.givefood.org.uk/needs/at/haverhill/
+      self: https://www.givefood.org.uk/api/2/foodbank/haverhill/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFAkcIQgtYQ==
+  - *id001
+  id: cba4b1d8
+  needs: 'Noodles
+
+    Squash
+
+    Supermarket Carrier Bags
+
+    Custard
+
+    Fruit Juice (Long Life)
+
+    Pudding (Rice Or Sponge)
+
+    Toilet Roll
+
+    Small Jars Of Coffee
+
+    Jam
+
+    Potatoes (Tinned Or Mash)
+
+    Tinned Fruit'
+  self: https://www.givefood.org.uk/api/2/needs/cba4b1d8/
+- foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
     urls:
@@ -7,11 +126,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFAAMEgy8dA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2ef61165
   needs: 'Tinned Potatoes
 
@@ -3565,106 +3680,3 @@
 
     Pasta'
   self: https://www.givefood.org.uk/api/2/needs/9d87dd17/
-- foodbank:
-    name: Cambridge City
-    slug: cambridge-city
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cambridge-city/
-      self: https://www.givefood.org.uk/api/2/foodbank/cambridge-city/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQ4QMQCzsA==
-  - *id001
-  id: 96ad88a3
-  needs: 'Baked Beans
-
-    Bags For Life
-
-    Long-life Milk
-
-    Long-life Fruit Juice
-
-    Noodles
-
-    Instant Custard
-
-    Instant Coffee
-
-    Breakfast Tea Bags
-
-    Jams And Spreads
-
-    Cooking Oil - 500 Ml Preferred (1litre Max)
-
-    Tinned Rice Pudding
-
-    Tinned Vegetables
-
-    Tinned Meat/fish
-
-    Snacks, Sweets And Biscuits'
-  self: https://www.givefood.org.uk/api/2/needs/96ad88a3/
-- foodbank:
-    name: Newcastle (Staffs)
-    slug: newcastle-staffs
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newcastle-staffs/
-      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-staffs/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQ4GNQJTFA==
-  - *id001
-  id: 36a5fe84
-  needs: 'Tinned Vegetables
-
-    Small Jars Of Coffee
-
-    Tinned Fruit
-
-    Tinned Cold Meat (Ham/corned Beef)
-
-    Long Life Juice
-
-    Tinned Spaghetti
-
-    Sponge Puddings
-
-    Rice Pudding
-
-    Custard (Tins/packets)
-
-    Chocolate & Crisps'
-  self: https://www.givefood.org.uk/api/2/needs/36a5fe84/
-- foodbank:
-    name: York
-    slug: york
-    urls:
-      html: https://www.givefood.org.uk/needs/at/york/
-      self: https://www.givefood.org.uk/api/2/foodbank/york/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQ0TJQl6iQ==
-  - *id001
-  id: f1cf7617
-  needs: 'Sponge Puddings (Cupboard/tinned)
-
-    Long Life Fruit Juice And Squash
-
-    Tinned Fruit
-
-    Tinned Veg/pulses
-
-    Jam
-
-    Tinned Rice Pudding And Custard
-
-    Bags For Life
-
-    Laundry Detergent
-
-    Shampoo
-
-    Powdered Milk
-
-    Size 6/6+ Nappies'
-  self: https://www.givefood.org.uk/api/2/needs/f1cf7617/
