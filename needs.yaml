@@ -1,4 +1,41 @@
 - foodbank:
+    name: Keynsham
+    slug: keynsham
+    urls:
+      html: https://www.givefood.org.uk/needs/at/keynsham/
+      self: https://www.givefood.org.uk/api/2/foodbank/keynsham/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFA05CwHtUg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 24bfacbe
+  needs: 'UHT Fruit Juice
+
+    Squash
+
+    Instant Coffee
+
+    Tinned Macaroni Cheese
+
+    Tinned Ravioli
+
+    Tinned Carrots
+
+    Snack Bars
+
+    Crackers
+
+    Table Sauces
+
+    Plain Rice
+
+    Sponge Puddings'
+  self: https://www.givefood.org.uk/api/2/needs/24bfacbe/
+- foodbank:
     name: Hull
     slug: hull
     urls:
@@ -7,11 +44,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFA0qMA8/Hg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: a726f15b
   needs: 'Tinned Fruit
 
@@ -3639,30 +3672,3 @@
 
     Rice Pudding'
   self: https://www.givefood.org.uk/api/2/needs/3276a1ba/
-- foodbank:
-    name: Stow Park Community Centre
-    slug: stow-park-community-centre
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stow-park-community-centre/
-      self: https://www.givefood.org.uk/api/2/foodbank/stow-park-community-centre/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCRIwGAoPHA==
-  - *id001
-  id: 1053e0a3
-  needs: 'Tinned Vegetables
-
-    Tinned Fruit
-
-    Squash/fruit Juice
-
-    Pasta Sauces
-
-    Tinned Meat (Hot Dogs, Meatballs, Ham, Curry, Stew Etc)
-
-    UHT Milk
-
-    Rice
-
-    Coffee'
-  self: https://www.givefood.org.uk/api/2/needs/1053e0a3/
