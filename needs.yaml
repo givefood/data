@@ -1,4 +1,31 @@
 - foodbank:
+    name: Hull
+    slug: hull
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hull/
+      self: https://www.givefood.org.uk/api/2/foodbank/hull/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFA0qMA8/Hg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: a726f15b
+  needs: 'Tinned Fruit
+
+    Tinned Tomatoes
+
+    Soup
+
+    Rice Pudding
+
+    Biscuits
+
+    UHT Milk'
+  self: https://www.givefood.org.uk/api/2/needs/a726f15b/
+- foodbank:
     name: Romsey
     slug: romsey
     urls:
@@ -7,11 +34,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFA0CKQYwjQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 380f468d
   needs: 'Long Life Milk - Semi Skimmed Or Whole Milk
 
@@ -3643,38 +3666,3 @@
 
     Coffee'
   self: https://www.givefood.org.uk/api/2/needs/1053e0a3/
-- foodbank:
-    name: Peterborough
-    slug: peterborough
-    urls:
-      html: https://www.givefood.org.uk/needs/at/peterborough/
-      self: https://www.givefood.org.uk/api/2/foodbank/peterborough/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCRE0BAFr0g==
-  - *id001
-  id: 523423a6
-  needs: 'Rice Pudding
-
-    Pasta Sauce Ie Pasta Bake And Bolognese Sauces
-
-    UHT Milk
-
-    Long Life Fruit Juice
-
-    Toilet Rolls
-
-    Tinned Fruit
-
-    Tinned Meat (Meatballs ,Sausages In Beans , Chilli Con Carne )
-
-    Tinned Fish
-
-    Toiletries, Deodorant And Shower Gel
-
-    Tinned Tomatoes
-
-    Puddings -Desserts
-
-    Instant Mash'
-  self: https://www.givefood.org.uk/api/2/needs/523423a6/
