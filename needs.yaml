@@ -1,4 +1,35 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFAsoNQDlDw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: e8155a01
+  needs: 'Single Childrens Toothbrushes
+
+    Nappy Cream
+
+    Microwavable Rice Pouches
+
+    Tinned Veg
+
+    Strong, Clean Shopping Bags
+
+    Tampons
+
+    Jars Of Pasta Sauce
+
+    Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/e8155a01/
+- foodbank:
     name: West Berks
     slug: west-berks
     urls:
@@ -7,11 +38,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFAoxFgrYOw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 0f50fdaa
   needs: 'Tinned Meat / Meat Meals
 
@@ -3649,34 +3676,3 @@
 
     Washing Up Liquid'
   self: https://www.givefood.org.uk/api/2/needs/d88de9ba/
-- foodbank:
-    name: Antrim
-    slug: antrim
-    urls:
-      html: https://www.givefood.org.uk/needs/at/antrim/
-      self: https://www.givefood.org.uk/api/2/foodbank/antrim/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCQ8GFw3E0w==
-  - *id001
-  id: 9d87dd17
-  needs: 'UHT Milk (2 Litres)
-
-    Fruit Juice (1 Litre)
-
-    Tea And Coffee
-
-    Tinned: Tomatoes, Meals, Meat, Fruit And Veg
-
-    Toiletries
-
-    Biscuits, Crisps And Snack Bars
-
-    Jams And Spreads
-
-    Custard / Rice Pudding
-
-    Rice
-
-    Pasta'
-  self: https://www.givefood.org.uk/api/2/needs/9d87dd17/
