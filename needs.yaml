@@ -1,4 +1,39 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFA8LLAFq8w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5f3e379b
+  needs: 'Tinned Fruit
+
+    Tinned Vegetables
+
+    Long Life Milk
+
+    Pasta/cooking Sauces
+
+    Jam/spread
+
+    Toilet Roll
+
+    Rice Pudding And Custard
+
+    Tinned Tomatoes
+
+    Tinned Soup
+
+    Tinned Meat'
+  self: https://www.givefood.org.uk/api/2/needs/5f3e379b/
+- foodbank:
     name: Cirencester
     slug: cirencester
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFA4gDAlvFg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: fdb1318d
   needs: 'Baby Wash / Baby Shampoo
 
@@ -3649,34 +3680,3 @@
 
     Biscuits'
   self: https://www.givefood.org.uk/api/2/needs/09f60a1e/
-- foodbank:
-    name: Morecambe Bay
-    slug: morecambe-bay
-    urls:
-      html: https://www.givefood.org.uk/needs/at/morecambe-bay/
-      self: https://www.givefood.org.uk/api/2/foodbank/morecambe-bay/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCg0PNgnyMw==
-  - *id001
-  id: a16bd0fa
-  needs: 'Fruit Juice
-
-    Long Life Milk
-
-    Sponge Puddings
-
-    Jam, Peanut Butter And Honey
-
-    Tinned Fish
-
-    Tinned Meat
-
-    Instant Mash Potato
-
-    Wrapped Biscuits
-
-    Coffee
-
-    Pasta Sauce'
-  self: https://www.givefood.org.uk/api/2/needs/a16bd0fa/
