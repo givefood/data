@@ -1,4 +1,67 @@
 - foodbank:
+    name: St Austell
+    slug: st-austell
+    urls:
+      html: https://www.givefood.org.uk/needs/at/st-austell/
+      self: https://www.givefood.org.uk/api/2/foodbank/st-austell/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFQwHDgGGKg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 8e73c8c5
+  needs: 'Sponge Puddings
+
+    Tinned Tomatoes
+
+    Long Life Milk'
+  self: https://www.givefood.org.uk/api/2/needs/8e73c8c5/
+- foodbank:
+    name: Malvern Hills
+    slug: malvern-hills
+    urls:
+      html: https://www.givefood.org.uk/needs/at/malvern-hills/
+      self: https://www.givefood.org.uk/api/2/foodbank/malvern-hills/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFQsTKAzbWg==
+  - *id001
+  id: 685e443d
+  needs: 'Tinned Meat
+
+    1l Fruit Squash
+
+    Tinned Fruit In Natural Juice
+
+    500g Pasta
+
+    Tins Of: Meat, Fish, Fruit, Vegetables, Beans, Soup, Rice Pudding, Custard
+
+    Tea Bags In 40s Or 80s, Instant Coffee, UHT Milk, Fruit Juice, Fruit Squash
+
+    Cereals (Medium)
+
+    Jam
+
+    Pasta (500g)
+
+    Rice (500g)
+
+    Tinned Potatoes
+
+    Sauces For Rice And Pasta
+
+    Treats: Biscuits, Chocolate, Sweets Etc
+
+    Personal Hygiene Items: Shower Gel, Shampoo, Deodorant, Toothpaste, Toilet Rolls,
+    Bars Of Soap
+
+    Household Cleaning Items: Washing Powder/liquid, Washing Up Liquid, Surface Cleaner'
+  self: https://www.givefood.org.uk/api/2/needs/685e443d/
+- foodbank:
     name: Launceston
     slug: launceston
     urls:
@@ -7,11 +70,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFQsSBQeOIg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 4231209e
   needs: 'Breakfast Cereal
 
@@ -3650,41 +3709,3 @@
 
     Powdered Milk'
   self: https://www.givefood.org.uk/api/2/needs/4fc7731d/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDQspJQjmKg==
-  - *id001
-  id: 528b3481
-  needs: 'Pot Noodles
-
-    Jams/preserves/spreads
-
-    Strong Shopping Bags'
-  self: https://www.givefood.org.uk/api/2/needs/528b3481/
-- foodbank:
-    name: Southend
-    slug: southend
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southend/
-      self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDQsZDAOlXQ==
-  - *id001
-  id: b5ea3e68
-  needs: 'Tinned Fruit
-
-    UHT Milk
-
-    Meat Meals - Tinned Chilli, Curry, Chicken In Sauce Etc.
-
-    Jam
-
-    Vegetable Soup'
-  self: https://www.givefood.org.uk/api/2/needs/b5ea3e68/
