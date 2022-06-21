@@ -1,4 +1,35 @@
 - foodbank:
+    name: Yeovil
+    slug: yeovil
+    urls:
+      html: https://www.givefood.org.uk/needs/at/yeovil/
+      self: https://www.givefood.org.uk/api/2/foodbank/yeovil/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFRIHMQId7Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: afcd67f8
+  needs: 'Cereal Bars
+
+    Cuppa Soup
+
+    Tins Of Beans And Sausage
+
+    Tins Of Soup
+
+    Tins Of Curry
+
+    Biscuits
+
+    Shower Gel
+
+    Shampoo'
+  self: https://www.givefood.org.uk/api/2/needs/afcd67f8/
+- foodbank:
     name: Crowborough
     slug: crowborough
     urls:
@@ -7,11 +38,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFQ84Ewr2dQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 3ab0ff2f
   needs: 'Long Life Milk (Semi-skimmed)
 
@@ -3722,30 +3749,3 @@
 
     Carrier Bags'
   self: https://www.givefood.org.uk/api/2/needs/ef6ef63e/
-- foodbank:
-    name: King's Lynn
-    slug: kings-lynn
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kings-lynn/
-      self: https://www.givefood.org.uk/api/2/foodbank/kings-lynn/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDQwuNwEiuw==
-  - *id001
-  id: 52f69cbc
-  needs: 'Soup
-
-    Tinned Rice Pudding Or Custard
-
-    Nappies - Size 4
-
-    Squash Or Long Life Fruit Juice
-
-    Treats - Chocolate Bars, Crisps, Granola Bars, Flapjack, Lunch Biscuits
-
-    Packet Mixes And Gravy Granules
-
-    Sauces - Ketchup, BBQ, Mayonnaise
-
-    Strong Carrier Bags (So We People Can Take The Food Home!)'
-  self: https://www.givefood.org.uk/api/2/needs/52f69cbc/
