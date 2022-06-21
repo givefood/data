@@ -1,4 +1,121 @@
 - foodbank:
+    name: Launceston
+    slug: launceston
+    urls:
+      html: https://www.givefood.org.uk/needs/at/launceston/
+      self: https://www.givefood.org.uk/api/2/foodbank/launceston/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFQsSBQeOIg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4231209e
+  needs: 'Breakfast Cereal
+
+    Pasta Sauce
+
+    Soup
+
+    Coffee
+
+    Sugar
+
+    Tinned Fruit
+
+    Men’s Toiletries
+
+    Conditioner'
+  self: https://www.givefood.org.uk/api/2/needs/4231209e/
+- foodbank:
+    name: Southend
+    slug: southend
+    urls:
+      html: https://www.givefood.org.uk/needs/at/southend/
+      self: https://www.givefood.org.uk/api/2/foodbank/southend/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFQsQMwBzkw==
+  - *id001
+  id: 0017dcf2
+  needs: 'Meat Meals - Tinned Chilli, Curry, Chicken In Sauce Etc.
+
+    Tinned Vegetables - Carrots, Sweetcorn
+
+    Long Life Fruit Juice
+
+    Rice Pudding
+
+    Custard'
+  self: https://www.givefood.org.uk/api/2/needs/0017dcf2/
+- foodbank:
+    name: West Cheshire
+    slug: west-cheshire
+    urls:
+      html: https://www.givefood.org.uk/needs/at/west-cheshire/
+      self: https://www.givefood.org.uk/api/2/foodbank/west-cheshire/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFQoUFQiRUA==
+  - *id001
+  id: 3dd4f59d
+  needs: 'UHT Milk
+
+    UHT Juice
+
+    Instant Coffee Small Jars
+
+    Instant Mash / Tinned Potatoes
+
+    Instant Pasta / Instant Noodles
+
+    Tinned Meats
+
+    Tinned Tomatoes
+
+    Tinned Spaghetti
+
+    Custard
+
+    Tinned Puddings
+
+    Cereal Bars
+
+    Carrier Bags
+
+    Tinned Meat / Fish
+
+    Tinned Vegetables
+
+    Tinned Potatoes
+
+    Tinned Tomatoes
+
+    Cuppa Soups
+
+    Pot Noodles/super Noodles
+
+    Instant Pasta (Pasta And Sauce)
+
+    Pasta Sauce
+
+    Instant Mashed Potato
+
+    Tinned / Instant Custard
+
+    Tinned Fruit
+
+    Biscuits
+
+    UHT Milk
+
+    UHT Fruit Juice
+
+    Instant Coffee'
+  self: https://www.givefood.org.uk/api/2/needs/3dd4f59d/
+- foodbank:
     name: Sutton Coldfield
     slug: sutton-coldfield
     urls:
@@ -7,11 +124,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFQgZGwO+uQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 2e6a673d
   needs: 'Baked Beans
 
@@ -3575,88 +3688,3 @@
 
     Vegetable Soup'
   self: https://www.givefood.org.uk/api/2/needs/b5ea3e68/
-- foodbank:
-    name: Llanelli
-    slug: llanelli
-    urls:
-      html: https://www.givefood.org.uk/needs/at/llanelli/
-      self: https://www.givefood.org.uk/api/2/foodbank/llanelli/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDQkyKwPD6A==
-  - *id001
-  id: 4763deef
-  needs: 'Tinned Sweetcorn
-
-    Tinned Potatoes
-
-    Small Bottles Of Squash
-
-    Jar Sauces
-
-    UHT Milk
-
-    Chocolate/sweets
-
-    Small Coffee Jars
-
-    40 Pack Of Tea Bags
-
-    Tinned Fish'
-  self: https://www.givefood.org.uk/api/2/needs/4763deef/
-- foodbank:
-    name: Devizes & District
-    slug: devizes-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/devizes-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/devizes-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDQkJIwLZ1A==
-  - *id001
-  id: 9bf9c7b9
-  needs: 'Long Life Milk
-
-    Tinned Rice Pudding
-
-    Long Life Fruit Juice
-
-    Long Life Sponge Puddings
-
-    Instant Mash Potato
-
-    Shower Gel
-
-    Tinned Custard
-
-    Shampoo
-
-    Deodorant (Men''s And Ladies'')'
-  self: https://www.givefood.org.uk/api/2/needs/9bf9c7b9/
-- foodbank:
-    name: Widnes
-    slug: widnes
-    urls:
-      html: https://www.givefood.org.uk/needs/at/widnes/
-      self: https://www.givefood.org.uk/api/2/foodbank/widnes/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDBIuKQ6KWQ==
-  - *id001
-  id: 4dbe6098
-  needs: 'Tinned Vegetables
-
-    Rice
-
-    Sponge Puddings
-
-    Coffee And Tea
-
-    UHT Milk And Juice
-
-    Jam
-
-    Crisps
-
-    Rice Pudding'
-  self: https://www.givefood.org.uk/api/2/needs/4dbe6098/
