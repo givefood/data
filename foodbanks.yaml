@@ -11132,10 +11132,10 @@
     self: https://www.givefood.org.uk/api/2/foodbank/bow/
     shopping_list: https://www.bowfoodbank.org/give-food/
 - address: "Hope Centre\r\n42-44 Nottingham St\r\nMelton Mowbray\r\nLE13 1NW"
-  alt_name: null
+  alt_name: ''
   charity:
     register_url: null
-    registration_id: null
+    registration_id: ''
   closed: false
   country: England
   created: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
@@ -11143,7 +11143,7 @@
     B+QJBBMBIghjgg==
   - *id001
   email: info@meltonvineyard.org.uk
-  lat_lng: 52.76613529999999,-0.8877626
+  lat_lng: 52.765705,-0.88764
   name: Storehouse Melton
   network: Independent
   phone: '01664511021'
@@ -11158,13 +11158,13 @@
       self: https://www.givefood.org.uk/api/2/constituency/rutland-and-melton/
     ward: Melton Craven
   postcode: LE13 1NW
-  secondary_phone: null
+  secondary_phone: ''
   slug: storehouse-melton
   urls:
     homepage: https://www.storehousemelton.org.uk
     html: https://www.givefood.org.uk/needs/at/storehouse-melton/
     self: https://www.givefood.org.uk/api/2/foodbank/storehouse-melton/
-    shopping_list: https://www.storehousemelton.org.uk/support-us.html
+    shopping_list: https://www.storehousemelton.org.uk/how-can-i-support.html
 - address: "Oasis Christian Centre\r\nBryn Road\r\nBlackwood\r\nNP12 3LY"
   alt_name: null
   charity:
@@ -17094,7 +17094,7 @@
     B+MIFQcOOQFZNw==
   - *id001
   email: foodbank@oasiswaterloo.org
-  lat_lng: 51.4981793,-0.1119372
+  lat_lng: 51.498179,-0.111937
   name: Waterloo
   network: Trussell Trust
   phone: 02079214205
@@ -17109,7 +17109,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/vauxhall/
     ward: Bishop's
   postcode: SE17QP
-  secondary_phone: null
+  secondary_phone: ''
   slug: waterloo
   urls:
     homepage: https://waterloo.foodbank.org.uk
@@ -23105,7 +23105,7 @@
     B+QBFRAPDAGtUg==
   - *id001
   email: info@launceston.foodbank.org.uk
-  lat_lng: 50.6407624,-4.358811
+  lat_lng: 50.640118,-4.359938
   name: Launceston
   network: Trussell Trust
   phone: 01566779550
@@ -23120,7 +23120,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/north-cornwall/
     ward: Launceston South
   postcode: PL15 8EX
-  secondary_phone: null
+  secondary_phone: ''
   slug: launceston
   urls:
     homepage: https://launceston.foodbank.org.uk
