@@ -1,4 +1,116 @@
 - foodbank:
+    name: Sutton Coldfield
+    slug: sutton-coldfield
+    urls:
+      html: https://www.givefood.org.uk/needs/at/sutton-coldfield/
+      self: https://www.givefood.org.uk/api/2/foodbank/sutton-coldfield/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFQgZGwO+uQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 2e6a673d
+  needs: 'Baked Beans
+
+    Biscuits
+
+    Carrots
+
+    Cereal
+
+    Cereal Bars
+
+    Chickpeas
+
+    Chilli
+
+    Coffee
+
+    Corned Beef
+
+    Cup A Soup
+
+    Curry
+
+    Custard
+
+    Fruit
+
+    Fruit Juice
+
+    Ham / Spam
+
+    Hot Chocolate
+
+    Hotdogs
+
+    Instant Noodles
+
+    Instant Pasta
+
+    Instant Potatoes
+
+    Instant Rice
+
+    Jam
+
+    Kidney Beans
+
+    Macaroni
+
+    Marmalde
+
+    Meatballs
+
+    Mushy Peas
+
+    Pasta
+
+    Pasta Sauce
+
+    Peas
+
+    Pie
+
+    Ravioli
+
+    Rice
+
+    Rice Pudding
+
+    Spaghetti
+
+    Squash
+
+    Stew
+
+    Sweetcorn
+
+    Tea
+
+    Tinned Potatoes
+
+    Tinned Soup
+
+    Tomatoes'
+  self: https://www.givefood.org.uk/api/2/needs/2e6a673d/
+- foodbank:
+    name: South Derbyshire CVS
+    slug: south-derbyshire-cvs
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-derbyshire-cvs/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-derbyshire-cvs/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFQgXOQKgHw==
+  - *id001
+  id: 3515c8c7
+  needs: Unknown
+  self: https://www.givefood.org.uk/api/2/needs/3515c8c7/
+- foodbank:
     name: Storehouse Melton
     slug: storehouse-melton
     urls:
@@ -7,11 +119,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFQgKGQs5kQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 1ab929c3
   needs: 'Soup
 
@@ -3552,69 +3660,3 @@
 
     Rice Pudding'
   self: https://www.givefood.org.uk/api/2/needs/4dbe6098/
-- foodbank:
-    name: Sid Valley
-    slug: sid-valley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/sid-valley/
-      self: https://www.givefood.org.uk/api/2/foodbank/sid-valley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDAoQLAbMLw==
-  - *id001
-  id: 1f757c26
-  needs: 'Tinned Tomatoes
-
-    Fruit Juice
-
-    Plain Rice
-
-    Puddings, Cakes, Desserts (Non-chilled)
-
-    Savoury Rice/noodles
-
-    Tinned Custard
-
-    Rice Cakes
-
-    Strong Bags
-
-    Tinned Meat
-
-    Tinned Vegetables
-
-    Tinned Fruit
-
-    Tinned Tomatoes
-
-    Soup
-
-    Longlife Milk
-
-    Fruit Juice (Not The Kind That Needs Refrigerating)
-
-    Jam/peanut Butter
-
-    Plain Rice'
-  self: https://www.givefood.org.uk/api/2/needs/1f757c26/
-- foodbank:
-    name: Jubilee Storehouse
-    slug: jubilee-storehouse
-    urls:
-      html: https://www.givefood.org.uk/needs/at/jubilee-storehouse/
-      self: https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGCwsOLQCBdA==
-  - *id001
-  id: ce2c5cca
-  needs: 'Weetabix
-
-    Porridge Sachets
-
-    Tinned Soup
-
-    Tinned Ravioli Or Spaghetti Bolognese
-
-    Deodorant And Shower Gel For Men And Women'
-  self: https://www.givefood.org.uk/api/2/needs/ce2c5cca/
