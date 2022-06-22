@@ -1,4 +1,88 @@
 - foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFRUOEQwZWQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 1507e60c
+  needs: 'Tinned Fruit
+
+    Cup-a-soups
+
+    Instant Coffee
+
+    Tinned Carrots
+
+    Instant Mash
+
+    Jellies/jelly Blocks
+
+    Tinned Or Non-chilled Carton Custard
+
+    Instant Custard Powder
+
+    Shaving Foam/gel
+
+    Shampoo & Conditioner - Adult And Child
+
+    Bubble Bath, Bath Soak Etc. - Adult And Child
+
+    Washing Detergent
+
+    Children''s (Not Baby) Shampoo
+
+    Baby Oil
+
+    Baby Lotion
+
+    Baby Soap
+
+    Baby Wash
+
+    Baby Talc
+
+    Liquid Hand Soap
+
+    Small Packs Of Toilet Rolls - 2s, 4s, 6s.
+
+    Dried Dog Food'
+  self: https://www.givefood.org.uk/api/2/needs/1507e60c/
+- foodbank:
+    name: Abergavenny
+    slug: abergavenny
+    urls:
+      html: https://www.givefood.org.uk/needs/at/abergavenny/
+      self: https://www.givefood.org.uk/api/2/foodbank/abergavenny/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFRQIMgsIyA==
+  - *id001
+  id: 239b245f
+  needs: 'Toothpaste
+
+    Deodorant - Mens'' And Women''s
+
+    Small Coffee
+
+    Fruit Juice
+
+    Long Life, Semi-skimmed Milk
+
+    Sponge Puddings
+
+    Pasta
+
+    Toilet Roll'
+  self: https://www.givefood.org.uk/api/2/needs/239b245f/
+- foodbank:
     name: Yeovil
     slug: yeovil
     urls:
@@ -7,11 +91,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFRIHMQId7Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: afcd67f8
   needs: 'Cereal Bars
 
@@ -3689,63 +3769,3 @@
 
     Plain Rice Noodles'
   self: https://www.givefood.org.uk/api/2/needs/ad9aef8f/
-- foodbank:
-    name: Chipping Barnet
-    slug: chipping-barnet
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chipping-barnet/
-      self: https://www.givefood.org.uk/api/2/foodbank/chipping-barnet/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDQ0eFwXY6w==
-  - *id001
-  id: f55aa306
-  needs: 'Long-life Juice Or Small/medium Bottles Of Squash
-
-    Biscuits
-
-    Pasta Sauce
-
-    Cooking Oil
-
-    Female Hygiene Products'
-  self: https://www.givefood.org.uk/api/2/needs/f55aa306/
-- foodbank:
-    name: Market Drayton
-    slug: market-drayton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/market-drayton/
-      self: https://www.givefood.org.uk/api/2/foodbank/market-drayton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDQ0FFQbccA==
-  - *id001
-  id: ef6ef63e
-  needs: 'UHT Milk (Semi And Full) - No Stock
-
-    Long Life Cartons Of Fruit Juice - No Stock
-
-    Toilet Rolls - No Stock
-
-    Soup - No Stock
-
-    Shower Gel & Shampoo
-
-    Laundry Powder/tabs & Washing-up Liquid
-
-    Rice Pudding And Custard
-
-    Tinned Spaghetti
-
-    Cooking And Pasta Sauces
-
-    Dry Cat & Dog Food
-
-    Cleaning Products
-
-    Sponge Puddings/slab Cake
-
-    Cereal
-
-    Carrier Bags'
-  self: https://www.givefood.org.uk/api/2/needs/ef6ef63e/
