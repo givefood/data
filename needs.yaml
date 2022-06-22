@@ -1,4 +1,76 @@
 - foodbank:
+    name: Woking
+    slug: woking
+    urls:
+      html: https://www.givefood.org.uk/needs/at/woking/
+      self: https://www.givefood.org.uk/api/2/foodbank/woking/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFgsFIA2Wxw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: cccee755
+  needs: 'Men''s Razors
+
+    Honey
+
+    Children''s Toothpaste And Brushes
+
+    Crisps
+
+    Long Life Sponge Puddings
+
+    Chocolate
+
+    Tinned Ham
+
+    Shower Gel
+
+    Small Jars Of Coffee
+
+    Tinned Fruit
+
+    Pasta Sauce
+
+    Full Milk (Long Life)
+
+    Tinned Carrots
+
+    Tinned Peas
+
+    Instant Mashed Potato
+
+    Tinned Mixed Veg'
+  self: https://www.givefood.org.uk/api/2/needs/cccee755/
+- foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFgorBQoaoQ==
+  - *id001
+  id: bb6f871e
+  needs: 'Single Childrens Toothbrushes
+
+    Microwavable Rice Pouches
+
+    Tinned Veg
+
+    Strong, Clean Shopping Bags
+
+    Tampons
+
+    Jars Of Pasta Sauce
+
+    Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/bb6f871e/
+- foodbank:
     name: Durham
     slug: durham
     urls:
@@ -7,11 +79,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFgoZLAj1TA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: de1e1b4d
   needs: 'Tinned Fruit
 
@@ -3677,75 +3745,3 @@
 
     Long Life Milk'
   self: https://www.givefood.org.uk/api/2/needs/1328fb3e/
-- foodbank:
-    name: Cambridge City
-    slug: cambridge-city
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cambridge-city/
-      self: https://www.givefood.org.uk/api/2/foodbank/cambridge-city/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDRAxJgNRqw==
-  - *id001
-  id: 5e5b2017
-  needs: 'Tinned Fish
-
-    Tinned Meat
-
-    Tinned Vegetables
-
-    Pasta/cook-in Sauce
-
-    Breakfast Tea-bags
-
-    Baked Beans
-
-    Bars Of Chocolate
-
-    Snack Bars
-
-    Tinned Tomatoes
-
-    Tinned Fruit (In Fruit Juice)
-
-    Savoury Snacks'
-  self: https://www.givefood.org.uk/api/2/needs/5e5b2017/
-- foodbank:
-    name: Romsey
-    slug: romsey
-    urls:
-      html: https://www.givefood.org.uk/needs/at/romsey/
-      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDRADHgV2Eg==
-  - *id001
-  id: 0ba23890
-  needs: 'Tinned Carrots/peas
-
-    Sweets And Chocolate
-
-    Dried And Microwave Rice
-
-    Pasta Sauce
-
-    Spreads - Jam/marmite/nutella
-
-    Desserts And Sponge Puddings
-
-    Tinned Spaghetti
-
-    Custard
-
-    Instant Mash Potato
-
-    Chocolate Biscuit Bars
-
-    Long Life Fruit Juice
-
-    Squash
-
-    Laundry Powder/tablets
-
-    Cat Food'
-  self: https://www.givefood.org.uk/api/2/needs/0ba23890/
