@@ -1,4 +1,31 @@
 - foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFhEaEQi86w==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 62d9dc89
+  needs: 'Single Childrens Toothbrushes
+
+    Microwavable Rice Pouches
+
+    Tinned Veg
+
+    Strong, Clean Shopping Bags
+
+    Jars Of Pasta Sauce
+
+    Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/62d9dc89/
+- foodbank:
     name: Tameside South & Longdendale
     slug: tameside-south-longdendale
     urls:
@@ -7,11 +34,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFhAvGwvAnw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 83ebab7d
   needs: 'UHT Milk
 
@@ -3704,34 +3727,3 @@
     Toiletries Including Deodorants, Shower Gel, Shampoo, Toilet Rolls, Shaving Gel
     / Foam And Razors Etc.'
   self: https://www.givefood.org.uk/api/2/needs/dfaa14db/
-- foodbank:
-    name: Littlehampton & District
-    slug: littlehampton-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/littlehampton-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/littlehampton-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDRMeIAKFog==
-  - *id001
-  id: 1cb62d60
-  needs: 'Tinned Vegetables
-
-    UHT Milk
-
-    Squash & UHT Fruit Juice
-
-    Hot Chocolate
-
-    Tinned Meals
-
-    Rice
-
-    Sugar
-
-    Shower Gel & Shampoo
-
-    Tin Openers
-
-    Strong Carrier Bags'
-  self: https://www.givefood.org.uk/api/2/needs/1cb62d60/
