@@ -1,4 +1,31 @@
 - foodbank:
+    name: Tameside South & Longdendale
+    slug: tameside-south-longdendale
+    urls:
+      html: https://www.givefood.org.uk/needs/at/tameside-south-longdendale/
+      self: https://www.givefood.org.uk/api/2/foodbank/tameside-south-longdendale/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFhAvGwvAnw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 83ebab7d
+  needs: 'UHT Milk
+
+    Tinned Fish
+
+    Long-life Puddings E.g. Steamed Puddings Or Long-life Cake
+
+    Tinned Fruit
+
+    Long-life Fruit Juice Or Squash
+
+    Anything Long Life E.g. Tins'
+  self: https://www.givefood.org.uk/api/2/needs/83ebab7d/
+- foodbank:
     name: Sunderland
     slug: sunderland
     urls:
@@ -7,11 +34,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFgwqDAonug==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: d44c14c7
   needs: 'Tinned Fruit
 
@@ -3712,30 +3735,3 @@
 
     Strong Carrier Bags'
   self: https://www.givefood.org.uk/api/2/needs/1cb62d60/
-- foodbank:
-    name: Grantham
-    slug: grantham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/grantham/
-      self: https://www.givefood.org.uk/api/2/foodbank/grantham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDRMFLwb0TA==
-  - *id001
-  id: d3267e81
-  needs: 'Sponge Puddings
-
-    Full Fat Long Life Milk
-
-    Microwaveable / Kettle Based Food
-
-    Tinned / Dry Potatoes
-
-    Pot Noodles
-
-    Rice Pudding / Custard
-
-    Squash And Flavours
-
-    Toiletries'
-  self: https://www.givefood.org.uk/api/2/needs/d3267e81/
