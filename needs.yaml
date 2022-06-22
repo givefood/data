@@ -1,4 +1,33 @@
 - foodbank:
+    name: Sunderland
+    slug: sunderland
+    urls:
+      html: https://www.givefood.org.uk/needs/at/sunderland/
+      self: https://www.givefood.org.uk/api/2/foodbank/sunderland/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFgwqDAonug==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: d44c14c7
+  needs: 'Tinned Fruit
+
+    Long Life Fruit Juice
+
+    Instant Meals
+
+    Tinned Spaghetti
+
+    Coffee
+
+    Rice Pudding & Custard
+
+    UHT Milk'
+  self: https://www.givefood.org.uk/api/2/needs/d44c14c7/
+- foodbank:
     name: Woking
     slug: woking
     urls:
@@ -7,11 +36,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFgsFIA2Wxw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: cccee755
   needs: 'Men''s Razors
 
@@ -3714,34 +3739,3 @@
 
     Toiletries'
   self: https://www.givefood.org.uk/api/2/needs/d3267e81/
-- foodbank:
-    name: Chichester District
-    slug: chichester-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chichester-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDRIKLw8JTg==
-  - *id001
-  id: 1328fb3e
-  needs: 'Pasta/cooking Sauces
-
-    Tinned Fruit
-
-    Tinned Vegetables
-
-    Jam/spread
-
-    Rice Pudding And Custard
-
-    Toilet Roll
-
-    Tinned Tomatoes
-
-    Tinned Soup
-
-    Tinned Meat
-
-    Long Life Milk'
-  self: https://www.givefood.org.uk/api/2/needs/1328fb3e/
