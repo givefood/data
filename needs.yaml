@@ -1,4 +1,39 @@
 - foodbank:
+    name: South & East Bristol
+    slug: south-east-bristol
+    urls:
+      html: https://www.givefood.org.uk/needs/at/south-east-bristol/
+      self: https://www.givefood.org.uk/api/2/foodbank/south-east-bristol/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFxE4GAlYLw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 42a03622
+  needs: 'Custard
+
+    Milk (Long Life )
+
+    Tinned Veggie Meals
+
+    Shampoo
+
+    Conditioner
+
+    Savoury Snacks I.e. Crisps/noodles
+
+    Jam
+
+    Pasta Sauces (Curry/ragu Etc)
+
+    Fruit Juice (Long Life)
+
+    Instant Mash'
+  self: https://www.givefood.org.uk/api/2/needs/42a03622/
+- foodbank:
     name: Ammanford
     slug: ammanford
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFxAJDwCjUw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 9f742302
   needs: 'UHT Milk
 
@@ -3686,50 +3717,3 @@
 
     Tampax'
   self: https://www.givefood.org.uk/api/2/needs/7f14cbaf/
-- foodbank:
-    name: Loveworks
-    slug: loveworks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/loveworks/
-      self: https://www.givefood.org.uk/api/2/foodbank/loveworks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDwoqAAKT1A==
-  - *id001
-  id: 0f076ed7
-  needs: 'Tinned Fruit
-
-    Tinned Corn Beef
-
-    Ham
-
-    Sandwich Meat Etc
-
-    Long Grain Rice
-
-    Biscuits
-
-    Tinned Potatoes
-
-    Breakfast Cereal
-
-    Tins Of Meat Casserole
-
-    UHT Semi Skimmed Milk
-
-    Rice Pudding
-
-    Custard
-
-    Long Life Fruit Juice
-
-    Tuna
-
-    Pasta Sauce
-
-    Tinned Vegetables
-
-    Tinned Tomatoes
-
-    Toilet Rolls'
-  self: https://www.givefood.org.uk/api/2/needs/0f076ed7/
