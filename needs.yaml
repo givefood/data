@@ -1,165 +1,4 @@
 - foodbank:
-    name: Chichester District
-    slug: chichester-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/chichester-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGFw4HMw5OIg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 28952bca
-  needs: 'Tinned Fruit
-
-    Long Life Milk
-
-    Rice Pudding And Custard
-
-    Jam/spread
-
-    Tinned Soup
-
-    Tinned Fish
-
-    Tinned Vegetables
-
-    Tinned Tomatoes
-
-    Tinned Meat
-
-    Pasta/cooking Sauces'
-  self: https://www.givefood.org.uk/api/2/needs/28952bca/
-- foodbank:
-    name: Loveworks
-    slug: loveworks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/loveworks/
-      self: https://www.givefood.org.uk/api/2/foodbank/loveworks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGFw0kCQmIgw==
-  - *id001
-  id: 8ca42e53
-  needs: 'Tinned Fruit
-
-    Tinned Corn Beef, Ham, Sandwich Meat Etc
-
-    Tins Of Meat Casserole
-
-    Bags For Life (For Parcels That We Deliver)
-
-    Long Grain Rice
-
-    Tinned Potatoes
-
-    Breakfast Cereal
-
-    Biscuits
-
-    UHT Semi Skimmed Milk
-
-    Rice Pudding
-
-    Custard
-
-    Long Life Fruit Juice
-
-    Tuna
-
-    Pasta Sauce
-
-    Tinned Vegetables
-
-    Tinned Tomatoes
-
-    Toilet Rolls'
-  self: https://www.givefood.org.uk/api/2/needs/8ca42e53/
-- foodbank:
-    name: Southampton Basics Bank
-    slug: southampton-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGFw0VLAqcUw==
-  - *id001
-  id: 44a044a0
-  needs: 'Coffee (Small Jars)
-
-    Cook-in Sauces (Jars & Packets)
-
-    Custard
-
-    Hot Chocolate
-
-    Jams & Spreads
-
-    Nappies Size 5+
-
-    Noodles (Packets)
-
-    Tinned Cold Meat (Ham, Spam, Etc.)
-
-    Tinned Fruit
-
-    Tinned Hot Meat (Curry, Pies, Stew, Etc.)
-
-    Tinned Mixed Veg
-
-    Tinned Rice Pudding
-
-    Tinned Sweetcorn
-
-    Toiletries (Toothpaste)
-
-    Sugar (Small Bags)
-
-    Gluten Free
-
-    Nappies Size 3-4
-
-    Tinned Carrots
-
-    Tinned Kidney Beans & Pulses
-
-    Toiletries (Sanitary Products)
-
-    Toiletries (Toilet Rolls)
-
-    UHT Milk
-
-    Baby Food
-
-    Carrier Bags
-
-    Household Larder
-
-    Nappies Size 0 – 2
-
-    Rice
-
-    Squash & Drinks
-
-    Tinned Fish
-
-    Tinned Macaroni Cheese
-
-    Tinned Peas
-
-    Tinned Potatoes
-
-    Tinned Spaghetti (In Tomato Sauce)
-
-    Tinned Tomatoes
-
-    Toiletries (Shampoo)'
-  self: https://www.givefood.org.uk/api/2/needs/44a044a0/
-- foodbank:
     name: Exmouth
     slug: exmouth
     urls:
@@ -168,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFws4AgSFyw==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 4a6f2065
   needs: 'Tins Of Baked Beans/spaghetti
 
@@ -3707,3 +3550,132 @@
 
     Size 4, 5 And 6 Nappies And Size 5 And 6 Pull Ups'
   self: https://www.givefood.org.uk/api/2/needs/8e75a211/
+- foodbank:
+    name: Community Essentials
+    slug: community-essentials
+    urls:
+      html: https://www.givefood.org.uk/needs/at/community-essentials/
+      self: https://www.givefood.org.uk/api/2/foodbank/community-essentials/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDwQNCwkoyA==
+  - *id001
+  id: 923ad55e
+  needs: 'UHT Milk
+
+    Tea
+
+    Coffee
+
+    Cereal
+
+    Rice
+
+    Tinned Meat
+
+    Washing Powder/detergent'
+  self: https://www.givefood.org.uk/api/2/needs/923ad55e/
+- foodbank:
+    name: Andover
+    slug: andover
+    urls:
+      html: https://www.givefood.org.uk/needs/at/andover/
+      self: https://www.givefood.org.uk/api/2/foodbank/andover/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDhIoDwpEpw==
+  - *id001
+  id: bee43c92
+  needs: 'Tinned Potatoes
+
+    Pasta Sauce
+
+    Long Life Fruit Juice
+
+    Biscuits
+
+    Tinned Rice Pudding
+
+    Tooth Paste
+
+    Shower Gel
+
+    Shampoo
+
+    Deoderant
+
+    Laundry Detergent
+
+    General Cleaning Spray'
+  self: https://www.givefood.org.uk/api/2/needs/bee43c92/
+- foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDhE0JALWwg==
+  - *id001
+  id: ab867105
+  needs: 'Tinned Fruit
+
+    Cup-a-soups
+
+    Tomato Ketchup And Brown Sauce
+
+    UHT Milk Especially Whole Milk
+
+    Long-life (Not Chilled!) Fruit Juice
+
+    Squash
+
+    Instant Coffee
+
+    Tinned Carrots
+
+    Tinned Meat Such As Stews, Mince, Meatballs.
+
+    Instant Mash
+
+    Sponge Puddings
+
+    Jellies/jelly Blocks
+
+    Tinned Custard
+
+    Crisps
+
+    Gluten-free Items Other Than Pasta
+
+    Shaving Foam/gel
+
+    Shampoo & Conditioner - Adult And Child
+
+    Bubble Bath, Bath Soak Etc. - Adult And Child
+
+    Washing Up Liquid
+
+    Washing Detergent
+
+    Children''s (Not Baby) Shampoo
+
+    Baby Oil
+
+    Baby Lotion
+
+    Baby Soap
+
+    Baby Wash
+
+    Baby Talc
+
+    Adult Shampoo & Conditioner
+
+    Liquid Hand Soap
+
+    Small Packs Of Toilet Rolls - 2s, 4s, 6s.
+
+    Dried Dog Food'
+  self: https://www.givefood.org.uk/api/2/needs/ab867105/
