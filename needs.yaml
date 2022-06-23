@@ -1,4 +1,39 @@
 - foodbank:
+    name: Chichester District
+    slug: chichester-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/chichester-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/chichester-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFwouEgkqdA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 60723cb3
+  needs: 'Tinned Fruit
+
+    Long Life Milk
+
+    Rice Pudding And Custard
+
+    Jam/spread
+
+    Tinned Soup
+
+    Tinned Fish
+
+    Pasta/cooking Sauces
+
+    Tinned Vegetables
+
+    Tinned Tomatoes
+
+    Tinned Meat'
+  self: https://www.givefood.org.uk/api/2/needs/60723cb3/
+- foodbank:
     name: Pershore
     slug: pershore
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFwkdKgsw+Q==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 67efc5d7
   needs: 'Tinned Carrots
 
@@ -3640,84 +3671,3 @@
 
     Toilet Roll'
   self: https://www.givefood.org.uk/api/2/needs/0d5c03fb/
-- foodbank:
-    name: Southampton Basics Bank
-    slug: southampton-basics-bank
-    urls:
-      html: https://www.givefood.org.uk/needs/at/southampton-basics-bank/
-      self: https://www.givefood.org.uk/api/2/foodbank/southampton-basics-bank/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDg0wKwGgiQ==
-  - *id001
-  id: 5ae8b45c
-  needs: 'Cook-in Sauces (Jars & Packets)
-
-    Custard
-
-    Hot Chocolate
-
-    Nappies Size 5+
-
-    Noodles (Packets)
-
-    Tinned Cold Meat (Ham, Spam, Etc.)
-
-    Tinned Fruit
-
-    Tinned Hot Meat (Curry, Pies, Stew, Etc.)
-
-    Tinned Mixed Veg
-
-    Tinned Rice Pudding
-
-    Tinned Sweetcorn
-
-    Toiletries (Toothpaste)
-
-    Sugar (Small Bags)
-
-    Coffee (Small Jars)
-
-    Gluten Free
-
-    Jams & Spreads
-
-    Nappies Size 3-4
-
-    Tinned Carrots
-
-    Tinned Kidney Beans & Pulses
-
-    Toiletries (Sanitary Products)
-
-    Toiletries (Toilet Rolls)
-
-    UHT Milk
-
-    Baby Food
-
-    Carrier Bags
-
-    Household Larder
-
-    Nappies Size 0 – 2
-
-    Rice
-
-    Squash & Drinks
-
-    Tinned Fish
-
-    Tinned Macaroni Cheese
-
-    Tinned Peas
-
-    Tinned Potatoes
-
-    Tinned Spaghetti (In Tomato Sauce)
-
-    Tinned Tomatoes
-
-    Toiletries (Shampoo)'
-  self: https://www.givefood.org.uk/api/2/needs/5ae8b45c/
