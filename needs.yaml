@@ -1,4 +1,66 @@
 - foodbank:
+    name: Ammanford
+    slug: ammanford
+    urls:
+      html: https://www.givefood.org.uk/needs/at/ammanford/
+      self: https://www.givefood.org.uk/api/2/foodbank/ammanford/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFxAJDwCjUw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 9f742302
+  needs: 'UHT Milk
+
+    Tinned Tomatoes
+
+    Instant Mashed Potatoes
+
+    Pasta Sauces
+
+    Porridge
+
+    Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/9f742302/
+- foodbank:
+    name: Bounds Green
+    slug: bounds-green
+    urls:
+      html: https://www.givefood.org.uk/needs/at/bounds-green/
+      self: https://www.givefood.org.uk/api/2/foodbank/bounds-green/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFxADIwrCgg==
+  - *id001
+  id: a08e357b
+  needs: 'Cooking Oil
+
+    Cereal
+
+    Sugar
+
+    Coffee
+
+    Cans Of Meat & Fish
+
+    Cooking Sauces & Chopped Tomato
+
+    Toothpaste
+
+    Soap Bars
+
+    Shampoo
+
+    Household Cleaners
+
+    Washing Powder
+
+    Washing Liquid'
+  self: https://www.givefood.org.uk/api/2/needs/a08e357b/
+- foodbank:
     name: Horsham District
     slug: horsham-district
     urls:
@@ -7,11 +69,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFw8jEAskOQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 54804db8
   needs: 'Vegetarian Meals
 
@@ -3675,53 +3733,3 @@
 
     Toilet Rolls'
   self: https://www.givefood.org.uk/api/2/needs/0f076ed7/
-- foodbank:
-    name: South Liverpool
-    slug: south-liverpool
-    urls:
-      html: https://www.givefood.org.uk/needs/at/south-liverpool/
-      self: https://www.givefood.org.uk/api/2/foodbank/south-liverpool/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDwojNAbrHQ==
-  - *id001
-  id: c4ee37d9
-  needs: 'Tinned Fruit
-
-    Tinned Tomatoes
-
-    Tinned Fish
-
-    Biscuits
-
-    Coffee - Small Jars
-
-    Long-life Juice Or Squash
-
-    Shampoo
-
-    Deodorant (For Men And Women)
-
-    Long-life Milk'
-  self: https://www.givefood.org.uk/api/2/needs/c4ee37d9/
-- foodbank:
-    name: Farnham
-    slug: farnham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/farnham/
-      self: https://www.givefood.org.uk/api/2/foodbank/farnham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDwoGHAGugw==
-  - *id001
-  id: a93d9ee9
-  needs: 'Microwaveable Sponge Puddings (Long Life)
-
-    Tinned Rice Pudding
-
-    Instant Mashed Potato
-
-    UHT Milk
-
-    Chocolate Bars'
-  self: https://www.givefood.org.uk/api/2/needs/a93d9ee9/
