@@ -1,4 +1,39 @@
 - foodbank:
+    name: Exmouth
+    slug: exmouth
+    urls:
+      html: https://www.givefood.org.uk/needs/at/exmouth/
+      self: https://www.givefood.org.uk/api/2/foodbank/exmouth/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFws4AgSFyw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 4a6f2065
+  needs: 'Tins Of Baked Beans/spaghetti
+
+    Breakfast Cereals/porridge Oats
+
+    Instant Coffee
+
+    Longlife Milk (Whole And Semi-skimmed)
+
+    Tins Of Meat (E.g. Stew, Ham, Corned Beef)
+
+    Dried Instant Potato
+
+    Soup (Packet And Tinned)
+
+    Tins Of Fruit
+
+    Tins Of Tuna
+
+    Nappies Sizes 2,5 & 6'
+  self: https://www.givefood.org.uk/api/2/needs/4a6f2065/
+- foodbank:
     name: Grace
     slug: grace
     urls:
@@ -7,11 +42,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFwszIAhcHg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5c7b45a1
   needs: 'Plain White Rice/microwave Rice
 
@@ -3648,34 +3679,3 @@
 
     Dried Dog Food'
   self: https://www.givefood.org.uk/api/2/needs/ab867105/
-- foodbank:
-    name: Clifton NG11
-    slug: clifton-ng11
-    urls:
-      html: https://www.givefood.org.uk/needs/at/clifton-ng11/
-      self: https://www.givefood.org.uk/api/2/foodbank/clifton-ng11/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDg8lEAi0tw==
-  - *id001
-  id: 5f8a99fd
-  needs: 'Soup
-
-    Jam
-
-    Custard
-
-    Tinned Meat
-
-    Juice / Squash
-
-    Coffee
-
-    UHT Milk
-
-    Instant Mashed Potato
-
-    Tinned Tomatoes
-
-    Tinned Sweetcorn'
-  self: https://www.givefood.org.uk/api/2/needs/5f8a99fd/
