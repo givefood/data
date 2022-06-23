@@ -1,4 +1,61 @@
 - foodbank:
+    name: Pershore
+    slug: pershore
+    urls:
+      html: https://www.givefood.org.uk/needs/at/pershore/
+      self: https://www.givefood.org.uk/api/2/foodbank/pershore/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGFwkdKgsw+Q==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 67efc5d7
+  needs: 'Tinned Carrots
+
+    Tinned Vegetables E.g Peas
+
+    Tinned Fruit All
+
+    Fruit Juice
+
+    UHT Milk
+
+    Meat Soup
+
+    Spaghetti In Sauce
+
+    Custard And Rice Pudding
+
+    Washing Powder + Washing Up Liquid
+
+    Tinned Meat
+
+    Tinned Fish
+
+    All Toiletries Eg. Toothpaste, Shower Gel
+
+    Coffee
+
+    Tea
+
+    Smash
+
+    Tinned Tomatoes
+
+    Cereal
+
+    Biscuits
+
+    Treats E.g Chocolate
+
+    Cooking Sauces
+
+    Sauces E.g. Tomato Ketchup'
+  self: https://www.givefood.org.uk/api/2/needs/67efc5d7/
+- foodbank:
     name: Thame
     slug: thame
     urls:
@@ -7,11 +64,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFwgGAgI5Ig==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 798d519f
   needs: 'Packet Of Breakfast Cereal (Large Or Small)
 
@@ -3668,38 +3721,3 @@
 
     Toiletries (Shampoo)'
   self: https://www.givefood.org.uk/api/2/needs/5ae8b45c/
-- foodbank:
-    name: Gravesham
-    slug: gravesham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/gravesham/
-      self: https://www.givefood.org.uk/api/2/foodbank/gravesham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDg0KJwXD8w==
-  - *id001
-  id: a7432a2c
-  needs: 'Tin Sweetcorn
-
-    Tin Macaroni Cheese
-
-    Tin Custard
-
-    Small Jars Of Instant Coffee
-
-    Microwaveable Sponge Puddings
-
-    Ready Made Jelly
-
-    Packets Of Instant Cous Cous
-
-    Packets Of Pasta And Sauce
-
-    Washing Up Liquid
-
-    Antibacterial Spray And Wipes
-
-    Toilet Cleaner
-
-    Non-bio And Bio Laundry Tablets'
-  self: https://www.givefood.org.uk/api/2/needs/a7432a2c/
