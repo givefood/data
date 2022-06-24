@@ -28,6 +28,55 @@
     Oats'
   self: https://www.givefood.org.uk/api/2/needs/418eefe0/
 - foodbank:
+    name: Loveworks
+    slug: loveworks
+    urls:
+      html: https://www.givefood.org.uk/needs/at/loveworks/
+      self: https://www.givefood.org.uk/api/2/foodbank/loveworks/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGA0IAgXAUw==
+  - *id001
+  id: a97c818d
+  needs: 'Tinned Fruit
+
+    Tinned Corn Beef, Ham, Sandwich Meat Etc
+
+    Tins Of Meat Casserole
+
+    Sanitary Towels And Tampons
+
+    Bags For Life (For Parcels That We Deliver)
+
+    Long Grain Rice
+
+    Nappies (Size 4 Only)
+
+    Tinned Potatoes
+
+    Breakfast Cereal
+
+    Biscuits
+
+    UHT Semi Skimmed Milk
+
+    Rice Pudding
+
+    Custard
+
+    Long Life Fruit Juice
+
+    Tuna
+
+    Pasta Sauce
+
+    Tinned Vegetables
+
+    Tinned Tomatoes
+
+    Toilet Rolls'
+  self: https://www.givefood.org.uk/api/2/needs/a97c818d/
+- foodbank:
     name: Harrow
     slug: harrow
     urls:
@@ -3698,54 +3747,3 @@
 
     Tampax'
   self: https://www.givefood.org.uk/api/2/needs/55ecb03d/
-- foodbank:
-    name: West Berks
-    slug: west-berks
-    urls:
-      html: https://www.givefood.org.uk/needs/at/west-berks/
-      self: https://www.givefood.org.uk/api/2/foodbank/west-berks/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDw0NEwp0bg==
-  - *id001
-  id: b9c49498
-  needs: 'Tinned Meat / Meat Meals
-
-    Long Life Fruit Juice
-
-    Instant Mash
-
-    Shower Gel
-
-    Tinned Fruit
-
-    Snacks - Cereal Bars / Nuts / Dried Fruit Etc.
-
-    Coffee
-
-    UHT Long Life Milk
-
-    Tinned Vegetables
-
-    Ketchup
-
-    Mayo
-
-    Tinned Tomatoes
-
-    Tinned Fish
-
-    Pasta Sauce
-
-    Instant Mash
-
-    Sponge Puddings (Not Chilled)
-
-    Pot Noodle
-
-    Mug Shots
-
-    Squash
-
-    Tinned Custard Or Rice Pudding'
-  self: https://www.givefood.org.uk/api/2/needs/b9c49498/
