@@ -1,4 +1,49 @@
 - foodbank:
+    name: Devizes & District
+    slug: devizes-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/devizes-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/devizes-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGA06DwYW0g==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 0334b48c
+  needs: 'Tinned Fruit
+
+    Tinned Hot Meat E.g. Stewing Steak / Chicken In Sauce Etc
+
+    Tinned Ham
+
+    Long Life Dairy Milk
+
+    Tinned Carrots
+
+    Tinned Peas
+
+    Tinned Rice Pudding
+
+    Tinned Potatoes
+
+    Long Life Fruit Juice
+
+    Chocolate Bars
+
+    Long Life Sponge Puddings
+
+    Instant Mash Potato
+
+    Conditioner
+
+    Shampoo
+
+    Deodorant (Men''s And Ladies'')'
+  self: https://www.givefood.org.uk/api/2/needs/0334b48c/
+- foodbank:
     name: Witney & West Oxfordshire
     slug: witney-west-oxfordshire
     urls:
@@ -7,11 +52,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGA0gGghphg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 418eefe0
   needs: 'Pasta Sauce
 
@@ -3726,24 +3767,3 @@
 
     Shower Gel'
   self: https://www.givefood.org.uk/api/2/needs/17a1a341/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGDw4FFgK8Tw==
-  - *id001
-  id: 55ecb03d
-  needs: 'Pot Noodles
-
-    Microwavable Rice Pouches
-
-    Strong Shopping Bags
-
-    Baby Wipes
-
-    Tampax'
-  self: https://www.givefood.org.uk/api/2/needs/55ecb03d/
