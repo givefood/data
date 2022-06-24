@@ -1,133 +1,4 @@
 - foodbank:
-    name: ReadiFood
-    slug: readifood
-    urls:
-      html: https://www.givefood.org.uk/needs/at/readifood/
-      self: https://www.givefood.org.uk/api/2/foodbank/readifood/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGGAokCAZHhg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
-  id: 4d3258aa
-  needs: 'Tinned Vegetables
-
-    Tinned Fruit
-
-    Tinned/instant Potatoes
-
-    Tinned Deserts
-
-    Microwave Rice
-
-    Weetabix
-
-    Baked Beans
-
-    Shampoo
-
-    Tampons
-
-    Nappies Size 5
-
-    6 And 6+
-
-    Tinned Ready Meals
-
-    Tinned Fish
-
-    Baked Beans
-
-    Cereal Bars
-
-    Pot Noodles (Or Equivalent)
-
-    Tinned Meat
-
-    Tinned Vegetables
-
-    Tinned/instant Potatoes
-
-    Tinned Fruit
-
-    Baby Toiletries (Not Wipes)
-
-    Dried Pulses
-
-    Dried Lentils
-
-    Long Life Milk
-
-    Squash
-
-    Honey
-
-    Toiletries'
-  self: https://www.givefood.org.uk/api/2/needs/4d3258aa/
-- foodbank:
-    name: Market Drayton
-    slug: market-drayton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/market-drayton/
-      self: https://www.givefood.org.uk/api/2/foodbank/market-drayton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGGAkmLAt6Xw==
-  - *id001
-  id: 6789e2de
-  needs: 'UHT Milk (Semi And Full) - Low Stock
-
-    Long Life Cartons Of Fruit Juice - Low Stock
-
-    Shampoo - No Stock
-
-    Toilet Rolls - No Stock
-
-    Soup
-
-    Laundry Powder/tabs & Washing-up Liquid
-
-    Rice Pudding And Custard
-
-    Cooking And Pasta Sauces
-
-    Dry Cat & Dog Food
-
-    Cleaning Products
-
-    Sponge Puddings/slab Cake
-
-    Carrier Bags'
-  self: https://www.givefood.org.uk/api/2/needs/6789e2de/
-- foodbank:
-    name: Rugby
-    slug: rugby
-    urls:
-      html: https://www.givefood.org.uk/needs/at/rugby/
-      self: https://www.givefood.org.uk/api/2/foodbank/rugby/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGGAkQIwKFug==
-  - *id001
-  id: 9b49839a
-  needs: 'Instant Mash Potato (Packets
-
-    Quality Carrier Bags (Bags For Life)
-
-    Non Dairy Milk Substitute (UHT)
-
-    Fruit Juice (Long Life)
-
-    Fruit (Tinned)
-
-    Milk (Dried)
-
-    Washing Up Liquid'
-  self: https://www.givefood.org.uk/api/2/needs/9b49839a/
-- foodbank:
     name: South & East Bristol
     slug: south-east-bristol
     urls:
@@ -136,7 +7,11 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGFxE4GAlYLw==
-  - *id001
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
   id: 42a03622
   needs: 'Custard
 
@@ -3749,3 +3624,96 @@
 
     Men''s Toiletries'
   self: https://www.givefood.org.uk/api/2/needs/752a4b38/
+- foodbank:
+    name: Harrow
+    slug: harrow
+    urls:
+      html: https://www.givefood.org.uk/needs/at/harrow/
+      self: https://www.givefood.org.uk/api/2/foodbank/harrow/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDwswEQ1UrA==
+  - *id001
+  id: e0b3c373
+  needs: '20p Carrier Bags
+
+    Sponge Puddings
+
+    Long-life Fruit Juice
+
+    Small Jars Coffee
+
+    Women’s + Men’s Deodorant
+
+    Tinned Baked Beans With Sausages
+
+    Men’s Body Wash
+
+    Tinned Vegetarian Meals
+
+    Honey
+
+    Shampoo
+
+    Razors
+
+    Shaving Foam
+
+    Shower Gel
+
+    Children’s Toothbrushes
+
+    Tinned Hot Dogs
+
+    Tinned Meatballs
+
+    Tinned Assorted Vegetables
+
+    Tinned Rice Pudding'
+  self: https://www.givefood.org.uk/api/2/needs/e0b3c373/
+- foodbank:
+    name: Wadebridge
+    slug: wadebridge
+    urls:
+      html: https://www.givefood.org.uk/needs/at/wadebridge/
+      self: https://www.givefood.org.uk/api/2/foodbank/wadebridge/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDwsdGwn68Q==
+  - *id001
+  id: 2b907141
+  needs: 'Washing Powder / Pods
+
+    Toilet Rolls
+
+    Shampoo
+
+    Conditioner
+
+    Female Deodorant
+
+    Jam
+
+    Small Jars Of Coffee
+
+    Toothbrushes'
+  self: https://www.givefood.org.uk/api/2/needs/2b907141/
+- foodbank:
+    name: Skipton
+    slug: skipton
+    urls:
+      html: https://www.givefood.org.uk/needs/at/skipton/
+      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGDworMAMbUQ==
+  - *id001
+  id: 7f14cbaf
+  needs: 'Pot Noodles
+
+    Microwavable Rice Pouches
+
+    Strong Shopping Bags
+
+    Tampax'
+  self: https://www.givefood.org.uk/api/2/needs/7f14cbaf/
