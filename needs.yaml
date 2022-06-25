@@ -1,4 +1,53 @@
 - foodbank:
+    name: Leek & District
+    slug: leek-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/leek-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/leek-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGRICFgwDdQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: f150981f
+  needs: 'Jam
+
+    Custard
+
+    UHT Milk Cartons
+
+    Instant Mash Potato
+
+    Tinned Potatoes
+
+    Shampoo
+
+    Choc Bars
+
+    Fruit Squash
+
+    Washing Powder
+
+    Hair Conditioner
+
+    Sponge Puddings (Non-refrigerable)
+
+    Teabags - Small And Large Boxes
+
+    Coffee - Small And Large Jars
+
+    Kitchen, Bathroom And Multi-surface Cleaner
+
+    Cleaning Cloths
+
+    Shower Gel
+
+    Tomato Ketchup And Brown Sauce'
+  self: https://www.givefood.org.uk/api/2/needs/f150981f/
+- foodbank:
     name: Callington
     slug: callington
     urls:
@@ -7,11 +56,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGQ06DQJnyQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5cd6ec6a
   needs: 'Dried Mash Potatoes
 
@@ -3803,16 +3848,3 @@
 
     Shampoo'
   self: https://www.givefood.org.uk/api/2/needs/c16bfeb8/
-- foodbank:
-    name: Stornoway High Church
-    slug: stornoway-high-church
-    urls:
-      html: https://www.givefood.org.uk/needs/at/stornoway-high-church/
-      self: https://www.givefood.org.uk/api/2/foodbank/stornoway-high-church/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQgbFQ30eA==
-  - *id001
-  id: 2dccf234
-  needs: Unknown
-  self: https://www.givefood.org.uk/api/2/needs/2dccf234/
