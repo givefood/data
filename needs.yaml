@@ -1,4 +1,37 @@
 - foodbank:
+    name: Coventry
+    slug: coventry
+    urls:
+      html: https://www.givefood.org.uk/needs/at/coventry/
+      self: https://www.givefood.org.uk/api/2/foodbank/coventry/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGBIZIAMDXg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5377d6bd
+  needs: 'Tinned Vegetables
+
+    UHT Long Life Milk
+
+    Cooking Sauce
+
+    Fruit Juice
+
+    Squash
+
+    Instant Mash Potato
+
+    Biscuits
+
+    Soup
+
+    Tinned Fruit'
+  self: https://www.givefood.org.uk/api/2/needs/5377d6bd/
+- foodbank:
     name: Hinckley Area
     slug: hinckley-area
     urls:
@@ -7,11 +40,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGBAVAAUpmg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 4a4ef592
   needs: 'Tinned Meat (400 G)
 
@@ -3741,58 +3770,3 @@
 
     Children Toothpaste'
   self: https://www.givefood.org.uk/api/2/needs/5ca96063/
-- foodbank:
-    name: Romsey
-    slug: romsey
-    urls:
-      html: https://www.givefood.org.uk/needs/at/romsey/
-      self: https://www.givefood.org.uk/api/2/foodbank/romsey/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEA45HwP4iQ==
-  - *id001
-  id: 462041f3
-  needs: 'Long Life Milk
-
-    Rice
-
-    Tinned Spaghetti
-
-    Instant Mash
-
-    Long Life Juice
-
-    Squash
-
-    Custard
-
-    Desserts
-
-    Toilet Roll
-
-    Microwave Rice
-
-    Pasta Sauce
-
-    Tinned Carrots + Tinned Peas
-
-    Jam + Peanut Butter
-
-    Sponge Puddings
-
-    Sweets + Chocolates
-
-    Chocolate Biscuit Bars
-
-    Washing Up Liquid
-
-    Laundry Powder/liquid
-
-    Rice Pudding
-
-    Shampoo + Conditioner
-
-    Cat Food
-
-    Coffee'
-  self: https://www.givefood.org.uk/api/2/needs/462041f3/
