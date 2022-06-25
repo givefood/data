@@ -1,4 +1,78 @@
 - foodbank:
+    name: Cheadle and District
+    slug: cheadle-and-district
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cheadle-and-district/
+      self: https://www.givefood.org.uk/api/2/foodbank/cheadle-and-district/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGBUvOAGZxw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c7e8bdb9
+  needs: 'Tinned Meat
+
+    Tinned Tomatoes
+
+    Tinned Fruit
+
+    Bottles Of Squash
+
+    Heavy Duty Carrier Bags'
+  self: https://www.givefood.org.uk/api/2/needs/c7e8bdb9/
+- foodbank:
+    name: Brecon
+    slug: brecon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/brecon/
+      self: https://www.givefood.org.uk/api/2/foodbank/brecon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGBQeEwYrUg==
+  - *id001
+  id: 7c89d353
+  needs: 'Tinned Fruit
+
+    Instant Mash
+
+    Tinned Carrots
+
+    Instant Coffee
+
+    Jellies/jelly Blocks
+
+    Tinned Or Non-chilled Carton Custard
+
+    Instant Custard Powder
+
+    Shampoo & Conditioner - Adult And Child
+
+    Bubble Bath, Bath Soak Etc. - Adult And Child
+
+    Washing Detergent
+
+    Children''s (Not Baby) Shampoo
+
+    Baby Oil
+
+    Baby Lotion
+
+    Baby Soap
+
+    Baby Wash
+
+    Baby Talc
+
+    Liquid Hand Soap
+
+    Small Packs Of Toilet Rolls - 2s, 4s, 6s.
+
+    Dried Dog Food'
+  self: https://www.givefood.org.uk/api/2/needs/7c89d353/
+- foodbank:
     name: Coventry
     slug: coventry
     urls:
@@ -7,11 +81,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGBIZIAMDXg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 5377d6bd
   needs: 'Tinned Vegetables
 
@@ -3694,79 +3764,3 @@
 
     Coffee'
   self: https://www.givefood.org.uk/api/2/needs/f0a11951/
-- foodbank:
-    name: Berwick
-    slug: berwick
-    urls:
-      html: https://www.givefood.org.uk/needs/at/berwick/
-      self: https://www.givefood.org.uk/api/2/foodbank/berwick/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEBAfIAPKyA==
-  - *id001
-  id: 1859e280
-  needs: 'Toothbrushes
-
-    2 In 1 Shampoo And Conditioner
-
-    Long Life Milk'
-  self: https://www.givefood.org.uk/api/2/needs/1859e280/
-- foodbank:
-    name: Crowthorne
-    slug: crowthorne
-    urls:
-      html: https://www.givefood.org.uk/needs/at/crowthorne/
-      self: https://www.givefood.org.uk/api/2/foodbank/crowthorne/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEBAMHgoXNA==
-  - *id001
-  id: 5ca96063
-  needs: 'Baked Beans
-
-    Tinned Tomatoes
-
-    Long Life Milk
-
-    Long Life Milk
-
-    Carton Juice
-
-    Cup A Soup
-
-    Jam
-
-    Porridge
-
-    Cleaning Products
-
-    Washing Tablets
-
-    Bin Bags
-
-    Bleach
-
-    Anti Bacterial Spray
-
-    Soap Bars
-
-    Washing Up Liquid
-
-    J Clothes
-
-    Sanitary Products
-
-    Hair Conditioner
-
-    Adult Toothbrushes
-
-    Ladies Deodrant
-
-    Men''s Deodorant
-
-    Mens Shower Gel
-
-    Adult Toothpaste
-
-    Children Toothpaste'
-  self: https://www.givefood.org.uk/api/2/needs/5ca96063/
