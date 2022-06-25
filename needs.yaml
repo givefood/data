@@ -1,4 +1,43 @@
 - foodbank:
+    name: Stratford Upon Avon
+    slug: stratford-upon-avon
+    urls:
+      html: https://www.givefood.org.uk/needs/at/stratford-upon-avon/
+      self: https://www.givefood.org.uk/api/2/foodbank/stratford-upon-avon/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGQwVJAr+Uw==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c1345b59
+  needs: 'Tinned Fruit
+
+    Coffee - Small Jars
+
+    UHT Fruit Juice
+
+    Noodles & Rice
+
+    Tinned Veg - Carrots, Peas
+
+    Tinned Meat, Meat Meals & Pies
+
+    Tinned Potatoes, Instant Mash
+
+    Jar/tinned Pasta Sauce
+
+    Peanut Butter, Jam & Honey
+
+    Tinned Puddings
+
+    Chocolate, Sweet Treats
+
+    Washing Up Liquid & Washing Powder'
+  self: https://www.givefood.org.uk/api/2/needs/c1345b59/
+- foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
     urls:
@@ -7,11 +46,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGBUvOAGZxw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c7e8bdb9
   needs: 'Tinned Meat
 
@@ -3737,30 +3772,3 @@
 
     Long Life Sponge Puddings'
   self: https://www.givefood.org.uk/api/2/needs/86f5f3a3/
-- foodbank:
-    name: Farnworth & Kearsley
-    slug: farnworth-kearsley
-    urls:
-      html: https://www.givefood.org.uk/needs/at/farnworth-kearsley/
-      self: https://www.givefood.org.uk/api/2/foodbank/farnworth-kearsley/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEBAqFAFDAA==
-  - *id001
-  id: f0a11951
-  needs: 'Tinned Fruit
-
-    Tinned Rice Pudding
-
-    Tinned Tomatoes
-
-    Tinned Carrots
-
-    Tinned Sweetcorn
-
-    Tinned Meat
-
-    Tinned Fish
-
-    Coffee'
-  self: https://www.givefood.org.uk/api/2/needs/f0a11951/
