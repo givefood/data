@@ -1,4 +1,63 @@
 - foodbank:
+    name: Callington
+    slug: callington
+    urls:
+      html: https://www.givefood.org.uk/needs/at/callington/
+      self: https://www.givefood.org.uk/api/2/foodbank/callington/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGQ06DQJnyQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 5cd6ec6a
+  needs: 'Dried Mash Potatoes
+
+    Tinned Fruit
+
+    UHT Milk (Not Skimmed)
+
+    Jam
+
+    Sponge Puddings
+
+    Litre Cartons Of Fruit Juice
+
+    Jars Of Coffee
+
+    Lunchbox Items (Chocolate, Crisps)
+
+    Washing Up Liquid
+
+    Washing Powder/tabs/liquid For Clothes
+
+    Mens Razors
+
+    Ladies Razors
+
+    Shaving Foam/gel
+
+    Kitchen Roll
+
+    Toilet Roll
+
+    Shower Gel
+
+    Sweet Biscuits
+
+    Size 5/6 Nappies
+
+    Tuna Fish
+
+    Pot Noodles
+
+    Easy Cook Rice
+
+    Pasta Sauce (Not Curry Sauce)'
+  self: https://www.givefood.org.uk/api/2/needs/5cd6ec6a/
+- foodbank:
     name: Stratford Upon Avon
     slug: stratford-upon-avon
     urls:
@@ -7,11 +66,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGQwVJAr+Uw==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c1345b59
   needs: 'Tinned Fruit
 
@@ -37,6 +92,29 @@
 
     Washing Up Liquid & Washing Powder'
   self: https://www.givefood.org.uk/api/2/needs/c1345b59/
+- foodbank:
+    name: Jubilee Storehouse
+    slug: jubilee-storehouse
+    urls:
+      html: https://www.givefood.org.uk/needs/at/jubilee-storehouse/
+      self: https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGQwEKQkdyw==
+  - *id001
+  id: e3c63f81
+  needs: 'Tinned Meat Or Vegetable Curry
+
+    Tinned Soup
+
+    Instant Noodles
+
+    Jam/marmalade
+
+    Deodorant
+
+    Shower Gel For Men And Women'
+  self: https://www.givefood.org.uk/api/2/needs/e3c63f81/
 - foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
@@ -3738,37 +3816,3 @@
   id: 2dccf234
   needs: Unknown
   self: https://www.givefood.org.uk/api/2/needs/2dccf234/
-- foodbank:
-    name: North Lochs
-    slug: north-lochs
-    urls:
-      html: https://www.givefood.org.uk/needs/at/north-lochs/
-      self: https://www.givefood.org.uk/api/2/foodbank/north-lochs/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQgZFgc6Sg==
-  - *id001
-  id: 84d254b9
-  needs: Unknown
-  self: https://www.givefood.org.uk/api/2/needs/84d254b9/
-- foodbank:
-    name: Runcorn District
-    slug: runcorn-district
-    urls:
-      html: https://www.givefood.org.uk/needs/at/runcorn-district/
-      self: https://www.givefood.org.uk/api/2/foodbank/runcorn-district/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEBMpJAngzA==
-  - *id001
-  id: 86f5f3a3
-  needs: 'Tinned Tomatoes
-
-    Tinned Fruit
-
-    Long Life Milk
-
-    Long Life Fruit Juice
-
-    Long Life Sponge Puddings'
-  self: https://www.givefood.org.uk/api/2/needs/86f5f3a3/
