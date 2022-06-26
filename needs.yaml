@@ -1,4 +1,51 @@
 - foodbank:
+    name: Cardiff
+    slug: cardiff
+    urls:
+      html: https://www.givefood.org.uk/needs/at/cardiff/
+      self: https://www.givefood.org.uk/api/2/foodbank/cardiff/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGgkwBQwmeg==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: c2343778
+  needs: 'Sponge Puddings
+
+    Savoury Snacks (Crisps, Crackers Etc)
+
+    Instant Coffee (Small Jars)
+
+    Fruit Juice (Long Life) 1 Litre
+
+    Chocolate/sweets
+
+    Tinned Fruit
+
+    Custard
+
+    Rice Pudding
+
+    Instant Noodles
+
+    Tinned Tomatoes
+
+    Squash (1 Litre Bottles)
+
+    Microwaveable Pasta
+
+    Milk (UHT Long Life 1 Litre)
+
+    Good Quality Carrier Bags
+
+    Antibacterial Spray/bleach
+
+    Shampoo/conditioner'
+  self: https://www.givefood.org.uk/api/2/needs/c2343778/
+- foodbank:
     name: Towcester
     slug: towcester
     urls:
@@ -7,11 +54,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGgYSCwC8jA==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: 81f043bd
   needs: 'Tins Of Tomatoes (Chopped Or Whole)
 
@@ -3835,30 +3878,3 @@
 
     Packet Desserts'
   self: https://www.givefood.org.uk/api/2/needs/422e8369/
-- foodbank:
-    name: King's Lynn
-    slug: kings-lynn
-    urls:
-      html: https://www.givefood.org.uk/needs/at/kings-lynn/
-      self: https://www.givefood.org.uk/api/2/foodbank/kings-lynn/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQo1GQNN0Q==
-  - *id001
-  id: c38182e6
-  needs: 'Soup
-
-    Tinned Rice Pudding Or Custard
-
-    Nappies - Size 4
-
-    Squash Or Long Life Fruit Juice
-
-    Treats - Chocolate Bars, Crisps, Granola Bars, Flapjack, Lunch Biscuits
-
-    Packet Mixes, Gravy Granules, Cooking Oil
-
-    Sauces - Ketchup, BBQ, Mayonnaise
-
-    Strong Carrier Bags (So We People Can Take The Food Home!)'
-  self: https://www.givefood.org.uk/api/2/needs/c38182e6/
