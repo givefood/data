@@ -1,4 +1,35 @@
 - foodbank:
+    name: Glasgow SW
+    slug: glasgow-sw
+    urls:
+      html: https://www.givefood.org.uk/needs/at/glasgow-sw/
+      self: https://www.givefood.org.uk/api/2/foodbank/glasgow-sw/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGg4hKArXGQ==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 306b27b3
+  needs: 'Long Life Milk
+
+    Diluting Juice
+
+    Tinned Fruit, Meat, Vegetables And Fish
+
+    Pasta Sauce
+
+    Tea
+
+    Coffee
+
+    Sugar
+
+    Toilet Rolls'
+  self: https://www.givefood.org.uk/api/2/needs/306b27b3/
+- foodbank:
     name: B30
     slug: b30
     urls:
@@ -7,11 +38,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGgoVDgPr5g==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: bcfc4b69
   needs: 'Tinned Tomatoes
 
@@ -325,6 +352,145 @@
 
     Shower Gel For Men And Women'
   self: https://www.givefood.org.uk/api/2/needs/e3c63f81/
+- foodbank:
+    name: Hound Basics
+    slug: hound-basics
+    urls:
+      html: https://www.givefood.org.uk/needs/at/hound-basics/
+      self: https://www.givefood.org.uk/api/2/foodbank/hound-basics/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGQktIAQldw==
+  - *id001
+  id: a697a6a8
+  needs: 'Evaporated Milk
+
+    Hot Dogs
+
+    Jelly Pots / Powder Packets
+
+    Kids'' Healthy Snacks, E.g., Raisins
+
+    Laundry Powder
+
+    Mash Potato Packets
+
+    Olive Oil (Small)
+
+    Quick Pasta
+
+    Shampoo (Unisex)
+
+    Small Jelly / Fruit Pots
+
+    Steamed Puddings
+
+    Tinned Chicken Meals
+
+    Tinned Cold Meat
+
+    Toothbrushes
+
+    Vegetarian Fray Bentos Pies
+
+    Antibacterial Wipes
+
+    Bottled Water
+
+    Carrier Bags
+
+    Cereal
+
+    Cereal Bars
+
+    Children’s Toothpaste/toothbrushes
+
+    Choc Snack Bars / Sweets
+
+    Choc Spread
+
+    Coffee (Small Size)
+
+    Crisps
+
+    Cuppa Soup
+
+    Dry Rice
+
+    Fabric Conditioner
+
+    Fray Bentos Pies
+
+    Fruit Juice Long Life
+
+    Hair Conditioner
+
+    Hot Chocolate / Horlicks
+
+    Kid’s Shampoo
+
+    Kitchen Rolls
+
+    Lasagne Sheets
+
+    Marmite
+
+    Men''s Antiperspirant / Deodorant
+
+    Packet Sauces
+
+    Peanut Butter
+
+    Porridge Pots
+
+    Pot Noodles
+
+    Quick Noodles
+
+    Quick Rice
+
+    Salt & Pepper - Small
+
+    Savoury Crackers
+
+    Small Size Porridge (500g) Or Porridge Pots
+
+    Soap Bars / Liquid Soap
+
+    Squash
+
+    Stock Cubes / Gravy Granules
+
+    Sugar / Sweeteners
+
+    Swiss Roll (Molly''s)
+
+    Tinned Custard
+
+    Tinned Fruit
+
+    Tinned Rice Pudding / Custard
+
+    Tinned Spaghetti
+
+    Tissues
+
+    Toilet Rolls
+
+    Tomato Sauce / Brown Sauce
+
+    Tomato Soup
+
+    Toothpaste
+
+    Tuna Pasta Bake Packet Sauce
+
+    UHT Milk
+
+    Vegetarian Fray Bentos Pies
+
+    Women''s Deodorant/toiletries'
+  self: https://www.givefood.org.uk/api/2/needs/a697a6a8/
 - foodbank:
     name: Cheadle and District
     slug: cheadle-and-district
@@ -3866,61 +4032,3 @@
 
     Rice'
   self: https://www.givefood.org.uk/api/2/needs/6af02ca3/
-- foodbank:
-    name: Thurrock
-    slug: thurrock
-    urls:
-      html: https://www.givefood.org.uk/needs/at/thurrock/
-      self: https://www.givefood.org.uk/api/2/foodbank/thurrock/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQ0iHwYMwA==
-  - *id001
-  id: 208f70de
-  needs: 'Cooking Sauces
-
-    Cereals
-
-    Tinned Meat
-
-    Cordial / Squash
-
-    Pot Noodles
-
-    Sponge Puddings
-
-    Longlife Fruit Juice
-
-    Dried Noodles
-
-    Longlife Milk
-
-    Tinned Fruit
-
-    Tinned Potatoes
-
-    Custard'
-  self: https://www.givefood.org.uk/api/2/needs/208f70de/
-- foodbank:
-    name: Skipton
-    slug: skipton
-    urls:
-      html: https://www.givefood.org.uk/needs/at/skipton/
-      self: https://www.givefood.org.uk/api/2/foodbank/skipton/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQ0HIg6vIw==
-  - *id001
-  id: 496f2686
-  needs: 'Pot Noodles
-
-    Microwavable Rice Pouches
-
-    Strong Shopping Bags
-
-    Baby Wipes
-
-    Tampax
-
-    Jars Of Pasta Sauce'
-  self: https://www.givefood.org.uk/api/2/needs/496f2686/
