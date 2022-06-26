@@ -1,4 +1,53 @@
 - foodbank:
+    name: Towcester
+    slug: towcester
+    urls:
+      html: https://www.givefood.org.uk/needs/at/towcester/
+      self: https://www.givefood.org.uk/api/2/foodbank/towcester/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGgYSCwC8jA==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: 81f043bd
+  needs: 'Tins Of Tomatoes (Chopped Or Whole)
+
+    Tins Of Meat (Stews, Mince Beef, Etc.)
+
+    Tins Of Fish
+
+    Tins Of Carrots
+
+    Rice
+
+    Pasta
+
+    Pasta Sauces
+
+    Instant Coffee
+
+    Jam
+
+    Packets Of Soup (4 Sachets)
+
+    Sponge Puddings
+
+    Biscuits And Crackers (E.g. Tuc Or Cream Crackers)
+
+    Shampoo
+
+    Shower Gel
+
+    Razors
+
+    Washing Up Liquid
+
+    Laundry Powder/gel'
+  self: https://www.givefood.org.uk/api/2/needs/81f043bd/
+- foodbank:
     name: Leek & District
     slug: leek-district
     urls:
@@ -7,11 +56,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGRICFgwDdQ==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: f150981f
   needs: 'Jam
 
@@ -3817,34 +3862,3 @@
 
     Strong Carrier Bags (So We People Can Take The Food Home!)'
   self: https://www.givefood.org.uk/api/2/needs/c38182e6/
-- foodbank:
-    name: Bassetlaw
-    slug: bassetlaw
-    urls:
-      html: https://www.givefood.org.uk/needs/at/bassetlaw/
-      self: https://www.givefood.org.uk/api/2/foodbank/bassetlaw/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQoFAwmuDg==
-  - *id001
-  id: c16bfeb8
-  needs: 'Long Life Milk
-
-    Sugar
-
-    Jam
-
-    Tinned Chicken In White Sauce
-
-    Tinned Stewing Steak
-
-    Tinned Tuna
-
-    Tinned Ham
-
-    Tinned Corned Beef
-
-    Instant Mashed Potato
-
-    Shampoo'
-  self: https://www.givefood.org.uk/api/2/needs/c16bfeb8/
