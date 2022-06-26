@@ -1,4 +1,85 @@
 - foodbank:
+    name: B30
+    slug: b30
+    urls:
+      html: https://www.givefood.org.uk/needs/at/b30/
+      self: https://www.givefood.org.uk/api/2/foodbank/b30/
+  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
+  - !!binary |
+    B+YGGgoVDgPr5g==
+  - &id001 !!python/object/apply:datetime.timezone
+    - !!python/object/apply:datetime.timedelta
+      - 0
+      - 0
+      - 0
+  id: bcfc4b69
+  needs: 'Tinned Tomatoes
+
+    Pasta Sauce
+
+    Cereal(not Greater Than 500gm)
+
+    Tinned Fish
+
+    Tinned Fruit In Juice(not Prunes Or Grapefruit)
+
+    Crisps
+
+    Rice
+
+    Toilet Rolls
+
+    Strong Carrier Bags
+
+    Tinned Potatoes
+
+    Tinned Spaghetti
+
+    Squash
+
+    Long Life Fruit Juice
+
+    UHT Semi Skimmed Milk
+
+    Dog/cat Food
+
+    Instant Hot Chocolate (Made Up With Water Not Milk)
+
+    Instant Coffee (Not Decaf)
+
+    Porridge
+
+    Ready Made Custard Tins Or Cartons Not Powder
+
+    UHT Whole Milk
+
+    Tinned Rice Pudding
+
+    Tinned Meat (Ham, Corned Beef, Chopped Pork, Meat Chunks In Sauce)
+
+    Small Packets Of Tea Bags (40’s And 80’s)
+
+    Jam, Honey
+
+    Biscuits
+
+    Chocolate And Snack Bars
+
+    Liquid Or Bar Soap
+
+    Laundry Liquid Or Powder (Not Family Sized)
+
+    Gender Neutral Shower-gel
+
+    Gender Neutral Shampoo
+
+    Sugar (500g Bags Not Larger)
+
+    Toothpaste
+
+    Single Or Duo Wrapped Toothbrushes'
+  self: https://www.givefood.org.uk/api/2/needs/bcfc4b69/
+- foodbank:
     name: Cardiff
     slug: cardiff
     urls:
@@ -7,11 +88,7 @@
   found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
   - !!binary |
     B+YGGgkwBQwmeg==
-  - &id001 !!python/object/apply:datetime.timezone
-    - !!python/object/apply:datetime.timedelta
-      - 0
-      - 0
-      - 0
+  - *id001
   id: c2343778
   needs: 'Sponge Puddings
 
@@ -3847,34 +3924,3 @@
 
     Jars Of Pasta Sauce'
   self: https://www.givefood.org.uk/api/2/needs/496f2686/
-- foodbank:
-    name: Cheltenham
-    slug: cheltenham
-    urls:
-      html: https://www.givefood.org.uk/needs/at/cheltenham/
-      self: https://www.givefood.org.uk/api/2/foodbank/cheltenham/
-  found: !!python/object/apply:proto.datetime_helpers.DatetimeWithNanoseconds
-  - !!binary |
-    B+YGEQ0BNA4NNA==
-  - *id001
-  id: 422e8369
-  needs: 'Fruit Juice
-
-    Sweets
-
-    Chocolate
-
-    Jars Of Coffee
-
-    Deodorant
-
-    Shampoo
-
-    Shower Gel
-
-    Cold Tinned Meat
-
-    Noodles
-
-    Packet Desserts'
-  self: https://www.givefood.org.uk/api/2/needs/422e8369/
