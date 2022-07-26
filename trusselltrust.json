@@ -12921,7 +12921,7 @@
             "name": "Dungannon Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/dungannon/",
             "distance": "",
-            "main_location": "",
+            "main_location": "This is a new food bank and is not yet open. Details coming soon.",
             "geolocation": {
                 "address": "4 Church Ln, Dungannon, UK",
                 "lat": 54.501902,
@@ -13717,7 +13717,7 @@
             "name": "Ealing Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/ealing/",
             "distance": "",
-            "main_location": "Food Donations can be dropped of at our warehouse in Hanwell on Wednesdays from 10am-4pm or at any of our other donations points. Further info can be found in the 'give help' section of our website.<br />\r\n<br />\r\nOur Client Centre opening times are:<br />\r\n<br />\r\n     Monday: Greenford, Baptist Church, Beechwood Ave, UB6 9UA, 12.30pm - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Tuesday: Northolt, St Barnabas, The Fairway, UB5 4SX, 12:30 - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Wednesday: Hanwell, St Mellitus Church W7 3BA, 10am - 12noon. (We can receive donations at the warehouse behind the church from 10-4)<br />\r\n<br />\r\n     Wednesday: Perivale, St Nicholas Church, UB6 7AP, 12.30pm - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Thursday: Southall, St Anselm Church UB2 4BE, 12.30pm - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Friday: Acton, Oak Tree Anglican Fellowship W3 9NX 12.30pm - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Saturday: Hanwell, St Mellitus Church W7 3BA, 10am - 12noon. (We cannot receive donations at this time)<br />\r\n<br />\r\n     Saturday: Southall, Dominion Chapel, Unit 13, Cranleigh Gardens Industrial Estate, UB1 2BZ 10.30am - 12noon<br />\r\n<br />\r\nPostal address:<br />\r\n    St Mellitus Hall<br />\r\n    1 Church Rd<br />\r\n    Hanwell<br />\r\n    W7 3BB ",
+            "main_location": "Food Donations can be dropped of at our warehouse in Hanwell on Wednesdays from 10am-4pm or at any of our other donations points. Further info can be found in the 'give help' section of our website.<br />\r\n<br />\r\nOur Client Centre opening times are:<br />\r\n<br />\r\n     Monday: Greenford, Baptist Church, Beechwood Ave, UB6 9UA, 12.30pm - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Tuesday: Northolt, St Barnabas, The Fairway, UB5 4SX, 12:30 - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Wednesday: Hanwell, St Mellitus Church W7 3BA, 10am - 12noon. (We can receive donations at the warehouse behind the church from 10-4)<br />\r\n<br />\r\n     Wednesday: Perivale, St Nicholas Church, UB6 7AP, 12.30pm - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Thursday: Southall, St Anselm Church UB2 4BE, 11.30am - 1pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Friday: Acton, Oak Tree Anglican Fellowship W3 9NX 12.30pm - 2pm. (We cannot receive donations at this centre)<br />\r\n<br />\r\n     Saturday: Hanwell, St Mellitus Church W7 3BA, 10am - 12noon. (We cannot receive donations at this time)<br />\r\n<br />\r\n     Saturday: Southall, Dominion Chapel, Unit 13, Cranleigh Gardens Industrial Estate, UB1 2BZ 10.30am - 12noon<br />\r\n<br />\r\nPostal address:<br />\r\n    St Mellitus Hall<br />\r\n    1 Church Rd<br />\r\n    Hanwell<br />\r\n    W7 3BB ",
             "geolocation": {
                 "address": "1 Church Rd, London W7 3BA, UK",
                 "lat": "51.50935963369629",
@@ -13896,7 +13896,7 @@
                         "day": "thursday",
                         "foodbank_status": "open",
                         "opening_time": "11:30",
-                        "closing_time": "11:00"
+                        "closing_time": "13:00"
                     }
                 ],
                 "centre_address": "St Anselm's RC Church<br />\r\nThe Green<br />\r\nSouthall<br />\r\n<br />\r\n",
@@ -25426,13 +25426,25 @@
                 "foodbank_telephone_number": "07842 093922 / 0161 226 3413",
                 "opening_time": [
                     {
-                        "day": "saturday",
-                        "foodbank_status": "closed",
-                        "opening_time": "11:00",
-                        "closing_time": "13:00"
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "14:00"
+                    },
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "14:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "15:00"
                     }
                 ],
-                "centre_address": "**PLEASE NOTE: OUR FOOD BANK DISTRIBUTION SESSIONS ARE CURRENTLY CLOSED TO THE PUBLIC DUE TO COVID-19** We are still providing emergency food via the usual referral agencies.<br />\r\n<br />\r\nOld York Street/ corner of Royce Road, <br />\r\nHulme,<br />\r\nManchester",
+                "centre_address": "Old York Street/ corner of Royce Road, <br />\r\nHulme,<br />\r\nManchester",
                 "post_code": "M15 5BP",
                 "centre_geolocation": {
                     "address": "31 Old York St, Manchester M15 5TH, UK",
@@ -31271,6 +31283,28 @@
                 }
             }
         ]
+    },
+    {
+        "foodbank_information": {
+            "name": "Rawmarsh Foodbank",
+            "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/rawmarsh/",
+            "distance": "",
+            "main_location": "Rawmarsh",
+            "geolocation": {
+                "address": "FM54+XC Rotherham, UK",
+                "lat": 53.4599485911295,
+                "lng": -1.3439154624938965,
+                "zoom": 16,
+                "place_id": "GhIJpWuBmN-6SkARWmYRiq2A9b8",
+                "city": "Rotherham",
+                "state": "England",
+                "country": "United Kingdom",
+                "country_short": "GB"
+            },
+            "telephone_number": "",
+            "website": "https://rawmarsh.foodbank.org.uk"
+        },
+        "foodbank_centre": false
     },
     {
         "foodbank_information": {
