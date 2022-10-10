@@ -11040,7 +11040,7 @@
                 "opening_time": [
                     {
                         "day": "tuesday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "11:30",
                         "closing_time": "13:30"
                     }
@@ -11096,21 +11096,87 @@
             "distance": "",
             "main_location": "Craigavon Area Foodbank <br />\r\nUnit 5 Carn Business Park <br />\r\n19 Carn Road, Carn Industrial Estate <br />\r\nCraigavon <br />\r\nArmagh <br />\r\nBT63 5WG<br />\r\n<br />\r\nthis is a warehouse /office address only",
             "geolocation": {
-                "address": "19 Carn Rd, Portadown, Craigavon BT63 5WG, UK",
-                "lat": "54.45371566922337",
-                "lng": "-6.413689431213356"
+                "address": "Unit 6 Carn Business Park, Carn Rd, Craigavon BT63 5WG, UK",
+                "lat": 54.45438929431011,
+                "lng": -6.413721617721544,
+                "zoom": 18,
+                "place_id": "ChIJ6zJtE6vxYEgRhjgwewQNhKM",
+                "street_name": "Carn Road",
+                "street_name_short": "Carn Rd",
+                "city": "Craigavon",
+                "state": "Northern Ireland",
+                "post_code": "BT63 5WG",
+                "country": "United Kingdom",
+                "country_short": "GB"
             },
             "telephone_number": "0333 050 7702",
             "website": "http://craigavonarea.foodbank.org.uk"
         },
         "foodbank_centre": [
             {
+                "foodbank_name": "Office",
+                "foodbank_telephone_number": "03330507702",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "15:00"
+                    }
+                ],
                 "centre_address": "19 Carn Rd, Portadown<br />\r\n",
                 "post_code": "BT63 5WG",
                 "centre_geolocation": {
                     "address": "19 Carn Rd, Portadown, Craigavon BT63 5WG, UK",
                     "lat": "54.4525689",
                     "lng": "-6.4128571"
+                }
+            },
+            {
+                "foodbank_name": "Salvation Army Lurgan",
+                "foodbank_telephone_number": "03330507702",
+                "opening_time": [
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "12:30"
+                    }
+                ],
+                "centre_address": "Salvation Army Lurgan<br />\r\nAlexandra Square<br />\r\nLurgan<br />\r\n",
+                "post_code": "BT66 6AT",
+                "centre_geolocation": {
+                    "address": "4 Bridge St, Lurgan, Craigavon BT66 6AY, UK",
+                    "lat": 54.459836723829554,
+                    "lng": -6.3339740764474834,
+                    "zoom": 17,
+                    "place_id": "ChIJuSIF_jv7YEgRRarbs_FBQAo",
+                    "street_number": "4",
+                    "street_name": "Bridge Street",
+                    "street_name_short": "Bridge St",
+                    "city": "Craigavon",
+                    "state": "Northern Ireland",
+                    "post_code": "BT66 6AY",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
                 }
             }
         ]
@@ -13076,6 +13142,33 @@
                 "local_transport_links": "<p>By Bus: 19/19A/33 &#8211; Every 10 Mins</p>\n<p>By Train: Every 30 mins at\u00a0Cowdenbeath Train Station, then a short walk along High Street (15 Minutes).</p>\n"
             }
         ]
+    },
+    {
+        "foodbank_information": {
+            "name": "Dungannon Foodbank",
+            "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/dungannon/",
+            "distance": "",
+            "main_location": "4 Church Lane<br />\r\nDungannon<br />\r\nTyrone<br />\r\nBT716AA",
+            "geolocation": {
+                "address": "4 Church Ln, Dungannon, UK",
+                "lat": 54.501902,
+                "lng": -6.768895400000001,
+                "zoom": 6,
+                "place_id": "ChIJIY7oBwSMYEgRy3Pz29Y15SY",
+                "name": "4 Church Ln",
+                "street_number": "4",
+                "street_name": "Church Lane",
+                "street_name_short": "Church Ln",
+                "city": "Dungannon",
+                "state": "Northern Ireland",
+                "post_code": "BT71 6AA",
+                "country": "United Kingdom",
+                "country_short": "GB"
+            },
+            "telephone_number": "07857071750",
+            "website": "https://dungannon.foodbank.org.uk"
+        },
+        "foodbank_centre": false
     },
     {
         "foodbank_information": {
@@ -24327,7 +24420,7 @@
             "name": "Lincoln Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/lincoln/",
             "distance": "",
-            "main_location": "Alive Church<br />\r\n22 Newland <br />\r\nLincoln<br />\r\nLN1 1XD<br />\r\n<br />\r\n*** Alive Church is currently closed due to Covid- 19  however all of our Distribution Centres are open as normal (see below) please email amy@lincolnfoodbank.org.uk with any enquiries  ***",
+            "main_location": "Alive Church<br />\r\n22 Newland <br />\r\nLincoln<br />\r\nLN1 1XD<br />\r\n<br />\r\n",
             "geolocation": {
                 "address": "Bridge Community Centre, 70a Newark Road, Lincoln, LN5 8PY",
                 "lat": "53.209178",
@@ -28169,6 +28262,59 @@
                 }
             },
             {
+                "foodbank_name": "Beith Community Centre",
+                "foodbank_telephone_number": "01505 503187",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "17:00"
+                    },
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "17:00"
+                    },
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "17:00"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "17:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:00",
+                        "closing_time": "17:00"
+                    }
+                ],
+                "centre_address": "Kings Road<br />\r\nBeith",
+                "post_code": "KA15 2BQ",
+                "centre_geolocation": {
+                    "address": "Kings Road, Beith KA15 2BQ, UK",
+                    "lat": 55.7526814,
+                    "lng": -4.633207800000001,
+                    "zoom": 6,
+                    "place_id": "ChIJfWV-b3rKiUgR0x63y9GTQ5o",
+                    "name": "KA15 2BQ",
+                    "street_name": "Kings Road",
+                    "street_name_short": "Kings Rd",
+                    "city": "Beith",
+                    "state": "Scotland",
+                    "post_code": "KA15 2BQ",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "Bridgend Community Centre",
                 "foodbank_telephone_number": "01505684512",
                 "opening_time": [
@@ -28316,12 +28462,47 @@
                 }
             },
             {
+                "foodbank_name": "Kilbirnie Salvation Army",
+                "foodbank_telephone_number": "01505 683735",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:30",
+                        "closing_time": "11:00"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "14:30"
+                    }
+                ],
+                "centre_address": "Newton Street<br />\r\nKilbirnie<br />\r\n",
+                "post_code": "KA25 6HN",
+                "centre_geolocation": {
+                    "address": "Newton Street, Kilbirnie KA25 6HN, UK",
+                    "lat": 55.7534682,
+                    "lng": -4.6856974,
+                    "zoom": 6,
+                    "place_id": "ChIJZ5IoIPzJiUgRcv7_8TT-Dc8",
+                    "name": "KA25 6HN",
+                    "street_name": "Newton Street",
+                    "street_name_short": "Newton St",
+                    "city": "Kilbirnie",
+                    "state": "Scotland",
+                    "post_code": "KA25 6HN",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "St. John\u2019s Church",
-                "foodbank_telephone_number": "07437521930",
+                "foodbank_telephone_number": "07437521930 ",
                 "opening_time": [
                     {
                         "day": "wednesday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "16:00",
                         "closing_time": "17:00"
                     }
@@ -40547,13 +40728,13 @@
                         "closing_time": "12:30"
                     }
                 ],
-                "centre_address": "Arthur Street,<br />\r\nWilliamstown",
+                "centre_address": "The rear of 1 Arthur Street,<br />\r\nWilliamstown",
                 "post_code": "CF40 1NE",
                 "centre_geolocation": {
                     "address": "1 Arthur St, Williamstown, Tonypandy CF40 1ND, UK",
-                    "lat": 51.60756723476216,
-                    "lng": -3.44209117567138,
-                    "zoom": 16,
+                    "lat": 51.60776446160633,
+                    "lng": -3.4419671241592775,
+                    "zoom": 17,
                     "place_id": "ChIJcWCtG7wVbkgRwu0yopq7jJw",
                     "street_number": "1",
                     "street_name": "Arthur Street",
@@ -40659,60 +40840,12 @@
                 }
             },
             {
-                "foodbank_name": "The Rock Church",
-                "foodbank_telephone_number": "01443 520730",
-                "opening_time": [
-                    {
-                        "day": "saturday",
-                        "foodbank_status": "open",
-                        "opening_time": "10:00",
-                        "closing_time": "12:00"
-                    }
-                ],
-                "centre_address": "Rock Community Church, Old Infants School, High Street, Gilfach Goch",
-                "post_code": "CF39 8SH",
-                "centre_geolocation": {
-                    "address": "184 High St, Gilfach Goch, Porth, Rhondda Cynon Taff CF39 8SH, UK",
-                    "lat": "51.60182009999999",
-                    "lng": "-3.470722300000034"
-                }
-            },
-            {
-                "foodbank_name": "Ebeneezer Church",
-                "foodbank_telephone_number": "01443 520730",
-                "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "10:30",
-                        "closing_time": "12:00"
-                    }
-                ],
-                "centre_address": "Heol Johnson,<br />\r\nTalbot Green",
-                "post_code": "CF72 8HR",
-                "centre_geolocation": {
-                    "address": "Heol Johnson, Talbot Green, Pontyclun CF72 8HR, UK",
-                    "lat": 51.5350301,
-                    "lng": -3.3849542,
-                    "zoom": 16,
-                    "place_id": "ChIJ1wCvfkQRbkgR-DsTknMHGyU",
-                    "name": "CF72 8HR",
-                    "street_name": "Heol Johnson",
-                    "city": "Talbot Green",
-                    "state": "Wales",
-                    "post_code": "CF72 8HR",
-                    "country": "United Kingdom",
-                    "country_short": "GB"
-                },
-                "local_transport_links": "<p>This centre will be closed on the 19th of September for the Queen&#8217;s funeral, but the main warehouse will be open until 3 pm on Tuesday</p>\n"
-            },
-            {
                 "foodbank_name": "Taff-Ely Foodbank Warehouse",
                 "foodbank_telephone_number": "01443 520730",
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:30",
                         "closing_time": "12:30"
                     },
@@ -40720,7 +40853,7 @@
                         "day": "tuesday",
                         "foodbank_status": "open",
                         "opening_time": "10:30",
-                        "closing_time": "15:00"
+                        "closing_time": "12:30"
                     },
                     {
                         "day": "wednesday",
@@ -40750,8 +40883,55 @@
                     "post_code": "CF72 9UW",
                     "country": "United Kingdom",
                     "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "The Rock Church",
+                "foodbank_telephone_number": "01443 520730",
+                "opening_time": [
+                    {
+                        "day": "saturday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "Rock Community Church, Old Infants School, High Street, Gilfach Goch",
+                "post_code": "CF39 8SH",
+                "centre_geolocation": {
+                    "address": "184 High St, Gilfach Goch, Porth, Rhondda Cynon Taff CF39 8SH, UK",
+                    "lat": "51.60182009999999",
+                    "lng": "-3.470722300000034"
+                }
+            },
+            {
+                "foodbank_name": "Ebeneezer Church",
+                "foodbank_telephone_number": "01443 520730",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:30",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "Heol Johnson,<br />\r\nTalbot Green",
+                "post_code": "CF72 8HR",
+                "centre_geolocation": {
+                    "address": "Heol Johnson, Talbot Green, Pontyclun CF72 8HR, UK",
+                    "lat": 51.5350301,
+                    "lng": -3.3849542,
+                    "zoom": 16,
+                    "place_id": "ChIJ1wCvfkQRbkgR-DsTknMHGyU",
+                    "name": "CF72 8HR",
+                    "street_name": "Heol Johnson",
+                    "city": "Talbot Green",
+                    "state": "Wales",
+                    "post_code": "CF72 8HR",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
                 },
-                "local_transport_links": "<p>We will be closed on Monday 19th September due to the Queen&#8217;s funeral but to compensate for this, we will be open until 3 pm on Tuesday</p>\n"
+                "local_transport_links": "<p>This centre will be closed on the 19th of September for the Queen&#8217;s funeral, but the main warehouse will be open until 3 pm on Tuesday</p>\n"
             }
         ]
     },
@@ -43447,24 +43627,6 @@
                 }
             },
             {
-                "foodbank_name": "The Kenilworth Centre",
-                "opening_time": [
-                    {
-                        "day": "friday",
-                        "foodbank_status": "open",
-                        "opening_time": "09:30",
-                        "closing_time": "11:30"
-                    }
-                ],
-                "centre_address": "The Kenilworth Centre<br />\r\nAbbey End Car Park<br />\r\nAbbey End<br />\r\nKenilworth ",
-                "post_code": "CV8 1QJ",
-                "centre_geolocation": {
-                    "address": "Abbey End, Kenilworth CV8 1QJ, United Kingdom",
-                    "lat": "52.34418489999999",
-                    "lng": "-1.5785954"
-                }
-            },
-            {
                 "foodbank_name": "Westbury Centre, Leamington Spa",
                 "opening_time": [
                     {
@@ -43888,37 +44050,6 @@
                 }
             },
             {
-                "foodbank_name": "ST Johns Harleston",
-                "opening_time": [
-                    {
-                        "day": "tuesday",
-                        "foodbank_status": "open",
-                        "opening_time": "14:00",
-                        "closing_time": "14:45"
-                    },
-                    {
-                        "day": "friday",
-                        "foodbank_status": "open",
-                        "opening_time": "15:00",
-                        "closing_time": "15:45"
-                    }
-                ],
-                "centre_geolocation": {
-                    "address": "6 Broad St, Harleston IP20 9AZ, UK",
-                    "lat": 52.40235076643773,
-                    "lng": 1.3006670171703405,
-                    "zoom": 20,
-                    "place_id": "ChIJxU9w-F3s2UcRA2IY71MsD0M",
-                    "street_number": "6",
-                    "street_name": "Broad Street",
-                    "street_name_short": "Broad St",
-                    "state": "England",
-                    "post_code": "IP20 9AZ",
-                    "country": "United Kingdom",
-                    "country_short": "GB"
-                }
-            },
-            {
                 "foodbank_name": "St Marys Halesworth ",
                 "opening_time": [
                     {
@@ -43975,31 +44106,25 @@
                         "day": "monday",
                         "foodbank_status": "open",
                         "opening_time": "10:30",
-                        "closing_time": "12:00"
+                        "closing_time": "11:30"
                     },
                     {
                         "day": "tuesday",
                         "foodbank_status": "open",
-                        "opening_time": "10:30",
-                        "closing_time": "12:00"
-                    },
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "open",
-                        "opening_time": "10:30",
-                        "closing_time": "12:00"
+                        "opening_time": "10:00",
+                        "closing_time": "11:00"
                     },
                     {
                         "day": "thursday",
                         "foodbank_status": "open",
-                        "opening_time": "10:30",
-                        "closing_time": "12:00"
+                        "opening_time": "10:00",
+                        "closing_time": "11:00"
                     },
                     {
                         "day": "friday",
                         "foodbank_status": "open",
-                        "opening_time": "10:45",
-                        "closing_time": "12:15"
+                        "opening_time": "10:30",
+                        "closing_time": "11:45"
                     }
                 ],
                 "post_code": "ip22 5hq",
@@ -44019,7 +44144,7 @@
                 }
             },
             {
-                "foodbank_name": "London Road Church Harleston        for delivery to the local area only. ( service users usually must be Disabled or unable to use public transport) ",
+                "foodbank_name": "London Road Church Harleston     ",
                 "foodbank_telephone_number": "Please email  info@waveney.foodbank.org.uk    ",
                 "opening_time": [
                     {
@@ -44040,6 +44165,32 @@
                     "street_name_short": "London Rd",
                     "state": "England",
                     "post_code": "IP20 9BH",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "ST Johns Harleston",
+                "foodbank_telephone_number": "Free tea coffee and cake 2 till 3pm tuesday",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:30",
+                        "closing_time": "15:00"
+                    }
+                ],
+                "centre_geolocation": {
+                    "address": "6 Broad St, Harleston IP20 9AZ, UK",
+                    "lat": 52.40235076643773,
+                    "lng": 1.3006670171703405,
+                    "zoom": 20,
+                    "place_id": "ChIJxU9w-F3s2UcRA2IY71MsD0M",
+                    "street_number": "6",
+                    "street_name": "Broad Street",
+                    "street_name_short": "Broad St",
+                    "state": "England",
+                    "post_code": "IP20 9AZ",
                     "country": "United Kingdom",
                     "country_short": "GB"
                 }
