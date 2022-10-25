@@ -15,7 +15,7 @@ There is more information about our data, a few rules about how to use it, and s
 
 ### Food bank networks
 * ifan.xml KML file of IFAN food bank locations from their Google My Map
-* trusselltrust.json JSON file of Trussell Trust location proxied and cleaned from their [site](https://www.trusselltrust.org/get-help/find-a-foodbank/foodbank-search/?foodbank_s=all&callback=?)
+* trusselltrust.json JSON file of Trussell Trust location proxied and cleaned from their [site](https://www.trusselltrust.org/get-help/find-a-foodbank/foodbank-search/?foodbank_s=all&callback=hello)
 
 ## You may also enjoy
 * flatgithub view https://flatgithub.com/givefood/data?filename=foodbanks.csv
