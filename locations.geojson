@@ -75,29 +75,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1592729,
-          51.41041870000001
-        ]
-      },
-      "properties": {
-        "name": "Merton Growbaby Hub, Wimbledon Food Bank",
-        "slug": "merton-growbaby-hub",
-        "address": "42 Graham Road\r\nMitcham\r\nCR4 2HA",
-        "url": "https://www.givefood.org.uk/needs/at/wimbledon/merton-growbaby-hub/",
-        "network": "Trussell Trust",
-        "email": "wimbledonfoodbank@gmail.com",
-        "telephone": "02085440126",
-        "foodbank": "Wimbledon",
-        "foodbank_slug": "wimbledon",
-        "foodbank_url": "https://www.givefood.org.uk/needs/at/wimbledon/",
-        "parliamentary_constituency": "Mitcham and Morden"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -0.0956386,
           53.5718777
         ]
@@ -1258,7 +1235,7 @@
         "address": "Queensbridge Sports and Community Centre\r\n30 Holly Street\r\nHaggerston\r\nLondon\r\nE8 3XW",
         "url": "https://www.givefood.org.uk/needs/at/hackney/haggerston/",
         "network": "Trussell Trust",
-        "email": "info@hackneyfoodbank.org",
+        "email": "info@hackney.foodbank.org.uk",
         "telephone": "02072542464",
         "foodbank": "Hackney",
         "foodbank_slug": "hackney",
@@ -2536,29 +2513,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1349622,
-          51.4020494
-        ]
-      },
-      "properties": {
-        "name": "Pollards Hill Baptist Church, Wimbledon Food Bank",
-        "slug": "pollards-hill-baptist-church",
-        "address": "Wide Way\r\nPollards Hill\r\nCR4 3BN",
-        "url": "https://www.givefood.org.uk/needs/at/wimbledon/pollards-hill-baptist-church/",
-        "network": "Trussell Trust",
-        "email": "wimbledonfoodbank@gmail.com",
-        "telephone": "02085440126",
-        "foodbank": "Wimbledon",
-        "foodbank_slug": "wimbledon",
-        "foodbank_url": "https://www.givefood.org.uk/needs/at/wimbledon/",
-        "parliamentary_constituency": "Mitcham and Morden"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -2.3964967,
           51.3805801
         ]
@@ -2575,6 +2529,29 @@
         "foodbank_slug": "bath",
         "foodbank_url": "https://www.givefood.org.uk/needs/at/bath/",
         "parliamentary_constituency": "Bath"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -4.1448934,
+          55.8493675
+        ]
+      },
+      "properties": {
+        "name": "Sandyhills Parish Church, Glasgow NE Food Bank",
+        "slug": "sandyhills-parish-church",
+        "address": "32 Baillieston Road\r\nGlasgow\r\nG32 0QQ",
+        "url": "https://www.givefood.org.uk/needs/at/glasgow-ne/sandyhills-parish-church/",
+        "network": "Trussell Trust",
+        "email": "info@glasgowne.foodbank.org.uk",
+        "telephone": "07743311939",
+        "foodbank": "Glasgow NE",
+        "foodbank_slug": "glasgow-ne",
+        "foodbank_url": "https://www.givefood.org.uk/needs/at/glasgow-ne/",
+        "parliamentary_constituency": "Glasgow East"
       }
     },
     {
@@ -4197,13 +4174,13 @@
         ]
       },
       "properties": {
-        "name": "Dalston, Hackney Food Bank",
-        "slug": "dalston",
+        "name": "Our Lady and St Joseph's RC Church, Hackney Food Bank",
+        "slug": "our-lady-and-st-josephs-rc-church",
         "address": "Our Ladies and St Joseph Church\r\n100a Balls Pond Road\r\nDalston\r\nLondon\r\nN1 4AG",
-        "url": "https://www.givefood.org.uk/needs/at/hackney/dalston/",
+        "url": "https://www.givefood.org.uk/needs/at/hackney/our-lady-and-st-josephs-rc-church/",
         "network": "Trussell Trust",
-        "email": "info@hackneyfoodbank.org",
-        "telephone": "02072542464",
+        "email": "info@hackney.foodbank.org.uk",
+        "telephone": "02072544378",
         "foodbank": "Hackney",
         "foodbank_slug": "hackney",
         "foodbank_url": "https://www.givefood.org.uk/needs/at/hackney/",
@@ -12488,6 +12465,29 @@
         "foodbank_slug": "wythenshawe",
         "foodbank_url": "https://www.givefood.org.uk/needs/at/wythenshawe/",
         "parliamentary_constituency": "Wythenshawe and Sale East"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -0.083638,
+          51.530534
+        ]
+      },
+      "properties": {
+        "name": "Hoxton Foodbank Centre, Hackney Food Bank",
+        "slug": "hoxton-foodbank-centre",
+        "address": "St John Hoxton Crypt\r\nPitfield Street\r\nN1 6NP",
+        "url": "https://www.givefood.org.uk/needs/at/hackney/hoxton-foodbank-centre/",
+        "network": "Trussell Trust",
+        "email": "info@hackney.foodbank.org.uk",
+        "telephone": "02072542464",
+        "foodbank": "Hackney",
+        "foodbank_slug": "hackney",
+        "foodbank_url": "https://www.givefood.org.uk/needs/at/hackney/",
+        "parliamentary_constituency": "Hackney South and Shoreditch"
       }
     },
     {
@@ -21909,10 +21909,10 @@
       "properties": {
         "name": "Stoke Newington, Hackney Food Bank",
         "slug": "stoke-newington",
-        "address": "St Mary's Church\r\nChurch Street\r\nStoke Newington\r\nN16 9ES",
+        "address": "St Mary's New Rooms\r\nChurch Street\r\nStoke Newington\r\nN16 9ES",
         "url": "https://www.givefood.org.uk/needs/at/hackney/stoke-newington/",
         "network": "Trussell Trust",
-        "email": "info@hackneyfoodbank.org",
+        "email": "info@hackney.foodbank.org.uk",
         "telephone": "02072542464",
         "foodbank": "Hackney",
         "foodbank_slug": "hackney",
@@ -30964,8 +30964,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1699289,
-          51.4039649
+          -0.170558,
+          51.403913
         ]
       },
       "properties": {
@@ -32850,6 +32850,29 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.131079,
+          51.399972
+        ]
+      },
+      "properties": {
+        "name": "Commonside Trust, Wimbledon Food Bank",
+        "slug": "commonside-trust",
+        "address": "New Horizon Centre\r\nSouth Lodge Avenue\r\nPollards Hill\r\nCR4 1LT",
+        "url": "https://www.givefood.org.uk/needs/at/wimbledon/commonside-trust/",
+        "network": "Trussell Trust",
+        "email": "wimbledonfoodbank@gmail.com",
+        "telephone": "02085440126",
+        "foodbank": "Wimbledon",
+        "foodbank_slug": "wimbledon",
+        "foodbank_url": "https://www.givefood.org.uk/needs/at/wimbledon/",
+        "parliamentary_constituency": "Mitcham and Morden"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.0667899,
           51.4883094
         ]
@@ -33609,8 +33632,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -0.1959354,
-          51.4016703
+          -0.196131,
+          51.401837
         ]
       },
       "properties": {
@@ -37460,7 +37483,7 @@
         "address": "The Leaside Trust\r\n34 Spring Lane\r\nE5 9HQ",
         "url": "https://www.givefood.org.uk/needs/at/hackney/upper-clapton/",
         "network": "Trussell Trust",
-        "email": "info@hackneyfoodbank.org",
+        "email": "info@hackney.foodbank.org.uk",
         "telephone": "02072542464",
         "foodbank": "Hackney",
         "foodbank_slug": "hackney",
