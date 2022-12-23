@@ -1090,15 +1090,15 @@
     self: https://www.givefood.org.uk/api/2/foodbank/stocksbridge/
     shopping_list: https://stocksbridgefoodbank.org
 - address: "Tarling East Community Centre\r\n63 Martha Street\r\nShadwell\r\nE1 2PA"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-09-01 17:10:58.077279
   email: info@aishahhelp.com
-  lat_lng: 51.512139,-0.054376
+  lat_lng: 51.5122435,-0.054873
   name: E1
   network: IFAN
   phone: 02080887650
@@ -1113,7 +1113,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/poplar-and-limehouse/
     ward: Shadwell
   postcode: E1 2PA
-  secondary_phone: ''
+  secondary_phone: null
   slug: e1
   urls:
     homepage: https://www.facebook.com/groups/628117188029280/
@@ -1125,12 +1125,12 @@
   alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-08-22 18:13:38.116866
   email: hramanager@crawleyopenhouse.co.uk
-  lat_lng: 51.114496,-0.165881
+  lat_lng: 51.1161079,-0.1632097
   name: Crawley
   network: Independent
   phone: 01293447712
@@ -1145,13 +1145,13 @@
       self: https://www.givefood.org.uk/api/2/constituency/crawley/
     ward: Three Bridges
   postcode: RH10 1TN
-  secondary_phone: ''
+  secondary_phone: null
   slug: crawley
   urls:
-    homepage: https://www.crawleyfoodbankpartnership.co.uk/
+    homepage: https://www.crawleyfoodbankpartnership.co.uk
     html: https://www.givefood.org.uk/needs/at/crawley/
     self: https://www.givefood.org.uk/api/2/foodbank/crawley/
-    shopping_list: https://www.crawleyfoodbankpartnership.co.uk/
+    shopping_list: https://www.crawleyfoodbankpartnership.co.uk
 - address: "Rear of The Skills Hub\r\n146 Freeman Street\uFEFF\uFEFF\r\nGrimsby\r\n\
     DN32 7AJ"
   alt_name: null
@@ -5061,7 +5061,7 @@
     html: https://www.givefood.org.uk/needs/at/sawtry/
     self: https://www.givefood.org.uk/api/2/foodbank/sawtry/
     shopping_list: http://www.caresco.org.uk/?page=foodbank
-- address: "Rhiw Road\r\nColwyn Bay\r\nLL29 7TE"
+- address: "Spyce\r\nRhiw Road\r\nColwyn Bay\r\nLL29 7TG"
   alt_name: null
   charity:
     register_url: null
@@ -5070,7 +5070,7 @@
   country: Wales
   created: 2021-01-02 12:10:32.916781
   email: conwyfoodbank@gmail.com
-  lat_lng: 53.29319,-3.726264
+  lat_lng: 53.293187,-3.7265316
   name: Conwy
   network: Independent
   phone: 07305197810
@@ -5084,14 +5084,14 @@
       html: https://www.givefood.org.uk/needs/in/constituency/clwyd-west/
       self: https://www.givefood.org.uk/api/2/constituency/clwyd-west/
     ward: Glyn
-  postcode: LL29 7TE
+  postcode: LL29 7TG
   secondary_phone: null
   slug: conwy
   urls:
-    homepage: http://conwyfoodbank.co.uk
+    homepage: https://sanctuarytrust.org.uk/projects/conwy-food-bank/
     html: https://www.givefood.org.uk/needs/at/conwy/
     self: https://www.givefood.org.uk/api/2/foodbank/conwy/
-    shopping_list: http://conwyfoodbank.co.uk/food-items-needed/
+    shopping_list: https://sanctuarytrust.org.uk/projects/conwy-food-bank/
 - address: "CSl Centre\r\nCommunity Way\r\nWorksop\r\nS80 2TU"
   alt_name: null
   charity:
@@ -11706,7 +11706,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/dover/
     ward: North Deal
   postcode: CT14 6PJ
-  secondary_phone: null
+  secondary_phone: 07926599439
   slug: deal-area
   urls:
     homepage: https://dealarea.foodbank.org.uk
@@ -15582,7 +15582,7 @@
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1077422&subid=0
     registration_id: '1077422'
-  closed: false
+  closed: true
   country: England
   created: 2019-12-23 13:37:52.298688
   email: croydonfoodbank@mail.com
@@ -18989,8 +18989,7 @@
     html: https://www.givefood.org.uk/needs/at/coventry/
     self: https://www.givefood.org.uk/api/2/foodbank/coventry/
     shopping_list: https://coventryfoodbank.org.uk/list/
-- address: "c/o Parish Office\r\nChurch Gate House\r\nDownside Bridge Road\r\nCobham\r\
-    \nKT11 3EJ"
+- address: "Cobham United Church\r\n38 Stoke Road\r\nCobham\r\nKT11 3BD"
   alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1154217&subid=0
@@ -18999,7 +18998,7 @@
   country: England
   created: 2020-01-04 07:20:14.724943
   email: manager@cobhamarea.foodbank.org.uk
-  lat_lng: 51.3256652,-0.4111876
+  lat_lng: 51.3232819,-0.3926704
   name: Cobham Area
   network: Trussell Trust
   phone: 01932450282
@@ -19013,7 +19012,7 @@
       html: https://www.givefood.org.uk/needs/in/constituency/esher-and-walton/
       self: https://www.givefood.org.uk/api/2/constituency/esher-and-walton/
     ward: Cobham & Downside
-  postcode: KT11 3EJ
+  postcode: KT11 3BD
   secondary_phone: null
   slug: cobham-area
   urls:
@@ -19376,11 +19375,11 @@
   closed: false
   country: Scotland
   created: 2020-09-01 16:46:30.063875
-  email: dunbarbasicsbank@gmail.com
-  lat_lng: 56.000926,-2.515305
-  name: Dunbar Basics
+  email: enquiries@dunbarfoodshare.org
+  lat_lng: 56.0008552,-2.5151509
+  name: Dunbar Foodshare
   network: IFAN
-  phone: null
+  phone: 01368865440
   politics:
     district: East Lothian
     mp: Kenny MacAskill
@@ -19393,12 +19392,12 @@
     ward: Dunbar and East Linton
   postcode: EH42 1AA
   secondary_phone: null
-  slug: dunbar-basics
+  slug: dunbar-foodshare
   urls:
-    homepage: http://www.dunbarparishchurch.org/basics-bank.html
-    html: https://www.givefood.org.uk/needs/at/dunbar-basics/
-    self: https://www.givefood.org.uk/api/2/foodbank/dunbar-basics/
-    shopping_list: http://www.dunbarparishchurch.org/basics-bank.html
+    homepage: https://www.dunbarfoodshare.org
+    html: https://www.givefood.org.uk/needs/at/dunbar-foodshare/
+    self: https://www.givefood.org.uk/api/2/foodbank/dunbar-foodshare/
+    shopping_list: https://www.dunbarfoodshare.org
 - address: "14 Main St\r\nLong Eaton\r\nNottingham\r\nNG10 1GR"
   alt_name: null
   charity:
@@ -22826,12 +22825,12 @@
   alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: Wales
   created: 2020-08-29 15:04:45.339281
   email: info@catch-online.org.uk
-  lat_lng: 51.767329,-3.781018
+  lat_lng: 51.7669289,-3.7814011
   name: Cwmtawe Action To Combat Hardship
   network: IFAN
   phone: 07923986379
@@ -22846,7 +22845,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/neath/
     ward: Cwmllynfell and Ystalyfera
   postcode: SA9 2JA
-  secondary_phone: ''
+  secondary_phone: null
   slug: cwmtawe-action-to-combat-hardship
   urls:
     homepage: http://www.catch-online.org.uk
@@ -24327,12 +24326,12 @@
   alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-08-16 14:29:00.799808
   email: cupboardlove.bridport@gmail.com
-  lat_lng: 50.729361,-2.758095
+  lat_lng: 50.7305026,-2.7583536
   name: Cupboard Love
   network: Independent
   phone: 07443596096
@@ -24347,7 +24346,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/west-dorset/
     ward: Bridport
   postcode: DT6 3NW
-  secondary_phone: ''
+  secondary_phone: null
   slug: cupboard-love
   urls:
     homepage: https://www.bridport-team-ministry.org/food-bank/
