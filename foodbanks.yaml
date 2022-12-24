@@ -1696,7 +1696,7 @@
   country: England
   created: 2020-08-15 16:40:16.794833
   email: info@exmouthfoodbank.org.uk
-  lat_lng: 50.62137,-3.412179
+  lat_lng: 50.6213088,-3.4127349
   name: Exmouth
   network: Independent
   phone: 07787758511
@@ -1836,7 +1836,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/mid-sussex/
     ward: East Grinstead Baldwins
   postcode: RH19 2HL
-  secondary_phone: ''
+  secondary_phone: null
   slug: east-grinstead
   urls:
     homepage: https://eastgrinstead.foodbank.org.uk
@@ -1885,7 +1885,7 @@
   country: England
   created: 2020-01-16 14:03:15.750927
   email: info@faversham.foodbank.org.uk
-  lat_lng: 51.316132,0.885211
+  lat_lng: 51.3159708,0.8852665
   name: Faversham
   network: Trussell Trust
   phone: 07938720604
@@ -1900,10 +1900,10 @@
       self: https://www.givefood.org.uk/api/2/constituency/faversham-and-mid-kent/
     ward: St. Ann's
   postcode: ME13 7JL
-  secondary_phone: ''
+  secondary_phone: null
   slug: faversham
   urls:
-    homepage: https://faversham.foodbank.org.uk/
+    homepage: https://faversham.foodbank.org.uk
     html: https://www.givefood.org.uk/needs/at/faversham/
     self: https://www.givefood.org.uk/api/2/foodbank/faversham/
     shopping_list: https://faversham.foodbank.org.uk/give-help/donate-food/
@@ -2591,8 +2591,7 @@
     html: https://www.givefood.org.uk/needs/at/isle-of-wight/
     self: https://www.givefood.org.uk/api/2/foodbank/isle-of-wight/
     shopping_list: https://isleofwight.foodbank.org.uk/give-help/donate-food/
-- address: "New Wine Church\r\nFather's House\r\n37-39 Point Street\r\nStornoway\r\
-    \nIsle of Lewis\r\nHS1 2XF"
+- address: "New Wine Church\r\n1 Dalbeg\r\nIsle of Lewis\r\nHS2 9AE"
   alt_name: null
   charity:
     register_url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SCO35127
@@ -2601,7 +2600,7 @@
   country: Scotland
   created: 2020-03-22 15:45:40.521386
   email: eileansiarfoodbank@gmail.com
-  lat_lng: 58.2082656,-6.389380399999999
+  lat_lng: 58.30983639999999,-6.7295045
   name: Eilean Siar
   network: Independent
   phone: 01851706650
@@ -2614,12 +2613,12 @@
     urls:
       html: https://www.givefood.org.uk/needs/in/constituency/na-h-eileanan-an-iar/
       self: https://www.givefood.org.uk/api/2/constituency/na-h-eileanan-an-iar/
-    ward: Steornabhagh a Deas
-  postcode: HS1 2XF
+    ward: An Taobh Siar agus Nis
+  postcode: HS2 9AE
   secondary_phone: null
   slug: eilean-siar
   urls:
-    homepage: http://www.newwinechurch.com/ministries/eilean-siar-foodbank/
+    homepage: http://www.newwinechurch.com/ministries/eilean-siar-foodbank
     html: https://www.givefood.org.uk/needs/at/eilean-siar/
     self: https://www.givefood.org.uk/api/2/foodbank/eilean-siar/
     shopping_list: http://www.newwinechurch.com/ministries/eilean-siar-foodbank/
@@ -4407,15 +4406,15 @@
     self: https://www.givefood.org.uk/api/2/foodbank/newport/
     shopping_list: https://newport.foodbank.org.uk/give-help/donate-food/
 - address: "17 Wantz Road\r\nMaldon\r\nCM9 5DB"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-09-15 09:39:11.934187
   email: rob_sefton@hotmail.com
-  lat_lng: 51.728541,0.682118
+  lat_lng: 51.72920509999999,0.6824285999999999
   name: Elim Maldon
   network: IFAN
   phone: 07940830855
@@ -4430,10 +4429,10 @@
       self: https://www.givefood.org.uk/api/2/constituency/maldon/
     ward: Maldon East
   postcode: CM9 5DB
-  secondary_phone: ''
+  secondary_phone: null
   slug: elim-maldon
   urls:
-    homepage: http://elimmaldon.org.uk/maldon-food-pantry/
+    homepage: http://elimmaldon.org.uk/maldon-food-pantry
     html: https://www.givefood.org.uk/needs/at/elim-maldon/
     self: https://www.givefood.org.uk/api/2/foodbank/elim-maldon/
     shopping_list: http://elimmaldon.org.uk/maldon-food-pantry/
@@ -5967,16 +5966,17 @@
     html: https://www.givefood.org.uk/needs/at/middlewich-district/
     self: https://www.givefood.org.uk/api/2/foodbank/middlewich-district/
     shopping_list: https://middlewichdistrict.foodbank.org.uk/give-help/donate-food/
-- address: "United Church\r\nCroft Road\r\nCrowborough\r\nEast Sussex\r\nTN6 1HA"
+- address: "All Saints Church\r\nChurch Road\r\nCrowborough\r\nEast Sussex\r\nTN6\
+    \ 1ED"
   alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2019-09-25 12:39:23.298094
   email: info@crowborough.foodbank.org.uk
-  lat_lng: 51.0530571,0.1611676
+  lat_lng: 51.0555417,0.1648508
   name: Crowborough
   network: Trussell Trust
   phone: 07936515798
@@ -5990,7 +5990,7 @@
       html: https://www.givefood.org.uk/needs/in/constituency/wealden/
       self: https://www.givefood.org.uk/api/2/constituency/wealden/
     ward: Crowborough Central
-  postcode: TN6 1HA
+  postcode: TN6 1ED
   secondary_phone: null
   slug: crowborough
   urls:
@@ -6371,7 +6371,7 @@
     html: https://www.givefood.org.uk/needs/at/hill-street-baptist-church/
     self: https://www.givefood.org.uk/api/2/foodbank/hill-street-baptist-church/
     shopping_list: https://hillstreet.wordpress.com/about-hill-street-activitiesabout-hill-street-activities/alpha-course/
-- address: "St. Pancras Church House\r\n1 Lancing Street\r\nLondon\r\nNW1 1NA"
+- address: "28 Phoenix Road,\r\nLondon,\r\nNW1 1TA"
   alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1172880&subid=0
@@ -6380,7 +6380,7 @@
   country: England
   created: 2019-07-30 13:37:53.198101
   email: info@euston.foodbank.org.uk
-  lat_lng: 51.5285006,-0.1314033
+  lat_lng: 51.5303781,-0.1325498
   name: Euston
   network: Trussell Trust
   phone: 07400053838
@@ -6394,7 +6394,7 @@
       html: https://www.givefood.org.uk/needs/in/constituency/holborn-and-st-pancras/
       self: https://www.givefood.org.uk/api/2/constituency/holborn-and-st-pancras/
     ward: St. Pancras & Somers Town
-  postcode: NW1 1NA
+  postcode: NW1 1TA
   secondary_phone: null
   slug: euston
   urls:
@@ -6785,7 +6785,7 @@
   country: England
   created: 2020-01-07 19:38:08.091741
   email: info@elyfoodbank.org.uk
-  lat_lng: 52.4009565,0.2620199
+  lat_lng: 52.4009186,0.2620238
   name: Ely
   network: Trussell Trust
   phone: 01353468626
@@ -6800,7 +6800,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/south-east-cambridgeshire/
     ward: Ely West
   postcode: CB6 1AD
-  secondary_phone: ''
+  secondary_phone: null
   slug: ely
   urls:
     homepage: https://ely.foodbank.org.uk
@@ -7897,7 +7897,7 @@
     html: https://www.givefood.org.uk/needs/at/kingsbridge/
     self: https://www.givefood.org.uk/api/2/foodbank/kingsbridge/
     shopping_list: https://www.kingsbridgefoodbank.org.uk/donate-supplies
-- address: "5 Braziers Wood Road\r\nIpswich\r\nIP3 0SP"
+- address: "42 CHEQUERS RISE\r\nGREAT BLAKENHAM\r\nIPSWICH\r\nIP6 0LT"
   alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1106050&subid=0
@@ -7906,25 +7906,25 @@
   country: England
   created: 2020-01-11 23:46:30.545355
   email: rose.ling@genesispr.co.uk
-  lat_lng: 52.0312486,1.1887518
+  lat_lng: 52.1147637,1.0888635
   name: FIND (Ipswich)
   network: Independent
   phone: 01473833351
   politics:
-    district: Ipswich
-    mp: Tom Hunt
-    mp_parl_id: 4771
+    district: Mid Suffolk
+    mp: Daniel Poulter
+    mp_parl_id: 3932
     mp_party: Conservative
-    parliamentary_constituency: Ipswich
+    parliamentary_constituency: Central Suffolk and North Ipswich
     urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/ipswich/
-      self: https://www.givefood.org.uk/api/2/constituency/ipswich/
-    ward: Priory Heath
-  postcode: IP3 0SP
+      html: https://www.givefood.org.uk/needs/in/constituency/central-suffolk-and-north-ipswich/
+      self: https://www.givefood.org.uk/api/2/constituency/central-suffolk-and-north-ipswich/
+    ward: Blakenham
+  postcode: IP6 0LT
   secondary_phone: null
   slug: find-ipswich
   urls:
-    homepage: https://www.findipswich.org.uk/
+    homepage: https://www.findipswich.org.uk
     html: https://www.givefood.org.uk/needs/at/find-ipswich/
     self: https://www.givefood.org.uk/api/2/foodbank/find-ipswich/
     shopping_list: https://www.findipswich.org.uk/support-us
@@ -8778,7 +8778,7 @@
     self: https://www.givefood.org.uk/api/2/foodbank/westminster/
     shopping_list: https://www.westminsterchapel.org.uk/ministries/foodbank/
 - address: "Blythswood Care\r\n47 Southhouse Broadway\r\nEdinburgh\r\nEH17 8AS"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC021848
     registration_id: SC021848
@@ -8786,7 +8786,7 @@
   country: Scotland
   created: 2020-01-22 21:01:14.079135
   email: jrossapc@googlemail.com
-  lat_lng: 55.89835249999999,-3.1579156
+  lat_lng: 55.8983608,-3.1579086
   name: Edinburgh SE
   network: Trussell Trust
   phone: 01316649353
@@ -8801,7 +8801,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/edinburgh-south/
     ward: Liberton/Gilmerton
   postcode: EH17 8AS
-  secondary_phone: ''
+  secondary_phone: null
   slug: edinburgh-se
   urls:
     homepage: https://edinburghse.foodbank.org.uk
@@ -8866,7 +8866,7 @@
   secondary_phone: null
   slug: elizabeth-house
   urls:
-    homepage: https://elizabeth-house.org.uk/coronavirus-support/
+    homepage: https://elizabeth-house.org.uk/coronavirus-support
     html: https://www.givefood.org.uk/needs/at/elizabeth-house/
     self: https://www.givefood.org.uk/api/2/foodbank/elizabeth-house/
     shopping_list: https://elizabeth-house.org.uk/coronavirus-support/
@@ -10215,7 +10215,7 @@
     self: https://www.givefood.org.uk/api/2/foodbank/wrexham/
     shopping_list: https://wrexham.foodbank.org.uk/give-help/donate-food/
 - address: "Unit 12\r\nNew Lairdship Yards \r\nEdinburgh\r\nEH11 3UY"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC043220
     registration_id: SC043220
@@ -10223,7 +10223,7 @@
   country: Scotland
   created: 2019-07-12 16:22:05.182679
   email: info@edinburghfoodproject.org
-  lat_lng: 55.926828,-3.282656
+  lat_lng: 55.926864,-3.282493
   name: Edinburgh Food Project
   network: Trussell Trust
   phone: '01314440030'
@@ -10238,7 +10238,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/edinburgh-south-west/
     ward: Sighthill/Gorgie
   postcode: EH11 3UY
-  secondary_phone: ''
+  secondary_phone: null
   slug: edinburgh-food-project
   urls:
     homepage: https://edinburghfoodproject.org
@@ -10496,7 +10496,7 @@
     self: https://www.givefood.org.uk/api/2/foodbank/bridgnorth/
     shopping_list: https://www.bridgnorthfoodbank.co.uk/giving-help/
 - address: "Moores Lane\r\nEnderby\r\nLeicester\r\nLE19 4AN"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1108897&subid=0
     registration_id: '1108897'
@@ -10504,10 +10504,10 @@
   country: England
   created: 2021-02-01 16:51:07.697620
   email: emfoodbank@gmail.com
-  lat_lng: 52.590755,-1.211414
+  lat_lng: 52.5905129,-1.2114974
   name: Enderby Mission Church
   network: Independent
-  phone: 01164824893
+  phone: 01162753866
   politics:
     district: Blaby
     mp: Alberto Costa
@@ -10519,7 +10519,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/south-leicestershire/
     ward: Enderby and St. John's
   postcode: LE19 4AN
-  secondary_phone: ''
+  secondary_phone: null
   slug: enderby-mission-church
   urls:
     homepage: https://www.enderbymissionchurch.org.uk/need-help
@@ -11285,7 +11285,7 @@
   country: England
   created: 2021-05-11 14:44:17.788138
   email: info@edenbridge.foodbank.org.uk
-  lat_lng: 51.1962185,0.0649566
+  lat_lng: 51.1961285,0.0646653
   name: Edenbridge
   network: Trussell Trust
   phone: 07756238063
@@ -12975,7 +12975,7 @@
   country: England
   created: 2019-10-12 15:43:14.798558
   email: info@farnborough.foodbank.org.uk
-  lat_lng: 51.260668,-0.762468
+  lat_lng: 51.26129659999999,-0.7627082
   name: Farnborough
   network: Trussell Trust
   phone: 01252331668
@@ -12990,7 +12990,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/aldershot/
     ward: Wellington
   postcode: GU11 2BU
-  secondary_phone: ''
+  secondary_phone: null
   slug: farnborough
   urls:
     homepage: https://farnborough.foodbank.org.uk
@@ -13038,7 +13038,7 @@
   country: England
   created: 2020-01-13 11:45:56.793330
   email: wunnay@btinternet.com
-  lat_lng: 52.520672,-1.842705
+  lat_lng: 52.5214528,-1.8432628
   name: Erdington
   network: Trussell Trust
   phone: 07474683927
@@ -13056,7 +13056,7 @@
   secondary_phone: null
   slug: erdington
   urls:
-    homepage: https://erdington.foodbank.org.uk/
+    homepage: https://erdington.foodbank.org.uk
     html: https://www.givefood.org.uk/needs/at/erdington/
     self: https://www.givefood.org.uk/api/2/foodbank/erdington/
     shopping_list: https://erdington.foodbank.org.uk/give-help/donate-food/
@@ -13595,8 +13595,8 @@
     html: https://www.givefood.org.uk/needs/at/slough/
     self: https://www.givefood.org.uk/api/2/foodbank/slough/
     shopping_list: https://slough.foodbank.org.uk/give-help-2/foodbank-wishlist/
-- address: "The Vineyard Centre\r\nChurch House\r\nUnion Road\r\nFarnham\r\nSurrey\r\
-    \nGU9 7PT"
+- address: "Farnham Foodbank\r\nCommunity Room\r\nGorselands\r\nAlma Lane\r\nFarnham\r\
+    \nSurrey\r\nGU9 0NB"
   alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1079778&subid=0
@@ -13618,8 +13618,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/in/constituency/south-west-surrey/
       self: https://www.givefood.org.uk/api/2/constituency/south-west-surrey/
-    ward: Farnham Castle
-  postcode: GU9 7PT
+    ward: Farnham Hale and Heath End
+  postcode: GU9 0NB
   secondary_phone: null
   slug: farnham
   urls:
@@ -13949,10 +13949,10 @@
   country: England
   created: 2020-01-08 15:54:11.132638
   email: info@eppingforest.foodbank.org.uk
-  lat_lng: 51.644176,0.082077
+  lat_lng: 51.6440728,0.0815702
   name: Epping Forest
   network: Trussell Trust
-  phone: '07402032313'
+  phone: 03001029808
   politics:
     district: Epping Forest
     mp: Eleanor Laing
@@ -16617,7 +16617,7 @@
   country: England
   created: 2020-01-14 16:46:05.933510
   email: info@exeterfoodbank.org.uk
-  lat_lng: 50.721512,-3.534277
+  lat_lng: 50.72178659999999,-3.5345016
   name: Exeter
   network: Trussell Trust
   phone: 07818226524
@@ -17396,7 +17396,7 @@
   country: England
   created: 2019-10-10 18:45:51.068088
   email: info@fallowfieldwithington.foodbank.org.uk
-  lat_lng: 53.442077,-2.223191
+  lat_lng: 53.4420967,-2.2230914
   name: Fallowfield & Withington
   network: Trussell Trust
   phone: '07411077654'
@@ -17411,7 +17411,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/manchester-gorton/
     ward: Fallowfield
   postcode: M14 6EQ
-  secondary_phone: ''
+  secondary_phone: null
   slug: fallowfield-withington
   urls:
     homepage: https://fallowfieldwithington.foodbank.org.uk
@@ -17667,7 +17667,7 @@
     html: https://www.givefood.org.uk/needs/at/weston-super-mare/
     self: https://www.givefood.org.uk/api/2/foodbank/weston-super-mare/
     shopping_list: https://westonsupermare.foodbank.org.uk/give-help/donate-food/
-- address: "The Coracle\r\n41 Bryson Road\r\nEdinburgh\r\nEH11 1DS"
+- address: "7 Washington Lane\r\nEdinburgh\r\nEH11 2HA"
   alt_name: null
   charity:
     register_url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC012385
@@ -17676,7 +17676,7 @@
   country: Scotland
   created: 2020-08-29 12:43:12.872311
   email: mail@edinburghcitymission.org.uk
-  lat_lng: 55.937576,-3.22349
+  lat_lng: 55.9430717,-3.2225777
   name: Edinburgh City Mission
   network: IFAN
   phone: 01312259445
@@ -17689,9 +17689,9 @@
     urls:
       html: https://www.givefood.org.uk/needs/in/constituency/edinburgh-south-west/
       self: https://www.givefood.org.uk/api/2/constituency/edinburgh-south-west/
-    ward: Fountainbridge/Craiglockhart
-  postcode: EH11 1DS
-  secondary_phone: ''
+    ward: Sighthill/Gorgie
+  postcode: EH11 2HA
+  secondary_phone: null
   slug: edinburgh-city-mission
   urls:
     homepage: https://www.edinburghcitymission.org.uk/where-to-find-help/basics-bank.php
@@ -18902,7 +18902,7 @@
   country: England
   created: 2021-12-02 12:24:39.940055
   email: info@feedoneedo.org.uk
-  lat_lng: 52.475966,-1.890905
+  lat_lng: 52.4759706,-1.8909114
   name: Feedo Needo
   network: Independent
   phone: '03003111312'
@@ -18966,7 +18966,7 @@
   country: Scotland
   created: 2020-01-15 13:49:01.317012
   email: info@falkirk.foodbank.org.uk
-  lat_lng: 55.998743,-3.824621
+  lat_lng: 55.998749,-3.824620799999999
   name: Falkirk
   network: Trussell Trust
   phone: 07809340919
@@ -18981,7 +18981,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/falkirk/
     ward: Falkirk South
   postcode: FK1 4RT
-  secondary_phone: null
+  secondary_phone: 07809340918
   slug: falkirk
   urls:
     homepage: https://falkirk.foodbank.org.uk
@@ -19460,8 +19460,7 @@
     html: https://www.givefood.org.uk/needs/at/canaan-trust/
     self: https://www.givefood.org.uk/api/2/foodbank/canaan-trust/
     shopping_list: http://www.canaan-trust.co.uk/mission-statement/kings-cupboard/
-- address: "South Leith Parish Church Halls\r\n6 Henderson Street\r\nEdinburgh\r\n\
-    EH6 6BS"
+- address: "19 Stewartfield\r\nEdinburgh\r\nEH6 5RQ"
   alt_name: null
   charity:
     register_url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=044944
@@ -19470,10 +19469,10 @@
   country: Scotland
   created: 2020-01-16 09:50:51.097102
   email: info@edinburghne.foodbank.org.uk
-  lat_lng: 55.97202,-3.17271
+  lat_lng: 55.970031,-3.1879526
   name: Edinburgh NE
   network: Trussell Trust
-  phone: 01315542578
+  phone: 01315535694
   politics:
     district: City of Edinburgh
     mp: Deidre Brock
@@ -19483,8 +19482,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/in/constituency/edinburgh-north-and-leith/
       self: https://www.givefood.org.uk/api/2/constituency/edinburgh-north-and-leith/
-    ward: Leith
-  postcode: EH6 6BS
+    ward: Leith Walk
+  postcode: EH6 5RQ
   secondary_phone: null
   slug: edinburgh-ne
   urls:
@@ -20746,15 +20745,15 @@
     self: https://www.givefood.org.uk/api/2/foodbank/calne/
     shopping_list: https://www.calnefoodbank.co.uk
 - address: "40 Kipling Terrace\r\nGreat Cambridge Road\r\nLondon\r\nN9 9UJ"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-09-05 13:44:08.166908
   email: info@hasifoundation.org
-  lat_lng: 51.62536,-0.081465
+  lat_lng: 51.6263339,-0.0809705
   name: Enfield
   network: IFAN
   phone: 02039832556
@@ -20849,7 +20848,7 @@
   country: Scotland
   created: 2019-10-12 10:57:05.374913
   email: info@eastlothian.foodbank.org.uk
-  lat_lng: 55.944292,-2.953988
+  lat_lng: 55.9442926,-2.9539721
   name: East Lothian
   network: Trussell Trust
   phone: '07516510617'
@@ -21288,7 +21287,7 @@
   country: England
   created: 2020-01-13 12:10:11.126316
   email: info@farnworthkearsley.foodbank.org.uk
-  lat_lng: 53.551518,-2.394505
+  lat_lng: 53.5514655,-2.3960143
   name: Farnworth & Kearsley
   network: Trussell Trust
   phone: 01204861671
@@ -24167,7 +24166,7 @@
     self: https://www.givefood.org.uk/api/2/foodbank/coatbridge/
     shopping_list: http://www.coatbridgefoodbank.com/aboutus.html
 - address: "1A Jewel Road\r\nWalthamstow\r\nLondon\r\nE17 4QU"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1154192&subid=0
     registration_id: '1154192'
@@ -24175,7 +24174,7 @@
   country: England
   created: 2020-09-02 07:55:26.844217
   email: info@eatorheat.org
-  lat_lng: 51.589132,-0.021494
+  lat_lng: 51.5882089,-0.0211046
   name: Eat Or Heat
   network: IFAN
   phone: 08007720212
@@ -24190,10 +24189,10 @@
       self: https://www.givefood.org.uk/api/2/constituency/walthamstow/
     ward: William Morris
   postcode: E17 4QU
-  secondary_phone: ''
+  secondary_phone: null
   slug: eat-or-heat
   urls:
-    homepage: http://eatorheat.org/
+    homepage: http://eatorheat.org
     html: https://www.givefood.org.uk/needs/at/eat-or-heat/
     self: https://www.givefood.org.uk/api/2/foodbank/eat-or-heat/
     shopping_list: http://eatorheat.org/
@@ -24425,7 +24424,7 @@
   country: England
   created: 2020-03-10 10:12:51.687241
   email: familyfoodbank@children-families.org
-  lat_lng: 51.13194,0.903099
+  lat_lng: 51.1321149,0.9027329
   name: Family Food Bank
   network: Independent
   phone: '01233500477'
@@ -24440,7 +24439,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/ashford/
     ward: Highfield
   postcode: TN24 0SJ
-  secondary_phone: ''
+  secondary_phone: null
   slug: family-food-bank
   urls:
     homepage: https://www.familyfoodbank.org
@@ -25006,7 +25005,7 @@
   secondary_phone: null
   slug: fair-frome
   urls:
-    homepage: https://fairfrome.org/our-work/food-bank/
+    homepage: https://fairfrome.org/our-work/food-bank
     html: https://www.givefood.org.uk/needs/at/fair-frome/
     self: https://www.givefood.org.uk/api/2/foodbank/fair-frome/
     shopping_list: https://fairfrome.org/our-work/food-bank/
