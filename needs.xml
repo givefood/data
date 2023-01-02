@@ -1,6 +1,27 @@
 <?xml version="1.0" ?>
 <needs>
 	<need>
+		<id>94903102</id>
+		<found>2023-01-02T17:18:22.424128</found>
+		<foodbank>
+			<name>Bicester</name>
+			<slug>bicester</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/bicester/</self>
+				<html>https://www.givefood.org.uk/needs/at/bicester/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Tomatoes
+Tinned Fish
+Rice Pudding
+Tinned Meat
+Tinned Fruit
+Tea Bags</needs>
+		<excess>Cereal
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/needs/94903102/</self>
+	</need>
+	<need>
 		<id>96a30a29</id>
 		<found>2023-01-02T15:23:37.149248</found>
 		<foodbank>
@@ -2715,27 +2736,5 @@ Cleaning Products
 Fish
 Biscuits</excess>
 		<self>https://www.givefood.org.uk/api/2/needs/5c1751e7/</self>
-	</need>
-	<need>
-		<id>e00f7ce2</id>
-		<found>2022-12-16T23:04:29.949830</found>
-		<foodbank>
-			<name>Jubilee Storehouse</name>
-			<slug>jubilee-storehouse</slug>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/</self>
-				<html>https://www.givefood.org.uk/needs/at/jubilee-storehouse/</html>
-			</urls>
-		</foodbank>
-		<needs>Tins Of Sweetcorn
-Packets Of Instant Noodles
-Small Packets Of Crisps
-Shampoo
-Shower Gel
-Deodorant
-Toothbrushes
-Toothpaste</needs>
-		<excess/>
-		<self>https://www.givefood.org.uk/api/2/needs/e00f7ce2/</self>
 	</need>
 </needs>
