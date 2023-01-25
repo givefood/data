@@ -1878,13 +1878,13 @@
     \nEast Sussex\r\nBN25 3HB"
   alt_name: null
   charity:
-    register_url: null
-    registration_id: null
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=293090&subid=0
+    registration_id: '293090'
   closed: false
   country: England
   created: 2020-09-26 14:57:27.817193
   email: seahavenstorehouse@gmail.com
-  lat_lng: 50.779696,0.114527
+  lat_lng: 50.78013929999999,0.1147991
   name: Seahaven Storehouse
   network: Independent
   phone: 07921844930
@@ -1902,10 +1902,10 @@
   secondary_phone: null
   slug: seahaven-storehouse
   urls:
-    homepage: http://www.kings-well.org.uk/storehouse-plus-email-new.php
+    homepage: https://www.seahavenstorehouse.org
     html: https://www.givefood.org.uk/needs/at/seahaven-storehouse/
     self: https://www.givefood.org.uk/api/2/foodbank/seahaven-storehouse/
-    shopping_list: http://www.kings-well.org.uk/storehouse-plus-email-new.php
+    shopping_list: https://www.seahavenstorehouse.org/help-us
 - address: "Unit 4, Spring Court\r\nSpring Lane South\r\nMalvern\r\nWR14 1AT"
   alt_name: null
   charity:
@@ -2040,7 +2040,7 @@
   country: England
   created: 2020-09-25 10:19:49.057328
   email: reception@selbytrust.co.uk
-  lat_lng: 51.607453,-0.079029
+  lat_lng: 51.6073462,-0.0782709
   name: Selby Centre
   network: IFAN
   phone: 02088855499
@@ -2094,15 +2094,15 @@
     self: https://www.givefood.org.uk/api/2/foodbank/bradford-on-avon/
     shopping_list: https://bradfordonavon.foodbank.org.uk/give-help/donate-food/
 - address: "9 Mornington Road\r\nSouthport\r\nPR9 0TS"
-  alt_name: ''
+  alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2020-09-18 09:48:11.621812
   email: office@shorelinechurch.org.uk
-  lat_lng: 53.647662,-2.998556
+  lat_lng: 53.6471066,-2.996425700000001
   name: Shoreline
   network: IFAN
   phone: 01704535989
@@ -2117,10 +2117,10 @@
       self: https://www.givefood.org.uk/api/2/constituency/southport/
     ward: Duke's
   postcode: PR9 0TS
-  secondary_phone: ''
+  secondary_phone: null
   slug: shoreline
   urls:
-    homepage: https://www.shorelinechurch.org.uk/what-we-do/
+    homepage: https://www.shorelinechurch.org.uk/what-we-do
     html: https://www.givefood.org.uk/needs/at/shoreline/
     self: https://www.givefood.org.uk/api/2/foodbank/shoreline/
     shopping_list: https://www.shorelinechurch.org.uk/what-we-do/
@@ -2134,7 +2134,7 @@
   country: England
   created: 2019-12-07 20:44:45.015459
   email: info@eastgrinstead.foodbank.org.uk
-  lat_lng: 51.134048,-0.014008
+  lat_lng: 51.1337328,-0.0146932
   name: East Grinstead
   network: Trussell Trust
   phone: 07983209940
@@ -4281,7 +4281,7 @@
     html: https://www.givefood.org.uk/needs/at/vale-of-neath/
     self: https://www.givefood.org.uk/api/2/foodbank/vale-of-neath/
     shopping_list: https://valeofneath.foodbank.org.uk/give-help/donate-food/
-- address: "30 New Lane\r\nSelby\r\nYO8 4QB"
+- address: "1811 Building\r\nNew Lane\r\nSelby\r\nYO8 4QP"
   alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1169033&subid=0
@@ -4290,12 +4290,12 @@
   country: England
   created: 2020-05-14 23:31:05.096717
   email: info@selby.foodbank.org.uk
-  lat_lng: 53.783008,-1.07051
+  lat_lng: 53.7826876,-1.0705752
   name: Selby & District
   network: Trussell Trust
   phone: '01757703426'
   politics:
-    district: Selby
+    district: null
     mp: Nigel Adams
     mp_parl_id: 4057
     mp_party: Conservative
@@ -4303,12 +4303,12 @@
     urls:
       html: https://www.givefood.org.uk/needs/in/constituency/selby-and-ainsty/
       self: https://www.givefood.org.uk/api/2/constituency/selby-and-ainsty/
-    ward: Selby East
-  postcode: YO8 4QB
+    ward: null
+  postcode: YO8 4QP
   secondary_phone: '07413374750'
   slug: selby-district
   urls:
-    homepage: https://selbydistrict.foodbank.org.uk/
+    homepage: https://selbydistrict.foodbank.org.uk
     html: https://www.givefood.org.uk/needs/at/selby-district/
     self: https://www.givefood.org.uk/api/2/foodbank/selby-district/
     shopping_list: https://selbydistrict.foodbank.org.uk/give-help/donate-food/
@@ -4558,7 +4558,7 @@
   secondary_phone: null
   slug: seaton
   urls:
-    homepage: https://seatonurc.wordpress.com/seaton-food-bank/
+    homepage: https://seatonurc.wordpress.com/seaton-food-bank
     html: https://www.givefood.org.uk/needs/at/seaton/
     self: https://www.givefood.org.uk/api/2/foodbank/seaton/
     shopping_list: https://seatonurc.wordpress.com/seaton-food-bank/
@@ -5249,7 +5249,8 @@
     html: https://www.givefood.org.uk/needs/at/highway-vineyard-church/
     self: https://www.givefood.org.uk/api/2/foodbank/highway-vineyard-church/
     shopping_list: https://www.highwayvineyard.org/foodbank
-- address: "14 Bedford Way\r\nSawtry\r\nHuntingdon\r\nPE28 5QL"
+- address: "The CARESCO Centre\r\nGreen End Road\r\nSawtry\r\nHuntingdon\r\nCambridgeshire\r\
+    \nPE28 5UX"
   alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1140728&subid=0
@@ -5258,10 +5259,10 @@
   country: England
   created: 2021-02-19 12:30:52.494459
   email: foodbank@caresco.org.uk
-  lat_lng: 52.433042,-0.276825
+  lat_lng: 52.4362004,-0.2819107
   name: Sawtry
   network: Independent
-  phone: 07743593863
+  phone: 01487832105
   politics:
     district: Huntingdonshire
     mp: Shailesh Vara
@@ -5272,7 +5273,7 @@
       html: https://www.givefood.org.uk/needs/in/constituency/north-west-cambridgeshire/
       self: https://www.givefood.org.uk/api/2/constituency/north-west-cambridgeshire/
     ward: Sawtry
-  postcode: PE28 5QL
+  postcode: PE28 5UX
   secondary_phone: null
   slug: sawtry
   urls:
@@ -5713,7 +5714,7 @@
   secondary_phone: null
   slug: sevenoaks
   urls:
-    homepage: https://stjtb.com/people-groups/loaves-fishes/
+    homepage: https://stjtb.com/people-groups/loaves-fishes
     html: https://www.givefood.org.uk/needs/at/sevenoaks/
     self: https://www.givefood.org.uk/api/2/foodbank/sevenoaks/
     shopping_list: https://stjtb.com/people-groups/loaves-fishes/
@@ -8802,7 +8803,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/shrewsbury-and-atcham/
     ward: Belle Vue
   postcode: SY3 7DN
-  secondary_phone: ''
+  secondary_phone: null
   slug: shrewsbury
   urls:
     homepage: https://www.barnabascommunityprojects.org/foodbank.html
@@ -10537,7 +10538,7 @@
   country: England
   created: 2021-02-19 12:35:55.182198
   email: foodbank.volunteer@sussexcommunity.org.uk
-  lat_lng: 50.796711,0.049095
+  lat_lng: 50.7967265,0.04909520000000001
   name: Seahaven
   network: Independent
   phone: '01273516032'
@@ -12592,8 +12593,8 @@
     html: https://www.givefood.org.uk/needs/at/northampton-hope-centre/
     self: https://www.givefood.org.uk/api/2/foodbank/northampton-hope-centre/
     shopping_list: https://northamptonhopecentre.org.uk/
-- address: "Shoreham Free Church\r\nHuntingdon Hall\r\nBuckingham Road\r\nShoreham-By-Sea\r\
-    \nWest Sussex\r\nBN43 6WF"
+- address: "Shoreham Foodbank\r\nOaks Trust Ltd\r\n21/23 Clarendon Villas\r\nHove\r\
+    \nEast Sussex\r\nBN3 3RE"
   alt_name: null
   charity:
     register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1150372&subid=0
@@ -12602,21 +12603,21 @@
   country: England
   created: 2020-01-14 18:40:27.437756
   email: info@shoreham.foodbank.org.uk
-  lat_lng: 50.834958,-0.269386
+  lat_lng: 50.8320507,-0.1740276
   name: Shoreham
   network: Trussell Trust
   phone: 07708384906
   politics:
-    district: Adur
-    mp: Tim Loughton
-    mp_parl_id: 114
-    mp_party: Conservative
-    parliamentary_constituency: East Worthing and Shoreham
+    district: Brighton and Hove
+    mp: Peter Kyle
+    mp_parl_id: 4505
+    mp_party: Labour
+    parliamentary_constituency: Hove
     urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/east-worthing-and-shoreham/
-      self: https://www.givefood.org.uk/api/2/constituency/east-worthing-and-shoreham/
-    ward: St. Mary's
-  postcode: BN43 6WF
+      html: https://www.givefood.org.uk/needs/in/constituency/hove/
+      self: https://www.givefood.org.uk/api/2/constituency/hove/
+    ward: Central Hove
+  postcode: BN3 3RE
   secondary_phone: null
   slug: shoreham
   urls:
@@ -12758,7 +12759,7 @@
   country: England
   created: 2020-01-07 08:41:13.979484
   email: info@skelmersdale.foodbank.org.uk
-  lat_lng: 53.553589,-2.775355
+  lat_lng: 53.5518844,-2.7713708
   name: Skelmersdale
   network: Trussell Trust
   phone: 07989052832
@@ -12773,7 +12774,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/west-lancashire/
     ward: Birch Green
   postcode: WN8 6LU
-  secondary_phone: ''
+  secondary_phone: null
   slug: skelmersdale
   urls:
     homepage: https://skelmersdale.foodbank.org.uk
@@ -13513,7 +13514,7 @@
   country: England
   created: 2019-08-12 18:30:13.395975
   email: office@slough.foodbank.org.uk
-  lat_lng: 51.523551,-0.620106
+  lat_lng: 51.5237758,-0.6192653
   name: Slough
   network: Trussell Trust
   phone: '01753550303'
@@ -13528,7 +13529,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/slough/
     ward: Farnham
   postcode: SL1 4TJ
-  secondary_phone: ''
+  secondary_phone: null
   slug: slough
   urls:
     homepage: https://slough.foodbank.org.uk
@@ -15464,7 +15465,7 @@
   country: Scotland
   created: 2020-01-11 22:02:40.051289
   email: info@shetland.foodbank.org.uk
-  lat_lng: 60.156552,-1.148444
+  lat_lng: 60.1572042,-1.1483547
   name: Shetland
   network: Trussell Trust
   phone: 01595741263
@@ -16397,12 +16398,12 @@
   alt_name: null
   charity:
     register_url: null
-    registration_id: ''
+    registration_id: null
   closed: false
   country: England
   created: 2019-10-06 15:42:57.844498
   email: donations@salma-foodbank.org
-  lat_lng: 52.505032,-1.996827
+  lat_lng: 52.5041264,-1.9951212
   name: Salma
   network: Independent
   phone: '07767164246'
@@ -16417,7 +16418,7 @@
       self: https://www.givefood.org.uk/api/2/constituency/warley/
     ward: St. Pauls
   postcode: B66 1QG
-  secondary_phone: ''
+  secondary_phone: null
   slug: salma
   urls:
     homepage: https://www.salma-foodbank.org
@@ -17430,7 +17431,7 @@
   country: England
   created: 2020-09-18 09:34:52.680013
   email: sandbachfoodbank@gmail.com
-  lat_lng: 53.144915,-2.365649
+  lat_lng: 53.1447514,-2.3660082
   name: Sandbach
   network: IFAN
   phone: null
@@ -18246,10 +18247,10 @@
   country: England
   created: 2019-09-29 10:34:37.110147
   email: info@sheffields6.foodbank.org.uk
-  lat_lng: 53.392508,-1.484021
+  lat_lng: 53.392364,-1.4838389
   name: Sheffield S6
   network: Trussell Trust
-  phone: 01142419560
+  phone: 07984572041
   politics:
     district: Sheffield
     mp: Paul Blomfield
@@ -19283,7 +19284,7 @@
   country: England
   created: 2019-12-25 11:05:58.756962
   email: info@saltash.foodbank.org.uk
-  lat_lng: 50.4094824,-4.2132055
+  lat_lng: 50.4094834,-4.2131926
   name: Saltash
   network: Trussell Trust
   phone: 08003282124
@@ -21480,10 +21481,10 @@
   country: England
   created: 2019-08-05 10:22:42.387322
   email: info@scunthorpe.foodbank.org.uk
-  lat_lng: 53.582524,-0.653065
+  lat_lng: 53.5805601,-0.6536647999999999
   name: Scunthorpe
   network: Trussell Trust
-  phone: 07731321896
+  phone: 03001028061
   politics:
     district: North Lincolnshire
     mp: Holly Mumby-Croft
