@@ -6201,6 +6201,32 @@
   slug: greenbank
   urls:
     html: https://www.givefood.org.uk/needs/at/mid-cheshire/greenbank/
+- address: "2 Leominster Drive\r\nWythenshawe\r\nManchester\r\nM22 5HB"
+  email: info@wythenshawe.foodbank.org.uk
+  foodbank:
+    name: Wythenshawe
+    network: Trussell Trust
+    slug: wythenshawe
+    urls:
+      html: https://www.givefood.org.uk/needs/at/wythenshawe/
+      self: https://www.givefood.org.uk/api/2/foodbank/wythenshawe/
+  lat_lng: 53.3795122,-2.247802
+  name: St. Richard's Church Peel Hall
+  phone: 07518198645
+  politics:
+    district: Manchester
+    mp: Mike Kane
+    mp_parl_id: 4316
+    mp_party: Labour
+    parliamentary_constituency: Wythenshawe and Sale East
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/wythenshawe-and-sale-east/
+      self: https://www.givefood.org.uk/api/2/constituency/wythenshawe-and-sale-east/
+    ward: Sharston
+  postcode: M22 5HB
+  slug: st-richards-church-peel-hall
+  urls:
+    html: https://www.givefood.org.uk/needs/at/wythenshawe/st-richards-church-peel-hall/
 - address: "Chantry Road\r\nNorwich\r\nNR2 1QZ"
   email: admin@norwich.foodbank.org.uk
   foodbank:
@@ -7590,7 +7616,7 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/southend/
       self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  lat_lng: 51.55732889999999,0.6956211
+  lat_lng: 51.5573333,0.6956312
   name: Earls Hall Baptist Church
   phone: '07456426203'
   politics:
@@ -12364,8 +12390,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.827991,-1.469055
-  name: Seacroft Distribution Centre
+  lat_lng: 53.8274931,-1.4697175
+  name: Seacroft
   phone: 01132772229
   politics:
     district: Leeds
@@ -12378,9 +12404,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/leeds-east/
     ward: Killingbeck & Seacroft
   postcode: LS14 1BX
-  slug: seacroft-distribution-centre
+  slug: seacroft
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/seacroft-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/seacroft/
 - address: "11 Kilpatrick Drive \r\nErskine\r\nPA8 7AF"
   email: matthew.j.brown@salvationarmy.org.uk
   foodbank:
@@ -14321,8 +14347,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.746234,-1.481462
-  name: Rothwell Distribution Centre
+  lat_lng: 53.7454496,-1.4833429
+  name: Rothwell
   phone: 01132772229
   politics:
     district: Leeds
@@ -14335,9 +14361,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/elmet-and-rothwell/
     ward: Rothwell
   postcode: LS26 0DH
-  slug: rothwell-distribution-centre
+  slug: rothwell
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/rothwell-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/rothwell/
 - address: "West Street \nWath-upon-Dearne \r\nS63 7QU"
   email: shaun.bingham@salvationarmy.org.uk
   foodbank:
@@ -17521,33 +17547,6 @@
   slug: abertillery
   urls:
     html: https://www.givefood.org.uk/needs/at/blaenau-gwent/abertillery/
-- address: "Northenden Players Theatre\r\nThe Old Library\r\nChurch Road\r\nNorthenden\r\
-    \nM22 4WL"
-  email: info@wythenshawe.foodbank.org.uk
-  foodbank:
-    name: Wythenshawe
-    network: Trussell Trust
-    slug: wythenshawe
-    urls:
-      html: https://www.givefood.org.uk/needs/at/wythenshawe/
-      self: https://www.givefood.org.uk/api/2/foodbank/wythenshawe/
-  lat_lng: 53.4069391,-2.2577401
-  name: Northenden Players Theatre
-  phone: '07741635115'
-  politics:
-    district: Manchester
-    mp: Mike Kane
-    mp_parl_id: 4316
-    mp_party: Labour
-    parliamentary_constituency: Wythenshawe and Sale East
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/wythenshawe-and-sale-east/
-      self: https://www.givefood.org.uk/api/2/constituency/wythenshawe-and-sale-east/
-    ward: Northenden
-  postcode: M22 4WL
-  slug: northenden-players-theatre
-  urls:
-    html: https://www.givefood.org.uk/needs/at/wythenshawe/northenden-players-theatre/
 - address: "The King's Church\r\nRaans Road\r\nAmersham\r\nHP7 0DJ"
   email: dave@chiltern.foodbank.org.uk
   foodbank:
@@ -18026,8 +18025,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.754601,-1.658648
-  name: Drighlington Distribution Centre
+  lat_lng: 53.7555954,-1.6596652
+  name: Drighlington
   phone: 01132772229
   politics:
     district: Leeds
@@ -18040,9 +18039,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/morley-and-outwood/
     ward: Morley North
   postcode: BD11 1EL
-  slug: drighlington-distribution-centre
+  slug: drighlington
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/drighlington-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/drighlington/
 - address: "Lower Room of Hill Park Baptist Church\r\nPrendergast St\r\nHaverfordwest\r\
     \nSA61 2ET"
   email: info@pembrokeshire.foodbank.org.uk
@@ -21867,8 +21866,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.766406,-1.56533
-  name: Beeston Distribution Centre
+  lat_lng: 53.7667979,-1.564136
+  name: Beeston
   phone: 01132772229
   politics:
     district: Leeds
@@ -21881,9 +21880,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/leeds-central/
     ward: Beeston & Holbeck
   postcode: LS11 8AL
-  slug: beeston-distribution-centre
+  slug: beeston
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/beeston-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/beeston/
 - address: "Low Chare \nChester-le-Street \r\nDH3 3QF"
   email: chester.le.street@salvationarmy.org.uk
   foodbank:
@@ -25996,7 +25995,7 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/wythenshawe/
       self: https://www.givefood.org.uk/api/2/foodbank/wythenshawe/
-  lat_lng: 53.376342,-2.267716
+  lat_lng: 53.376317,-2.2683122
   name: Dandelion Community
   phone: 01614374392
   politics:
@@ -28802,8 +28801,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/wythenshawe/
       self: https://www.givefood.org.uk/api/2/foodbank/wythenshawe/
-  lat_lng: 53.389295,-2.255046
-  name: St Lukes Foodbank Centre
+  lat_lng: 53.389674,-2.255195
+  name: St Luke's
   phone: 07919595503
   politics:
     district: Manchester
@@ -28816,9 +28815,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/wythenshawe-and-sale-east/
     ward: Sharston
   postcode: M22 4PT
-  slug: st-lukes-foodbank-centre
+  slug: st-lukes
   urls:
-    html: https://www.givefood.org.uk/needs/at/wythenshawe/st-lukes-foodbank-centre/
+    html: https://www.givefood.org.uk/needs/at/wythenshawe/st-lukes/
 - address: "Bell Farm Christian Centre\r\nSouth Road\r\nWest Drayton\r\nUB7 9LW\r\n\
     UB7 9LW"
   email: info@yiewsleywestdrayton.foodbank.org.uk
@@ -30395,7 +30394,7 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/wandsworth/
       self: https://www.givefood.org.uk/api/2/foodbank/wandsworth/
-  lat_lng: 51.4736135,-0.1547864
+  lat_lng: 51.4736196,-0.1547901
   name: Shaftesbury Christian Centre, Battersea
   phone: 02073269428
   politics:
@@ -30761,7 +30760,7 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/wandsworth/
       self: https://www.givefood.org.uk/api/2/foodbank/wandsworth/
-  lat_lng: 51.4496942,-0.2022501
+  lat_lng: 51.4496943,-0.2021583
   name: St Michael's Church, Southfields
   phone: 02073269428
   politics:
@@ -33684,8 +33683,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.762872,-1.527034
-  name: Belle Isle Distribution Centre
+  lat_lng: 53.7634361,-1.5265201
+  name: Belle Isle
   phone: 01132772229
   politics:
     district: Leeds
@@ -33698,9 +33697,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/leeds-central/
     ward: Middleton Park
   postcode: LS10 3DN
-  slug: belle-isle-distribution-centre
+  slug: belle-isle
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/belle-isle-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/belle-isle/
 - address: "Swan Street \nPetersfield \r\nGU32 3AD"
   email: sa.petersfield@ntlworld.com
   foodbank:
@@ -35251,8 +35250,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.812144,-1.492115
-  name: Gipton Distribution Centre
+  lat_lng: 53.81298049999999,-1.4917115
+  name: Gipton
   phone: 01132772229
   politics:
     district: Leeds
@@ -35265,9 +35264,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/leeds-east/
     ward: Gipton & Harehills
   postcode: LS9 6SW
-  slug: gipton-distribution-centre
+  slug: gipton
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/gipton-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/gipton/
 - address: "Coventry Road,\r\nHinckley,\r\nLeics\r\nLE10 0NF"
   email: info@hinckleyarea.foodbank.org.uk
   foodbank:
@@ -35382,8 +35381,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/southend/
       self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  lat_lng: 51.542053,0.6833340999999999
-  name: Westcliff Distribution Centre
+  lat_lng: 51.5420539,0.6833403000000001
+  name: Westcliff
   phone: '07456426203'
   politics:
     district: Southend-on-Sea
@@ -35396,9 +35395,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/southend-west/
     ward: Chalkwell
   postcode: SS0 8LL
-  slug: westcliff-distribution-centre
+  slug: westcliff
   urls:
-    html: https://www.givefood.org.uk/needs/at/southend/westcliff-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/southend/westcliff/
 - address: "Dandy's Landscape Supplies Centre\r\nSealand Road\r\nSealand\r\nFlintshire\r\
     \nCH1 6BS"
   email: info@flintshire.foodbank.org.uk
@@ -36079,7 +36078,7 @@
   slug: woodstock-baptist-church
   urls:
     html: https://www.givefood.org.uk/needs/at/north-oxfordshire/woodstock-baptist-church/
-- address: "2 Thessaly Rd\r\nNine Elms\r\nLondon\r\nSW8 4HT"
+- address: "2 Thessaly Road\r\nNine Elms\r\nLondon\r\nSW8 4HT"
   email: info@wandsworth.foodbank.org.uk
   foodbank:
     name: Wandsworth
@@ -39094,8 +39093,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.773378,-1.529025
-  name: Hunslet Distribution Centre
+  lat_lng: 53.7745809,-1.529589
+  name: Hunslet
   phone: 01132772229
   politics:
     district: Leeds
@@ -39108,9 +39107,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/leeds-central/
     ward: Hunslet & Riverside
   postcode: LS10 2HR
-  slug: hunslet-distribution-centre
+  slug: hunslet
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/hunslet-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/hunslet/
 - address: "112 Hamilton Road\r\nBangor\r\nCo Down\r\nBT20 4LQ"
   email: info@bangorni.foodbank.org.uk
   foodbank:
@@ -40974,7 +40973,7 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/wythenshawe/
       self: https://www.givefood.org.uk/api/2/foodbank/wythenshawe/
-  lat_lng: 53.3936454,-2.265787200000001
+  lat_lng: 53.3939829,-2.2662091
   name: Benchill Community Centre
   phone: 01619469520
   politics:
@@ -42330,8 +42329,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.7982761,-1.474736
-  name: St Wilfrid's Distribution Centre
+  lat_lng: 53.7982902,-1.4747637
+  name: St Wilfrid's
   phone: 01132772229
   politics:
     district: Leeds
@@ -42344,9 +42343,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/leeds-east/
     ward: Temple Newsam
   postcode: LS15 7NP
-  slug: st-wilfrids-distribution-centre
+  slug: st-wilfrids
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/st-wilfrids-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/st-wilfrids/
 - address: "Gladstone Street \nAston \r\nB6 7NY"
   email: corinne.seabridge@salvationarmy.org.uk
   foodbank:
@@ -42408,7 +42407,7 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/southend/
       self: https://www.givefood.org.uk/api/2/foodbank/southend/
-  lat_lng: 51.53211410000001,0.7771492999999999
+  lat_lng: 51.5321143,0.7771505999999999
   name: Shoeburyness and Thorpe Bay Baptist Church
   phone: '07456426203'
   politics:
@@ -43401,8 +43400,8 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/leeds-south-east/
       self: https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/
-  lat_lng: 53.741842,-1.599837
-  name: St Paul's Anglican church Distribution Centre
+  lat_lng: 53.7423661,-1.5995407
+  name: St Paul's Anglican Church
   phone: 01132772229
   politics:
     district: Leeds
@@ -43415,9 +43414,9 @@
       self: https://www.givefood.org.uk/api/2/constituency/morley-and-outwood/
     ward: Morley South
   postcode: LS27 9ER
-  slug: st-pauls-anglican-church-distribution-centre
+  slug: st-pauls-anglican-church
   urls:
-    html: https://www.givefood.org.uk/needs/at/leeds-south-east/st-pauls-anglican-church-distribution-centre/
+    html: https://www.givefood.org.uk/needs/at/leeds-south-east/st-pauls-anglican-church/
 - address: "The Street \nWhatfield \r\nIP7 6QN"
   email: whatfield@salvationarmy.org.uk
   foodbank:
