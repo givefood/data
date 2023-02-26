@@ -19,7 +19,6 @@ There is more information about our data, a few rules about how to use it, and s
 
 ## You may also enjoy
 * flatgithub view https://flatgithub.com/givefood/data?filename=foodbanks.csv
-* Datasette https://datasette.givefood.org.uk
 * Dashboards https://www.givefood.org.uk/dashboard/
 
 ## About Us
