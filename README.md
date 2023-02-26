@@ -14,7 +14,7 @@ There is more information about our data, a few rules about how to use it, and s
 * needs.json https://www.givefood.org.uk/api/2/docs/#needs
 
 ### Food bank networks
-* ifan.xml KML file of IFAN food bank locations from their Google My Map
+* ifan.xml KML file of IFAN food bank locations from their [Google My Map](https://www.foodaidnetwork.org.uk/our-members)
 * trusselltrust.json JSON file of Trussell Trust location proxied and cleaned from their [site](https://www.trusselltrust.org/get-help/find-a-foodbank/foodbank-search/?foodbank_s=all&callback=hello)
 
 ## You may also enjoy
