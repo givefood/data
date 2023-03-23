@@ -22,7 +22,7 @@ There is more information about our data, a few rules about how to use it, and s
 * Dashboards https://www.givefood.org.uk/dashboard/
 
 ## About Us
-We maintain the largest publicly available database of food banks in the UK and currently cover over 2600 locations.
+We maintain the largest publicly available database of food banks in the UK and currently cover over 2700 locations.
 
 Our data is used by governments, councils, universities, supermarkets, political parties, the NHS, food manufacturers, hundreds of national & local news websites, apps & the Trussell Trust.
 
