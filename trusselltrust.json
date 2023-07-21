@@ -6245,7 +6245,7 @@
             "distance": "",
             "main_location": "St. Mary's Church<br />\r\n21 Neasden Lane (Church End roundabout)<br />\r\nLondon <br />\r\nNW10 2TS",
             "geolocation": {
-                "address": "21 Wharton Cl, Neasden Ln, Church End & Roundwood, London NW10 2TF, UK",
+                "address": "21 Wharton Cl, Neasden Ln, Church End &amp; Roundwood, London NW10 2TF, UK",
                 "lat": "51.54875884748816",
                 "lng": "-0.24953416931157602"
             },
@@ -6294,7 +6294,7 @@
                 "opening_time": [
                     {
                         "day": "wednesday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     }
@@ -6328,7 +6328,7 @@
                 "centre_address": "Church End/Vestry Hall (Trussell Trust) <br />\r\nNext to Church End roundabout<br />\r\nNeasden Lane <br />\r\nLondon ",
                 "post_code": "NW10 2TS",
                 "centre_geolocation": {
-                    "address": "St Marys Church, Neasden Ln, Church End & Roundwood, London NW10 2TS",
+                    "address": "St Marys Church, Neasden Ln, Church End &amp; Roundwood, London NW10 2TS",
                     "lat": "51.5494527",
                     "lng": "-0.2496200000000499"
                 },
@@ -7505,12 +7505,13 @@
                         "closing_time": "12:00"
                     }
                 ],
-                "centre_address": "1 Ashfield Road, Cambridge ",
+                "centre_address": "Chesterton Methodist Church<br />\r\n1 Ashfield Road<br />\r\nCambridge ",
                 "post_code": "CB4 1RW",
                 "centre_geolocation": {
                     "address": "1 Ashfield Road, Cambridge, UK",
                     "lat": "52.2211764",
-                    "lng": "0.1450933"
+                    "lng": "0.1450933",
+                    "zoom": 16
                 }
             },
             {
@@ -7523,7 +7524,7 @@
                         "closing_time": "16:00"
                     }
                 ],
-                "centre_address": "Christ Church Trumpington Church Centre, 14 Alpha Terrace, Trumpington, Cambridge",
+                "centre_address": "Christ Church Trumpington Church Centre, <br />\r\n14 Alpha Terrace<br />\r\nTrumpington<br />\r\nCambridge",
                 "post_code": "CB2 9HT",
                 "centre_geolocation": {
                     "address": "14 Alpha Terrace, Trumpington, Cambridge CB2 9HT, UK",
@@ -7535,61 +7536,6 @@
                     "street_name": "Alpha Terrace",
                     "state": "England",
                     "post_code": "CB2 9HT",
-                    "country": "United Kingdom",
-                    "country_short": "GB"
-                }
-            },
-            {
-                "foodbank_name": "Northstowe",
-                "opening_time": [
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "open",
-                        "opening_time": "13:30",
-                        "closing_time": "15:30"
-                    }
-                ],
-                "centre_address": "Northstowe Temporary Community Centre, 1 The Green, Pathfinder Way, Northstowe CB24 1FD<br />\r\n",
-                "post_code": "CB24 1FD",
-                "centre_geolocation": {
-                    "address": "26 Pathfinder Way, Longstanton, Northstowe, Cambridge CB24 1AU, UK",
-                    "lat": 52.2881913317417,
-                    "lng": 0.05089759826660156,
-                    "zoom": 17,
-                    "place_id": "ChIJ26tijjJ02EcRpdpzzxKJQoI",
-                    "street_number": "26",
-                    "street_name": "Pathfinder Way",
-                    "city": "Cambridge",
-                    "state": "England",
-                    "post_code": "CB24 1AU",
-                    "country": "United Kingdom",
-                    "country_short": "GB"
-                }
-            },
-            {
-                "foodbank_name": "OLEM Church",
-                "opening_time": [
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "open",
-                        "opening_time": "10:00",
-                        "closing_time": "12:00"
-                    }
-                ],
-                "centre_address": "Hills Road <br />\r\nCambridge <br />\r\n",
-                "post_code": "CB2 1JR",
-                "centre_geolocation": {
-                    "address": "18 Lensfield Rd, Cambridge CB2 1JR, UK",
-                    "lat": 52.19896504689317,
-                    "lng": 0.1269569196140541,
-                    "zoom": 15,
-                    "place_id": "ChIJ_S0F05tw2EcR03U2FRZR73c",
-                    "street_number": "18",
-                    "street_name": "Lensfield Road",
-                    "street_name_short": "Lensfield Rd",
-                    "city": "Cambridge",
-                    "state": "England",
-                    "post_code": "CB2 1JR",
                     "country": "United Kingdom",
                     "country_short": "GB"
                 }
@@ -7663,6 +7609,63 @@
                 "local_transport_links": "<p>Head out of the city towards Milton Road (A1134/A1039)</p>\n<p>Turn left onto Arbury Road.</p>\n<p>Turn left into Mansel Way.</p>\n<p>The Church of the Good Shepherd will be on the left</p>\n"
             },
             {
+                "foodbank_name": "Northstowe",
+                "opening_time": [
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:30",
+                        "closing_time": "15:30"
+                    }
+                ],
+                "centre_address": "Northstowe Temporary Community Centre, <br />\r\n1 The Green, <br />\r\nPathfinder Way, <br />\r\nNorthstowe<br />\r\n<br />\r\n",
+                "post_code": "CB24 1FD",
+                "centre_geolocation": {
+                    "address": "26 Pathfinder Way, Longstanton, Northstowe, Cambridge CB24 1AU, UK",
+                    "lat": 52.2881913317417,
+                    "lng": 0.05089759826660156,
+                    "zoom": 17,
+                    "place_id": "ChIJ26tijjJ02EcRpdpzzxKJQoI",
+                    "street_number": "26",
+                    "street_name": "Pathfinder Way",
+                    "city": "Cambridge",
+                    "state": "England",
+                    "post_code": "CB24 1AU",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                },
+                "local_transport_links": "<p>Bus stop on Pathfinder Way</p>\n<p>By car Access is: One way access via Stirling Road, left into Links Rd and left into Pathfinder Way and then left into the car park. Car Park is one way from Pathfinder Way towards Stirling Way.</p>\n"
+            },
+            {
+                "foodbank_name": "OLEM Church",
+                "opening_time": [
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "(Access via Car Park on Lensfield Road)<br />\r\nParish Centre<br />\r\nHills Road <br />\r\nCambridge <br />\r\n",
+                "post_code": "CB2 1JR",
+                "centre_geolocation": {
+                    "address": "18 Lensfield Rd, Cambridge CB2 1JR, UK",
+                    "lat": 52.19896504689317,
+                    "lng": 0.1269569196140541,
+                    "zoom": 15,
+                    "place_id": "ChIJ_S0F05tw2EcR03U2FRZR73c",
+                    "street_number": "18",
+                    "street_name": "Lensfield Road",
+                    "street_name_short": "Lensfield Rd",
+                    "city": "Cambridge",
+                    "state": "England",
+                    "post_code": "CB2 1JR",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                },
+                "local_transport_links": "<p>Access to the Parish Centre is through the Car Park situated behind the church off Lensfield Road.</p>\n<p>Walk through the car park and follow the footpath past the school. The Parish Centre is situated at the very end of the path in the courtyard.</p>\n"
+            },
+            {
                 "foodbank_name": "St Paul's Church",
                 "opening_time": [
                     {
@@ -7678,7 +7681,7 @@
                         "closing_time": "16:30"
                     }
                 ],
-                "centre_address": "Hills Road<br />\r\nCambridge",
+                "centre_address": "Lower Hall<br />\r\nSt Paul's Church<br />\r\nHills Road<br />\r\nCambridge",
                 "post_code": "CB2 1JP",
                 "centre_geolocation": {
                     "address": "Hills Road, Cambridge CB2 1JP, United Kingdom",
@@ -8182,18 +8185,18 @@
                 "opening_time": [
                     {
                         "day": "wednesday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     },
                     {
                         "day": "thursday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "18:30",
                         "closing_time": "20:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\n<br />\r\nSt Saviours Church<br />\r\nSplott Road<br />\r\nCardiff",
+                "centre_address": "This centre will be closed Wed 26th and Thurs 27th July 2023. <br />\r\n<br />\r\nSt Saviours Church<br />\r\nSplott Road<br />\r\nCardiff",
                 "post_code": "CF24 2BW",
                 "centre_geolocation": {
                     "address": "St Saviours, Cardiff CF24 2XX, UK",
@@ -37553,7 +37556,7 @@
             "name": "Skipton Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/skipton/",
             "distance": "",
-            "main_location": "St Andrews Church Hall<br />\r\nNewmarket Street<br />\r\nSkipton<br />\r\nBD23 2JE<br />\r\n<br />\r\nPlease note: This is our warehouse address and open for donations Mon, Weds and Fri 9.30-12.30. See below for food parcel collection.",
+            "main_location": "St Andrews Church Hall<br />\r\nNewmarket Street<br />\r\nSkipton<br />\r\nBD23 2JE<br />\r\n<br />\r\nPlease note: This is our warehouse address and open for donations Mon, Weds and Fri 9am-12pm. See below for food parcel collection.",
             "geolocation": {
                 "address": "St Andrew's Church, Newmarket Street, Skipton, UK",
                 "lat": 53.9610751,
