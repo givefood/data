@@ -235,6 +235,32 @@
   slug: hayes
   urls:
     html: https://www.givefood.org.uk/needs/at/salvation-army/hayes/
+- address: "Park End Road\r\nGloucester\r\nGL1 5AN"
+  email: info@gloucester.foodbank.org.uk
+  foodbank:
+    name: Gloucester
+    network: Trussell Trust
+    slug: gloucester
+    urls:
+      html: https://www.givefood.org.uk/needs/at/gloucester/
+      self: https://www.givefood.org.uk/api/2/foodbank/gloucester/
+  lat_lng: 51.8561243,-2.2439388
+  name: Elim Church Gloucester
+  phone: 01452309683
+  politics:
+    district: Gloucester
+    mp: Richard Graham
+    mp_parl_id: 3990
+    mp_party: Conservative
+    parliamentary_constituency: Gloucester
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/gloucester/
+      self: https://www.givefood.org.uk/api/2/constituency/gloucester/
+    ward: Moreland
+  postcode: GL1 5AN
+  slug: elim-church-gloucester
+  urls:
+    html: https://www.givefood.org.uk/needs/at/gloucester/elim-church-gloucester/
 - address: "Tairgwaith Community Hall\r\nCommunity Hall\r\nAmmanford\r\nSA18 1YG"
   email: info@ammanford.foodbank.org.uk
   foodbank:
@@ -288,32 +314,6 @@
   slug: farnley
   urls:
     html: https://www.givefood.org.uk/needs/at/leeds-north-west/farnley/
-- address: "Park End Road\r\nGloucester\r\nGL1 5AN"
-  email: info@gloucester.foodbank.org.uk
-  foodbank:
-    name: Gloucester
-    network: Trussell Trust
-    slug: gloucester
-    urls:
-      html: https://www.givefood.org.uk/needs/at/gloucester/
-      self: https://www.givefood.org.uk/api/2/foodbank/gloucester/
-  lat_lng: 51.8561243,-2.2439388
-  name: Elim Church Gloucester
-  phone: 01452309683
-  politics:
-    district: Gloucester
-    mp: Richard Graham
-    mp_parl_id: 3990
-    mp_party: Conservative
-    parliamentary_constituency: Gloucester
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/gloucester/
-      self: https://www.givefood.org.uk/api/2/constituency/gloucester/
-    ward: Moreland
-  postcode: GL1 5AN
-  slug: elim-church-gloucester
-  urls:
-    html: https://www.givefood.org.uk/needs/at/gloucester/elim-church-gloucester/
 - address: "1 St Leger Court\r\nGreat Linford\r\nMK14 5HA"
   email: office@mkfoodbank.org.uk
   foodbank:
@@ -5055,7 +5055,7 @@
     urls:
       html: https://www.givefood.org.uk/needs/at/gloucester/
       self: https://www.givefood.org.uk/api/2/foodbank/gloucester/
-  lat_lng: 51.8574785,-2.1876442
+  lat_lng: 51.8574783,-2.1876443
   name: Hucclecote Centre
   phone: 01452309683
   politics:
