@@ -1,4 +1,4 @@
-<img width="217" alt="Give Food" src="https://user-images.githubusercontent.com/763913/120896668-763b9e00-c61a-11eb-9467-35759ce7d922.png">
+<img width="200" alt="Give Food" src="https://github.com/givefood/givefood/assets/763913/0b5033f6-a5be-467a-87e4-79b5c33810af"><br>
 
 Latest data on UK food banks from [Give Food](https://www.givefood.org.uk) scraped and republished in various formats.
 
