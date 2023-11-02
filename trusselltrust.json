@@ -5152,9 +5152,11 @@
             "distance": "",
             "main_location": "Blakenall Village Centre,<br />\r\nThames Road,<br />\r\nBlakenall,<br />\r\nWalsall,<br />\r\nWS3 1LZ",
             "geolocation": {
-                "address": "Blakenall Village Centre, Thames Road, Blakenall, Walsall, WS3 1LZ",
-                "lat": "52.6146742",
-                "lng": "-1.9866676999999981"
+                "address": "9C7F8Q47+X2",
+                "lat": 55.30741445640656,
+                "lng": -10.237400121874991,
+                "zoom": 6,
+                "place_id": "GhIJeei7W1mnS0ARXyKDgYx5JMA"
             },
             "telephone_number": "07747 301374",
             "website": "http://bloxwichblakenall.foodbank.org.uk"
@@ -9629,7 +9631,7 @@
                 }
             },
             {
-                "foodbank_name": "Chichester District Foodbank (Midhurst)",
+                "foodbank_name": "Chichester District Foodbank (Midhurst) Delivery only",
                 "foodbank_telephone_number": "01243 773687 (select Rural Foodbank centres, Midhurst) or email midhurst@chichesterdistrict.foodbank.org.uk (Delivery Service only)",
                 "opening_time": [
                     {
@@ -9672,7 +9674,7 @@
                 }
             },
             {
-                "foodbank_name": "Chichester District Foodbank (Petworth)",
+                "foodbank_name": "Chichester District Foodbank (Petworth) Delivery Only",
                 "foodbank_telephone_number": "01243 773687 or email info@chichesterdistrict.foodbank.org.uk (Delivery Service only)",
                 "opening_time": [
                     {
@@ -9852,7 +9854,31 @@
                         "closing_time": "00:00"
                     },
                     {
-                        "day": "monday",
+                        "day": "wednesday",
+                        "foodbank_status": "closed",
+                        "opening_time": "00:00",
+                        "closing_time": "00:00"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "closed",
+                        "opening_time": "00:00",
+                        "closing_time": "00:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:30",
+                        "closing_time": "13:00"
+                    },
+                    {
+                        "day": "saturday",
+                        "foodbank_status": "closed",
+                        "opening_time": "00:00",
+                        "closing_time": "00:00"
+                    },
+                    {
+                        "day": "sunday",
                         "foodbank_status": "closed",
                         "opening_time": "00:00",
                         "closing_time": "00:00"
@@ -12067,7 +12093,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "11:30",
                         "closing_time": "13:30"
                     }
@@ -15390,7 +15416,30 @@
                         "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "13:00"
-                    },
+                    }
+                ],
+                "centre_address": "Colston Wellpark Church<br />\r\n1378 Springburn Road<br />\r\nGlasgow",
+                "post_code": "G21 1UX",
+                "centre_geolocation": {
+                    "address": "Colston Wellpark Church 1378 Springburn Road Glasgow  G21 1UX",
+                    "lat": 55.8949528,
+                    "lng": -4.2309095,
+                    "zoom": 6,
+                    "place_id": "ChIJSbJPp3dEiEgRhZkSzBeEHq4",
+                    "street_number": "1378",
+                    "street_name": "Springburn Road",
+                    "street_name_short": "Springburn Rd",
+                    "city": "Glasgow",
+                    "state": "Scotland",
+                    "post_code": "G21 1UX",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Colston Wellpark Church",
+                "foodbank_telephone_number": "07425 134131",
+                "opening_time": [
                     {
                         "day": "friday",
                         "foodbank_status": "open",
@@ -21325,7 +21374,7 @@
             "name": "Haywards Heath Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/haywardsheath/",
             "distance": "",
-            "main_location": "Food can be collected once we have received your referral on Tuesdays 2-4pm and Thursdays 10-12am. We will still deliver to clients who are unable to collect.<br />\r\n***Collection on Tuesdays will be moving to 11am-1pm from Tues 7th Nov 2023 ***<br />\r\n<br />\r\nUnit A <br />\r\n9 Delaware Road<br />\r\nHaywards Heath<br />\r\nWest Sussex<br />\r\nRH16 3UX<br />\r\n<br />\r\n",
+            "main_location": "Food can be collected once we have received your referral on Tuesdays 11am-1pm and Thursdays 10-12am. We will still deliver to clients who are unable to collect.<br />\r\n*** please note new times for Tuesdays ***<br />\r\n<br />\r\nUnit A <br />\r\n9 Delaware Road<br />\r\nHaywards Heath<br />\r\nWest Sussex<br />\r\nRH16 3UX<br />\r\n<br />\r\n",
             "geolocation": {
                 "address": "Unit A, 9, Delaware Road, Haywards Heath RH16 3UX",
                 "lat": 50.9990697,
@@ -21352,8 +21401,8 @@
                     {
                         "day": "tuesday",
                         "foodbank_status": "open",
-                        "opening_time": "14:00",
-                        "closing_time": "16:00"
+                        "opening_time": "11:00",
+                        "closing_time": "13:00"
                     },
                     {
                         "day": "thursday",
@@ -22366,9 +22415,19 @@
             "distance": "",
             "main_location": "Horsham Matters<br />\r\n1 Redkiln Close<br />\r\nHorsham<br />\r\nWest Sussex<br />\r\nRH135QL",
             "geolocation": {
-                "address": "Micah House, Blatchford Road, Horsham, RH13 5QR",
-                "lat": "51.0694967",
-                "lng": "-0.30854"
+                "address": "1 Redkiln Cl, Horsham RH13 5QL, UK",
+                "lat": 51.070715256526825,
+                "lng": -0.30848903802871197,
+                "zoom": 19,
+                "place_id": "ChIJK50o6dHrdUgRQuuOtta9TIc",
+                "street_number": "1",
+                "street_name": "Redkiln Close",
+                "street_name_short": "Redkiln Cl",
+                "city": "Horsham",
+                "state": "England",
+                "post_code": "RH13 5QL",
+                "country": "United Kingdom",
+                "country_short": "GB"
             },
             "telephone_number": "0300 124 0204",
             "website": "http://horshamdistrict.foodbank.org.uk/"
@@ -30665,7 +30724,7 @@
                 "lat": "54.6615354",
                 "lng": "-3.3638145"
             },
-            "telephone_number": "01900 823854",
+            "telephone_number": "07502 311452",
             "website": "http://thefoodbank.org.uk"
         },
         "foodbank_centre": [
@@ -35335,32 +35394,32 @@
                     {
                         "day": "monday",
                         "foodbank_status": "open",
-                        "opening_time": "11:00",
+                        "opening_time": "10:30",
                         "closing_time": "12:30"
                     },
                     {
                         "day": "tuesday",
                         "foodbank_status": "open",
-                        "opening_time": "11:00",
+                        "opening_time": "10:30",
                         "closing_time": "12:30"
                     },
                     {
                         "day": "wednesday",
                         "foodbank_status": "open",
-                        "opening_time": "11:00",
+                        "opening_time": "10:30",
                         "closing_time": "12:30"
                     },
                     {
                         "day": "thursday",
                         "foodbank_status": "open",
-                        "opening_time": "11:00",
+                        "opening_time": "10:30",
                         "closing_time": "12:30"
                     },
                     {
                         "day": "friday",
                         "foodbank_status": "open",
                         "opening_time": "11:00",
-                        "closing_time": "12:30"
+                        "closing_time": "13:00"
                     },
                     {
                         "day": "saturday",
@@ -45503,13 +45562,19 @@
                     },
                     {
                         "day": "tuesday",
+                        "foodbank_status": "closed",
+                        "opening_time": "00:00",
+                        "closing_time": "00:00"
+                    },
+                    {
+                        "day": "thursday",
                         "foodbank_status": "open",
-                        "opening_time": "09:15",
-                        "closing_time": "13:00"
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
                     }
                 ],
-                "centre_address": "Padstow Town Council Offices, Station House, Station Road, Padstow. ",
-                "post_code": "PL28 9DA",
+                "centre_address": "Padstow Community Hub<br />\r\nLawns Car Park<br />\r\nSchool Hill<br />\r\nPadstow<br />\r\n",
+                "post_code": "PL28 8EB ",
                 "centre_geolocation": {
                     "address": "Station House, Station Road, Padstow PL28 8DA, UK",
                     "lat": 50.5385891,
@@ -47591,48 +47656,6 @@
                 }
             },
             {
-                "foodbank_name": "Ellesmere Port -Stanney Grange Community Centre Hub",
-                "foodbank_telephone_number": "0151 355 7730",
-                "opening_time": [
-                    {
-                        "day": "tuesday",
-                        "foodbank_status": "open",
-                        "opening_time": "13:00",
-                        "closing_time": "15:00"
-                    },
-                    {
-                        "day": "thursday",
-                        "foodbank_status": "open",
-                        "opening_time": "12:00",
-                        "closing_time": "16:00"
-                    },
-                    {
-                        "day": "saturday",
-                        "foodbank_status": "open",
-                        "opening_time": "10:00",
-                        "closing_time": "14:00"
-                    }
-                ],
-                "centre_address": "Stanney Grange Community Centre <br />\r\n50 Thornton Road <br />\r\nEllesmere Port <br />\r\nCheshire <br />\r\n",
-                "post_code": "CH65 9ET",
-                "centre_geolocation": {
-                    "address": "50 Thornton Road, Ellesmere Port, UK",
-                    "lat": 53.2731359,
-                    "lng": -2.8837861,
-                    "zoom": 6,
-                    "place_id": "Eis1MCBUaG9ybnRvbiBSZCwgRWxsZXNtZXJlIFBvcnQgQ0g2NSA1REUsIFVLIjASLgoUChIJOe96MQHeekgREQO9RtAx5uoQMioUChIJo3gXMgfeekgRWnPh8qAsigk",
-                    "name": "50 Thornton Rd",
-                    "street_number": "50",
-                    "street_name": "Thornton Road",
-                    "street_name_short": "Thornton Rd",
-                    "city": "Ellesmere Port",
-                    "state": "England",
-                    "post_code": "CH65 5DE",
-                    "country": "United Kingdom",
-                    "country_short": "GB"
-                }
-            },
-            {
                 "foodbank_name": "Farndon Food Hub - Delivery only 5 miles radius",
                 "foodbank_telephone_number": "0151 355 7730",
                 "opening_time": [
@@ -49182,8 +49205,8 @@
                     {
                         "day": "monday",
                         "foodbank_status": "open",
-                        "opening_time": "17:30",
-                        "closing_time": "18:45"
+                        "opening_time": "15:00",
+                        "closing_time": "16:30"
                     },
                     {
                         "day": "thursday",
@@ -49735,7 +49758,7 @@
                         "day": "thursday",
                         "foodbank_status": "open",
                         "opening_time": "17:30",
-                        "closing_time": "19:00"
+                        "closing_time": "18:30"
                     }
                 ],
                 "centre_address": "The Lighthouse<br />\r\n8-10 High Street<br />\r\nWoking",
