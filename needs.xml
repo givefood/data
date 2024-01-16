@@ -1,6 +1,25 @@
 <?xml version="1.0" ?>
 <needs>
 	<need>
+		<id>2fe47b33</id>
+		<found>2024-01-16T14:09:54.163685</found>
+		<foodbank>
+			<name>Bicester</name>
+			<slug>bicester</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/bicester/</self>
+				<html>https://www.givefood.org.uk/needs/at/bicester/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fruit
+Tinned Fish
+Jam
+Long Life Milk
+Fruit Juice</needs>
+		<excess>Tinned Vegetarian Meals</excess>
+		<self>https://www.givefood.org.uk/api/2/needs/2fe47b33/</self>
+	</need>
+	<need>
 		<id>24340f98</id>
 		<found>2024-01-16T13:33:31.054648</found>
 		<foodbank>
@@ -2773,26 +2792,5 @@ Deodorants</needs>
 Pasta (Dried)
 Spaghetti (Dried)</excess>
 		<self>https://www.givefood.org.uk/api/2/needs/03d74c18/</self>
-	</need>
-	<need>
-		<id>0059e307</id>
-		<found>2024-01-06T21:12:43.874630</found>
-		<foodbank>
-			<name>Shipston</name>
-			<slug>shipston</slug>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/foodbank/shipston/</self>
-				<html>https://www.givefood.org.uk/needs/at/shipston/</html>
-			</urls>
-		</foodbank>
-		<needs>Tinned Meat
-Tinned Fish
-Tinned Veg
-UHT Juice
-Cereals
-Savoury Biscuits
-Pasta Sauce</needs>
-		<excess/>
-		<self>https://www.givefood.org.uk/api/2/needs/0059e307/</self>
 	</need>
 </needs>
