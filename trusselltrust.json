@@ -1163,13 +1163,14 @@
             "name": "Antrim Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/antrim-2/",
             "distance": "",
-            "main_location": "Unit 6, Antrim Enterprise<br />\r\n58 Greystone Road<br />\r\nAntrim<br />\r\nBT41 1JZ",
+            "main_location": "Unit 33, Antrim Enterprise<br />\r\n58 Greystone Road<br />\r\nAntrim<br />\r\nBT41 1JZ",
             "geolocation": {
-                "address": "Unit 6 Antrim Enterprise 58 Greystone Road Antrim BT41 1JZ",
+                "address": "Antrim Enterprise Agency, 58 Greystone Road, Antrim BT41 1JZ, UK",
                 "lat": 54.7162428,
                 "lng": -6.181609,
                 "zoom": 16,
                 "place_id": "ChIJZS32GoCsYUgRTDDXToTa1pY",
+                "name": "Antrim Enterprise Agency",
                 "street_number": "58",
                 "street_name": "Greystone Road",
                 "street_name_short": "Greystone Rd",
@@ -1322,6 +1323,54 @@
                 }
             },
             {
+                "foodbank_name": "Antrim Foodbank - Office",
+                "foodbank_telephone_number": "028 9454 8555",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:30",
+                        "closing_time": "14:30"
+                    },
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:30",
+                        "closing_time": "14:30"
+                    },
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:30",
+                        "closing_time": "14:30"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:30",
+                        "closing_time": "14:30"
+                    }
+                ],
+                "centre_address": "Unit 33, Antrim Enterprise<br />\r\n58 Greystone Road<br />\r\nAntrim",
+                "post_code": "BT41 1JZ",
+                "centre_geolocation": {
+                    "address": "Antrim Enterprise Agency, Greystone Road, Antrim, UK",
+                    "lat": 54.7162428,
+                    "lng": -6.181609,
+                    "zoom": 16,
+                    "place_id": "ChIJZS32GoCsYUgRTDDXToTa1pY",
+                    "name": "Antrim Enterprise Agency",
+                    "street_number": "58",
+                    "street_name": "Greystone Road",
+                    "street_name_short": "Greystone Rd",
+                    "city": "Antrim",
+                    "state": "Northern Ireland",
+                    "post_code": "BT41 1JZ",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "Antrim Foodbank - Warehouse*",
                 "foodbank_telephone_number": "028 9454 8555",
                 "opening_time": [
@@ -1335,16 +1384,17 @@
                 "centre_address": "*for donations only<br />\r\n<br />\r\nUnit 6, Antrim Enterprise<br />\r\n58 Greystone Road<br />\r\nAntrim",
                 "post_code": "BT41 1JZ",
                 "centre_geolocation": {
-                    "address": "7 Rathenraw Industrial Estate, Antrim BT41 2SS, UK",
-                    "lat": 54.71623597796319,
-                    "lng": -6.181071046739817,
+                    "address": "58 Greystone Rd, Antrim BT41 1JZ, UK",
+                    "lat": 54.71625476339776,
+                    "lng": -6.1814939975738525,
                     "zoom": 17,
-                    "place_id": "ChIJz5hJBICsYUgRDehbQa3WabI",
-                    "street_number": "7",
-                    "street_name": "Rathenraw Industrial Estate",
+                    "place_id": "ChIJZS32GoCsYUgRTDDXToTa1pY",
+                    "street_number": "58",
+                    "street_name": "Greystone Road",
+                    "street_name_short": "Greystone Rd",
                     "city": "Antrim",
                     "state": "Northern Ireland",
-                    "post_code": "BT41 2SS",
+                    "post_code": "BT41 1JZ",
                     "country": "United Kingdom",
                     "country_short": "GB"
                 }
@@ -1768,12 +1818,12 @@
                 }
             },
             {
-                "foodbank_name": "St Matthew's Community Hall (Closed Bank Holiday Monday Re-opens 8th April)",
+                "foodbank_name": "St Matthew's Community Hall (Collection Only)",
                 "foodbank_telephone_number": "07384 213 621",
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:00",
                         "closing_time": "14:30"
                     }
@@ -4649,7 +4699,7 @@
             "name": "Birmingham Central Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/birminghamcentral/",
             "distance": "",
-            "main_location": "Birmingham City Church<br />\r\nParade<br />\r\nBirmingham<br />\r\nB1 3QQ<br />\r\n(car park on Helena Street, B1 2AW)<br />\r\n<br />\r\nWe distribute food parcels on:<br />\r\nTuesdays: 9:30am-11:15am<br />\r\nFridays: 10:00am-1:15pm<br />\r\n<br />\r\nWe will be closed on Friday the 29th of March 2024 (Good Friday). ",
+            "main_location": "Birmingham City Church<br />\r\nParade<br />\r\nBirmingham<br />\r\nB1 3QQ<br />\r\n(car park on Helena Street, B1 2AW)<br />\r\n<br />\r\nWe distribute food parcels on:<br />\r\nTuesdays: 9:30am-11:15am<br />\r\nFridays: 10:00am-1:15pm",
             "geolocation": {
                 "address": "Birmingham City Church, Parade, Birmingham, UK",
                 "lat": "52.48188",
@@ -4849,69 +4899,14 @@
         },
         "foodbank_centre": [
             {
-                "foodbank_name": " Ebbw Vale Foodbank  Distribution Centre - CLOSED PERMANENTLY",
-                "foodbank_telephone_number": " 07812425130",
-                "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "tuesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "thursday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "friday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "saturday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "sunday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    }
-                ],
-                "centre_address": "The Christian Centre<br />\r\nCrown Buildings<br />\r\nOff Cemetery Road<br />\r\nEbbw Vale<br />\r\n",
-                "post_code": "NP23 6YQ",
-                "centre_geolocation": {
-                    "address": "The Christian Centre Crown Buildings Off Cemetery Rd, Ebbw Vale NP23 6YQ, UK",
-                    "lat": "51.7862828",
-                    "lng": "-3.2115384999999605"
-                }
-            },
-            {
-                "foodbank_name": "Abertillery Distribution Centre -  CLOSED PERMANENTLY",
+                "foodbank_name": "Aberbeeg Distribution Centre - NO DELIVERIES",
                 "foodbank_telephone_number": "07812425130",
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "13:00"
                     },
                     {
                         "day": "tuesday",
@@ -4959,7 +4954,7 @@
                 }
             },
             {
-                "foodbank_name": "Brynmawr Distribution Centre -DELIVERY ONLY",
+                "foodbank_name": "Brynmawr Distribution Centre -COLLECTIONS AND DELIVERIES UNTIL 26th APRIL",
                 "foodbank_telephone_number": "07812425130",
                 "opening_time": [
                     {
@@ -4988,9 +4983,9 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "13:00"
                     },
                     {
                         "day": "saturday",
@@ -5014,62 +5009,7 @@
                 }
             },
             {
-                "foodbank_name": "Nantyglo Distribution Centre - TEMPORARILY CLOSED",
-                "foodbank_telephone_number": "07812425130",
-                "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "tuesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "thursday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "friday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "saturday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    },
-                    {
-                        "day": "sunday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
-                    }
-                ],
-                "centre_address": "Nantyglo Communities First<br />\r\nNantyglo Senior Citizen's Hall<br />\r\nChapel Road<br />\r\nNantyglo<br />\r\n",
-                "post_code": "NP23 4NF",
-                "centre_geolocation": {
-                    "address": "52 Chapel Rd, Nantyglo, Ebbw Vale, Blaenau Gwent NP23 4JS, UK",
-                    "lat": "51.790013084742405",
-                    "lng": "-3.172319388954975"
-                }
-            },
-            {
-                "foodbank_name": "Tredegar Distribution Centre - PERMANENTLY CLOSED",
+                "foodbank_name": "Tredegar Distribution Centre - PERMANENTLY CLOSED NEW VENUE SOUGHT",
                 "foodbank_telephone_number": "07812425130",
                 "opening_time": [
                     {
@@ -5124,7 +5064,7 @@
                 }
             },
             {
-                "foodbank_name": "Beaufort Distribution Centre - DELIVERY ONLY - NO COLLECTIONS",
+                "foodbank_name": "Beaufort Distribution Centre - COLLECTIONS AND DELIVERIES UNTIL 26th APRIL",
                 "foodbank_telephone_number": "07812425130",
                 "opening_time": [
                     {
@@ -5135,21 +5075,21 @@
                     },
                     {
                         "day": "tuesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
+                        "foodbank_status": "open",
+                        "opening_time": "12:00",
+                        "closing_time": "15:00"
                     },
                     {
                         "day": "wednesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
+                        "foodbank_status": "open",
+                        "opening_time": "12:00",
+                        "closing_time": "15:00"
                     },
                     {
                         "day": "thursday",
-                        "foodbank_status": "closed",
-                        "opening_time": "00:00",
-                        "closing_time": "00:00"
+                        "foodbank_status": "open",
+                        "opening_time": "12:00",
+                        "closing_time": "15:00"
                     },
                     {
                         "day": "friday",
@@ -6548,7 +6488,7 @@
                 "foodbank_name": "Cornelly",
                 "opening_time": [
                     {
-                        "day": "wednesday",
+                        "day": "thursday",
                         "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
@@ -7753,17 +7693,16 @@
             },
             {
                 "foodbank_name": "St Paul's Church",
-                "foodbank_telephone_number": "CLOSED FOR GOOD FRIDAY AND EASTER MONDAY",
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "16:00",
                         "closing_time": "17:30"
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "15:00",
                         "closing_time": "17:00"
                     }
@@ -8078,7 +8017,7 @@
                         "closing_time": "13:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY <br />\r\n<br />\r\nWoodville Christian Centre<br />\r\nCrwys Road<br />\r\nCathays, Cardiff",
+                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\n<br />\r\nWoodville Christian Centre<br />\r\nCrwys Road<br />\r\nCathays, Cardiff",
                 "post_code": "CF24 4ND",
                 "centre_geolocation": {
                     "address": "Crwys Rd, Cardiff CF24 4ND, UK",
@@ -8101,12 +8040,12 @@
                 "opening_time": [
                     {
                         "day": "thursday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\nOur next session at City Church will be Thursday 4th April. <br />\r\n<br />\r\nCity Church<br />\r\nCowbridge Road East<br />\r\nCardiff<br />\r\n",
+                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\n<br />\r\nCity Church<br />\r\nCowbridge Road East<br />\r\nCardiff<br />\r\n",
                 "post_code": "CF11 9AD",
                 "centre_geolocation": {
                     "address": "49 Cowbridge Rd E, Cardiff CF11 9AD, UK",
@@ -8129,7 +8068,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     },
@@ -8140,7 +8079,7 @@
                         "closing_time": "15:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY - our next Monday session will be 8th April 2024.<br />\r\nChurch of the Resurrection<br />\r\nGrand Avenue (entrance off Ty Coch Road)<br />\r\nEly, Cardiff<br />\r\n",
+                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\n<br />\r\nChurch of the Resurrection<br />\r\nGrand Avenue (entrance off Ty Coch Road)<br />\r\nEly, Cardiff<br />\r\n",
                 "post_code": "CF5 4HX",
                 "centre_geolocation": {
                     "address": "136 Grand Ave, Cardiff CF5 4HX, UK",
@@ -8164,12 +8103,12 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:00",
                         "closing_time": "14:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\nOur next Grangetown session will be Friday 5th April.<br />\r\n<br />\r\nGrangetown Baptist Church<br />\r\nClive Street<br />\r\nGrangetown<br />\r\nCardiff<br />\r\n",
+                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\n<br />\r\nGrangetown Baptist Church<br />\r\nClive Street<br />\r\nGrangetown<br />\r\nCardiff<br />\r\n",
                 "post_code": "CF11 7HP",
                 "centre_geolocation": {
                     "address": "Grangetown Baptist Church Clive Street Grangetown Cardiff",
@@ -8216,12 +8155,12 @@
                     },
                     {
                         "day": "thursday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "18:30",
                         "closing_time": "20:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY <br />\r\nOur next Thursday session will be Thurs 04 April 2024<br />\r\n <br />\r\nSt Saviours Church<br />\r\nSplott Road<br />\r\nCardiff",
+                "centre_address": "OPEN FOR CLIENTS ONLY <br />\r\n <br />\r\nSt Saviours Church<br />\r\nSplott Road<br />\r\nCardiff",
                 "post_code": "CF24 2BW",
                 "centre_geolocation": {
                     "address": "St Saviours, Cardiff CF24 2XX, UK",
@@ -8241,12 +8180,12 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY - Our next St Mellons Session will be 8th April 2024<br />\r\n<br />\r\nChurch of the Resurrection<br />\r\n4 Crickhowell Road<br />\r\nSt Mellons<br />\r\nCardiff",
+                "centre_address": "OPEN FOR CLIENTS ONLY <br />\r\n<br />\r\nChurch of the Resurrection<br />\r\n4 Crickhowell Road<br />\r\nSt Mellons<br />\r\nCardiff",
                 "post_code": "CF3 0EH",
                 "centre_geolocation": {
                     "address": "4 Crickhowell Rd, St. Mellons, Cardiff CF3 0EH, UK",
@@ -9405,7 +9344,7 @@
                         "day": "monday",
                         "foodbank_status": "open",
                         "opening_time": "12:00",
-                        "closing_time": "13:00"
+                        "closing_time": "14:00"
                     }
                 ],
                 "centre_address": "St Michael &amp; All Angels Parish Hall<br />\r\nChurch Street<br />\r\nBrimington<br />\r\nDerbyshire<br />\r\n",
@@ -9432,7 +9371,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "17:00",
                         "closing_time": "18:30"
                     }
@@ -11048,13 +10987,13 @@
                 "foodbank_telephone_number": "07904 397605 (Out of hours) / 01206 621998",
                 "opening_time": [
                     {
-                        "day": "thursday",
+                        "day": "tuesday",
                         "foodbank_status": "open",
-                        "opening_time": "10:00",
-                        "closing_time": "12:00"
+                        "opening_time": "11:00",
+                        "closing_time": "13:00"
                     }
                 ],
-                "centre_address": "Congregational Church<br />\r\nHigh St<br />\r\nWivenhoe<br />\r\nCO7 9AB",
+                "centre_address": "Congregational Church<br />\r\nHigh St<br />\r\nWivenhoe<br />\r\n",
                 "post_code": "CO7 9AB",
                 "centre_geolocation": {
                     "address": "Congregational Church, High St, Wivenhoe, CO7 9AB",
@@ -11205,7 +11144,7 @@
                         "closing_time": "15:00"
                     },
                     {
-                        "day": "thursday",
+                        "day": "friday",
                         "foodbank_status": "open",
                         "opening_time": "13:30",
                         "closing_time": "15:00"
@@ -11642,7 +11581,7 @@
                         "day": "thursday",
                         "foodbank_status": "open",
                         "opening_time": "10:00",
-                        "closing_time": "14:00"
+                        "closing_time": "12:00"
                     }
                 ],
                 "centre_address": "Salvation Army Church Hall<br />\r\nCross Street<br />\r\nShildon<br />\r\n<br />\r\n(Fuel)",
@@ -11805,7 +11744,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "10:00",
                         "closing_time": "11:00"
                     }
@@ -12020,7 +11959,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:30",
                         "closing_time": "13:30"
                     }
@@ -12053,7 +11992,7 @@
                     {
                         "day": "friday",
                         "foodbank_status": "open",
-                        "opening_time": "11:30",
+                        "opening_time": "11:00",
                         "closing_time": "13:00"
                     }
                 ],
@@ -12070,7 +12009,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:30",
                         "closing_time": "14:30"
                     }
@@ -12239,7 +12178,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "09:00",
                         "closing_time": "12:00"
                     }
@@ -12295,13 +12234,13 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:00",
                         "closing_time": "14:30"
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
@@ -12320,7 +12259,7 @@
                 "opening_time": [
                     {
                         "day": "tuesday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "14:30"
                     }
@@ -12348,7 +12287,7 @@
                 "opening_time": [
                     {
                         "day": "saturday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "13:00"
                     }
@@ -12805,35 +12744,6 @@
                     "city": "Sandhurst",
                     "state": "England",
                     "post_code": "GU47 0TF",
-                    "country": "United Kingdom",
-                    "country_short": "GB"
-                }
-            },
-            {
-                "foodbank_name": "Sandhurst Central",
-                "foodbank_telephone_number": "01344 780087",
-                "opening_time": [
-                    {
-                        "day": "thursday",
-                        "foodbank_status": "open",
-                        "opening_time": "13:00",
-                        "closing_time": "14:00"
-                    }
-                ],
-                "centre_address": "Sandhurst Baptist Church, Yorktown Rd, Sandhurst ",
-                "post_code": "GU47 9BH",
-                "centre_geolocation": {
-                    "address": "Sandhurst Baptist Church, Yorktown Road, Sandhurst GU47 9BH, UK",
-                    "lat": 51.3447978,
-                    "lng": -0.7950181,
-                    "zoom": 18,
-                    "place_id": "ChIJoRktcyqAdkgRQwkx_1HGpMw",
-                    "name": "Sandhurst Baptist Church",
-                    "street_name": "Yorktown Road",
-                    "street_name_short": "Yorktown Rd",
-                    "city": "Sandhurst",
-                    "state": "England",
-                    "post_code": "GU47 9BH",
                     "country": "United Kingdom",
                     "country_short": "GB"
                 }
@@ -14784,7 +14694,7 @@
                         "closing_time": "12:00"
                     }
                 ],
-                "centre_address": "Please note: Dunstable Foodbank supports clients in LU5 and LU6 postcodes only.<br />\r\nThis centre will be closed on Monday 1st April due to the Bank Holiday.<br />\r\n<br />\r\n80a Houghton Road, <br />\r\nDunstable, ",
+                "centre_address": "Please note: Dunstable Foodbank supports clients in LU5 and LU6 postcodes only.<br />\r\n<br />\r\n80a Houghton Road, <br />\r\nDunstable, ",
                 "post_code": "LU5 5AD",
                 "centre_geolocation": {
                     "address": "80a Houghton Rd, Houghton Regis, Dunstable, Central Bedfordshire LU5 5AB, UK",
@@ -14828,7 +14738,7 @@
                         "closing_time": "14:30"
                     }
                 ],
-                "centre_address": "Please note: Dunstable Foodbank supports clients in LU5 and LU6 postcodes only. <br />\r\nThis centre will be closed on Friday 29th March due to the Bank Holiday.<br />\r\n<br />\r\nWest Street <br />\r\nDunstable",
+                "centre_address": "Please note: Dunstable Foodbank supports clients in LU5 and LU6 postcodes only. <br />\r\n<br />\r\nWest Street <br />\r\nDunstable",
                 "post_code": "LU6 1SX",
                 "centre_geolocation": {
                     "address": "West Street, Dunstable LU6 1SX, United Kingdom",
@@ -14854,7 +14764,7 @@
         },
         "foodbank_centre": [
             {
-                "foodbank_name": "Southall (Sat) Client Centre open on Easter Sunday",
+                "foodbank_name": "Southall (Sat) Client Centre (open on Easter Saturday)",
                 "opening_time": [
                     {
                         "day": "saturday",
@@ -16205,24 +16115,6 @@
                 }
             },
             {
-                "foodbank_name": "Willingdon Trees Community Centre - with cafe ",
-                "opening_time": [
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "open",
-                        "opening_time": "10:00",
-                        "closing_time": "12:00"
-                    }
-                ],
-                "centre_address": "Holly Place<br />\r\nWillingdon Trees<br />\r\nEastbourne",
-                "post_code": "BN22 0UT",
-                "centre_geolocation": {
-                    "address": "99 Holly Pl, Eastbourne BN22 0UT, UK",
-                    "lat": "50.80558216140669",
-                    "lng": "0.2717936038970947"
-                }
-            },
-            {
                 "foodbank_name": "St Richard's Church Centre - with cafe",
                 "foodbank_telephone_number": "01323 409925",
                 "opening_time": [
@@ -16549,7 +16441,262 @@
             "telephone_number": "0131 444 0030",
             "website": "https://edinburghfoodproject.org/"
         },
-        "foodbank_centre": false
+        "foodbank_centre": [
+            {
+                "foodbank_name": "Broughton",
+                "foodbank_telephone_number": "07805 204 009",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    }
+                ],
+                "centre_address": "Broughton St Mary\u2019s Parish Church<br />\r\nBellevue Crescent<br />\r\n",
+                "post_code": "EH3 6NE",
+                "centre_geolocation": {
+                    "address": "Broughton St Marys Parish Church, Bellevue Crescent, Edinburgh, UK",
+                    "lat": 55.9602374,
+                    "lng": -3.1935793,
+                    "zoom": 22,
+                    "place_id": "ChIJ7UIspZLHh0gRdYdLY0XE1gg",
+                    "name": "Broughton St Marys Parish Church",
+                    "street_number": "12",
+                    "street_name": "Bellevue Crescent",
+                    "street_name_short": "Bellevue Cres",
+                    "city": "Edinburgh",
+                    "state": "Scotland",
+                    "post_code": "EH3 6NE",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Clermiston",
+                "foodbank_telephone_number": "07794 849 945",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "17:30",
+                        "closing_time": "19:00"
+                    },
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    }
+                ],
+                "centre_address": "St Andrew\u2019s Church (Buttercup Hall)<br />\r\n17-19 Clermiston View",
+                "post_code": "EH4 7BS",
+                "centre_geolocation": {
+                    "address": "Edinburgh St. Andrew's Clermiston Church of Scotland, 17-19 Clermiston View, Edinburgh EH4 7BS, UK",
+                    "lat": 55.9572643,
+                    "lng": -3.282103799999999,
+                    "zoom": 18,
+                    "place_id": "ChIJNS2nk3LGh0gRAEvkVE2SgH0",
+                    "name": "Edinburgh St. Andrew's Clermiston Church of Scotland",
+                    "street_number": "17-19",
+                    "street_name": "Clermiston View",
+                    "city": "Edinburgh",
+                    "state": "Scotland",
+                    "post_code": "EH4 7BS",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Craigmillar Hub",
+                "foodbank_telephone_number": "07805 203744",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "15:30"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "13:30"
+                    },
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "13:30"
+                    }
+                ],
+                "centre_address": "Thistle Centre of Wellbeing<br />\r\n13 Queen\u2019s Walk",
+                "post_code": "EH16 4EA",
+                "centre_geolocation": {
+                    "address": "Thistle Foundation, Centre of Wellbeing, 13 Queen's Walk, Edinburgh EH16 4EA, UK",
+                    "lat": 55.931029,
+                    "lng": -3.131157,
+                    "zoom": 17,
+                    "place_id": "ChIJ5-iXgvq4h0gR72E-Lh7FRbM",
+                    "name": "Thistle Foundation",
+                    "street_number": "13",
+                    "street_name": "Queen's Walk",
+                    "city": "Edinburgh",
+                    "state": "Scotland",
+                    "post_code": "EH16 4EA",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Grassmarket",
+                "foodbank_telephone_number": "07805 203 852",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "14:00",
+                        "closing_time": "16:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "14:00",
+                        "closing_time": "16:00"
+                    }
+                ],
+                "centre_address": "St Columba\u2019s by the Castle<br />\r\n14 Johnston Terrace, Edinburgh ",
+                "post_code": "EH1 2PW",
+                "centre_geolocation": {
+                    "address": "14 Johnston Terrace, Edinburgh EH1 2PW, UK",
+                    "lat": 55.9483158,
+                    "lng": -3.1955403,
+                    "zoom": 19,
+                    "place_id": "ChIJLQQHWZrHh0gRZaRR9VdlW5U",
+                    "name": "14 Johnston Terrace",
+                    "street_number": "14",
+                    "street_name": "Johnston Terrace",
+                    "city": "Edinburgh",
+                    "state": "Scotland",
+                    "post_code": "EH1 2PW",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Pilton",
+                "foodbank_telephone_number": "07794 850 009",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "St Margaret Mary<br />\r\nBoswall Pkwy<br />\r\n",
+                "post_code": "EH5 2JQ",
+                "centre_geolocation": {
+                    "address": "St Margaret Mary\u2019s Catholic Church, Boswall Pkwy, Edinburgh EH5 2JQ, UK",
+                    "lat": 55.9756696,
+                    "lng": -3.2327074,
+                    "zoom": 18,
+                    "place_id": "ChIJXcgRwqbHh0gRmKoAjf6GN8o",
+                    "name": "St Margaret Mary\u2019s Catholic Church",
+                    "street_number": "87",
+                    "street_name": "Boswall Parkway",
+                    "street_name_short": "Boswall Pkwy",
+                    "city": "Edinburgh",
+                    "state": "Scotland",
+                    "post_code": "EH5 2JQ",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Prestonfield",
+                "foodbank_telephone_number": "07933 707 819",
+                "opening_time": [
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:30",
+                        "closing_time": "15:30"
+                    }
+                ],
+                "centre_address": "Priestfield Parish Church<br />\r\n2 Marchhall Place",
+                "post_code": "EH16 5HW",
+                "centre_geolocation": {
+                    "address": "Priestfield Parish Church, 2 Marchhall Place, Edinburgh EH16 5HW, UK",
+                    "lat": 55.9363853,
+                    "lng": -3.169675599999999,
+                    "zoom": 19,
+                    "place_id": "ChIJb5mEJIG4h0gR5xxOLbdvrSc",
+                    "name": "Priestfield Parish Church",
+                    "street_number": "2",
+                    "street_name": "Marchhall Place",
+                    "street_name_short": "Marchhall Pl",
+                    "city": "Edinburgh",
+                    "state": "Scotland",
+                    "post_code": "EH16 5HW",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "South Queensferry",
+                "foodbank_telephone_number": " 07837 532 169",
+                "opening_time": [
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "13:00"
+                    }
+                ],
+                "centre_address": "The Priory Church<br />\r\nHopetoun Road",
+                "post_code": "EH30 9RA ",
+                "centre_geolocation": {
+                    "address": "Priory Church, Hopetoun Road, South Queensferry, UK",
+                    "lat": 55.9908922,
+                    "lng": -3.3982646,
+                    "zoom": 19,
+                    "place_id": "ChIJeWHCte_Ph0gRnBi4L_6RJQQ",
+                    "name": "Priory Church",
+                    "street_name": "Hopetoun Road",
+                    "street_name_short": "Hopetoun Rd",
+                    "city": "South Queensferry",
+                    "state": "Scotland",
+                    "post_code": "EH30 9RB",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            }
+        ]
     },
     {
         "foodbank_information": {
@@ -18927,18 +19074,28 @@
             "name": "Glasgow SE Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/glasgowse/",
             "distance": "",
-            "main_location": "<strong> Distribution Centre </strong>                           <br />\r\nGlasgow Elim Church<br />\r\n42 Inglefield Street<br />\r\nGlasgow, G42 7AT",
+            "main_location": "<strong> Unit 1, Govanhill Workspace<br />\r\n69 Dixon Road<br />\r\nGovanhill<br />\r\nGlasgow<br />\r\nG42 8AT<br />\r\n</strong>",
             "geolocation": {
-                "address": "42 Inglefield Street, Glasgow, G42 7AT",
-                "lat": "55.84101150000001",
-                "lng": "-4.2576974"
+                "address": "69 Dixon Rd, Glasgow G42 8AT, UK",
+                "lat": 55.833576879097585,
+                "lng": -4.2534985774401175,
+                "zoom": 20,
+                "place_id": "ChIJg2yok-1GiEgRE3L-IIhQPNI",
+                "street_number": "69",
+                "street_name": "Dixon Road",
+                "street_name_short": "Dixon Rd",
+                "city": "Glasgow",
+                "state": "Scotland",
+                "post_code": "G42 8AT",
+                "country": "United Kingdom",
+                "country_short": "GB"
             },
             "telephone_number": "0745 6868 628",
             "website": "http://glasgowse.foodbank.org.uk"
         },
         "foodbank_centre": [
             {
-                "foodbank_name": "Main Distribution Centre, 42 Inglefield Streeet, G42 7AT",
+                "foodbank_name": "Main Distribution Centre, Unit 1, Govanhill Workspace 69 Dixon Road, Glasgow G42 8AT",
                 "foodbank_telephone_number": "0745 6868 628",
                 "opening_time": [
                     {
@@ -18960,21 +19117,20 @@
                         "closing_time": "14:00"
                     }
                 ],
-                "centre_address": "42 Inglefield Street<br />\r\nGovanhill<br />\r\nGlasgow",
-                "post_code": "G42 7AT",
+                "centre_address": "Unit 1, Govanhill Workspace<br />\r\n69 Dixon Road<br />\r\nGovanhill<br />\r\nGlasgow",
+                "post_code": "G42 8AT",
                 "centre_geolocation": {
-                    "address": "42 Inglefield Street, Glasgow G42 7AT, UK",
-                    "lat": 55.84101150000001,
-                    "lng": -4.257697399999999,
-                    "zoom": 18,
-                    "place_id": "ChIJ6XPIRpNGiEgRRi5BAXnS9CI",
-                    "name": "42 Inglefield St",
-                    "street_number": "42",
-                    "street_name": "Inglefield Street",
-                    "street_name_short": "Inglefield St",
+                    "address": "39 Warren St, Glasgow G42 8AL, UK",
+                    "lat": 55.83355560013268,
+                    "lng": -4.253498698970124,
+                    "zoom": 19,
+                    "place_id": "ChIJy73DSOlGiEgRZNBd6bILRJ8",
+                    "street_number": "39",
+                    "street_name": "Warren Street",
+                    "street_name_short": "Warren St",
                     "city": "Glasgow",
                     "state": "Scotland",
-                    "post_code": "G42 7AT",
+                    "post_code": "G42 8AL",
                     "country": "United Kingdom",
                     "country_short": "GB"
                 }
@@ -19019,12 +19175,13 @@
                 "centre_address": "Hillington Park Parish Church<br />\r\n24 Berryknowes Road<br />\r\nGlasgow",
                 "post_code": "G52 2UD",
                 "centre_geolocation": {
-                    "address": "Berryknowes Road, Glasgow G52 2UD, UK",
-                    "lat": 55.8463483,
-                    "lng": -4.343195500000001,
+                    "address": "24 Berryknowes Road, Cardonald, Glasgow, UK",
+                    "lat": 55.84618820000001,
+                    "lng": -4.3431884,
                     "zoom": 6,
-                    "place_id": "ChIJqfAPQ6ZIiEgRwRyYQ4ezrA4",
-                    "name": "G52 2UD",
+                    "place_id": "ChIJay49Q6ZIiEgRahW5_qijCjc",
+                    "name": "24 Berryknowes Rd",
+                    "street_number": "24",
                     "street_name": "Berryknowes Road",
                     "street_name_short": "Berryknowes Rd",
                     "city": "Glasgow",
@@ -19034,6 +19191,36 @@
                     "country_short": "GB"
                 },
                 "local_transport_links": "<p>We are easily accessible from Paisley Road West via First Bus numbers 9, 9A and McGills number 38. Alternatively, you can take First Bus number 34 or McGills number 17 to Berryknowes Road.</p>\n"
+            },
+            {
+                "foodbank_name": "Ibrox",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "12:00",
+                        "closing_time": "14:00"
+                    }
+                ],
+                "centre_address": "Ibrox Parish Church<br />\r\n67 Clifford Street<br />\r\nGlasgow",
+                "post_code": "G51 1QH",
+                "centre_geolocation": {
+                    "address": "67 Clifford Street, Glasgow, UK",
+                    "lat": 55.8498574,
+                    "lng": -4.301228099999999,
+                    "zoom": 6,
+                    "place_id": "ChIJRfdY_nFGiEgRuejkucKYMyI",
+                    "name": "67 Clifford St",
+                    "street_number": "67",
+                    "street_name": "Clifford Street",
+                    "street_name_short": "Clifford St",
+                    "city": "Glasgow",
+                    "state": "Scotland",
+                    "post_code": "G51 1QH",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                },
+                "local_transport_links": "<p>We are easily accessible from Paisley Road West via First Bus numbers 9, 9A, 10, 90 and McGills number 38. We are also a short walk from Cessnock or Ibrox subway stations.</p>\n"
             },
             {
                 "foodbank_name": "Linthouse",
@@ -19048,12 +19235,13 @@
                 "centre_address": "Linthouse Housing Association<br />\r\n1 Cressy Street<br />\r\nGlasgow",
                 "post_code": "G51 4RB",
                 "centre_geolocation": {
-                    "address": "Cressy Street, Glasgow G51 4RB, UK",
-                    "lat": 55.8646167,
-                    "lng": -4.3286967,
+                    "address": "1 Cressy Street, Glasgow, UK",
+                    "lat": 55.8645971,
+                    "lng": -4.3293275,
                     "zoom": 6,
-                    "place_id": "ChIJ-8ZmkPxFiEgRE8QtXNCN9zY",
-                    "name": "G51 4RB",
+                    "place_id": "ChIJN449j_xFiEgR8hXRxGGE9Kc",
+                    "name": "1 Cressy St",
+                    "street_number": "1",
                     "street_name": "Cressy Street",
                     "street_name_short": "Cressy St",
                     "city": "Glasgow",
@@ -19077,12 +19265,13 @@
                 "centre_address": "Our Lady and St George Church<br />\r\n50 Sandwood Road<br />\r\nGlasgow",
                 "post_code": "G52 2QE",
                 "centre_geolocation": {
-                    "address": "Sandwood Road, Glasgow G52 2QE, UK",
-                    "lat": 55.847634,
-                    "lng": -4.3615009,
+                    "address": "50 Sandwood Road, Glasgow, UK",
+                    "lat": 55.8478651,
+                    "lng": -4.3616616,
                     "zoom": 6,
-                    "place_id": "ChIJISLoX7dIiEgRsfeJDgs7Mas",
-                    "name": "G52 2QE",
+                    "place_id": "ChIJX9xCWbdIiEgR85KLGiQCSX8",
+                    "name": "50 Sandwood Rd",
+                    "street_number": "50",
                     "street_name": "Sandwood Road",
                     "street_name_short": "Sandwood Rd",
                     "city": "Glasgow",
@@ -19094,7 +19283,7 @@
                 "local_transport_links": "<p>We are easily accessible from Paisley Road West via First Bus numbers 9 and 9A and McGills numbers 17 and 38. We are also a short walk from Crookston train station.</p>\n"
             },
             {
-                "foodbank_name": "Priesthill/Pollok",
+                "foodbank_name": "Priesthill",
                 "opening_time": [
                     {
                         "day": "thursday",
@@ -19103,15 +19292,16 @@
                         "closing_time": "12:00"
                     }
                 ],
-                "centre_address": "Priesthill Community Centre (50p church)<br />\r\n100 Priesthill Road<br />\r\nGlasgow",
+                "centre_address": "Priesthill Community Centre (50p Church)<br />\r\n100 Priesthill Road<br />\r\nGlasgow",
                 "post_code": "G53 6QL",
                 "centre_geolocation": {
-                    "address": "Priesthill Road, Glasgow G53 6QL, UK",
-                    "lat": 55.8173419,
-                    "lng": -4.348555,
+                    "address": "100 Priesthill Road, Glasgow, UK",
+                    "lat": 55.81718619999999,
+                    "lng": -4.3465229,
                     "zoom": 6,
-                    "place_id": "ChIJYXhfh4hIiEgR5HTHa2vTVZs",
-                    "name": "G53 6QL",
+                    "place_id": "ChIJpxAIzIdIiEgRmtMh9vlMFd8",
+                    "name": "100 Priesthill Rd",
+                    "street_number": "100",
                     "street_name": "Priesthill Road",
                     "street_name_short": "Priesthill Rd",
                     "city": "Glasgow",
@@ -19120,7 +19310,7 @@
                     "country": "United Kingdom",
                     "country_short": "GB"
                 },
-                "local_transport_links": "<p>We are easily accessible from Priesthill Road via McGills number 49 or Colchri number 1. Alternatively, you can take First Bus number 57 or McGills number 3 to Peat Road. We are also a short walk from Priesthill and Darnley train station.</p>\n"
+                "local_transport_links": "<p>We are easily accessible from Priesthill Road via McGills number 49 or Colchri number 1. Alternatively, you can take First Bus number 57 or McGills number 3 to Peat Road. We are also a short walk from Priesthill and Darnley train station</p>\n"
             }
         ]
     },
@@ -19129,36 +19319,16 @@
             "name": "Gleadless Valley Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/gleadlessvalley/",
             "distance": "",
-            "main_location": "Gleadless Valley Methodist Church, <br />\r\nBlackstock Road, <br />\r\nSheffield, <br />\r\nS14 1FT",
+            "main_location": "Over the last few months, we have been working closely with the trustees of Gleadless Valley Foodbank to try and identify a route forward for the food bank within the Trussell Trust network. Following these discussions, the Board of the food bank have decided to leave the Trussell Trust and transition to an independent food bank model.<br />\r\n <br />\r\nGleadless Valley Foodbank has been part of our network since 2012 and over many years the food bank has ensured local residents in need of help have been able to access emergency food and wider support. We would like to place on record our heartfelt thanks and gratitude to all who have served as trustees over the years, staff and volunteers, and to everyone who has supported the food bank with food or financial donations.<br />\r\n <br />\r\nAs always, our focus remains on the well-being of people who need support. In order to minimise disruption as this transition takes place, <strong>a food bank centre at Terry Wright Community Hall on Gleadless Road has been established and will operate for the foreseeable future on Fridays from 1:30pm - 3:30pm</strong>. This food bank will be operated by S6 Foodbank, part of the Trussell Trust network.",
             "geolocation": {
                 "address": "Gleadless Valley Methodist Church, Blackstock Road, Sheffield, S14 1FT",
                 "lat": "53.3433923",
                 "lng": "-1.447529"
             },
-            "telephone_number": "01142530315",
-            "website": "http://gleadlessvalley.foodbank.org.uk"
+            "telephone_number": "",
+            "website": "https://www.trusselltrust.org/get-help/find-a-foodbank/sheffields6/"
         },
-        "foodbank_centre": [
-            {
-                "foodbank_name": "Gleadless Valley Methodist Church ",
-                "foodbank_telephone_number": "01142530315",
-                "opening_time": [
-                    {
-                        "day": "friday",
-                        "foodbank_status": "closed",
-                        "opening_time": "12:30",
-                        "closing_time": "14:30"
-                    }
-                ],
-                "centre_address": "Blackstock Road <br />\r\nSheffield <br />\r\n",
-                "post_code": "S14 1FT",
-                "centre_geolocation": {
-                    "address": "194 Blackstock Rd, Sheffield, South Yorkshire S14 1FW, UK",
-                    "lat": "53.34430703216798",
-                    "lng": "-1.4454485214264423"
-                }
-            }
-        ]
+        "foodbank_centre": false
     },
     {
         "foodbank_information": {
@@ -20442,8 +20612,8 @@
                         "closing_time": "12:00"
                     }
                 ],
-                "centre_address": "1 Commonwealth Ave, London W12 7QR",
-                "post_code": "W12 7DA",
+                "centre_address": "1 Commonwealth Ave, (corner of Australia Road) ",
+                "post_code": "W12 7QR",
                 "centre_geolocation": {
                     "address": "Bloemfontein Road, London W12 7DA, United Kingdom",
                     "lat": "51.5115461",
@@ -20891,7 +21061,7 @@
         },
         "foodbank_centre": [
             {
-                "foodbank_name": "Harrow Foodbank Delivery Service TO EXTREMELY VULNERABLE CLIENTS ONLY - on Thursdays - delivery slot is from CIRCA 10 am to 12 noon. Unfortunately, due to unforeseen circumstances we are not able to offer a delivery service on Thursday 14th Mar 2024.  Apologies for any inconvenience caused.  ",
+                "foodbank_name": "Harrow Foodbank Delivery Service TO EXTREMELY VULNERABLE CLIENTS ONLY - on Thursdays - delivery slot is from CIRCA 10 am to 12 noon.",
                 "foodbank_telephone_number": "02084167344; 07521 651283",
                 "opening_time": [
                     {
@@ -20919,7 +21089,7 @@
                 }
             },
             {
-                "foodbank_name": "Harrow Foodbank Warehouse (we accept food donations here; you cannot redeem your food voucher here). Please note that the warehouse is closed on Good Friday 29 Mar and Easter Monday 1 Apr 2024.",
+                "foodbank_name": "Harrow Foodbank Warehouse - DONATIONS ONLY (we accept food donations here; you cannot redeem your food voucher here).",
                 "foodbank_telephone_number": "020 8416 7344",
                 "opening_time": [
                     {
@@ -20956,7 +21126,7 @@
                 }
             },
             {
-                "foodbank_name": "Holy Trinity Church Wealdstone (Foodbank Vouchers can be exchanged for food here - redeem your voucher here). Please note that this distribution centre is closed on Good Friday 29 Mar 2024.",
+                "foodbank_name": "Holy Trinity Church Wealdstone (Foodbank Vouchers can be exchanged for food here - redeem your voucher here). ",
                 "foodbank_telephone_number": "020 8416 7344",
                 "opening_time": [
                     {
@@ -21014,7 +21184,7 @@
                 "opening_time": [
                     {
                         "day": "saturday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
@@ -21038,7 +21208,7 @@
                 }
             },
             {
-                "foodbank_name": "South Harrow Baptist Church (Foodbank Vouchers can be exchanged for food here - redeem your voucher here). Please note that this distribution centre is closed on Easter Monday 1 Apr 2024.",
+                "foodbank_name": "South Harrow Baptist Church (Foodbank Vouchers can be exchanged for food here - redeem your voucher here). ",
                 "foodbank_telephone_number": "02084167344",
                 "opening_time": [
                     {
@@ -25085,6 +25255,62 @@
                 }
             },
             {
+                "foodbank_name": "Bottesford Parish Rooms",
+                "foodbank_telephone_number": "01664 502342",
+                "opening_time": [
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "11:00"
+                    }
+                ],
+                "centre_address": "The Old School, Grantham Road<br />\r\nBottesford<br />\r\nMelton Mowbray<br />\r\nLeicestershire<br />\r\n",
+                "post_code": "NG13 0DF",
+                "centre_geolocation": {
+                    "address": "Grantham Road, Bottesford, Nottingham NG13 0DF, UK",
+                    "lat": 52.9417448,
+                    "lng": -0.8007069,
+                    "zoom": 6,
+                    "place_id": "ChIJvzFRjrPMeUgRvLm9q1MGXeI",
+                    "name": "NG13 0DF",
+                    "street_name": "Grantham Road",
+                    "street_name_short": "Grantham Rd",
+                    "city": "Nottingham",
+                    "state": "England",
+                    "post_code": "NG13 0DF",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Buckminster Village Hall",
+                "foodbank_telephone_number": "01664 502342",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "Buckminster Yard, Main Street<br />\r\nBuckminster<br />\r\nMelton Mowbray<br />\r\nLeicestershire<br />\r\n",
+                "post_code": "NG33 5SB",
+                "centre_geolocation": {
+                    "address": "Grantham NG33 5SB, UK",
+                    "lat": 52.7961936,
+                    "lng": -0.6963358,
+                    "zoom": 6,
+                    "place_id": "ChIJuyXDJQMseEgR-R2CjhsOT1k",
+                    "name": "NG33 5SB",
+                    "city": "Grantham",
+                    "state": "England",
+                    "post_code": "NG33 5SB",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "Centre Project",
                 "foodbank_telephone_number": "0116 2554013",
                 "opening_time": [
@@ -25163,6 +25389,64 @@
                 }
             },
             {
+                "foodbank_name": "Gaddesby Village Hall",
+                "foodbank_telephone_number": "01664 502342",
+                "opening_time": [
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "18:00",
+                        "closing_time": "19:00"
+                    }
+                ],
+                "centre_address": "20 Ashby Road<br />\r\nGaddesby<br />\r\nMelton Mowbray<br />\r\nLeicestershire<br />\r\n",
+                "post_code": "LE7 4WF",
+                "centre_geolocation": {
+                    "address": "Ashby Road, Gaddesby, Leicester LE7 4WF, UK",
+                    "lat": 52.7080961,
+                    "lng": -0.9795873,
+                    "zoom": 6,
+                    "place_id": "ChIJy2KXjvrXeUgRcBnXN8EecxU",
+                    "name": "LE7 4WF",
+                    "street_name": "Ashby Road",
+                    "street_name_short": "Ashby Rd",
+                    "city": "Leicester",
+                    "state": "England",
+                    "post_code": "LE7 4WF",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Goadby Marwood village hall",
+                "foodbank_telephone_number": "01664 502342",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "17:00",
+                        "closing_time": "17:45"
+                    }
+                ],
+                "centre_address": "Main Street<br />\r\nGoadby Marwood<br />\r\nMelton<br />\r\nLeicestershire<br />\r\n",
+                "post_code": "LE14 4LL",
+                "centre_geolocation": {
+                    "address": "Towns Lane, Goadby Marwood, Melton Mowbray LE14 4LL, UK",
+                    "lat": 52.83060709999999,
+                    "lng": -0.8419445999999999,
+                    "zoom": 6,
+                    "place_id": "ChIJn-jmmP_SeUgR76MpHilVDxI",
+                    "name": "LE14 4LL",
+                    "street_name": "Towns Lane",
+                    "street_name_short": "Towns Ln",
+                    "city": "Melton Mowbray",
+                    "state": "England",
+                    "post_code": "LE14 4LL",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "Goldhill Play association",
                 "foodbank_telephone_number": "0116 2836350",
                 "opening_time": [
@@ -25206,6 +25490,63 @@
                 }
             },
             {
+                "foodbank_name": "Great Dalby Village Hall",
+                "foodbank_telephone_number": "01664 502342",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "18:00",
+                        "closing_time": "19:00"
+                    }
+                ],
+                "centre_address": "19 Top End<br />\r\nGreat Dalby<br />\r\nMelton Mowbray<br />\r\nLeicestershire<br />\r\n",
+                "post_code": "LE14 2HA",
+                "centre_geolocation": {
+                    "address": "Top End, Great Dalby, Melton Mowbray LE14 2HA, UK",
+                    "lat": 52.7225246,
+                    "lng": -0.9049081,
+                    "zoom": 6,
+                    "place_id": "ChIJcR5LGm3WeUgRAzI-Df5cNPM",
+                    "name": "LE14 2HA",
+                    "street_name": "Top End",
+                    "city": "Melton Mowbray",
+                    "state": "England",
+                    "post_code": "LE14 2HA",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Kirby Bellars Village Hall",
+                "foodbank_telephone_number": "01664 502342",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "14:30",
+                        "closing_time": "15:30"
+                    }
+                ],
+                "centre_address": "21 Main Street<br />\r\nKirby Bellars<br />\r\nMelton Mowbray<br />\r\nLeicestershire<br />\r\n",
+                "post_code": "LE14 2EA",
+                "centre_geolocation": {
+                    "address": "Main Street, Kirby Bellars, Melton Mowbray LE14 2EA, UK",
+                    "lat": 52.7527896,
+                    "lng": -0.9390281,
+                    "zoom": 6,
+                    "place_id": "ChIJdZT4yuLWeUgRi3v8AGkbNCw",
+                    "name": "LE14 2EA",
+                    "street_name": "Main Street",
+                    "street_name_short": "Main St",
+                    "city": "Melton Mowbray",
+                    "state": "England",
+                    "post_code": "LE14 2EA",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "Leicester South Foodbank @ Holy Trinity Church",
                 "foodbank_telephone_number": "0116 2548981",
                 "opening_time": [
@@ -25230,7 +25571,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "16:00",
                         "closing_time": "17:00"
                     },
@@ -25247,6 +25588,35 @@
                     "address": "The Kings Centre, Bull Head Street, Wigston LE18 1PA, United Kingdom",
                     "lat": "52.5841582",
                     "lng": "-1.1031428000000005"
+                }
+            },
+            {
+                "foodbank_name": "Long Clawson Village Hall",
+                "foodbank_telephone_number": "01664 502342",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "18:00",
+                        "closing_time": "19:00"
+                    }
+                ],
+                "centre_address": "Back Lane<br />\r\nLong Clawson<br />\r\nMelton Mowbray<br />\r\nLeicestershire<br />\r\n",
+                "post_code": "LE14 4NA",
+                "centre_geolocation": {
+                    "address": "Back Lane, Long Clawson, Melton Mowbray LE14 4NA, UK",
+                    "lat": 52.8384276,
+                    "lng": -0.9250367,
+                    "zoom": 6,
+                    "place_id": "ChIJw-pcqqTReUgRI73Q2qkcDh0",
+                    "name": "LE14 4NA",
+                    "street_name": "Back Lane",
+                    "street_name_short": "Back Ln",
+                    "city": "Melton Mowbray",
+                    "state": "England",
+                    "post_code": "LE14 4NA",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
                 }
             },
             {
@@ -25376,13 +25746,13 @@
                         "day": "tuesday",
                         "foodbank_status": "open",
                         "opening_time": "10:00",
-                        "closing_time": "12:00"
+                        "closing_time": "11:30"
                     },
                     {
                         "day": "friday",
                         "foodbank_status": "open",
                         "opening_time": "10:00",
-                        "closing_time": "12:00"
+                        "closing_time": "11:30"
                     }
                 ],
                 "centre_address": "St Mary\u2019s Church Hall<br />\r\nChurch Street<br />\r\nBaldock",
@@ -25782,8 +26152,8 @@
                     {
                         "day": "wednesday",
                         "foodbank_status": "open",
-                        "opening_time": "12:30",
-                        "closing_time": "14:30"
+                        "opening_time": "12:00",
+                        "closing_time": "14:00"
                     }
                 ],
                 "centre_address": "We are also open on Tuesdays 10:00-12:00<br />\r\n",
@@ -25810,8 +26180,8 @@
                     {
                         "day": "friday",
                         "foodbank_status": "open",
-                        "opening_time": "12:30",
-                        "closing_time": "14:30"
+                        "opening_time": "12:00",
+                        "closing_time": "14:00"
                     }
                 ],
                 "centre_address": "Wade Street<br />\r\nLichfield<br />\r\nStaffordshire<br />\r\n",
@@ -26696,6 +27066,41 @@
         },
         "foodbank_centre": [
             {
+                "foodbank_name": "Southwold Foodbank",
+                "foodbank_telephone_number": "info@lowestoft.foodbank.org.uk",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "14:00",
+                        "closing_time": "16:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "14:00",
+                        "closing_time": "16:00"
+                    }
+                ],
+                "centre_address": "Southwold Methodist Church<br />\r\n11 Cumberland Rd, <br />\r\nSouthwold <br />\r\n",
+                "post_code": "IP18 6JN",
+                "centre_geolocation": {
+                    "address": "11 Cumberland Rd, Southwold IP18 6JN, UK",
+                    "lat": 52.3274010018936,
+                    "lng": 1.680580973625183,
+                    "zoom": 19,
+                    "place_id": "ChIJ-XjSkCIi2kcRyD_1D5uxgdM",
+                    "street_number": "11",
+                    "street_name": "Cumberland Road",
+                    "street_name_short": "Cumberland Rd",
+                    "city": "Southwold",
+                    "state": "England",
+                    "post_code": "IP18 6JN",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "The Old Butchers",
                 "foodbank_telephone_number": "07307866146",
                 "opening_time": [
@@ -27405,7 +27810,7 @@
             "name": "Market Drayton Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/marketdrayton/",
             "distance": "",
-            "main_location": "Parish Rooms<br />\r\nChurch Street<br />\r\nMarket Drayton <br />\r\nTF9 1AF<br />\r\n<br />\r\nOpening Hours:<br />\r\nTuesdays &amp; Fridays 9:30-10:30 COLLECTION ONLY service<br />\r\nOPEN Thursday 28th March 09:30-10:30<br />\r\nCLOSED Good Friday 29th March",
+            "main_location": "Parish Rooms<br />\r\nChurch Street<br />\r\nMarket Drayton <br />\r\nTF9 1AF<br />\r\n<br />\r\nOpening Hours:<br />\r\nTuesdays &amp; Fridays 9:30-10:30 COLLECTION ONLY service",
             "geolocation": {
                 "address": "18 Church St, Market Drayton TF9 1AF, UK",
                 "lat": 52.90255664401637,
@@ -31380,7 +31785,7 @@
                 "opening_time": [
                     {
                         "day": "saturday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
@@ -31409,7 +31814,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
@@ -31542,7 +31947,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
@@ -32102,7 +32507,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
@@ -32131,7 +32536,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:30",
                         "closing_time": "12:00"
                     }
@@ -32336,7 +32741,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "14:00",
                         "closing_time": "15:30"
                     }
@@ -32394,7 +32799,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "12:00"
                     }
@@ -32584,7 +32989,7 @@
                 }
             },
             {
-                "foodbank_name": "Vauxhall Hub - closed on April 3rd",
+                "foodbank_name": "Vauxhall Hub ",
                 "opening_time": [
                     {
                         "day": "monday",
@@ -32649,7 +33054,7 @@
                 }
             },
             {
-                "foodbank_name": "Streatham Hub - closed on April 2nd",
+                "foodbank_name": "Streatham Hub ",
                 "opening_time": [
                     {
                         "day": "monday",
@@ -32714,7 +33119,7 @@
                 "local_transport_links": "<p>Bus routes from Brixton: 109, 250, 118, 133, 159<br />\nBus routes from Crystal Palace: 249</p>\n"
             },
             {
-                "foodbank_name": "West Dulwich Hub - closed on April 4th",
+                "foodbank_name": "West Dulwich Hub",
                 "opening_time": [
                     {
                         "day": "thursday",
@@ -34249,7 +34654,7 @@
         },
         "foodbank_centre": [
             {
-                "foodbank_name": "The Small Hall, Ramsey Methodist Church, High Street,  Ramsey,  PE26 1AA",
+                "foodbank_name": "The Small Hall, Ramsey Methodist Church, 36 High Street,  Ramsey,  PE26 1AA",
                 "foodbank_telephone_number": "07596544157",
                 "opening_time": [
                     {
@@ -34265,7 +34670,7 @@
                         "closing_time": "12:00"
                     }
                 ],
-                "centre_address": "The Small Hall,<br />\r\nRamsey Methodist Church<br />\r\nHigh Street<br />\r\nCambridgeshire",
+                "centre_address": "The Small Hall,<br />\r\nRamsey Methodist Church<br />\r\n36 High Street<br />\r\nCambridgeshire<br />\r\n",
                 "post_code": "PE26 1AA",
                 "centre_geolocation": {
                     "address": "Ramsey Methodist Church, High Street, Ramsey, PE26 1AA",
@@ -34500,7 +34905,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "13:00"
                     }
@@ -34546,7 +34951,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "13:30"
                     }
@@ -34610,7 +35015,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:30",
                         "closing_time": "13:00"
                     }
@@ -35180,7 +35585,7 @@
             "name": "Rhymney Valley Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/rhymneyvalley/",
             "distance": "",
-            "main_location": "The Rhymney Valley Foodbank is now operating via a temporary emergency referral and delivery service supported by Caerphilly Council.<br />\r\n<br />\r\nIf you or someone you know is in need of support please ring the referral line on 01443 811490.  You will be able to speak to a support worker who is able to make a referral for a parcel to reach people in need.<br />\r\n<br />\r\nPlease note this support line is for those in financial difficulty who are unable to afford food. <br />\r\n<br />\r\n",
+            "main_location": "The Rhymney Valley Foodbank operates via emergency referral service supported by Caerphilly Council.<br />\r\n<br />\r\nIf you or someone you know is in need of support please ring the referral line on 01443 811490.  You will be able to speak to a support worker who is able to make a referral for a parcel to reach people in need.<br />\r\n<br />\r\nPlease note this support line is for those in financial difficulty who are unable to afford food. <br />\r\n<br />\r\n",
             "geolocation": {
                 "address": "White Rose Resource Centre Elliotstown New Tredegar NP24 6EF",
                 "lat": "51.7170494",
@@ -35376,7 +35781,8 @@
                     "address": "SW13 9AQ",
                     "lat": "51.4836569",
                     "lng": "-0.24092219999999997"
-                }
+                },
+                "local_transport_links": "<p>The foodbank is centrally located (5 mins walk) between two main bus routes (Bus numbers: 33, 209, 419, 485 &amp; 533)</p>\n"
             },
             {
                 "foodbank_name": "Hampton",
@@ -35394,7 +35800,8 @@
                     "address": "The Avenue, Hampton TW12 3RN, United Kingdom",
                     "lat": "51.423536",
                     "lng": "-0.37699799999995775"
-                }
+                },
+                "local_transport_links": "<p>The foodbank is located adjacent to a bus stop (R70, 111).</p>\n"
             },
             {
                 "foodbank_name": "Richmond",
@@ -35418,26 +35825,8 @@
                     "address": "The Vineyard, Richmond TW10 6AQ, United Kingdom",
                     "lat": "51.45782839999999",
                     "lng": "-0.3023858999999902"
-                }
-            },
-            {
-                "foodbank_name": "Whitton",
-                "foodbank_telephone_number": "07516 935655",
-                "opening_time": [
-                    {
-                        "day": "friday",
-                        "foodbank_status": "open",
-                        "opening_time": "09:30",
-                        "closing_time": "12:00"
-                    }
-                ],
-                "centre_address": "Whitton Community Centre<br />\r\nPercy Rd<br />\r\nWhitton<br />\r\n",
-                "post_code": "TW2 6JL",
-                "centre_geolocation": {
-                    "address": "Percy Road, Twickenham TW2 6JL, UK",
-                    "lat": "51.445003",
-                    "lng": "-0.36206960000004074"
-                }
+                },
+                "local_transport_links": "<p>Richmond Train Station (District line, London Overground, South West Trains) is a 12 minute walk from Vineyard Community Centre.</p>\n<p>Also a 5-minute walk from the Centre is Richmond Bus Station, with the following buses: 33, 65, 110, 490, R70, R68, H37, H22, 371.</p>\n"
             },
             {
                 "foodbank_name": "Fulwell",
@@ -35498,6 +35887,26 @@
                     "country_short": "GB"
                 },
                 "local_transport_links": "<p>Nearest bus stops: White Hart Lane (1 minute walk) 209, 378, 419, 533 &amp; 969.</p>\n<p>Nearest train stations: Barnes Bridge (6 minutes walk) &amp; Mortlake (10 minutes walk).</p>\n"
+            },
+            {
+                "foodbank_name": "Whitton",
+                "foodbank_telephone_number": "07516 935655",
+                "opening_time": [
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "09:30",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "Whitton Community Centre<br />\r\nPercy Rd<br />\r\nWhitton<br />\r\n",
+                "post_code": "TW2 6JL",
+                "centre_geolocation": {
+                    "address": "Percy Road, Twickenham TW2 6JL, UK",
+                    "lat": "51.445003",
+                    "lng": "-0.36206960000004074"
+                },
+                "local_transport_links": "<p>The foodbank is located adjacent to bus stop H22, 110 and 481.</p>\n"
             }
         ]
     },
@@ -36108,7 +36517,7 @@
             "name": "Rugby Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/rugby/",
             "distance": "",
-            "main_location": "Foodbank Distribution and Warehouse location:<br />\r\n<br />\r\nLawn &amp; Retreat (next to Benn Hall),<br />\r\nNewbold Road<br />\r\nRugby<br />\r\nCV21 2LN<br />\r\n<br />\r\nOur postal address for correspondence is:<br />\r\n<br />\r\nRugby Foodbank<br />\r\nc/o Hope4<br />\r\n8 Newbold Road<br />\r\nRugby<br />\r\nCV21 2LJ",
+            "main_location": "Foodbank Distribution and Warehouse location:<br />\r\n<br />\r\nLawn &amp; Retreat (next to Benn Hall),<br />\r\nNewbold Road<br />\r\nRugby<br />\r\nCV21 2LN<br />\r\n<br />\r\n(Please note that we are closed on bank holidays)<br />\r\n<br />\r\nOur postal address for correspondence is:<br />\r\n<br />\r\nRugby Foodbank<br />\r\nc/o Hope4<br />\r\n8 Newbold Road<br />\r\nRugby<br />\r\nCV21 2LJ",
             "geolocation": {
                 "address": "8 Newbold Road, Rugby CV21 2LJ, United Kingdom",
                 "lat": "52.3759593",
@@ -36119,7 +36528,7 @@
         },
         "foodbank_centre": [
             {
-                "foodbank_name": "Lawn &amp; Retreat, Newbold Rd, Rugby.",
+                "foodbank_name": "Lawn &amp; Retreat, Newbold Rd, Rugby. (Please note that we are closed on bank holidays)",
                 "foodbank_telephone_number": "07557 680019",
                 "opening_time": [
                     {
@@ -36236,6 +36645,32 @@
                 }
             },
             {
+                "foodbank_name": "St Martins, Murdishaw",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "12:00",
+                        "closing_time": "14:00"
+                    }
+                ],
+                "centre_address": "Gorsewood Road<br />\r\nMurdishaw<br />\r\nRuncorn<br />\r\nCheshire<br />\r\nWA7 6HZ",
+                "centre_geolocation": {
+                    "address": "Gorsewood Road, Halton, Runcorn, UK",
+                    "lat": 53.3233597,
+                    "lng": -2.6620234,
+                    "zoom": 14,
+                    "place_id": "EihHb3JzZXdvb2QgUmQsIE11cmRpc2hhdywgUnVuY29ybiBXQTcsIFVLIi4qLAoUChIJNdaC1C79ekgRy7XIRriSRaASFAoSCfHh7C3A4npIEQu53Jl_5lqm",
+                    "name": "Gorsewood Road",
+                    "street_name": "Gorsewood Road",
+                    "street_name_short": "Gorsewood Rd",
+                    "city": "Runcorn",
+                    "state": "England",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
                 "foodbank_name": "Bethesda Church",
                 "opening_time": [
                     {
@@ -36312,13 +36747,13 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     }
                 ],
-                "centre_address": "Guide HQ, <br />\r\nShip Street,<br />\r\nFrodsham<br />\r\nWA6 7NW",
-                "post_code": "Closed Bank Holiday Good Friday  - 29 Mar 24",
+                "centre_address": "Guide HQ, <br />\r\nShip Street,<br />\r\nFrodsham<br />\r\n",
+                "post_code": "WA6 7NW",
                 "centre_geolocation": {
                     "address": "25A High St, Frodsham WA6 7AJ, UK",
                     "lat": 53.29710038702738,
@@ -36358,33 +36793,6 @@
                     "city": "Runcorn",
                     "state": "England",
                     "post_code": "WA7 1BY",
-                    "country": "United Kingdom",
-                    "country_short": "GB"
-                }
-            },
-            {
-                "foodbank_name": "St Martins, Murdishaw",
-                "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "12:00",
-                        "closing_time": "14:00"
-                    }
-                ],
-                "centre_address": "Gorsewood Road<br />\r\nMurdishaw<br />\r\nRuncorn<br />\r\nCheshire<br />\r\nWA7 6HZ",
-                "post_code": "Closed Bank Holiday Easter Monday - 1 Apr 24",
-                "centre_geolocation": {
-                    "address": "Gorsewood Road, Halton, Runcorn, UK",
-                    "lat": 53.3233597,
-                    "lng": -2.6620234,
-                    "zoom": 14,
-                    "place_id": "EihHb3JzZXdvb2QgUmQsIE11cmRpc2hhdywgUnVuY29ybiBXQTcsIFVLIi4qLAoUChIJNdaC1C79ekgRy7XIRriSRaASFAoSCfHh7C3A4npIEQu53Jl_5lqm",
-                    "name": "Gorsewood Road",
-                    "street_name": "Gorsewood Road",
-                    "street_name_short": "Gorsewood Rd",
-                    "city": "Runcorn",
-                    "state": "England",
                     "country": "United Kingdom",
                     "country_short": "GB"
                 }
@@ -39482,6 +39890,75 @@
         },
         "foodbank_centre": [
             {
+                "foodbank_name": "Bridge Chapel Centre",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:30",
+                        "closing_time": "12:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:30",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "Heath Road<br />\r\nGarston<br />\r\nLiverpool<br />\r\nL19 4XR<br />\r\n<br />\r\n",
+                "centre_geolocation": {
+                    "address": "L19 4XR",
+                    "lat": "53.3664407",
+                    "lng": "-2.895545699999957"
+                }
+            },
+            {
+                "foodbank_name": "Deeper Life Bible Church",
+                "opening_time": [
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "14:00",
+                        "closing_time": "16:00"
+                    },
+                    {
+                        "day": "saturday",
+                        "foodbank_status": "open",
+                        "opening_time": "12:00",
+                        "closing_time": "14:00"
+                    }
+                ],
+                "centre_address": "Deeper Life Bible Church<br />\r\nSolway St East<br />\r\noff Lodge Lane<br />\r\nToxteth<br />\r\nL8 0QL<br />\r\n <br />\r\n",
+                "centre_geolocation": {
+                    "address": "Deeper Life Bible Church Solway St East L8 0QL",
+                    "lat": "53.39466609999999",
+                    "lng": "-2.9513813999999456"
+                }
+            },
+            {
+                "foodbank_name": "Frontline Centre",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    },
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "13:00",
+                        "closing_time": "15:00"
+                    }
+                ],
+                "centre_address": "Frontline Centre<br />\r\n147 Lawrence Road<br />\r\nWavertree<br />\r\nLiverpool <br />\r\nL15 3HA<br />\r\n<br />\r\n",
+                "centre_geolocation": {
+                    "address": "Frontline Centre 147 Lawrence Road Liverpool  L15 3HA",
+                    "lat": "53.395719",
+                    "lng": "-2.9296580000000176"
+                }
+            },
+            {
                 "foodbank_name": "Jubilee Church",
                 "opening_time": [
                     {
@@ -39509,6 +39986,56 @@
                 }
             },
             {
+                "foodbank_name": "Lee Valley Millennium Centre ",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "Childwall Valley Road<br />\r\nBelle Vale<br />\r\nLiverpool<br />\r\nL25 2PR",
+                "centre_geolocation": {
+                    "address": "Lee Valley Millenium Centre, Childwall Valley Road, Liverpool L25 2PR, UK",
+                    "lat": 53.3907692,
+                    "lng": -2.8549339,
+                    "zoom": 14,
+                    "place_id": "ChIJ94pCk6Qfe0gR_kfn1JmWS60",
+                    "name": "Lee Valley Millenium Centre",
+                    "street_name": "Childwall Valley Road",
+                    "street_name_short": "Childwall Valley Rd",
+                    "city": "Liverpool",
+                    "state": "England",
+                    "post_code": "L25 2PR",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                }
+            },
+            {
+                "foodbank_name": "Noah's Ark Centre",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "12:00"
+                    },
+                    {
+                        "day": "thursday",
+                        "foodbank_status": "open",
+                        "opening_time": "10:00",
+                        "closing_time": "12:00"
+                    }
+                ],
+                "centre_address": "Ganworth Road<br />\r\nSpeke<br />\r\nLiverpool<br />\r\nL24 2SA<br />\r\n<br />\r\n",
+                "centre_geolocation": {
+                    "address": "53B Ganworth Rd, Speke, Liverpool, Merseyside L24 2XG, UK",
+                    "lat": "53.3411363459328",
+                    "lng": "-2.8377571925902885"
+                }
+            },
+            {
                 "foodbank_name": "St. Mark's Church",
                 "opening_time": [
                     {
@@ -39526,113 +40053,16 @@
                 }
             },
             {
-                "foodbank_name": "Bridge Chapel Centre",
-                "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "10:30",
-                        "closing_time": "12:00"
-                    },
-                    {
-                        "day": "friday",
-                        "foodbank_status": "closed",
-                        "opening_time": "10:30",
-                        "closing_time": "12:00"
-                    }
-                ],
-                "centre_address": "Heath Road<br />\r\nGarston<br />\r\nLiverpool<br />\r\nL19 4XR<br />\r\n<br />\r\n",
-                "post_code": "CLOSED  |  Fri 29 Mar and Mon 1 Apr",
-                "centre_geolocation": {
-                    "address": "L19 4XR",
-                    "lat": "53.3664407",
-                    "lng": "-2.895545699999957"
-                }
-            },
-            {
-                "foodbank_name": "Deeper Life Bible Church",
-                "opening_time": [
-                    {
-                        "day": "thursday",
-                        "foodbank_status": "open",
-                        "opening_time": "14:00",
-                        "closing_time": "16:00"
-                    },
-                    {
-                        "day": "saturday",
-                        "foodbank_status": "closed",
-                        "opening_time": "12:00",
-                        "closing_time": "14:00"
-                    }
-                ],
-                "centre_address": "Deeper Life Bible Church<br />\r\nSolway St East<br />\r\noff Lodge Lane<br />\r\nToxteth<br />\r\nL8 0QL<br />\r\n <br />\r\n",
-                "post_code": "CLOSED  |  Sat 30 Mar",
-                "centre_geolocation": {
-                    "address": "Deeper Life Bible Church Solway St East L8 0QL",
-                    "lat": "53.39466609999999",
-                    "lng": "-2.9513813999999456"
-                }
-            },
-            {
-                "foodbank_name": "Frontline Centre",
-                "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "13:00",
-                        "closing_time": "15:00"
-                    },
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "open",
-                        "opening_time": "13:00",
-                        "closing_time": "15:00"
-                    }
-                ],
-                "centre_address": "Frontline Centre<br />\r\n147 Lawrence Road<br />\r\nWavertree<br />\r\nLiverpool <br />\r\nL15 3HA<br />\r\n<br />\r\n",
-                "post_code": "CLOSED  |  Mon 1 Apr",
-                "centre_geolocation": {
-                    "address": "Frontline Centre 147 Lawrence Road Liverpool  L15 3HA",
-                    "lat": "53.395719",
-                    "lng": "-2.9296580000000176"
-                }
-            },
-            {
-                "foodbank_name": "Noah's Ark Centre",
-                "opening_time": [
-                    {
-                        "day": "tuesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "10:00",
-                        "closing_time": "12:00"
-                    },
-                    {
-                        "day": "thursday",
-                        "foodbank_status": "open",
-                        "opening_time": "10:00",
-                        "closing_time": "12:00"
-                    }
-                ],
-                "centre_address": "Ganworth Road<br />\r\nSpeke<br />\r\nLiverpool<br />\r\nL24 2SA<br />\r\n<br />\r\n",
-                "post_code": "CLOSED  |  Tue 2 Apr and Thu 4 Apr",
-                "centre_geolocation": {
-                    "address": "53B Ganworth Rd, Speke, Liverpool, Merseyside L24 2XG, UK",
-                    "lat": "53.3411363459328",
-                    "lng": "-2.8377571925902885"
-                }
-            },
-            {
                 "foodbank_name": "St. Mary's Church",
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     }
                 ],
                 "centre_address": "South Drive, Wavertree<br />\r\nL15 8JJ",
-                "post_code": "CLOSED  |  Fri 29 Mar",
                 "centre_geolocation": {
                     "address": "South Drive, Wavertree, Liverpool L15 8JJ, UK",
                     "lat": "53.4004373",
@@ -42115,12 +42545,12 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "12:00"
                     }
                 ],
-                "centre_address": "Bishopton Community Centre<br />\r\nDrayton Avenue<br />\r\nStratford-upon-Avon<br />\r\nCV37 9PB<br />\r\n--------------<br />\r\nWe will be closed Easter Monday 1st April but will resume on Monday 8th April<br />\r\n<br />\r\nPlease come with your food voucher number ready. We will be operating from outside in the carpark. Pre packed parcels only although there will be the opportunity for limited swaps.<br />\r\n",
+                "centre_address": "Bishopton Community Centre<br />\r\nDrayton Avenue<br />\r\nStratford-upon-Avon<br />\r\nCV37 9PB<br />\r\n--------------<br />\r\nPlease come with your food voucher number ready. We will be operating from outside in the carpark. Pre packed parcels only although there will be the opportunity for limited swaps.<br />\r\n",
                 "post_code": "CV37 9PB",
                 "centre_geolocation": {
                     "address": "Bishopton Community Centre, Drayton Avenue, Stratford-upon-Avon, UK",
@@ -42144,7 +42574,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "14:00",
                         "closing_time": "16:00"
                     },
@@ -42185,7 +42615,7 @@
                         "closing_time": "00:00"
                     }
                 ],
-                "centre_address": "Fred Winter Centre<br />\r\n41 Guild St<br />\r\nStratford upon Avon<br />\r\nCV37 6QY<br />\r\n-----------<br />\r\nWe are closed Easter Monday (1st April) for donations. We will resume on Wed 3rd April.<br />\r\n<br />\r\nThese donation sessions are for donating food to the Foodbank (NOT COLLECTING A FOOD PARCEL). Parking is very limited a car may pull in to drop off food donations. <br />\r\n<br />\r\n<br />\r\n",
+                "centre_address": "Fred Winter Centre<br />\r\n41 Guild St<br />\r\nStratford upon Avon<br />\r\nCV37 6QY<br />\r\n-----------<br />\r\n<br />\r\nThese donation sessions are for donating food to the Foodbank (NOT COLLECTING A FOOD PARCEL). Parking is very limited a car may pull in to drop off food donations. <br />\r\n<br />\r\n<br />\r\n",
                 "post_code": "CV37 6QY",
                 "centre_geolocation": {
                     "address": "Fred Winter Centre 41 Guild St Stratford CV37 6QY",
@@ -42209,7 +42639,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "17:00",
                         "closing_time": "18:30"
                     },
@@ -42233,7 +42663,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:00",
                         "closing_time": "13:30"
                     },
@@ -42250,7 +42680,7 @@
                         "closing_time": "00:00"
                     }
                 ],
-                "centre_address": "Fred Winter Centre<br />\r\n41 Guild St<br />\r\nStratford upon Avon<br />\r\nCV37 6QY<br />\r\n-----------<br />\r\nWe are closed for food parcel collections on Good Friday (29th March) and Easter Monday. We will resume on Tuesday 2nd April.<br />\r\nWe have no delivery slots available until Friday 5 April 2024.",
+                "centre_address": "Fred Winter Centre<br />\r\n41 Guild St<br />\r\nStratford upon Avon<br />\r\nCV37 6QY<br />\r\n-----------",
                 "post_code": "CV37 6QY",
                 "centre_geolocation": {
                     "address": "Fred Winter Centre 41 Guild St Stratford CV37 6QY",
@@ -42830,7 +43260,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "15:00",
                         "closing_time": "16:00"
                     },
@@ -42931,20 +43361,14 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "14:30"
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
-                        "closing_time": "14:30"
-                    },
-                    {
-                        "day": "saturday",
-                        "foodbank_status": "closed",
-                        "opening_time": "13:30",
                         "closing_time": "14:30"
                     }
                 ],
@@ -42970,12 +43394,6 @@
                 "foodbank_name": "Hendon",
                 "foodbank_telephone_number": "0191 5437191",
                 "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "closed",
-                        "opening_time": "16:30",
-                        "closing_time": "18:00"
-                    },
                     {
                         "day": "thursday",
                         "foodbank_status": "open",
@@ -43011,7 +43429,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     }
@@ -43067,7 +43485,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     },
@@ -43109,8 +43527,8 @@
                     {
                         "day": "wednesday",
                         "foodbank_status": "open",
-                        "opening_time": "13:00",
-                        "closing_time": "15:00"
+                        "opening_time": "10:00",
+                        "closing_time": "11:30"
                     }
                 ],
                 "centre_address": "Ryhope Pentecostal Church<br />\r\nRyhope Street South<br />\r\nRyhope Colliery<br />\r\nSunderland<br />\r\n",
@@ -43136,7 +43554,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:30",
                         "closing_time": "13:00"
                     },
@@ -43199,7 +43617,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "09:30",
                         "closing_time": "12:00"
                     },
@@ -43211,7 +43629,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "09:30",
                         "closing_time": "12:00"
                     }
@@ -43909,7 +44327,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:30",
                         "closing_time": "12:30"
                     }
@@ -43966,7 +44384,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:30",
                         "closing_time": "12:00"
                     }
@@ -43992,7 +44410,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:30",
                         "closing_time": "12:00"
                     }
@@ -44222,7 +44640,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:00",
                         "closing_time": "14:00"
                     }
@@ -44264,7 +44682,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "13:00"
                     },
@@ -46491,7 +46909,7 @@
         },
         "foodbank_centre": [
             {
-                "foodbank_name": "St Andrews Church, Walton, Closed Easter Monday",
+                "foodbank_name": "St Andrews Church, Walton",
                 "opening_time": [
                     {
                         "day": "monday",
@@ -46537,7 +46955,7 @@
                 }
             },
             {
-                "foodbank_name": "St Johns Church, Walton, closed Good Friday",
+                "foodbank_name": "St Johns Church, Walton",
                 "opening_time": [
                     {
                         "day": "thursday",
@@ -46609,7 +47027,7 @@
                 "local_transport_links": "<p><i>Bus: 57, 333</i></p>\n"
             },
             {
-                "foodbank_name": "Roehampton Methodist Church, Minstead Gardens *CLOSED GOOD FRIDAY 29 MARCH*",
+                "foodbank_name": "Roehampton Methodist Church, Minstead Gardens",
                 "foodbank_telephone_number": "020 7326 9428",
                 "opening_time": [
                     {
@@ -46637,7 +47055,7 @@
                 "local_transport_links": "<p>Bus; 170</p>\n"
             },
             {
-                "foodbank_name": "Shaftesbury Christian Centre, Battersea (Doddington Estate) *CLOSED EASTER SATURDAY 30 MARCH*",
+                "foodbank_name": "Shaftesbury Christian Centre, Battersea (Doddington Estate) ",
                 "foodbank_telephone_number": "020 7326 9428",
                 "opening_time": [
                     {
@@ -46667,7 +47085,7 @@
                 "local_transport_links": "<p><em>Bus:</em> 44</p>\n"
             },
             {
-                "foodbank_name": "St Mark's Church, Battersea Rise *CLOSED GOOD FRIDAY 29 MARCH*",
+                "foodbank_name": "St Mark's Church, Battersea Rise",
                 "foodbank_telephone_number": "020 7326 9428",
                 "opening_time": [
                     {
@@ -46694,7 +47112,7 @@
                 "local_transport_links": "<p><i>Bus: 77, 219</i></p>\n"
             },
             {
-                "foodbank_name": "St Michael's Church, Southfields *CLOSED ON EASTER MONDAY 1 APRIL*",
+                "foodbank_name": "St Michael's Church, Southfields",
                 "foodbank_telephone_number": "020 7326 9428",
                 "opening_time": [
                     {
@@ -48552,8 +48970,8 @@
                     {
                         "day": "monday",
                         "foodbank_status": "open",
-                        "opening_time": "12:30",
-                        "closing_time": "13:30"
+                        "opening_time": "11:45",
+                        "closing_time": "13:00"
                     },
                     {
                         "day": "friday",
@@ -50079,7 +50497,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "14:30"
                     }
@@ -50106,7 +50524,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "15:00",
                         "closing_time": "16:30"
                     },
@@ -50146,13 +50564,13 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:00",
                         "closing_time": "12:00"
                     },
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     }
@@ -50180,7 +50598,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:00",
                         "closing_time": "13:00"
                     },
@@ -50274,7 +50692,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:30",
                         "closing_time": "15:00"
                     },
@@ -50298,7 +50716,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:30",
                         "closing_time": "15:00"
                     },
@@ -51305,7 +51723,7 @@
                 "opening_time": [
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "12:30",
                         "closing_time": "14:00"
                     }
@@ -51333,7 +51751,7 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "10:30",
                         "closing_time": "13:00"
                     },
