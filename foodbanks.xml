@@ -1,6 +1,46 @@
 <?xml version="1.0" ?>
 <foodbanks>
 	<foodbank>
+		<name>Barrow Food Bank</name>
+		<alt_name/>
+		<slug>barrow</slug>
+		<phone>01229343436</phone>
+		<secondary_phone/>
+		<email>projectmanager@barrowfoodbank.co.uk</email>
+		<address>Abbey Road Baptist Church
+Abbey Road
+Barrow-in-Furness
+LA13 9BD</address>
+		<postcode>LA13 9BD</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>54.1206385,-3.2197493</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-13T12:10:15.223682</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/barrow/</self>
+			<html>https://www.givefood.org.uk/needs/at/barrow/</html>
+			<homepage>https://barrow.foodbank.org.uk</homepage>
+			<shopping_list>https://barrow.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1152753</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1152753&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Barrow and Furness</parliamentary_constituency>
+			<mp>Simon Fell</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4744</mp_parl_id>
+			<ward>Ormsgill and Parkside</ward>
+			<district>Westmorland and Furness</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/barrow-and-furness/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/barrow-and-furness/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Sherborne Food Bank</name>
 		<alt_name/>
 		<slug>sherborne</slug>
@@ -358,46 +398,6 @@ NN1 3DS</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/northampton-south/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/northampton-south/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Barrow Food Bank</name>
-		<alt_name/>
-		<slug>barrow</slug>
-		<phone>01229343436</phone>
-		<secondary_phone/>
-		<email>projectmanager@barrowfoodbank.co.uk</email>
-		<address>Abbey Road Baptist Church
-Abbey Road
-Barrow-in-Furness
-LA13 9BD</address>
-		<postcode>LA13 9BD</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>54.1206385,-3.2197493</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-13T12:10:15.223682</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/barrow/</self>
-			<html>https://www.givefood.org.uk/needs/at/barrow/</html>
-			<homepage>https://barrow.foodbank.org.uk</homepage>
-			<shopping_list>https://barrow.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1152753</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1152753&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Barrow and Furness</parliamentary_constituency>
-			<mp>Simon Fell</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4744</mp_parl_id>
-			<ward>Ormsgill and Parkside</ward>
-			<district>Westmorland and Furness</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/barrow-and-furness/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/barrow-and-furness/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -25012,46 +25012,6 @@ WN1 1DN</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Chiltern Food Bank</name>
-		<alt_name/>
-		<slug>chiltern</slug>
-		<phone>01494775668</phone>
-		<secondary_phone/>
-		<email>info@chiltern.foodbank.org.uk</email>
-		<address>71 Broadway
-Chesham
-Buckinghamshire
-HP5 1BX</address>
-		<postcode>HP5 1BX</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.7060815,-0.6119340999999999</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-12-20T08:53:36.944036</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/chiltern/</self>
-			<html>https://www.givefood.org.uk/needs/at/chiltern/</html>
-			<homepage>https://chiltern.foodbank.org.uk</homepage>
-			<shopping_list>https://chiltern.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1146699</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146699&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Chesham and Amersham</parliamentary_constituency>
-			<mp>Sarah Green</mp>
-			<mp_party>Liberal Democrats</mp_party>
-			<mp_parl_id>4918</mp_parl_id>
-			<ward>Chess Valley</ward>
-			<district>Buckinghamshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/chesham-and-amersham/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/chesham-and-amersham/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>West Somerset Food Cupboard Food Bank</name>
 		<alt_name/>
 		<slug>west-somerset-food-cupboard</slug>
@@ -25170,6 +25130,46 @@ TW16 7TP</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/spelthorne/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/spelthorne/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Chiltern Food Bank</name>
+		<alt_name/>
+		<slug>chiltern</slug>
+		<phone>01494775668</phone>
+		<secondary_phone/>
+		<email>info@chiltern.foodbank.org.uk</email>
+		<address>71 Broadway
+Chesham
+Buckinghamshire
+HP5 1BX</address>
+		<postcode>HP5 1BX</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.7060815,-0.6119340999999999</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-12-20T08:53:36.944036</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/chiltern/</self>
+			<html>https://www.givefood.org.uk/needs/at/chiltern/</html>
+			<homepage>https://chiltern.foodbank.org.uk</homepage>
+			<shopping_list>https://chiltern.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1146699</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146699&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Chesham and Amersham</parliamentary_constituency>
+			<mp>Sarah Green</mp>
+			<mp_party>Liberal Democrats</mp_party>
+			<mp_parl_id>4918</mp_parl_id>
+			<ward>Chess Valley</ward>
+			<district>Buckinghamshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/chesham-and-amersham/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/chesham-and-amersham/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -34231,46 +34231,6 @@ GU9 0NB</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Gillingham Food Bank</name>
-		<alt_name/>
-		<slug>gillingham</slug>
-		<phone>01747822076</phone>
-		<secondary_phone/>
-		<email>info@gillingham.foodbank.org.uk</email>
-		<address>Wessex House
-8 High Street
-Gillingham
-SP8 4AG</address>
-		<postcode>SP8 4AG</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.0377338,-2.2747972</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-10-08T20:59:17.544949</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/gillingham/</self>
-			<html>https://www.givefood.org.uk/needs/at/gillingham/</html>
-			<homepage>https://gillingham.foodbank.org.uk</homepage>
-			<shopping_list>https://gillingham.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1146565</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146565&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>North Dorset</parliamentary_constituency>
-			<mp>Simon Hoare</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4494</mp_parl_id>
-			<ward>Gillingham</ward>
-			<district>Dorset</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/north-dorset/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/north-dorset/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Clyde, Avon &amp; Nethan Food Bank</name>
 		<alt_name/>
 		<slug>clyde-avon-nethan</slug>
@@ -34348,6 +34308,46 @@ WF8 1NB</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/normanton-pontefract-and-castleford/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/normanton-pontefract-and-castleford/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Gillingham Food Bank</name>
+		<alt_name/>
+		<slug>gillingham</slug>
+		<phone>01747822076</phone>
+		<secondary_phone/>
+		<email>info@gillingham.foodbank.org.uk</email>
+		<address>Wessex House
+8 High Street
+Gillingham
+SP8 4AG</address>
+		<postcode>SP8 4AG</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.0377338,-2.2747972</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-10-08T20:59:17.544949</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/gillingham/</self>
+			<html>https://www.givefood.org.uk/needs/at/gillingham/</html>
+			<homepage>https://gillingham.foodbank.org.uk</homepage>
+			<shopping_list>https://gillingham.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1146565</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146565&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>North Dorset</parliamentary_constituency>
+			<mp>Simon Hoare</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4494</mp_parl_id>
+			<ward>Gillingham</ward>
+			<district>Dorset</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/north-dorset/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/north-dorset/</html>
 			</urls>
 		</politics>
 	</foodbank>
