@@ -653,37 +653,6 @@
     html: https://www.givefood.org.uk/needs/at/kilsyth-community/
     self: https://www.givefood.org.uk/api/2/foodbank/kilsyth-community/
     shopping_list: https://www.kilsythcommunityfoodbank.com/shopping-list-html/
-- address: "31- 33 Boulton Road\r\nReading\r\nRG2 0NH"
-  alt_name: null
-  charity:
-    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163355&subid=0
-    registration_id: '1163355'
-  closed: false
-  country: England
-  created: 2020-09-18 06:51:49.649081
-  email: director@fcg.org.uk
-  lat_lng: 51.436406,-0.9737673
-  name: ReadiFood Food Bank
-  network: IFAN
-  phone: 01189872672
-  politics:
-    district: Reading
-    mp: Matt Rodda
-    mp_parl_id: 4654
-    mp_party: Labour
-    parliamentary_constituency: Reading East
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/reading-east/
-      self: https://www.givefood.org.uk/api/2/constituency/reading-east/
-    ward: Katesgrove
-  postcode: RG2 0NH
-  secondary_phone: null
-  slug: readifood
-  urls:
-    homepage: https://readifood.org.uk
-    html: https://www.givefood.org.uk/needs/at/readifood/
-    self: https://www.givefood.org.uk/api/2/foodbank/readifood/
-    shopping_list: https://readifood.org.uk/what-food-we-need/
 - address: "Hope St East\r\nCastleford\r\nWF10 1DZ"
   alt_name: null
   charity:
@@ -715,7 +684,8 @@
     html: https://www.givefood.org.uk/needs/at/trinity-mission-hope-centre/
     self: https://www.givefood.org.uk/api/2/foodbank/trinity-mission-hope-centre/
     shopping_list: https://www.trinitymission.org.uk/
-- address: "Queen Street\r\nTayport\r\nDD6 9JY"
+- address: "Wormit Parish Church\r\n52 Riverside Road\r\nWormit\r\nNewport-on-Tay\r\
+    \nDD6 8LJ"
   alt_name: null
   charity:
     register_url: https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC006447
@@ -724,7 +694,7 @@
   country: Scotland
   created: 2020-09-19 15:10:23.311313
   email: mail@taybridgeheadfoodbank.org.uk
-  lat_lng: 56.4458131,-2.880561
+  lat_lng: 56.4287436,-2.970278
   name: Tay Bridgehead Food Bank
   network: IFAN
   phone: 07840957039
@@ -738,7 +708,7 @@
       html: https://www.givefood.org.uk/needs/in/constituency/north-east-fife/
       self: https://www.givefood.org.uk/api/2/constituency/north-east-fife/
     ward: Tay Bridgehead
-  postcode: DD6 9JY
+  postcode: DD6 8LJ
   secondary_phone: null
   slug: tay-bridgehead
   urls:
@@ -746,38 +716,6 @@
     html: https://www.givefood.org.uk/needs/at/tay-bridgehead/
     self: https://www.givefood.org.uk/api/2/foodbank/tay-bridgehead/
     shopping_list: https://www.taybridgeheadfoodbank.org.uk/donate/food-donations/
-- address: "Hazel Grove Baptist Church\r\nStation Street\r\nHazel Grove\r\nStockport\r\
-    \nSK7 4EX"
-  alt_name: null
-  charity:
-    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1156261&subid=0
-    registration_id: '1156261'
-  closed: false
-  country: England
-  created: 2019-11-09 18:26:56.353408
-  email: foodbank@stockportfoodbank.org.uk
-  lat_lng: 53.3780289,-2.1217634
-  name: Stockport Food Bank
-  network: Trussell Trust
-  phone: 07843115349
-  politics:
-    district: Stockport
-    mp: William Wragg
-    mp_parl_id: 4429
-    mp_party: Conservative
-    parliamentary_constituency: Hazel Grove
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/hazel-grove/
-      self: https://www.givefood.org.uk/api/2/constituency/hazel-grove/
-    ward: Hazel Grove
-  postcode: SK7 4EX
-  secondary_phone: null
-  slug: stockport
-  urls:
-    homepage: https://stockport.foodbank.org.uk
-    html: https://www.givefood.org.uk/needs/at/stockport/
-    self: https://www.givefood.org.uk/api/2/foodbank/stockport/
-    shopping_list: https://stockport.foodbank.org.uk/give-help/donate-food/
 - address: "The Annexe\r\nFosse Neighbourhood Centre\r\nMantle Road\r\nLeicester\r\
     \nLE3 5GH"
   alt_name: null
@@ -810,6 +748,38 @@
     html: https://www.givefood.org.uk/needs/at/woodgate-community-food/
     self: https://www.givefood.org.uk/api/2/foodbank/woodgate-community-food/
     shopping_list: https://woodgatecommunityfood.org.uk/food-donations
+- address: "Hazel Grove Baptist Church\r\nStation Street\r\nHazel Grove\r\nStockport\r\
+    \nSK7 4EX"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1156261&subid=0
+    registration_id: '1156261'
+  closed: false
+  country: England
+  created: 2019-11-09 18:26:56.353408
+  email: foodbank@stockportfoodbank.org.uk
+  lat_lng: 53.3780289,-2.1217634
+  name: Stockport Food Bank
+  network: Trussell Trust
+  phone: 07843115349
+  politics:
+    district: Stockport
+    mp: William Wragg
+    mp_parl_id: 4429
+    mp_party: Conservative
+    parliamentary_constituency: Hazel Grove
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/hazel-grove/
+      self: https://www.givefood.org.uk/api/2/constituency/hazel-grove/
+    ward: Hazel Grove
+  postcode: SK7 4EX
+  secondary_phone: null
+  slug: stockport
+  urls:
+    homepage: https://stockport.foodbank.org.uk
+    html: https://www.givefood.org.uk/needs/at/stockport/
+    self: https://www.givefood.org.uk/api/2/foodbank/stockport/
+    shopping_list: https://stockport.foodbank.org.uk/give-help/donate-food/
 - address: "Holy Trinity Church\r\n66 Lennard Road\r\nLondon\r\nSE20 7LX"
   alt_name: null
   charity:
@@ -841,68 +811,6 @@
     html: https://www.givefood.org.uk/needs/at/living-well-bromley/
     self: https://www.givefood.org.uk/api/2/foodbank/living-well-bromley/
     shopping_list: https://livingwell.life/p/donatefood
-- address: "Edwalton Parish Church Hall\r\nEdwalton\r\nNG12 4AP"
-  alt_name: null
-  charity:
-    register_url: null
-    registration_id: null
-  closed: false
-  country: England
-  created: 2023-07-29 01:32:09.275499
-  email: eastmidlands@sewaday.org
-  lat_lng: 52.911265,-1.111709
-  name: Rushcliffe Food Bank
-  network: Independent
-  phone: 07581422396
-  politics:
-    district: Rushcliffe
-    mp: null
-    mp_parl_id: null
-    mp_party: null
-    parliamentary_constituency: null
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/None/
-      self: https://www.givefood.org.uk/api/2/constituency/None/
-    ward: Edwalton
-  postcode: NG12 4AP
-  secondary_phone: null
-  slug: rushcliffe
-  urls:
-    homepage: https://www.sewaday.org/FoodBank
-    html: https://www.givefood.org.uk/needs/at/rushcliffe/
-    self: https://www.givefood.org.uk/api/2/foodbank/rushcliffe/
-    shopping_list: https://www.sewaday.org/FoodBank
-- address: "78 Waterloo Road\r\nBurslem\r\nStoke-on-Trent\r\nST6 3EX"
-  alt_name: null
-  charity:
-    register_url: null
-    registration_id: null
-  closed: false
-  country: England
-  created: 2023-10-29 09:54:45.211757
-  email: staffsfoodbank@gmail.com
-  lat_lng: 53.042393,-2.1938706
-  name: Staffordshire Food and Furniture Bank
-  network: Independent
-  phone: 07368356290
-  politics:
-    district: Stoke-on-Trent
-    mp: Jonathan Gullis
-    mp_parl_id: 4814
-    mp_party: Conservative
-    parliamentary_constituency: Stoke-on-Trent North
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/stoke-on-trent-north/
-      self: https://www.givefood.org.uk/api/2/constituency/stoke-on-trent-north/
-    ward: Moorcroft & Sneyd Green
-  postcode: ST6 3EX
-  secondary_phone: null
-  slug: staffordshire-food-and-furniture-bank
-  urls:
-    homepage: https://www.sfafb.co.uk
-    html: https://www.givefood.org.uk/needs/at/staffordshire-food-and-furniture-bank/
-    self: https://www.givefood.org.uk/api/2/foodbank/staffordshire-food-and-furniture-bank/
-    shopping_list: https://www.sfafb.co.uk/contact-us-donate/
 - address: "8 Chapel Street\r\nCaistor\r\nMarket Rasen\r\nLincolnshire\r\nLN7 6UF"
   alt_name: null
   charity:
@@ -934,6 +842,37 @@
     html: https://www.givefood.org.uk/needs/at/caistor/
     self: https://www.givefood.org.uk/api/2/foodbank/caistor/
     shopping_list: http://www.caistorfoodbank.org
+- address: "Edwalton Parish Church Hall\r\nEdwalton\r\nNG12 4AP"
+  alt_name: null
+  charity:
+    register_url: null
+    registration_id: null
+  closed: false
+  country: England
+  created: 2023-07-29 01:32:09.275499
+  email: eastmidlands@sewaday.org
+  lat_lng: 52.911265,-1.111709
+  name: Rushcliffe Food Bank
+  network: Independent
+  phone: 07581422396
+  politics:
+    district: Rushcliffe
+    mp: null
+    mp_parl_id: null
+    mp_party: null
+    parliamentary_constituency: null
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/None/
+      self: https://www.givefood.org.uk/api/2/constituency/None/
+    ward: Edwalton
+  postcode: NG12 4AP
+  secondary_phone: null
+  slug: rushcliffe
+  urls:
+    homepage: https://www.sewaday.org/FoodBank
+    html: https://www.givefood.org.uk/needs/at/rushcliffe/
+    self: https://www.givefood.org.uk/api/2/foodbank/rushcliffe/
+    shopping_list: https://www.sewaday.org/FoodBank
 - address: "115A Queensferry Road\r\nRosyth\r\nKY11 2PS"
   alt_name: null
   charity:
@@ -965,6 +904,68 @@
     html: https://www.givefood.org.uk/needs/at/eats-rosyth/
     self: https://www.givefood.org.uk/api/2/foodbank/eats-rosyth/
     shopping_list: https://www.eatsrosyth.org.uk/
+- address: "31- 33 Boulton Road\r\nReading\r\nRG2 0NH"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163355&subid=0
+    registration_id: '1163355'
+  closed: false
+  country: England
+  created: 2020-09-18 06:51:49.649081
+  email: director@fcg.org.uk
+  lat_lng: 51.436406,-0.9737673
+  name: ReadiFood Food Bank
+  network: IFAN
+  phone: 01189872672
+  politics:
+    district: Reading
+    mp: Matt Rodda
+    mp_parl_id: 4654
+    mp_party: Labour
+    parliamentary_constituency: Reading East
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/reading-east/
+      self: https://www.givefood.org.uk/api/2/constituency/reading-east/
+    ward: Katesgrove
+  postcode: RG2 0NH
+  secondary_phone: null
+  slug: readifood
+  urls:
+    homepage: https://readifood.org.uk
+    html: https://www.givefood.org.uk/needs/at/readifood/
+    self: https://www.givefood.org.uk/api/2/foodbank/readifood/
+    shopping_list: https://readifood.org.uk/what-food-we-need/
+- address: "Jubilee Central\r\nUnit 2 Lumina Way\r\nEnfield\r\nMiddlesex\r\nEN1 1FS"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1195422&subid=0
+    registration_id: '1195422'
+  closed: false
+  country: England
+  created: 2020-01-15 16:09:21.411431
+  email: info@northenfield.foodbank.org.uk
+  lat_lng: 51.6444853,-0.0584274
+  name: North Enfield Food Bank
+  network: Trussell Trust
+  phone: 07826542119
+  politics:
+    district: Enfield
+    mp: Kate Osamor
+    mp_parl_id: 4515
+    mp_party: Labour Co-operative
+    parliamentary_constituency: Edmonton
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/edmonton/
+      self: https://www.givefood.org.uk/api/2/constituency/edmonton/
+    ward: Jubilee
+  postcode: EN1 1FS
+  secondary_phone: null
+  slug: north-enfield
+  urls:
+    homepage: https://northenfield.foodbank.org.uk/
+    html: https://www.givefood.org.uk/needs/at/north-enfield/
+    self: https://www.givefood.org.uk/api/2/foodbank/north-enfield/
+    shopping_list: https://northenfield.foodbank.org.uk/give-help/donate-food/
 - address: "United Reformed Church\r\nSalisbury Street\r\nBlandford Forum\r\nDT11\
     \ 7PY"
   alt_name: null
@@ -997,37 +998,37 @@
     html: https://www.givefood.org.uk/needs/at/nourish/
     self: https://www.givefood.org.uk/api/2/foodbank/nourish/
     shopping_list: https://faith-works.org.uk/locations-across-dorset/nourish-blandford/
-- address: "Jubilee Central\r\nUnit 2 Lumina Way\r\nEnfield\r\nMiddlesex\r\nEN1 1FS"
+- address: "78 Waterloo Road\r\nBurslem\r\nStoke-on-Trent\r\nST6 3EX"
   alt_name: null
   charity:
-    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1195422&subid=0
-    registration_id: '1195422'
+    register_url: null
+    registration_id: null
   closed: false
   country: England
-  created: 2020-01-15 16:09:21.411431
-  email: info@northenfield.foodbank.org.uk
-  lat_lng: 51.6444853,-0.0584274
-  name: North Enfield Food Bank
-  network: Trussell Trust
-  phone: 07826542119
+  created: 2023-10-29 09:54:45.211757
+  email: staffsfoodbank@gmail.com
+  lat_lng: 53.042393,-2.1938706
+  name: Staffordshire Food and Furniture Bank
+  network: Independent
+  phone: 07368356290
   politics:
-    district: Enfield
-    mp: Kate Osamor
-    mp_parl_id: 4515
-    mp_party: Labour Co-operative
-    parliamentary_constituency: Edmonton
+    district: Stoke-on-Trent
+    mp: Jonathan Gullis
+    mp_parl_id: 4814
+    mp_party: Conservative
+    parliamentary_constituency: Stoke-on-Trent North
     urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/edmonton/
-      self: https://www.givefood.org.uk/api/2/constituency/edmonton/
-    ward: Jubilee
-  postcode: EN1 1FS
+      html: https://www.givefood.org.uk/needs/in/constituency/stoke-on-trent-north/
+      self: https://www.givefood.org.uk/api/2/constituency/stoke-on-trent-north/
+    ward: Moorcroft & Sneyd Green
+  postcode: ST6 3EX
   secondary_phone: null
-  slug: north-enfield
+  slug: staffordshire-food-and-furniture-bank
   urls:
-    homepage: https://northenfield.foodbank.org.uk/
-    html: https://www.givefood.org.uk/needs/at/north-enfield/
-    self: https://www.givefood.org.uk/api/2/foodbank/north-enfield/
-    shopping_list: https://northenfield.foodbank.org.uk/give-help/donate-food/
+    homepage: https://www.sfafb.co.uk
+    html: https://www.givefood.org.uk/needs/at/staffordshire-food-and-furniture-bank/
+    self: https://www.givefood.org.uk/api/2/foodbank/staffordshire-food-and-furniture-bank/
+    shopping_list: https://www.sfafb.co.uk/contact-us-donate/
 - address: "St John's Church\r\n26 Bridgetown\r\nTotnes\r\nDevon\r\nTQ9 5AD"
   alt_name: null
   charity:
