@@ -3327,7 +3327,7 @@
   closed: false
   country: Scotland
   created: 2020-08-29 12:43:12.872311
-  email: mail@edinburghcitymission.org.uk
+  email: office@edinburghcitymission.org.uk
   lat_lng: 55.94307149999999,-3.2225763
   name: Edinburgh City Mission Food Bank
   network: IFAN
@@ -3346,10 +3346,10 @@
   secondary_phone: null
   slug: edinburgh-city-mission
   urls:
-    homepage: https://www.edinburghcitymission.org.uk/where-to-find-help/basics-bank.php
+    homepage: https://edinburghcitymission.org.uk/ministry/foodbank/
     html: https://www.givefood.org.uk/needs/at/edinburgh-city-mission/
     self: https://www.givefood.org.uk/api/2/foodbank/edinburgh-city-mission/
-    shopping_list: https://www.edinburghcitymission.org.uk/where-to-find-help/basics-bank.php
+    shopping_list: https://edinburghcitymission.org.uk/ministry/foodbank/
 - address: "Life Destiny Church\r\n93b High Street\r\nStarbeck\r\nHG2 7LH"
   alt_name: null
   charity:
@@ -5199,7 +5199,7 @@
     html: https://www.givefood.org.uk/needs/at/antrim/
     self: https://www.givefood.org.uk/api/2/foodbank/antrim/
     shopping_list: https://antrim.foodbank.org.uk/give-help/donate-food/
-- address: "St Joseph The Worker RC Church\r\nCutnook Lane,\r\nIrlam\r\nManchester\r\
+- address: "St Joseph The Worker RC Church\r\nCutnook Lane\r\nIrlam\r\nManchester\r\
     \nM44 6GX"
   alt_name: null
   charity:
@@ -5209,7 +5209,7 @@
   country: England
   created: 2020-01-21 12:53:23.703430
   email: info@irlamcadishead.foodbank.org.uk
-  lat_lng: 53.453813,-2.4176384
+  lat_lng: 53.4539717,-2.4177377
   name: Irlam and Cadishead Food Bank
   network: Trussell Trust
   phone: 07763645964
@@ -9643,37 +9643,6 @@
     html: https://www.givefood.org.uk/needs/at/harlow/
     self: https://www.givefood.org.uk/api/2/foodbank/harlow/
     shopping_list: http://mrct.org.uk/foodbank/
-- address: "St Paul's Church\r\nBangor Road \r\nPenmaenmawr\r\nLL34 6LP"
-  alt_name: null
-  charity:
-    register_url: null
-    registration_id: null
-  closed: false
-  country: Wales
-  created: 2023-12-02 16:59:22.319702
-  email: penmaenmawrfoodbank@gmail.com
-  lat_lng: 53.2678568,-3.9265983
-  name: Penmaenmawr Food Bank
-  network: Independent
-  phone: 07726869928
-  politics:
-    district: Conwy
-    mp: Robin Millar
-    mp_parl_id: 4746
-    mp_party: Conservative
-    parliamentary_constituency: Aberconwy
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/aberconwy/
-      self: https://www.givefood.org.uk/api/2/constituency/aberconwy/
-    ward: Penmaenmawr
-  postcode: LL34 6LP
-  secondary_phone: null
-  slug: penmaenmawr
-  urls:
-    homepage: https://www.facebook.com/penmaenmawrfoodbank/
-    html: https://www.givefood.org.uk/needs/at/penmaenmawr/
-    self: https://www.givefood.org.uk/api/2/foodbank/penmaenmawr/
-    shopping_list: https://www.facebook.com/penmaenmawrfoodbank/
 - address: "The Black Horse\n21 North Street\nLeighton Buzzard\r\nLU7 1EQ"
   alt_name: null
   charity:
@@ -9705,6 +9674,37 @@
     html: https://www.givefood.org.uk/needs/at/leighton-linslade-community/
     self: https://www.givefood.org.uk/api/2/foodbank/leighton-linslade-community/
     shopping_list: https://www.llhsblackhorse.org.uk/how-to-donate
+- address: "St Paul's Church\r\nBangor Road \r\nPenmaenmawr\r\nLL34 6LP"
+  alt_name: null
+  charity:
+    register_url: null
+    registration_id: null
+  closed: false
+  country: Wales
+  created: 2023-12-02 16:59:22.319702
+  email: penmaenmawrfoodbank@gmail.com
+  lat_lng: 53.2678568,-3.9265983
+  name: Penmaenmawr Food Bank
+  network: Independent
+  phone: 07726869928
+  politics:
+    district: Conwy
+    mp: Robin Millar
+    mp_parl_id: 4746
+    mp_party: Conservative
+    parliamentary_constituency: Aberconwy
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/aberconwy/
+      self: https://www.givefood.org.uk/api/2/constituency/aberconwy/
+    ward: Penmaenmawr
+  postcode: LL34 6LP
+  secondary_phone: null
+  slug: penmaenmawr
+  urls:
+    homepage: https://www.facebook.com/penmaenmawrfoodbank/
+    html: https://www.givefood.org.uk/needs/at/penmaenmawr/
+    self: https://www.givefood.org.uk/api/2/foodbank/penmaenmawr/
+    shopping_list: https://www.facebook.com/penmaenmawrfoodbank/
 - address: "32 Chilwell High Road\r\nBeeston\r\nNottinghamshire\r\nNG9 2XG"
   alt_name: null
   charity:
