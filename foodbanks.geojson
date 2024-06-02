@@ -6091,7 +6091,7 @@
         "json": "https://www.givefood.org.uk/api/2/foodbank/thurrock/",
         "network": "Trussell Trust",
         "email": "info@thurrock.foodbank.org.uk",
-        "telephone": "07928879068",
+        "telephone": null,
         "parliamentary_constituency": "South Basildon and East Thurrock"
       }
     },
@@ -6980,6 +6980,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -0.2077701,
+          52.57479069999999
+        ]
+      },
+      "properties": {
+        "name": "Peterborough",
+        "slug": "peterborough",
+        "address": "Dodson House\r\nDodson Way\r\nFengate\r\nPE1 5XG",
+        "country": "England",
+        "url": "https://www.givefood.org.uk/needs/at/peterborough/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/peterborough/",
+        "network": "Trussell Trust",
+        "email": "info@peterborough.foodbank.org.uk",
+        "telephone": "01733575083",
+        "parliamentary_constituency": "Peterborough"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -0.138101,
           51.49888499999999
         ]
@@ -7039,28 +7061,6 @@
         "email": "info@eastgrinstead.foodbank.org.uk",
         "telephone": "07983209940",
         "parliamentary_constituency": "East Grinstead and Uckfield"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -0.2077701,
-          52.57479069999999
-        ]
-      },
-      "properties": {
-        "name": "Peterborough",
-        "slug": "peterborough",
-        "address": "Dodson House\r\nDodson Way\r\nFengate\r\nPE1 5XG",
-        "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/peterborough/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/peterborough/",
-        "network": "Trussell Trust",
-        "email": "info@peterborough.foodbank.org.uk",
-        "telephone": "01733575083",
-        "parliamentary_constituency": "Peterborough"
       }
     },
     {
