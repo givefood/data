@@ -4,7 +4,7 @@
 
 👋 Hello!
 
-🕰️ Generated at Mon, 03 Jun 2024 11:17:24 +0000
+🕰️ Generated at Mon, 03 Jun 2024 11:41:16 +0000
 🖥️ By machine 
 💿 Using code v
 
@@ -85,14 +85,31 @@
   </div>
   
     <footer class="footer">
-      <div class="content has-text-centered">
-        <p>Site last updated <span class="lastupdated" data-include="/frag/last_updated/"></span></p>
-        <p>
-          <a href="/">Give Food</a> is a registered charity in England &amp; Wales <a rel="self" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1188192&subid=0">1188192</a><br>
-          Registered with the <a href="https://www.fundraisingregulator.org.uk/directory/give-food">Fundraising Regulator</a><br>
-          ICO Data Protection Registration <a href="https://ico.org.uk/ESDWebPages/Entry/ZB528540">ZB528540</a>
-        </p>
-        <p><a href="/privacy/">Privacy Policy</a></p>
+      <div class="container">
+        <div class="columns">
+          <div class="column has-text-left">
+            <ul>
+              <li><a href="/register-foodbank/">Register a food bank</a></li>
+              <li><a href="/dashboard/">Dashboards</a></li>
+              <li><a href="/api/">API</a></li>
+              <li><a href="/annual-reports/">Annual reports</a></li>
+            </ul>
+            <br>
+            <ul>
+              <li><a href="/about-us/">About us</a></li>
+              <li><a href="/donate/">Donate</a></li>
+            </ul>
+          </div>
+          <div class="column has-text-right">
+            <p>Site last updated <span class="lastupdated" data-include="/frag/last_updated/"></span></p>
+            <p>
+              <a href="/">Give Food</a> is a registered charity in England &amp; Wales <a rel="self" href="https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1188192&subid=0">1188192</a><br>
+              Registered with the <a href="https://www.fundraisingregulator.org.uk/directory/give-food">Fundraising Regulator</a><br>
+              ICO Data Protection Registration <a href="https://ico.org.uk/ESDWebPages/Entry/ZB528540">ZB528540</a>
+            </p>
+            <p><a href="/privacy/">Privacy Policy</a></p>
+          </div>
+        </div>
       </div>
     </footer>
   
