@@ -174,36 +174,6 @@
         },
         "foodbank_centre": [
             {
-                "foodbank_name": "Fraserburgh Foodbank Centre ",
-                "foodbank_telephone_number": "07423 639468",
-                "opening_time": [
-                    {
-                        "day": "monday",
-                        "foodbank_status": "open",
-                        "opening_time": "11:00",
-                        "closing_time": "13:00"
-                    },
-                    {
-                        "day": "wednesday",
-                        "foodbank_status": "open",
-                        "opening_time": "11:00",
-                        "closing_time": "13:00"
-                    },
-                    {
-                        "day": "friday",
-                        "foodbank_status": "open",
-                        "opening_time": "11:00",
-                        "closing_time": "13:00"
-                    }
-                ],
-                "centre_address": "At back of 58A High Street<br />\r\nFraserburgh<br />\r\nAberdeenshire<br />\r\nAB43 9HP<br />\r\n<br />\r\n<br />\r\nNew location from Monday July 1st at 121 Shore Street, Fraserburgh, AB43 9BR <br />\r\n",
-                "centre_geolocation": {
-                    "address": "58 High St, Fraserburgh AB43 9HP, UK",
-                    "lat": "57.69403543703514",
-                    "lng": "-2.007461452114878"
-                }
-            },
-            {
                 "foodbank_name": "Ellon Foodbank Centre",
                 "foodbank_telephone_number": "07562 914986",
                 "opening_time": [
@@ -226,6 +196,37 @@
                     "address": "Ellon Kirk Centre, 4 Station Road, Ellon, United Kingdom",
                     "lat": "57.3653075",
                     "lng": "-2.072831800000017"
+                }
+            },
+            {
+                "foodbank_name": "Fraserburgh Foodbank Centre ",
+                "foodbank_telephone_number": "07423 639468",
+                "opening_time": [
+                    {
+                        "day": "monday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "13:00"
+                    },
+                    {
+                        "day": "wednesday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "13:00"
+                    },
+                    {
+                        "day": "friday",
+                        "foodbank_status": "open",
+                        "opening_time": "11:00",
+                        "closing_time": "13:00"
+                    }
+                ],
+                "centre_address": "121 Shore Street<br />\r\nFraserburgh<br />\r\nAberdeenshire<br />\r\n<br />\r\n",
+                "post_code": "AB43 9BR ",
+                "centre_geolocation": {
+                    "address": "58 High St, Fraserburgh AB43 9HP, UK",
+                    "lat": "57.69403543703514",
+                    "lng": "-2.007461452114878"
                 }
             },
             {
@@ -6468,29 +6469,29 @@
                 }
             },
             {
-                "foodbank_name": "Maesteg (Bethel) ***TEMPORARILY CLOSED***",
+                "foodbank_name": "Maesteg ",
                 "opening_time": [
                     {
                         "day": "wednesday",
-                        "foodbank_status": "closed",
-                        "opening_time": "10:00",
-                        "closing_time": "14:00"
+                        "foodbank_status": "open",
+                        "opening_time": "10:30",
+                        "closing_time": "12:30"
                     }
                 ],
-                "centre_address": "Bethel Community Church, 60 Castle Street, Maesteg ",
-                "post_code": " CF34 9YL",
+                "centre_address": "Health &amp; Wellbeing Centre<br />\r\n1st Floor, Hartshorn House <br />\r\nNeath Road<br />\r\nMaesteg<br />\r\n",
+                "post_code": "CF34 9EE",
                 "centre_geolocation": {
-                    "address": "Castle Street, Maesteg CF34 9YL, UK",
-                    "lat": 51.6086679,
-                    "lng": -3.6534295,
+                    "address": "Neath Road, Maesteg CF34 9EE, UK",
+                    "lat": 51.60844489999999,
+                    "lng": -3.661770599999999,
                     "zoom": 14,
-                    "place_id": "ChIJ1UbfA8lpbkgR5IV8-TU5Ej4",
-                    "name": "CF34 9YL",
-                    "street_name": "Castle Street",
-                    "street_name_short": "Castle St",
+                    "place_id": "ChIJ-xyKJctpbkgRZcPx-dNJLJM",
+                    "name": "CF34 9EE",
+                    "street_name": "Neath Road",
+                    "street_name_short": "Neath Rd",
                     "city": "Maesteg",
                     "state": "Wales",
-                    "post_code": "CF34 9YL",
+                    "post_code": "CF34 9EE",
                     "country": "United Kingdom",
                     "country_short": "GB"
                 }
@@ -8004,18 +8005,18 @@
                 "opening_time": [
                     {
                         "day": "monday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     },
                     {
                         "day": "thursday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY | Our Monday session in Ely will be 29th July 2024<br />\r\n<br />\r\nChurch of the Resurrection<br />\r\nGrand Avenue (entrance off Ty Coch Road)<br />\r\nEly, Cardiff<br />\r\n",
+                "centre_address": "OPEN FOR CLIENTS ONLY | Our next Ely foodbank session will be Monday 29th July 2024<br />\r\n<br />\r\nChurch of the Resurrection<br />\r\nGrand Avenue (entrance off Ty Coch Road)<br />\r\nEly, Cardiff<br />\r\n",
                 "post_code": "CF5 4HX",
                 "centre_geolocation": {
                     "address": "136 Grand Ave, Cardiff CF5 4HX, UK",
@@ -8085,18 +8086,18 @@
                 "opening_time": [
                     {
                         "day": "wednesday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "13:00",
                         "closing_time": "15:00"
                     },
                     {
                         "day": "thursday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "18:30",
                         "closing_time": "20:00"
                     }
                 ],
-                "centre_address": "OPEN FOR CLIENTS ONLY<br />\r\n <br />\r\nSt Saviours Church<br />\r\nSplott Road<br />\r\nCardiff",
+                "centre_address": "OPEN FOR CLIENTS ONLY | Our next Splott foodbank session will be Wednesday 31 July 2024<br />\r\n <br />\r\nSt Saviours Church<br />\r\nSplott Road<br />\r\nCardiff",
                 "post_code": "CF24 2BW",
                 "centre_geolocation": {
                     "address": "St Saviours, Cardiff CF24 2XX, UK",
@@ -11276,7 +11277,7 @@
                 "opening_time": [
                     {
                         "day": "tuesday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "10:00",
                         "closing_time": "12:30"
                     }
@@ -17403,7 +17404,7 @@
                     {
                         "day": "saturday",
                         "foodbank_status": "open",
-                        "opening_time": "10:15",
+                        "opening_time": "10:30",
                         "closing_time": "12:00"
                     }
                 ],
@@ -21393,7 +21394,7 @@
                 "country": "United Kingdom",
                 "country_short": "GB"
             },
-            "telephone_number": "07926 806256 - Please note that this number is not available to order your own Food Parcels.",
+            "telephone_number": "07926 806256 ",
             "website": "http://hart.foodbank.org.uk"
         },
         "foodbank_centre": [
@@ -26200,7 +26201,7 @@
             "name": "Lichfield Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/lichfield/",
             "distance": "",
-            "main_location": "<p>We currently run five foodbank distribution centres each week.  They are in different places and times each day to cater for everyone&#8217;s needs as much as possible. </p>\n",
+            "main_location": "<p>We currently run five foodbank distribution centres each week. They are in different places and times each day to cater for everyone&#8217;s needs as much as possible.</p>\n",
             "geolocation": {
                 "address": "Wade Street Church, Lichfield, United Kingdom",
                 "lat": "52.682104",
@@ -26242,12 +26243,6 @@
                 "foodbank_name": "Life Church, Netherstowe, Lichfield",
                 "foodbank_telephone_number": "01543 254598",
                 "opening_time": [
-                    {
-                        "day": "tuesday",
-                        "foodbank_status": "open",
-                        "opening_time": "10:00",
-                        "closing_time": "12:00"
-                    },
                     {
                         "day": "tuesday",
                         "foodbank_status": "open",
@@ -27356,7 +27351,7 @@
                     },
                     {
                         "day": "friday",
-                        "foodbank_status": "closed",
+                        "foodbank_status": "open",
                         "opening_time": "11:30",
                         "closing_time": "13:00"
                     },
@@ -29093,7 +29088,7 @@
             "name": "Middlewich &amp; District Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/middlewichdistrict/",
             "distance": "",
-            "main_location": "<p>New Address as of March 2024</p>\n<p>Unit 7<br />\nHolly House Estate<br />\nMiddlewich Road<br />\nMiddlewich<br />\nCW10 9LT</p>\n<p>07712279949<br />\ninfo@middlewichdistrict.foodbank.org.uk</p>\n",
+            "main_location": "<p>Unit 7<br />\nHolly House Estate<br />\nMiddlewich Road<br />\nMiddlewich<br />\nCW10 9LT</p>\n<p>07712279949<br />\ninfo@middlewichdistrict.foodbank.org.uk</p>\n<p>We work from three location points across our district. <a href=\"https://middlewichdistrict.foodbank.org.uk/about/our-food-collection-locations/\">Click here for their details.</a></p>\n",
             "geolocation": {
                 "address": " Unit 7 Holly House Estate, Middlewich Road, Middlewich CW10 9LT",
                 "lat": 53.21733529999999,
@@ -31718,7 +31713,7 @@
                     {
                         "day": "friday",
                         "foodbank_status": "open",
-                        "opening_time": "16:00",
+                        "opening_time": "14:30",
                         "closing_time": "18:00"
                     }
                 ],
@@ -35975,6 +35970,34 @@
                     "country_short": "GB"
                 },
                 "local_transport_links": "<p>St Michael&#8217;s can be found on Wilcox Road, Teddington TW11 0SP, just a few moments&#8217; walk from Fulwell Station, and close to many bus routes.</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"\" src=\"https://uk.rs-cdn.com/images/uwsz6-c980y/page/1d379d5a72a61811afa161cffa1076a5__e5f0/zoom703x523z100000cw703.jpg\" width=\"523\" height=\"389\" /></p>\n"
+            },
+            {
+                "foodbank_name": "Ham (opening soon)",
+                "foodbank_telephone_number": "07516 935 655",
+                "opening_time": [
+                    {
+                        "day": "tuesday",
+                        "foodbank_status": "closed",
+                        "opening_time": "11:00",
+                        "closing_time": "12:30"
+                    }
+                ],
+                "centre_address": "Ham Youth Centre (Ham Hall)<br />\r\nHam Close<br />\r\nRichmond<br />\r\n",
+                "post_code": "TW10 7PL",
+                "centre_geolocation": {
+                    "address": "Richmond TW10 7PL, UK",
+                    "lat": 51.43804,
+                    "lng": -0.3151404,
+                    "zoom": 18,
+                    "place_id": "ChIJNR569HAMdkgRrHtyq5QOuV0",
+                    "name": "TW10 7PL",
+                    "city": "Richmond",
+                    "state": "England",
+                    "post_code": "TW10 7PL",
+                    "country": "United Kingdom",
+                    "country_short": "GB"
+                },
+                "local_transport_links": "<p>Closest buses links are 371 and 65</p>\n"
             },
             {
                 "foodbank_name": "Mortlake",
@@ -48073,13 +48096,13 @@
             "name": "Waveney Foodbank",
             "permalink": "https://www.trusselltrust.org/get-help/find-a-foodbank/waveney/",
             "distance": "",
-            "main_location": "<p>WE ARE BASED AT </p>\n<p>Unit 9b,<br />\nFortress Close,<br />\nBrome Ind Estate,<br />\nEye,<br />\nIP23 7HN<br />\n&#8230;..<br />\n01379 870506</p>\n",
+            "main_location": "<p>WE ARE BASED AT</p>\n<p>Unit 9b,<br />\nFortress Close,<br />\nBrome Ind Estate,<br />\nEye,<br />\nIP23 7HN<br />\n&#8230;..<br />\n07484 394749</p>\n",
             "geolocation": {
                 "address": "Unit 9b, Fortress Close, Eye Airfield Ind Estate, Eye, IP23 7HN",
                 "lat": "52.3391222",
                 "lng": "1.1328167"
             },
-            "telephone_number": "01379 870506   or    0845 2691078",
+            "telephone_number": "Project manager: Matthew Scade 07484 394749 Operations Manager: Jemma Jackson 07761 548951",
             "website": "http://waveney.foodbank.org.uk"
         },
         "foodbank_centre": [
@@ -51864,7 +51887,7 @@
                 "opening_time": [
                     {
                         "day": "thursday",
-                        "foodbank_status": "open",
+                        "foodbank_status": "closed",
                         "opening_time": "15:30",
                         "closing_time": "17:00"
                     }
