@@ -365,6 +365,47 @@ SA1 8BP</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Act Food Bank</name>
+		<alt_name/>
+		<slug>act</slug>
+		<phone>01332571143</phone>
+		<secondary_phone/>
+		<email>office@alvaston.church</email>
+		<address>The Annex
+St.Michael's Hall
+Elvaston Lane
+Alvaston
+DE24 0PU</address>
+		<postcode>DE24 0PU</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.8943148,-1.4212979</lat_lng>
+		<network>Independent</network>
+		<created>2024-09-19T12:30:39.529868</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/act/</self>
+			<html>https://www.givefood.org.uk/needs/at/act/</html>
+			<homepage>https://alvaston.church/churchhall/foodbank/</homepage>
+			<shopping_list>https://alvaston.church/churchhall/foodbank/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Derby South</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Alvaston North</ward>
+			<district>Derby</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/derby-south/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/derby-south/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>S2 Food Bank</name>
 		<alt_name/>
 		<slug>s2</slug>
@@ -3426,46 +3467,6 @@ S45 9JS</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Grantham Food Bank</name>
-		<alt_name/>
-		<slug>grantham</slug>
-		<phone>07816872561</phone>
-		<secondary_phone/>
-		<email>coordinator@grantham.foodbank.org.uk</email>
-		<address>Unit 1-2
-Grey Friars
-Grantham
-NG31 6PG</address>
-		<postcode>NG31 6PG</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.9124422,-0.6461271</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-07-28T08:16:10.150530</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/grantham/</self>
-			<html>https://www.givefood.org.uk/needs/at/grantham/</html>
-			<homepage>https://grantham.foodbank.org.uk</homepage>
-			<shopping_list>https://grantham.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1146588</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146588&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Grantham and Bourne</parliamentary_constituency>
-			<mp>Gareth Davies</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4850</mp_parl_id>
-			<ward>Grantham St Wulfram's</ward>
-			<district>South Kesteven</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/grantham-and-bourne/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/grantham-and-bourne/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Manor House Food Bank</name>
 		<alt_name/>
 		<slug>manor-house</slug>
@@ -3581,6 +3582,46 @@ NP20 7TN</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/newport-east/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/newport-east/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Grantham Food Bank</name>
+		<alt_name/>
+		<slug>grantham</slug>
+		<phone>07816872561</phone>
+		<secondary_phone/>
+		<email>coordinator@grantham.foodbank.org.uk</email>
+		<address>Unit 1-2
+Grey Friars
+Grantham
+NG31 6PG</address>
+		<postcode>NG31 6PG</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.9124422,-0.6461271</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-07-28T08:16:10.150530</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/grantham/</self>
+			<html>https://www.givefood.org.uk/needs/at/grantham/</html>
+			<homepage>https://grantham.foodbank.org.uk</homepage>
+			<shopping_list>https://grantham.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1146588</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146588&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Grantham and Bourne</parliamentary_constituency>
+			<mp>Gareth Davies</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4850</mp_parl_id>
+			<ward>Grantham St Wulfram's</ward>
+			<district>South Kesteven</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/grantham-and-bourne/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/grantham-and-bourne/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -4639,47 +4680,6 @@ WS3 1LZ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Andover Food Bank</name>
-		<alt_name/>
-		<slug>andover</slug>
-		<phone>01264362111</phone>
-		<secondary_phone/>
-		<email>office@andoverfoodbank.org.uk</email>
-		<address>St John the Baptist RC Church 
-Alexandra Road
-Andover
-Hampshire
-SP10 3AD</address>
-		<postcode>SP10 3AD</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.2085947,-1.4882991</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-08-14T08:21:38.091327</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/andover/</self>
-			<html>https://www.givefood.org.uk/needs/at/andover/</html>
-			<homepage>https://andover.foodbank.org.uk</homepage>
-			<shopping_list>https://andover.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>246871</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=246871&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>North West Hampshire</parliamentary_constituency>
-			<mp>Kit Malthouse</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4495</mp_parl_id>
-			<ward>Andover Millway</ward>
-			<district>Test Valley</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/north-west-hampshire/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/north-west-hampshire/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>East Yorkshire Food Bank</name>
 		<alt_name/>
 		<slug>east-yorkshire</slug>
@@ -4880,6 +4880,47 @@ BS5 0HE</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/bristol-east/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/bristol-east/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Andover Food Bank</name>
+		<alt_name/>
+		<slug>andover</slug>
+		<phone>01264362111</phone>
+		<secondary_phone/>
+		<email>office@andoverfoodbank.org.uk</email>
+		<address>St John the Baptist RC Church 
+Alexandra Road
+Andover
+Hampshire
+SP10 3AD</address>
+		<postcode>SP10 3AD</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.2085947,-1.4882991</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-08-14T08:21:38.091327</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/andover/</self>
+			<html>https://www.givefood.org.uk/needs/at/andover/</html>
+			<homepage>https://andover.foodbank.org.uk</homepage>
+			<shopping_list>https://andover.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>246871</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=246871&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>North West Hampshire</parliamentary_constituency>
+			<mp>Kit Malthouse</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4495</mp_parl_id>
+			<ward>Andover Millway</ward>
+			<district>Test Valley</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/north-west-hampshire/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/north-west-hampshire/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -5124,47 +5165,6 @@ HD1 1QA</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Bassetlaw Food Bank</name>
-		<alt_name/>
-		<slug>bassetlaw</slug>
-		<phone>01909473078</phone>
-		<secondary_phone>07841564089</secondary_phone>
-		<email>admin@bassetlawfoodbank.org</email>
-		<address>Community Way
-Off Shrewsbury Road
-Manton
-Worksop
-S80 2TU</address>
-		<postcode>S80 2TU</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.2978694,-1.1069293</lat_lng>
-		<network>Independent</network>
-		<created>2021-05-28T09:17:48.744640</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/bassetlaw/</self>
-			<html>https://www.givefood.org.uk/needs/at/bassetlaw/</html>
-			<homepage>https://bassetlawfoodbank.org</homepage>
-			<shopping_list>https://bassetlawfoodbank.org/food-we-need/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1154703</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1154703&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Bassetlaw</parliamentary_constituency>
-			<mp>Brendan Clarke-Smith</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4756</mp_parl_id>
-			<ward>Worksop South East</ward>
-			<district>Bassetlaw</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/bassetlaw/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/bassetlaw/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Banbury Food Bank</name>
 		<alt_name/>
 		<slug>banbury</slug>
@@ -5202,6 +5202,47 @@ OX16 0AH</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/banbury/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/banbury/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Bassetlaw Food Bank</name>
+		<alt_name/>
+		<slug>bassetlaw</slug>
+		<phone>01909473078</phone>
+		<secondary_phone>07841564089</secondary_phone>
+		<email>admin@bassetlawfoodbank.org</email>
+		<address>Community Way
+Off Shrewsbury Road
+Manton
+Worksop
+S80 2TU</address>
+		<postcode>S80 2TU</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.2978694,-1.1069293</lat_lng>
+		<network>Independent</network>
+		<created>2021-05-28T09:17:48.744640</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/bassetlaw/</self>
+			<html>https://www.givefood.org.uk/needs/at/bassetlaw/</html>
+			<homepage>https://bassetlawfoodbank.org</homepage>
+			<shopping_list>https://bassetlawfoodbank.org/food-we-need/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1154703</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1154703&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Bassetlaw</parliamentary_constituency>
+			<mp>Brendan Clarke-Smith</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4756</mp_parl_id>
+			<ward>Worksop South East</ward>
+			<district>Bassetlaw</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/bassetlaw/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/bassetlaw/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -16816,6 +16857,46 @@ EN8 0NJ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Wells Vineyard Food Bank</name>
+		<alt_name/>
+		<slug>wells-vineyard</slug>
+		<phone>07587125228</phone>
+		<secondary_phone/>
+		<email>foodbank@wellsstorehouse.co.uk</email>
+		<address>The Old Pumphouse
+Rowdens Road
+Wells
+BA5 1TU</address>
+		<postcode>BA5 1TU</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.2031589,-2.650812</lat_lng>
+		<network>Independent</network>
+		<created>2020-08-15T17:31:40.158932</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/wells-vineyard/</self>
+			<html>https://www.givefood.org.uk/needs/at/wells-vineyard/</html>
+			<homepage>https://www.wellsvineyard.com/foodbank</homepage>
+			<shopping_list>https://www.wellsvineyard.com/most-needed-items</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1098005</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1098005&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Wells and Mendip Hills</parliamentary_constituency>
+			<mp>James Heappey</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4528</mp_parl_id>
+			<ward>Wells</ward>
+			<district>Somerset</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/wells-and-mendip-hills/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/wells-and-mendip-hills/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Atherton &amp; Leigh Food Bank</name>
 		<alt_name/>
 		<slug>atherton-leigh</slug>
@@ -16853,46 +16934,6 @@ M46 0DW</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/leigh-and-atherton/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/leigh-and-atherton/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Wells Vineyard Food Bank</name>
-		<alt_name/>
-		<slug>wells-vineyard</slug>
-		<phone>07587125228</phone>
-		<secondary_phone/>
-		<email>foodbank@wellsstorehouse.co.uk</email>
-		<address>The Old Pumphouse
-Rowdens Road
-Wells
-BA5 1TU</address>
-		<postcode>BA5 1TU</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.2031589,-2.650812</lat_lng>
-		<network>Independent</network>
-		<created>2020-08-15T17:31:40.158932</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/wells-vineyard/</self>
-			<html>https://www.givefood.org.uk/needs/at/wells-vineyard/</html>
-			<homepage>https://www.wellsvineyard.com/foodbank</homepage>
-			<shopping_list>https://www.wellsvineyard.com/most-needed-items</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1098005</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1098005&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Wells and Mendip Hills</parliamentary_constituency>
-			<mp>James Heappey</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4528</mp_parl_id>
-			<ward>Wells</ward>
-			<district>Somerset</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/wells-and-mendip-hills/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/wells-and-mendip-hills/</html>
 			</urls>
 		</politics>
 	</foodbank>
