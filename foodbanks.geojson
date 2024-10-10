@@ -20400,28 +20400,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.7296431999999999,
-          51.5402847
-        ]
-      },
-      "properties": {
-        "name": "Southend",
-        "slug": "southend",
-        "address": "Friendship House\r\n484 Southchurch Road\r\nSouthend on Sea\r\nSS1 2QA",
-        "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/southend/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/southend/",
-        "network": "Trussell Trust",
-        "email": "info@southend.foodbank.org.uk",
-        "telephone": "07714425102",
-        "parliamentary_constituency": "Southend East and Rochford"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -3.1579086,
           55.8983608
         ]
@@ -20620,43 +20598,21 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.4974196,
-          51.413263
+          0.7296431999999999,
+          51.5402847
         ]
       },
       "properties": {
-        "name": "Keynsham",
-        "slug": "keynsham",
-        "address": "c/o Keynsham Town Council offices\r\n15-17 Temple Street\r\nKeynsham\r\nBS31 1HF",
+        "name": "Southend",
+        "slug": "southend",
+        "address": "Friendship House\r\n484 Southchurch Road\r\nSouthend on Sea\r\nSS1 2QA",
         "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/keynsham/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/keynsham/",
+        "url": "https://www.givefood.org.uk/needs/at/southend/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/southend/",
         "network": "Trussell Trust",
-        "email": "info@keynsham.foodbank.org.uk",
-        "telephone": "07512591734",
-        "parliamentary_constituency": "North East Somerset and Hanham"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.287425,
-          51.6514192
-        ]
-      },
-      "properties": {
-        "name": "Taff Bargoed",
-        "slug": "taff-bargoed",
-        "address": "St John's Church and Church Hall\r\nHigh Street\r\nNelson\r\nCaerphilly\r\nCF46 6HA",
-        "country": "Wales",
-        "url": "https://www.givefood.org.uk/needs/at/taff-bargoed/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/taff-bargoed/",
-        "network": "Trussell Trust",
-        "email": "info@taffbargoed.foodbank.org.uk",
-        "telephone": "01443450832",
-        "parliamentary_constituency": "Caerphilly"
+        "email": "info@southend.foodbank.org.uk",
+        "telephone": "07714425102",
+        "parliamentary_constituency": "Southend East and Rochford"
       }
     },
     {
@@ -20701,28 +20657,6 @@
         "email": "info@clevedondistrict.foodbank.org.uk",
         "telephone": "07722769529",
         "parliamentary_constituency": "North Somerset"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -2.1199292,
-          52.8196241
-        ]
-      },
-      "properties": {
-        "name": "Stafford",
-        "slug": "stafford",
-        "address": "Bellasis Street\r\nOff Marston Road\r\nStafford\r\nST16 3DD",
-        "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/stafford/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/stafford/",
-        "network": "Trussell Trust",
-        "email": "info@stafford.foodbank.org.uk",
-        "telephone": "07738729878",
-        "parliamentary_constituency": "Stafford"
       }
     },
     {
@@ -20789,6 +20723,72 @@
         "email": "barkingfoodbank@gmail.com",
         "telephone": "02086170660",
         "parliamentary_constituency": "Dagenham and Rainham"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.4974196,
+          51.413263
+        ]
+      },
+      "properties": {
+        "name": "Keynsham",
+        "slug": "keynsham",
+        "address": "c/o Keynsham Town Council offices\r\n15-17 Temple Street\r\nKeynsham\r\nBS31 1HF",
+        "country": "England",
+        "url": "https://www.givefood.org.uk/needs/at/keynsham/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/keynsham/",
+        "network": "Trussell Trust",
+        "email": "info@keynsham.foodbank.org.uk",
+        "telephone": "07512591734",
+        "parliamentary_constituency": "North East Somerset and Hanham"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.287425,
+          51.6514192
+        ]
+      },
+      "properties": {
+        "name": "Taff Bargoed",
+        "slug": "taff-bargoed",
+        "address": "St John's Church and Church Hall\r\nHigh Street\r\nNelson\r\nCaerphilly\r\nCF46 6HA",
+        "country": "Wales",
+        "url": "https://www.givefood.org.uk/needs/at/taff-bargoed/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/taff-bargoed/",
+        "network": "Trussell Trust",
+        "email": "info@taffbargoed.foodbank.org.uk",
+        "telephone": "01443450832",
+        "parliamentary_constituency": "Caerphilly"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.1199292,
+          52.8196241
+        ]
+      },
+      "properties": {
+        "name": "Stafford",
+        "slug": "stafford",
+        "address": "Bellasis Street\r\nOff Marston Road\r\nStafford\r\nST16 3DD",
+        "country": "England",
+        "url": "https://www.givefood.org.uk/needs/at/stafford/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/stafford/",
+        "network": "Trussell Trust",
+        "email": "info@stafford.foodbank.org.uk",
+        "telephone": "07738729878",
+        "parliamentary_constituency": "Stafford"
       }
     }
   ]
