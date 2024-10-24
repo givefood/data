@@ -1,6 +1,48 @@
 <?xml version="1.0" ?>
 <foodbanks>
 	<foodbank>
+		<name>Salisbury Food Bank</name>
+		<alt_name/>
+		<slug>salisbury</slug>
+		<phone>01722580173</phone>
+		<secondary_phone/>
+		<email>info@salisbury.foodbank.org.uk</email>
+		<address>Unit 6B
+Ashfield Trading Estate
+Ashfield Road 
+Salisbury
+Wiltshire
+SP2 7HL</address>
+		<postcode>SP2 7HL</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.071943,-1.8127833</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-08-02T08:31:56.489206</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/salisbury/</self>
+			<html>https://www.givefood.org.uk/needs/at/salisbury/</html>
+			<homepage>https://salisbury.foodbank.org.uk</homepage>
+			<shopping_list>https://salisbury.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1190323</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1190323&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Salisbury</parliamentary_constituency>
+			<mp>John Glen</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4051</mp_parl_id>
+			<ward>Salisbury St Paul's</ward>
+			<district>Wiltshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/salisbury/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/salisbury/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Act Food Bank</name>
 		<alt_name/>
 		<slug>act</slug>
@@ -365,48 +407,6 @@ NG7 4EX</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Salisbury Food Bank</name>
-		<alt_name/>
-		<slug>salisbury</slug>
-		<phone>01722580173</phone>
-		<secondary_phone/>
-		<email>info@salisbury.foodbank.org.uk</email>
-		<address>Unit 6B
-Ashfield Trading Estate
-Ashfield Road 
-Salisbury
-Wiltshire
-SP2 7HL</address>
-		<postcode>SP2 7HL</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.071943,-1.8127833</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-08-02T08:31:56.489206</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/salisbury/</self>
-			<html>https://www.givefood.org.uk/needs/at/salisbury/</html>
-			<homepage>https://salisbury.foodbank.org.uk</homepage>
-			<shopping_list>https://salisbury.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1190323</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1190323&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Salisbury</parliamentary_constituency>
-			<mp>John Glen</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4051</mp_parl_id>
-			<ward>Salisbury St Paul's</ward>
-			<district>Wiltshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/salisbury/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/salisbury/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>St Annes Advice Nottingham Food Bank</name>
 		<alt_name/>
 		<slug>st-annes-advice-nottingham</slug>
@@ -484,6 +484,47 @@ SE25 6TY</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/croydon-west/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/croydon-west/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>North Ayrshire Food Bank</name>
+		<alt_name/>
+		<slug>north-ayrshire</slug>
+		<phone>01294601312</phone>
+		<secondary_phone/>
+		<email>info@northayrshire.foodbank.org.uk</email>
+		<address>Church of the Nazarene
+150A Glasgow Street
+Adrossan
+Ayrshire
+KA22 8EU</address>
+		<postcode>KA22 8EU</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>55.6437638,-4.810945300000001</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-20T11:11:05.370268</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/north-ayrshire/</self>
+			<html>https://www.givefood.org.uk/needs/at/north-ayrshire/</html>
+			<homepage>https://northayrshire.foodbank.org.uk</homepage>
+			<shopping_list>https://northayrshire.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>SC007759</registration_id>
+			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC007759</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>North Ayrshire and Arran</parliamentary_constituency>
+			<mp>Patricia Gibson</mp>
+			<mp_party>Scottish National</mp_party>
+			<mp_parl_id>4435</mp_parl_id>
+			<ward>Ardrossan</ward>
+			<district>North Ayrshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/north-ayrshire-and-arran/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/north-ayrshire-and-arran/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -809,47 +850,6 @@ PO19 1DD</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>North Ayrshire Food Bank</name>
-		<alt_name/>
-		<slug>north-ayrshire</slug>
-		<phone>01294601312</phone>
-		<secondary_phone/>
-		<email>info@northayrshire.foodbank.org.uk</email>
-		<address>Church of the Nazarene
-150A Glasgow Street
-Adrossan
-Ayrshire
-KA22 8EU</address>
-		<postcode>KA22 8EU</postcode>
-		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>55.6437638,-4.810945300000001</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-20T11:11:05.370268</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/north-ayrshire/</self>
-			<html>https://www.givefood.org.uk/needs/at/north-ayrshire/</html>
-			<homepage>https://northayrshire.foodbank.org.uk</homepage>
-			<shopping_list>https://northayrshire.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>SC007759</registration_id>
-			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC007759</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>North Ayrshire and Arran</parliamentary_constituency>
-			<mp>Patricia Gibson</mp>
-			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4435</mp_parl_id>
-			<ward>Ardrossan</ward>
-			<district>North Ayrshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/north-ayrshire-and-arran/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/north-ayrshire-and-arran/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Fareham &amp; Gosport Basics Bank Food Bank</name>
 		<alt_name/>
 		<slug>fareham-gosport-basics-bank</slug>
@@ -887,125 +887,6 @@ PO16 7XU</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/fareham-and-waterlooville/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/fareham-and-waterlooville/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Rutland Food Bank</name>
-		<alt_name/>
-		<slug>rutland</slug>
-		<phone>07582783363</phone>
-		<secondary_phone/>
-		<email>info@rutland.foodbank.org.uk</email>
-		<address>36 Melton Road
-Oakham
-LE15 6AY</address>
-		<postcode>LE15 6AY</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.6708313,-0.7335357</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-09T14:27:07.811991</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/rutland/</self>
-			<html>https://www.givefood.org.uk/needs/at/rutland/</html>
-			<homepage>https://rutland.foodbank.org.uk</homepage>
-			<shopping_list>https://rutland.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1158460</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1158460&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Rutland and Stamford</parliamentary_constituency>
-			<mp>Alicia Kearns</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4805</mp_parl_id>
-			<ward>Oakham North East</ward>
-			<district>Rutland</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/rutland-and-stamford/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/rutland-and-stamford/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Wimborne Food Bank</name>
-		<alt_name/>
-		<slug>wimborne</slug>
-		<phone>07766395944</phone>
-		<secondary_phone/>
-		<email>wimbornefoodbank@gmail.com</email>
-		<address>Leigh Park Community Centre
-Gordon Road
-Wimborne
-BH21 2AP</address>
-		<postcode>BH21 2AP</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>50.7961689,-1.9715001</lat_lng>
-		<network>IFAN</network>
-		<created>2020-02-29T11:02:48.669773</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/wimborne/</self>
-			<html>https://www.givefood.org.uk/needs/at/wimborne/</html>
-			<homepage>https://faith-works.org.uk/locations-across-dorset/wimborne-food-bank-dorset/</homepage>
-			<shopping_list>https://faith-works.org.uk/locations-across-dorset/wimborne-food-bank-dorset/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1108714</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1108714&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Mid Dorset and North Poole</parliamentary_constituency>
-			<mp>Michael Tomlinson</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4497</mp_parl_id>
-			<ward>Wimborne Minster</ward>
-			<district>Dorset</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/mid-dorset-and-north-poole/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/mid-dorset-and-north-poole/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Burnage Food Bank</name>
-		<alt_name/>
-		<slug>burnage</slug>
-		<phone>07796448205</phone>
-		<secondary_phone/>
-		<email>info@burnage.foodbank.org.uk</email>
-		<address>St Bernard's Church 
-Burnage Lane
-Manchester
-M19 1DR</address>
-		<postcode>M19 1DR</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.4290031,-2.2019125</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-13T12:23:13.994100</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/burnage/</self>
-			<html>https://www.givefood.org.uk/needs/at/burnage/</html>
-			<homepage>https://burnage.foodbank.org.uk</homepage>
-			<shopping_list>https://burnage.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1169272</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1169272&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Gorton and Denton</parliamentary_constituency>
-			<mp>Jeff Smith</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>4456</mp_parl_id>
-			<ward>Burnage</ward>
-			<district>Manchester</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/gorton-and-denton/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/gorton-and-denton/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -1050,82 +931,81 @@ M50 2GL</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Bingley Food Bank</name>
+		<name>Wimborne Food Bank</name>
 		<alt_name/>
-		<slug>bingley</slug>
-		<phone>07826724161</phone>
+		<slug>wimborne</slug>
+		<phone>07766395944</phone>
 		<secondary_phone/>
-		<email>bingleyfoodbank@gmail.com</email>
-		<address>Bingley Arts Centre
-Main Street
-Bingley
-BD16 2LZ</address>
-		<postcode>BD16 2LZ</postcode>
+		<email>wimbornefoodbank@gmail.com</email>
+		<address>Leigh Park Community Centre
+Gordon Road
+Wimborne
+BH21 2AP</address>
+		<postcode>BH21 2AP</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>53.8479933,-1.8381658</lat_lng>
-		<network>Independent</network>
-		<created>2024-09-05T08:10:00.511378</created>
+		<lat_lng>50.7961689,-1.9715001</lat_lng>
+		<network>IFAN</network>
+		<created>2020-02-29T11:02:48.669773</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/bingley/</self>
-			<html>https://www.givefood.org.uk/needs/at/bingley/</html>
-			<homepage>https://bingleyfoodbank.org.uk</homepage>
-			<shopping_list>https://bingleyfoodbank.org.uk/how-to-donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/wimborne/</self>
+			<html>https://www.givefood.org.uk/needs/at/wimborne/</html>
+			<homepage>https://faith-works.org.uk/locations-across-dorset/wimborne-food-bank-dorset/</homepage>
+			<shopping_list>https://faith-works.org.uk/locations-across-dorset/wimborne-food-bank-dorset/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id/>
-			<register_url/>
+			<registration_id>1108714</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1108714&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Shipley</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Bingley</ward>
-			<district>Bradford</district>
+			<parliamentary_constituency>Mid Dorset and North Poole</parliamentary_constituency>
+			<mp>Michael Tomlinson</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4497</mp_parl_id>
+			<ward>Wimborne Minster</ward>
+			<district>Dorset</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/shipley/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/shipley/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/mid-dorset-and-north-poole/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/mid-dorset-and-north-poole/</html>
 			</urls>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Sherborne Food Bank</name>
+		<name>Rutland Food Bank</name>
 		<alt_name/>
-		<slug>sherborne</slug>
-		<phone>07854163869</phone>
+		<slug>rutland</slug>
+		<phone>07582783363</phone>
 		<secondary_phone/>
-		<email>help@sherbornefoodbank.org</email>
-		<address>c/o St Paul's Church
-St Paul's Close
-Sherborne
-DT9 4DU</address>
-		<postcode>DT9 4DU</postcode>
+		<email>info@rutland.foodbank.org.uk</email>
+		<address>36 Melton Road
+Oakham
+LE15 6AY</address>
+		<postcode>LE15 6AY</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>50.9563402,-2.5127485</lat_lng>
-		<network>IFAN</network>
-		<created>2020-02-29T10:40:45.496740</created>
+		<lat_lng>52.6708313,-0.7335357</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-09T14:27:07.811991</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/sherborne/</self>
-			<html>https://www.givefood.org.uk/needs/at/sherborne/</html>
-			<homepage>https://www.sherbornefoodbank.org</homepage>
-			<shopping_list>https://www.sherbornefoodbank.org/what-we-need/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/rutland/</self>
+			<html>https://www.givefood.org.uk/needs/at/rutland/</html>
+			<homepage>https://rutland.foodbank.org.uk</homepage>
+			<shopping_list>https://rutland.foodbank.org.uk/give-help/donate-food/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1156481</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1156481&amp;subid=0</register_url>
+			<registration_id>1158460</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1158460&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>West Dorset</parliamentary_constituency>
-			<mp>Chris Loder</mp>
+			<parliamentary_constituency>Rutland and Stamford</parliamentary_constituency>
+			<mp>Alicia Kearns</mp>
 			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4751</mp_parl_id>
-			<ward>Sherborne East</ward>
-			<district>Dorset</district>
+			<mp_parl_id>4805</mp_parl_id>
+			<ward>Oakham North East</ward>
+			<district>Rutland</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/west-dorset/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/west-dorset/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/rutland-and-stamford/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/rutland-and-stamford/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -1212,6 +1092,126 @@ B24 8AD</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Bingley Food Bank</name>
+		<alt_name/>
+		<slug>bingley</slug>
+		<phone>07826724161</phone>
+		<secondary_phone/>
+		<email>bingleyfoodbank@gmail.com</email>
+		<address>Bingley Arts Centre
+Main Street
+Bingley
+BD16 2LZ</address>
+		<postcode>BD16 2LZ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.8479933,-1.8381658</lat_lng>
+		<network>Independent</network>
+		<created>2024-09-05T08:10:00.511378</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/bingley/</self>
+			<html>https://www.givefood.org.uk/needs/at/bingley/</html>
+			<homepage>https://bingleyfoodbank.org.uk</homepage>
+			<shopping_list>https://bingleyfoodbank.org.uk/how-to-donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Shipley</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Bingley</ward>
+			<district>Bradford</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/shipley/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/shipley/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Sherborne Food Bank</name>
+		<alt_name/>
+		<slug>sherborne</slug>
+		<phone>07854163869</phone>
+		<secondary_phone/>
+		<email>help@sherbornefoodbank.org</email>
+		<address>c/o St Paul's Church
+St Paul's Close
+Sherborne
+DT9 4DU</address>
+		<postcode>DT9 4DU</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.9563402,-2.5127485</lat_lng>
+		<network>IFAN</network>
+		<created>2020-02-29T10:40:45.496740</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/sherborne/</self>
+			<html>https://www.givefood.org.uk/needs/at/sherborne/</html>
+			<homepage>https://www.sherbornefoodbank.org</homepage>
+			<shopping_list>https://www.sherbornefoodbank.org/what-we-need/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1156481</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1156481&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>West Dorset</parliamentary_constituency>
+			<mp>Chris Loder</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4751</mp_parl_id>
+			<ward>Sherborne East</ward>
+			<district>Dorset</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/west-dorset/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/west-dorset/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Burnage Food Bank</name>
+		<alt_name/>
+		<slug>burnage</slug>
+		<phone>07796448205</phone>
+		<secondary_phone/>
+		<email>info@burnage.foodbank.org.uk</email>
+		<address>St Bernard's Church 
+Burnage Lane
+Manchester
+M19 1DR</address>
+		<postcode>M19 1DR</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.4290031,-2.2019125</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-13T12:23:13.994100</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/burnage/</self>
+			<html>https://www.givefood.org.uk/needs/at/burnage/</html>
+			<homepage>https://burnage.foodbank.org.uk</homepage>
+			<shopping_list>https://burnage.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1169272</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1169272&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Gorton and Denton</parliamentary_constituency>
+			<mp>Jeff Smith</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>4456</mp_parl_id>
+			<ward>Burnage</ward>
+			<district>Manchester</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/gorton-and-denton/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/gorton-and-denton/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Blyth Food Bank</name>
 		<alt_name/>
 		<slug>blyth</slug>
@@ -1252,46 +1252,6 @@ NE24 1AY</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Islington Food Bank</name>
-		<alt_name/>
-		<slug>islington</slug>
-		<phone>07753222755</phone>
-		<secondary_phone/>
-		<email>info@islington.foodbank.org.uk</email>
-		<address>Highbury Roundhouse
-71 Ronalds Road
-London
-N5 1XB</address>
-		<postcode>N5 1XB</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.5508393,-0.1040395</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-11-29T10:29:07.461480</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/islington/</self>
-			<html>https://www.givefood.org.uk/needs/at/islington/</html>
-			<homepage>https://islington.foodbank.org.uk</homepage>
-			<shopping_list>https://islington.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1155480</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1155480&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Islington North</parliamentary_constituency>
-			<mp>Jeremy Corbyn</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>185</mp_parl_id>
-			<ward>Highbury</ward>
-			<district>Islington</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/islington-north/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/islington-north/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Billingham &amp; Stockton Borough Food Bank</name>
 		<alt_name/>
 		<slug>billingham-stockton-borough</slug>
@@ -1328,6 +1288,46 @@ TS23 2NH</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/stockton-north/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/stockton-north/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Towcester Food Bank</name>
+		<alt_name/>
+		<slug>towcester</slug>
+		<phone>07724832043</phone>
+		<secondary_phone/>
+		<email>info@towcester.foodbank.org.uk</email>
+		<address>St John Ambulance Hall
+Islington Road
+Towcester
+NN12 6AU</address>
+		<postcode>NN12 6AU</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.1293859,-0.9866189</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-15T10:33:29.641446</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/towcester/</self>
+			<html>https://www.givefood.org.uk/needs/at/towcester/</html>
+			<homepage>https://towcester.foodbank.org.uk</homepage>
+			<shopping_list>https://towcester.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1157338</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1157338&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>South Northamptonshire</parliamentary_constituency>
+			<mp>Andrea Leadsom</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4117</mp_parl_id>
+			<ward>Towcester and Roade</ward>
+			<district>West Northamptonshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/south-northamptonshire/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/south-northamptonshire/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -1373,42 +1373,82 @@ SS2 5BY</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Towcester Food Bank</name>
+		<name>North Solihull Food Bank</name>
 		<alt_name/>
-		<slug>towcester</slug>
-		<phone>07724832043</phone>
+		<slug>north-solihull</slug>
+		<phone>07902030134</phone>
 		<secondary_phone/>
-		<email>info@towcester.foodbank.org.uk</email>
-		<address>St John Ambulance Hall
-Islington Road
-Towcester
-NN12 6AU</address>
-		<postcode>NN12 6AU</postcode>
+		<email>info@northsolihull.foodbank.org.uk</email>
+		<address>1258 Kingsbury Road
+Castle Vale
+Birmingham
+B35 6AG</address>
+		<postcode>B35 6AG</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>52.1293859,-0.9866189</lat_lng>
+		<lat_lng>52.5268374,-1.7864677</lat_lng>
 		<network>Trussell Trust</network>
-		<created>2020-01-15T10:33:29.641446</created>
+		<created>2020-01-16T09:48:49.409838</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/towcester/</self>
-			<html>https://www.givefood.org.uk/needs/at/towcester/</html>
-			<homepage>https://towcester.foodbank.org.uk</homepage>
-			<shopping_list>https://towcester.foodbank.org.uk/give-help/donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/north-solihull/</self>
+			<html>https://www.givefood.org.uk/needs/at/north-solihull/</html>
+			<homepage>https://northsolihull.foodbank.org.uk/</homepage>
+			<shopping_list>https://northsolihull.foodbank.org.uk/give-help/donate-food/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1157338</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1157338&amp;subid=0</register_url>
+			<registration_id>1202316</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1202316&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>South Northamptonshire</parliamentary_constituency>
-			<mp>Andrea Leadsom</mp>
+			<parliamentary_constituency>Birmingham Erdington</parliamentary_constituency>
+			<mp>Saqib Bhatti</mp>
 			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4117</mp_parl_id>
-			<ward>Towcester and Roade</ward>
-			<district>West Northamptonshire</district>
+			<mp_parl_id>4818</mp_parl_id>
+			<ward>Castle Vale</ward>
+			<district>Birmingham</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/south-northamptonshire/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/south-northamptonshire/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/birmingham-erdington/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/birmingham-erdington/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Islington Food Bank</name>
+		<alt_name/>
+		<slug>islington</slug>
+		<phone>07753222755</phone>
+		<secondary_phone/>
+		<email>info@islington.foodbank.org.uk</email>
+		<address>Highbury Roundhouse
+71 Ronalds Road
+London
+N5 1XB</address>
+		<postcode>N5 1XB</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.5508393,-0.1040395</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-11-29T10:29:07.461480</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/islington/</self>
+			<html>https://www.givefood.org.uk/needs/at/islington/</html>
+			<homepage>https://islington.foodbank.org.uk</homepage>
+			<shopping_list>https://islington.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1155480</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1155480&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Islington North</parliamentary_constituency>
+			<mp>Jeremy Corbyn</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>185</mp_parl_id>
+			<ward>Highbury</ward>
+			<district>Islington</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/islington-north/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/islington-north/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -1571,46 +1611,6 @@ PE23 5DU</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/louth-and-horncastle/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/louth-and-horncastle/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>North Solihull Food Bank</name>
-		<alt_name/>
-		<slug>north-solihull</slug>
-		<phone>07902030134</phone>
-		<secondary_phone/>
-		<email>info@northsolihull.foodbank.org.uk</email>
-		<address>1258 Kingsbury Road
-Castle Vale
-Birmingham
-B35 6AG</address>
-		<postcode>B35 6AG</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.5268374,-1.7864677</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-16T09:48:49.409838</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/north-solihull/</self>
-			<html>https://www.givefood.org.uk/needs/at/north-solihull/</html>
-			<homepage>https://northsolihull.foodbank.org.uk/</homepage>
-			<shopping_list>https://northsolihull.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1202316</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1202316&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Birmingham Erdington</parliamentary_constituency>
-			<mp>Saqib Bhatti</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4818</mp_parl_id>
-			<ward>Castle Vale</ward>
-			<district>Birmingham</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/birmingham-erdington/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/birmingham-erdington/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -2339,6 +2339,46 @@ MK40 1SY</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Key To Life Food Bank</name>
+		<alt_name/>
+		<slug>key-to-life</slug>
+		<phone>01914969710</phone>
+		<secondary_phone/>
+		<email>hello@keycommunity.org.uk</email>
+		<address>Boldon Lane Community Library
+Boldon Lane
+South Shields
+NE34 0LZ</address>
+		<postcode>NE34 0LZ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>54.96924989999999,-1.4387577</lat_lng>
+		<network>Independent</network>
+		<created>2024-08-26T08:21:53.498815</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/key-to-life/</self>
+			<html>https://www.givefood.org.uk/needs/at/key-to-life/</html>
+			<homepage>https://keycommunity.org.uk/what-we-do/key-to-life-foodbank/</homepage>
+			<shopping_list>https://keycommunity.org.uk/what-we-do/key-to-life-foodbank/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1108921</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1108921&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>South Shields</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Whiteleas</ward>
+			<district>South Tyneside</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/south-shields/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/south-shields/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Galashiels and Area Food Bank</name>
 		<alt_name/>
 		<slug>galashiels-and-area</slug>
@@ -2704,46 +2744,6 @@ N4 4RR</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Key To Life Food Bank</name>
-		<alt_name/>
-		<slug>key-to-life</slug>
-		<phone>01914969710</phone>
-		<secondary_phone/>
-		<email>hello@keycommunity.org.uk</email>
-		<address>Boldon Lane Community Library
-Boldon Lane
-South Shields
-NE34 0LZ</address>
-		<postcode>NE34 0LZ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>54.96924989999999,-1.4387577</lat_lng>
-		<network>Independent</network>
-		<created>2024-08-26T08:21:53.498815</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/key-to-life/</self>
-			<html>https://www.givefood.org.uk/needs/at/key-to-life/</html>
-			<homepage>https://keycommunity.org.uk/what-we-do/key-to-life-foodbank/</homepage>
-			<shopping_list>https://keycommunity.org.uk/what-we-do/key-to-life-foodbank/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1108921</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1108921&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>South Shields</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Whiteleas</ward>
-			<district>South Tyneside</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/south-shields/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/south-shields/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>CPR Food Bank</name>
 		<alt_name/>
 		<slug>cpr</slug>
@@ -2826,86 +2826,6 @@ PE12 9UN</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Weston Favell Centre Food Bank</name>
-		<alt_name/>
-		<slug>weston-favell-centre</slug>
-		<phone>07467074296</phone>
-		<secondary_phone/>
-		<email>info@westonfavellcentre.foodbank.org.uk</email>
-		<address>Emmanuel Church Family Room
-Billing Brook Road
-Northampton
-NN3 8JZ</address>
-		<postcode>NN3 8JZ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.2569939,-0.8343404999999999</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-23T13:43:05.446426</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/weston-favell-centre/</self>
-			<html>https://www.givefood.org.uk/needs/at/weston-favell-centre/</html>
-			<homepage>https://westonfavellcentre.foodbank.org.uk</homepage>
-			<shopping_list>https://westonfavellcentre.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1140504</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1140504&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Northampton North</parliamentary_constituency>
-			<mp>Michael Ellis</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4116</mp_parl_id>
-			<ward>Talavera</ward>
-			<district>West Northamptonshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/northampton-north/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/northampton-north/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Lifeshare (Manchester) Food Bank</name>
-		<alt_name/>
-		<slug>lifeshare-manchester</slug>
-		<phone>01612350744</phone>
-		<secondary_phone/>
-		<email>office@lifeshare.co.uk</email>
-		<address>1st Floor
-36-38 Sackville Street
-Manchester
-M1 3WA</address>
-		<postcode>M1 3WA</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.47709500000001,-2.2375982</lat_lng>
-		<network>IFAN</network>
-		<created>2020-03-06T11:32:44.748742</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/lifeshare-manchester/</self>
-			<html>https://www.givefood.org.uk/needs/at/lifeshare-manchester/</html>
-			<homepage>https://www.lifeshare.org.uk</homepage>
-			<shopping_list>https://www.lifeshare.org.uk/donate/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1042500</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1042500&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Manchester Central</parliamentary_constituency>
-			<mp>Lucy Powell</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>4263</mp_parl_id>
-			<ward>Piccadilly</ward>
-			<district>Manchester</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/manchester-central/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/manchester-central/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Spring Community Hub Food Bank</name>
 		<alt_name/>
 		<slug>spring-community-hub</slug>
@@ -2947,162 +2867,42 @@ SE5 8PQ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>NewStarts Food Bank</name>
+		<name>Lifeshare (Manchester) Food Bank</name>
 		<alt_name/>
-		<slug>newstarts</slug>
-		<phone>01527882410</phone>
-		<secondary_phone>01216792072</secondary_phone>
-		<email>admin@newstarts.org.uk</email>
-		<address>1 Sherwood Road
-Aston Fields
-Bromsgrove
-Worcestershire
-B60 3DR</address>
-		<postcode>B60 3DR</postcode>
+		<slug>lifeshare-manchester</slug>
+		<phone>01612350744</phone>
+		<secondary_phone/>
+		<email>office@lifeshare.co.uk</email>
+		<address>1st Floor
+36-38 Sackville Street
+Manchester
+M1 3WA</address>
+		<postcode>M1 3WA</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>52.3222222,-2.0575</lat_lng>
-		<network>Independent</network>
-		<created>2024-10-11T13:10:32.610822</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/newstarts/</self>
-			<html>https://www.givefood.org.uk/needs/at/newstarts/</html>
-			<homepage>https://newstarts.org.uk</homepage>
-			<shopping_list>https://newstarts.org.uk</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1128541</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1128541&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Bromsgrove</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Aston Fields</ward>
-			<district>Bromsgrove</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/bromsgrove/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/bromsgrove/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Govan Food Bank</name>
-		<alt_name/>
-		<slug>govan</slug>
-		<phone>07982231929</phone>
-		<secondary_phone/>
-		<email>jimandkirsty@hotmail.com</email>
-		<address>16 Holmfauldhead Place
-Glasgow
-G51 4PP</address>
-		<postcode>G51 4PP</postcode>
-		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>55.8639054,-4.3319917</lat_lng>
-		<network/>
-		<created>2024-09-08T06:35:48.086811</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/govan/</self>
-			<html>https://www.givefood.org.uk/needs/at/govan/</html>
-			<homepage>https://govanfreechurch.co.uk/food-bank</homepage>
-			<shopping_list>https://govanfreechurch.co.uk/food-bank</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Glasgow South West</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Govan</ward>
-			<district>Glasgow City</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/glasgow-south-west/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/glasgow-south-west/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Noor Food Bank</name>
-		<alt_name/>
-		<slug>noor</slug>
-		<phone/>
-		<secondary_phone/>
-		<email>hello@noorfoodbank.co.uk</email>
-		<address>Noor Hall
-Noor St
-Preston
-PR1 1QS</address>
-		<postcode>PR1 1QS</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.7657864,-2.6948046</lat_lng>
+		<lat_lng>53.47709500000001,-2.2375982</lat_lng>
 		<network>IFAN</network>
-		<created>2020-08-30T09:54:13.393683</created>
+		<created>2020-03-06T11:32:44.748742</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/noor/</self>
-			<html>https://www.givefood.org.uk/needs/at/noor/</html>
-			<homepage>https://noorfoodbank.co.uk</homepage>
-			<shopping_list>https://noorfoodbank.co.uk/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/lifeshare-manchester/</self>
+			<html>https://www.givefood.org.uk/needs/at/lifeshare-manchester/</html>
+			<homepage>https://www.lifeshare.org.uk</homepage>
+			<shopping_list>https://www.lifeshare.org.uk/donate/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id/>
-			<register_url/>
+			<registration_id>1042500</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1042500&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Preston</parliamentary_constituency>
-			<mp>Mark Hendrick</mp>
+			<parliamentary_constituency>Manchester Central</parliamentary_constituency>
+			<mp>Lucy Powell</mp>
 			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>473</mp_parl_id>
-			<ward>St Matthew's</ward>
-			<district>Preston</district>
+			<mp_parl_id>4263</mp_parl_id>
+			<ward>Piccadilly</ward>
+			<district>Manchester</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/preston/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/preston/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Storehouse Church Alford Food Bank</name>
-		<alt_name/>
-		<slug>storehouse-church-alford</slug>
-		<phone>01507462990</phone>
-		<secondary_phone/>
-		<email>accounts@thestorehousechurchalford.org.uk</email>
-		<address>Access Centre
-47 West Street
-Alford
-LN13 9EZ</address>
-		<postcode>LN13 9EZ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.2597647,0.1751715</lat_lng>
-		<network>Independent</network>
-		<created>2024-09-05T08:36:08.643262</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/storehouse-church-alford/</self>
-			<html>https://www.givefood.org.uk/needs/at/storehouse-church-alford/</html>
-			<homepage>https://thestorehousechurchalford.org.uk/</homepage>
-			<shopping_list>https://thestorehousechurchalford.org.uk/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Louth and Horncastle</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Alford</ward>
-			<district>East Lindsey</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/louth-and-horncastle/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/louth-and-horncastle/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/manchester-central/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/manchester-central/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -3189,43 +2989,202 @@ BT82 8RJ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Glossopdale Food Bank</name>
+		<name>Noor Food Bank</name>
 		<alt_name/>
-		<slug>glossopdale</slug>
-		<phone>07811684282</phone>
+		<slug>noor</slug>
+		<phone/>
 		<secondary_phone/>
-		<email>sarah.glossopdalefoodbank@gmail.com</email>
-		<address>c/o The Bureau
-Bank House
-22 Henry Street
-Glossop
-SK13 8BW</address>
-		<postcode>SK13 8BW</postcode>
+		<email>hello@noorfoodbank.co.uk</email>
+		<address>Noor Hall
+Noor St
+Preston
+PR1 1QS</address>
+		<postcode>PR1 1QS</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>53.4439396,-1.9497506</lat_lng>
-		<network>Independent</network>
-		<created>2024-01-02T14:31:41.139332</created>
+		<lat_lng>53.7657864,-2.6948046</lat_lng>
+		<network>IFAN</network>
+		<created>2020-08-30T09:54:13.393683</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/glossopdale/</self>
-			<html>https://www.givefood.org.uk/needs/at/glossopdale/</html>
-			<homepage>https://glossopdalefoodbank.org.uk</homepage>
-			<shopping_list>https://glossopdalefoodbank.org.uk/donate-food</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/noor/</self>
+			<html>https://www.givefood.org.uk/needs/at/noor/</html>
+			<homepage>https://noorfoodbank.co.uk</homepage>
+			<shopping_list>https://noorfoodbank.co.uk/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1177306</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1177306&amp;subid=0</register_url>
+			<registration_id/>
+			<register_url/>
 		</charity>
 		<politics>
-			<parliamentary_constituency>High Peak</parliamentary_constituency>
-			<mp>Robert Largan</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4852</mp_parl_id>
-			<ward>Howard Town</ward>
-			<district>High Peak</district>
+			<parliamentary_constituency>Preston</parliamentary_constituency>
+			<mp>Mark Hendrick</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>473</mp_parl_id>
+			<ward>St Matthew's</ward>
+			<district>Preston</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/high-peak/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/high-peak/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/preston/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/preston/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Govan Food Bank</name>
+		<alt_name/>
+		<slug>govan</slug>
+		<phone>07982231929</phone>
+		<secondary_phone/>
+		<email>jimandkirsty@hotmail.com</email>
+		<address>16 Holmfauldhead Place
+Glasgow
+G51 4PP</address>
+		<postcode>G51 4PP</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>55.8639054,-4.3319917</lat_lng>
+		<network/>
+		<created>2024-09-08T06:35:48.086811</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/govan/</self>
+			<html>https://www.givefood.org.uk/needs/at/govan/</html>
+			<homepage>https://govanfreechurch.co.uk/food-bank</homepage>
+			<shopping_list>https://govanfreechurch.co.uk/food-bank</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Glasgow South West</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Govan</ward>
+			<district>Glasgow City</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/glasgow-south-west/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/glasgow-south-west/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>NewStarts Food Bank</name>
+		<alt_name/>
+		<slug>newstarts</slug>
+		<phone>01527882410</phone>
+		<secondary_phone>01216792072</secondary_phone>
+		<email>admin@newstarts.org.uk</email>
+		<address>1 Sherwood Road
+Aston Fields
+Bromsgrove
+Worcestershire
+B60 3DR</address>
+		<postcode>B60 3DR</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.3222222,-2.0575</lat_lng>
+		<network>Independent</network>
+		<created>2024-10-11T13:10:32.610822</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/newstarts/</self>
+			<html>https://www.givefood.org.uk/needs/at/newstarts/</html>
+			<homepage>https://newstarts.org.uk</homepage>
+			<shopping_list>https://newstarts.org.uk</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1128541</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1128541&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Bromsgrove</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Aston Fields</ward>
+			<district>Bromsgrove</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/bromsgrove/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/bromsgrove/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Weston Favell Centre Food Bank</name>
+		<alt_name/>
+		<slug>weston-favell-centre</slug>
+		<phone>07467074296</phone>
+		<secondary_phone/>
+		<email>info@westonfavellcentre.foodbank.org.uk</email>
+		<address>Emmanuel Church Family Room
+Billing Brook Road
+Northampton
+NN3 8JZ</address>
+		<postcode>NN3 8JZ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.2569939,-0.8343404999999999</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-23T13:43:05.446426</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/weston-favell-centre/</self>
+			<html>https://www.givefood.org.uk/needs/at/weston-favell-centre/</html>
+			<homepage>https://westonfavellcentre.foodbank.org.uk</homepage>
+			<shopping_list>https://westonfavellcentre.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1140504</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1140504&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Northampton North</parliamentary_constituency>
+			<mp>Michael Ellis</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4116</mp_parl_id>
+			<ward>Talavera</ward>
+			<district>West Northamptonshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/northampton-north/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/northampton-north/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Storehouse Church Alford Food Bank</name>
+		<alt_name/>
+		<slug>storehouse-church-alford</slug>
+		<phone>01507462990</phone>
+		<secondary_phone/>
+		<email>accounts@thestorehousechurchalford.org.uk</email>
+		<address>Access Centre
+47 West Street
+Alford
+LN13 9EZ</address>
+		<postcode>LN13 9EZ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.2597647,0.1751715</lat_lng>
+		<network>Independent</network>
+		<created>2024-09-05T08:36:08.643262</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/storehouse-church-alford/</self>
+			<html>https://www.givefood.org.uk/needs/at/storehouse-church-alford/</html>
+			<homepage>https://thestorehousechurchalford.org.uk/</homepage>
+			<shopping_list>https://thestorehousechurchalford.org.uk/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Louth and Horncastle</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Alford</ward>
+			<district>East Lindsey</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/louth-and-horncastle/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/louth-and-horncastle/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -3351,6 +3310,46 @@ BN17 5NY</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Hope for Belper Food Bank</name>
+		<alt_name/>
+		<slug>hope-for-belper</slug>
+		<phone/>
+		<secondary_phone/>
+		<email>foodhub@hopeforbelper.com</email>
+		<address>Belper Baptist Church
+Bridge Street
+Belper
+DE56 1AZ</address>
+		<postcode>DE56 1AZ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.0253812,-1.4853008</lat_lng>
+		<network>Independent</network>
+		<created>2024-09-08T06:28:45.510454</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/hope-for-belper/</self>
+			<html>https://www.givefood.org.uk/needs/at/hope-for-belper/</html>
+			<homepage>https://hopeforbelper.com/the-basic-idea/</homepage>
+			<shopping_list>https://hopeforbelper.com/the-basic-idea/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Mid Derbyshire</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Belper North</ward>
+			<district>Amber Valley</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/mid-derbyshire/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/mid-derbyshire/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Bettws Food Bank</name>
 		<alt_name/>
 		<slug>bettws</slug>
@@ -3472,6 +3471,47 @@ EX14 1DH</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Glossopdale Food Bank</name>
+		<alt_name/>
+		<slug>glossopdale</slug>
+		<phone>07811684282</phone>
+		<secondary_phone/>
+		<email>sarah.glossopdalefoodbank@gmail.com</email>
+		<address>c/o The Bureau
+Bank House
+22 Henry Street
+Glossop
+SK13 8BW</address>
+		<postcode>SK13 8BW</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.4439396,-1.9497506</lat_lng>
+		<network>Independent</network>
+		<created>2024-01-02T14:31:41.139332</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/glossopdale/</self>
+			<html>https://www.givefood.org.uk/needs/at/glossopdale/</html>
+			<homepage>https://glossopdalefoodbank.org.uk</homepage>
+			<shopping_list>https://glossopdalefoodbank.org.uk/donate-food</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1177306</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1177306&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>High Peak</parliamentary_constituency>
+			<mp>Robert Largan</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4852</mp_parl_id>
+			<ward>Howard Town</ward>
+			<district>High Peak</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/high-peak/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/high-peak/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Mary's (Sutton) Food Bank</name>
 		<alt_name/>
 		<slug>marys-sutton</slug>
@@ -3513,46 +3553,6 @@ NG17 2EB</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Hope for Belper Food Bank</name>
-		<alt_name/>
-		<slug>hope-for-belper</slug>
-		<phone/>
-		<secondary_phone/>
-		<email>foodhub@hopeforbelper.com</email>
-		<address>Belper Baptist Church
-Bridge Street
-Belper
-DE56 1AZ</address>
-		<postcode>DE56 1AZ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.0253812,-1.4853008</lat_lng>
-		<network>Independent</network>
-		<created>2024-09-08T06:28:45.510454</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/hope-for-belper/</self>
-			<html>https://www.givefood.org.uk/needs/at/hope-for-belper/</html>
-			<homepage>https://hopeforbelper.com/the-basic-idea/</homepage>
-			<shopping_list>https://hopeforbelper.com/the-basic-idea/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Mid Derbyshire</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Belper North</ward>
-			<district>Amber Valley</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/mid-derbyshire/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/mid-derbyshire/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Craven Arms Food Bank</name>
 		<alt_name/>
 		<slug>craven-arms</slug>
@@ -3588,47 +3588,6 @@ SY7 9NW</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/south-shropshire/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/south-shropshire/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Care Project Food Bank</name>
-		<alt_name/>
-		<slug>care-project</slug>
-		<phone>02921880212</phone>
-		<secondary_phone/>
-		<email>office@theparishtrust.org.uk</email>
-		<address>The Parish Trust
-Heol yr Ysgol
-Trethomas
-Caerphilly
-CF83 8FL</address>
-		<postcode>CF83 8FL</postcode>
-		<closed>false</closed>
-		<country>Wales</country>
-		<lat_lng>51.5921994,-3.1854794</lat_lng>
-		<network>Independent</network>
-		<created>2024-08-29T12:55:42.194677</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/care-project/</self>
-			<html>https://www.givefood.org.uk/needs/at/care-project/</html>
-			<homepage>https://theparishtrust.org.uk/care/</homepage>
-			<shopping_list>https://theparishtrust.org.uk/care/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1186996</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1186996&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Caerphilly</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Bedwas and Trethomas</ward>
-			<district>Caerphilly</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/caerphilly/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/caerphilly/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -3878,6 +3837,87 @@ KT16 9AS</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Ardwick &amp; Longsight Food Bank</name>
+		<alt_name/>
+		<slug>ardwick-longsight</slug>
+		<phone>01612733977</phone>
+		<secondary_phone>07853553732</secondary_phone>
+		<email>info@ardwickandlongsightfoodbank.org.uk</email>
+		<address>Transformation Community Resource Centre
+11 Richmond Grove
+Longsight
+M13 0LN</address>
+		<postcode>M13 0LN</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.4604614,-2.2083026</lat_lng>
+		<network>IFAN</network>
+		<created>2020-08-29T08:53:16.843387</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/ardwick-longsight/</self>
+			<html>https://www.givefood.org.uk/needs/at/ardwick-longsight/</html>
+			<homepage>https://ardwickandlongsightfoodbank.org.uk</homepage>
+			<shopping_list>https://ardwickandlongsightfoodbank.org.uk/make-a-donation/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>118094</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=118094&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Manchester Rusholme</parliamentary_constituency>
+			<mp>Lucy Powell</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>4263</mp_parl_id>
+			<ward>Ardwick</ward>
+			<district>Manchester</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/manchester-rusholme/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/manchester-rusholme/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Care Project Food Bank</name>
+		<alt_name/>
+		<slug>care-project</slug>
+		<phone>02921880212</phone>
+		<secondary_phone/>
+		<email>office@theparishtrust.org.uk</email>
+		<address>The Parish Trust
+Heol yr Ysgol
+Trethomas
+Caerphilly
+CF83 8FL</address>
+		<postcode>CF83 8FL</postcode>
+		<closed>false</closed>
+		<country>Wales</country>
+		<lat_lng>51.5921994,-3.1854794</lat_lng>
+		<network>Independent</network>
+		<created>2024-08-29T12:55:42.194677</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/care-project/</self>
+			<html>https://www.givefood.org.uk/needs/at/care-project/</html>
+			<homepage>https://theparishtrust.org.uk/care/</homepage>
+			<shopping_list>https://theparishtrust.org.uk/care/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1186996</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1186996&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Caerphilly</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Bedwas and Trethomas</ward>
+			<district>Caerphilly</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/caerphilly/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/caerphilly/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Glasgow Vineyard Storehouse Food Bank</name>
 		<alt_name/>
 		<slug>glasgow-vineyard-storehouse</slug>
@@ -3954,86 +3994,6 @@ IP11 0FE</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/suffolk-coastal/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/suffolk-coastal/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Ardwick &amp; Longsight Food Bank</name>
-		<alt_name/>
-		<slug>ardwick-longsight</slug>
-		<phone>01612733977</phone>
-		<secondary_phone>07853553732</secondary_phone>
-		<email>info@ardwickandlongsightfoodbank.org.uk</email>
-		<address>Transformation Community Resource Centre
-11 Richmond Grove
-Longsight
-M13 0LN</address>
-		<postcode>M13 0LN</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.4604614,-2.2083026</lat_lng>
-		<network>IFAN</network>
-		<created>2020-08-29T08:53:16.843387</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/ardwick-longsight/</self>
-			<html>https://www.givefood.org.uk/needs/at/ardwick-longsight/</html>
-			<homepage>https://ardwickandlongsightfoodbank.org.uk</homepage>
-			<shopping_list>https://ardwickandlongsightfoodbank.org.uk/make-a-donation/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>118094</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=118094&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Manchester Rusholme</parliamentary_constituency>
-			<mp>Lucy Powell</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>4263</mp_parl_id>
-			<ward>Ardwick</ward>
-			<district>Manchester</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/manchester-rusholme/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/manchester-rusholme/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Sheffield S6 Food Bank</name>
-		<alt_name/>
-		<slug>sheffield-s6</slug>
-		<phone>07984572041</phone>
-		<secondary_phone/>
-		<email>info@sheffields6.foodbank.org.uk</email>
-		<address>Philadelphia Campus
-Cross Bedford Street
-Sheffield
-S6 3BQ</address>
-		<postcode>S6 3BQ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.392364,-1.4838389</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-09-29T10:34:37.110147</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/sheffield-s6/</self>
-			<html>https://www.givefood.org.uk/needs/at/sheffield-s6/</html>
-			<homepage>https://sheffields6.foodbank.org.uk</homepage>
-			<shopping_list>https://sheffields6.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1134973</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1134973&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Sheffield Brightside and Hillsborough</parliamentary_constituency>
-			<mp>Paul Blomfield</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>4058</mp_parl_id>
-			<ward>Hillsborough</ward>
-			<district>Sheffield</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/sheffield-brightside-and-hillsborough/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/sheffield-brightside-and-hillsborough/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -4278,46 +4238,6 @@ BN27 1AG</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Kilsyth Community Food Bank</name>
-		<alt_name/>
-		<slug>kilsyth-community</slug>
-		<phone>01236829872</phone>
-		<secondary_phone/>
-		<email>info@kilsythcommunityfoodbank.com</email>
-		<address>19-21 Main Street
-Kilsyth
-Glasgow
-G65 0AH</address>
-		<postcode>G65 0AH</postcode>
-		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>55.9762973,-4.0561776</lat_lng>
-		<network>Independent</network>
-		<created>2023-11-10T08:31:47.019851</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/kilsyth-community/</self>
-			<html>https://www.givefood.org.uk/needs/at/kilsyth-community/</html>
-			<homepage>https://www.kilsythcommunityfoodbank.com</homepage>
-			<shopping_list>https://www.kilsythcommunityfoodbank.com/shopping-list-html/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>SC051143</registration_id>
-			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC051143</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Cumbernauld and Kirkintilloch</parliamentary_constituency>
-			<mp>Stuart McDonald</mp>
-			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4393</mp_parl_id>
-			<ward>Kilsyth</ward>
-			<district>North Lanarkshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/cumbernauld-and-kirkintilloch/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/cumbernauld-and-kirkintilloch/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Norwood &amp; Brixton Food Bank</name>
 		<alt_name/>
 		<slug>norwood-brixton</slug>
@@ -4358,6 +4278,86 @@ SW2 3BH</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Kilsyth Community Food Bank</name>
+		<alt_name/>
+		<slug>kilsyth-community</slug>
+		<phone>01236829872</phone>
+		<secondary_phone/>
+		<email>info@kilsythcommunityfoodbank.com</email>
+		<address>19-21 Main Street
+Kilsyth
+Glasgow
+G65 0AH</address>
+		<postcode>G65 0AH</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>55.9762973,-4.0561776</lat_lng>
+		<network>Independent</network>
+		<created>2023-11-10T08:31:47.019851</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/kilsyth-community/</self>
+			<html>https://www.givefood.org.uk/needs/at/kilsyth-community/</html>
+			<homepage>https://www.kilsythcommunityfoodbank.com</homepage>
+			<shopping_list>https://www.kilsythcommunityfoodbank.com/shopping-list-html/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>SC051143</registration_id>
+			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC051143</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Cumbernauld and Kirkintilloch</parliamentary_constituency>
+			<mp>Stuart McDonald</mp>
+			<mp_party>Scottish National</mp_party>
+			<mp_parl_id>4393</mp_parl_id>
+			<ward>Kilsyth</ward>
+			<district>North Lanarkshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/cumbernauld-and-kirkintilloch/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/cumbernauld-and-kirkintilloch/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Sheffield S6 Food Bank</name>
+		<alt_name/>
+		<slug>sheffield-s6</slug>
+		<phone>07984572041</phone>
+		<secondary_phone/>
+		<email>info@sheffields6.foodbank.org.uk</email>
+		<address>Philadelphia Campus
+Cross Bedford Street
+Sheffield
+S6 3BQ</address>
+		<postcode>S6 3BQ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.392364,-1.4838389</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-09-29T10:34:37.110147</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/sheffield-s6/</self>
+			<html>https://www.givefood.org.uk/needs/at/sheffield-s6/</html>
+			<homepage>https://sheffields6.foodbank.org.uk</homepage>
+			<shopping_list>https://sheffields6.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1134973</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1134973&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Sheffield Brightside and Hillsborough</parliamentary_constituency>
+			<mp>Paul Blomfield</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>4058</mp_parl_id>
+			<ward>Hillsborough</ward>
+			<district>Sheffield</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/sheffield-brightside-and-hillsborough/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/sheffield-brightside-and-hillsborough/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Colburn Hub Food Bank</name>
 		<alt_name/>
 		<slug>colburn-hub</slug>
@@ -4394,48 +4394,6 @@ DL9 4LZ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/richmond-and-northallerton/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/richmond-and-northallerton/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Crossroads Meltham Food Bank</name>
-		<alt_name/>
-		<slug>crossroads-meltham</slug>
-		<phone>01484929117</phone>
-		<secondary_phone>07564764137</secondary_phone>
-		<email>chrissmith@thecrossroadsproject.co.uk</email>
-		<address>The Crossroads Centre
-Old Town Hall
-26 Huddersfield Road
-Meltham
-Holmfirth
-HD9 4AG</address>
-		<postcode>HD9 4AG</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.592367,-1.8489712</lat_lng>
-		<network>Independent</network>
-		<created>2024-09-04T12:50:13.079211</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/crossroads-meltham/</self>
-			<html>https://www.givefood.org.uk/needs/at/crossroads-meltham/</html>
-			<homepage>https://www.thecrossroadsproject.co.uk/our-food-bank/</homepage>
-			<shopping_list>https://www.thecrossroadsproject.co.uk/ways-to-donate/donate-food-items/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1079071</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1079071&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Colne Valley</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Holme Valley North</ward>
-			<district>Kirklees</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/colne-valley/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/colne-valley/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -4808,121 +4766,44 @@ WS3 1LZ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Bradford on Avon Food Bank</name>
+		<name>Crossroads Meltham Food Bank</name>
 		<alt_name/>
-		<slug>bradford-on-avon</slug>
-		<phone>01225920748</phone>
-		<secondary_phone/>
-		<email>info@boahub.co.uk</email>
-		<address>The Hub @ BA15
-Church Street
-Bradford on Avon
-BA15 1LS</address>
-		<postcode>BA15 1LS</postcode>
+		<slug>crossroads-meltham</slug>
+		<phone>01484929117</phone>
+		<secondary_phone>07564764137</secondary_phone>
+		<email>chrissmith@thecrossroadsproject.co.uk</email>
+		<address>The Crossroads Centre
+Old Town Hall
+26 Huddersfield Road
+Meltham
+Holmfirth
+HD9 4AG</address>
+		<postcode>HD9 4AG</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>51.3478187,-2.2514713</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-20T10:58:30.695744</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/bradford-on-avon/</self>
-			<html>https://www.givefood.org.uk/needs/at/bradford-on-avon/</html>
-			<homepage>https://bradfordonavon.foodbank.org.uk</homepage>
-			<shopping_list>https://bradfordonavon.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1160807</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1160807&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Melksham and Devizes</parliamentary_constituency>
-			<mp>Michelle Donelan</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4530</mp_parl_id>
-			<ward>Bradford-on-Avon South</ward>
-			<district>Wiltshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/melksham-and-devizes/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/melksham-and-devizes/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Burngreave Food Bank</name>
-		<alt_name/>
-		<slug>burngreave</slug>
-		<phone>07542888671</phone>
-		<secondary_phone/>
-		<email>info@burngreave.foodbank.org.uk</email>
-		<address>Rock Christian Centre
-177 Spital Hill
-Sheffield
-S4 7LF</address>
-		<postcode>S4 7LF</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.3918055,-1.4587374</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-10-31T08:44:44.853973</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/burngreave/</self>
-			<html>https://www.givefood.org.uk/needs/at/burngreave/</html>
-			<homepage>https://burngreave.foodbank.org.uk</homepage>
-			<shopping_list>https://burngreave.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1163895</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163895&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Sheffield Brightside and Hillsborough</parliamentary_constituency>
-			<mp>Gill Furniss</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>4571</mp_parl_id>
-			<ward>Burngreave</ward>
-			<district>Sheffield</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/sheffield-brightside-and-hillsborough/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/sheffield-brightside-and-hillsborough/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Huddersfield Food Bank</name>
-		<alt_name/>
-		<slug>huddersfield</slug>
-		<phone>01484515086</phone>
-		<secondary_phone/>
-		<email>emma.thewelcomecente@gmail.com</email>
-		<address>15 Lord Street
-Huddersfield
-HD1 1QA</address>
-		<postcode>HD1 1QA</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.6483912,-1.7806157</lat_lng>
+		<lat_lng>53.592367,-1.8489712</lat_lng>
 		<network>Independent</network>
-		<created>2019-09-09T10:01:13.216303</created>
+		<created>2024-09-04T12:50:13.079211</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/huddersfield/</self>
-			<html>https://www.givefood.org.uk/needs/at/huddersfield/</html>
-			<homepage>https://www.thewelcomecentre.org</homepage>
-			<shopping_list>https://www.thewelcomecentre.org/pages/donatefood</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/crossroads-meltham/</self>
+			<html>https://www.givefood.org.uk/needs/at/crossroads-meltham/</html>
+			<homepage>https://www.thecrossroadsproject.co.uk/our-food-bank/</homepage>
+			<shopping_list>https://www.thecrossroadsproject.co.uk/ways-to-donate/donate-food-items/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1151282</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1151282&amp;subid=0</register_url>
+			<registration_id>1079071</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1079071&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Huddersfield</parliamentary_constituency>
-			<mp>Barry Sheerman</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>411</mp_parl_id>
-			<ward>Newsome</ward>
+			<parliamentary_constituency>Colne Valley</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Holme Valley North</ward>
 			<district>Kirklees</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/huddersfield/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/huddersfield/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/colne-valley/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/colne-valley/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -5003,6 +4884,45 @@ NP24 6EF</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/blaenau-gwent-and-rhymney/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/blaenau-gwent-and-rhymney/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Huddersfield Food Bank</name>
+		<alt_name/>
+		<slug>huddersfield</slug>
+		<phone>01484515086</phone>
+		<secondary_phone/>
+		<email>emma.thewelcomecente@gmail.com</email>
+		<address>15 Lord Street
+Huddersfield
+HD1 1QA</address>
+		<postcode>HD1 1QA</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.6483912,-1.7806157</lat_lng>
+		<network>Independent</network>
+		<created>2019-09-09T10:01:13.216303</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/huddersfield/</self>
+			<html>https://www.givefood.org.uk/needs/at/huddersfield/</html>
+			<homepage>https://www.thewelcomecentre.org</homepage>
+			<shopping_list>https://www.thewelcomecentre.org/pages/donatefood</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1151282</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1151282&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Huddersfield</parliamentary_constituency>
+			<mp>Barry Sheerman</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>411</mp_parl_id>
+			<ward>Newsome</ward>
+			<district>Kirklees</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/huddersfield/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/huddersfield/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -5129,6 +5049,86 @@ CV37 6QY</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Bradford on Avon Food Bank</name>
+		<alt_name/>
+		<slug>bradford-on-avon</slug>
+		<phone>01225920748</phone>
+		<secondary_phone/>
+		<email>info@boahub.co.uk</email>
+		<address>The Hub @ BA15
+Church Street
+Bradford on Avon
+BA15 1LS</address>
+		<postcode>BA15 1LS</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.3478187,-2.2514713</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-20T10:58:30.695744</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/bradford-on-avon/</self>
+			<html>https://www.givefood.org.uk/needs/at/bradford-on-avon/</html>
+			<homepage>https://bradfordonavon.foodbank.org.uk</homepage>
+			<shopping_list>https://bradfordonavon.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1160807</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1160807&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Melksham and Devizes</parliamentary_constituency>
+			<mp>Michelle Donelan</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4530</mp_parl_id>
+			<ward>Bradford-on-Avon South</ward>
+			<district>Wiltshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/melksham-and-devizes/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/melksham-and-devizes/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Burngreave Food Bank</name>
+		<alt_name/>
+		<slug>burngreave</slug>
+		<phone>07542888671</phone>
+		<secondary_phone/>
+		<email>info@burngreave.foodbank.org.uk</email>
+		<address>Rock Christian Centre
+177 Spital Hill
+Sheffield
+S4 7LF</address>
+		<postcode>S4 7LF</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.3918055,-1.4587374</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-10-31T08:44:44.853973</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/burngreave/</self>
+			<html>https://www.givefood.org.uk/needs/at/burngreave/</html>
+			<homepage>https://burngreave.foodbank.org.uk</homepage>
+			<shopping_list>https://burngreave.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1163895</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163895&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Sheffield Brightside and Hillsborough</parliamentary_constituency>
+			<mp>Gill Furniss</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>4571</mp_parl_id>
+			<ward>Burngreave</ward>
+			<district>Sheffield</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/sheffield-brightside-and-hillsborough/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/sheffield-brightside-and-hillsborough/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Open Hands Reigate Food Bank</name>
 		<alt_name/>
 		<slug>open-hands-reigate</slug>
@@ -5165,46 +5165,6 @@ RH2 7LR</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/reigate/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/reigate/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Swanley and District Food Bank</name>
-		<alt_name/>
-		<slug>swanley-and-district</slug>
-		<phone>07798872573</phone>
-		<secondary_phone/>
-		<email>info@swanleydistrict.foodbank.org.uk</email>
-		<address>50 High Street
-Swanley
-Kent
-BR8 8BQ</address>
-		<postcode>BR8 8BQ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.3945036,0.1792576</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-12-28T07:43:56.653275</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/swanley-and-district/</self>
-			<html>https://www.givefood.org.uk/needs/at/swanley-and-district/</html>
-			<homepage>https://swanleydistrict.foodbank.org.uk</homepage>
-			<shopping_list>https://swanleydistrict.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1176505</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1176505&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Sevenoaks</parliamentary_constituency>
-			<mp>Laura Trott</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4780</mp_parl_id>
-			<ward>Swanley Christchurch and Swanley Village</ward>
-			<district>Sevenoaks</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/sevenoaks/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/sevenoaks/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -5411,6 +5371,47 @@ BS23 1QF</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Launceston Food Bank</name>
+		<alt_name/>
+		<slug>launceston</slug>
+		<phone>01566779550</phone>
+		<secondary_phone/>
+		<email>info@launceston.foodbank.org.uk</email>
+		<address>Unit 13D
+Newport Industrial Estate
+Launceston
+Cornwall
+PL15 8EX</address>
+		<postcode>PL15 8EX</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.6407624,-4.358811</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-21T16:15:12.109906</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/launceston/</self>
+			<html>https://www.givefood.org.uk/needs/at/launceston/</html>
+			<homepage>https://launceston.foodbank.org.uk</homepage>
+			<shopping_list>https://launceston.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1146082</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146082&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>North Cornwall</parliamentary_constituency>
+			<mp>Scott Mann</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4496</mp_parl_id>
+			<ward>Launceston South</ward>
+			<district>Cornwall</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/north-cornwall/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/north-cornwall/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Mirfield Food Bank</name>
 		<alt_name/>
 		<slug>mirfield</slug>
@@ -5450,43 +5451,42 @@ WF14 8AB</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Launceston Food Bank</name>
+		<name>Swanley and District Food Bank</name>
 		<alt_name/>
-		<slug>launceston</slug>
-		<phone>01566779550</phone>
+		<slug>swanley-and-district</slug>
+		<phone>07798872573</phone>
 		<secondary_phone/>
-		<email>info@launceston.foodbank.org.uk</email>
-		<address>Unit 13D
-Newport Industrial Estate
-Launceston
-Cornwall
-PL15 8EX</address>
-		<postcode>PL15 8EX</postcode>
+		<email>info@swanleydistrict.foodbank.org.uk</email>
+		<address>50 High Street
+Swanley
+Kent
+BR8 8BQ</address>
+		<postcode>BR8 8BQ</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>50.6407624,-4.358811</lat_lng>
+		<lat_lng>51.3945036,0.1792576</lat_lng>
 		<network>Trussell Trust</network>
-		<created>2020-01-21T16:15:12.109906</created>
+		<created>2019-12-28T07:43:56.653275</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/launceston/</self>
-			<html>https://www.givefood.org.uk/needs/at/launceston/</html>
-			<homepage>https://launceston.foodbank.org.uk</homepage>
-			<shopping_list>https://launceston.foodbank.org.uk/give-help/donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/swanley-and-district/</self>
+			<html>https://www.givefood.org.uk/needs/at/swanley-and-district/</html>
+			<homepage>https://swanleydistrict.foodbank.org.uk</homepage>
+			<shopping_list>https://swanleydistrict.foodbank.org.uk/give-help/donate-food/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1146082</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146082&amp;subid=0</register_url>
+			<registration_id>1176505</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1176505&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>North Cornwall</parliamentary_constituency>
-			<mp>Scott Mann</mp>
+			<parliamentary_constituency>Sevenoaks</parliamentary_constituency>
+			<mp>Laura Trott</mp>
 			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4496</mp_parl_id>
-			<ward>Launceston South</ward>
-			<district>Cornwall</district>
+			<mp_parl_id>4780</mp_parl_id>
+			<ward>Swanley Christchurch and Swanley Village</ward>
+			<district>Sevenoaks</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/north-cornwall/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/north-cornwall/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/sevenoaks/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/sevenoaks/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -5567,47 +5567,6 @@ PO5 4QA</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/portsmouth-south/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/portsmouth-south/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>St Austell Food Bank</name>
-		<alt_name/>
-		<slug>st-austell</slug>
-		<phone>0172665313</phone>
-		<secondary_phone/>
-		<email>info@staustell.foodbank.org.uk</email>
-		<address>The Light &amp; Life Centre
-Units 4-5 Brunel Business Park
-The Sidings
-St Austell
-PL25 4TJ</address>
-		<postcode>PL25 4TJ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>50.33904889999999,-4.7811723</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-12-29T04:27:22.369991</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/st-austell/</self>
-			<html>https://www.givefood.org.uk/needs/at/st-austell/</html>
-			<homepage>https://staustell.foodbank.org.uk</homepage>
-			<shopping_list>https://staustell.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1128866</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1128866&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>St Austell and Newquay</parliamentary_constituency>
-			<mp>Steve Double</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4452</mp_parl_id>
-			<ward>St Austell Poltair &amp; Mount Charles</ward>
-			<district>Cornwall</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/st-austell-and-newquay/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/st-austell-and-newquay/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -5814,84 +5773,6 @@ NW10 2TS</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>ReadiFood Food Bank</name>
-		<alt_name/>
-		<slug>readifood</slug>
-		<phone>01189872672</phone>
-		<secondary_phone/>
-		<email>director@fcg.org.uk</email>
-		<address>31-33 Boulton Road
-Reading
-RG2 0NH</address>
-		<postcode>RG2 0NH</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.4364199,-0.9738353</lat_lng>
-		<network>IFAN</network>
-		<created>2020-09-18T06:51:49.649081</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/readifood/</self>
-			<html>https://www.givefood.org.uk/needs/at/readifood/</html>
-			<homepage>https://fcg.org.uk/readifood/</homepage>
-			<shopping_list>https://fcg.org.uk/support-us/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1163355</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163355&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Reading Central</parliamentary_constituency>
-			<mp>Matt Rodda</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>4654</mp_parl_id>
-			<ward>Katesgrove</ward>
-			<district>Reading</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/reading-central/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/reading-central/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>EATS Rosyth Food Bank</name>
-		<alt_name/>
-		<slug>eats-rosyth</slug>
-		<phone>01383414756</phone>
-		<secondary_phone/>
-		<email>info@eatsrosyth.org.uk</email>
-		<address>115A Queensferry Road
-Rosyth
-KY11 2PS</address>
-		<postcode>KY11 2PS</postcode>
-		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>56.041434,-3.4257831</lat_lng>
-		<network>IFAN</network>
-		<created>2020-09-02T08:38:15.887888</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/eats-rosyth/</self>
-			<html>https://www.givefood.org.uk/needs/at/eats-rosyth/</html>
-			<homepage>https://www.eatsrosyth.org.uk</homepage>
-			<shopping_list>https://www.eatsrosyth.org.uk/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>SC048688</registration_id>
-			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC048688</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Dunfermline and Dollar</parliamentary_constituency>
-			<mp>Douglas Chapman</mp>
-			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4402</mp_parl_id>
-			<ward>Rosyth</ward>
-			<district>Fife</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/dunfermline-and-dollar/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/dunfermline-and-dollar/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Pembrokeshire Food Bank</name>
 		<alt_name/>
 		<slug>pembrokeshire</slug>
@@ -5929,6 +5810,86 @@ SA67 7AU</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/mid-and-south-pembrokeshire/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/mid-and-south-pembrokeshire/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>St Austell Food Bank</name>
+		<alt_name/>
+		<slug>st-austell</slug>
+		<phone>0172665313</phone>
+		<secondary_phone/>
+		<email>info@staustell.foodbank.org.uk</email>
+		<address>The Light &amp; Life Centre
+Units 4-5 Brunel Business Park
+The Sidings
+St Austell
+PL25 4TJ</address>
+		<postcode>PL25 4TJ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.33904889999999,-4.7811723</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-12-29T04:27:22.369991</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/st-austell/</self>
+			<html>https://www.givefood.org.uk/needs/at/st-austell/</html>
+			<homepage>https://staustell.foodbank.org.uk</homepage>
+			<shopping_list>https://staustell.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1128866</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1128866&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>St Austell and Newquay</parliamentary_constituency>
+			<mp>Steve Double</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4452</mp_parl_id>
+			<ward>St Austell Poltair &amp; Mount Charles</ward>
+			<district>Cornwall</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/st-austell-and-newquay/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/st-austell-and-newquay/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>ReadiFood Food Bank</name>
+		<alt_name/>
+		<slug>readifood</slug>
+		<phone>01189872672</phone>
+		<secondary_phone/>
+		<email>director@fcg.org.uk</email>
+		<address>31-33 Boulton Road
+Reading
+RG2 0NH</address>
+		<postcode>RG2 0NH</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.4364199,-0.9738353</lat_lng>
+		<network>IFAN</network>
+		<created>2020-09-18T06:51:49.649081</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/readifood/</self>
+			<html>https://www.givefood.org.uk/needs/at/readifood/</html>
+			<homepage>https://fcg.org.uk/readifood/</homepage>
+			<shopping_list>https://fcg.org.uk/support-us/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1163355</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163355&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Reading Central</parliamentary_constituency>
+			<mp>Matt Rodda</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>4654</mp_parl_id>
+			<ward>Katesgrove</ward>
+			<district>Reading</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/reading-central/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/reading-central/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -5973,42 +5934,41 @@ TN8 5AR</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Leslie Community Pantry Food Bank</name>
+		<name>EATS Rosyth Food Bank</name>
 		<alt_name/>
-		<slug>leslie-community-pantry</slug>
-		<phone>07730789255</phone>
+		<slug>eats-rosyth</slug>
+		<phone>01383414756</phone>
 		<secondary_phone/>
-		<email>info@lesliecommunitypantry.co.uk</email>
-		<address>Quarry Park Sports Pavilion
-Back Braes
-Leslie
-KY6 3EZ</address>
-		<postcode>KY6 3EZ</postcode>
+		<email>info@eatsrosyth.org.uk</email>
+		<address>115A Queensferry Road
+Rosyth
+KY11 2PS</address>
+		<postcode>KY11 2PS</postcode>
 		<closed>false</closed>
 		<country>Scotland</country>
-		<lat_lng>56.2040401,-3.2125496</lat_lng>
-		<network>Independent</network>
-		<created>2021-12-31T17:47:17.017523</created>
+		<lat_lng>56.041434,-3.4257831</lat_lng>
+		<network>IFAN</network>
+		<created>2020-09-02T08:38:15.887888</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/leslie-community-pantry/</self>
-			<html>https://www.givefood.org.uk/needs/at/leslie-community-pantry/</html>
-			<homepage>https://lesliecommunitypantry.co.uk</homepage>
-			<shopping_list>https://lesliecommunitypantry.co.uk</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/eats-rosyth/</self>
+			<html>https://www.givefood.org.uk/needs/at/eats-rosyth/</html>
+			<homepage>https://www.eatsrosyth.org.uk</homepage>
+			<shopping_list>https://www.eatsrosyth.org.uk/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>SCO050633</registration_id>
-			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SCO050633</register_url>
+			<registration_id>SC048688</registration_id>
+			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC048688</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Glenrothes and Mid Fife</parliamentary_constituency>
-			<mp>Peter Grant</mp>
+			<parliamentary_constituency>Dunfermline and Dollar</parliamentary_constituency>
+			<mp>Douglas Chapman</mp>
 			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4466</mp_parl_id>
-			<ward>Glenrothes North, Leslie and Markinch</ward>
+			<mp_parl_id>4402</mp_parl_id>
+			<ward>Rosyth</ward>
 			<district>Fife</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/glenrothes-and-mid-fife/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/glenrothes-and-mid-fife/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/dunfermline-and-dollar/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/dunfermline-and-dollar/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -6214,81 +6174,42 @@ BT45 5AH</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Trinity Mission Hope Centre Food Bank</name>
+		<name>Leslie Community Pantry Food Bank</name>
 		<alt_name/>
-		<slug>trinity-mission-hope-centre</slug>
-		<phone>07741287150</phone>
-		<secondary_phone>07834770017</secondary_phone>
-		<email>stephanie@trinitymission.org.uk</email>
-		<address>Hope St East
-Castleford
-WF10 1DZ</address>
-		<postcode>WF10 1DZ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.72505229999999,-1.3540367</lat_lng>
-		<network>Independent</network>
-		<created>2023-09-15T06:35:02.677265</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/trinity-mission-hope-centre/</self>
-			<html>https://www.givefood.org.uk/needs/at/trinity-mission-hope-centre/</html>
-			<homepage>https://www.trinitymission.org.uk</homepage>
-			<shopping_list>https://www.trinitymission.org.uk/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1166064</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1166064&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Pontefract, Castleford and Knottingley</parliamentary_constituency>
-			<mp>Yvette Cooper</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>420</mp_parl_id>
-			<ward>Castleford Central and Glasshoughton</ward>
-			<district>Wakefield</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/pontefract-castleford-and-knottingley/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/pontefract-castleford-and-knottingley/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>West Lothian Food Bank</name>
-		<alt_name/>
-		<slug>west-lothian</slug>
-		<phone>01501229307</phone>
+		<slug>leslie-community-pantry</slug>
+		<phone>07730789255</phone>
 		<secondary_phone/>
-		<email>info@westlothian.foodbank.org.uk</email>
-		<address>36A Inchmuir Road
-Whitehill Industrial Estate
-Bathgate
-EH48 2EP</address>
-		<postcode>EH48 2EP</postcode>
+		<email>info@lesliecommunitypantry.co.uk</email>
+		<address>Quarry Park Sports Pavilion
+Back Braes
+Leslie
+KY6 3EZ</address>
+		<postcode>KY6 3EZ</postcode>
 		<closed>false</closed>
 		<country>Scotland</country>
-		<lat_lng>55.8844291,-3.6291813</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-11-05T06:53:09.108954</created>
+		<lat_lng>56.2040401,-3.2125496</lat_lng>
+		<network>Independent</network>
+		<created>2021-12-31T17:47:17.017523</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/west-lothian/</self>
-			<html>https://www.givefood.org.uk/needs/at/west-lothian/</html>
-			<homepage>https://westlothian.foodbank.org.uk</homepage>
-			<shopping_list>https://westlothian.foodbank.org.uk/give-help/donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/leslie-community-pantry/</self>
+			<html>https://www.givefood.org.uk/needs/at/leslie-community-pantry/</html>
+			<homepage>https://lesliecommunitypantry.co.uk</homepage>
+			<shopping_list>https://lesliecommunitypantry.co.uk</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>SC048112</registration_id>
-			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC048112</register_url>
+			<registration_id>SCO050633</registration_id>
+			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SCO050633</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Bathgate and Linlithgow</parliamentary_constituency>
-			<mp>Hannah Bardell</mp>
+			<parliamentary_constituency>Glenrothes and Mid Fife</parliamentary_constituency>
+			<mp>Peter Grant</mp>
 			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4486</mp_parl_id>
-			<ward>Whitburn and Blackburn</ward>
-			<district>West Lothian</district>
+			<mp_parl_id>4466</mp_parl_id>
+			<ward>Glenrothes North, Leslie and Markinch</ward>
+			<district>Fife</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/bathgate-and-linlithgow/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/bathgate-and-linlithgow/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/glenrothes-and-mid-fife/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/glenrothes-and-mid-fife/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -6375,42 +6296,81 @@ BT19 7QT</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Dunbar Foodshare Food Bank</name>
+		<name>Trinity Mission Hope Centre Food Bank</name>
 		<alt_name/>
-		<slug>dunbar-foodshare</slug>
-		<phone/>
-		<secondary_phone/>
-		<email>enquiries@dunbarfoodshare.org</email>
-		<address>Dunbar Parish Church Hall
-32A High Street
-Dunbar
-EH42 1AA</address>
-		<postcode>EH42 1AA</postcode>
+		<slug>trinity-mission-hope-centre</slug>
+		<phone>07741287150</phone>
+		<secondary_phone>07834770017</secondary_phone>
+		<email>stephanie@trinitymission.org.uk</email>
+		<address>Hope St East
+Castleford
+WF10 1DZ</address>
+		<postcode>WF10 1DZ</postcode>
 		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>56.000843,-2.5149357</lat_lng>
-		<network>IFAN</network>
-		<created>2020-09-01T16:46:30.063875</created>
+		<country>England</country>
+		<lat_lng>53.72505229999999,-1.3540367</lat_lng>
+		<network>Independent</network>
+		<created>2023-09-15T06:35:02.677265</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/dunbar-foodshare/</self>
-			<html>https://www.givefood.org.uk/needs/at/dunbar-foodshare/</html>
-			<homepage>https://www.dunbarfoodshare.org</homepage>
-			<shopping_list>https://www.dunbarfoodshare.org</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/trinity-mission-hope-centre/</self>
+			<html>https://www.givefood.org.uk/needs/at/trinity-mission-hope-centre/</html>
+			<homepage>https://www.trinitymission.org.uk</homepage>
+			<shopping_list>https://www.trinitymission.org.uk/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id/>
-			<register_url/>
+			<registration_id>1166064</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1166064&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Lothian East</parliamentary_constituency>
-			<mp>Kenny MacAskill</mp>
-			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4772</mp_parl_id>
-			<ward>Dunbar and East Linton</ward>
-			<district>East Lothian</district>
+			<parliamentary_constituency>Pontefract, Castleford and Knottingley</parliamentary_constituency>
+			<mp>Yvette Cooper</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>420</mp_parl_id>
+			<ward>Castleford Central and Glasshoughton</ward>
+			<district>Wakefield</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/lothian-east/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/lothian-east/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/pontefract-castleford-and-knottingley/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/pontefract-castleford-and-knottingley/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>West Lothian Food Bank</name>
+		<alt_name/>
+		<slug>west-lothian</slug>
+		<phone>01501229307</phone>
+		<secondary_phone/>
+		<email>info@westlothian.foodbank.org.uk</email>
+		<address>36A Inchmuir Road
+Whitehill Industrial Estate
+Bathgate
+EH48 2EP</address>
+		<postcode>EH48 2EP</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>55.8844291,-3.6291813</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-11-05T06:53:09.108954</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/west-lothian/</self>
+			<html>https://www.givefood.org.uk/needs/at/west-lothian/</html>
+			<homepage>https://westlothian.foodbank.org.uk</homepage>
+			<shopping_list>https://westlothian.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>SC048112</registration_id>
+			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC048112</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Bathgate and Linlithgow</parliamentary_constituency>
+			<mp>Hannah Bardell</mp>
+			<mp_party>Scottish National</mp_party>
+			<mp_parl_id>4486</mp_parl_id>
+			<ward>Whitburn and Blackburn</ward>
+			<district>West Lothian</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/bathgate-and-linlithgow/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/bathgate-and-linlithgow/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -6451,46 +6411,6 @@ YO8 4QB</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/selby/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/selby/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Louth's Community Larder Food Bank</name>
-		<alt_name/>
-		<slug>louths-community-larder</slug>
-		<phone>01507610247</phone>
-		<secondary_phone/>
-		<email>trinity@teamparishoflouth.org.uk</email>
-		<address>Trinity Centre
-Eastgate
-Louth
-LN11 8DJ</address>
-		<postcode>LN11 8DJ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.369212,0.007183300000000001</lat_lng>
-		<network>Independent</network>
-		<created>2022-07-04T14:36:48.426410</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/louths-community-larder/</self>
-			<html>https://www.givefood.org.uk/needs/at/louths-community-larder/</html>
-			<homepage>https://www.teamparishoflouth.org.uk/community/louths-community-larder</homepage>
-			<shopping_list>https://www.teamparishoflouth.org.uk/community/louths-community-larder/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Louth and Horncastle</parliamentary_constituency>
-			<mp>Victoria Atkins</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4399</mp_parl_id>
-			<ward>Priory &amp; St James'</ward>
-			<district>East Lindsey</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/louth-and-horncastle/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/louth-and-horncastle/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -6700,6 +6620,46 @@ PA4 8DJ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Louth's Community Larder Food Bank</name>
+		<alt_name/>
+		<slug>louths-community-larder</slug>
+		<phone>01507610247</phone>
+		<secondary_phone/>
+		<email>trinity@teamparishoflouth.org.uk</email>
+		<address>Trinity Centre
+Eastgate
+Louth
+LN11 8DJ</address>
+		<postcode>LN11 8DJ</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.369212,0.007183300000000001</lat_lng>
+		<network>Independent</network>
+		<created>2022-07-04T14:36:48.426410</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/louths-community-larder/</self>
+			<html>https://www.givefood.org.uk/needs/at/louths-community-larder/</html>
+			<homepage>https://www.teamparishoflouth.org.uk/community/louths-community-larder</homepage>
+			<shopping_list>https://www.teamparishoflouth.org.uk/community/louths-community-larder/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Louth and Horncastle</parliamentary_constituency>
+			<mp>Victoria Atkins</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4399</mp_parl_id>
+			<ward>Priory &amp; St James'</ward>
+			<district>East Lindsey</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/louth-and-horncastle/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/louth-and-horncastle/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Living Well Bromley Food Bank</name>
 		<alt_name/>
 		<slug>living-well-bromley</slug>
@@ -6736,6 +6696,86 @@ SE20 7LX</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/beckenham-and-penge/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/beckenham-and-penge/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Dunbar Foodshare Food Bank</name>
+		<alt_name/>
+		<slug>dunbar-foodshare</slug>
+		<phone/>
+		<secondary_phone/>
+		<email>enquiries@dunbarfoodshare.org</email>
+		<address>Dunbar Parish Church Hall
+32A High Street
+Dunbar
+EH42 1AA</address>
+		<postcode>EH42 1AA</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>56.000843,-2.5149357</lat_lng>
+		<network>IFAN</network>
+		<created>2020-09-01T16:46:30.063875</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/dunbar-foodshare/</self>
+			<html>https://www.givefood.org.uk/needs/at/dunbar-foodshare/</html>
+			<homepage>https://www.dunbarfoodshare.org</homepage>
+			<shopping_list>https://www.dunbarfoodshare.org</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Lothian East</parliamentary_constituency>
+			<mp>Kenny MacAskill</mp>
+			<mp_party>Scottish National</mp_party>
+			<mp_parl_id>4772</mp_parl_id>
+			<ward>Dunbar and East Linton</ward>
+			<district>East Lothian</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/lothian-east/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/lothian-east/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Eastbourne Food Bank</name>
+		<alt_name/>
+		<slug>eastbourne</slug>
+		<phone>01323409925</phone>
+		<secondary_phone/>
+		<email>admin@eastbourne.foodbank.org.uk</email>
+		<address>Unit 3
+55 Brampton Road
+Eastbourne
+BN22 9AF</address>
+		<postcode>BN22 9AF</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.7924759,0.2828774</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-12-28T06:02:39.165781</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/eastbourne/</self>
+			<html>https://www.givefood.org.uk/needs/at/eastbourne/</html>
+			<homepage>https://eastbourne.foodbank.org.uk</homepage>
+			<shopping_list>https://eastbourne.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1149902</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1149902&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Eastbourne</parliamentary_constituency>
+			<mp>Caroline Ansell</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4512</mp_parl_id>
+			<ward>Hampden Park</ward>
+			<district>Eastbourne</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/eastbourne/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/eastbourne/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -6777,46 +6817,6 @@ BR6 0RZ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/orpington/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/orpington/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Eastbourne Food Bank</name>
-		<alt_name/>
-		<slug>eastbourne</slug>
-		<phone>01323409925</phone>
-		<secondary_phone/>
-		<email>admin@eastbourne.foodbank.org.uk</email>
-		<address>Unit 3
-55 Brampton Road
-Eastbourne
-BN22 9AF</address>
-		<postcode>BN22 9AF</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>50.7924759,0.2828774</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-12-28T06:02:39.165781</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/eastbourne/</self>
-			<html>https://www.givefood.org.uk/needs/at/eastbourne/</html>
-			<homepage>https://eastbourne.foodbank.org.uk</homepage>
-			<shopping_list>https://eastbourne.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1149902</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1149902&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Eastbourne</parliamentary_constituency>
-			<mp>Caroline Ansell</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4512</mp_parl_id>
-			<ward>Hampden Park</ward>
-			<district>Eastbourne</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/eastbourne/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/eastbourne/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -6982,46 +6982,6 @@ CF37 1BW</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Staffordshire Food and Furniture Bank</name>
-		<alt_name/>
-		<slug>staffordshire-food-and-furniture-bank</slug>
-		<phone>07368356290</phone>
-		<secondary_phone/>
-		<email>staffsfoodbank@gmail.com</email>
-		<address>78 Waterloo Road
-Burslem
-Stoke-on-Trent
-ST6 3EX</address>
-		<postcode>ST6 3EX</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.042393,-2.1938706</lat_lng>
-		<network>Independent</network>
-		<created>2023-10-29T09:54:45.211757</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/staffordshire-food-and-furniture-bank/</self>
-			<html>https://www.givefood.org.uk/needs/at/staffordshire-food-and-furniture-bank/</html>
-			<homepage>https://www.sfafb.co.uk</homepage>
-			<shopping_list>https://www.sfafb.co.uk/contact-us-donate/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Stoke-on-Trent North</parliamentary_constituency>
-			<mp>Jonathan Gullis</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4814</mp_parl_id>
-			<ward>Moorcroft &amp; Sneyd Green</ward>
-			<district>Stoke-on-Trent</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/stoke-on-trent-north/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/stoke-on-trent-north/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Chepstow Food Bank</name>
 		<alt_name/>
 		<slug>chepstow</slug>
@@ -7059,6 +7019,46 @@ NP16 5QZ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/monmouthshire/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/monmouthshire/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Staffordshire Food and Furniture Bank</name>
+		<alt_name/>
+		<slug>staffordshire-food-and-furniture-bank</slug>
+		<phone>07368356290</phone>
+		<secondary_phone/>
+		<email>staffsfoodbank@gmail.com</email>
+		<address>78 Waterloo Road
+Burslem
+Stoke-on-Trent
+ST6 3EX</address>
+		<postcode>ST6 3EX</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.042393,-2.1938706</lat_lng>
+		<network>Independent</network>
+		<created>2023-10-29T09:54:45.211757</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/staffordshire-food-and-furniture-bank/</self>
+			<html>https://www.givefood.org.uk/needs/at/staffordshire-food-and-furniture-bank/</html>
+			<homepage>https://www.sfafb.co.uk</homepage>
+			<shopping_list>https://www.sfafb.co.uk/contact-us-donate/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Stoke-on-Trent North</parliamentary_constituency>
+			<mp>Jonathan Gullis</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4814</mp_parl_id>
+			<ward>Moorcroft &amp; Sneyd Green</ward>
+			<district>Stoke-on-Trent</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/stoke-on-trent-north/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/stoke-on-trent-north/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -7104,42 +7104,44 @@ DD6 8LJ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Plymouth Food Bank</name>
+		<name>River Network Food Bank</name>
 		<alt_name/>
-		<slug>plymouth</slug>
-		<phone>01752254981</phone>
+		<slug>river-network</slug>
+		<phone>01629343108</phone>
 		<secondary_phone/>
-		<email>info@plymouth.foodbank.org.uk</email>
-		<address>The Oasis Project
-28 Manor Street 
-Plymouth
-PL1 1TW</address>
-		<postcode>PL1 1TW</postcode>
+		<email>operations@rivernetworkcharity.org.uk</email>
+		<address>Cromford Creative
+Cromford Mills
+Mill Road
+Cromford
+Matlock
+DE4 3RQ</address>
+		<postcode>DE4 3RQ</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>50.3707091,-4.1543097</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-07-13T11:48:10.689997</created>
+		<lat_lng>53.1090805,-1.5558966</lat_lng>
+		<network>Independent</network>
+		<created>2024-09-05T14:29:08.973033</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/plymouth/</self>
-			<html>https://www.givefood.org.uk/needs/at/plymouth/</html>
-			<homepage>https://plymouth.foodbank.org.uk</homepage>
-			<shopping_list>https://plymouth.foodbank.org.uk/give-help/donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/river-network/</self>
+			<html>https://www.givefood.org.uk/needs/at/river-network/</html>
+			<homepage>https://rivernetworkcharity.org.uk/foodbank/</homepage>
+			<shopping_list>https://rivernetworkcharity.org.uk/foodbank/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1129521</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1129521&amp;subid=0</register_url>
+			<registration_id>1173794</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1173794&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Plymouth Sutton and Devonport</parliamentary_constituency>
-			<mp>Luke Pollard</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>4682</mp_parl_id>
-			<ward>St Peter and the Waterfront</ward>
-			<district>Plymouth</district>
+			<parliamentary_constituency>Derbyshire Dales</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Cromford &amp; Matlock Bath</ward>
+			<district>Derbyshire Dales</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/plymouth-sutton-and-devonport/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/plymouth-sutton-and-devonport/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/derbyshire-dales/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/derbyshire-dales/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -7179,89 +7181,6 @@ NG12 4AP</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/rushcliffe/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/rushcliffe/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>St Helens Food Bank</name>
-		<alt_name/>
-		<slug>st-helens</slug>
-		<phone>0174426414</phone>
-		<secondary_phone/>
-		<email>info@sthelens.foodbank.org.uk</email>
-		<address>The Hope Centre
-Atherton Street
-St Helens
-Merseyside
-WA10 2DT</address>
-		<postcode>WA10 2DT</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.45762879999999,-2.7439507</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-07T08:20:25.953161</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/st-helens/</self>
-			<html>https://www.givefood.org.uk/needs/at/st-helens/</html>
-			<homepage>https://sthelens.foodbank.org.uk</homepage>
-			<shopping_list>https://sthelens.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1103903</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1103903&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>St Helens North</parliamentary_constituency>
-			<mp>Conor McGinn</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>4458</mp_parl_id>
-			<ward>Windle</ward>
-			<district>St. Helens</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/st-helens-north/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/st-helens-north/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>River Network Food Bank</name>
-		<alt_name/>
-		<slug>river-network</slug>
-		<phone>01629343108</phone>
-		<secondary_phone/>
-		<email>operations@rivernetworkcharity.org.uk</email>
-		<address>Cromford Creative
-Cromford Mills
-Mill Road
-Cromford
-Matlock
-DE4 3RQ</address>
-		<postcode>DE4 3RQ</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.1090805,-1.5558966</lat_lng>
-		<network>Independent</network>
-		<created>2024-09-05T14:29:08.973033</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/river-network/</self>
-			<html>https://www.givefood.org.uk/needs/at/river-network/</html>
-			<homepage>https://rivernetworkcharity.org.uk/foodbank/</homepage>
-			<shopping_list>https://rivernetworkcharity.org.uk/foodbank/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1173794</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1173794&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Derbyshire Dales</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Cromford &amp; Matlock Bath</ward>
-			<district>Derbyshire Dales</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/derbyshire-dales/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/derbyshire-dales/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -7389,6 +7308,46 @@ ST5 6AZ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Plymouth Food Bank</name>
+		<alt_name/>
+		<slug>plymouth</slug>
+		<phone>01752254981</phone>
+		<secondary_phone/>
+		<email>info@plymouth.foodbank.org.uk</email>
+		<address>The Oasis Project
+28 Manor Street 
+Plymouth
+PL1 1TW</address>
+		<postcode>PL1 1TW</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.3707091,-4.1543097</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-07-13T11:48:10.689997</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/plymouth/</self>
+			<html>https://www.givefood.org.uk/needs/at/plymouth/</html>
+			<homepage>https://plymouth.foodbank.org.uk</homepage>
+			<shopping_list>https://plymouth.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1129521</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1129521&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Plymouth Sutton and Devonport</parliamentary_constituency>
+			<mp>Luke Pollard</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>4682</mp_parl_id>
+			<ward>St Peter and the Waterfront</ward>
+			<district>Plymouth</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/plymouth-sutton-and-devonport/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/plymouth-sutton-and-devonport/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>East Dunbartonshire Food Bank</name>
 		<alt_name/>
 		<slug>east-dunbartonshire</slug>
@@ -7430,42 +7389,43 @@ G66 1NL</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Middlesbrough Food Bank</name>
+		<name>St Helens Food Bank</name>
 		<alt_name/>
-		<slug>middlesbrough</slug>
-		<phone>07954131337</phone>
+		<slug>st-helens</slug>
+		<phone>0174426414</phone>
 		<secondary_phone/>
-		<email>info@middlesbrough.foodbank.org.uk</email>
-		<address>Unit 14-15 Newport Way
-Cannon Park
-Middlesbrough
-TS1 5JW</address>
-		<postcode>TS1 5JW</postcode>
+		<email>info@sthelens.foodbank.org.uk</email>
+		<address>The Hope Centre
+Atherton Street
+St Helens
+Merseyside
+WA10 2DT</address>
+		<postcode>WA10 2DT</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>54.57497859999999,-1.2518419</lat_lng>
+		<lat_lng>53.45762879999999,-2.7439507</lat_lng>
 		<network>Trussell Trust</network>
-		<created>2019-07-13T11:02:55.178988</created>
+		<created>2020-01-07T08:20:25.953161</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/middlesbrough/</self>
-			<html>https://www.givefood.org.uk/needs/at/middlesbrough/</html>
-			<homepage>https://middlesbrough.foodbank.org.uk</homepage>
-			<shopping_list>https://middlesbrough.foodbank.org.uk/give-help/donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/st-helens/</self>
+			<html>https://www.givefood.org.uk/needs/at/st-helens/</html>
+			<homepage>https://sthelens.foodbank.org.uk</homepage>
+			<shopping_list>https://sthelens.foodbank.org.uk/give-help/donate-food/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1151665</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1151665&amp;subid=0</register_url>
+			<registration_id>1103903</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1103903&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Middlesbrough and Thornaby East</parliamentary_constituency>
-			<mp>Andy McDonald</mp>
+			<parliamentary_constituency>St Helens North</parliamentary_constituency>
+			<mp>Conor McGinn</mp>
 			<mp_party>Labour</mp_party>
-			<mp_parl_id>4269</mp_parl_id>
-			<ward>Newport</ward>
-			<district>Middlesbrough</district>
+			<mp_parl_id>4458</mp_parl_id>
+			<ward>Windle</ward>
+			<district>St. Helens</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/middlesbrough-and-thornaby-east/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/middlesbrough-and-thornaby-east/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/st-helens-north/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/st-helens-north/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -7593,6 +7553,46 @@ KT12 2TZ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Kensington &amp; Chelsea Food Bank</name>
+		<alt_name/>
+		<slug>kensington-chelsea</slug>
+		<phone>02037289003</phone>
+		<secondary_phone/>
+		<email>info@kensingtonchelsea.foodbank.org.uk</email>
+		<address>Notting Hill Methodist Church
+240 Lancaster Rd
+London
+W11 4AH</address>
+		<postcode>W11 4AH</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.5150198,-0.2139442</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-02T16:42:44.401023</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/kensington-chelsea/</self>
+			<html>https://www.givefood.org.uk/needs/at/kensington-chelsea/</html>
+			<homepage>https://kensingtonchelsea.foodbank.org.uk</homepage>
+			<shopping_list>https://kensingtonchelsea.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1127356</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1127356&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Kensington and Bayswater</parliamentary_constituency>
+			<mp>Felicity Buchan</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4821</mp_parl_id>
+			<ward>Notting Dale</ward>
+			<district>Kensington and Chelsea</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/kensington-and-bayswater/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/kensington-and-bayswater/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Nourish Food Bank</name>
 		<alt_name/>
 		<slug>nourish</slug>
@@ -7633,42 +7633,42 @@ DT11 7PY</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Kensington &amp; Chelsea Food Bank</name>
+		<name>Tameside South &amp; Longdendale Food Bank</name>
 		<alt_name/>
-		<slug>kensington-chelsea</slug>
-		<phone>02037289003</phone>
+		<slug>tameside-south-longdendale</slug>
+		<phone>07901786905</phone>
 		<secondary_phone/>
-		<email>info@kensingtonchelsea.foodbank.org.uk</email>
-		<address>Notting Hill Methodist Church
-240 Lancaster Rd
-London
-W11 4AH</address>
-		<postcode>W11 4AH</postcode>
+		<email>info@tamesidesouthlongdendale.foodbank.org.uk</email>
+		<address>Hattersley Baptist Church
+Melandra Crescent
+Hattersley
+SK14 3RB</address>
+		<postcode>SK14 3RB</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>51.5150198,-0.2139442</lat_lng>
+		<lat_lng>53.4499941,-2.0248679</lat_lng>
 		<network>Trussell Trust</network>
-		<created>2020-01-02T16:42:44.401023</created>
+		<created>2019-11-20T14:32:47.204416</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/kensington-chelsea/</self>
-			<html>https://www.givefood.org.uk/needs/at/kensington-chelsea/</html>
-			<homepage>https://kensingtonchelsea.foodbank.org.uk</homepage>
-			<shopping_list>https://kensingtonchelsea.foodbank.org.uk/give-help/donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/tameside-south-longdendale/</self>
+			<html>https://www.givefood.org.uk/needs/at/tameside-south-longdendale/</html>
+			<homepage>https://tamesidesouthlongdendale.foodbank.org.uk</homepage>
+			<shopping_list>https://tamesidesouthlongdendale.foodbank.org.uk/give-help/donate-food/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1127356</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1127356&amp;subid=0</register_url>
+			<registration_id>1154277</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1154277&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Kensington and Bayswater</parliamentary_constituency>
-			<mp>Felicity Buchan</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4821</mp_parl_id>
-			<ward>Notting Dale</ward>
-			<district>Kensington and Chelsea</district>
+			<parliamentary_constituency>Stalybridge and Hyde</parliamentary_constituency>
+			<mp>Jonathan Reynolds</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>4119</mp_parl_id>
+			<ward>Longdendale</ward>
+			<district>Tameside</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/kensington-and-bayswater/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/kensington-and-bayswater/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/stalybridge-and-hyde/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/stalybridge-and-hyde/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -7714,42 +7714,42 @@ LE3 5GH</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Tameside South &amp; Longdendale Food Bank</name>
+		<name>Middlesbrough Food Bank</name>
 		<alt_name/>
-		<slug>tameside-south-longdendale</slug>
-		<phone>07901786905</phone>
+		<slug>middlesbrough</slug>
+		<phone>07954131337</phone>
 		<secondary_phone/>
-		<email>info@tamesidesouthlongdendale.foodbank.org.uk</email>
-		<address>Hattersley Baptist Church
-Melandra Crescent
-Hattersley
-SK14 3RB</address>
-		<postcode>SK14 3RB</postcode>
+		<email>info@middlesbrough.foodbank.org.uk</email>
+		<address>Unit 14-15 Newport Way
+Cannon Park
+Middlesbrough
+TS1 5JW</address>
+		<postcode>TS1 5JW</postcode>
 		<closed>false</closed>
 		<country>England</country>
-		<lat_lng>53.4499941,-2.0248679</lat_lng>
+		<lat_lng>54.57497859999999,-1.2518419</lat_lng>
 		<network>Trussell Trust</network>
-		<created>2019-11-20T14:32:47.204416</created>
+		<created>2019-07-13T11:02:55.178988</created>
 		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/tameside-south-longdendale/</self>
-			<html>https://www.givefood.org.uk/needs/at/tameside-south-longdendale/</html>
-			<homepage>https://tamesidesouthlongdendale.foodbank.org.uk</homepage>
-			<shopping_list>https://tamesidesouthlongdendale.foodbank.org.uk/give-help/donate-food/</shopping_list>
+			<self>https://www.givefood.org.uk/api/2/foodbank/middlesbrough/</self>
+			<html>https://www.givefood.org.uk/needs/at/middlesbrough/</html>
+			<homepage>https://middlesbrough.foodbank.org.uk</homepage>
+			<shopping_list>https://middlesbrough.foodbank.org.uk/give-help/donate-food/</shopping_list>
 		</urls>
 		<charity>
-			<registration_id>1154277</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1154277&amp;subid=0</register_url>
+			<registration_id>1151665</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1151665&amp;subid=0</register_url>
 		</charity>
 		<politics>
-			<parliamentary_constituency>Stalybridge and Hyde</parliamentary_constituency>
-			<mp>Jonathan Reynolds</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>4119</mp_parl_id>
-			<ward>Longdendale</ward>
-			<district>Tameside</district>
+			<parliamentary_constituency>Middlesbrough and Thornaby East</parliamentary_constituency>
+			<mp>Andy McDonald</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>4269</mp_parl_id>
+			<ward>Newport</ward>
+			<district>Middlesbrough</district>
 			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/stalybridge-and-hyde/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/stalybridge-and-hyde/</html>
+				<self>https://www.givefood.org.uk/api/2/constituency/middlesbrough-and-thornaby-east/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/middlesbrough-and-thornaby-east/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -7791,85 +7791,6 @@ PA43 7HL</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/argyll-bute-and-south-lochaber/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/argyll-bute-and-south-lochaber/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Waterloo Food Bank</name>
-		<alt_name/>
-		<slug>waterloo</slug>
-		<phone>02079214205</phone>
-		<secondary_phone/>
-		<email>foodbank@oasiswaterloo.org</email>
-		<address>Oasis UK
-1 Kennington Road
-London
-SE1 7QP</address>
-		<postcode>SE1 7QP</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.49819,-0.1118859</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-08-21T07:14:57.088375</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/waterloo/</self>
-			<html>https://www.givefood.org.uk/needs/at/waterloo/</html>
-			<homepage>https://waterloo.foodbank.org.uk</homepage>
-			<shopping_list>https://waterloo.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1136965</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1136965&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Vauxhall and Camberwell Green</parliamentary_constituency>
-			<mp>Florence Eshalomi</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>4870</mp_parl_id>
-			<ward>Waterloo &amp; South Bank</ward>
-			<district>Lambeth</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/vauxhall-and-camberwell-green/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/vauxhall-and-camberwell-green/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Droitwich Spa Food Bank</name>
-		<alt_name/>
-		<slug>droitwich-spa</slug>
-		<phone>07532130604</phone>
-		<secondary_phone/>
-		<email>info@droitwichspa.foodbank.org.uk</email>
-		<address>Droitwich Baptist Church
-Ombersley Street East
-WR9 8QS</address>
-		<postcode>WR9 8QS</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.2671384,-2.1524611</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-09T12:17:00.727596</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/droitwich-spa/</self>
-			<html>https://www.givefood.org.uk/needs/at/droitwich-spa/</html>
-			<homepage>https://droitwichspa.foodbank.org.uk</homepage>
-			<shopping_list>https://droitwichspa.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1163261</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163261&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Droitwich and Evesham</parliamentary_constituency>
-			<mp>Nigel Huddleston</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4407</mp_parl_id>
-			<ward>Droitwich East</ward>
-			<district>Wychavon</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/droitwich-and-evesham/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/droitwich-and-evesham/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -7994,6 +7915,85 @@ BA14 8RZ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Waterloo Food Bank</name>
+		<alt_name/>
+		<slug>waterloo</slug>
+		<phone>02079214205</phone>
+		<secondary_phone/>
+		<email>foodbank@oasiswaterloo.org</email>
+		<address>Oasis UK
+1 Kennington Road
+London
+SE1 7QP</address>
+		<postcode>SE1 7QP</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.49819,-0.1118859</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-08-21T07:14:57.088375</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/waterloo/</self>
+			<html>https://www.givefood.org.uk/needs/at/waterloo/</html>
+			<homepage>https://waterloo.foodbank.org.uk</homepage>
+			<shopping_list>https://waterloo.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1136965</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1136965&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Vauxhall and Camberwell Green</parliamentary_constituency>
+			<mp>Florence Eshalomi</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>4870</mp_parl_id>
+			<ward>Waterloo &amp; South Bank</ward>
+			<district>Lambeth</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/vauxhall-and-camberwell-green/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/vauxhall-and-camberwell-green/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Droitwich Spa Food Bank</name>
+		<alt_name/>
+		<slug>droitwich-spa</slug>
+		<phone>07532130604</phone>
+		<secondary_phone/>
+		<email>info@droitwichspa.foodbank.org.uk</email>
+		<address>Droitwich Baptist Church
+Ombersley Street East
+WR9 8QS</address>
+		<postcode>WR9 8QS</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.2671384,-2.1524611</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-09T12:17:00.727596</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/droitwich-spa/</self>
+			<html>https://www.givefood.org.uk/needs/at/droitwich-spa/</html>
+			<homepage>https://droitwichspa.foodbank.org.uk</homepage>
+			<shopping_list>https://droitwichspa.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1163261</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163261&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Droitwich and Evesham</parliamentary_constituency>
+			<mp>Nigel Huddleston</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4407</mp_parl_id>
+			<ward>Droitwich East</ward>
+			<district>Wychavon</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/droitwich-and-evesham/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/droitwich-and-evesham/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Bedford Food Bank</name>
 		<alt_name/>
 		<slug>bedford</slug>
@@ -8110,6 +8110,47 @@ LN7 6UF</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/gainsborough/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/gainsborough/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Stepping Stones Totnes Food Bank</name>
+		<alt_name/>
+		<slug>stepping-stones-totnes</slug>
+		<phone>07988639514</phone>
+		<secondary_phone/>
+		<email>contact@steppingstonestotnes.co.uk</email>
+		<address>St John's Church
+26 Bridgetown
+Totnes
+Devon
+TQ9 5AD</address>
+		<postcode>TQ9 5AD</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.4301348,-3.6790225</lat_lng>
+		<network>Independent</network>
+		<created>2023-11-10T19:37:15.512384</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/stepping-stones-totnes/</self>
+			<html>https://www.givefood.org.uk/needs/at/stepping-stones-totnes/</html>
+			<homepage>https://www.facebook.com/SteppingStonesTotnes</homepage>
+			<shopping_list>https://www.facebook.com/SteppingStonesTotnes</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>South Devon</parliamentary_constituency>
+			<mp>Anthony Mangnall</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4762</mp_parl_id>
+			<ward>Totnes</ward>
+			<district>South Hams</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/south-devon/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/south-devon/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -8236,47 +8277,6 @@ CV11 6UD</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Stepping Stones Totnes Food Bank</name>
-		<alt_name/>
-		<slug>stepping-stones-totnes</slug>
-		<phone>07988639514</phone>
-		<secondary_phone/>
-		<email>contact@steppingstonestotnes.co.uk</email>
-		<address>St John's Church
-26 Bridgetown
-Totnes
-Devon
-TQ9 5AD</address>
-		<postcode>TQ9 5AD</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>50.4301348,-3.6790225</lat_lng>
-		<network>Independent</network>
-		<created>2023-11-10T19:37:15.512384</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/stepping-stones-totnes/</self>
-			<html>https://www.givefood.org.uk/needs/at/stepping-stones-totnes/</html>
-			<homepage>https://www.facebook.com/SteppingStonesTotnes</homepage>
-			<shopping_list>https://www.facebook.com/SteppingStonesTotnes</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>South Devon</parliamentary_constituency>
-			<mp>Anthony Mangnall</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4762</mp_parl_id>
-			<ward>Totnes</ward>
-			<district>South Hams</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/south-devon/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/south-devon/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>East Elmbridge Food Bank</name>
 		<alt_name/>
 		<slug>east-elmbridge</slug>
@@ -8399,6 +8399,45 @@ EN9 1ER</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Milton Keynes Food Bank</name>
+		<alt_name/>
+		<slug>milton-keynes</slug>
+		<phone>01908322800</phone>
+		<secondary_phone/>
+		<email>office@mkfoodbank.org.uk</email>
+		<address>14 Burners Lane
+Kiln Farm
+MK11 3HB</address>
+		<postcode>MK11 3HB</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.0469119,-0.8237232999999999</lat_lng>
+		<network>IFAN</network>
+		<created>2019-08-12T18:16:53.677489</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/milton-keynes/</self>
+			<html>https://www.givefood.org.uk/needs/at/milton-keynes/</html>
+			<homepage>http://mkfoodbank.org.uk</homepage>
+			<shopping_list>https://mkfoodbank.org.uk/how-you-can-help/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1084287</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1084287&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Milton Keynes North</parliamentary_constituency>
+			<mp>Iain Stewart</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4015</mp_parl_id>
+			<ward>Bradwell</ward>
+			<district>Milton Keynes</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/milton-keynes-north/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/milton-keynes-north/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Hull Food Bank</name>
 		<alt_name/>
 		<slug>hull</slug>
@@ -8435,45 +8474,6 @@ HU3 2DH</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/kingston-upon-hull-west-and-haltemprice/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/kingston-upon-hull-west-and-haltemprice/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Milton Keynes Food Bank</name>
-		<alt_name/>
-		<slug>milton-keynes</slug>
-		<phone>01908322800</phone>
-		<secondary_phone/>
-		<email>office@mkfoodbank.org.uk</email>
-		<address>14 Burners Lane
-Kiln Farm
-MK11 3HB</address>
-		<postcode>MK11 3HB</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.0469119,-0.8237232999999999</lat_lng>
-		<network>IFAN</network>
-		<created>2019-08-12T18:16:53.677489</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/milton-keynes/</self>
-			<html>https://www.givefood.org.uk/needs/at/milton-keynes/</html>
-			<homepage>http://mkfoodbank.org.uk</homepage>
-			<shopping_list>https://mkfoodbank.org.uk/how-you-can-help/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1084287</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1084287&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Milton Keynes North</parliamentary_constituency>
-			<mp>Iain Stewart</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4015</mp_parl_id>
-			<ward>Bradwell</ward>
-			<district>Milton Keynes</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/milton-keynes-north/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/milton-keynes-north/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -9004,6 +9004,45 @@ BH24 3JW</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Hope Kitchen Food Bank</name>
+		<alt_name/>
+		<slug>hope-kitchen</slug>
+		<phone>01631565730</phone>
+		<secondary_phone/>
+		<email>obanhopekitchen@gmail.com</email>
+		<address>2 Soroba Road
+Oban
+PA34 4HU</address>
+		<postcode>PA34 4HU</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>56.41030809999999,-5.4697735</lat_lng>
+		<network>Independent</network>
+		<created>2020-08-22T18:06:04.576972</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/hope-kitchen/</self>
+			<html>https://www.givefood.org.uk/needs/at/hope-kitchen/</html>
+			<homepage>https://www.hopekitchen.org.uk</homepage>
+			<shopping_list>https://www.hopekitchen.org.uk/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Argyll, Bute and South Lochaber</parliamentary_constituency>
+			<mp>Brendan O'Hara</mp>
+			<mp_party>Scottish National</mp_party>
+			<mp_parl_id>4371</mp_parl_id>
+			<ward>Oban South and the Isles</ward>
+			<district>Argyll and Bute</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/argyll-bute-and-south-lochaber/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/argyll-bute-and-south-lochaber/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Pershore Food Bank</name>
 		<alt_name/>
 		<slug>pershore</slug>
@@ -9040,45 +9079,6 @@ WR10 1BH</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/west-worcestershire/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/west-worcestershire/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Hope Kitchen Food Bank</name>
-		<alt_name/>
-		<slug>hope-kitchen</slug>
-		<phone>01631565730</phone>
-		<secondary_phone/>
-		<email>obanhopekitchen@gmail.com</email>
-		<address>2 Soroba Road
-Oban
-PA34 4HU</address>
-		<postcode>PA34 4HU</postcode>
-		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>56.41030809999999,-5.4697735</lat_lng>
-		<network>Independent</network>
-		<created>2020-08-22T18:06:04.576972</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/hope-kitchen/</self>
-			<html>https://www.givefood.org.uk/needs/at/hope-kitchen/</html>
-			<homepage>https://www.hopekitchen.org.uk</homepage>
-			<shopping_list>https://www.hopekitchen.org.uk/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Argyll, Bute and South Lochaber</parliamentary_constituency>
-			<mp>Brendan O'Hara</mp>
-			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4371</mp_parl_id>
-			<ward>Oban South and the Isles</ward>
-			<district>Argyll and Bute</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/argyll-bute-and-south-lochaber/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/argyll-bute-and-south-lochaber/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -9727,86 +9727,6 @@ N8 8NT</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Greenwich Food Bank</name>
-		<alt_name/>
-		<slug>greenwich</slug>
-		<phone/>
-		<secondary_phone/>
-		<email>info@greenwich.foodbank.org.uk</email>
-		<address>Unit 1
-180 Shooters Hill
-London
-SE18 3HY</address>
-		<postcode>SE18 3HY</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.468081,0.0694322</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-14T20:39:58.339465</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/greenwich/</self>
-			<html>https://www.givefood.org.uk/needs/at/greenwich/</html>
-			<homepage>https://greenwich.foodbank.org.uk</homepage>
-			<shopping_list>https://greenwich.foodbank.org.uk/donate/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1152007</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1152007&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Erith and Thamesmead</parliamentary_constituency>
-			<mp>Clive Efford</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>165</mp_parl_id>
-			<ward>Shooters Hill</ward>
-			<district>Greenwich</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/erith-and-thamesmead/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/erith-and-thamesmead/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Glasgow SW Food Bank</name>
-		<alt_name/>
-		<slug>glasgow-sw</slug>
-		<phone>07437910115</phone>
-		<secondary_phone/>
-		<email>info@glasgowsw.foodbank.org.uk</email>
-		<address>Unit 65 Elderpark Workspace
-100 Elderpark Street
-Glasgow
-G51 3TR</address>
-		<postcode>G51 3TR</postcode>
-		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>55.8577348,-4.322597</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-03T09:20:23.312552</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/glasgow-sw/</self>
-			<html>https://www.givefood.org.uk/needs/at/glasgow-sw/</html>
-			<homepage>https://glasgowsw.foodbank.org.uk</homepage>
-			<shopping_list>https://glasgowsw.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>SC045121</registration_id>
-			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC045121</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Glasgow South West</parliamentary_constituency>
-			<mp>Chris Stephens</mp>
-			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4463</mp_parl_id>
-			<ward>Govan</ward>
-			<district>Glasgow City</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/glasgow-south-west/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/glasgow-south-west/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>PATCH Food Bank</name>
 		<alt_name/>
 		<slug>patch</slug>
@@ -9883,6 +9803,86 @@ M11 1JG</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/manchester-central/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/manchester-central/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Greenwich Food Bank</name>
+		<alt_name/>
+		<slug>greenwich</slug>
+		<phone/>
+		<secondary_phone/>
+		<email>info@greenwich.foodbank.org.uk</email>
+		<address>Unit 1
+180 Shooters Hill
+London
+SE18 3HY</address>
+		<postcode>SE18 3HY</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.468081,0.0694322</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-14T20:39:58.339465</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/greenwich/</self>
+			<html>https://www.givefood.org.uk/needs/at/greenwich/</html>
+			<homepage>https://greenwich.foodbank.org.uk</homepage>
+			<shopping_list>https://greenwich.foodbank.org.uk/donate/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1152007</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1152007&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Erith and Thamesmead</parliamentary_constituency>
+			<mp>Clive Efford</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>165</mp_parl_id>
+			<ward>Shooters Hill</ward>
+			<district>Greenwich</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/erith-and-thamesmead/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/erith-and-thamesmead/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Glasgow SW Food Bank</name>
+		<alt_name/>
+		<slug>glasgow-sw</slug>
+		<phone>07437910115</phone>
+		<secondary_phone/>
+		<email>info@glasgowsw.foodbank.org.uk</email>
+		<address>Unit 65 Elderpark Workspace
+100 Elderpark Street
+Glasgow
+G51 3TR</address>
+		<postcode>G51 3TR</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>55.8577348,-4.322597</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-03T09:20:23.312552</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/glasgow-sw/</self>
+			<html>https://www.givefood.org.uk/needs/at/glasgow-sw/</html>
+			<homepage>https://glasgowsw.foodbank.org.uk</homepage>
+			<shopping_list>https://glasgowsw.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>SC045121</registration_id>
+			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC045121</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Glasgow South West</parliamentary_constituency>
+			<mp>Chris Stephens</mp>
+			<mp_party>Scottish National</mp_party>
+			<mp_parl_id>4463</mp_parl_id>
+			<ward>Govan</ward>
+			<district>Glasgow City</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/glasgow-south-west/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/glasgow-south-west/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -10527,6 +10527,46 @@ UB8 2TU</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Arnold Food Bank</name>
+		<alt_name/>
+		<slug>arnold</slug>
+		<phone>07854690694</phone>
+		<secondary_phone/>
+		<email>info@arnold.foodbank.org.uk</email>
+		<address>Daybrook Baptist Church
+Mansfield Road
+Nottingham
+NG5 6AA</address>
+		<postcode>NG5 6AA</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.9958067,-1.1376737</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-07-23T09:02:26.786197</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/arnold/</self>
+			<html>https://www.givefood.org.uk/needs/at/arnold/</html>
+			<homepage>https://arnold.foodbank.org.uk</homepage>
+			<shopping_list>https://arnold.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1170229</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1170229&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Gedling</parliamentary_constituency>
+			<mp>Tom Randall</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4845</mp_parl_id>
+			<ward>Ernehale</ward>
+			<district>Gedling</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/gedling/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/gedling/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Newport (Shropshire) Food Bank</name>
 		<alt_name/>
 		<slug>newport-shropshire</slug>
@@ -10564,86 +10604,6 @@ TF10 7AJ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/the-wrekin/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/the-wrekin/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Gloucester Food Bank</name>
-		<alt_name/>
-		<slug>gloucester</slug>
-		<phone>01452309683</phone>
-		<secondary_phone/>
-		<email>info@gloucester.foodbank.org.uk</email>
-		<address>George Whitfield Centre
-107 Great Western Road
-Gloucester
-GL1 3NF</address>
-		<postcode>GL1 3NF</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.8662976,-2.2389022</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-12-01T12:55:48.955523</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/gloucester/</self>
-			<html>https://www.givefood.org.uk/needs/at/gloucester/</html>
-			<homepage>https://gloucester.foodbank.org.uk</homepage>
-			<shopping_list>https://gloucester.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1113515</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1113515&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Gloucester</parliamentary_constituency>
-			<mp>Richard Graham</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>3990</mp_parl_id>
-			<ward>Kingsholm and Wotton</ward>
-			<district>Gloucester</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/gloucester/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/gloucester/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Arnold Food Bank</name>
-		<alt_name/>
-		<slug>arnold</slug>
-		<phone>07854690694</phone>
-		<secondary_phone/>
-		<email>info@arnold.foodbank.org.uk</email>
-		<address>Daybrook Baptist Church
-Mansfield Road
-Nottingham
-NG5 6AA</address>
-		<postcode>NG5 6AA</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.9958067,-1.1376737</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-07-23T09:02:26.786197</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/arnold/</self>
-			<html>https://www.givefood.org.uk/needs/at/arnold/</html>
-			<homepage>https://arnold.foodbank.org.uk</homepage>
-			<shopping_list>https://arnold.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1170229</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1170229&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Gedling</parliamentary_constituency>
-			<mp>Tom Randall</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4845</mp_parl_id>
-			<ward>Ernehale</ward>
-			<district>Gedling</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/gedling/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/gedling/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -10724,6 +10684,46 @@ BH6 3QJ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/bournemouth-east/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/bournemouth-east/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Gloucester Food Bank</name>
+		<alt_name/>
+		<slug>gloucester</slug>
+		<phone>01452309683</phone>
+		<secondary_phone/>
+		<email>info@gloucester.foodbank.org.uk</email>
+		<address>George Whitfield Centre
+107 Great Western Road
+Gloucester
+GL1 3NF</address>
+		<postcode>GL1 3NF</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.8662976,-2.2389022</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-12-01T12:55:48.955523</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/gloucester/</self>
+			<html>https://www.givefood.org.uk/needs/at/gloucester/</html>
+			<homepage>https://gloucester.foodbank.org.uk</homepage>
+			<shopping_list>https://gloucester.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1113515</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1113515&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Gloucester</parliamentary_constituency>
+			<mp>Richard Graham</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>3990</mp_parl_id>
+			<ward>Kingsholm and Wotton</ward>
+			<district>Gloucester</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/gloucester/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/gloucester/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -12787,6 +12787,86 @@ UB3 4DF</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Petersfield Food Bank</name>
+		<alt_name/>
+		<slug>petersfield</slug>
+		<phone/>
+		<secondary_phone/>
+		<email>info@pactfoodbank.org.uk</email>
+		<address>Petersfield Methodist Church
+6 Station Road
+Petersfield
+GU32 3EB</address>
+		<postcode>GU32 3EB</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.0066271,-0.9400634999999999</lat_lng>
+		<network>Independent</network>
+		<created>2020-08-17T14:53:36.453592</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/petersfield/</self>
+			<html>https://www.givefood.org.uk/needs/at/petersfield/</html>
+			<homepage>https://pactfoodbank.org.uk</homepage>
+			<shopping_list>https://pactfoodbank.org.uk/DONATE/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1193002</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1193002&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>East Hampshire</parliamentary_constituency>
+			<mp>Damian Hinds</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>3969</mp_parl_id>
+			<ward>Petersfield St Peter's</ward>
+			<district>East Hampshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/east-hampshire/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/east-hampshire/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Malvern Hills Food Bank</name>
+		<alt_name/>
+		<slug>malvern-hills</slug>
+		<phone>01684564491</phone>
+		<secondary_phone>07529322985</secondary_phone>
+		<email>info@malvernhills.foodbank.org.uk</email>
+		<address>Unit 4, Spring Court
+Spring Lane South
+Malvern
+WR14 1AT</address>
+		<postcode>WR14 1AT</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.1267253,-2.3074557</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2019-10-19T19:58:48.412306</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/malvern-hills/</self>
+			<html>https://www.givefood.org.uk/needs/at/malvern-hills/</html>
+			<homepage>https://malvernhills.foodbank.org.uk</homepage>
+			<shopping_list>https://malvernhills.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1151964</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1151964&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>West Worcestershire</parliamentary_constituency>
+			<mp>Harriett Baldwin</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4107</mp_parl_id>
+			<ward>Link</ward>
+			<district>Malvern Hills</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/west-worcestershire/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/west-worcestershire/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Rainham Food Bank</name>
 		<alt_name/>
 		<slug>rainham</slug>
@@ -12825,6 +12905,47 @@ RM13 8HT</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/dagenham-and-rainham/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/dagenham-and-rainham/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Hemsworth Food Bank</name>
+		<alt_name/>
+		<slug>hemsworth</slug>
+		<phone>07907104687</phone>
+		<secondary_phone/>
+		<email>hemsworthfoodbank@yahoo.com</email>
+		<address>Christian Fellowship Church
+South Street
+Hemsworth
+Pontefract
+WF9 4AT</address>
+		<postcode>WF9 4AT</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.6080768,-1.3515276</lat_lng>
+		<network>Independent</network>
+		<created>2023-10-03T07:40:43.956516</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/hemsworth/</self>
+			<html>https://www.givefood.org.uk/needs/at/hemsworth/</html>
+			<homepage>https://hemsworthfoodpantry.org.uk</homepage>
+			<shopping_list>https://hemsworthfoodpantry.org.uk/donate-to-hemsworth-food-bank/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Normanton and Hemsworth</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Hemsworth</ward>
+			<district>Wakefield</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/normanton-and-hemsworth/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/normanton-and-hemsworth/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -12906,207 +13027,6 @@ SA15 1LH</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/llanelli/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/llanelli/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Petersfield Food Bank</name>
-		<alt_name/>
-		<slug>petersfield</slug>
-		<phone/>
-		<secondary_phone/>
-		<email>info@pactfoodbank.org.uk</email>
-		<address>Petersfield Methodist Church
-6 Station Road
-Petersfield
-GU32 3EB</address>
-		<postcode>GU32 3EB</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.0066271,-0.9400634999999999</lat_lng>
-		<network>Independent</network>
-		<created>2020-08-17T14:53:36.453592</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/petersfield/</self>
-			<html>https://www.givefood.org.uk/needs/at/petersfield/</html>
-			<homepage>https://pactfoodbank.org.uk</homepage>
-			<shopping_list>https://pactfoodbank.org.uk/DONATE/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1193002</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1193002&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>East Hampshire</parliamentary_constituency>
-			<mp>Damian Hinds</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>3969</mp_parl_id>
-			<ward>Petersfield St Peter's</ward>
-			<district>East Hampshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/east-hampshire/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/east-hampshire/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Malvern Hills Food Bank</name>
-		<alt_name/>
-		<slug>malvern-hills</slug>
-		<phone>01684564491</phone>
-		<secondary_phone>07529322985</secondary_phone>
-		<email>info@malvernhills.foodbank.org.uk</email>
-		<address>Unit 4, Spring Court
-Spring Lane South
-Malvern
-WR14 1AT</address>
-		<postcode>WR14 1AT</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.1267253,-2.3074557</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2019-10-19T19:58:48.412306</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/malvern-hills/</self>
-			<html>https://www.givefood.org.uk/needs/at/malvern-hills/</html>
-			<homepage>https://malvernhills.foodbank.org.uk</homepage>
-			<shopping_list>https://malvernhills.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1151964</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1151964&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>West Worcestershire</parliamentary_constituency>
-			<mp>Harriett Baldwin</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4107</mp_parl_id>
-			<ward>Link</ward>
-			<district>Malvern Hills</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/west-worcestershire/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/west-worcestershire/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Hemsworth Food Bank</name>
-		<alt_name/>
-		<slug>hemsworth</slug>
-		<phone>07907104687</phone>
-		<secondary_phone/>
-		<email>hemsworthfoodbank@yahoo.com</email>
-		<address>Christian Fellowship Church
-South Street
-Hemsworth
-Pontefract
-WF9 4AT</address>
-		<postcode>WF9 4AT</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.6080768,-1.3515276</lat_lng>
-		<network>Independent</network>
-		<created>2023-10-03T07:40:43.956516</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/hemsworth/</self>
-			<html>https://www.givefood.org.uk/needs/at/hemsworth/</html>
-			<homepage>https://hemsworthfoodpantry.org.uk</homepage>
-			<shopping_list>https://hemsworthfoodpantry.org.uk/donate-to-hemsworth-food-bank/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Normanton and Hemsworth</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Hemsworth</ward>
-			<district>Wakefield</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/normanton-and-hemsworth/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/normanton-and-hemsworth/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Right Choices Food Bank</name>
-		<alt_name/>
-		<slug>right-choices</slug>
-		<phone>07505865317</phone>
-		<secondary_phone/>
-		<email>rightchoices1@yahoo.co.uk</email>
-		<address>Heart Centre
-Leeds
-West Yorkshire
-LS6 3HN</address>
-		<postcode>LS6 3HN</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.8204051,-1.5778136</lat_lng>
-		<network>Independent</network>
-		<created>2020-10-14T08:54:14.547858</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/right-choices/</self>
-			<html>https://www.givefood.org.uk/needs/at/right-choices/</html>
-			<homepage>http://www.rightchoices.gloweb.net/foodbank.html</homepage>
-			<shopping_list>http://www.rightchoices.gloweb.net/foodbank.html</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Leeds Central and Headingley</parliamentary_constituency>
-			<mp>Alex Sobel</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>4658</mp_parl_id>
-			<ward>Headingley &amp; Hyde Park</ward>
-			<district>Leeds</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/leeds-central-and-headingley/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/leeds-central-and-headingley/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Stairfoot Food Bank</name>
-		<alt_name/>
-		<slug>stairfoot</slug>
-		<phone>07590205641</phone>
-		<secondary_phone/>
-		<email>stairfootfoodbank@gmail.com</email>
-		<address>Ebenezer Weslyan Reform Church
-31 Hunningley Close
-Barnsley
-S70 3DP</address>
-		<postcode>S70 3DP</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.5440827,-1.4426516</lat_lng>
-		<network>Independent</network>
-		<created>2023-11-15T12:24:14.984159</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/stairfoot/</self>
-			<html>https://www.givefood.org.uk/needs/at/stairfoot/</html>
-			<homepage>https://www.facebook.com/stairfootfoodbank/</homepage>
-			<shopping_list>https://www.facebook.com/stairfootfoodbank/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Barnsley South</parliamentary_constituency>
-			<mp>Stephanie Peacock</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>4607</mp_parl_id>
-			<ward>Stairfoot</ward>
-			<district>Barnsley</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/barnsley-south/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/barnsley-south/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -13434,6 +13354,86 @@ B30 3HZ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Right Choices Food Bank</name>
+		<alt_name/>
+		<slug>right-choices</slug>
+		<phone>07505865317</phone>
+		<secondary_phone/>
+		<email>rightchoices1@yahoo.co.uk</email>
+		<address>Heart Centre
+Leeds
+West Yorkshire
+LS6 3HN</address>
+		<postcode>LS6 3HN</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.8204051,-1.5778136</lat_lng>
+		<network>Independent</network>
+		<created>2020-10-14T08:54:14.547858</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/right-choices/</self>
+			<html>https://www.givefood.org.uk/needs/at/right-choices/</html>
+			<homepage>http://www.rightchoices.gloweb.net/foodbank.html</homepage>
+			<shopping_list>http://www.rightchoices.gloweb.net/foodbank.html</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Leeds Central and Headingley</parliamentary_constituency>
+			<mp>Alex Sobel</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>4658</mp_parl_id>
+			<ward>Headingley &amp; Hyde Park</ward>
+			<district>Leeds</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/leeds-central-and-headingley/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/leeds-central-and-headingley/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Stairfoot Food Bank</name>
+		<alt_name/>
+		<slug>stairfoot</slug>
+		<phone>07590205641</phone>
+		<secondary_phone/>
+		<email>stairfootfoodbank@gmail.com</email>
+		<address>Ebenezer Weslyan Reform Church
+31 Hunningley Close
+Barnsley
+S70 3DP</address>
+		<postcode>S70 3DP</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.5440827,-1.4426516</lat_lng>
+		<network>Independent</network>
+		<created>2023-11-15T12:24:14.984159</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/stairfoot/</self>
+			<html>https://www.givefood.org.uk/needs/at/stairfoot/</html>
+			<homepage>https://www.facebook.com/stairfootfoodbank/</homepage>
+			<shopping_list>https://www.facebook.com/stairfootfoodbank/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Barnsley South</parliamentary_constituency>
+			<mp>Stephanie Peacock</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>4607</mp_parl_id>
+			<ward>Stairfoot</ward>
+			<district>Barnsley</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/barnsley-south/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/barnsley-south/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Uckfield Food Bank</name>
 		<alt_name/>
 		<slug>uckfield</slug>
@@ -13675,46 +13675,6 @@ NN1 2LZ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Brentwood Food Bank</name>
-		<alt_name/>
-		<slug>brentwood</slug>
-		<phone>01277224528</phone>
-		<secondary_phone/>
-		<email>doddroadchurch@outlook.com</email>
-		<address>Doddinghurst Road Community Church
-56-60 Doddinghurst Road
-Brentwood
-CM15 9EH</address>
-		<postcode>CM15 9EH</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.6293002,0.2991967</lat_lng>
-		<network>Trussell Trust</network>
-		<created>2020-01-21T14:08:33.006184</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/brentwood/</self>
-			<html>https://www.givefood.org.uk/needs/at/brentwood/</html>
-			<homepage>https://brentwood.foodbank.org.uk</homepage>
-			<shopping_list>https://brentwood.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1171227</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1171227&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Brentwood and Ongar</parliamentary_constituency>
-			<mp>Alex Burghart</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4613</mp_parl_id>
-			<ward>Brentwood North</ward>
-			<district>Brentwood</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/brentwood-and-ongar/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/brentwood-and-ongar/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Collier Row &amp; Romford Food Bank</name>
 		<alt_name/>
 		<slug>collier-row-romford</slug>
@@ -13751,6 +13711,46 @@ RM1 3BL</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/romford/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/romford/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Brentwood Food Bank</name>
+		<alt_name/>
+		<slug>brentwood</slug>
+		<phone>01277224528</phone>
+		<secondary_phone/>
+		<email>doddroadchurch@outlook.com</email>
+		<address>Doddinghurst Road Community Church
+56-60 Doddinghurst Road
+Brentwood
+CM15 9EH</address>
+		<postcode>CM15 9EH</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.6293002,0.2991967</lat_lng>
+		<network>Trussell Trust</network>
+		<created>2020-01-21T14:08:33.006184</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/brentwood/</self>
+			<html>https://www.givefood.org.uk/needs/at/brentwood/</html>
+			<homepage>https://brentwood.foodbank.org.uk</homepage>
+			<shopping_list>https://brentwood.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1171227</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1171227&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Brentwood and Ongar</parliamentary_constituency>
+			<mp>Alex Burghart</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4613</mp_parl_id>
+			<ward>Brentwood North</ward>
+			<district>Brentwood</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/brentwood-and-ongar/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/brentwood-and-ongar/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -13999,47 +13999,6 @@ RH4 1DW</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Ashbourne Food Bank</name>
-		<alt_name/>
-		<slug>ashbourne</slug>
-		<phone>01335661237</phone>
-		<secondary_phone/>
-		<email>foodbank@ashbourneelim.church</email>
-		<address>Ashbourne Elim Church
-Waterside Road
-Ashbourne
-Derbyshire
-DE6 1DG</address>
-		<postcode>DE6 1DG</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>53.0103547,-1.7420017</lat_lng>
-		<network>Independent</network>
-		<created>2022-03-14T09:35:24.310463</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/ashbourne/</self>
-			<html>https://www.givefood.org.uk/needs/at/ashbourne/</html>
-			<homepage>https://ashbourneelim.church/food-bank/</homepage>
-			<shopping_list>https://ashbourneelim.church/food-bank/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Derbyshire Dales</parliamentary_constituency>
-			<mp>Sarah Dines</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4816</mp_parl_id>
-			<ward>Ashbourne South</ward>
-			<district>Derbyshire Dales</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/derbyshire-dales/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/derbyshire-dales/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Thurrock Food Bank</name>
 		<alt_name/>
 		<slug>thurrock</slug>
@@ -14077,6 +14036,47 @@ SS17 7QH</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/south-basildon-and-east-thurrock/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/south-basildon-and-east-thurrock/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Ashbourne Food Bank</name>
+		<alt_name/>
+		<slug>ashbourne</slug>
+		<phone>01335661237</phone>
+		<secondary_phone/>
+		<email>foodbank@ashbourneelim.church</email>
+		<address>Ashbourne Elim Church
+Waterside Road
+Ashbourne
+Derbyshire
+DE6 1DG</address>
+		<postcode>DE6 1DG</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.0103547,-1.7420017</lat_lng>
+		<network>Independent</network>
+		<created>2022-03-14T09:35:24.310463</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/ashbourne/</self>
+			<html>https://www.givefood.org.uk/needs/at/ashbourne/</html>
+			<homepage>https://ashbourneelim.church/food-bank/</homepage>
+			<shopping_list>https://ashbourneelim.church/food-bank/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Derbyshire Dales</parliamentary_constituency>
+			<mp>Sarah Dines</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4816</mp_parl_id>
+			<ward>Ashbourne South</ward>
+			<district>Derbyshire Dales</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/derbyshire-dales/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/derbyshire-dales/</html>
 			</urls>
 		</politics>
 	</foodbank>
