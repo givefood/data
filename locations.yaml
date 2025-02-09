@@ -4992,33 +4992,6 @@
   slug: willington
   urls:
     html: https://www.givefood.org.uk/needs/at/durham/willington/
-- address: "Community Family Hub Central\r\nNewbiggin Lane\r\nNewcastle upon Tyne\r\
-    \nNE5 1LZ"
-  email: info@nclwefb.org
-  foodbank:
-    name: Newcastle West End
-    network: Trussell
-    slug: newcastle-west-end
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newcastle-west-end/
-      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-west-end/
-  lat_lng: 55.0046782,-1.6922621
-  name: Galafield Centre
-  phone: 01912753019
-  politics:
-    district: Newcastle upon Tyne
-    mp: Catherine McKinnell
-    mp_parl_id: 4125
-    mp_party: Labour
-    parliamentary_constituency: Newcastle upon Tyne Central and West
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-central-and-west/
-      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-central-and-west/
-    ward: Kingston Park South & Newbiggin Hall
-  postcode: NE5 1LZ
-  slug: galafield-centre
-  urls:
-    html: https://www.givefood.org.uk/needs/at/newcastle-west-end/galafield-centre/
 - address: "Cheriton Baptist Church\r\nQuested Road\r\nCheriton\r\nCT19 4BY"
   email: foodbank@rainbow-centre.org
   foodbank:
@@ -5177,18 +5150,19 @@
   slug: loundsley-green-community
   urls:
     html: https://www.givefood.org.uk/needs/at/chesterfield/loundsley-green-community/
-- address: "1 Algernon Road\r\nLemington\r\nNewcastle upon Tyne\r\nNE15 8DT"
+- address: "Community Family Hub Central\r\nNewbiggin Lane\r\nNewcastle upon Tyne\r\
+    \nNE5 1LZ"
   email: info@nclwefb.org
   foodbank:
-    name: Newcastle West End
-    network: Trussell
-    slug: newcastle-west-end
+    name: Newcastle
+    network: Independent
+    slug: newcastle
     urls:
-      html: https://www.givefood.org.uk/needs/at/newcastle-west-end/
-      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-west-end/
-  lat_lng: 54.9773033,-1.7148115
-  name: Lemington Methodist Church
-  phone: 01661598978
+      html: https://www.givefood.org.uk/needs/at/newcastle/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle/
+  lat_lng: 55.00453899999999,-1.6900439
+  name: Galafield Centre
+  phone: 01912753019
   politics:
     district: Newcastle upon Tyne
     mp: Catherine McKinnell
@@ -5198,11 +5172,11 @@
     urls:
       html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-central-and-west/
       self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-central-and-west/
-    ward: Lemington
-  postcode: NE15 8DT
-  slug: lemington-methodist-church
+    ward: Kingston Park South & Newbiggin Hall
+  postcode: NE5 1LZ
+  slug: galafield-centre
   urls:
-    html: https://www.givefood.org.uk/needs/at/newcastle-west-end/lemington-methodist-church/
+    html: https://www.givefood.org.uk/needs/at/newcastle/galafield-centre/
 - address: "33 Bridge Street\r\nAndover\r\nHampshire\r\nSP10 1BE"
   email: office@andoverfoodbank.org.uk
   foodbank:
@@ -5334,6 +5308,32 @@
   slug: handley-page-community-centre
   urls:
     html: https://www.givefood.org.uk/needs/at/sutton/handley-page-community-centre/
+- address: "1 Algernon Road\r\nLemington\r\nNewcastle upon Tyne\r\nNE15 8DT"
+  email: info@nclwefb.org
+  foodbank:
+    name: Newcastle
+    network: Independent
+    slug: newcastle
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newcastle/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle/
+  lat_lng: 54.9771677,-1.7152093
+  name: Lemington Methodist Church
+  phone: 01912753019
+  politics:
+    district: Newcastle upon Tyne
+    mp: Catherine McKinnell
+    mp_parl_id: 4125
+    mp_party: Labour
+    parliamentary_constituency: Newcastle upon Tyne Central and West
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-central-and-west/
+      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-central-and-west/
+    ward: Lemington
+  postcode: NE15 8DT
+  slug: lemington-methodist-church
+  urls:
+    html: https://www.givefood.org.uk/needs/at/newcastle/lemington-methodist-church/
 - address: "77 Gainsborough Avenue\r\nLondon\r\nE12 6JJ"
   email: info@highwaychurch.org
   foodbank:
@@ -25646,6 +25646,32 @@
   slug: mayhill-community-centre
   urls:
     html: https://www.givefood.org.uk/needs/at/swansea/mayhill-community-centre/
+- address: "Heaton Baptist Church\r\nHeaton Road\r\nNewcastle upon Tyne\r\nNE6 5HN"
+  email: info@nclwefb.org
+  foodbank:
+    name: Newcastle
+    network: Independent
+    slug: newcastle
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newcastle/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle/
+  lat_lng: 54.9828412,-1.5814296
+  name: Heaton Baptist Church
+  phone: 01912753019
+  politics:
+    district: Newcastle upon Tyne
+    mp: Nick Brown
+    mp_parl_id: 523
+    mp_party: Labour
+    parliamentary_constituency: Newcastle upon Tyne East and Wallsend
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-east-and-wallsend/
+      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-east-and-wallsend/
+    ward: Heaton
+  postcode: NE6 5HN
+  slug: heaton-baptist-church
+  urls:
+    html: https://www.givefood.org.uk/needs/at/newcastle/heaton-baptist-church/
 - address: "2 Martineau Lane\r\nNorwich\r\nNR1 2HX"
   email: admin@norwich.foodbank.org.uk
   foodbank:
@@ -25830,32 +25856,6 @@
   slug: trinity-baptist-church
   urls:
     html: https://www.givefood.org.uk/needs/at/bexley/trinity-baptist-church/
-- address: "Heaton Baptist Church\r\nHeaton Road\r\nNewcastle upon Tyne\r\nNE6 5HN"
-  email: info@nclwefb.org
-  foodbank:
-    name: Newcastle West End
-    network: Trussell
-    slug: newcastle-west-end
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newcastle-west-end/
-      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-west-end/
-  lat_lng: 54.9828412,-1.5814296
-  name: Heaton Baptist Church
-  phone: 01912753019
-  politics:
-    district: Newcastle upon Tyne
-    mp: Nick Brown
-    mp_parl_id: 523
-    mp_party: Labour
-    parliamentary_constituency: Newcastle upon Tyne East and Wallsend
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-east-and-wallsend/
-      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-east-and-wallsend/
-    ward: Heaton
-  postcode: NE6 5HN
-  slug: heaton-baptist-church
-  urls:
-    html: https://www.givefood.org.uk/needs/at/newcastle-west-end/heaton-baptist-church/
 - address: "Oundle Methodist Church\r\nDrummingwell Lane\r\nOundle\r\nPeterborough\r\
     \nPE8 4AA"
   email: info@stamfordoundle.foodbank.org.uk
@@ -29100,6 +29100,32 @@
   slug: freshwater
   urls:
     html: https://www.givefood.org.uk/needs/at/isle-of-wight/freshwater/
+- address: "Clifford Street\r\nNewcastle upon Tyne\r\nNE6 1PG"
+  email: info@nclwefb.org
+  foodbank:
+    name: Newcastle
+    network: Independent
+    slug: newcastle
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newcastle/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle/
+  lat_lng: 54.975845,-1.5857406
+  name: St Silas’ C of E Church
+  phone: 01912753019
+  politics:
+    district: Newcastle upon Tyne
+    mp: Nick Brown
+    mp_parl_id: 523
+    mp_party: Labour
+    parliamentary_constituency: Newcastle upon Tyne East and Wallsend
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-east-and-wallsend/
+      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-east-and-wallsend/
+    ward: Byker
+  postcode: NE6 1PG
+  slug: st-silas-c-of-e-church
+  urls:
+    html: https://www.givefood.org.uk/needs/at/newcastle/st-silas-c-of-e-church/
 - address: "Upper Elizabeth\r\nSt. Dowlais\r\nCF48 3AF"
   email: info@merthyrcynon.foodbank.org.uk
   foodbank:
@@ -29205,32 +29231,6 @@
   slug: bridge-community-hub
   urls:
     html: https://www.givefood.org.uk/needs/at/lincoln/bridge-community-hub/
-- address: "Clifford Street\r\nNewcastle upon Tyne\r\nNE6 1PG"
-  email: info@nclwefb.org
-  foodbank:
-    name: Newcastle West End
-    network: Trussell
-    slug: newcastle-west-end
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newcastle-west-end/
-      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-west-end/
-  lat_lng: 54.9761542,-1.5855604
-  name: St Silas’ C of E Church
-  phone: 01912753019
-  politics:
-    district: Newcastle upon Tyne
-    mp: Nick Brown
-    mp_parl_id: 523
-    mp_party: Labour
-    parliamentary_constituency: Newcastle upon Tyne East and Wallsend
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-east-and-wallsend/
-      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-east-and-wallsend/
-    ward: Byker
-  postcode: NE6 1PG
-  slug: st-silas-c-of-e-church
-  urls:
-    html: https://www.givefood.org.uk/needs/at/newcastle-west-end/st-silas-c-of-e-church/
 - address: "The Jubilee Room\r\nSt Paul's Church\r\nRaynel Drive\r\nLeeds\r\nLS16\
     \ 6BS"
   email: info@leedsnorthandwest.foodbank.org.uk
@@ -30223,32 +30223,6 @@
   slug: tabernacle-chapel
   urls:
     html: https://www.givefood.org.uk/needs/at/port-talbot/tabernacle-chapel/
-- address: "Newcastle upon Tyne\r\nNE4 8AQ"
-  email: info@nclwefb.org
-  foodbank:
-    name: Newcastle West End
-    network: Trussell
-    slug: newcastle-west-end
-    urls:
-      html: https://www.givefood.org.uk/needs/at/newcastle-west-end/
-      self: https://www.givefood.org.uk/api/2/foodbank/newcastle-west-end/
-  lat_lng: 54.9744244,-1.6521046
-  name: Church of the Venerable Bede
-  phone: 07580751365
-  politics:
-    district: Newcastle upon Tyne
-    mp: Chi Onwurah
-    mp_parl_id: 4124
-    mp_party: Labour
-    parliamentary_constituency: Newcastle upon Tyne Central and West
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-central-and-west/
-      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-central-and-west/
-    ward: Elswick
-  postcode: NE4 8AQ
-  slug: church-of-the-venerable-bede
-  urls:
-    html: https://www.givefood.org.uk/needs/at/newcastle-west-end/church-of-the-venerable-bede/
 - address: "92 Beverley Road \nHull \r\nHU3 1YA"
   email: info@salvationarmy.org.uk
   foodbank:
@@ -30405,6 +30379,32 @@
   slug: odiham-all-saints
   urls:
     html: https://www.givefood.org.uk/needs/at/hart/odiham-all-saints/
+- address: "Newcastle upon Tyne\r\nNE4 8AQ"
+  email: info@nclwefb.org
+  foodbank:
+    name: Newcastle
+    network: Independent
+    slug: newcastle
+    urls:
+      html: https://www.givefood.org.uk/needs/at/newcastle/
+      self: https://www.givefood.org.uk/api/2/foodbank/newcastle/
+  lat_lng: 54.975134,-1.6517704
+  name: Church of the Venerable Bede
+  phone: 01912753019
+  politics:
+    district: Newcastle upon Tyne
+    mp: Chi Onwurah
+    mp_parl_id: 4124
+    mp_party: Labour
+    parliamentary_constituency: Newcastle upon Tyne Central and West
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-central-and-west/
+      self: https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-central-and-west/
+    ward: Elswick
+  postcode: NE4 8AQ
+  slug: church-of-the-venerable-bede
+  urls:
+    html: https://www.givefood.org.uk/needs/at/newcastle/church-of-the-venerable-bede/
 - address: "2 Foundry Lane\r\nBallyclare\r\nBT39 9BQ"
   email: info@newtownabbey.foodbank.org.uk
   foodbank:
