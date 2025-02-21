@@ -13,8 +13,13 @@ There is more information about our data, a few rules about how to use it, and s
 * locations.yaml https://www.givefood.org.uk/api/2/docs/#locations
 * needs.json https://www.givefood.org.uk/api/2/docs/#needs
 
+* foodbanks_dump.csv https://www.givefood.org.uk/api/
+* items_dump.csv https://www.givefood.org.uk/api/
+
 ## You may also enjoy
-* flatgithub view https://flatgithub.com/givefood/data?filename=foodbanks.csv
+* https://flatgithub.com/givefood/data?filename=foodbanks.csv
+* https://flatgithub.com/givefood/data?filename=foodbanks_dump.csv
+* https://flatgithub.com/givefood/data?filename=items_dump.csv
 * Dashboards https://www.givefood.org.uk/dashboard/
 
 ## About Us
