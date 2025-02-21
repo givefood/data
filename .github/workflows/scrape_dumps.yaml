@@ -1,0 +1,29 @@
+name: Scrape latest dumps
+
+on:
+  push:
+  workflow_dispatch:
+  schedule:
+    - cron:  '7,37 * * * *'
+
+jobs:
+  scheduled:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+    - name: Check out this repo
+      uses: actions/checkout@v2
+    - name: Fetch food bank dump
+      run: |-
+        curl https://dumps.givefood.org.uk/givefood_foodbanks.csv > foodbanks_dump.csv
+    - name: Fetch latest item dump
+      run: |-
+        curl https://dumps.givefood.org.uk/givefood_items.csv > items_dump.csv
+    - name: Commit and push if it changed
+      run: |-
+        git config user.name "Automated"
+        git config user.email "actions@users.noreply.github.com"
+        git add -A
+        timestamp=$(date -u)
+        git commit -m "Latest dump data: ${timestamp}" || exit 0
+        git push
