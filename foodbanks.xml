@@ -1,6 +1,46 @@
 <?xml version="1.0" ?>
 <foodbanks>
 	<foodbank>
+		<name>Newcastle Food Bank</name>
+		<alt_name/>
+		<slug>newcastle</slug>
+		<phone>01912753019</phone>
+		<secondary_phone>07580751365</secondary_phone>
+		<email>info@nclwefb.org</email>
+		<address>The Food Bank Centre
+Benwell Lane
+Newcastle upon Tyne
+NE15 6LX</address>
+		<postcode>NE15 6LX</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>54.9733549,-1.6711746</lat_lng>
+		<network>Trussell</network>
+		<created>2019-07-12T15:39:57.652957</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/newcastle/</self>
+			<html>https://www.givefood.org.uk/needs/at/newcastle/</html>
+			<homepage>https://www.newcastlefoodbank.org</homepage>
+			<shopping_list>https://www.newcastlefoodbank.org/urgently-needed-items/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1152656</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1152656&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Newcastle upon Tyne Central and West</parliamentary_constituency>
+			<mp>Chi Onwurah</mp>
+			<mp_party>Labour</mp_party>
+			<mp_parl_id>4124</mp_parl_id>
+			<ward>Benwell &amp; Scotswood</ward>
+			<district>Newcastle upon Tyne</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-central-and-west/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-central-and-west/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Edenbridge Food Bank</name>
 		<alt_name/>
 		<slug>edenbridge</slug>
@@ -76,85 +116,6 @@ FK5 4HD</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/alloa-and-grangemouth/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/alloa-and-grangemouth/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Newcastle Food Bank</name>
-		<alt_name/>
-		<slug>newcastle</slug>
-		<phone>01912753019</phone>
-		<secondary_phone>07580751365</secondary_phone>
-		<email>info@nclwefb.org</email>
-		<address>The Food Bank Centre
-Benwell Lane
-Newcastle upon Tyne
-NE15 6LX</address>
-		<postcode>NE15 6LX</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>54.9733549,-1.6711746</lat_lng>
-		<network>Trussell</network>
-		<created>2019-07-12T15:39:57.652957</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/newcastle/</self>
-			<html>https://www.givefood.org.uk/needs/at/newcastle/</html>
-			<homepage>https://www.newcastlefoodbank.org</homepage>
-			<shopping_list>https://www.newcastlefoodbank.org/urgently-needed-items/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1152656</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1152656&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Newcastle upon Tyne Central and West</parliamentary_constituency>
-			<mp>Chi Onwurah</mp>
-			<mp_party>Labour</mp_party>
-			<mp_parl_id>4124</mp_parl_id>
-			<ward>Benwell &amp; Scotswood</ward>
-			<district>Newcastle upon Tyne</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/newcastle-upon-tyne-central-and-west/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/newcastle-upon-tyne-central-and-west/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Nomad Food Bank</name>
-		<alt_name/>
-		<slug>nomad</slug>
-		<phone/>
-		<secondary_phone/>
-		<email>info@nomadhenley.co.uk</email>
-		<address>55-57 Market Place
-Henley-on-Thames
-RG9 2AA</address>
-		<postcode>RG9 2AA</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.5370357,-0.9069202</lat_lng>
-		<network>Independent</network>
-		<created>2024-11-26T12:55:58.127590</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/nomad/</self>
-			<html>https://www.givefood.org.uk/needs/at/nomad/</html>
-			<homepage>https://www.nomadhenley.co.uk</homepage>
-			<shopping_list>https://www.nomadhenley.co.uk</shopping_list>
-		</urls>
-		<charity>
-			<registration_id/>
-			<register_url/>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Henley and Thame</parliamentary_constituency>
-			<mp/>
-			<mp_party/>
-			<mp_parl_id/>
-			<ward>Henley-on-Thames</ward>
-			<district>South Oxfordshire</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/henley-and-thame/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/henley-and-thame/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -1656,6 +1617,45 @@ S2 1JP</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/sheffield-heeley/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/sheffield-heeley/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Nomad Food Bank</name>
+		<alt_name/>
+		<slug>nomad</slug>
+		<phone/>
+		<secondary_phone/>
+		<email>info@nomadhenley.co.uk</email>
+		<address>55-57 Market Place
+Henley-on-Thames
+RG9 2AA</address>
+		<postcode>RG9 2AA</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.5370357,-0.9069202</lat_lng>
+		<network>Independent</network>
+		<created>2024-11-26T12:55:58.127590</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/nomad/</self>
+			<html>https://www.givefood.org.uk/needs/at/nomad/</html>
+			<homepage>https://www.nomadhenley.co.uk</homepage>
+			<shopping_list>https://www.nomadhenley.co.uk</shopping_list>
+		</urls>
+		<charity>
+			<registration_id/>
+			<register_url/>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Henley and Thame</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Henley-on-Thames</ward>
+			<district>South Oxfordshire</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/henley-and-thame/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/henley-and-thame/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -12036,6 +12036,45 @@ HD1 1QA</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Chelmsford Food Bank</name>
+		<alt_name/>
+		<slug>chelmsford</slug>
+		<phone>07512574542</phone>
+		<secondary_phone/>
+		<email>info@chelmsford.foodbank.org.uk</email>
+		<address>PO Box 9174
+Chelmsford
+CM1 9AE</address>
+		<postcode>CM1 9AE</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.7328656,0.4738483</lat_lng>
+		<network>Trussell</network>
+		<created>2019-12-19T15:20:40.629116</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/chelmsford/</self>
+			<html>https://www.givefood.org.uk/needs/at/chelmsford/</html>
+			<homepage>https://chelmsford.foodbank.org.uk</homepage>
+			<shopping_list>https://chelmsford.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1144804</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1144804&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Chelmsford</parliamentary_constituency>
+			<mp>Vicky Ford</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4674</mp_parl_id>
+			<ward>Chelmer Village and Beaulieu Park</ward>
+			<district>Chelmsford</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/chelmsford/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/chelmsford/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>St Austell Food Bank</name>
 		<alt_name/>
 		<slug>st-austell</slug>
@@ -12073,45 +12112,6 @@ PL25 4TJ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/st-austell-and-newquay/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/st-austell-and-newquay/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Chelmsford Food Bank</name>
-		<alt_name/>
-		<slug>chelmsford</slug>
-		<phone>07512574542</phone>
-		<secondary_phone/>
-		<email>info@chelmsford.foodbank.org.uk</email>
-		<address>PO Box 9174
-Chelmsford
-CM1 9AE</address>
-		<postcode>CM1 9AE</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.7328656,0.4738483</lat_lng>
-		<network>Trussell</network>
-		<created>2019-12-19T15:20:40.629116</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/chelmsford/</self>
-			<html>https://www.givefood.org.uk/needs/at/chelmsford/</html>
-			<homepage>https://chelmsford.foodbank.org.uk</homepage>
-			<shopping_list>https://chelmsford.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1144804</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1144804&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Chelmsford</parliamentary_constituency>
-			<mp>Vicky Ford</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4674</mp_parl_id>
-			<ward>Chelmer Village and Beaulieu Park</ward>
-			<district>Chelmsford</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/chelmsford/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/chelmsford/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -18991,46 +18991,6 @@ BT11 9JQ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Liskeard &amp; Looe Food Bank</name>
-		<alt_name/>
-		<slug>liskeard-looe</slug>
-		<phone>07512011452</phone>
-		<secondary_phone/>
-		<email>liskeard.foodbank@gmail.com</email>
-		<address>21 Dean Street
-Liskeard
-Cornwall
-PL14 4AB</address>
-		<postcode>PL14 4AB</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>50.4539178,-4.4659485</lat_lng>
-		<network>Trussell</network>
-		<created>2019-09-28T14:41:32.800921</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/liskeard-looe/</self>
-			<html>https://www.givefood.org.uk/needs/at/liskeard-looe/</html>
-			<homepage>https://liskeardlooe.foodbank.org.uk</homepage>
-			<shopping_list>https://liskeardlooe.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1146545</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146545&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>South East Cornwall</parliamentary_constituency>
-			<mp>Sheryll Murray</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4100</mp_parl_id>
-			<ward>Liskeard South &amp; Dobwalls</ward>
-			<district>Cornwall</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/south-east-cornwall/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/south-east-cornwall/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Corby Food Bank</name>
 		<alt_name/>
 		<slug>corby</slug>
@@ -19067,6 +19027,46 @@ NN18 0EH</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/corby-and-east-northamptonshire/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/corby-and-east-northamptonshire/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Liskeard &amp; Looe Food Bank</name>
+		<alt_name/>
+		<slug>liskeard-looe</slug>
+		<phone>07512011452</phone>
+		<secondary_phone/>
+		<email>liskeard.foodbank@gmail.com</email>
+		<address>21 Dean Street
+Liskeard
+Cornwall
+PL14 4AB</address>
+		<postcode>PL14 4AB</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.4539178,-4.4659485</lat_lng>
+		<network>Trussell</network>
+		<created>2019-09-28T14:41:32.800921</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/liskeard-looe/</self>
+			<html>https://www.givefood.org.uk/needs/at/liskeard-looe/</html>
+			<homepage>https://liskeardlooe.foodbank.org.uk</homepage>
+			<shopping_list>https://liskeardlooe.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1146545</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1146545&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>South East Cornwall</parliamentary_constituency>
+			<mp>Sheryll Murray</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4100</mp_parl_id>
+			<ward>Liskeard South &amp; Dobwalls</ward>
+			<district>Cornwall</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/south-east-cornwall/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/south-east-cornwall/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -24672,6 +24672,45 @@ BT63 5WG</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Feltham Food Bank</name>
+		<alt_name/>
+		<slug>feltham</slug>
+		<phone>07448831297</phone>
+		<secondary_phone>07783368928</secondary_phone>
+		<email>felthamfoodbank@gmail.com</email>
+		<address>102 Hounslow Road
+Feltham
+TW14 0AX</address>
+		<postcode>TW14 0AX</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>51.45394169999999,-0.4041737</lat_lng>
+		<network>Independent</network>
+		<created>2020-09-18T09:01:18.691902</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/feltham/</self>
+			<html>https://www.givefood.org.uk/needs/at/feltham/</html>
+			<homepage>https://felthamfoodbank.org</homepage>
+			<shopping_list>https://felthamfoodbank.org/6.html</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1163930</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163930&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Feltham and Heston</parliamentary_constituency>
+			<mp>Seema Malhotra MP</mp>
+			<mp_party>Labour Co-operative</mp_party>
+			<mp_parl_id>4253</mp_parl_id>
+			<ward>Feltham North</ward>
+			<district>Hounslow</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/feltham-and-heston/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/feltham-and-heston/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Hereford Food Bank</name>
 		<alt_name/>
 		<slug>hereford</slug>
@@ -24746,45 +24785,6 @@ SA10 9EL</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/neath-and-swansea-east/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/neath-and-swansea-east/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Feltham Food Bank</name>
-		<alt_name/>
-		<slug>feltham</slug>
-		<phone>07448831297</phone>
-		<secondary_phone>07783368928</secondary_phone>
-		<email>felthamfoodbank@gmail.com</email>
-		<address>102 Hounslow Road
-Feltham
-TW14 0AX</address>
-		<postcode>TW14 0AX</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>51.45394169999999,-0.4041737</lat_lng>
-		<network>Independent</network>
-		<created>2020-09-18T09:01:18.691902</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/feltham/</self>
-			<html>https://www.givefood.org.uk/needs/at/feltham/</html>
-			<homepage>https://felthamfoodbank.org</homepage>
-			<shopping_list>https://felthamfoodbank.org/6.html</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1163930</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1163930&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Feltham and Heston</parliamentary_constituency>
-			<mp>Seema Malhotra MP</mp>
-			<mp_party>Labour Co-operative</mp_party>
-			<mp_parl_id>4253</mp_parl_id>
-			<ward>Feltham North</ward>
-			<district>Hounslow</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/feltham-and-heston/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/feltham-and-heston/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -28211,6 +28211,45 @@ FY5 2DR</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Black Country Food Bank</name>
+		<alt_name/>
+		<slug>black-country</slug>
+		<phone>01384671250</phone>
+		<secondary_phone/>
+		<email>admin@blackcountryfoodbank.org.uk</email>
+		<address>Albion Street
+Brierley Hill
+DY5 3EE</address>
+		<postcode>DY5 3EE</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.482506,-2.1224264</lat_lng>
+		<network>IFAN</network>
+		<created>2019-07-27T15:19:14.622117</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/black-country/</self>
+			<html>https://www.givefood.org.uk/needs/at/black-country/</html>
+			<homepage>https://www.blackcountryfoodbank.org.uk</homepage>
+			<shopping_list>https://www.blackcountryfoodbank.org.uk/support/shortages/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1136676</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1136676&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Stourbridge</parliamentary_constituency>
+			<mp>Mike Wood</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4384</mp_parl_id>
+			<ward>Brierley Hill &amp; Wordsley South</ward>
+			<district>Dudley</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/stourbridge/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/stourbridge/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Glasgow NW Food Bank</name>
 		<alt_name/>
 		<slug>glasgow-nw</slug>
@@ -28369,45 +28408,6 @@ WV7 3EQ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/the-wrekin/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/the-wrekin/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Black Country Food Bank</name>
-		<alt_name/>
-		<slug>black-country</slug>
-		<phone>01384671250</phone>
-		<secondary_phone/>
-		<email>admin@blackcountryfoodbank.org.uk</email>
-		<address>Albion Street
-Brierley Hill
-DY5 3EE</address>
-		<postcode>DY5 3EE</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.482506,-2.1224264</lat_lng>
-		<network>IFAN</network>
-		<created>2019-07-27T15:19:14.622117</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/black-country/</self>
-			<html>https://www.givefood.org.uk/needs/at/black-country/</html>
-			<homepage>https://www.blackcountryfoodbank.org.uk</homepage>
-			<shopping_list>https://www.blackcountryfoodbank.org.uk/support/shortages/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1136676</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1136676&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Stourbridge</parliamentary_constituency>
-			<mp>Mike Wood</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4384</mp_parl_id>
-			<ward>Brierley Hill &amp; Wordsley South</ward>
-			<district>Dudley</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/stourbridge/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/stourbridge/</html>
 			</urls>
 		</politics>
 	</foodbank>
