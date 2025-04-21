@@ -1,3 +1,35 @@
+- address: "Jimmy's Place\r\nSt James' Church Centre\r\nChurch Street\r\nPoole\r\n\
+    BH15 1JN"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1108714&subid=0
+    registration_id: '1108714'
+  closed: false
+  country: England
+  created: 2020-02-29 11:33:14.567290
+  email: poolefood@faith-works.org.uk
+  lat_lng: 50.7134672,-1.9897421
+  name: Poole Food Bank
+  network: IFAN
+  phone: 01202672694
+  politics:
+    district: Bournemouth, Christchurch and Poole
+    mp: Robert Syms
+    mp_parl_id: 245
+    mp_party: Conservative
+    parliamentary_constituency: Poole
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/poole/
+      self: https://www.givefood.org.uk/api/2/constituency/poole/
+    ward: Poole Town
+  postcode: BH15 1JN
+  secondary_phone: null
+  slug: poole
+  urls:
+    homepage: https://faith-works.org.uk/locations-across-dorset/poole-food-bank-dorset/
+    html: https://www.givefood.org.uk/needs/at/poole/
+    self: https://www.givefood.org.uk/api/2/foodbank/poole/
+    shopping_list: https://faith-works.org.uk/locations-across-dorset/poole-food-bank-dorset/
 - address: "Notting Hill Methodist Church\r\n240 Lancaster Rd\r\nLondon\r\nW11 4AH"
   alt_name: null
   charity:
@@ -156,38 +188,6 @@
     html: https://www.givefood.org.uk/needs/at/himmah/
     self: https://www.givefood.org.uk/api/2/foodbank/himmah/
     shopping_list: https://himmah.org/food/
-- address: "Jimmy's Place\r\nSt James' Church Centre\r\nChurch Street\r\nPoole\r\n\
-    BH15 1JN"
-  alt_name: null
-  charity:
-    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1108714&subid=0
-    registration_id: '1108714'
-  closed: false
-  country: England
-  created: 2020-02-29 11:33:14.567290
-  email: poolefood@faith-works.org.uk
-  lat_lng: 50.7134672,-1.9897421
-  name: Poole Food Bank
-  network: IFAN
-  phone: 01202672694
-  politics:
-    district: Bournemouth, Christchurch and Poole
-    mp: Robert Syms
-    mp_parl_id: 245
-    mp_party: Conservative
-    parliamentary_constituency: Poole
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/poole/
-      self: https://www.givefood.org.uk/api/2/constituency/poole/
-    ward: Poole Town
-  postcode: BH15 1JN
-  secondary_phone: null
-  slug: poole
-  urls:
-    homepage: https://faith-works.org.uk/locations-across-dorset/poole-food-bank-dorset/
-    html: https://www.givefood.org.uk/needs/at/poole/
-    self: https://www.givefood.org.uk/api/2/foodbank/poole/
-    shopping_list: https://faith-works.org.uk/locations-across-dorset/poole-food-bank-dorset/
 - address: "44 Rabans Close\r\nAylesbury\r\nBuckinghamshire\r\nHP19 8RS"
   alt_name: null
   charity:
@@ -10262,37 +10262,6 @@
     html: https://www.givefood.org.uk/needs/at/st-johns-community/
     self: https://www.givefood.org.uk/api/2/foodbank/st-johns-community/
     shopping_list: https://www.facebook.com/COMMUNITYFOODBANKATSTJOHNSANNESLEY/
-- address: "Immanuel Presbyterian Church\r\n35 Agnes Street\r\nBelfast\r\nBT13 1GG"
-  alt_name: null
-  charity:
-    register_url: https://www.charitycommissionni.org.uk/charity-details/?regId=100175
-    registration_id: NIC100175
-  closed: false
-  country: Northern Ireland
-  created: 2020-01-03 07:50:24.490527
-  email: info@northbelfast.foodbank.org.uk
-  lat_lng: 54.6081413,-5.9474094
-  name: North Belfast Food Bank
-  network: Trussell
-  phone: 07902099840
-  politics:
-    district: Belfast
-    mp: John Finucane
-    mp_parl_id: 4823
-    mp_party: Sinn Féin
-    parliamentary_constituency: Belfast West
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/belfast-west/
-      self: https://www.givefood.org.uk/api/2/constituency/belfast-west/
-    ward: Shankill
-  postcode: BT13 1GG
-  secondary_phone: null
-  slug: north-belfast
-  urls:
-    homepage: https://northbelfast.foodbank.org.uk
-    html: https://www.givefood.org.uk/needs/at/north-belfast/
-    self: https://www.givefood.org.uk/api/2/foodbank/north-belfast/
-    shopping_list: https://northbelfast.foodbank.org.uk/give-help/donate-food/
 - address: "St Andrews Centre\r\nChurch Walk\r\nPershore\r\nWR10 1BH"
   alt_name: null
   charity:
@@ -10418,6 +10387,37 @@
     html: https://www.givefood.org.uk/needs/at/vale-of-clwyd/
     self: https://www.givefood.org.uk/api/2/foodbank/vale-of-clwyd/
     shopping_list: https://valeofclwyd.foodbank.org.uk/give-help/donate-food/
+- address: "Immanuel Presbyterian Church\r\n35 Agnes Street\r\nBelfast\r\nBT13 1GG"
+  alt_name: null
+  charity:
+    register_url: https://www.charitycommissionni.org.uk/charity-details/?regId=100175
+    registration_id: NIC100175
+  closed: false
+  country: Northern Ireland
+  created: 2020-01-03 07:50:24.490527
+  email: info@northbelfast.foodbank.org.uk
+  lat_lng: 54.6081413,-5.9474094
+  name: North Belfast Food Bank
+  network: Trussell
+  phone: 07902099840
+  politics:
+    district: Belfast
+    mp: John Finucane
+    mp_parl_id: 4823
+    mp_party: Sinn Féin
+    parliamentary_constituency: Belfast West
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/belfast-west/
+      self: https://www.givefood.org.uk/api/2/constituency/belfast-west/
+    ward: Shankill
+  postcode: BT13 1GG
+  secondary_phone: null
+  slug: north-belfast
+  urls:
+    homepage: https://northbelfast.foodbank.org.uk
+    html: https://www.givefood.org.uk/needs/at/north-belfast/
+    self: https://www.givefood.org.uk/api/2/foodbank/north-belfast/
+    shopping_list: https://northbelfast.foodbank.org.uk/give-help/donate-food/
 - address: "Rock Christian Centre\r\n177 Spital Hill\r\nSheffield\r\nS4 7LF"
   alt_name: null
   charity:
@@ -11201,6 +11201,37 @@
     html: https://www.givefood.org.uk/needs/at/newtownabbey/
     self: https://www.givefood.org.uk/api/2/foodbank/newtownabbey/
     shopping_list: https://newtownabbey.foodbank.org.uk/give-help/donate-food/
+- address: "Cemetery Lodge\r\nBirchfield Road\r\nWidnes\r\nWA8 9EE"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1155130&subid=0
+    registration_id: '1155130'
+  closed: false
+  country: England
+  created: 2020-01-13 11:40:14.295518
+  email: contact@widnesfoodbank.org.uk
+  lat_lng: 53.3809057,-2.7358661
+  name: Widnes Food Bank
+  network: Trussell
+  phone: '01514220031'
+  politics:
+    district: Halton
+    mp: Derek Twigg
+    mp_parl_id: 429
+    mp_party: Labour
+    parliamentary_constituency: Widnes and Halewood
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/widnes-and-halewood/
+      self: https://www.givefood.org.uk/api/2/constituency/widnes-and-halewood/
+    ward: Birchfield
+  postcode: WA8 9EE
+  secondary_phone: null
+  slug: widnes
+  urls:
+    homepage: https://widnesfoodbank.org.uk
+    html: https://www.givefood.org.uk/needs/at/widnes/
+    self: https://www.givefood.org.uk/api/2/foodbank/widnes/
+    shopping_list: https://widnesfoodbank.org.uk/give-help/donate-food
 - address: "Unit E\r\nBeckett Close\r\nKnowsley Industrial Estate\r\nL33 7DF"
   alt_name: null
   charity:
@@ -11295,37 +11326,6 @@
     html: https://www.givefood.org.uk/needs/at/ballymoney/
     self: https://www.givefood.org.uk/api/2/foodbank/ballymoney/
     shopping_list: https://ballymoney.foodbank.org.uk/give-help/donate-food/
-- address: "Cemetery Lodge\r\nBirchfield Road\r\nWidnes\r\nWA8 9EE"
-  alt_name: null
-  charity:
-    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1155130&subid=0
-    registration_id: '1155130'
-  closed: false
-  country: England
-  created: 2020-01-13 11:40:14.295518
-  email: contact@widnesfoodbank.org.uk
-  lat_lng: 53.3809057,-2.7358661
-  name: Widnes Food Bank
-  network: Trussell
-  phone: '01514220031'
-  politics:
-    district: Halton
-    mp: Derek Twigg
-    mp_parl_id: 429
-    mp_party: Labour
-    parliamentary_constituency: Widnes and Halewood
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/widnes-and-halewood/
-      self: https://www.givefood.org.uk/api/2/constituency/widnes-and-halewood/
-    ward: Birchfield
-  postcode: WA8 9EE
-  secondary_phone: null
-  slug: widnes
-  urls:
-    homepage: https://widnesfoodbank.org.uk
-    html: https://www.givefood.org.uk/needs/at/widnes/
-    self: https://www.givefood.org.uk/api/2/foodbank/widnes/
-    shopping_list: https://widnesfoodbank.org.uk/give-help/donate-food
 - address: "Jubilee Central\r\nUnit 2 Lumina Way\r\nEnfield\r\nMiddlesex\r\nEN1 1FS"
   alt_name: null
   charity:
@@ -14304,37 +14304,6 @@
     html: https://www.givefood.org.uk/needs/at/daventry/
     self: https://www.givefood.org.uk/api/2/foodbank/daventry/
     shopping_list: https://referral.daventryfoodbank.org.uk/Stock_list.php
-- address: "The Hub \r\nCroxton Road\r\nThetford\r\nIP24 1TA"
-  alt_name: null
-  charity:
-    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1090802&subid=0
-    registration_id: '1090802'
-  closed: false
-  country: England
-  created: 2019-09-25 14:33:39.680910
-  email: info@thetford.foodbank.org.uk
-  lat_lng: 52.4255724,0.7546004
-  name: Thetford Food Bank
-  network: Trussell
-  phone: 03001029618
-  politics:
-    district: Breckland
-    mp: Elizabeth Truss
-    mp_parl_id: 4097
-    mp_party: Conservative
-    parliamentary_constituency: South West Norfolk
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/south-west-norfolk/
-      self: https://www.givefood.org.uk/api/2/constituency/south-west-norfolk/
-    ward: Thetford Boudica
-  postcode: IP24 1TA
-  secondary_phone: null
-  slug: thetford
-  urls:
-    homepage: https://thetford.foodbank.org.uk
-    html: https://www.givefood.org.uk/needs/at/thetford/
-    self: https://www.givefood.org.uk/api/2/foodbank/thetford/
-    shopping_list: https://thetford.foodbank.org.uk/give-help/donate-food/
 - address: "Unit 2\r\nGlebe Farm Buildings\r\nGuiting Power\r\nCheltenham\r\nGloucestershire\r\
     \nGL54 5TZ"
   alt_name: null
@@ -14367,6 +14336,37 @@
     html: https://www.givefood.org.uk/needs/at/north-cotswold/
     self: https://www.givefood.org.uk/api/2/foodbank/north-cotswold/
     shopping_list: https://northcotswold.foodbank.org.uk/give-help/donate-food/
+- address: "The Hub \r\nCroxton Road\r\nThetford\r\nIP24 1TA"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1090802&subid=0
+    registration_id: '1090802'
+  closed: false
+  country: England
+  created: 2019-09-25 14:33:39.680910
+  email: info@thetford.foodbank.org.uk
+  lat_lng: 52.4255724,0.7546004
+  name: Thetford Food Bank
+  network: Trussell
+  phone: 03001029618
+  politics:
+    district: Breckland
+    mp: Elizabeth Truss
+    mp_parl_id: 4097
+    mp_party: Conservative
+    parliamentary_constituency: South West Norfolk
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/south-west-norfolk/
+      self: https://www.givefood.org.uk/api/2/constituency/south-west-norfolk/
+    ward: Thetford Boudica
+  postcode: IP24 1TA
+  secondary_phone: null
+  slug: thetford
+  urls:
+    homepage: https://thetford.foodbank.org.uk
+    html: https://www.givefood.org.uk/needs/at/thetford/
+    self: https://www.givefood.org.uk/api/2/foodbank/thetford/
+    shopping_list: https://thetford.foodbank.org.uk/give-help/donate-food/
 - address: "1 Brassington Avenue\r\nSutton Coldfield\r\nB73 6AA"
   alt_name: null
   charity:
@@ -23538,38 +23538,6 @@
     html: https://www.givefood.org.uk/needs/at/duns/
     self: https://www.givefood.org.uk/api/2/foodbank/duns/
     shopping_list: https://www.dunsanddistrict.org.uk/
-- address: "East Worthing Baptist Church\r\n43 Pendine Avenue\r\nWorthing\r\nBN11\
-    \ 2NA"
-  alt_name: null
-  charity:
-    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1190114&subid=0
-    registration_id: '1190114'
-  closed: false
-  country: England
-  created: 2020-08-22 10:36:40.648357
-  email: help@worthingfoodfoundation.org.uk
-  lat_lng: 50.815351,-0.35287
-  name: Worthing Food Foundation Food Bank
-  network: Independent
-  phone: '07526176272'
-  politics:
-    district: Worthing
-    mp: Tim Loughton
-    mp_parl_id: 114
-    mp_party: Conservative
-    parliamentary_constituency: East Worthing and Shoreham
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/east-worthing-and-shoreham/
-      self: https://www.givefood.org.uk/api/2/constituency/east-worthing-and-shoreham/
-    ward: Selden
-  postcode: BN11 2NA
-  secondary_phone: null
-  slug: worthing-food-foundation
-  urls:
-    homepage: https://www.worthingfoodfoundation.org.uk/
-    html: https://www.givefood.org.uk/needs/at/worthing-food-foundation/
-    self: https://www.givefood.org.uk/api/2/foodbank/worthing-food-foundation/
-    shopping_list: https://www.worthingfoodfoundation.org.uk/
 - address: "​Unit 2\r\nAdapt Enterprise Hub\r\nBurn Lane\r\n​Hexham\r\nNE46 3HY"
   alt_name: null
   charity:
@@ -23632,6 +23600,38 @@
     html: https://www.givefood.org.uk/needs/at/churches/
     self: https://www.givefood.org.uk/api/2/foodbank/churches/
     shopping_list: http://www.churchesfoodbank.org.uk/
+- address: "East Worthing Baptist Church\r\n43 Pendine Avenue\r\nWorthing\r\nBN11\
+    \ 2NA"
+  alt_name: null
+  charity:
+    register_url: https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1190114&subid=0
+    registration_id: '1190114'
+  closed: false
+  country: England
+  created: 2020-08-22 10:36:40.648357
+  email: help@worthingfoodfoundation.org.uk
+  lat_lng: 50.815351,-0.35287
+  name: Worthing Food Foundation Food Bank
+  network: Independent
+  phone: '07526176272'
+  politics:
+    district: Worthing
+    mp: Tim Loughton
+    mp_parl_id: 114
+    mp_party: Conservative
+    parliamentary_constituency: East Worthing and Shoreham
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/east-worthing-and-shoreham/
+      self: https://www.givefood.org.uk/api/2/constituency/east-worthing-and-shoreham/
+    ward: Selden
+  postcode: BN11 2NA
+  secondary_phone: null
+  slug: worthing-food-foundation
+  urls:
+    homepage: https://www.worthingfoodfoundation.org.uk/
+    html: https://www.givefood.org.uk/needs/at/worthing-food-foundation/
+    self: https://www.givefood.org.uk/api/2/foodbank/worthing-food-foundation/
+    shopping_list: https://www.worthingfoodfoundation.org.uk/
 - address: "Union Chapel\r\n2b Wellington Road\r\nFallowfield\r\nM14 6EQ"
   alt_name: null
   charity:
