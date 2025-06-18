@@ -809,6 +809,46 @@ ME3 7TL</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>SMT Foodbank</name>
+		<alt_name/>
+		<slug>smt</slug>
+		<phone>01274270043</phone>
+		<secondary_phone/>
+		<email>info@smtrust.org.uk</email>
+		<address>SM Complex
+Beckside Lane
+Bradford
+BD7 2JX</address>
+		<postcode>BD7 2JX</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>53.78349069999999,-1.787575</lat_lng>
+		<network>Independent</network>
+		<created>2025-06-18T15:04:46.304254</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/smt/</self>
+			<html>https://www.givefood.org.uk/needs/at/smt/</html>
+			<homepage>https://www.smtrust.org.uk/food-bank-uk/</homepage>
+			<shopping_list>https://www.smtrust.org.uk/food-bank-uk/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1104771</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1104771&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Bradford South</parliamentary_constituency>
+			<mp/>
+			<mp_party/>
+			<mp_parl_id/>
+			<ward>Great Horton</ward>
+			<district>Bradford</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/bradford-south/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/bradford-south/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Godmanchester Foodbank</name>
 		<alt_name/>
 		<slug>godmanchester</slug>
@@ -5686,48 +5726,6 @@ TQ6 9LJ</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Dunfermline Foodbank</name>
-		<alt_name/>
-		<slug>dunfermline</slug>
-		<phone>07580231286</phone>
-		<secondary_phone/>
-		<email>info@dunfermline.foodbank.org.uk</email>
-		<address>Liberty Centre
-Pitreavie Way
-Pitreavie Business Park
-Dunfermline
-Fife
-KY11 8QS</address>
-		<postcode>KY11 8QS</postcode>
-		<closed>false</closed>
-		<country>Scotland</country>
-		<lat_lng>56.0553775,-3.4427274</lat_lng>
-		<network>Trussell</network>
-		<created>2019-12-23T02:13:41.364076</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/dunfermline/</self>
-			<html>https://www.givefood.org.uk/needs/at/dunfermline/</html>
-			<homepage>https://dunfermline.foodbank.org.uk</homepage>
-			<shopping_list>https://dunfermline.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>SC043216</registration_id>
-			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC043216</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Dunfermline and Dollar</parliamentary_constituency>
-			<mp>Douglas Chapman</mp>
-			<mp_party>Scottish National</mp_party>
-			<mp_parl_id>4402</mp_parl_id>
-			<ward>Dunfermline Central</ward>
-			<district>Fife</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/dunfermline-and-dollar/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/dunfermline-and-dollar/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Melksham Foodbank</name>
 		<alt_name/>
 		<slug>melksham</slug>
@@ -6005,6 +6003,48 @@ BD1 4EJ</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/bradford-west/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/bradford-west/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Dunfermline Foodbank</name>
+		<alt_name/>
+		<slug>dunfermline</slug>
+		<phone>07580231286</phone>
+		<secondary_phone/>
+		<email>info@dunfermline.foodbank.org.uk</email>
+		<address>Liberty Centre
+Pitreavie Way
+Pitreavie Business Park
+Dunfermline
+Fife
+KY11 8QS</address>
+		<postcode>KY11 8QS</postcode>
+		<closed>false</closed>
+		<country>Scotland</country>
+		<lat_lng>56.0553775,-3.4427274</lat_lng>
+		<network>Trussell</network>
+		<created>2019-12-23T02:13:41.364076</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/dunfermline/</self>
+			<html>https://www.givefood.org.uk/needs/at/dunfermline/</html>
+			<homepage>https://dunfermline.foodbank.org.uk</homepage>
+			<shopping_list>https://dunfermline.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>SC043216</registration_id>
+			<register_url>https://www.oscr.org.uk/about-charities/search-the-register/charity-details?number=SC043216</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Dunfermline and Dollar</parliamentary_constituency>
+			<mp>Douglas Chapman</mp>
+			<mp_party>Scottish National</mp_party>
+			<mp_parl_id>4402</mp_parl_id>
+			<ward>Dunfermline Central</ward>
+			<district>Fife</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/dunfermline-and-dollar/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/dunfermline-and-dollar/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -22872,47 +22912,6 @@ TQ13 9AD</address>
 		</politics>
 	</foodbank>
 	<foodbank>
-		<name>Uckfield Foodbank</name>
-		<alt_name/>
-		<slug>uckfield</slug>
-		<phone>01825745489</phone>
-		<secondary_phone/>
-		<email>admin@uckfield.foodbank.org.uk</email>
-		<address>15 Horsted Square
-Bellbrook Industrial Estate
-Uckfield
-East Sussex
-TN22 1QG</address>
-		<postcode>TN22 1QG</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>50.9662362,0.0824903</lat_lng>
-		<network>Trussell</network>
-		<created>2019-12-28T00:46:20.281006</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/uckfield/</self>
-			<html>https://www.givefood.org.uk/needs/at/uckfield/</html>
-			<homepage>https://uckfield.foodbank.org.uk</homepage>
-			<shopping_list>https://uckfield.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1153505</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1153505&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>East Grinstead and Uckfield</parliamentary_constituency>
-			<mp>Nusrat Ghani</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>4460</mp_parl_id>
-			<ward>Uckfield New Town</ward>
-			<district>Wealden</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/east-grinstead-and-uckfield/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/east-grinstead-and-uckfield/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
 		<name>Dunstable Foodbank</name>
 		<alt_name/>
 		<slug>dunstable</slug>
@@ -22950,6 +22949,47 @@ LU6 1SX</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/dunstable-and-leighton-buzzard/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/dunstable-and-leighton-buzzard/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
+		<name>Uckfield Foodbank</name>
+		<alt_name/>
+		<slug>uckfield</slug>
+		<phone>01825745489</phone>
+		<secondary_phone/>
+		<email>admin@uckfield.foodbank.org.uk</email>
+		<address>15 Horsted Square
+Bellbrook Industrial Estate
+Uckfield
+East Sussex
+TN22 1QG</address>
+		<postcode>TN22 1QG</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>50.9662362,0.0824903</lat_lng>
+		<network>Trussell</network>
+		<created>2019-12-28T00:46:20.281006</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/uckfield/</self>
+			<html>https://www.givefood.org.uk/needs/at/uckfield/</html>
+			<homepage>https://uckfield.foodbank.org.uk</homepage>
+			<shopping_list>https://uckfield.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1153505</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1153505&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>East Grinstead and Uckfield</parliamentary_constituency>
+			<mp>Nusrat Ghani</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>4460</mp_parl_id>
+			<ward>Uckfield New Town</ward>
+			<district>Wealden</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/east-grinstead-and-uckfield/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/east-grinstead-and-uckfield/</html>
 			</urls>
 		</politics>
 	</foodbank>
@@ -31484,6 +31524,47 @@ N1 0SR</address>
 		</politics>
 	</foodbank>
 	<foodbank>
+		<name>Fosse Foodbank</name>
+		<alt_name/>
+		<slug>fosse</slug>
+		<phone>07964412010</phone>
+		<secondary_phone/>
+		<email>info@fosse.foodbank.org.uk</email>
+		<address>St Peter's Church
+Warwick Road
+Kineton
+Warwickshire
+CV35 0HN</address>
+		<postcode>CV35 0HN</postcode>
+		<closed>false</closed>
+		<country>England</country>
+		<lat_lng>52.1569829,-1.5107122</lat_lng>
+		<network>Trussell</network>
+		<created>2020-01-09T14:14:31.696112</created>
+		<urls>
+			<self>https://www.givefood.org.uk/api/2/foodbank/fosse/</self>
+			<html>https://www.givefood.org.uk/needs/at/fosse/</html>
+			<homepage>https://fosse.foodbank.org.uk</homepage>
+			<shopping_list>https://fosse.foodbank.org.uk/give-help/donate-food/</shopping_list>
+		</urls>
+		<charity>
+			<registration_id>1173954</registration_id>
+			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1173954&amp;subid=0</register_url>
+		</charity>
+		<politics>
+			<parliamentary_constituency>Kenilworth and Southam</parliamentary_constituency>
+			<mp>Jeremy Wright</mp>
+			<mp_party>Conservative</mp_party>
+			<mp_parl_id>1560</mp_parl_id>
+			<ward>Gaydon, Kineton &amp; Upper Lighthorne</ward>
+			<district>Stratford-on-Avon</district>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/constituency/kenilworth-and-southam/</self>
+				<html>https://www.givefood.org.uk/needs/in/constituency/kenilworth-and-southam/</html>
+			</urls>
+		</politics>
+	</foodbank>
+	<foodbank>
 		<name>Sustain Foodbank</name>
 		<alt_name/>
 		<slug>sustain</slug>
@@ -31602,47 +31683,6 @@ TW19 7ER</address>
 			<urls>
 				<self>https://www.givefood.org.uk/api/2/constituency/spelthorne/</self>
 				<html>https://www.givefood.org.uk/needs/in/constituency/spelthorne/</html>
-			</urls>
-		</politics>
-	</foodbank>
-	<foodbank>
-		<name>Fosse Foodbank</name>
-		<alt_name/>
-		<slug>fosse</slug>
-		<phone>07964412010</phone>
-		<secondary_phone/>
-		<email>info@fosse.foodbank.org.uk</email>
-		<address>St Peter's Church
-Warwick Road
-Kineton
-Warwickshire
-CV35 0HN</address>
-		<postcode>CV35 0HN</postcode>
-		<closed>false</closed>
-		<country>England</country>
-		<lat_lng>52.1569829,-1.5107122</lat_lng>
-		<network>Trussell</network>
-		<created>2020-01-09T14:14:31.696112</created>
-		<urls>
-			<self>https://www.givefood.org.uk/api/2/foodbank/fosse/</self>
-			<html>https://www.givefood.org.uk/needs/at/fosse/</html>
-			<homepage>https://fosse.foodbank.org.uk</homepage>
-			<shopping_list>https://fosse.foodbank.org.uk/give-help/donate-food/</shopping_list>
-		</urls>
-		<charity>
-			<registration_id>1173954</registration_id>
-			<register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1173954&amp;subid=0</register_url>
-		</charity>
-		<politics>
-			<parliamentary_constituency>Kenilworth and Southam</parliamentary_constituency>
-			<mp>Jeremy Wright</mp>
-			<mp_party>Conservative</mp_party>
-			<mp_parl_id>1560</mp_parl_id>
-			<ward>Gaydon, Kineton &amp; Upper Lighthorne</ward>
-			<district>Stratford-on-Avon</district>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/constituency/kenilworth-and-southam/</self>
-				<html>https://www.givefood.org.uk/needs/in/constituency/kenilworth-and-southam/</html>
 			</urls>
 		</politics>
 	</foodbank>
