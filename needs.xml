@@ -1,6 +1,25 @@
 <?xml version="1.0" ?>
 <needs>
 	<need>
+		<id>5edf5c92</id>
+		<found>2025-07-14T20:19:21.404921</found>
+		<foodbank>
+			<name>Fareham</name>
+			<slug>fareham</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/fareham/</self>
+				<html>https://www.givefood.org.uk/needs/at/fareham/</html>
+			</urls>
+		</foodbank>
+		<needs>Baked Beans
+Weetabix
+UHT Milk
+Tinned Potatoes
+Spaghetti Hoops And Sausages</needs>
+		<excess>Cardboard Egg Boxes</excess>
+		<self>https://www.givefood.org.uk/api/2/need/5edf5c92/</self>
+	</need>
+	<need>
 		<id>04d89382</id>
 		<found>2025-07-14T16:31:59.329588</found>
 		<foodbank>
@@ -2731,23 +2750,5 @@ Rice
 Pasta
 Sugar</excess>
 		<self>https://www.givefood.org.uk/api/2/need/c0744bb8/</self>
-	</need>
-	<need>
-		<id>6c5593e4</id>
-		<found>2025-07-04T12:18:26.023598</found>
-		<foodbank>
-			<name>Fylde</name>
-			<slug>fylde</slug>
-			<urls>
-				<self>https://www.givefood.org.uk/api/2/foodbank/fylde/</self>
-				<html>https://www.givefood.org.uk/needs/at/fylde/</html>
-			</urls>
-		</foodbank>
-		<needs>Cereal
-Coffee
-Milk
-Tea Bags</needs>
-		<excess/>
-		<self>https://www.givefood.org.uk/api/2/need/6c5593e4/</self>
 	</need>
 </needs>
