@@ -1,1 +1,2746 @@
-<!DOCTYPE html><html lang="en-US"><head><title>Just a moment...</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=Edge"><meta name="robots" content="noindex,nofollow"><meta name="viewport" content="width=device-width,initial-scale=1"><style>*{box-sizing:border-box;margin:0;padding:0}html{line-height:1.15;-webkit-text-size-adjust:100%;color:#313131;font-family:system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji"}body{display:flex;flex-direction:column;height:100vh;min-height:100vh}.main-content{margin:8rem auto;padding-left:1.5rem;max-width:60rem}@media (width <= 720px){.main-content{margin-top:4rem}}.h2{line-height:2.25rem;font-size:1.5rem;font-weight:500}@media (width <= 720px){.h2{line-height:1.5rem;font-size:1.25rem}}#challenge-error-text{background-image:url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzMiIgaGVpZ2h0PSIzMiIgZmlsbD0ibm9uZSI+PHBhdGggZmlsbD0iI0IyMEYwMyIgZD0iTTE2IDNhMTMgMTMgMCAxIDAgMTMgMTNBMTMuMDE1IDEzLjAxNSAwIDAgMCAxNiAzbTAgMjRhMTEgMTEgMCAxIDEgMTEtMTEgMTEuMDEgMTEuMDEgMCAwIDEtMTEgMTEiLz48cGF0aCBmaWxsPSIjQjIwRjAzIiBkPSJNMTcuMDM4IDE4LjYxNUgxNC44N0wxNC41NjMgOS41aDIuNzgzem0tMS4wODQgMS40MjdxLjY2IDAgMS4wNTcuMzg4LjQwNy4zODkuNDA3Ljk5NCAwIC41OTYtLjQwNy45ODQtLjM5Ny4zOS0xLjA1Ny4zODktLjY1IDAtMS4wNTYtLjM4OS0uMzk4LS4zODktLjM5OC0uOTg0IDAtLjU5Ny4zOTgtLjk4NS40MDYtLjM5NyAxLjA1Ni0uMzk3Ii8+PC9zdmc+");background-repeat:no-repeat;background-size:contain;padding-left:34px}@media (prefers-color-scheme: dark){body{background-color:#222;color:#d9d9d9}}</style><meta http-equiv="refresh" content="360"></head><body><div class="main-wrapper" role="main"><div class="main-content"><noscript><div class="h2"><span id="challenge-error-text">Enable JavaScript and cookies to continue</span></div></noscript></div></div><script>(function(){window._cf_chl_opt = {cvId: '3',cZone: 'www.givefood.org.uk',cType: 'managed',cRay: '96ae5581fb21c557',cH: 'P334FHBDOKOz36X9JyCUtDsd9X_JjU1LzJbIblPscH4-1754481208-1.2.1.1-MHBACgkBLu.Em_keVMMbrLyd2l6oZ19H_fwm7r.xeAPbRYobP8E6X7vnK5U8t0me',cUPMDTk:"/api/2/needs/?format=xml&__cf_chl_tk=txWDD8zkWDLIpJZjSD7mOuvHv0o7fz7Osq5o8Cfnjd4-1754481208-1.0.1.1-y2U4xlsThCSST06SZtTM34M_UIvyyTkAP_IishpGasM",cFPWv: 'b',cITimeS: '1754481208',cTplC:0,cTplV:5,cTplB: 'cf',fa:"/api/2/needs/?format=xml&__cf_chl_f_tk=txWDD8zkWDLIpJZjSD7mOuvHv0o7fz7Osq5o8Cfnjd4-1754481208-1.0.1.1-y2U4xlsThCSST06SZtTM34M_UIvyyTkAP_IishpGasM",md: '4_4qx86lBzT02ni.NrGfGYKK94p1UuFEf2rwlPV3OSU-1754481208-1.2.1.1-8fNQhwgAqm12ffp.UeGRD6BlhlsbpAEianw7VMJlu71y._iCLV55V6lhYHfBrqWVKHrdzPf2Y1dfjAH.QzDyK3xmRpEPNKaT.nyLi3ifBewJnGO4e5zcZkULCAvtIkvCHN9GrDuyHxokG6WmHsGMS9fO0Pp_SmXl68LtgHl.VxJlolW0j3S68qJGHvVSpCzTSkUd2ajOf5.7pSw1dwed7_khmRvNerQcAYbUOBD1tHTKCx9nXBaYfzPY.CZWYrdk._.L7iFktzTgpakKhyA79Z6WgicWCFAzmPCiLzuazRj5zdJ0ZwZyRzqTW3uN780jynnCS3PU1IPlfOUhEZ2gn6X0c45RdZX06wvhruFHxDj1HCKcSESTZlThBPfb.pDptN46uKn8uDV0ZgqYo.shXO3DNb0R0D34CDiFqxB96YtHLNSpWH_mmBnT_6OMqa..lCGw2iMlsjgze4wG7ATTl.d7a3qbGRzf5pD6JKWpRd8gQxOiNSTZ3egcxQiCd6BA.jEdWpvvPMlZfO1.uM9DCvxC9L21nT_bGiUcLhEnKk3ZuCGyHPtVYi5bo3RPGmFhse9oT3KNQnZGPzy8WHAMCnJh2jPOxML8bcVcqXruDijrM7Q_.MhOI4DQf0iFDlhAPdh9CWp03j37Pt4mSBYgbqMLyrp0T7WAcSwycZGE0ABp.IeLnNr30aTYNYBkHB3LVzLmmS5aqHcW5TEDPrf69be5m.MzxeMDRwedPH51WsZYh0tEAZliqB578yGSZrMJVPi6mqJhgaqZNeOkKnRNeFI4KvTCqByOls3Eyi7DOnr.nystt1hXUTGLkcqaJv.AFptLPfky8WP4GJI29OpmqWcV8NzS4fuAyhD7iPZCjLNeh7HucW5_nKrNQrGK0kdbwG97c3YO7KO5AYyde5ekI2ABlMkuioF7jbOF.pZqOCy2RUsRp3t6IlgZMDaBCkUMWR7nxX3XmzTtnzqNTX8c7fs7xmfRtfv..pax94jAUBM.7RCoU3KoFMHN3PL1OFFe',mdrd: '',};var a = document.createElement('script');a.src = '/cdn-cgi/challenge-platform/h/b/orchestrate/chl_page/v1?ray=96ae5581fb21c557';window._cf_chl_opt.cOgUHash = location.hash === '' && location.href.indexOf('#') !== -1 ? '#' : location.hash;window._cf_chl_opt.cOgUQuery = location.search === '' && location.href.slice(0, location.href.length - window._cf_chl_opt.cOgUHash.length).indexOf('?') !== -1 ? '?' : location.search;if (window.history && window.history.replaceState) {var ogU = location.pathname + window._cf_chl_opt.cOgUQuery + window._cf_chl_opt.cOgUHash;history.replaceState(null, null,"/api/2/needs/?format=xml&__cf_chl_rt_tk=txWDD8zkWDLIpJZjSD7mOuvHv0o7fz7Osq5o8Cfnjd4-1754481208-1.0.1.1-y2U4xlsThCSST06SZtTM34M_UIvyyTkAP_IishpGasM"+ window._cf_chl_opt.cOgUHash);a.onload = function() {history.replaceState(null, null, ogU);}}document.getElementsByTagName('head')[0].appendChild(a);}());</script></body></html>
+<?xml version="1.0" ?>
+<needs>
+	<need>
+		<id>ac693efb</id>
+		<found>2025-08-06T06:48:23.080330</found>
+		<foodbank>
+			<name>Rutherglen &amp; Cambuslang</name>
+			<slug>rutherglen-cambuslang</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/rutherglen-cambuslang/</self>
+				<html>https://www.givefood.org.uk/needs/at/rutherglen-cambuslang/</html>
+			</urls>
+		</foodbank>
+		<needs>Spaghetti Hoops
+Macaroni Cheese
+Sausage And Beans
+Tinned Fish
+Rice Pudding
+Sugar
+UHT Milk
+Toilet Rolls
+Washing Powder
+Size 5 And 6 Nappies
+Dog Food
+Soap/Hand Wash
+Toothpaste/Toothbrushes
+Shampoo</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/ac693efb/</self>
+	</need>
+	<need>
+		<id>6e644091</id>
+		<found>2025-08-05T19:17:28.696176</found>
+		<foodbank>
+			<name>Arden</name>
+			<slug>arden</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/arden/</self>
+				<html>https://www.givefood.org.uk/needs/at/arden/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fruit
+Tinned Tomatoes
+Coffee
+Tea
+Soap
+Shampoo
+Deodorant
+Laundry Powder</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/6e644091/</self>
+	</need>
+	<need>
+		<id>69f6119e</id>
+		<found>2025-08-05T19:09:52.427038</found>
+		<foodbank>
+			<name>West Cheshire</name>
+			<slug>west-cheshire</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/west-cheshire/</self>
+				<html>https://www.givefood.org.uk/needs/at/west-cheshire/</html>
+			</urls>
+		</foodbank>
+		<needs>UHT Milk
+Tinned Tomatoes
+Tinned Veg
+Tinned Meat
+Curry Sauce
+Tinned Fish
+Tinned Potatoes
+Instant Coffee
+Cuppa Soups
+Instant Noodles
+UHT Fruit Juice
+Instant Pasta
+Pasta In Sauce
+Tinned Custard
+Tinned Fruit
+Biscuits And Small Treats
+Jams And Spreads
+Coffee
+Toiletries</needs>
+		<excess>Pasta
+Baked Beans
+Tinned Soups</excess>
+		<self>https://www.givefood.org.uk/api/2/need/69f6119e/</self>
+	</need>
+	<need>
+		<id>1603ead7</id>
+		<found>2025-08-05T17:32:33.328036</found>
+		<foodbank>
+			<name>Dunstable</name>
+			<slug>dunstable</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/dunstable/</self>
+				<html>https://www.givefood.org.uk/needs/at/dunstable/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Fruit Juice (Cartons)
+Long Life Milk (Cartons Of Semi Skimmed And Full Fat)
+Tinned Fruit
+Packets Of Sweets / Chocolate
+Instant Mashed Potato
+Porridge
+Tinned Solid Meat (Ham, Spam, Corned Beef, Etc)
+Jars Of Jam
+Baked Beans
+Packets Of Dried Lentils/Pulses
+Sponge Puddings
+Carrier Bags
+Laundry Products
+Pasta Sauces (Jar)
+Soup
+Tinned Tomatoes
+Tinned Meat Meals (e.g. Chilli Con Carne, Beef Stew, Chicken Curry)
+Tinned Fish (e.g. Tuna, Salmon, Mackerel)
+Tinned Vegetables
+Tinned Potatoes
+Rice
+Pasta
+Cereal
+Rice Pudding (Tinned)
+Tea Bags
+Instant Coffee
+Snack Noodles (Pots/Packets)
+Biscuits
+Snack Bars
+500g Bag Of Sugar
+Toiletries
+Pet Food</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/1603ead7/</self>
+	</need>
+	<need>
+		<id>506484f2</id>
+		<found>2025-08-05T17:06:34.300173</found>
+		<foodbank>
+			<name>West Cheshire</name>
+			<slug>west-cheshire</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/west-cheshire/</self>
+				<html>https://www.givefood.org.uk/needs/at/west-cheshire/</html>
+			</urls>
+		</foodbank>
+		<needs>Biscuits And Small Treats
+Coffee
+Cuppa Soups
+Curry Sauce
+Instant Noodles
+Instant Pasta (Pasta And Sauce)
+Jams And Spreads
+Pasta In Sauce
+Tinned Custard
+Tinned Fruit
+Tinned Meat / Fish
+Tinned Potatoes / Veg
+Tinned Tomatoes
+Toiletries
+UHT Fruit Juice / Milk</needs>
+		<excess>Baked Beans
+Pasta
+Tinned Soups</excess>
+		<self>https://www.givefood.org.uk/api/2/need/506484f2/</self>
+	</need>
+	<need>
+		<id>035611e4</id>
+		<found>2025-08-05T15:46:33.258307</found>
+		<foodbank>
+			<name>Wadebridge</name>
+			<slug>wadebridge</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/wadebridge/</self>
+				<html>https://www.givefood.org.uk/needs/at/wadebridge/</html>
+			</urls>
+		</foodbank>
+		<needs>Long-Life Milk
+Long-Life Fruit Juice
+Soup
+Spaghetti
+Tinned Custard
+Shampoo
+Kitchen/Bathroom Cleaner</needs>
+		<excess>Beans
+Sanitary Items
+Cereal</excess>
+		<self>https://www.givefood.org.uk/api/2/need/035611e4/</self>
+	</need>
+	<need>
+		<id>65f58532</id>
+		<found>2025-08-05T15:31:49.817663</found>
+		<foodbank>
+			<name>Andover</name>
+			<slug>andover</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/andover/</self>
+				<html>https://www.givefood.org.uk/needs/at/andover/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Tomatoes
+Tinned Soup
+Tinned Sweetcorn
+Tinned Custard
+Tinned Rice Pudding
+Tinned Fruit
+Peanut Butter</needs>
+		<excess>Period Products</excess>
+		<self>https://www.givefood.org.uk/api/2/need/65f58532/</self>
+	</need>
+	<need>
+		<id>0075aa7e</id>
+		<found>2025-08-05T15:03:31.025150</found>
+		<foodbank>
+			<name>South Liverpool</name>
+			<slug>south-liverpool</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/south-liverpool/</self>
+				<html>https://www.givefood.org.uk/needs/at/south-liverpool/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Custard / Rice Pudding
+Long Life Juice / Squash
+Tinned Fruit
+Tinned Tomatoes
+Instant / Pot Noodles
+Tinned Meat (e.g. Corned Beef / Ham / Minced Beef)
+Shower Gel / Shampoo</needs>
+		<excess>Bottled Water
+Pasta
+Tinned Baked Beans
+Soup
+Newborn Nappies (Sizes 1 And 2)</excess>
+		<self>https://www.givefood.org.uk/api/2/need/0075aa7e/</self>
+	</need>
+	<need>
+		<id>a78fe7f6</id>
+		<found>2025-08-05T15:01:11.677537</found>
+		<foodbank>
+			<name>East Lothian</name>
+			<slug>east-lothian</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/east-lothian/</self>
+				<html>https://www.givefood.org.uk/needs/at/east-lothian/</html>
+			</urls>
+		</foodbank>
+		<needs>Baked Beans
+Instant Mashed Potato
+Pasta
+Pasta Sauce
+Rice
+Tinned Soup</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/a78fe7f6/</self>
+	</need>
+	<need>
+		<id>3a767f85</id>
+		<found>2025-08-05T14:53:14.820840</found>
+		<foodbank>
+			<name>West Berks</name>
+			<slug>west-berks</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/west-berks/</self>
+				<html>https://www.givefood.org.uk/needs/at/west-berks/</html>
+			</urls>
+		</foodbank>
+		<needs>Male Razors
+Tinned Tomatoes
+Custard/Rice Pudding
+Shaving Foam
+Tinned Meat Meals
+Biscuits
+Cup-a-soup
+Mugshots
+Fish
+Tinned Fruit</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/3a767f85/</self>
+	</need>
+	<need>
+		<id>74d57062</id>
+		<found>2025-08-05T12:35:24.073051</found>
+		<foodbank>
+			<name>Farnborough</name>
+			<slug>farnborough</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/farnborough/</self>
+				<html>https://www.givefood.org.uk/needs/at/farnborough/</html>
+			</urls>
+		</foodbank>
+		<needs>Semi-Skimmed Or Whole Milk 1 Litre
+Fruit Juice 1 Litre
+Instant Custard
+Tinned Meats: Stew, Chili And Chicken In Sauce
+Washing Up Liquid And All Purpose Cleaning Spray
+Soap
+Pasta Sauce Including Small 340 G
+Corned Beef And Tinned Pork
+Non Microwave Rice
+Rice Pudding</needs>
+		<excess>Nappies
+Baby Formula Milk
+Skimmed Milk
+Cat Food
+Chocolate Breakfast Cereals</excess>
+		<self>https://www.givefood.org.uk/api/2/need/74d57062/</self>
+	</need>
+	<need>
+		<id>9899187b</id>
+		<found>2025-08-05T12:28:30.677686</found>
+		<foodbank>
+			<name>Slough</name>
+			<slug>slough</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/slough/</self>
+				<html>https://www.givefood.org.uk/needs/at/slough/</html>
+			</urls>
+		</foodbank>
+		<needs>Meat (Tinned)
+Rice
+Cooking Sauces / Pasta Sauce (Long-Life)
+Soups (Tinned)
+Fruit Juice (Long-Life)
+Milk (Long-Life)
+Coffee
+Fruit (Tinned)
+Tuna (Tinned)
+Vegetarian Meals (Tinned)
+Vegetables (Tinned)
+Rice Pudding (Long-Life)
+Instant Mash
+Chapati Flour 2kg (Maximum Size)
+Oil 1 Litre (Maximum Size)
+Lentils
+Jam
+Biscuits
+Deodorants
+Sanitary Pads
+Toilet Rolls
+Washing Up Liquid
+Shampoo
+Shaving Foam/Gel
+Razors
+Laundry Capsules
+Nappies Size 7 &amp; 8
+Strong Carrier Bags</needs>
+		<excess>Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/9899187b/</self>
+	</need>
+	<need>
+		<id>0e9cab6c</id>
+		<found>2025-08-05T12:20:47.388967</found>
+		<foodbank>
+			<name>Farnham</name>
+			<slug>farnham</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/farnham/</self>
+				<html>https://www.givefood.org.uk/needs/at/farnham/</html>
+			</urls>
+		</foodbank>
+		<needs>UHT Milk
+Desserts Such As Jelly And UHT Sponge Puddings
+Tinned Potatoes And Instant Mash
+Tinned Meat Such As Ham, Corn Beef Or Hot Dogs
+Washing Powder</needs>
+		<excess>Cereal
+Pasta
+Beans</excess>
+		<self>https://www.givefood.org.uk/api/2/need/0e9cab6c/</self>
+	</need>
+	<need>
+		<id>ef217ac8</id>
+		<found>2025-08-04T22:39:54.985597</found>
+		<foodbank>
+			<name>Malmesbury &amp; District</name>
+			<slug>malmesbury-district</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/malmesbury-district/</self>
+				<html>https://www.givefood.org.uk/needs/at/malmesbury-district/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Cold Meat
+Tinned Fruit
+UHT Fruit Juice</needs>
+		<excess>Dog Food
+Cat Food
+Jam
+Non Dairy Milk
+Sanitary Products
+Tea</excess>
+		<self>https://www.givefood.org.uk/api/2/need/ef217ac8/</self>
+	</need>
+	<need>
+		<id>dd9271c6</id>
+		<found>2025-08-04T20:59:51.186309</found>
+		<foodbank>
+			<name>Hart</name>
+			<slug>hart</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/hart/</self>
+				<html>https://www.givefood.org.uk/needs/at/hart/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Vegetables
+Boil-In-The-Bag-Rice
+Sweet Spreads (Jam Etc)
+Longlife Milk
+Tampons
+Dog Food</needs>
+		<excess>Pasta
+Water
+Sugar
+Flour
+Biscuits</excess>
+		<self>https://www.givefood.org.uk/api/2/need/dd9271c6/</self>
+	</need>
+	<need>
+		<id>822eed71</id>
+		<found>2025-08-04T18:28:21.596321</found>
+		<foodbank>
+			<name>Cupar</name>
+			<slug>cupar</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/cupar/</self>
+				<html>https://www.givefood.org.uk/needs/at/cupar/</html>
+			</urls>
+		</foodbank>
+		<needs>Long-Life Milk
+Coffee
+Long-Life Fruit Juice
+Tinned Fruit
+Jam/Marmalade/Honey
+Tinned Soup
+Tinned Spag Bols/Ravioli
+Toilet Roll</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/822eed71/</self>
+	</need>
+	<need>
+		<id>bd1043af</id>
+		<found>2025-08-04T18:04:04.266475</found>
+		<foodbank>
+			<name>Brent</name>
+			<slug>brent</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/brent/</self>
+				<html>https://www.givefood.org.uk/needs/at/brent/</html>
+			</urls>
+		</foodbank>
+		<needs>Cereal
+Tinned Fruit
+Tinned Vegetables
+Tinned Fish
+Chocolates/Snacks
+Plastic Bags/Bags For Life
+Laundry Detergent
+Washing Up Liquid</needs>
+		<excess>Biscuits</excess>
+		<self>https://www.givefood.org.uk/api/2/need/bd1043af/</self>
+	</need>
+	<need>
+		<id>83f28429</id>
+		<found>2025-08-04T17:43:59.372377</found>
+		<foodbank>
+			<name>Cambridge City</name>
+			<slug>cambridge-city</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/cambridge-city/</self>
+				<html>https://www.givefood.org.uk/needs/at/cambridge-city/</html>
+			</urls>
+		</foodbank>
+		<needs>Instant Coffee
+Noodles
+Porridge Oats
+Rice
+Snacks
+Tinned Fish
+Tinned Meat
+Tinned Rice Pudding
+Tinned Soup
+Tinned Spaghetti</needs>
+		<excess>Baked Beans
+Boxes Of Tissues
+Cooking Sauce In Packets
+Incontinence Products
+Pasta
+Powdered Milk</excess>
+		<self>https://www.givefood.org.uk/api/2/need/83f28429/</self>
+	</need>
+	<need>
+		<id>2719eb7c</id>
+		<found>2025-08-04T17:38:08.481683</found>
+		<foodbank>
+			<name>Newark</name>
+			<slug>newark</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/newark/</self>
+				<html>https://www.givefood.org.uk/needs/at/newark/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Fruit Juice
+Tinned Soup
+Tinned Potatoes
+Tinned Fruit
+Tinned Rice Pudding
+Sponge Puddings - Tinned Or Microwaveable
+Toilet Roll
+Male And Female Deodorant
+Breakfast Cereal
+UHT/Long Life Milk
+Tea (40s)
+Soup
+Noodles
+Savoury Rice Packets
+Pasta Sauce
+Cooking Oil
+Instant Mashed Potato (Sachet)
+Tinned Peas
+Tinned Meat
+Tinned Ravioli
+Tinned Corned Beef
+Tinned Meatballs
+Tinned Or Jar Hotdogs
+Tinned Ham / Chicken
+Tinned Tomatoes
+Tinned Vegetables
+Rice (Dried Or Pouches)
+Tinned Fish
+Baked Beans
+Cereal Bars
+Biscuits
+Marmalade
+Chocolate Biscuits Eg: Kitkat
+Toothpaste
+Hand Wash
+Shampoo
+Conditioner
+Period Pads
+Toiletries
+Washing Tabs
+Washing-Up Liquid
+Laundry Pods</needs>
+		<excess>Tinned Spaghetti
+Tinned/Carton Custard</excess>
+		<self>https://www.givefood.org.uk/api/2/need/2719eb7c/</self>
+	</need>
+	<need>
+		<id>a69e51f0</id>
+		<found>2025-08-04T17:30:48.311228</found>
+		<foodbank>
+			<name>Crowthorne</name>
+			<slug>crowthorne</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/crowthorne/</self>
+				<html>https://www.givefood.org.uk/needs/at/crowthorne/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fish
+Sponge Puddings
+Tinned Tomatoes
+Pulses
+Small Jars of Coffee
+Cereal
+Porridge
+Anti Bac Spray
+Bleach
+Washing up Liquid
+Shampoo
+Handwash
+Conditioner</needs>
+		<excess>Beans
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/a69e51f0/</self>
+	</need>
+	<need>
+		<id>e16b25af</id>
+		<found>2025-08-04T17:20:08.313203</found>
+		<foodbank>
+			<name>North Bristol &amp; South Gloucestershire</name>
+			<slug>north-bristol-south-gloucestershire</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/north-bristol-south-gloucestershire/</self>
+				<html>https://www.givefood.org.uk/needs/at/north-bristol-south-gloucestershire/</html>
+			</urls>
+		</foodbank>
+		<needs>Non-Dairy Milk
+Tinned Fruit
+Free-From Pasta
+Washing Powder (Small Boxes)
+Toothbrushes
+Fish
+Instant Coffee
+Tinned Halal Meat</needs>
+		<excess>Beans &amp; Spaghetti
+Soup
+Pasta
+Nappies S5
+Tea
+Coffee
+Cleaning Supplies</excess>
+		<self>https://www.givefood.org.uk/api/2/need/e16b25af/</self>
+	</need>
+	<need>
+		<id>becda383</id>
+		<found>2025-08-04T17:19:02.274951</found>
+		<foodbank>
+			<name>Skipton</name>
+			<slug>skipton</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/skipton/</self>
+				<html>https://www.givefood.org.uk/needs/at/skipton/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Tomatoes
+UHT Milk
+Tinned Meat
+Bags Of Rice
+Tinned Veg (Not Potatoes)
+Jam
+Pasta Sauce
+Deodorant
+Washing Detergent And Washing Up Liquid</needs>
+		<excess>Tinned Soup
+Pasta
+Soap
+Toothpaste
+Sanitary Items</excess>
+		<self>https://www.givefood.org.uk/api/2/need/becda383/</self>
+	</need>
+	<need>
+		<id>c379642d</id>
+		<found>2025-08-04T17:18:42.851438</found>
+		<foodbank>
+			<name>Basingstoke</name>
+			<slug>basingstoke</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/basingstoke/</self>
+				<html>https://www.givefood.org.uk/needs/at/basingstoke/</html>
+			</urls>
+		</foodbank>
+		<needs>UHT Milk
+Tinned Meat (e.g. Chilli, Stewing Steak, Meatballs)
+UHT Fruit Juice
+Hot And Cold Desserts (e.g. Jelly, Sponge Pudding, Angel Delight)
+Savoury Spreads (e.g. Marmite, Peanut Butter)
+Tinned Spaghetti
+Shopping Bags
+Tinned Soup
+Tinned Tomatoes
+Sweet Treats
+Savoury Snacks
+Noodles
+Coffee
+Squash
+Powdered Milk
+Cup A Soup
+Nappies (Size 6 And Above Only)
+Toothbrushes
+Shampoo And Conditioner
+Tampons
+Household Cleaning (e.g. Cleaning Spray, Washing Up Liquid)</needs>
+		<excess>Pasta
+Rice
+Baked Beans
+Pulses
+Hot And Cold Cereal
+Non-Dairy Milk
+Sanitary Pads
+Baby Food, Formula And Nappies Size 5 And Below
+Hand Soap</excess>
+		<self>https://www.givefood.org.uk/api/2/need/c379642d/</self>
+	</need>
+	<need>
+		<id>0f402227</id>
+		<found>2025-08-04T17:09:35.403556</found>
+		<foodbank>
+			<name>Ealing</name>
+			<slug>ealing</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/ealing/</self>
+				<html>https://www.givefood.org.uk/needs/at/ealing/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Veggie Main Meals
+Tinned Chickpeas
+Sardines / Tuna
+Tinned Fruit
+Breakfast Cereals
+Peanut Butter
+Honey
+Toiletries
+Cleaning Products</needs>
+		<excess>Toilet Roll
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/0f402227/</self>
+	</need>
+	<need>
+		<id>59931138</id>
+		<found>2025-08-04T17:04:40.702099</found>
+		<foodbank>
+			<name>Brent</name>
+			<slug>brent</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/brent/</self>
+				<html>https://www.givefood.org.uk/needs/at/brent/</html>
+			</urls>
+		</foodbank>
+		<needs>Cereal
+Tinned Fruit
+Tinned Vegetables
+Tinned Fish
+Chocolates/Snacks
+Plastic Bags/Bags For Life
+Toiletries
+Laundry Detergent
+Washing Up Liquid</needs>
+		<excess>Biscuits</excess>
+		<self>https://www.givefood.org.uk/api/2/need/59931138/</self>
+	</need>
+	<need>
+		<id>26b6b6d0</id>
+		<found>2025-08-04T17:01:23.784587</found>
+		<foodbank>
+			<name>Caterham</name>
+			<slug>caterham</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/caterham/</self>
+				<html>https://www.givefood.org.uk/needs/at/caterham/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat
+Tinned Vegetables
+Tinned Fruit
+Rice Pudding
+Custard (Ready-Made)
+Ketchup And Sauces
+Fruit Juice (Long Life)
+Soap
+Shower Gel
+Deodorant (Male Or Female)</needs>
+		<excess>Formula Baby Milk
+Sugar
+Fizzy Drinks
+Perishable Food
+Bottled Water
+Any Items Containing Alcohol Or Medical Products</excess>
+		<self>https://www.givefood.org.uk/api/2/need/26b6b6d0/</self>
+	</need>
+	<need>
+		<id>6d569899</id>
+		<found>2025-08-04T16:46:20.146653</found>
+		<foodbank>
+			<name>Taff-Ely</name>
+			<slug>taff-ely</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/taff-ely/</self>
+				<html>https://www.givefood.org.uk/needs/at/taff-ely/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Spaghetti
+Tinned Meats
+Squash
+Crisps
+Sweets And Chocolate</needs>
+		<excess>Tinned Beans
+Pasta
+Cereal
+Tinned Peas</excess>
+		<self>https://www.givefood.org.uk/api/2/need/6d569899/</self>
+	</need>
+	<need>
+		<id>2448ebed</id>
+		<found>2025-08-04T16:34:46.294979</found>
+		<foodbank>
+			<name>Godalming &amp; Villages Community Store</name>
+			<slug>godalming-villages-community-store</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/godalming-villages-community-store/</self>
+				<html>https://www.givefood.org.uk/needs/at/godalming-villages-community-store/</html>
+			</urls>
+		</foodbank>
+		<needs>Sugar
+Salt
+Tinned Custard
+Biscuits
+Shampoo
+Jelly Blocks
+Tinned Fruit
+Tomato Ketchup
+Sweet Treats
+Bleach
+Packet Sauces
+Gluten Free Snacks
+Meat Flavoured Instant Noodles</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/2448ebed/</self>
+	</need>
+	<need>
+		<id>c35ceeb8</id>
+		<found>2025-08-04T12:31:03.040121</found>
+		<foodbank>
+			<name>Hull</name>
+			<slug>hull</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/hull/</self>
+				<html>https://www.givefood.org.uk/needs/at/hull/</html>
+			</urls>
+		</foodbank>
+		<needs>Pasta
+Tinned Rice Pudding
+Soup
+UHT Milk
+Tinned Tomatoes
+Tea Bags
+Tinned Fruit</needs>
+		<excess>Pet Food
+Cooking Sauces</excess>
+		<self>https://www.givefood.org.uk/api/2/need/c35ceeb8/</self>
+	</need>
+	<need>
+		<id>4c3fb61e</id>
+		<found>2025-08-04T00:45:13.558665</found>
+		<foodbank>
+			<name>Kingston</name>
+			<slug>kingston</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/kingston/</self>
+				<html>https://www.givefood.org.uk/needs/at/kingston/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat
+UHT Milk
+Tinned Fruit
+Tinned Vegetables
+Squash/Juice
+Pasta Sauce
+Pasta
+Tinned Soup
+Coffee
+Cooking Oil
+2-in-1 Shampoo
+Shaving Foam/Gel
+Ladies/Men's Deodorant
+Washing Up Liquid</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/4c3fb61e/</self>
+	</need>
+	<need>
+		<id>75c6fa5c</id>
+		<found>2025-08-04T00:28:22.268884</found>
+		<foodbank>
+			<name>Bognor Regis</name>
+			<slug>bognor-regis</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/bognor-regis/</self>
+				<html>https://www.givefood.org.uk/needs/at/bognor-regis/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat
+Tinned Fish
+Biscuits
+Pasta Sauces
+Tinned/Packet Soups</needs>
+		<excess>Pulses</excess>
+		<self>https://www.givefood.org.uk/api/2/need/75c6fa5c/</self>
+	</need>
+	<need>
+		<id>d549f07b</id>
+		<found>2025-08-03T20:59:43.635455</found>
+		<foodbank>
+			<name>Widnes</name>
+			<slug>widnes</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/widnes/</self>
+				<html>https://www.givefood.org.uk/needs/at/widnes/</html>
+			</urls>
+		</foodbank>
+		<needs>Soup
+Rice Pudding
+Tinned Fruit
+Jam
+Microwave Rice
+Coffee
+Sweets And Treats</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/d549f07b/</self>
+	</need>
+	<need>
+		<id>1de46f32</id>
+		<found>2025-08-03T17:33:28.913799</found>
+		<foodbank>
+			<name>Cirencester</name>
+			<slug>cirencester</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/cirencester/</self>
+				<html>https://www.givefood.org.uk/needs/at/cirencester/</html>
+			</urls>
+		</foodbank>
+		<needs>Angel Delight
+Brown Sauce
+Cat Food
+Chocolate
+Gluten Free Products
+Hot Dogs
+Hot Tinned Meat
+Instant Coffee
+Long-Life Juice
+Mayonnaise
+Multipack Crisps/ Snacks
+Shampoo
+Snacks
+Sponge Puddings
+Tinned Curry
+Tinned Mushrooms
+Tinned Peas
+Tinned Soup
+Tinned Sweetcorn
+Tinned Tomatoes
+Tinned Vegetables
+Toilet Cleaner
+Tomato Sauce
+Washing Powder</needs>
+		<excess>Baked Beans
+Biscuits
+Dog Food
+Pasta
+Rice
+Tinned Custard
+Tinned Fish
+Tinned Pulses</excess>
+		<self>https://www.givefood.org.uk/api/2/need/1de46f32/</self>
+	</need>
+	<need>
+		<id>ff3c5e16</id>
+		<found>2025-08-02T19:49:46.301476</found>
+		<foodbank>
+			<name>Bourne</name>
+			<slug>bourne</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/bourne/</self>
+				<html>https://www.givefood.org.uk/needs/at/bourne/</html>
+			</urls>
+		</foodbank>
+		<needs>UHT Milk
+Fruit Juice / Squash
+Laundry Powder / Liquid
+Washing Up Liquid
+Toothbrushes
+Toilet Roll
+Razors &amp; Shaving Foam
+Coffee
+Tinned Meat
+Jam
+Desserts
+Custard
+Snacks - Pot Noodles, Rice Pots Etc</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/ff3c5e16/</self>
+	</need>
+	<need>
+		<id>4bf3ef61</id>
+		<found>2025-08-02T16:36:28.722234</found>
+		<foodbank>
+			<name>Jubilee Storehouse</name>
+			<slug>jubilee-storehouse</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/jubilee-storehouse/</self>
+				<html>https://www.givefood.org.uk/needs/at/jubilee-storehouse/</html>
+			</urls>
+		</foodbank>
+		<needs>Pasta
+Tinned Soup
+Coffee
+Shower Gel/Shampoo</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/4bf3ef61/</self>
+	</need>
+	<need>
+		<id>a3e24a7b</id>
+		<found>2025-08-02T08:21:26.575075</found>
+		<foodbank>
+			<name>Redcar</name>
+			<slug>redcar</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/redcar/</self>
+				<html>https://www.givefood.org.uk/needs/at/redcar/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Tomatoes
+Tinned Soup
+Cuppa Soup
+Tinned Rice Pudding
+Tinned Custard
+Jars Of Pasta Sauce
+Sponge Puddings
+Tinned Fruit</needs>
+		<excess>Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/a3e24a7b/</self>
+	</need>
+	<need>
+		<id>31f15d7f</id>
+		<found>2025-08-02T08:21:14.048648</found>
+		<foodbank>
+			<name>West Hallam Methodist</name>
+			<slug>west-hallam-methodist</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/west-hallam-methodist/</self>
+				<html>https://www.givefood.org.uk/needs/at/west-hallam-methodist/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat (Chicken, Ham, Corned Beef, Spam)
+Tinned Fish (Tuna, Sardines, Salmon)
+Tinned Hot Dog Sausages
+Meals In A Tin (Stewed Steak, Pie, Curry, Chilli Con Carne, Bolognaise, Meatballs)
+Pasta Sauces
+Tinned Vegetables (Potatoes, Carrots, Peas, Mushrooms, Mushy Peas, Sweetcorn)
+Tinned Fruit (All Flavours And Types)
+Rice Pudding
+Sponge Pudding
+Tinned Or Packet Custard
+Soups Of All Varieties
+Baked Beans
+Baked Beans And Sausages
+Tomatoes
+Spaghetti Hoops
+Pasta
+Rice
+Spaghetti
+Instant Mash Potato
+Cereal (Weetabix, Cornflakes, Shredded Wheat, Porridge)
+Teabags (Preferably In Packs Of 40)
+Instant Coffee
+Instant Hot Chocolate
+Squash (Different Flavours)
+Fruit Juice (Long Life Preferably)
+UHT Milk
+Sugar
+Biscuits (Chocolate Or Plain)
+Crackers
+Chocolate Wafers
+Chocolates</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/31f15d7f/</self>
+	</need>
+	<need>
+		<id>106b653a</id>
+		<found>2025-08-02T07:55:49.314728</found>
+		<foodbank>
+			<name>Brecon</name>
+			<slug>brecon</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/brecon/</self>
+				<html>https://www.givefood.org.uk/needs/at/brecon/</html>
+			</urls>
+		</foodbank>
+		<needs>Microwaveable Rice
+Washing-Up Liquid
+Washing Detergent - Smaller Packs
+Non-Instant Noodles
+Single Packets Of Instant Mash
+Tomato Ketchup
+Spaghetti 'Snap Pots'
+Tinned Tomatoes/Passata
+Pasta Sauce
+Single-Helping Tubs Of Custard &amp; Rice Pudding
+Tinned Fruit
+Tinned Vegetables
+Tinned Meat
+Cereal
+Tinned &amp; Packet Soup
+Biscuits
+Semi-Skimmed UHT Milk
+Sun Cream Especially For Children</needs>
+		<excess>Baked Beans
+Non-Dairy Milk Alternatives
+Gluten-Free Pasta
+Dried Dog-Food
+Nappies Especially Sizes 0-3
+Sanitary Towels
+Bars Of Soap (Other Than Baby Soap)
+Children's Toothbrushes &amp; Toothpaste</excess>
+		<self>https://www.givefood.org.uk/api/2/need/106b653a/</self>
+	</need>
+	<need>
+		<id>a2e1ee76</id>
+		<found>2025-08-01T17:48:38.217164</found>
+		<foodbank>
+			<name>Stoke-on-Trent</name>
+			<slug>stoke-on-trent</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/stoke-on-trent/</self>
+				<html>https://www.givefood.org.uk/needs/at/stoke-on-trent/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Soup
+Tinned Rice Pudding
+Tinned Fruit
+Tea Bags Size 40's
+Tinned Tomatoes
+Carrier Bags
+Cereal
+Jar Pasta Sauce
+Tinned Vegetables
+Tinned Meat
+Tinned Fish
+Tinned Sponge Pudding
+Biscuits
+UHT Fruit Juice
+UHT Milk
+Savoury Treats
+Sweet Treats / Chocolate Etc
+Squash
+Coffee</needs>
+		<excess>Baked Beans</excess>
+		<self>https://www.givefood.org.uk/api/2/need/a2e1ee76/</self>
+	</need>
+	<need>
+		<id>f1832fb3</id>
+		<found>2025-08-01T17:16:55.202474</found>
+		<foodbank>
+			<name>Mid Norfolk</name>
+			<slug>mid-norfolk</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/mid-norfolk/</self>
+				<html>https://www.givefood.org.uk/needs/at/mid-norfolk/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Soup
+Tinned Vegetables
+Laundry Detergent
+Sponge Puddings
+Washing Up Liquid
+Toilet Roll</needs>
+		<excess>Breakfast Cereal
+Pasta
+Biscuits
+Teabags
+Sanitaryware</excess>
+		<self>https://www.givefood.org.uk/api/2/need/f1832fb3/</self>
+	</need>
+	<need>
+		<id>5d0689bf</id>
+		<found>2025-08-01T17:12:27.026046</found>
+		<foodbank>
+			<name>Chorlton &amp; Didsbury</name>
+			<slug>chorlton-didsbury</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/chorlton-didsbury/</self>
+				<html>https://www.givefood.org.uk/needs/at/chorlton-didsbury/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Fruit Juice
+Tinned Pulses
+Kidney Beans
+Chickpeas
+Coffee
+Tea
+Long Life Milk (UHT)
+Toiletries
+Soap
+Shampoo
+Conditioner
+Shower Gel
+Cereal
+Soup
+Beans
+Pasta Sauce
+Tinned Tomatoes
+Pulses
+Tinned Vegetables
+Tinned Meat Meals
+Tinned Vegetarian Meals
+Tinned Fish
+Tinned Fruit
+Biscuits
+Pasta
+Rice
+Fruit Juice
+Sauces/Condiments
+Snacks
+Jam
+Pet Food
+Baby Food
+Hygiene Items</needs>
+		<excess>Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/5d0689bf/</self>
+	</need>
+	<need>
+		<id>9db0ffed</id>
+		<found>2025-08-01T16:56:05.999455</found>
+		<foodbank>
+			<name>Chiltern</name>
+			<slug>chiltern</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/chiltern/</self>
+				<html>https://www.givefood.org.uk/needs/at/chiltern/</html>
+			</urls>
+		</foodbank>
+		<needs>Chocolate
+Household Cleaner
+Long-Life Juice
+Sweets
+Tinned Chicken
+Tinned Ham
+Tinned Tuna
+Toilet Cleaner
+Washing Up Liquid</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/9db0ffed/</self>
+	</need>
+	<need>
+		<id>4804d36a</id>
+		<found>2025-08-01T16:42:02.997099</found>
+		<foodbank>
+			<name>Salisbury</name>
+			<slug>salisbury</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/salisbury/</self>
+				<html>https://www.givefood.org.uk/needs/at/salisbury/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Fruit Juice
+Tinned Veg
+Meat Meals (Tinned Curry, Chilli, Ham)
+Vegetarian Meals
+UHT Milk
+Tinned Or Instant Mash Potatoes
+Packet And Sponge Puds
+Jam
+Chocolate
+Coffee
+Shampoo/Conditioner/2in1
+Deodorant
+Toilet Roll
+Washing Powder (Small Boxes Or Sheets)</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/4804d36a/</self>
+	</need>
+	<need>
+		<id>018cb568</id>
+		<found>2025-08-01T16:40:57.013335</found>
+		<foodbank>
+			<name>Hailsham</name>
+			<slug>hailsham</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/hailsham/</self>
+				<html>https://www.givefood.org.uk/needs/at/hailsham/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Vegetables
+Cereals
+Biscuits
+Long-Life Puddings
+Tinned Fruit
+Toilet Rolls
+Sweets/Chocolates
+Soap
+Household Items
+Dog Food
+Toiletries
+Washing Tablets
+Nappies</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/018cb568/</self>
+	</need>
+	<need>
+		<id>e931a98f</id>
+		<found>2025-08-01T16:34:53.029724</found>
+		<foodbank>
+			<name>Stockport</name>
+			<slug>stockport</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/stockport/</self>
+				<html>https://www.givefood.org.uk/needs/at/stockport/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat
+Rice Pudding
+Tinned Tomatoes
+Bars Of Soap
+Rice
+Tinned Soup
+Cat Food
+Toothpaste</needs>
+		<excess>Cereal
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/e931a98f/</self>
+	</need>
+	<need>
+		<id>b1e8e2b1</id>
+		<found>2025-08-01T16:33:19.007221</found>
+		<foodbank>
+			<name>Leeds South &amp; East</name>
+			<slug>leeds-south-east</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/leeds-south-east/</self>
+				<html>https://www.givefood.org.uk/needs/at/leeds-south-east/</html>
+			</urls>
+		</foodbank>
+		<needs>UHT Milk
+Biscuits
+Custard
+Cooking Sauces
+Tinned/Packet Mash Potatoes</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/b1e8e2b1/</self>
+	</need>
+	<need>
+		<id>6a9ec045</id>
+		<found>2025-08-01T16:31:54.462973</found>
+		<foodbank>
+			<name>Walton &amp; Hersham</name>
+			<slug>walton-hersham</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/walton-hersham/</self>
+				<html>https://www.givefood.org.uk/needs/at/walton-hersham/</html>
+			</urls>
+		</foodbank>
+		<needs>Long-Life UHT Milk
+Tinned Tomatoes
+Tinned Sweetcorn
+Chocolate/Sweets
+Instant Coffee
+Hot Chocolate
+Deodorant
+Shampoo</needs>
+		<excess>Soup
+Tinned Fruit
+Porridge Oats</excess>
+		<self>https://www.givefood.org.uk/api/2/need/6a9ec045/</self>
+	</need>
+	<need>
+		<id>76ba19d5</id>
+		<found>2025-08-01T16:27:12.086164</found>
+		<foodbank>
+			<name>HITS</name>
+			<slug>hits</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/hits/</self>
+				<html>https://www.givefood.org.uk/needs/at/hits/</html>
+			</urls>
+		</foodbank>
+		<needs>Baked Beans
+Tinned Tomatoes
+Tinned Spaghetti
+Jars of Pasta/Curry Sauce
+Long Life Milk (Green &amp; Blue)
+Tea Bags
+Sugar
+Washing Powder
+Cat Food</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/76ba19d5/</self>
+	</need>
+	<need>
+		<id>e3b11a58</id>
+		<found>2025-08-01T16:19:31.870619</found>
+		<foodbank>
+			<name>Purley</name>
+			<slug>purley</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/purley/</self>
+				<html>https://www.givefood.org.uk/needs/at/purley/</html>
+			</urls>
+		</foodbank>
+		<needs>Jars of Honey
+Tins of Dessert Fruit
+Tinned Tomatoes
+Long Life Whole Milk
+Tea Bags
+Tinned Meat Meals
+Tinned Peas
+Tinned Carrots
+Tinned/Packet Custard
+Vegetarian Meals
+Packets of Sweet Biscuits
+Chocolate Treats
+Toilet Rolls
+Sanitary Pads
+Unisex Deodorant
+Small Washing Up Liquid</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/e3b11a58/</self>
+	</need>
+	<need>
+		<id>4add8623</id>
+		<found>2025-08-01T15:14:19.426293</found>
+		<foodbank>
+			<name>Norwich</name>
+			<slug>norwich</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/norwich/</self>
+				<html>https://www.givefood.org.uk/needs/at/norwich/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Juice
+Rice Pudding
+Custard
+Jam/Peanut Butter
+Penguin Biscuits Or Non Branded Wrapped Chocolate Biscuits
+Shampoo</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/4add8623/</self>
+	</need>
+	<need>
+		<id>0f52d761</id>
+		<found>2025-08-01T15:13:05.522268</found>
+		<foodbank>
+			<name>Falkirk</name>
+			<slug>falkirk</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/falkirk/</self>
+				<html>https://www.givefood.org.uk/needs/at/falkirk/</html>
+			</urls>
+		</foodbank>
+		<needs>Custard
+Snack Items E.G. Instant Noodles, Microwave Rice/Pasta
+Cartons Of Fruit Juice
+Tinned Meat
+Tinned Rice Pudding
+Razors &amp; Shaving Foam
+Sugar
+Cartons Of Or Tinned Tomatoes</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/0f52d761/</self>
+	</need>
+	<need>
+		<id>2c416b27</id>
+		<found>2025-08-01T15:12:07.207290</found>
+		<foodbank>
+			<name>Manna</name>
+			<slug>manna</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/manna/</self>
+				<html>https://www.givefood.org.uk/needs/at/manna/</html>
+			</urls>
+		</foodbank>
+		<needs>Custard Powder Sachets
+Tinned Green Beans
+Crisps
+Long-Life Full Fat Milk - Blue
+Instant Mashed Potato (Smash Type)
+Noodles For 1
+Small Jars Of Coffee
+Cereal Bars
+Tinned Fruit - Especially Peaches, Pears, Apricots, Mandarins
+Crackers
+Mug Shots (Or Similar) Sachets
+Kitchen Roll
+Adult Toothbrushes
+Men's 2 In 1 Shampoo/Shower Gel
+Deodorant For Men
+Toothpaste For Children Age 3-5/3-8 Years
+Baby Wipes</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/2c416b27/</self>
+	</need>
+	<need>
+		<id>549e2752</id>
+		<found>2025-08-01T15:09:42.935554</found>
+		<foodbank>
+			<name>Woking</name>
+			<slug>woking</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/woking/</self>
+				<html>https://www.givefood.org.uk/needs/at/woking/</html>
+			</urls>
+		</foodbank>
+		<needs>Detergent Bio &amp; Non-Bio
+Long-Life Sponge Puddings
+Shampoo
+Antibacterial Wipes
+Cleaning Cloths &amp; Scouring Pads &amp; Sponges
+Deodorant Spray &amp; Roll On
+Disposable Razors
+Chocolate Spread
+Toilet Cleaner/Gel
+Hair Conditioner
+Small Cartons Of Baby Milk Formula
+Surface Cleaner Sprays
+Egg &amp; Rice Noodles
+Toilet Rolls
+Tinned Salmon
+Disinfectant
+Tinned Meat &amp; Chicken Meals
+Peanut Butter
+Mayonnaise
+Long-Life Milk</needs>
+		<excess>Tea Bags
+Soup
+Porridge
+Tinned Pulses
+Cereal
+Pasta
+Baked Beans</excess>
+		<self>https://www.givefood.org.uk/api/2/need/549e2752/</self>
+	</need>
+	<need>
+		<id>186959f0</id>
+		<found>2025-08-01T15:03:01.009839</found>
+		<foodbank>
+			<name>Hart</name>
+			<slug>hart</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/hart/</self>
+				<html>https://www.givefood.org.uk/needs/at/hart/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Vegetables
+Sweet Biscuits
+Savoury Spreads (Marmite Etc)
+Washing-Up Liquid
+Toothbrushes
+Men's Deodorant And Grooming</needs>
+		<excess>Pasta
+Water
+Sugar
+Flour
+Biscuits</excess>
+		<self>https://www.givefood.org.uk/api/2/need/186959f0/</self>
+	</need>
+	<need>
+		<id>31dde40e</id>
+		<found>2025-08-01T15:00:10.759472</found>
+		<foodbank>
+			<name>Hertford &amp; District</name>
+			<slug>hertford-district</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/hertford-district/</self>
+				<html>https://www.givefood.org.uk/needs/at/hertford-district/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Milk (UHT)
+Tinned Meat
+Tinned Rice Pudding/Custard
+Tinned Potatoes
+Biscuits
+Long Life Fruit Juice
+Tinned Potato/Instant Mash
+Tinned Fruit
+Biscuits/Treats
+Tinned Spaghetti
+Rice
+Coffee
+Shampoo/Conditioner
+Soap
+Toothpaste
+Shower Gel</needs>
+		<excess>Sanitary Wear</excess>
+		<self>https://www.givefood.org.uk/api/2/need/31dde40e/</self>
+	</need>
+	<need>
+		<id>7ca4c8c0</id>
+		<found>2025-08-01T14:58:40.431104</found>
+		<foodbank>
+			<name>Alton</name>
+			<slug>alton</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/alton/</self>
+				<html>https://www.givefood.org.uk/needs/at/alton/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Tomatoes
+Tinned Fruit
+Pasta Sauce
+Rice
+Pasta
+Long Life Or Instant Custard
+Baked Beans</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/7ca4c8c0/</self>
+	</need>
+	<need>
+		<id>58708c87</id>
+		<found>2025-08-01T14:56:58.206590</found>
+		<foodbank>
+			<name>Witney &amp; West Oxfordshire</name>
+			<slug>witney-west-oxfordshire</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/witney-west-oxfordshire/</self>
+				<html>https://www.givefood.org.uk/needs/at/witney-west-oxfordshire/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat
+Long Life Juice
+Tooth Paste And Tooth Brushes
+Shampoo And Conditioner
+Ketchup And Mayonnaise
+Tinned Fish
+Toiletries
+Sanitary Products
+Cleaning Supplies
+Disposable Cutlery
+Paper Plates
+Paper Bowls</needs>
+		<excess>Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/58708c87/</self>
+	</need>
+	<need>
+		<id>8806aa12</id>
+		<found>2025-08-01T14:53:05.924884</found>
+		<foodbank>
+			<name>Epsom and Ewell</name>
+			<slug>epsom-and-ewell</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/epsom-and-ewell/</self>
+				<html>https://www.givefood.org.uk/needs/at/epsom-and-ewell/</html>
+			</urls>
+		</foodbank>
+		<needs>Microwave Rice
+Sweetcorn
+Pasta Sauce
+Cooking Sauces
+Instant Coffee
+Ketchup &amp; Mayonnaise/Brown Sauce
+Tinned Vegetables
+Tinned Fish
+Tinned Fruit
+Baked Beans
+Tinned Meat
+Dried Pasta In Sauce
+Squash
+Long Life Juice
+Tinned Tomatoes
+Porridge
+Rice Pudding
+Custard
+Biscuits
+Jam/Honey/Marmalade/Chocolate Spread/Peanut Butter
+Long Life Sponge Puddings
+Chocolate Biscuit Bars
+Crisps
+Chocolate
+Hair Conditioner
+Shaving Foam
+Children's Toothpaste (Age 0-2 Only)
+Deodorant (Male/Female)
+Toilet Rolls
+Nappies Size 6
+Washing Up Liquid
+Washing Powder</needs>
+		<excess>Tinned Soup
+Cat Food
+Pasta
+Pulses</excess>
+		<self>https://www.givefood.org.uk/api/2/need/8806aa12/</self>
+	</need>
+	<need>
+		<id>4cbcb77d</id>
+		<found>2025-08-01T14:50:25.871392</found>
+		<foodbank>
+			<name>Birmingham Central</name>
+			<slug>birmingham-central</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/birmingham-central/</self>
+				<html>https://www.givefood.org.uk/needs/at/birmingham-central/</html>
+			</urls>
+		</foodbank>
+		<needs>Chopped Tomatoes
+Biscuits
+Tinned Fish
+Cereal
+UHT Milk
+Shampoo</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/4cbcb77d/</self>
+	</need>
+	<need>
+		<id>d05fc522</id>
+		<found>2025-08-01T14:47:35.023178</found>
+		<foodbank>
+			<name>Castlehaven</name>
+			<slug>castlehaven</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/castlehaven/</self>
+				<html>https://www.givefood.org.uk/needs/at/castlehaven/</html>
+			</urls>
+		</foodbank>
+		<needs>Rice
+Pasta
+Noodles
+Cereals
+Beans
+Soup
+Cooking Sauces
+Fresh Fruit And Vegetables
+Toiletries
+Essential Household Items</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/d05fc522/</self>
+	</need>
+	<need>
+		<id>7dae9af5</id>
+		<found>2025-08-01T14:46:31.592334</found>
+		<foodbank>
+			<name>Fylde</name>
+			<slug>fylde</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/fylde/</self>
+				<html>https://www.givefood.org.uk/needs/at/fylde/</html>
+			</urls>
+		</foodbank>
+		<needs>Chocolate
+Coffee (Small Jars)
+Cooking Oil
+Crisps
+Jam
+Pasta Sauces
+Tinned Fruit
+Tinned Tomatoes
+Baby Wipes
+Washing Up Liquid</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/7dae9af5/</self>
+	</need>
+	<need>
+		<id>13c98cef</id>
+		<found>2025-08-01T14:45:47.805135</found>
+		<foodbank>
+			<name>Coventry</name>
+			<slug>coventry</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/coventry/</self>
+				<html>https://www.givefood.org.uk/needs/at/coventry/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Tomatoes
+Cereal
+Tinned Fruit
+UHT Long Life Milk
+Cooking Sauce
+Tea Bags
+Instant Coffee
+Fruit Juice Or Squash</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/13c98cef/</self>
+	</need>
+	<need>
+		<id>122b75e4</id>
+		<found>2025-08-01T14:42:46.329971</found>
+		<foodbank>
+			<name>Brecon</name>
+			<slug>brecon</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/brecon/</self>
+				<html>https://www.givefood.org.uk/needs/at/brecon/</html>
+			</urls>
+		</foodbank>
+		<needs>Single Packets Of Instant Mash
+Custard Powder
+Spaghetti 'Snap Pots'
+Single-Helping Tubs Of Custard &amp; Rice Pudding
+2-Helping Packets Of Rice &amp; 'Super Rice'
+Drinking Chocolate
+Cereal
+Tinned Tomatoes
+Tinned &amp; Packet Soup
+Tinned Meat
+Biscuits
+Crisps
+Sun Cream Especially For Children</needs>
+		<excess>Baked Beans
+Non-Dairy Milk Alternatives
+Gluten-Free Pasta
+Nappies Especially Sizes 0-3
+Sanitary Towels
+Bars Of Soap (Other Than Baby Soap)
+Children's Toothbrushes &amp; Toothpaste</excess>
+		<self>https://www.givefood.org.uk/api/2/need/122b75e4/</self>
+	</need>
+	<need>
+		<id>bfcd0372</id>
+		<found>2025-08-01T14:42:42.114339</found>
+		<foodbank>
+			<name>Long Eaton &amp; Sawley</name>
+			<slug>long-eaton-sawley</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/long-eaton-sawley/</self>
+				<html>https://www.givefood.org.uk/needs/at/long-eaton-sawley/</html>
+			</urls>
+		</foodbank>
+		<needs>Soup
+Tinned Meat
+Tinned Fruit
+Tea
+Tinned Tomatoes
+Custard
+Sponge Puddings
+Tinned Fish
+Savoury Snacks
+Washing Powder
+Tinned Vegetables
+Tinned Potatoes
+Jam
+Treats
+Rice Pudding
+Rice
+Long Life Juice
+Coffee
+Biscuits
+Toiletries
+Pasta Sauce</needs>
+		<excess>Beans
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/bfcd0372/</self>
+	</need>
+	<need>
+		<id>343c8855</id>
+		<found>2025-08-01T14:42:11.287348</found>
+		<foodbank>
+			<name>Sutton</name>
+			<slug>sutton</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/sutton/</self>
+				<html>https://www.givefood.org.uk/needs/at/sutton/</html>
+			</urls>
+		</foodbank>
+		<needs>Shower Gel
+Deodorants
+Cuppa Soups
+Jam
+Cereal
+Biscuits
+Small Jars Of Coffee
+Tinned Tomato Soup
+Tinned Fruit
+Sugar (500g Bags)
+Tinned Baked Beans
+Tinned Spaghetti Hoops</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/343c8855/</self>
+	</need>
+	<need>
+		<id>d5eb74eb</id>
+		<found>2025-08-01T14:40:40.220629</found>
+		<foodbank>
+			<name>Smethwick</name>
+			<slug>smethwick</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/smethwick/</self>
+				<html>https://www.givefood.org.uk/needs/at/smethwick/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fish
+Tinned Soup
+Microwave Rice
+Cereal
+Baked Beans
+Pasta
+Toiletries
+Juice/Squash
+Coffee
+Tea
+Jam
+Biscuits
+Custard</needs>
+		<excess>Tinned Meat</excess>
+		<self>https://www.givefood.org.uk/api/2/need/d5eb74eb/</self>
+	</need>
+	<need>
+		<id>4d42f825</id>
+		<found>2025-08-01T14:39:15.601865</found>
+		<foodbank>
+			<name>Market Drayton</name>
+			<slug>market-drayton</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/market-drayton/</self>
+				<html>https://www.givefood.org.uk/needs/at/market-drayton/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fruit
+Cartons Of Long Life Fruit Juice
+Jam
+Male/Female Deodorant
+Anti-Bac Spray/Wipes
+Shampoo/Conditioner</needs>
+		<excess>Cereals
+Baked Beans
+Tea
+Rice
+Pasta
+Custard</excess>
+		<self>https://www.givefood.org.uk/api/2/need/4d42f825/</self>
+	</need>
+	<need>
+		<id>ee96ca4a</id>
+		<found>2025-08-01T14:38:15.999514</found>
+		<foodbank>
+			<name>North Belfast</name>
+			<slug>north-belfast</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/north-belfast/</self>
+				<html>https://www.givefood.org.uk/needs/at/north-belfast/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Breakfast Orange Juice
+UHT Milk (1 Litre)
+Rice Pudding &amp; Custard
+Tinned Fish
+Dried Smash Potatoes</needs>
+		<excess>Beans
+Soup
+Sugar
+Tea
+Coffee
+Pasta Sauces
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/ee96ca4a/</self>
+	</need>
+	<need>
+		<id>2c452819</id>
+		<found>2025-08-01T14:33:51.456060</found>
+		<foodbank>
+			<name>Eastbourne</name>
+			<slug>eastbourne</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/eastbourne/</self>
+				<html>https://www.givefood.org.uk/needs/at/eastbourne/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Hot Meat
+Tinned Sweetcorn, Peas And Carrots
+Packet Soup
+Tinned Fruit
+Tinned Sardines/Mackerel
+Tinned Cold Meat
+Coffee
+Toilet Rolls
+UHT Milk
+Shampoo/Shower Gel</needs>
+		<excess>Baked Beans
+Tinned Soup
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/2c452819/</self>
+	</need>
+	<need>
+		<id>adce0405</id>
+		<found>2025-08-01T14:33:17.054671</found>
+		<foodbank>
+			<name>Liskeard &amp; Looe</name>
+			<slug>liskeard-looe</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/liskeard-looe/</self>
+				<html>https://www.givefood.org.uk/needs/at/liskeard-looe/</html>
+			</urls>
+		</foodbank>
+		<needs>Pasta
+Pasta Sauce
+Tinned Ham
+Tins Of Stewing Steak Or Minced Beef
+Crisp Multipacks
+Biscuits</needs>
+		<excess>Butter Beans
+Kidney Beans
+Cannelloni Beans
+Chickpeas
+Baked Beans
+Tena Style Pads
+Bars Of Soap</excess>
+		<self>https://www.givefood.org.uk/api/2/need/adce0405/</self>
+	</need>
+	<need>
+		<id>e0310121</id>
+		<found>2025-08-01T14:32:41.721534</found>
+		<foodbank>
+			<name>Newcastle (Staffs)</name>
+			<slug>newcastle-staffs</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/newcastle-staffs/</self>
+				<html>https://www.givefood.org.uk/needs/at/newcastle-staffs/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fruit
+Pasta Sauce
+Tinned Ham/Pork/Corned Beef
+Potatoes - Tinned &amp; Mash
+Teabags
+Biscuits
+Chocolate
+Toiletries</needs>
+		<excess>Beans</excess>
+		<self>https://www.givefood.org.uk/api/2/need/e0310121/</self>
+	</need>
+	<need>
+		<id>a8b89968</id>
+		<found>2025-08-01T14:17:37.770187</found>
+		<foodbank>
+			<name>Aylesbury</name>
+			<slug>aylesbury</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/aylesbury/</self>
+				<html>https://www.givefood.org.uk/needs/at/aylesbury/</html>
+			</urls>
+		</foodbank>
+		<needs>Rice Pudding
+Jam
+Tinned Tomatoes</needs>
+		<excess>Instant Mash
+Baby Nappies
+Sanitary Products</excess>
+		<self>https://www.givefood.org.uk/api/2/need/a8b89968/</self>
+	</need>
+	<need>
+		<id>2cc1c6d5</id>
+		<found>2025-08-01T13:02:28.164958</found>
+		<foodbank>
+			<name>Edinburgh Food Project</name>
+			<slug>edinburgh-food-project</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/edinburgh-food-project/</self>
+				<html>https://www.givefood.org.uk/needs/at/edinburgh-food-project/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Cold Meat
+Pasta Sauce / Curry Sauce
+Long Life Fruit Juice
+UHT Milk
+Tinned Fruit / Vegetables
+Tinned Fish
+Tinned Custard / Rice Pudding
+Quick Meals
+Tinned Hot Meals
+Tinned Tomatoes
+Tinned Spaghetti In Sauce
+Baked Beans
+Rice
+Pasta
+Soup
+Cereal
+Jam
+Pulses
+Biscuits
+Sweets / Chocolate / Crisps
+Sugar
+Household Cleaning Products
+Deodorant
+Toilet Paper</needs>
+		<excess>Coffee / Tea
+Shower Gel
+Razors / Shaving Foam
+Bottled Water</excess>
+		<self>https://www.givefood.org.uk/api/2/need/2cc1c6d5/</self>
+	</need>
+	<need>
+		<id>f25466e7</id>
+		<found>2025-08-01T12:15:46.946396</found>
+		<foodbank>
+			<name>Cardiff</name>
+			<slug>cardiff</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/cardiff/</self>
+				<html>https://www.givefood.org.uk/needs/at/cardiff/</html>
+			</urls>
+		</foodbank>
+		<needs>Cooking Sauce In Jars
+Jam
+Long-Life Juice
+Nappies - Size 5
+Nappies - Size 6
+Snacks (E.G. Crisps, Cereal Bars, Etc)
+Sponge Puddings
+Tinned Custard
+Tinned Fish
+Tomato Sauce
+Washing Up Liquid
+Women's Deodorant</needs>
+		<excess>Nappies - Size 0
+Nappies - Size 1
+Nappies - Size 2
+Nappies - Size 3
+Pasta</excess>
+		<self>https://www.givefood.org.uk/api/2/need/f25466e7/</self>
+	</need>
+	<need>
+		<id>9987a0cf</id>
+		<found>2025-08-01T10:29:54.851012</found>
+		<foodbank>
+			<name>Black Country</name>
+			<slug>black-country</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/black-country/</self>
+				<html>https://www.givefood.org.uk/needs/at/black-country/</html>
+			</urls>
+		</foodbank>
+		<needs>Long Life Milk
+Bags Of Rice
+Tinned Vegetables
+Packets Of Savoury Rice
+Tinned Tomatoes
+Tinned Fish
+Small Jars Of Coffee
+Jars Of Pasta Sauce/cooking Sauce
+1ltr Cartons Of Long Life Fruit Juice
+Toilet Roll
+Bars Of Soap
+Roll On Deodorant
+Shower Gel</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/9987a0cf/</self>
+	</need>
+	<need>
+		<id>4bab25be</id>
+		<found>2025-08-01T04:24:11.623701</found>
+		<foodbank>
+			<name>Crawley</name>
+			<slug>crawley</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/crawley/</self>
+				<html>https://www.givefood.org.uk/needs/at/crawley/</html>
+			</urls>
+		</foodbank>
+		<needs>Cereal
+Coffee
+Teabags
+Tinned Soup
+Toilet Rolls
+Sleeping Bags</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/4bab25be/</self>
+	</need>
+	<need>
+		<id>610e8c86</id>
+		<found>2025-08-01T04:21:28.648013</found>
+		<foodbank>
+			<name>Taff-Ely</name>
+			<slug>taff-ely</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/taff-ely/</self>
+				<html>https://www.givefood.org.uk/needs/at/taff-ely/</html>
+			</urls>
+		</foodbank>
+		<needs>Jam
+Tinned Tomatoes
+Sweets And Chocolate
+Crisps
+Hot Chocolate</needs>
+		<excess>Tinned Beans
+Pasta
+Cereal
+Tinned Peas</excess>
+		<self>https://www.givefood.org.uk/api/2/need/610e8c86/</self>
+	</need>
+	<need>
+		<id>d4dfd3e0</id>
+		<found>2025-08-01T00:15:57.104058</found>
+		<foodbank>
+			<name>North Norfolk</name>
+			<slug>north-norfolk</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/north-norfolk/</self>
+				<html>https://www.givefood.org.uk/needs/at/north-norfolk/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat
+Tinned Veg
+Tinned Tomatoes
+Cuppa Soup
+Instant Hot Snacks / Mug Shots
+UHT Long-Life Milk
+Tinned Fruit
+Biscuits
+Deodorants
+Coffee
+Sugar
+Chocolate And Confectionery
+Crisps
+Nappies - Size 6 &amp; 7
+Baby Wipes
+Washing Up Liquid
+Non-Bio Laundry Detergent</needs>
+		<excess>Baked Beans
+Pasta
+Tinned Fish
+Corned Beef</excess>
+		<self>https://www.givefood.org.uk/api/2/need/d4dfd3e0/</self>
+	</need>
+	<need>
+		<id>1b74772c</id>
+		<found>2025-07-31T12:19:24.631457</found>
+		<foodbank>
+			<name>Stroud District</name>
+			<slug>stroud-district</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/stroud-district/</self>
+				<html>https://www.givefood.org.uk/needs/at/stroud-district/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Ham &amp; Corned Beef
+Fruit Squash
+Coffee
+Shampoo &amp; Conditioner
+Laundry Liquid</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/1b74772c/</self>
+	</need>
+	<need>
+		<id>48eba4ab</id>
+		<found>2025-07-31T08:25:16.134563</found>
+		<foodbank>
+			<name>Wandsworth</name>
+			<slug>wandsworth</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/wandsworth/</self>
+				<html>https://www.givefood.org.uk/needs/at/wandsworth/</html>
+			</urls>
+		</foodbank>
+		<needs>Breakfast Cereals
+Cooking Oil (500ml Please)
+UHT Non-Dairy Milk (All Types Except Oat)
+Tin Openers
+Instant Soup (Packet, Just Add Hot Water)
+Instant Coffee
+Long-Life Fruit Juice
+Tea (80/160 Bags Please)
+Tinned Corned Beef
+Tinned Vegetarian Meals
+Tinned Sweetcorn
+Tinned Lentils
+Noodles
+Savoury Biscuits/Crackers
+Tinned Potatoes (Small Tins)
+Instant Mashed Potato (Packets)
+Fruit Squash/Cordial
+Crisps (Multipack Please)
+Chocolate Bars
+Nappies Size 5
+Nappies Size 7
+Children's Toothpaste
+Deodorant</needs>
+		<excess>Nappies Size 1-3</excess>
+		<self>https://www.givefood.org.uk/api/2/need/48eba4ab/</self>
+	</need>
+	<need>
+		<id>53eb13db</id>
+		<found>2025-07-31T08:24:12.313250</found>
+		<foodbank>
+			<name>Arden</name>
+			<slug>arden</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/arden/</self>
+				<html>https://www.givefood.org.uk/needs/at/arden/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Cold Meat
+Tinned Tomatoes
+Tinned Potatoes
+Tinned Vegetables
+Tinned Fruit
+Shampoo
+Deodorant
+Laundry Powder</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/53eb13db/</self>
+	</need>
+	<need>
+		<id>118ba2d0</id>
+		<found>2025-07-31T08:23:04.929680</found>
+		<foodbank>
+			<name>Ammanford</name>
+			<slug>ammanford</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/ammanford/</self>
+				<html>https://www.givefood.org.uk/needs/at/ammanford/</html>
+			</urls>
+		</foodbank>
+		<needs>Porridge Oats
+Instant Coffee
+Tinned Fish
+Tinned Meats
+Tinned Soup
+Toilet Rolls
+Toothpaste
+Shower Gel
+Bars Of Soap
+Deodorants</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/118ba2d0/</self>
+	</need>
+	<need>
+		<id>05831885</id>
+		<found>2025-07-31T08:21:59.652398</found>
+		<foodbank>
+			<name>East Yorkshire</name>
+			<slug>east-yorkshire</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/east-yorkshire/</self>
+				<html>https://www.givefood.org.uk/needs/at/east-yorkshire/</html>
+			</urls>
+		</foodbank>
+		<needs>Baked Beans
+Soup
+Pasta
+Jam
+Coffee/Tea</needs>
+		<excess>Tinned Tomatoes
+Meat</excess>
+		<self>https://www.givefood.org.uk/api/2/need/05831885/</self>
+	</need>
+	<need>
+		<id>3162229f</id>
+		<found>2025-07-31T08:17:41.650158</found>
+		<foodbank>
+			<name>Chichester District</name>
+			<slug>chichester-district</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/chichester-district/</self>
+				<html>https://www.givefood.org.uk/needs/at/chichester-district/</html>
+			</urls>
+		</foodbank>
+		<needs>Tea, Coffee And Hot Chocolate
+Ready Made Pasta Sauces, Curry Or Chinese Sauces
+Tinned Meat Or Vegetarian Meals
+Biscuits And Treats
+Laundry Detergent
+Jam, Honey Spreads Etc
+Oil, Flour And Sugar
+Ketchup, Mayonnaise And Condiments
+Deodorant, Shampoo And Conditioner
+Tinned Fish
+Nappies
+Sanitary Products
+Pet Food</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/3162229f/</self>
+	</need>
+	<need>
+		<id>2b1a78c1</id>
+		<found>2025-07-31T08:17:24.778095</found>
+		<foodbank>
+			<name>Fareham</name>
+			<slug>fareham</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/fareham/</self>
+				<html>https://www.givefood.org.uk/needs/at/fareham/</html>
+			</urls>
+		</foodbank>
+		<needs>Blackcurrant Squash
+Men's Roll-On Deodorant
+Mayonnaise Bottles
+Fruit Tea
+Cubed Jelly</needs>
+		<excess>Cardboard Egg Boxes</excess>
+		<self>https://www.givefood.org.uk/api/2/need/2b1a78c1/</self>
+	</need>
+	<need>
+		<id>76f09dc2</id>
+		<found>2025-07-31T08:16:18.736954</found>
+		<foodbank>
+			<name>Helston &amp; The Lizard</name>
+			<slug>helston-the-lizard</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/helston-the-lizard/</self>
+				<html>https://www.givefood.org.uk/needs/at/helston-the-lizard/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Cold Meats - Ham Etc
+Tins Of Veg - Potatoes Or Peas Or Carrots
+Tinned Tomatoes Or Pasta Sauces
+Soup - Tins Or Packets
+Tinned Fruit
+Tins Of Custard Or Rice Pudding
+Powdered Milk
+Cartons Of Long Life Fruit Juice
+Small Boxes Of Tea Bags
+Small Jars Of Coffee</needs>
+		<excess>Pasta
+Baked Beans</excess>
+		<self>https://www.givefood.org.uk/api/2/need/76f09dc2/</self>
+	</need>
+	<need>
+		<id>2442914e</id>
+		<found>2025-07-31T08:16:10.432053</found>
+		<foodbank>
+			<name>Braintree Area</name>
+			<slug>braintree-area</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/braintree-area/</self>
+				<html>https://www.givefood.org.uk/needs/at/braintree-area/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fruit
+Instant Snacks (Pot Noodles Etc.)
+Tinned Fish
+Pasta Sauce
+Microwave Rice
+UHT Milk
+Cereal (Small Boxes)
+Shampoo (Male And Female)
+Toothbrushes
+Conditioner (Male And Female)</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/2442914e/</self>
+	</need>
+	<need>
+		<id>05b378f4</id>
+		<found>2025-07-31T04:22:59.548371</found>
+		<foodbank>
+			<name>Tewkesbury</name>
+			<slug>tewkesbury</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/tewkesbury/</self>
+				<html>https://www.givefood.org.uk/needs/at/tewkesbury/</html>
+			</urls>
+		</foodbank>
+		<needs>Biscuits
+Jam
+Rice Pudding
+Squash
+Table Sauces Red &amp; Brown
+Tinned Cooking Meat</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/05b378f4/</self>
+	</need>
+	<need>
+		<id>edebdb1a</id>
+		<found>2025-07-31T04:18:38.980031</found>
+		<foodbank>
+			<name>Launceston</name>
+			<slug>launceston</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/launceston/</self>
+				<html>https://www.givefood.org.uk/needs/at/launceston/</html>
+			</urls>
+		</foodbank>
+		<needs>Squash / Fruit Juice
+Tinned Potatoes
+Tinned Tomatoes
+Sugar
+Jelly Pots
+Shampoo, Conditioner
+Ladies &amp; Men Deodorants</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/edebdb1a/</self>
+	</need>
+	<need>
+		<id>c5dc433e</id>
+		<found>2025-07-31T00:16:50.912346</found>
+		<foodbank>
+			<name>West Berks</name>
+			<slug>west-berks</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/west-berks/</self>
+				<html>https://www.givefood.org.uk/needs/at/west-berks/</html>
+			</urls>
+		</foodbank>
+		<needs>Male Razors
+Tinned Tomatoes
+Custard/Rice Pudding
+Shaving Foam
+Tinned Meat Meals
+Biscuits
+Fish
+Tinned Fruit</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/c5dc433e/</self>
+	</need>
+	<need>
+		<id>8c20c797</id>
+		<found>2025-07-30T20:19:38.218618</found>
+		<foodbank>
+			<name>Basingstoke</name>
+			<slug>basingstoke</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/basingstoke/</self>
+				<html>https://www.givefood.org.uk/needs/at/basingstoke/</html>
+			</urls>
+		</foodbank>
+		<needs>UHT Fruit Juice
+UHT Milk
+Hot And Cold Desserts (Eg Jelly, Sponge Pudding, Angel Delight)
+Tinned Spaghetti
+Tinned Meat (Eg Chilli, Stewing Steak, Ham)
+Savoury Spreads (Eg Marmite, Peanut Butter)
+Nappies (Size 6 And Above)
+Shopping Bags
+Tinned Soup
+Tinned Tomatoes
+Sweet Treats
+Savoury Snacks
+Coffee
+Squash
+Powdered Milk
+Cup A Soup
+Toothbrushes
+Hair Conditioner
+Tampons
+Household Cleaning (Eg Cleaning Spray, Washing Up Liquid)</needs>
+		<excess>Pasta
+Rice
+Baked Beans
+Pulses
+Hot And Cold Cereal
+Non-Dairy Milk
+Sanitary Pads
+Baby Food, Formula And Nappies Size 5 And Below
+Hand Soap</excess>
+		<self>https://www.givefood.org.uk/api/2/need/8c20c797/</self>
+	</need>
+	<need>
+		<id>5a05c932</id>
+		<found>2025-07-30T20:17:12.114733</found>
+		<foodbank>
+			<name>Wadebridge</name>
+			<slug>wadebridge</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/wadebridge/</self>
+				<html>https://www.givefood.org.uk/needs/at/wadebridge/</html>
+			</urls>
+		</foodbank>
+		<needs>Kitchen/Bathroom Spray
+Spaghetti
+Rice
+Shampoo
+Tinned Custard</needs>
+		<excess>Beans
+Sanitary Items
+Cereal</excess>
+		<self>https://www.givefood.org.uk/api/2/need/5a05c932/</self>
+	</need>
+	<need>
+		<id>3e8650a1</id>
+		<found>2025-07-30T16:17:09.908436</found>
+		<foodbank>
+			<name>Towcester</name>
+			<slug>towcester</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/towcester/</self>
+				<html>https://www.givefood.org.uk/needs/at/towcester/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Meat (Curry, Pies, Stew, Chilli, Ham, Sausages Etc)
+Carrier Bags / Bags For Life
+Feminine Hygiene
+Tinned Fruit
+Tinned Vegetables
+Savoury Biscuits
+Tea Bags
+Instant Coffee</needs>
+		<excess>Tinned Tomatoes
+Cereal</excess>
+		<self>https://www.givefood.org.uk/api/2/need/3e8650a1/</self>
+	</need>
+	<need>
+		<id>865b34ba</id>
+		<found>2025-07-30T04:15:56.001047</found>
+		<foodbank>
+			<name>Smethwick</name>
+			<slug>smethwick</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/smethwick/</self>
+				<html>https://www.givefood.org.uk/needs/at/smethwick/</html>
+			</urls>
+		</foodbank>
+		<needs>Pasta
+Toiletries
+Juice/Squash
+Coffee
+Tea
+Tinned Fish
+Jam
+Biscuits
+Custard</needs>
+		<excess>Tinned Meat</excess>
+		<self>https://www.givefood.org.uk/api/2/need/865b34ba/</self>
+	</need>
+	<need>
+		<id>65479dc5</id>
+		<found>2025-07-30T00:35:12.717579</found>
+		<foodbank>
+			<name>Cheltenham</name>
+			<slug>cheltenham</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/cheltenham/</self>
+				<html>https://www.givefood.org.uk/needs/at/cheltenham/</html>
+			</urls>
+		</foodbank>
+		<needs>Cuppa Soups Or Tinned Soups
+UHT Milk
+Deodorant - Ladies And Men's
+Fruit Juice / Squash
+Tinned Cold Meat
+Biscuits/ Snacks</needs>
+		<excess>Nappies In Most Sizes
+Sanitary Products
+Baby Food
+Pulses
+Teabags
+Tinned Veg</excess>
+		<self>https://www.givefood.org.uk/api/2/need/65479dc5/</self>
+	</need>
+	<need>
+		<id>f4545a5e</id>
+		<found>2025-07-30T00:32:32.105868</found>
+		<foodbank>
+			<name>North Bristol &amp; South Gloucestershire</name>
+			<slug>north-bristol-south-gloucestershire</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/north-bristol-south-gloucestershire/</self>
+				<html>https://www.givefood.org.uk/needs/at/north-bristol-south-gloucestershire/</html>
+			</urls>
+		</foodbank>
+		<needs>Instant/ Pot Noodles
+Tinned Potatoes
+Tinned Halal Meat
+Custard
+Washing Up Liquid
+Dog Food
+Sweet Treats
+Tinned Vegetables</needs>
+		<excess>Beans &amp; Spaghetti
+Soup
+Pasta
+Nappies S5
+Tea
+Coffee
+Cleaning Supplies</excess>
+		<self>https://www.givefood.org.uk/api/2/need/f4545a5e/</self>
+	</need>
+	<need>
+		<id>333a41e5</id>
+		<found>2025-07-30T00:32:06.349422</found>
+		<foodbank>
+			<name>West Cheshire</name>
+			<slug>west-cheshire</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/west-cheshire/</self>
+				<html>https://www.givefood.org.uk/needs/at/west-cheshire/</html>
+			</urls>
+		</foodbank>
+		<needs>UHT Milk
+Long Life Juice
+Curry Sauce
+Tinned Spaghetti
+Chocolate
+Tinned Meat / Fish
+Tinned Potatoes / Veg
+Tinned Tomatoes
+Instant Coffee
+Cuppa Soups
+Instant Noodles
+UHT Fruit Juice
+Instant Pasta (Pasta And Sauce)
+Pasta In Sauce
+Tinned Custard
+Tinned Fruit
+Biscuits And Small Treats
+Jams And Spreads
+Coffee
+Toiletries</needs>
+		<excess>Pasta
+Baked Beans
+Tinned Soups</excess>
+		<self>https://www.givefood.org.uk/api/2/need/333a41e5/</self>
+	</need>
+	<need>
+		<id>13d9bfc2</id>
+		<found>2025-07-30T00:32:00.066285</found>
+		<foodbank>
+			<name>Market Drayton</name>
+			<slug>market-drayton</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/market-drayton/</self>
+				<html>https://www.givefood.org.uk/needs/at/market-drayton/</html>
+			</urls>
+		</foodbank>
+		<needs>Tinned Fruit
+Cartons Of Long Life Fruit Juice
+Jam
+Male Deodorant
+Anti-Bac Spray/Wipes</needs>
+		<excess>Cereals
+Baked Beans
+Tea
+Rice
+Pasta
+Custard</excess>
+		<self>https://www.givefood.org.uk/api/2/need/13d9bfc2/</self>
+	</need>
+	<need>
+		<id>83b7693c</id>
+		<found>2025-07-30T00:31:40.737266</found>
+		<foodbank>
+			<name>Anglesey</name>
+			<slug>anglesey</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/anglesey/</self>
+				<html>https://www.givefood.org.uk/needs/at/anglesey/</html>
+			</urls>
+		</foodbank>
+		<needs>Tea / Coffee
+Hot And Cold Tinned Meat
+Hot Dogs/Beans &amp; Sausage
+Toiletries
+Cream Crackers / Savoury Crackers
+Cat And Dog Food</needs>
+		<excess>Household Cleaning Items</excess>
+		<self>https://www.givefood.org.uk/api/2/need/83b7693c/</self>
+	</need>
+	<need>
+		<id>40e32c20</id>
+		<found>2025-07-30T00:24:15.523434</found>
+		<foodbank>
+			<name>Storehouse North Down</name>
+			<slug>storehouse-north-down</slug>
+			<urls>
+				<self>https://www.givefood.org.uk/api/2/foodbank/storehouse-north-down/</self>
+				<html>https://www.givefood.org.uk/needs/at/storehouse-north-down/</html>
+			</urls>
+		</foodbank>
+		<needs>Baby Food
+Jam
+Household Cleaning Products
+Tinned Sweetcorn
+Tinned Snacks - Ravioli, Meatballs, Sausage &amp; Beans
+Tinned Meals To Serve With Potatoes - Chunky Chicken, Mince &amp; Onion, Stewed Steak
+Meals Eg Curry &amp; Chilli
+Long Grain Rice
+Tinned Ham
+Fray Bentos Pies
+Tinned Custard
+Long Life Milk
+Cooking Oil
+Breakfast Juice
+Diluted Juice
+Bolognese Sauce
+Pasta Sauces
+Tomatoes
+Tuna
+Tinned Meals
+Rice
+Fruit
+Baked Beans
+Vegetables
+Spaghetti
+Soup
+Pasta Large/Small
+Cereal - Small Variety Or Large Box
+Biscuits
+Salt, Pepper
+Cuppa Soup
+Tea
+Coffee
+Jelly
+Washing Up Liquid</needs>
+		<excess/>
+		<self>https://www.givefood.org.uk/api/2/need/40e32c20/</self>
+	</need>
+</needs>
