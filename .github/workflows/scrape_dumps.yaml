@@ -13,12 +13,21 @@ jobs:
     steps:
     - name: Check out this repo
       uses: actions/checkout@v2
-    - name: Fetch food bank dump
+    - name: Fetch donationpoints dumps
       run: |-
-        curl https://dumps.givefood.org.uk/givefood_foodbanks.csv > foodbanks_dump.csv
-    - name: Fetch latest item dump
+        curl -f https://www.givefood.org.uk/dumps/donationpoints/csv/latest/ > dumps/donationpoints.csv
+        curl -f https://www.givefood.org.uk/dumps/donationpoints/json/latest/ > dumps/donationpoints.json
+        curl -f https://www.givefood.org.uk/dumps/donationpoints/xml/latest/ > dumps/donationpoints.xml
+    - name: Fetch foodbanks dumps
       run: |-
-        curl https://dumps.givefood.org.uk/givefood_items.csv > items_dump.csv
+        curl -f https://www.givefood.org.uk/dumps/foodbanks/csv/latest/ > dumps/foodbanks.csv
+        curl -f https://www.givefood.org.uk/dumps/foodbanks/json/latest/ > dumps/foodbanks.json
+        curl -f https://www.givefood.org.uk/dumps/foodbanks/xml/latest/ > dumps/foodbanks.xml
+    - name: Fetch items dumps
+      run: |-
+        curl -f https://www.givefood.org.uk/dumps/items/csv/latest/ > dumps/items.csv
+        curl -f https://www.givefood.org.uk/dumps/items/json/latest/ > dumps/items.json
+        curl -f https://www.givefood.org.uk/dumps/items/xml/latest/ > dumps/items.xml
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
