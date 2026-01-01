@@ -23,11 +23,6 @@ jobs:
         curl -f https://www.givefood.org.uk/dumps/foodbanks/csv/latest/ > dumps/foodbanks.csv
         curl -f https://www.givefood.org.uk/dumps/foodbanks/json/latest/ > dumps/foodbanks.json
         curl -f https://www.givefood.org.uk/dumps/foodbanks/xml/latest/ > dumps/foodbanks.xml
-    - name: Fetch items dumps
-      run: |-
-        curl -f https://www.givefood.org.uk/dumps/items/csv/latest/ > dumps/items.csv
-        curl -f https://www.givefood.org.uk/dumps/items/json/latest/ > dumps/items.json
-        curl -f https://www.givefood.org.uk/dumps/items/xml/latest/ > dumps/items.xml
     - name: Commit and push if it changed
       run: |-
         git config user.name "Automated"
