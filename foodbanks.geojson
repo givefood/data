@@ -28,28 +28,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -5.9271229,
-          54.5860493
-        ]
-      },
-      "properties": {
-        "name": "Belfast South",
-        "slug": "belfast-south",
-        "address": "119 University Street\r\nBelfast\r\nBT7 1HP",
-        "country": "Northern Ireland",
-        "url": "https://www.givefood.org.uk/needs/at/belfast-south/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/belfast-south/",
-        "network": "Trussell",
-        "email": "info@southbelfast.foodbank.org.uk",
-        "telephone": "07743332489",
-        "parliamentary_constituency": "Belfast South and Mid Down"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -3.0444643,
           53.8802062
         ]
@@ -3702,28 +3680,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9539721,
-          55.9442926
-        ]
-      },
-      "properties": {
-        "name": "East Lothian",
-        "slug": "east-lothian",
-        "address": "3 Civic Square\r\nTranent\r\nEast Lothian\r\nEH33 1LH",
-        "country": "Scotland",
-        "url": "https://www.givefood.org.uk/needs/at/east-lothian/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/east-lothian/",
-        "network": "Trussell",
-        "email": "info@eastlothian.foodbank.org.uk",
-        "telephone": "07516510617",
-        "parliamentary_constituency": "Lothian East"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           0.5700059,
           50.8869352
         ]
@@ -4494,6 +4450,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -1.2646861,
+          52.3761675
+        ]
+      },
+      "properties": {
+        "name": "Rugby",
+        "slug": "rugby",
+        "address": "c/o Hope4\r\n8 Newbold Road\r\nRugby\r\nCV21 2LJ",
+        "country": "England",
+        "url": "https://www.givefood.org.uk/needs/at/rugby/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/rugby/",
+        "network": "Trussell",
+        "email": "info@rugby.foodbank.org.uk",
+        "telephone": "07557680019",
+        "parliamentary_constituency": "Rugby"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           -3.0213877,
           51.8248175
         ]
@@ -4531,28 +4509,6 @@
         "email": "hello@carlislefoodbank.org.uk",
         "telephone": "07512552449",
         "parliamentary_constituency": "Carlisle"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -3.9231451,
-          50.3881076
-        ]
-      },
-      "properties": {
-        "name": "Ivybridge & District",
-        "slug": "ivybridge-district",
-        "address": "Ivybridge Methodist Church\r\nFore Street\r\nIvybridge\r\nDevon\r\nPL21 9AB",
-        "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/ivybridge-district/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/ivybridge-district/",
-        "network": "Trussell",
-        "email": "info@ivybridge.foodbank.org.uk",
-        "telephone": "07706457336",
-        "parliamentary_constituency": "South West Devon"
       }
     },
     {
@@ -4641,6 +4597,50 @@
         "email": "info@bicester.foodbank.org.uk",
         "telephone": "01869245036",
         "parliamentary_constituency": "Bicester and Woodstock"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.9231451,
+          50.3881076
+        ]
+      },
+      "properties": {
+        "name": "Ivybridge & District",
+        "slug": "ivybridge-district",
+        "address": "Ivybridge Methodist Church\r\nFore Street\r\nIvybridge\r\nDevon\r\nPL21 9AB",
+        "country": "England",
+        "url": "https://www.givefood.org.uk/needs/at/ivybridge-district/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/ivybridge-district/",
+        "network": "Trussell",
+        "email": "info@ivybridge.foodbank.org.uk",
+        "telephone": "07706457336",
+        "parliamentary_constituency": "South West Devon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -5.9271229,
+          54.5860493
+        ]
+      },
+      "properties": {
+        "name": "Belfast South",
+        "slug": "belfast-south",
+        "address": "119 University Street\r\nBelfast\r\nBT7 1HP",
+        "country": "Northern Ireland",
+        "url": "https://www.givefood.org.uk/needs/at/belfast-south/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/belfast-south/",
+        "network": "Trussell",
+        "email": "info@southbelfast.foodbank.org.uk",
+        "telephone": "07743332489",
+        "parliamentary_constituency": "Belfast South and Mid Down"
       }
     },
     {
@@ -5154,6 +5154,28 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
+          -2.9539721,
+          55.9442926
+        ]
+      },
+      "properties": {
+        "name": "East Lothian",
+        "slug": "east-lothian",
+        "address": "3 Civic Square\r\nTranent\r\nEast Lothian\r\nEH33 1LH",
+        "country": "Scotland",
+        "url": "https://www.givefood.org.uk/needs/at/east-lothian/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/east-lothian/",
+        "network": "Trussell",
+        "email": "info@eastlothian.foodbank.org.uk",
+        "telephone": "07516510617",
+        "parliamentary_constituency": "Lothian East"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
           0.1547146,
           51.5289556
         ]
@@ -5345,6 +5367,28 @@
         "email": "info@foodrelief.org.uk",
         "telephone": "07982707166",
         "parliamentary_constituency": "Wimbledon"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -3.3927201,
+          51.9520795
+        ]
+      },
+      "properties": {
+        "name": "Brecon",
+        "slug": "brecon",
+        "address": "St John's Centre\r\nPendre Close\r\nBrecon\r\nLD3 9EA",
+        "country": "Wales",
+        "url": "https://www.givefood.org.uk/needs/at/brecon/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/brecon/",
+        "network": "Trussell",
+        "email": "info@brecon.foodbank.org.uk",
+        "telephone": "01874611723",
+        "parliamentary_constituency": "Brecon, Radnor and Cwm Tawe"
       }
     },
     {
@@ -9092,28 +9136,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -3.3927201,
-          51.9520795
-        ]
-      },
-      "properties": {
-        "name": "Brecon",
-        "slug": "brecon",
-        "address": "St John's Centre\r\nPendre Close\r\nBrecon\r\nLD3 9EA",
-        "country": "Wales",
-        "url": "https://www.givefood.org.uk/needs/at/brecon/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/brecon/",
-        "network": "Trussell",
-        "email": "info@brecon.foodbank.org.uk",
-        "telephone": "01874611723",
-        "parliamentary_constituency": "Brecon, Radnor and Cwm Tawe"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -4.262617,
           55.83479500000001
         ]
@@ -9774,28 +9796,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          0.09336839999999999,
-          51.3718841
-        ]
-      },
-      "properties": {
-        "name": "Bromley Borough",
-        "slug": "bromley-borough",
-        "address": "C/O Orpington Baptist Church\r\nStation Road\r\nOrpington\r\nKent\r\nBR6 0RZ",
-        "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/bromley-borough/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/bromley-borough/",
-        "network": "Trussell",
-        "email": "info@bromleyborough.foodbank.org.uk",
-        "telephone": "08009202324",
-        "parliamentary_constituency": "Orpington"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -1.2478507,
           53.10135649999999
         ]
@@ -9855,6 +9855,28 @@
         "email": "ramsbottompantry@gmail.com",
         "telephone": "07710461761",
         "parliamentary_constituency": "Bury North"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          0.09336839999999999,
+          51.3718841
+        ]
+      },
+      "properties": {
+        "name": "Bromley Borough",
+        "slug": "bromley-borough",
+        "address": "C/O Orpington Baptist Church\r\nStation Road\r\nOrpington\r\nKent\r\nBR6 0RZ",
+        "country": "England",
+        "url": "https://www.givefood.org.uk/needs/at/bromley-borough/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/bromley-borough/",
+        "network": "Trussell",
+        "email": "info@bromleyborough.foodbank.org.uk",
+        "telephone": "08009202324",
+        "parliamentary_constituency": "Orpington"
       }
     },
     {
@@ -11116,28 +11138,6 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          -2.9758076,
-          51.221063
-        ]
-      },
-      "properties": {
-        "name": "Highbridge Area",
-        "slug": "highbridge-area",
-        "address": "Hope Baptist Church\r\nChurch Street\r\nHighbridge\r\nTA9 3HW",
-        "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/highbridge-area/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/highbridge-area/",
-        "network": "Trussell",
-        "email": "info@highbridgearea.foodbank.org.uk",
-        "telephone": "07570707400",
-        "parliamentary_constituency": "Bridgwater"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
           -0.3495884,
           53.7370038
         ]
@@ -11153,6 +11153,28 @@
         "email": "admin@hull.foodbank.org.uk",
         "telephone": "01482224783",
         "parliamentary_constituency": "Kingston upon Hull West and Haltemprice"
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -2.9758076,
+          51.221063
+        ]
+      },
+      "properties": {
+        "name": "Highbridge Area",
+        "slug": "highbridge-area",
+        "address": "Hope Baptist Church\r\nChurch Street\r\nHighbridge\r\nTA9 3HW",
+        "country": "England",
+        "url": "https://www.givefood.org.uk/needs/at/highbridge-area/",
+        "json": "https://www.givefood.org.uk/api/2/foodbank/highbridge-area/",
+        "network": "Trussell",
+        "email": "info@highbridgearea.foodbank.org.uk",
+        "telephone": "07570707400",
+        "parliamentary_constituency": "Bridgwater"
       }
     },
     {
@@ -16543,28 +16565,6 @@
         "email": "cornerstonefoodbankkilkeel@gmail.com",
         "telephone": "07856888701",
         "parliamentary_constituency": "South Down"
-      }
-    },
-    {
-      "type": "Feature",
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          -1.2646861,
-          52.3761675
-        ]
-      },
-      "properties": {
-        "name": "Rugby",
-        "slug": "rugby",
-        "address": "c/o Hope4\r\n8 Newbold Road\r\nRugby\r\nCV21 2LJ",
-        "country": "England",
-        "url": "https://www.givefood.org.uk/needs/at/rugby/",
-        "json": "https://www.givefood.org.uk/api/2/foodbank/rugby/",
-        "network": "Trussell",
-        "email": "info@rugby.foodbank.org.uk",
-        "telephone": "07557680019",
-        "parliamentary_constituency": "Rugby"
       }
     },
     {
