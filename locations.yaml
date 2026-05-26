@@ -12275,33 +12275,6 @@
   slug: shildon
   urls:
     html: https://www.givefood.org.uk/needs/at/county-durham/shildon/
-- address: "Dingwall Free Church\r\nHigh Street\r\nDingwall\r\nIV15 9HA"
-  email: info@dingwall.foodbank.org.uk
-  foodbank:
-    name: Highland
-    network: Trussell
-    slug: highland
-    urls:
-      html: https://www.givefood.org.uk/needs/at/highland/
-      self: https://www.givefood.org.uk/api/2/foodbank/highland/
-  id: 1ecc318d-66ae-4565-a57b-4e234cb2455e
-  lat_lng: 57.59461469999999,-4.4238652
-  name: Dingwall
-  phone: 07782551854
-  politics:
-    district: Highland
-    mp: Ian Blackford
-    mp_parl_id: 4390
-    mp_party: Scottish National
-    parliamentary_constituency: Caithness, Sutherland and Easter Ross
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/caithness-sutherland-and-easter-ross/
-      self: https://www.givefood.org.uk/api/2/constituency/caithness-sutherland-and-easter-ross/
-    ward: Dingwall and Seaforth
-  postcode: IV15 9HA
-  slug: dingwall
-  urls:
-    html: https://www.givefood.org.uk/needs/at/highland/dingwall/
 - address: "Hungate Centre\r\nHungate\r\nPickering\r\nYO18 7DG"
   email: general@ryedalecommunityfoodbank.co.uk
   foodbank:
@@ -19315,9 +19288,8 @@
   slug: st-saviours-church
   urls:
     html: https://www.givefood.org.uk/needs/at/eastbourne/st-saviours-church/
-- address: "Nairn Foodbank Centre\r\nSt. Mary's Church Hall\r\n7 Academy Street\r\n\
-    Nairn\r\nIV12 4RJ"
-  email: foodbank.admin@blythswood.org
+- address: "St. Mary's Church Hall\r\n7 Academy Street\r\nNairn\r\nIV12 4RJ"
+  email: highlandfoodbank@newstarthighland.org
   foodbank:
     name: Highland
     network: Trussell
@@ -19326,9 +19298,9 @@
       html: https://www.givefood.org.uk/needs/at/highland/
       self: https://www.givefood.org.uk/api/2/foodbank/highland/
   id: c3c6ae3b-51f2-433d-88d5-db339f9ca314
-  lat_lng: 57.5839803,-3.874405699999999
+  lat_lng: 57.58404160000001,-3.8744553
   name: Nairn
-  phone: 01349830777
+  phone: '01463717630'
   politics:
     district: Highland
     mp: Drew Hendry
@@ -25613,33 +25585,6 @@
   slug: greencastle-methodist
   urls:
     html: https://www.givefood.org.uk/needs/at/newtownabbey/greencastle-methodist/
-- address: "Capstone Centre\r\n1-3 Obsdale Road\r\nAlness\r\nIV17 0TY"
-  email: info@alnessinvergordon.foodbank.org.uk
-  foodbank:
-    name: Highland
-    network: Trussell
-    slug: highland
-    urls:
-      html: https://www.givefood.org.uk/needs/at/highland/
-      self: https://www.givefood.org.uk/api/2/foodbank/highland/
-  id: a862ad24-531d-477f-b41c-b9c9682d67c4
-  lat_lng: 57.6956319,-4.2497014
-  name: Alness & Invergordon
-  phone: 07884869021
-  politics:
-    district: Highland
-    mp: Jamie Stone
-    mp_parl_id: 4612
-    mp_party: Liberal Democrats
-    parliamentary_constituency: Caithness, Sutherland and Easter Ross
-    urls:
-      html: https://www.givefood.org.uk/needs/in/constituency/caithness-sutherland-and-easter-ross/
-      self: https://www.givefood.org.uk/api/2/constituency/caithness-sutherland-and-easter-ross/
-    ward: Cromarty Firth
-  postcode: IV17 0TY
-  slug: alness-invergordon
-  urls:
-    html: https://www.givefood.org.uk/needs/at/highland/alness-invergordon/
 - address: "Ruthin Town Hall\r\nWynnstay Road\r\nRuthin\r\nLL15 1YN"
   email: info@valeofclwyd.foodbank.org.uk
   foodbank:
@@ -53539,3 +53484,57 @@
   slug: bottesford-parish-rooms
   urls:
     html: https://www.givefood.org.uk/needs/at/leicester-south/bottesford-parish-rooms/
+- address: "Capstone Centre\r\n1-3 Obsdale Road\r\nAlness\r\nIV17 0TY"
+  email: alnessfoodbank@newstarthighland.org
+  foodbank:
+    name: Highland
+    network: Trussell
+    slug: highland
+    urls:
+      html: https://www.givefood.org.uk/needs/at/highland/
+      self: https://www.givefood.org.uk/api/2/foodbank/highland/
+  id: a862ad24-531d-477f-b41c-b9c9682d67c4
+  lat_lng: 57.6956319,-4.2497014
+  name: Alness & Invergordon
+  phone: '01463717630'
+  politics:
+    district: Highland
+    mp: Jamie Stone
+    mp_parl_id: 4612
+    mp_party: Liberal Democrats
+    parliamentary_constituency: Caithness, Sutherland and Easter Ross
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/caithness-sutherland-and-easter-ross/
+      self: https://www.givefood.org.uk/api/2/constituency/caithness-sutherland-and-easter-ross/
+    ward: Cromarty Firth
+  postcode: IV17 0TY
+  slug: alness-invergordon
+  urls:
+    html: https://www.givefood.org.uk/needs/at/highland/alness-invergordon/
+- address: "Dingwall Free Church\r\nHigh Street\r\nDingwall\r\nIV15 9HA"
+  email: dingwallfoodbank@newstarthighland.org
+  foodbank:
+    name: Highland
+    network: Trussell
+    slug: highland
+    urls:
+      html: https://www.givefood.org.uk/needs/at/highland/
+      self: https://www.givefood.org.uk/api/2/foodbank/highland/
+  id: 1ecc318d-66ae-4565-a57b-4e234cb2455e
+  lat_lng: 57.59461469999999,-4.4238652
+  name: Dingwall
+  phone: 07884869020
+  politics:
+    district: Highland
+    mp: Ian Blackford
+    mp_parl_id: 4390
+    mp_party: Scottish National
+    parliamentary_constituency: Caithness, Sutherland and Easter Ross
+    urls:
+      html: https://www.givefood.org.uk/needs/in/constituency/caithness-sutherland-and-easter-ross/
+      self: https://www.givefood.org.uk/api/2/constituency/caithness-sutherland-and-easter-ross/
+    ward: Dingwall and Seaforth
+  postcode: IV15 9HA
+  slug: dingwall
+  urls:
+    html: https://www.givefood.org.uk/needs/at/highland/dingwall/
