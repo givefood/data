@@ -1,6 +1,46 @@
 <?xml version='1.0'?>
 <foodbanks>
     <foodbank>
+        <id>63e15f67-eed7-4fb8-a3c3-af4c9315a3ce</id>
+        <name>Black Country Foodbank</name>
+        <alt_name/>
+        <slug>black-country</slug>
+        <phone>01384671250</phone>
+        <secondary_phone/>
+        <email>admin@blackcountryfoodbank.org.uk</email>
+        <address>Albion Street
+Brierley Hill
+DY5 3EE</address>
+        <postcode>DY5 3EE</postcode>
+        <closed>false</closed>
+        <country>England</country>
+        <lat_lng>52.482506,-2.1224264</lat_lng>
+        <network>IFAN</network>
+        <created>2019-07-27T15:19:14.622117</created>
+        <urls>
+            <self>https://www.givefood.org.uk/api/2/foodbank/black-country/</self>
+            <html>https://www.givefood.org.uk/needs/at/black-country/</html>
+            <homepage>https://blackcountryfoodbank.org.uk/</homepage>
+            <shopping_list>https://blackcountryfoodbank.org.uk/support/shortages/</shopping_list>
+        </urls>
+        <charity>
+            <registration_id>1136676</registration_id>
+            <register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1136676&amp;subid=0</register_url>
+        </charity>
+        <politics>
+            <parliamentary_constituency>Stourbridge</parliamentary_constituency>
+            <mp>Mike Wood</mp>
+            <mp_party>Conservative</mp_party>
+            <mp_parl_id>4384</mp_parl_id>
+            <ward>Brierley Hill &amp; Wordsley South</ward>
+            <district>Dudley</district>
+            <urls>
+                <self>https://www.givefood.org.uk/api/2/constituency/stourbridge/</self>
+                <html>https://www.givefood.org.uk/needs/in/constituency/stourbridge/</html>
+            </urls>
+        </politics>
+    </foodbank>
+    <foodbank>
         <id>5b61060d-a2b1-4a90-a130-ff63bd2c906d</id>
         <name>Strand Centre Foodbank</name>
         <alt_name/>
@@ -695,46 +735,6 @@ IV51 9FG</address>
             <urls>
                 <self>https://www.givefood.org.uk/api/2/constituency/inverness-skye-and-west-ross-shire/</self>
                 <html>https://www.givefood.org.uk/needs/in/constituency/inverness-skye-and-west-ross-shire/</html>
-            </urls>
-        </politics>
-    </foodbank>
-    <foodbank>
-        <id>63e15f67-eed7-4fb8-a3c3-af4c9315a3ce</id>
-        <name>Black Country Foodbank</name>
-        <alt_name/>
-        <slug>black-country</slug>
-        <phone>01384671250</phone>
-        <secondary_phone/>
-        <email>admin@blackcountryfoodbank.org.uk</email>
-        <address>Albion Street
-Brierley Hill
-DY5 3EE</address>
-        <postcode>DY5 3EE</postcode>
-        <closed>false</closed>
-        <country>England</country>
-        <lat_lng>52.482506,-2.1224264</lat_lng>
-        <network>IFAN</network>
-        <created>2019-07-27T15:19:14.622117</created>
-        <urls>
-            <self>https://www.givefood.org.uk/api/2/foodbank/black-country/</self>
-            <html>https://www.givefood.org.uk/needs/at/black-country/</html>
-            <homepage>https://blackcountryfoodbank.org.uk/</homepage>
-            <shopping_list>https://blackcountryfoodbank.org.uk/support/shortages/</shopping_list>
-        </urls>
-        <charity>
-            <registration_id>1136676</registration_id>
-            <register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1136676&amp;subid=0</register_url>
-        </charity>
-        <politics>
-            <parliamentary_constituency>Stourbridge</parliamentary_constituency>
-            <mp>Mike Wood</mp>
-            <mp_party>Conservative</mp_party>
-            <mp_parl_id>4384</mp_parl_id>
-            <ward>Brierley Hill &amp; Wordsley South</ward>
-            <district>Dudley</district>
-            <urls>
-                <self>https://www.givefood.org.uk/api/2/constituency/stourbridge/</self>
-                <html>https://www.givefood.org.uk/needs/in/constituency/stourbridge/</html>
             </urls>
         </politics>
     </foodbank>
