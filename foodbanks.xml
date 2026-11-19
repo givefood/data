@@ -1,6 +1,87 @@
 <?xml version='1.0'?>
 <foodbanks>
     <foodbank>
+        <id>c99f41ec-75bc-43f0-8dac-84e99a226cdb</id>
+        <name>Manna Foodbank</name>
+        <alt_name/>
+        <slug>manna</slug>
+        <phone>07711027563</phone>
+        <secondary_phone/>
+        <email>info@mannafoodbank.org.uk</email>
+        <address>PO Box 682
+Staines
+Middlesex
+TW18 9HS</address>
+        <postcode>TW18 9HS</postcode>
+        <closed>false</closed>
+        <country>England</country>
+        <lat_lng>51.4341073,-0.5300805</lat_lng>
+        <network>Independent</network>
+        <created>2022-12-10T12:36:33.428180</created>
+        <urls>
+            <self>https://www.givefood.org.uk/api/2/foodbank/manna/</self>
+            <html>https://www.givefood.org.uk/needs/at/manna/</html>
+            <homepage>https://www.mannafoodbank.co.uk</homepage>
+            <shopping_list>https://www.mannafoodbank.co.uk/latest_shortages</shopping_list>
+        </urls>
+        <charity>
+            <registration_id>1188762</registration_id>
+            <register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1188762&amp;subid=0</register_url>
+        </charity>
+        <politics>
+            <parliamentary_constituency>Runnymede and Weybridge</parliamentary_constituency>
+            <mp>Ben Spencer</mp>
+            <mp_party>Conservative</mp_party>
+            <mp_parl_id>4785</mp_parl_id>
+            <ward>Egham Hythe</ward>
+            <district>Runnymede</district>
+            <urls>
+                <self>https://www.givefood.org.uk/api/2/constituency/runnymede-and-weybridge/</self>
+                <html>https://www.givefood.org.uk/needs/in/constituency/runnymede-and-weybridge/</html>
+            </urls>
+        </politics>
+    </foodbank>
+    <foodbank>
+        <id>692da5c4-93b5-485e-8144-065639b95d4b</id>
+        <name>West End Impact Foodbank</name>
+        <alt_name/>
+        <slug>west-end-impact</slug>
+        <phone>01524888929</phone>
+        <secondary_phone/>
+        <email>info@westendimpact.org.uk</email>
+        <address>4-10 Heysham Road
+Morecambe
+LA3 1DG</address>
+        <postcode>LA3 1DG</postcode>
+        <closed>false</closed>
+        <country>England</country>
+        <lat_lng>54.0644652,-2.8861074</lat_lng>
+        <network>IFAN</network>
+        <created>2020-09-25T11:41:32.890723</created>
+        <urls>
+            <self>https://www.givefood.org.uk/api/2/foodbank/west-end-impact/</self>
+            <html>https://www.givefood.org.uk/needs/at/west-end-impact/</html>
+            <homepage>https://www.westendimpact.org.uk/foodbank</homepage>
+            <shopping_list>https://www.westendimpact.org.uk/foodbank</shopping_list>
+        </urls>
+        <charity>
+            <registration_id>1153736</registration_id>
+            <register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1153736&amp;subid=0</register_url>
+        </charity>
+        <politics>
+            <parliamentary_constituency>Morecambe and Lunesdale</parliamentary_constituency>
+            <mp>David Morris</mp>
+            <mp_party>Conservative</mp_party>
+            <mp_parl_id>4135</mp_parl_id>
+            <ward>Heysham North</ward>
+            <district>Lancaster</district>
+            <urls>
+                <self>https://www.givefood.org.uk/api/2/constituency/morecambe-and-lunesdale/</self>
+                <html>https://www.givefood.org.uk/needs/in/constituency/morecambe-and-lunesdale/</html>
+            </urls>
+        </politics>
+    </foodbank>
+    <foodbank>
         <id>18a3c1f9-d697-4d22-a985-cd1bdb9b0073</id>
         <name>Lambeth &amp; Croydon Foodbank</name>
         <alt_name/>
@@ -42294,87 +42375,6 @@ CV37 6QY</address>
             <urls>
                 <self>https://www.givefood.org.uk/api/2/constituency/stratford-on-avon/</self>
                 <html>https://www.givefood.org.uk/needs/in/constituency/stratford-on-avon/</html>
-            </urls>
-        </politics>
-    </foodbank>
-    <foodbank>
-        <id>c99f41ec-75bc-43f0-8dac-84e99a226cdb</id>
-        <name>Manna Foodbank</name>
-        <alt_name/>
-        <slug>manna</slug>
-        <phone>07711027563</phone>
-        <secondary_phone/>
-        <email>info@mannafoodbank.org.uk</email>
-        <address>PO Box 682
-Staines
-Middlesex
-TW18 9HS</address>
-        <postcode>TW18 9HS</postcode>
-        <closed>false</closed>
-        <country>England</country>
-        <lat_lng>51.4341073,-0.5300805</lat_lng>
-        <network>Independent</network>
-        <created>2022-12-10T12:36:33.428180</created>
-        <urls>
-            <self>https://www.givefood.org.uk/api/2/foodbank/manna/</self>
-            <html>https://www.givefood.org.uk/needs/at/manna/</html>
-            <homepage>https://www.mannafoodbank.co.uk</homepage>
-            <shopping_list>https://www.mannafoodbank.co.uk/latest_shortages</shopping_list>
-        </urls>
-        <charity>
-            <registration_id>1188762</registration_id>
-            <register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1188762&amp;subid=0</register_url>
-        </charity>
-        <politics>
-            <parliamentary_constituency>Runnymede and Weybridge</parliamentary_constituency>
-            <mp>Ben Spencer</mp>
-            <mp_party>Conservative</mp_party>
-            <mp_parl_id>4785</mp_parl_id>
-            <ward>Egham Hythe</ward>
-            <district>Runnymede</district>
-            <urls>
-                <self>https://www.givefood.org.uk/api/2/constituency/runnymede-and-weybridge/</self>
-                <html>https://www.givefood.org.uk/needs/in/constituency/runnymede-and-weybridge/</html>
-            </urls>
-        </politics>
-    </foodbank>
-    <foodbank>
-        <id>692da5c4-93b5-485e-8144-065639b95d4b</id>
-        <name>West End Impact Foodbank</name>
-        <alt_name/>
-        <slug>west-end-impact</slug>
-        <phone>01524888929</phone>
-        <secondary_phone/>
-        <email>info@westendimpact.org.uk</email>
-        <address>4-10 Heysham Road
-Morecambe
-LA3 1DG</address>
-        <postcode>LA3 1DG</postcode>
-        <closed>false</closed>
-        <country>England</country>
-        <lat_lng>54.0644652,-2.8861074</lat_lng>
-        <network>IFAN</network>
-        <created>2020-09-25T11:41:32.890723</created>
-        <urls>
-            <self>https://www.givefood.org.uk/api/2/foodbank/west-end-impact/</self>
-            <html>https://www.givefood.org.uk/needs/at/west-end-impact/</html>
-            <homepage>https://www.westendimpact.org.uk/foodbank</homepage>
-            <shopping_list>https://www.westendimpact.org.uk/foodbank</shopping_list>
-        </urls>
-        <charity>
-            <registration_id>1153736</registration_id>
-            <register_url>https://register-of-charities.charitycommission.gov.uk/charity-details/?regid=1153736&amp;subid=0</register_url>
-        </charity>
-        <politics>
-            <parliamentary_constituency>Morecambe and Lunesdale</parliamentary_constituency>
-            <mp>David Morris</mp>
-            <mp_party>Conservative</mp_party>
-            <mp_parl_id>4135</mp_parl_id>
-            <ward>Heysham North</ward>
-            <district>Lancaster</district>
-            <urls>
-                <self>https://www.givefood.org.uk/api/2/constituency/morecambe-and-lunesdale/</self>
-                <html>https://www.givefood.org.uk/needs/in/constituency/morecambe-and-lunesdale/</html>
             </urls>
         </politics>
     </foodbank>
